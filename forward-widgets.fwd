@@ -1,5 +1,5 @@
 {
-  "title": "两块 Widgets",
+  "title": "2Kuai Widgets",
   "description": "Forward Third-Party Widgets",
   "icon": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/icon.png",
   "widgets": [
@@ -8,14 +8,14 @@
       "title": "热门精选",
       "description": "获取最新热播剧和热门影片推荐",
       "requiredVersion": "0.0.1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "两块",
       "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/HotPicks.js"
     },
     {
       "id": "now_showing",
       "title": "院线电影",
-      "description": "获取正在上映和即将上映的电影",
+      "description": "获取正在热映和即将上映的电影",
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "两块",
