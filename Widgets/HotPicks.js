@@ -31,7 +31,7 @@ var WidgetMetadata = {
             ]
         },
         {
-            title: "豆瓣高分",
+            title: "高分影片",
             description: "豆瓣高分电影推荐",
             requiresWebView: false,
             functionName: "getHighMovies",

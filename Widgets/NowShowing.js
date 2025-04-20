@@ -1,7 +1,7 @@
 var WidgetMetadata = {
     id: "now_showing",
     title: "院线电影",
-    description: "获取正在上映和即将上映的电影",
+    description: "获取正在热映和即将上映的电影",
     author: "两块",
     site: "https://github.com/2kuai/ForwardWidgets",
     version: "1.0.0",
