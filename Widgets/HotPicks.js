@@ -85,9 +85,7 @@ async function getTmdbId(title, options = {}) {
 
         const response = await Widget.tmdb.get(api);
         console.log(response);
-        if (!response?.results?.length) {
-            throw new Error('未找到匹配的TMDB数据');
-        }
+        if (!response?.results?.length) throw new Error('TMDB数据有误');
 
         // 使用清洗后的标题进行匹配
         const results = response.results;
@@ -123,7 +121,6 @@ function findBestMatch(title, results) {
 
 async function getTVRanking(params = {}) {
     try {
-        // 请求猫眼数据
         const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?seriesType=&platformType=${params.platform}&showDate=2&dateType=0&rankType=0` || '', {
             headers: {
                 "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
@@ -140,9 +137,7 @@ async function getTVRanking(params = {}) {
         for (const item of response.data.dataList.list) {
             try {
                 const title = item.seriesInfo?.name;
-                if (!title) {
-                    throw new Error('剧集标题缺失');
-                }
+                if (!title) throw new Error('猫眼剧集标题缺失');
 
                 try {
                     const id = await getTmdbId(title);
@@ -173,19 +168,15 @@ async function getTVRanking(params = {}) {
     }
 }
 
-
-// 处理函数：获取推荐电影
-async function getHotMovies(params = {}) {
+// 通用函数：获取豆瓣推荐影视数据
+async function getDoubanMediaRecommendations(params = {}, mediaType) {
     try {
-        // 确保 region 参数存在
-        if (!params.region) {
-            throw new Error("缺少必要参数：region");
-        }
+        if (!params.region) throw new Error("缺少必要参数：region");
 
-        // 构造请求 URL
-        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/movie?category=%E7%83%AD%E9%97%A8&type=${encodeURIComponent(params.region)}`;
+        const baseUrl = 'https://m.douban.com/rexxar/api/v2/subject/recent_hot/';
+        const category = mediaType === 'movie' ? '%E7%83%AD%E9%97%A8' : 'tv';
+        const url = `${baseUrl}${mediaType}?category=${category}&type=${encodeURIComponent(params.region)}`;
 
-        // 发送 HTTP GET 请求
         const response = await Widget.http.get(url, {
             headers: {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
@@ -193,68 +184,31 @@ async function getHotMovies(params = {}) {
             }
         });
 
-        // 检查响应有效性
         if (!response.data || !response.data.items) {
             throw new Error("无效响应：数据格式不符合预期");
         }
-        console.log("请求结果:", response.data);
+        console.log("请求结果:", response.data.items);
 
-        // 提取电影数据并直接返回数组
-        return response.data.items.map((movie) => ({
-            id: movie.id || "unknown_id",
+        return response.data.items.map((media) => ({
+            id: media.id || "unknown_id",
             type: "douban",
-            title: movie.title || "未知电影",
-            coverUrl: movie.pic?.large || "",
-            rating: movie.rating?.value || "暂无评分",
-            description: movie.card_subtitle || "暂无描述",
-            url: movie.uri || ""
+            title: media.title || `未知${mediaType === 'movie' ? '电影' : '剧集'}`,
+            coverUrl: media.pic?.large || "",
+            description: media.card_subtitle || "暂无描述"
         }));
-        
+
     } catch (error) {
-        console.error("获取推荐电影失败:", error);
-        throw new Error(`获取推荐电影失败: ${error.message}`);
+        console.error(`获取推荐${mediaType === 'movie' ? '电影' : '剧集'}失败:`, error);
+        throw new Error(`获取推荐${mediaType === 'movie' ? '电影' : '剧集'}失败: ${error.message}`);
     }
 }
 
+// 获取推荐电影
+async function getHotMovies(params = {}) {
+    return getDoubanMediaRecommendations(params, 'movie');
+}
 
-// 处理函数：获取推荐剧集
+// 获取推荐剧集
 async function getHotTv(params = {}) {
-    try {
-        // 确保 region 参数存在
-        if (!params.region) {
-            throw new Error("缺少必要参数：region");
-        }
-
-        // 构造请求 URL
-        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/tv?category=tv&type=${encodeURIComponent(params.region)}`;
-
-        // 发送 HTTP GET 请求
-        const response = await Widget.http.get(url, {
-            headers: {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-                "Referer": "https://www.douban.com/"
-            }
-        });
-
-        // 检查响应有效性
-        if (!response.data || !response.data.items) {
-            throw new Error("无效响应：数据格式不符合预期");
-        }
-        console.log("请求结果:", response.data);
-
-        // 提取电影数据并直接返回数组
-        return response.data.items.map((movie) => ({
-            id: movie.id || "unknown_id",
-            type: "douban",
-            title: movie.title || "未知剧集",
-            coverUrl: movie.pic?.large || "",
-            rating: movie.rating?.value || "暂无评分",
-            description: movie.card_subtitle || "暂无描述",
-            url: movie.uri || ""
-        }));
-        
-    } catch (error) {
-        console.error("获取推荐剧集失败:", error);
-        throw new Error(`获取推荐剧集失败: ${error.message}`);
-    }
+    return getDoubanMediaRecommendations(params, 'tv');
 }
