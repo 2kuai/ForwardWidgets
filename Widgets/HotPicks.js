@@ -4,7 +4,7 @@ var WidgetMetadata = {
     description: "获取最新热播剧和热门影片推荐",
     author: "两块",
     site: "https://github.com/2kuai/ForwardWidgets", 
-    version: "1.0.0",
+    version: "1.0.1",
     requiredVersion: "0.0.1",
     modules: [
         {
@@ -30,6 +30,26 @@ var WidgetMetadata = {
                 }
             ]
         },
+        {
+            title: "豆瓣高分",
+            description: "豆瓣高分电影推荐",
+            requiresWebView: false,
+            functionName: "getHighMovies",
+            params: [
+                {
+                    name: "region",
+                    title: "地区筛选",
+                    type: "enumeration",
+                    enumOptions: [
+                        {title: "全部地区",value: "全部"},
+                        {title: "华语电影",value: "华语"},
+                        {title: "欧美电影",value: "欧美"},
+                        {title: "韩国电影",value: "韩国"},
+                        {title: "日本电影",value: "日本"}
+                    ],
+                }
+            ]
+        }, 
         {
             title: "电影推荐",
             description: "豆瓣热门电影推荐",
@@ -169,12 +189,11 @@ async function getTVRanking(params = {}) {
 }
 
 // 通用函数：获取豆瓣推荐影视数据
-async function getDoubanMediaRecommendations(params = {}, mediaType) {
+async function getDoubanMediaRecommendations(params = {}, mediaType, category) {
     try {
         if (!params.region) throw new Error("缺少必要参数：region");
 
         const baseUrl = 'https://m.douban.com/rexxar/api/v2/subject/recent_hot/';
-        const category = mediaType === 'movie' ? '%E7%83%AD%E9%97%A8' : 'tv';
         const url = `${baseUrl}${mediaType}?category=${category}&type=${encodeURIComponent(params.region)}`;
 
         const response = await Widget.http.get(url, {
@@ -198,17 +217,21 @@ async function getDoubanMediaRecommendations(params = {}, mediaType) {
         }));
 
     } catch (error) {
-        console.error(`获取推荐${mediaType === 'movie' ? '电影' : '剧集'}失败:`, error);
         throw new Error(`获取推荐${mediaType === 'movie' ? '电影' : '剧集'}失败: ${error.message}`);
     }
 }
 
+// 获取豆瓣高分电影
+async function getHighMovies(params = {}) {
+    return getDoubanMediaRecommendations(params,'movie', '%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86');
+}
+
 // 获取推荐电影
 async function getHotMovies(params = {}) {
-    return getDoubanMediaRecommendations(params, 'movie');
+    return getDoubanMediaRecommendations(params,'movie', '%E7%83%AD%E9%97%A8');
 }
 
 // 获取推荐剧集
 async function getHotTv(params = {}) {
-    return getDoubanMediaRecommendations(params, 'tv');
+    return getDoubanMediaRecommendations(params, 'tv', 'tv');
 }
