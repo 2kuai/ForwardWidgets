@@ -1,0 +1,16 @@
+{
+  "title": "两块",
+  "description": "Forward Third-Party Widgets",
+  "icon": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/icon.png",
+  "widgets": [
+    {
+      "id": "hot_picks",
+      "title": "热门精选",
+      "description": "",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "两块",
+      "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/HotPicks.js"
+    }
+  ]
+}
