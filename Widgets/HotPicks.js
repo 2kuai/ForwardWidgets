@@ -1,97 +1,157 @@
 var WidgetMetadata = {
-    id: "hot_picks",
-    title: "热门精选",
-    description: "获取最新热播剧和热门影片推荐",
-    author: "两块",
-    site: "https://github.com/2kuai/ForwardWidgets", 
-    version: "1.0.1",
-    requiredVersion: "0.0.1",
-    modules: [
+  id: "hot_picks",
+  title: "热门精选",
+  description: "获取最新热播剧和热门影片推荐",
+  author: "两块",
+  site: "https://github.com/2kuai/ForwardWidgets",
+  version: "1.0.2",
+  requiredVersion: "0.0.1",
+  modules: [
+    {
+      title: "实时榜单",
+      description: "预置平台",
+      functionName: "getTVRanking",
+      requiresWebView: false,
+      params: [
         {
-            title: "实时榜单", // 热播剧
-            description: "预置平台",
-            functionName: "getTVRanking",
-            requiresWebView: false,
-            params: [
-                {   
-                    name: "platform",
-                    title: "数据源",
-                    type: "enumeration",
-                    enumOptions: [
-                        { title: "全网", value: "0" },
-                        { title: "优酷", value: "1" },
-                        { title: "爱奇艺", value: "2" },
-                        { title: "腾讯视频", value: "3" },
-                        { title: "乐视视频", value: "4" },
-                        { title: "搜狐视频", value: "5" },
-                        { title: "PPTV", value: "6" },
-                        { title: "芒果TV", value: "7" }
-                    ]
-                }
-            ]
-        },
-        {
-            title: "高分影片",
-            description: "豆瓣高分电影推荐",
-            requiresWebView: false,
-            functionName: "getHighMovies",
-            params: [
-                {
-                    name: "region",
-                    title: "地区筛选",
-                    type: "enumeration",
-                    enumOptions: [
-                        {title: "全部地区",value: "全部"},
-                        {title: "华语电影",value: "华语"},
-                        {title: "欧美电影",value: "欧美"},
-                        {title: "韩国电影",value: "韩国"},
-                        {title: "日本电影",value: "日本"}
-                    ],
-                }
-            ]
-        }, 
-        {
-            title: "电影推荐",
-            description: "豆瓣热门电影推荐",
-            requiresWebView: false,
-            functionName: "getHotMovies",
-            params: [
-                {
-                    name: "region",
-                    title: "地区筛选",
-                    type: "enumeration",
-                    enumOptions: [
-                        {title: "全部地区",value: "全部"},
-                        {title: "华语电影",value: "华语"},
-                        {title: "欧美电影",value: "欧美"},
-                        {title: "韩国电影",value: "韩国"},
-                        {title: "日本电影",value: "日本"}
-                    ],
-                }
-            ]
-        },
-        {
-            title: "剧集推荐",
-            description: "豆瓣热门剧集推荐",
-            requiresWebView: false,
-            functionName: "getHotTv",
-            params: [
-                {
-                    name: "region",
-                    title: "地区筛选",
-                    type: "enumeration",
-                    enumOptions: [
-                        {title: "全部地区",value: "tv"},
-                        {title: "国产剧",value: "tv_domestic"},
-                        {title: "欧美剧",value: "tv_american"},
-                        {title: "日剧",value: "tv_japanese"},
-                        {title: "韩剧",value: "tv_korean"},
-                        {title: "动画",value: "tv_animation"}
-                    ],
-                }
-            ]
+          name: "platform",
+          title: "数据源",
+          type: "enumeration",
+          enumOptions: [
+            { title: "全网", value: "0" },
+            { title: "优酷", value: "1" },
+            { title: "爱奇艺", value: "2" },
+            { title: "腾讯视频", value: "3" },
+            { title: "乐视视频", value: "4" },
+            { title: "搜狐视频", value: "5" },
+            { title: "PPTV", value: "6" },
+            { title: "芒果TV", value: "7" }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      title: "高分影片",
+      description: "豆瓣高分电影推荐",
+      requiresWebView: false,
+      functionName: "getHighMovies",
+      params: [
+        {
+          name: "region",
+          title: "地区筛选",
+          type: "enumeration",
+          enumOptions: [
+            { title: "全部地区", value: "全部" },
+            { title: "华语电影", value: "华语" },
+            { title: "欧美电影", value: "欧美" },
+            { title: "韩国电影", value: "韩国" },
+            { title: "日本电影", value: "日本" }
+          ]
+        }
+      ]
+    },
+    {
+      title: "电影推荐",
+      description: "豆瓣热门电影推荐",
+      requiresWebView: false,
+      functionName: "getHotMovies",
+      params: [
+        {
+          name: "region",
+          title: "地区筛选",
+          type: "enumeration",
+          enumOptions: [
+            { title: "全部地区", value: "全部" },
+            { title: "华语电影", value: "华语" },
+            { title: "欧美电影", value: "欧美" },
+            { title: "韩国电影", value: "韩国" },
+            { title: "日本电影", value: "日本" }
+          ]
+        }
+      ]
+    },
+    {
+      title: "剧集推荐",
+      description: "豆瓣热门剧集推荐",
+      requiresWebView: false,
+      functionName: "getHotTv",
+      params: [
+        {
+          name: "region",
+          title: "地区筛选",
+          type: "enumeration",
+          enumOptions: [
+            { title: "全部地区", value: "tv" },
+            { title: "国产剧", value: "tv_domestic" },
+            { title: "欧美剧", value: "tv_american" },
+            { title: "日剧", value: "tv_japanese" },
+            { title: "韩剧", value: "tv_korean" },
+            { title: "动画", value: "tv_animation" }
+          ]
+        }
+      ]
+    },
+    {
+      title: "豆瓣年度榜单",
+      description: "获取豆瓣2024年度电影榜单",
+      requiresWebView: false,
+      functionName: "getMovie2024",
+      params: [
+        {
+          name: "id",
+          title: "榜单选择",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣2024评分最高华语电影", value: "478" },
+            { title: "豆瓣2024评分最高外语电影", value: "528" },
+            { title: "年度冷门佳片", value: "529" },
+            { title: "评分最高华语剧集", value: "545" },
+            { title: "评分最高英美新剧", value: "547" },
+            { title: "评分最高英美续订剧", value: "546" },
+            { title: "最值得期待华语电影", value: "559" },
+            { title: "最值得期待外语电影", value: "560" },
+            { title: "最值得期待剧集", value: "561" },
+            { title: "地区&类型电影", value: "563" },
+            { title: "上映周年电影", value: "565" },
+          ]
+        },
+        {
+          name: "sub_id",
+          title: "分类榜单",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣2024评分最高日本电影", value: "16065" },
+            { title: "豆瓣2024评分最高韩国电影", value: "16066" },
+            { title: "豆瓣2024评分最高喜剧片", value: "16067" },
+            { title: "豆瓣2024评分最高爱情片", value: "16068" },
+            { title: "豆瓣2024评分最高恐怖片", value: "16069" },
+            { title: "豆瓣2024评分最高动画片", value: "16070" },
+            { title: "豆瓣2024评分最高纪录片", value: "16071" }
+          ],
+          belongTo: {
+            paramName: "id",
+            value: ["563"]
+          }
+        },
+        {
+          name: "sub_id",
+          title: "分类榜单",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣2024上映10周年电影", value: "16080" },
+            { title: "豆瓣2024上映20周年电影", value: "16081" },
+            { title: "豆瓣2024上映30周年电影", value: "16082" },
+            { title: "豆瓣2024上映40周年电影", value: "16083" },
+            { title: "豆瓣2024上映50周年电影", value: "16084" }
+          ],
+          belongTo: {
+            paramName: "id",
+            value: ["565"]
+          }
+        },
+      ]
+    }
+  ]
 };
 
 async function getTmdbId(title, options = {}) {
@@ -234,4 +294,62 @@ async function getHotMovies(params = {}) {
 // 获取推荐剧集
 async function getHotTv(params = {}) {
     return getDoubanMediaRecommendations(params, 'tv', 'tv');
+}
+
+// 获取年度榜单（先查 id，再判断是否存在副榜单结构）
+async function getMovie2024(options = {}) {
+  const id = options.id;
+  const subId = options.sub_id;
+
+  if (!id) throw new Error("缺少参数 id");
+
+  try {
+    const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
+      }
+    });
+
+    const widgets = response.data.widgets;
+
+    // 根据 id 找到对应 widget
+    const widget = widgets.find(w => String(w.id) === String(id));
+    if (!widget) throw new Error("未找到对应榜单");
+
+    const sourceData = widget.source_data;
+
+    // 如果是副榜单结构并且 sub_id 存在，则查找子榜单
+    if (Array.isArray(sourceData) && subId) {
+      const matched = sourceData.find(group =>
+        String(group.subject_collection?.id) === String(subId)
+      );
+
+      if (matched && matched.subject_collection_items) {
+        return matched.subject_collection_items.map(item => ({
+          id: item.id,
+          type: "douban",
+          title: item.title,
+          coverUrl: item.cover_url
+        }));
+      } else {
+        throw new Error("未找到匹配的子榜单");
+      }
+    }
+
+    // 否则使用普通榜单结构
+    if (!sourceData || !sourceData.subject_collection_items) {
+      throw new Error("榜单数据为空");
+    }
+
+    return sourceData.subject_collection_items.map(item => ({
+      id: item.id,
+      type: "douban",
+      title: item.title,
+      coverUrl: item.cover_url
+    }));
+  } catch (error) {
+    console.error("获取年度榜单失败:", error);
+    throw new Error(`获取年度榜单失败: ${error.message}`);
+  }
 }
