@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.2",
+  version: "1.0.3",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -92,7 +92,7 @@ var WidgetMetadata = {
       ]
     },
     {
-      title: "豆瓣年度榜单",
+      title: "年度榜单",
       description: "获取豆瓣2024年度电影榜单",
       requiresWebView: false,
       functionName: "getMovie2024",
@@ -102,8 +102,8 @@ var WidgetMetadata = {
           title: "榜单选择",
           type: "enumeration",
           enumOptions: [
-            { title: "豆瓣2024评分最高华语电影", value: "478" },
-            { title: "豆瓣2024评分最高外语电影", value: "528" },
+            { title: "评分最高华语电影", value: "478" },
+            { title: "评分最高外语电影", value: "528" },
             { title: "年度冷门佳片", value: "529" },
             { title: "评分最高华语剧集", value: "545" },
             { title: "评分最高英美新剧", value: "547" },
@@ -148,7 +148,25 @@ var WidgetMetadata = {
             paramName: "id",
             value: ["565"]
           }
-        },
+        }
+      ]
+    },
+    {
+      title: "年度人物",
+      description: "获取豆瓣2024年度人物榜单",
+      requiresWebView: false,
+      functionName: "getPreson2024",
+      params: [
+        {
+          name: "id",
+          title: "榜单筛选",
+          type: "enumeration",
+          enumOptions: [
+            { title: "最受关注演员", value: "551" },
+            { title: "最受关注导演", value: "552" },
+            { title: "2024离开我们的人", value: "553" }
+          ]
+        }
       ]
     }
   ]
@@ -296,7 +314,7 @@ async function getHotTv(params = {}) {
     return getDoubanMediaRecommendations(params, 'tv', 'tv');
 }
 
-// 获取年度榜单（先查 id，再判断是否存在副榜单结构）
+// 获取年度榜单
 async function getMovie2024(options = {}) {
   const id = options.id;
   const subId = options.sub_id;
@@ -313,13 +331,11 @@ async function getMovie2024(options = {}) {
 
     const widgets = response.data.widgets;
 
-    // 根据 id 找到对应 widget
     const widget = widgets.find(w => String(w.id) === String(id));
     if (!widget) throw new Error("未找到对应榜单");
 
     const sourceData = widget.source_data;
 
-    // 如果是副榜单结构并且 sub_id 存在，则查找子榜单
     if (Array.isArray(sourceData) && subId) {
       const matched = sourceData.find(group =>
         String(group.subject_collection?.id) === String(subId)
@@ -337,7 +353,6 @@ async function getMovie2024(options = {}) {
       }
     }
 
-    // 否则使用普通榜单结构
     if (!sourceData || !sourceData.subject_collection_items) {
       throw new Error("榜单数据为空");
     }
@@ -349,7 +364,40 @@ async function getMovie2024(options = {}) {
       coverUrl: item.cover_url
     }));
   } catch (error) {
-    console.error("获取年度榜单失败:", error);
     throw new Error(`获取年度榜单失败: ${error.message}`);
+  }
+}
+
+// 获取年度人物
+async function getPreson2024(options = {}) {
+  const id = options.id;
+
+  if (!id) throw new Error("缺少参数 id");
+
+  try {
+    const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
+      }
+    });
+
+    const widgets = response.data.widgets;
+
+    const matched = widgets.find(widget => String(widget.id) === String(id));
+
+    if (!matched || !Array.isArray(matched.source_data)) {
+      throw new Error("未找到对应的年度人物数据");
+    }
+
+    return matched.source_data.map(item => ({
+      id: item.id,
+      type: "douban",
+      title: item.title,
+      description: item.desc,
+      coverUrl: item.cover_url,
+    }));
+  } catch (error) {
+    throw new Error(`获取年度人物失败: ${error.message}`);
   }
 }
