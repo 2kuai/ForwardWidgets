@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.3",
+  version: "1.0.4",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -115,13 +115,13 @@ var WidgetMetadata = {
           title: "分类",
           type: "enumeration",
           enumOptions: [
-            { title: "豆瓣2024评分最高日本电影", value: "16065" },
-            { title: "豆瓣2024评分最高韩国电影", value: "16066" },
-            { title: "豆瓣2024评分最高喜剧片", value: "16067" },
-            { title: "豆瓣2024评分最高爱情片", value: "16068" },
-            { title: "豆瓣2024评分最高恐怖片", value: "16069" },
-            { title: "豆瓣2024评分最高动画片", value: "16070" },
-            { title: "豆瓣2024评分最高纪录片", value: "16071" }
+            { title: "评分最高日本电影", value: "16065" },
+            { title: "评分最高韩国电影", value: "16066" },
+            { title: "评分最高喜剧片", value: "16067" },
+            { title: "评分最高爱情片", value: "16068" },
+            { title: "评分最高恐怖片", value: "16069" },
+            { title: "评分最高动画片", value: "16070" },
+            { title: "评分最高纪录片", value: "16071" }
           ],
           belongTo: {
             paramName: "id",
@@ -133,11 +133,11 @@ var WidgetMetadata = {
           title: "分类",
           type: "enumeration",
           enumOptions: [
-            { title: "豆瓣2024上映10周年电影", value: "16080" },
-            { title: "豆瓣2024上映20周年电影", value: "16081" },
-            { title: "豆瓣2024上映30周年电影", value: "16082" },
-            { title: "豆瓣2024上映40周年电影", value: "16083" },
-            { title: "豆瓣2024上映50周年电影", value: "16084" }
+            { title: "上映10周年电影", value: "16080" },
+            { title: "上映20周年电影", value: "16081" },
+            { title: "上映30周年电影", value: "16082" },
+            { title: "上映40周年电影", value: "16083" },
+            { title: "上映50周年电影", value: "16084" }
           ],
           belongTo: {
             paramName: "id",
@@ -149,7 +149,7 @@ var WidgetMetadata = {
     {
       title: "年度人物",
       requiresWebView: false,
-      functionName: "getPreson2024",
+      functionName: "getPerson2024",
       params: [
         {
           name: "id",
@@ -166,53 +166,79 @@ var WidgetMetadata = {
   ]
 };
 
-async function getTmdbId(title, options = {}) {
-    if (!title?.trim()) throw new Error('剧集标题不能为空');
-
-    try {
-        // 清洗剧集名称
-        const cleanTitle = title.trim().replace(/\s*第[一二三四五六七八九十]+季\s*$/, '');
-        
-        const api = `/search/tv?query=${encodeURIComponent(cleanTitle)}&language=zh-CN`;
-
-        const response = await Widget.tmdb.get(api);
-        console.log(response);
-        if (!response?.results?.length) throw new Error('TMDB数据有误');
-
-        // 使用清洗后的标题进行匹配
-        const results = response.results;
-        const bestMatch = findBestMatch(cleanTitle, results);
-        
-        return String(bestMatch.id);
-    } catch (error) {
-        throw new Error(`TMDB查询失败: ${error.message}`);
-    }
-}
-
 // 匹配逻辑
 function findBestMatch(title, results) {
     const cleanTitle = title.trim().toLowerCase();
-
-    // 1. 精确匹配标题（中文名或原名）
+    
+    // 1. 精确匹配（中文名或原名）
     const exactMatch = results.find(item => 
         item.name?.toLowerCase() === cleanTitle ||
         item.original_name?.toLowerCase() === cleanTitle
     );
-    if (exactMatch) return exactMatch;
+    if (exactMatch) {
+        console.log(`[TMDB查询] 找到精确匹配: ${exactMatch.name}`);
+        return exactMatch;
+    }
 
-    // 2. 模糊匹配（包含关键词）
-    const fuzzyMatch = results.find(item => 
-        item.name?.toLowerCase().includes(cleanTitle) ||
-        item.original_name?.toLowerCase().includes(cleanTitle)
-    );
-    if (fuzzyMatch) return fuzzyMatch;
+    // 2. 选择发布时间最新的
+    const sortedByDate = [...results].sort((a, b) => {
+        const dateA = a.first_air_date ? new Date(a.first_air_date) : new Date(0);
+        const dateB = b.first_air_date ? new Date(b.first_air_date) : new Date(0);
+        return dateB - dateA;
+    });
+    const latestMatch = sortedByDate[0];
+    if (latestMatch) {
+        console.log(`[TMDB查询] 选择最新发布的: ${latestMatch.name} (发布日期: ${latestMatch.first_air_date})`);
+        return latestMatch;
+    }
 
-    // 3. 最终兜底：选择TMDB默认排序的第一个结果
-    return results[0];
+    // 3. 最终兜底：选择第一个结果
+    const firstMatch = results[0];
+    console.log(`[TMDB查询] 选择默认结果: ${firstMatch.name}`);
+    return firstMatch;
+}
+
+async function getTmdbId(title, options = {}) {
+    if (!title?.trim()) {
+        const errorMsg = "剧集标题不能为空";
+        console.error(`[TMDB查询] ${errorMsg}`);
+        throw new Error(errorMsg);
+    }
+
+    try {
+        const cleanTitle = title.trim().replace(/\s*第[一二三四五六七八九十]+季\s*$/, '');
+        console.log(`[TMDB查询] 正在查询: ${cleanTitle}`);
+        
+        const api = `/search/tv?query=${encodeURIComponent(cleanTitle)}&language=zh-CN`;
+        const response = await Widget.tmdb.get(api);
+        
+        if (!response?.results?.length) {
+            const errorMsg = "未找到匹配的剧集";
+            console.error(`[TMDB查询] ${errorMsg}`);
+            throw new Error(errorMsg);
+        }
+
+        const results = response.results;
+        const bestMatch = findBestMatch(cleanTitle, results);
+        
+        if (!bestMatch) {
+            const errorMsg = "未找到匹配的剧集";
+            console.error(`[TMDB查询] ${errorMsg}`);
+            throw new Error(errorMsg);
+        }
+        
+        console.log(`[TMDB查询] 最终选择: ${bestMatch.name} (ID: ${bestMatch.id}, 发布日期: ${bestMatch.first_air_date})`);
+        return String(bestMatch.id);
+    } catch (error) {
+        console.error(`[TMDB查询] 查询失败: ${error.message}`);
+        throw new Error(`TMDB查询失败: ${error.message}`);
+    }
 }
 
 async function getTVRanking(params = {}) {
     try {
+        console.log(`[猫眼榜单] 正在获取${params.platform || '全网'}榜单数据...`);
+        
         const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?seriesType=&platformType=${params.platform}&showDate=2&dateType=0&rankType=0` || '', {
             headers: {
                 "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
@@ -220,16 +246,23 @@ async function getTVRanking(params = {}) {
         });
 
         if (!response.data?.dataList?.list?.length) {
-            throw new Error("猫眼API返回空数据");
+            const errorMsg = "API返回空数据";
+            console.error(`[猫眼榜单] ${errorMsg}`);
+            throw new Error(errorMsg);
         }
 
         const results = [];
         let errorCount = 0;
+        const totalItems = response.data.dataList.list.length;
 
         for (const item of response.data.dataList.list) {
             try {
                 const title = item.seriesInfo?.name;
-                if (!title) throw new Error('猫眼剧集标题缺失');
+                if (!title) {
+                    const errorMsg = "剧集标题缺失";
+                    console.error(`[猫眼榜单] ${errorMsg}`);
+                    throw new Error(errorMsg);
+                }
 
                 try {
                     const id = await getTmdbId(title);
@@ -240,22 +273,28 @@ async function getTVRanking(params = {}) {
                     });
                 } catch (tmdbError) {
                     if (!item.seriesInfo?.id) {
-                        throw new Error(`无法获取有效ID: ${tmdbError.message}`);
+                        const errorMsg = `无法获取有效ID: ${tmdbError.message}`;
+                        console.error(`[猫眼榜单] ${errorMsg}`);
+                        throw new Error(errorMsg);
                     }
                 }
             } catch (error) {
                 errorCount++;
-                throw new Error(`处理剧集失败: ${error.message}`);
+                console.error(`[猫眼榜单] 处理失败: ${error.message}`);
             }
         }
 
         if (results.length === 0) {
-            throw new Error(`所有剧集处理失败 (共${errorCount}项)`);
+            const errorMsg = `所有剧集处理失败 (共${errorCount}项)`;
+            console.error(`[猫眼榜单] ${errorMsg}`);
+            throw new Error(errorMsg);
         }
 
+        console.log(`[猫眼榜单] 成功处理 ${results.length}/${totalItems} 个剧集`);
         return results;
 
     } catch (error) {
+        console.error(`[猫眼榜单] 获取失败: ${error.message}`);
         throw new Error(`获取榜单失败: ${error.message}`);
     }
 }
@@ -263,8 +302,14 @@ async function getTVRanking(params = {}) {
 // 通用函数：获取豆瓣推荐影视数据
 async function getDoubanMediaRecommendations(params = {}, mediaType, category) {
     try {
-        if (!params.region) throw new Error("缺少必要参数：region");
+        if (!params.region) {
+            const errorMsg = "缺少必要参数：region";
+            console.error(`[豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐] ${errorMsg}`);
+            throw new Error(errorMsg);
+        }
 
+        console.log(`[豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐] 正在获取数据...`);
+        
         const baseUrl = 'https://m.douban.com/rexxar/api/v2/subject/recent_hot/';
         const url = `${baseUrl}${mediaType}?category=${category}&type=${encodeURIComponent(params.region)}`;
 
@@ -276,9 +321,12 @@ async function getDoubanMediaRecommendations(params = {}, mediaType, category) {
         });
 
         if (!response.data || !response.data.items) {
-            throw new Error("无效响应：数据格式不符合预期");
+            const errorMsg = "数据格式不符合预期";
+            console.error(`[豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐] ${errorMsg}`);
+            throw new Error(errorMsg);
         }
-        console.log("请求结果:", response.data.items);
+
+        console.log(`[豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐] 成功获取 ${response.data.items.length} 条数据`);
 
         return response.data.items.map((media) => ({
             id: media.id || "unknown_id",
@@ -289,7 +337,8 @@ async function getDoubanMediaRecommendations(params = {}, mediaType, category) {
         }));
 
     } catch (error) {
-        throw new Error(`获取推荐${mediaType === 'movie' ? '电影' : '剧集'}失败: ${error.message}`);
+        console.error(`[豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐] 获取失败: ${error.message}`);
+        throw new Error(`获取豆瓣${mediaType === 'movie' ? '电影' : '剧集'}推荐失败: ${error.message}`);
     }
 }
 
@@ -308,14 +357,20 @@ async function getHotTv(params = {}) {
     return getDoubanMediaRecommendations(params, 'tv', 'tv');
 }
 
-// 获取年度榜单
-async function getMovie2024(options = {}) {
+// 通用函数：获取豆瓣年度数据
+async function getDoubanAnnualData(options = {}, dataType = 'movie') {
   const id = options.id;
   const subId = options.sub_id;
 
-  if (!id) throw new Error("缺少参数 id");
+  if (!id) {
+    const errorMsg = "缺少必要参数：id";
+    console.error(`[${dataType === 'movie' ? '电影' : '人物'}年度数据] ${errorMsg}`);
+    throw new Error(errorMsg);
+  }
 
   try {
+    console.log(`[${dataType === 'movie' ? '电影' : '人物'}年度数据] 正在获取数据...`);
+    
     const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -324,74 +379,75 @@ async function getMovie2024(options = {}) {
     });
 
     const widgets = response.data.widgets;
+    const matched = widgets.find(widget => String(widget.id) === String(id));
 
-    const widget = widgets.find(w => String(w.id) === String(id));
-    if (!widget) throw new Error("未找到对应榜单");
+    if (!matched) {
+      const errorMsg = "未找到对应的榜单数据";
+      console.error(`[${dataType === 'movie' ? '电影' : '人物'}年度数据] ${errorMsg}`);
+      throw new Error(errorMsg);
+    }
 
-    const sourceData = widget.source_data;
+    const sourceData = matched.source_data;
 
-    if (Array.isArray(sourceData) && subId) {
-      const matched = sourceData.find(group =>
+    if (dataType === 'movie' && Array.isArray(sourceData) && subId) {
+      const matchedGroup = sourceData.find(group =>
         String(group.subject_collection?.id) === String(subId)
       );
 
-      if (matched && matched.subject_collection_items) {
-        return matched.subject_collection_items.map(item => ({
+      if (matchedGroup && matchedGroup.subject_collection_items) {
+        console.log(`[电影年度数据] 成功获取 ${matchedGroup.subject_collection_items.length} 条数据`);
+        return matchedGroup.subject_collection_items.map(item => ({
           id: item.id,
           type: "douban",
           title: item.title,
           coverUrl: item.cover_url
         }));
       } else {
-        throw new Error("未找到匹配的子榜单");
+        const errorMsg = "未找到匹配的子榜单";
+        console.error(`[电影年度数据] ${errorMsg}`);
+        throw new Error(errorMsg);
       }
     }
 
-    if (!sourceData || !sourceData.subject_collection_items) {
-      throw new Error("榜单数据为空");
+    if (dataType === 'movie' && (!sourceData || !sourceData.subject_collection_items)) {
+      const errorMsg = "榜单数据为空";
+      console.error(`[电影年度数据] ${errorMsg}`);
+      throw new Error(errorMsg);
     }
 
-    return sourceData.subject_collection_items.map(item => ({
+    if (dataType === 'person' && !Array.isArray(sourceData)) {
+      const errorMsg = "数据格式错误";
+      console.error(`[人物年度数据] ${errorMsg}`);
+      throw new Error(errorMsg);
+    }
+
+    const items = dataType === 'movie' ? sourceData.subject_collection_items : sourceData;
+    console.log(`[${dataType === 'movie' ? '电影' : '人物'}年度数据] 成功获取 ${items.length} 条数据`);
+
+    return items.map(item => ({
       id: item.id,
       type: "douban",
       title: item.title,
-      coverUrl: item.cover_url
+      ...(dataType === 'person' && {
+        description: item.desc,
+        coverUrl: item.cover_url
+      }),
+      ...(dataType === 'movie' && {
+        coverUrl: item.cover_url
+      })
     }));
   } catch (error) {
-    throw new Error(`获取年度榜单失败: ${error.message}`);
+    console.error(`[${dataType === 'movie' ? '电影' : '人物'}年度数据] 获取失败: ${error.message}`);
+    throw new Error(`获取${dataType === 'movie' ? '电影' : '人物'}年度数据失败: ${error.message}`);
   }
 }
 
+// 获取年度榜单
+async function getMovie2024(options = {}) {
+  return getDoubanAnnualData(options, 'movie');
+}
+
 // 获取年度人物
-async function getPreson2024(options = {}) {
-  const id = options.id;
-
-  if (!id) throw new Error("缺少参数 id");
-
-  try {
-    const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
-      }
-    });
-
-    const widgets = response.data.widgets;
-
-    const matched = widgets.find(widget => String(widget.id) === String(id));
-
-    if (!matched || !Array.isArray(matched.source_data)) {
-      throw new Error("未找到对应的年度人物数据");
-    }
-
-    return matched.source_data.map(item => ({
-      id: item.id,
-      type: "douban",
-      title: item.title,
-      description: item.desc,
-      coverUrl: item.cover_url,
-    }));
-  } catch (error) {
-    throw new Error(`获取年度人物失败: ${error.message}`);
-  }
+async function getPerson2024(options = {}) {
+  return getDoubanAnnualData(options, 'person');
 }
