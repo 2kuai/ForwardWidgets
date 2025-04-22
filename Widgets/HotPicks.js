@@ -9,13 +9,12 @@ var WidgetMetadata = {
   modules: [
     {
       title: "实时榜单",
-      description: "预置平台",
       functionName: "getTVRanking",
       requiresWebView: false,
       params: [
         {
           name: "platform",
-          title: "数据源",
+          title: "平台",
           type: "enumeration",
           enumOptions: [
             { title: "全网", value: "0" },
@@ -32,13 +31,12 @@ var WidgetMetadata = {
     },
     {
       title: "高分影片",
-      description: "豆瓣高分电影推荐",
       requiresWebView: false,
       functionName: "getHighMovies",
       params: [
         {
           name: "region",
-          title: "地区筛选",
+          title: "地区",
           type: "enumeration",
           enumOptions: [
             { title: "全部地区", value: "全部" },
@@ -52,13 +50,12 @@ var WidgetMetadata = {
     },
     {
       title: "电影推荐",
-      description: "豆瓣热门电影推荐",
       requiresWebView: false,
       functionName: "getHotMovies",
       params: [
         {
           name: "region",
-          title: "地区筛选",
+          title: "地区",
           type: "enumeration",
           enumOptions: [
             { title: "全部地区", value: "全部" },
@@ -72,13 +69,12 @@ var WidgetMetadata = {
     },
     {
       title: "剧集推荐",
-      description: "豆瓣热门剧集推荐",
       requiresWebView: false,
       functionName: "getHotTv",
       params: [
         {
           name: "region",
-          title: "地区筛选",
+          title: "类型",
           type: "enumeration",
           enumOptions: [
             { title: "全部地区", value: "tv" },
@@ -93,13 +89,12 @@ var WidgetMetadata = {
     },
     {
       title: "年度榜单",
-      description: "获取豆瓣2024年度电影榜单",
       requiresWebView: false,
       functionName: "getMovie2024",
       params: [
         {
           name: "id",
-          title: "榜单选择",
+          title: "榜单",
           type: "enumeration",
           enumOptions: [
             { title: "评分最高华语电影", value: "478" },
@@ -117,7 +112,7 @@ var WidgetMetadata = {
         },
         {
           name: "sub_id",
-          title: "分类榜单",
+          title: "分类",
           type: "enumeration",
           enumOptions: [
             { title: "豆瓣2024评分最高日本电影", value: "16065" },
@@ -135,7 +130,7 @@ var WidgetMetadata = {
         },
         {
           name: "sub_id",
-          title: "分类榜单",
+          title: "分类",
           type: "enumeration",
           enumOptions: [
             { title: "豆瓣2024上映10周年电影", value: "16080" },
@@ -153,13 +148,12 @@ var WidgetMetadata = {
     },
     {
       title: "年度人物",
-      description: "获取豆瓣2024年度人物榜单",
       requiresWebView: false,
       functionName: "getPreson2024",
       params: [
         {
           name: "id",
-          title: "榜单筛选",
+          title: "榜单",
           type: "enumeration",
           enumOptions: [
             { title: "最受关注演员", value: "551" },
