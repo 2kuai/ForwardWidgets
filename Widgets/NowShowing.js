@@ -135,7 +135,7 @@ async function getDoubanDetail(doubanId) {
             description: data.intro || "暂无描述",
             releaseDate: data.pubdate?.[0] || "",
             previewUrl: data.trailers[0].video_url || "",
-            durationText: durations[0] || "未知"
+            durationText: data.durations[0] || "未知"
         };
     } catch (error) {
         console.log(`[豆瓣查询] 获取电影详情失败: ${error.message}`);

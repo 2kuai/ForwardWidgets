@@ -208,7 +208,7 @@ var WidgetMetadata = {
             { title: "韩剧", value: "tv_korean" },
             { title: "动画", value: "tv_animation" },
             { title: "纪录片", value: "tv_documentary" },
-            { title: "全部地区", value: "show" },
+            { title: "全部综艺", value: "show" },
             { title: "国内综艺", value: "show_domestic" },
             { title: "国外综艺", value: "show_foreign" }
           ]
