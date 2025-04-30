@@ -1,10 +1,13 @@
+// 填写你的 TMDB API 访问令牌
+const TMDB_API_TOKEN = "";
+
 var WidgetMetadata = {
     id: "now_showing",
     title: "院线电影",
-    description: "获取正在热映和即将上映的电影信息",
+    description: "获取正在上映和即将上映的电影信息",
     author: "两块",
     site: "https://github.com/2kuai/ForwardWidgets",
-    version: "1.0.1",
+    version: "1.0.2",
     requiredVersion: "0.0.1",
     modules: [
         {
@@ -38,74 +41,119 @@ var WidgetMetadata = {
     ]
 };
 
-// 获取 TMDB 电影详情
-async function getTmdbMovieDetails(title) {
+async function getTmdbDetail(title, mediaType) {
+    if (!title?.trim()) {
+        console.log("[TMDB查询] 错误：标题不能为空");
+        return null;
+    }
+
+    if (!mediaType || !['tv', 'movie'].includes(mediaType)) {
+        console.log("[TMDB查询] 错误：mediaType 必须为 'tv' 或 'movie'");
+        return null;
+    }
+
     try {
-        const response = await Widget.tmdb.get(`/search/movie?query=${encodeURIComponent(title)}&language=zh-CN`);
-        if (!response?.results?.length) return null;
+        let cleanTitle = title.trim().replace(/\s*第[0-9一二三四五六七八九十]+季\s*$/, '');
+        const searchType = mediaType;
+        const token = TMDB_API_TOKEN || "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390";
         
-        const results = response.results;
-        const cleanTitle = title.trim().toLowerCase();
+        const api = `https://api.themoviedb.org/3/search/${searchType}?query=${encodeURIComponent(cleanTitle)}&language=zh-CN`;
+        const response = await Widget.http.get(api, {
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "accept": "application/json"
+            }
+        });
+        
+        if (!response.data?.results?.length) {
+            console.log(`[TMDB查询] 错误：未找到匹配 '${title.trim()}' 的${mediaType === 'movie' ? '电影' : '剧集'}`);
+            return null;
+        }
+
+        const results = response.data.results;
+        
+        // 格式化结果函数
+        const formatResult = (item) => ({
+            id: String(item.id),
+            type: "tmdb",
+            title: title.trim(),
+            coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+            description: item.overview || "暂无描述",
+            releaseDate: item.first_air_date || item.release_date || ""
+        });
         
         // 1. 精确匹配（中文名或原名）
-        const exactMatch = results.find(item => 
-            item.title?.toLowerCase() === cleanTitle ||
-            item.original_title?.toLowerCase() === cleanTitle
-        );
+        const exactMatch = results.find(item => {
+            const itemTitle = (item.name || item.title || "").toLowerCase();
+            const itemOriginalTitle = (item.original_name || item.original_title || "").toLowerCase();
+            const searchTitle = cleanTitle.toLowerCase();
+            return itemTitle === searchTitle || itemOriginalTitle === searchTitle;
+        });
+        
         if (exactMatch) {
-            console.log(`[TMDB查询] 找到精确匹配: ${exactMatch.title}`);
-            return formatTmdbMovie(exactMatch);
+            console.log(`[TMDB查询] 找到精确匹配: ${exactMatch.name || exactMatch.title}`);
+            return formatResult(exactMatch);
         }
 
         // 2. 选择发布时间最新的
         const sortedByDate = [...results].sort((a, b) => {
-            const dateA = a.release_date ? new Date(a.release_date) : new Date(0);
-            const dateB = b.release_date ? new Date(b.release_date) : new Date(0);
+            const dateA = a.first_air_date || a.release_date ? new Date(a.first_air_date || a.release_date) : new Date(0);
+            const dateB = b.first_air_date || b.release_date ? new Date(b.first_air_date || b.release_date) : new Date(0);
             return dateB - dateA;
         });
+        
         const latestMatch = sortedByDate[0];
-        if (latestMatch) {
-            console.log(`[TMDB查询] 选择最新发布的: ${latestMatch.title} (发布日期: ${latestMatch.release_date})`);
-            return formatTmdbMovie(latestMatch);
-        }
-
-        // 3. 最终兜底：选择第一个结果
-        const firstMatch = results[0];
-        console.log(`[TMDB查询] 选择默认结果: ${firstMatch.title}`);
-        return formatTmdbMovie(firstMatch);
+        console.log(`[TMDB查询] 选择最新发布的: ${latestMatch.name || latestMatch.title}`);
+        return formatResult(latestMatch);
 
     } catch (error) {
-        console.error(`获取 TMDB 电影详情失败: ${title}`, error);
+        console.log(`[TMDB查询] 查询 '${title}' 时发生错误: ${error.message}`);
         return null;
     }
 }
 
-// 格式化 TMDB 电影数据
-function formatTmdbMovie(movie) {
-    return {
-        id: movie.id.toString(),
-        type: "tmdb",
-        title: movie.title,
-        coverUrl: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : "",
-        durationText: movie.runtime ? `${Math.floor(movie.runtime / 60)}:${(movie.runtime % 60).toString().padStart(2, '0')}` : "00:00",
-        description: movie.overview || "暂无简介",
-        rating: movie.vote_average ? movie.vote_average.toFixed(1) : "暂无评分",
-        releaseDate: movie.release_date || "待定",
-        originalTitle: movie.original_title,
-        backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` : "",
-        genreIds: movie.genre_ids
-    };
+
+async function getDoubanDetail(doubanId) {
+    try {
+        const api = `https://m.douban.com/rexxar/api/v2/movie/${doubanId}?ck=&for_mobile=1`;
+        const response = await Widget.http.get(api, {
+            headers: {
+                "Referer": "https://movie.douban.com/"
+            }
+        });
+
+        if (!response?.data) {
+            return null;
+        }
+
+        const data = response.data;
+        return {
+            id: data.id,
+            type: "douban",
+            title: data.title,
+            coverUrl: data.cover_url || "",
+            description: data.intro || "暂无描述",
+            releaseDate: data.pubdate?.[0] || "",
+            previewUrl: data.trailers[0].video_url || "",
+            durationText: durations[0] || "未知"
+        };
+    } catch (error) {
+        console.log(`[豆瓣查询] 获取电影详情失败: ${error.message}`);
+        return null;
+    }
 }
 
 // 通用电影获取函数
 async function getMovies(params = {}) {
     try {
+        console.log(`[电影列表] 开始获取${params.type === "nowplaying" ? "正在上映" : "即将上映"}的电影`);
+        
         const response = await Widget.http.get("https://movie.douban.com/cinema/nowplaying/shanghai/", {
             headers: {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
                 "Referer": "https://movie.douban.com/"
             }
         });
+        
         if (!response?.data) {
             throw new Error("获取电影数据失败");
         }
@@ -118,32 +166,53 @@ async function getMovies(params = {}) {
             throw new Error(`未找到${params.type === "nowplaying" ? "正在上映" : "即将上映"}的电影数据`);
         }
         
-        // 并发获取所有 TMDB 数据
-        const tmdbPromises = movieElements.map(async (elementId) => {
-            const title = Widget.dom.attr(elementId, 'data-title');
-            if (!title) return null;
-            
-            // 获取 TMDB 详细信息
-            console.log(`Fetching TMDB for: ${title}`);
-            const tmdbDetails = await getTmdbMovieDetails(title);
-            if (tmdbDetails) {
-                return tmdbDetails;
+        // 获取前20个电影
+        const movies = movieElements
+            .map(elementId => ({
+                title: Widget.dom.attr(elementId, 'data-title'),
+                doubanId: Widget.dom.attr(elementId, 'id')
+            }))
+            .filter(movie => movie.title && movie.doubanId)
+            .slice(0, 20);
+        
+        // 使用 map 保持顺序，同时进行并发查询
+        const moviePromises = movies.map(async (movie, index) => {
+            try {
+                // 首先尝试 TMDB
+                const tmdbResult = await getTmdbDetail(movie.title, 'movie');
+                if (tmdbResult) {
+                    return { index, data: tmdbResult };
+                }
+                
+                // TMDB 失败后尝试豆瓣
+                const doubanResult = await getDoubanDetail(movie.doubanId);
+                if (doubanResult) {
+                    return { index, data: doubanResult };
+                }
+                
+                return { index, data: null };
+            } catch (error) {
+                console.log(`[电影查询] ${movie.title} 查询失败: ${error.message}`);
+                return { index, data: null };
             }
-            return null;
         });
 
-        // 等待所有 TMDB 请求完成
-        const results = await Promise.all(tmdbPromises);
-        const validMovies = results.filter(movie => movie !== null);
+        // 等待所有查询完成
+        const results = await Promise.all(moviePromises);
+        
+        // 按原始顺序排序并过滤掉失败的结果
+        const validMovies = results
+            .sort((a, b) => a.index - b.index)
+            .map(item => item.data)
+            .filter(movie => movie !== null);
         
         if (validMovies.length === 0) {
             throw new Error("未能解析到有效的电影数据");
         }
-
+        
         return validMovies;
-
     } catch (error) {
-        console.error(`获取${params.type === "nowplaying" ? "正在上映" : "即将上映"}电影失败:`, error);
+        console.error(`[电影列表] 获取${params.type === "nowplaying" ? "正在上映" : "即将上映"}电影失败:`, error);
         throw error;
     }
 }
