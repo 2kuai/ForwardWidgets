@@ -345,24 +345,6 @@ var WidgetMetadata = {
           ]
         }
       ]
-    },
-    {
-      title: "年度人物",
-      description: "获取豆瓣年度人物榜单",
-      requiresWebView: false,
-      functionName: "getPerson2024",
-      params: [
-        {
-          name: "id",
-          title: "榜单",
-          type: "enumeration",
-          enumOptions: [
-            { title: "最受关注演员", value: "551" },
-            { title: "最受关注导演", value: "552" },
-            { title: "2024离开我们的人", value: "553" }
-          ]
-        }
-      ]
     }
   ]
 };
@@ -418,7 +400,8 @@ async function getTVRanking(params = {}) {
 // 观影偏好
 async function getPreferenceRecommendations(params = {}) {
     try {
-        if (!/^\d$/.test(String(params.rating))) throw new Error("评分必须为 0～9 的整数");
+        const rating = params.rating || "0";
+        if (!/^\d$/.test(String(rating))) throw new Error("评分必须为 0～9 的整数");
 
         const selectedCategories = {
             "类型": params.genre || "",
@@ -622,11 +605,6 @@ async function getMovie2024(options = {}) {
     return getDoubanAnnualData(options, 'movie');
 }
 
-// 年度人物
-async function getPerson2024(options = {}) {
-    return getDoubanAnnualData(options, 'person'); 
-}
-
 // 处理豆瓣年度数据
 async function getDoubanAnnualData(options = {}, dataType = 'movie') {
     try {
@@ -683,6 +661,8 @@ async function getDoubanAnnualData(options = {}, dataType = 'movie') {
         throw error;
     }
 }
+
+
 
 // 公共函数： TMDB API 查询
 async function getTmdbDetail(title, mediaType) {
