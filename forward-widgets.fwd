@@ -1,6 +1,6 @@
 {
   "title": "2Kuai Widgets",
-  "description": "Forward Third-Party Widgets",
+  "description": "Third-Party Widgets",
   "icon": "https://assets.vvebo.vip/scripts/icon.png",
   "widgets": [
     {
@@ -20,6 +20,6 @@
       "version": "1.0.2",
       "author": "两块",
       "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/NowShowing.js"
-    } 
+    }
   ]
 }
