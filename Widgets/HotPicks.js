@@ -1,14 +1,10 @@
-// 填写你的 TMDB API 访问令牌
-const TMDB_API_TOKEN = "";
-
-
 var WidgetMetadata = {
   id: "hot_picks",
   title: "热门精选",
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.5",
+  version: "1.0.6",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -141,9 +137,9 @@ var WidgetMetadata = {
           description: "设置最低评分过滤，例如：6"  
         },
         {
-          name: "page",
-          title: "页码",
-          type: "page"
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
         }
       ]
     },
@@ -183,9 +179,9 @@ var WidgetMetadata = {
           description: "设置最低评分过滤，例如：6"  
         },
         {
-          name: "page",
-          title: "页码",
-          type: "page"
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
         }
       ]
     },
@@ -219,9 +215,9 @@ var WidgetMetadata = {
           description: "设置最低评分过滤，例如：6"
         },
         {
-          name: "page",
-          title: "页码",
-          type: "page"
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
         }
       ]
     },
@@ -254,9 +250,9 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "page",
-          title: "页码",
-          type: "page"
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
         }
       ]
     },
@@ -284,6 +280,28 @@ var WidgetMetadata = {
                 ]
             }
         ]
+    },
+    {
+      title: "院线电影",
+      description: "获取正在上映或即将上映的电影列表",
+      requiresWebView: false,
+      functionName: "getMovies",
+      params: [
+        {
+          name: "type",
+          title: "类型",
+          type: "enumeration",
+          enumOptions: [
+            { value: "nowplaying", title: "正在上映" },
+            { value: "upcoming", title: "即将上映" }
+          ]
+        },
+        {
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
+        }
+      ]
     },
     {
       title: "年度榜单",
@@ -362,13 +380,12 @@ async function getTVRanking(params = {}) {
         
         const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${params.seriesType}&platformType=${params.platform}`, {
             headers: {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
             }
         });
 
-        if (!response.data?.dataList?.list?.length) {
-            throw new Error("API返回空数据");
-        }
+        if (!response || !response.data) throw new Error("获取数据失败");
 
         const maoyanList = response.data.dataList.list;
         const results = await Promise.all(
@@ -419,7 +436,9 @@ async function getPreferenceRecommendations(params = {}) {
             }
         }
 
-        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${(params.page - 1) * 20}&count=${params.page * 20}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${params.rating || 0},10&tags=${encodeURIComponent(tags.join(","))}&sort=${params.sortBy || "T"}`;
+        const limit = 15;
+        const offset = Number(params.offset);
+        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags.join(","))}&sort=${params.sortBy}`;
 
         const response = await Widget.http.get(url, {
             headers: {
@@ -438,11 +457,11 @@ async function getPreferenceRecommendations(params = {}) {
         }
 
         return validItems.map(item => ({
-            id: item.id || "unknown_id",
+            id: item.id || "",
             type: "douban",
             title: item.title || "未知标题",
             coverUrl: item.pic?.normal || "",
-            description: item.card_subtitle || "暂无描述"
+            mediaType: params.mediaType
         }));
 
     } catch (error) {
@@ -460,15 +479,16 @@ async function getHotTv(params = {}) {
     return getDoubanRecs(params, 'tv');
 }
 
-// 处理豆瓣推荐榜单
+// 处理豆瓣推荐
 async function getDoubanRecs(params = {}, mediaType) {
     try {
-        const page = params.page;
         const rating = params.rating || "0";
         if (!/^\d$/.test(String(rating))) throw new Error("评分必须为 0～9 的整数");
         
+        const limit = 15;
+        const offset = Number(params.offset);     
         const category = params.category != null ? params.category : "tv";        
-        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${(page - 1) * 20}&limit=${page * 20}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.type)}&score_range=${rating},10`;
+        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.type)}&score_range=${rating},10`;
         const response = await Widget.http.get(url, {
             headers: {
                 "Referer": "https://movie.douban.com/explore"
@@ -480,9 +500,10 @@ async function getDoubanRecs(params = {}, mediaType) {
         }
 
         return response.data.items.map(media => ({
-            id: media.id || "unknown_id",
+            id: media.id || "",
             type: "douban",
-            title: media.title || `未知剧名`
+            title: media.title || "",
+            mediaType
         }));
 
     } catch (error) {
@@ -522,8 +543,10 @@ async function getHotAnime(params = {}) {
   }
 
   if (!items.length) throw new Error("未获取到任何条目");
-
-  const pagedItems = items.slice((params.page - 1) * 10, params.page * 10);
+  
+  const limit = 15;
+  const offset = Number(params.offset);
+  const pagedItems = items.slice(offset, offset + limit);
 
   const enriched = await Promise.all(
     pagedItems.map((item, index) =>
@@ -541,128 +564,173 @@ async function getHotAnime(params = {}) {
 
 // 迷雾剧场
 async function getMysteryTheater(params = {}) {
-    try {
-        const titles = await (async () => {
-            if (params.type === 'nowplaying') {
-                const response = await Widget.http.get('https://www.iqiyi.com/theater/2', {
-                    headers: { "Referer": "https://www.iqiyi.com" }
-                });
+  try {
+    const titles = await (async () => {
+      if (params.type === 'nowplaying') {
+        const response = await Widget.http.get('https://www.iqiyi.com/theater/2', {
+          headers: { 
+            "Referer": "https://www.iqiyi.com",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+          }
+        });
+        if (!response || !response.data) throw new Error("获取数据失败");
 
-                const docId = Widget.dom.parse(response.data);
-                const elements = Widget.dom.select(docId, '.qy-mod-list .qy-mod-li');
+        const $ = Widget.html.load(response.data);
+        if (!$ || $ === null) throw new Error("解析 HTML 失败");
+        const elements = $('.qy-mod-list .qy-mod-li');
+        if (!elements || elements.length === 0) throw new Error('未找到剧集列表元素');
+          
+        return elements
+          .map((_, el) => $(el).find('.link-txt').text())
+          .get()
+          .map(title => (title || '').replace(/^[0-9]{4}\s*/, '').trim())
+          .filter(title => title);
+      } else {
+        const response = await Widget.http.get(
+          'https://pcw-api.iqiyi.com/strategy/pcw/data/themeTheaterComingBlock?entity_id=44311095112',
+          { 
+            headers: { 
+              "Referer": "https://www.iqiyi.com/theater/2",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            } 
+          }
+        );
 
-                if (!elements || elements.length === 0) {
-                    throw new Error('未找到剧集列表元素');
-                }
+        if (!response || !response.data) throw new Error("获取数据失败");
 
-                return elements
-                    .map(el => Widget.dom.text(el, '.link-txt'))
-                    .map(title => (title || '').replace(/^[0-9]{4}\s*/, '').trim())
-                    .filter(title => title);
-            } else {
-                const response = await Widget.http.get(
-                    'https://pcw-api.iqiyi.com/strategy/pcw/data/themeTheaterComingBlock?entity_id=44311095112',
-                    { headers: { "Referer": "https://www.iqiyi.com/theater/2" } }
-                );
+        return response.data.data.formatData.list
+          .map(item => item.name)
+          .filter(title => title?.trim())
+          .map(title => title.trim());
+      }
+    })();
 
-                const data = response.data;
-                const isValid = !!(data && data.code === "A00000" && data.data?.formatData?.list);
+    if (!titles?.length) throw new Error("未获取到剧集列表");
 
-                if (!isValid) {
-                    throw new Error('API响应数据验证失败');
-                }
+    const tmdbPromises = titles.map(title => getTmdbDetail(title, 'tv'));
+    const tmdbResults = await Promise.all(tmdbPromises);
 
-                return data.data.formatData.list
-                    .map(item => item.name)
-                    .filter(title => title?.trim())
-                    .map(title => title.trim());
-            }
-        })();
+    const results = tmdbResults
+      .map((result, index) => result ? { ...result, originalIndex: index } : null)
+      .filter(Boolean)
+      .sort((a, b) => a.originalIndex - b.originalIndex)
+      .map(({ originalIndex, ...rest }) => rest);
 
-        if (!titles?.length) throw new Error("未获取到剧集列表");
-
-        const tmdbPromises = titles.map(title => getTmdbDetail(title, 'tv'));
-        const tmdbResults = await Promise.all(tmdbPromises);
-
-        const results = tmdbResults
-            .map((result, index) => result ? { ...result, originalIndex: index } : null)
-            .filter(Boolean)
-            .sort((a, b) => a.originalIndex - b.originalIndex)
-            .map(({ originalIndex, ...rest }) => rest);
-
-        if (!results.length) {
-            throw new Error("未能获取到有效的剧集信息");
-        }
-
-        return results;
-    } catch (error) {
-        throw error;
+    if (!results.length) {
+      throw new Error("未能获取到有效的剧集信息");
     }
+
+    return results.map(item => ({
+      id: item.id ||"",
+      type: "tmdb",
+      title: item.title || "",
+      mediaType: "tv"
+    }));
+  } catch (error) {
+    console.error("获取悬疑剧场剧集失败:", error);
+    throw error;
+  }
+}
+
+// 院线电影
+async function getMovies(params = {}) {
+  try {
+    const type = params.type === "upcoming" ? "即将上映" : "正在上映";
+    console.log(`[电影列表] 开始获取${type}的电影`);
+
+    const response = await Widget.http.get("https://movie.douban.com/cinema/nowplaying/shanghai/", {
+      headers: { Referer: "https://movie.douban.com/" }
+    });
+    
+    if (!response || !response.data) throw new Error("获取数据失败");
+
+    const $ = Widget.html.load(response.data);
+    if (!$ || $ === null) throw new Error("解析 HTML 失败");
+    
+    const selector = params.type === "upcoming" ? "#upcoming .list-item" : "#nowplaying .list-item";
+    const elements = $(selector).toArray();
+
+    if (!elements.length) throw new Error(`未找到${type}的电影`);
+    
+    const limit = 15;
+    const offset = Number(params.offset);
+    const pageItems = elements.slice(offset, offset + limit);
+
+    const results = pageItems.map(el => {
+      const $el = $(el);   
+      return { 
+        id: $el.attr("id"), 
+        type: "douban", 
+        title: $el.attr("data-title") || $el.find(".stitle a").attr("title"),
+        mediaType: "movie"
+      };
+    }).filter(Boolean);
+
+    if (!results.length) throw new Error("未能解析出有效的电影信息");
+
+    return results;
+  } catch (err) {
+    console.error("[电影列表] 获取失败：", err.message);
+    throw err;
+  }
 }
 
 // 年度榜单
 async function getMovie2024(options = {}) {
-    return getDoubanAnnualData(options, 'movie');
-}
+  try {
+    
+    const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
+      headers: {
+        "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
+      }
+    });
 
-// 处理豆瓣年度数据
-async function getDoubanAnnualData(options = {}, dataType = 'movie') {
-    try {
-
-        const typeName = dataType === 'movie' ? '电影' : '人物';
-        console.log(`[${typeName}年度数据] 正在获取数据...`);
-        
-        const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
-            headers: {
-                "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
-            }
-        });
-
-        const matched = response.data.widgets?.find(widget => String(widget.id) === String(options.id));
-        if (!matched?.source_data) {
-            throw new Error("未找到对应的榜单数据");
-        }
-
-        const sourceData = matched.source_data;
-
-        if (dataType === 'movie' && Array.isArray(sourceData) && options.sub_id) {
-            const matchedGroup = sourceData.find(group => 
-                String(group.subject_collection?.id) === String(options.sub_id)
-            );
-
-            if (!matchedGroup?.subject_collection_items?.length) {
-                throw new Error("未找到匹配的子榜单数据");
-            }
-
-            return matchedGroup.subject_collection_items.map(item => ({
-                id: item.id,
-                type: "douban",
-                title: item.title,
-                coverUrl: item.cover_url,
-                ...(item.desc && { description: item.desc })
-            }));
-        }
-
-        const items = dataType === 'movie' ? sourceData.subject_collection_items : sourceData;
-        if (!items?.length) {
-            throw new Error("榜单数据为空");
-        }
-
-        console.log(`[${typeName}年度数据] 成功获取 ${items.length} 条数据`);
-        return items.map(item => ({
-            id: item.id,
-            type: "douban",
-            title: item.title,
-            coverUrl: item.cover_url,
-            ...(item.desc && { description: item.desc })
-        }));
-
-    } catch (error) {
-        throw error;
+    const matched = response.data.widgets?.find(widget => 
+      String(widget.id) === String(options.id)
+    );
+    
+    if (!matched?.source_data) {
+      throw new Error("未找到对应的榜单数据");
     }
+
+    const sourceData = matched.source_data;
+
+    if (Array.isArray(sourceData) && options.sub_id) {
+      const matchedGroup = sourceData.find(group => 
+        String(group.subject_collection?.id) === String(options.sub_id)
+      );
+
+      if (!matchedGroup?.subject_collection_items?.length) {
+        throw new Error("未找到匹配的子榜单数据");
+      }
+
+      return matchedGroup.subject_collection_items.map(item => ({
+        id: item.id,
+        type: "douban",
+        title: item.title,
+        coverUrl: item.cover_url, 
+        rating: item.rating.value
+      }));
+    }
+
+    if (!sourceData.subject_collection_items?.length) {
+      throw new Error("榜单数据为空");
+    }
+
+    console.log('[电影年度数据] 成功获取数据');
+    return sourceData.subject_collection_items.map(item => ({
+      id: item.id,
+      type: "douban",
+      title: item.title,
+      coverUrl: item.cover_url,
+      rating: item.rating.value
+    }));
+
+  } catch (error) {
+    console.error('获取电影年度数据失败:', error);
+    throw error;
+  }
 }
-
-
 
 // 公共函数： TMDB API 查询
 async function getTmdbDetail(title, mediaType) {
@@ -671,7 +739,7 @@ async function getTmdbDetail(title, mediaType) {
         return null;
     }
 
-    const token = TMDB_API_TOKEN || "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390";
+    const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390";
     const rawTitle = title.trim();
     const cleanTitle = cleanUpTitle(rawTitle);
     const api = `https://api.themoviedb.org/3/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&language=zh-CN`;
