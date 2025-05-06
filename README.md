@@ -43,7 +43,7 @@ var WidgetMetadata = {
                 {
                     name: "paramName",     // 参数名
                     title: "Param Title",  // 参数显示标题
-                    type: "input",         // 参数类型 input | constant | enumeration | count | page
+                    type: "input",         // 参数类型 input | constant | enumeration | count | page | offset
                     description: "Description", // 参数描述
                     value: "defaultValue", // 默认值
                     belongTo: { // 当符合该条件时才会触发该参数
@@ -68,8 +68,7 @@ var WidgetMetadata = {
     ],
     search: {                   // 搜索功能配置（可选）
         title: "Search",
-        requiresWebView: false,
-        functionName: "search",
+          functionName: "search",
         params: [/* 搜索参数配置 */]
     }
 };
@@ -126,23 +125,11 @@ async function functionName(params = {}) {
 
 ### DOM 操作 API
 
-Widget 提供了以下 DOM 操作 API：
+Widget 内置了 cheerio 进行 dom 解析。
 
 ```javascript
-// 解析 HTML
-const docId = Widget.dom.parse(htmlString);
-
-// 选择元素
-const elements = Widget.dom.select(docId, "selector");
-
-// 选择第一个元素
-const element = Widget.dom.selectFirst(docId, "selector");
-
-// 获取元素文本
-const text = Widget.dom.text(elementId);
-
-// 获取元素属性
-const value = Widget.dom.attr(elementId, "attributeName");
+// 获得 cheerio 句柄
+const $ = Widget.html.load(htmlContent);
 ```
 
 ### HTTP 请求 API
@@ -176,21 +163,24 @@ let data = response.data
 ```javascript
 // 视频列表项
 {
-    id: "unique_id",           // 根据不同类型的主要值，type 为 url 时，为对应 url，type 为 douban、imdb 时，id 为对应 id 值
-    type: "type",             // 类型标识 url, douban, imdb
-    title: "title",           // 标题
-    coverUrl: "url",          // 封面图片地址
-    durationText: "00:00",    // 时长文本
-    previewUrl: "url",        // 预览视频地址
-    description: "description" // 描述
+    id: "unique_id",            // 根据不同类型的主要值，type 为 url 时，为对应 url，type 为 douban、imdb、tmdb 时，id 为对应 id 值。如果为 tmdb 的 id，需要由 type.id 组成，如：tv.123 movie.234。
+    type: "type",               // 类型标识 url, douban, imdb, tmdb
+    title: "title",             // 标题
+    posterPath: "url",          // 纵向封面图片地址
+    backdropPath: "url",        //横向封面地址
+    releaseDate: "date",        //发布时间
+    mediaType: "tv|movie",      //媒体类型
+    rating: "5",                //评分
+    genreTitle: "genre",        //分类
+    duration: 123,              //时长数字
+    durationText: "00:00",      // 时长文本
+    previewUrl: "url",          // 预览视频地址
+    videoUrl: "videoUrl",       // 视频播放地址
+    link: "link",               //详情页打开地址
+    description: "description", // 描述
+    childItems: [VideoItem]     // 当前对象的嵌套，最多一层
 }
 
-// 分段数据
-{
-    title: "Section Title",   // 分段标题
-    items: [/* 视频列表项数组 */]
-}
-```
 
 ### 最佳实践
 
