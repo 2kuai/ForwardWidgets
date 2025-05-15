@@ -1,10 +1,12 @@
+const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
+
 var WidgetMetadata = {
   id: "hot_picks",
   title: "热门精选",
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.6",
+  version: "1.0.7",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -32,7 +34,11 @@ var WidgetMetadata = {
             { title: "全网", value: "0" },
             { title: "优酷", value: "1" },
             { title: "爱奇艺", value: "2" },
-            { title: "腾讯视频", value: "3" }
+            { title: "腾讯视频", value: "3" },
+            { title: "乐视视频", value: "4" },
+            { title: "搜狐视频", value: "5" },
+            { title: "PPTV", value: "6" },
+            { title: "芒果TV", value: "7" }
           ]
         }
       ]
@@ -257,29 +263,42 @@ var WidgetMetadata = {
       ]
     },
     {
-        title: "迷雾剧场",
-        description: "获取迷雾剧场剧集信息",
+        title: "悬疑剧场",
+        description: "获取白夜剧场剧集信息",
         requiresWebView: false,
-        functionName: "getMysteryTheater",
+        functionName: "getSuspenseTheater",
         params: [
-            {
-                name: "type",
-                title: "类型",
-                type: "enumeration",
-                description: "选择要获取的剧集类型",
-                value: "nowplaying",
-                enumOptions: [
-                    {
-                        title: "正在热播",
-                        value: "nowplaying"
-                    },
-                    {
-                        title: "即将上线",
-                        value: "upcoming"
-                    }
-                ]
-            }
-        ]
+        {
+            name: "type",
+            title: "类别",
+            type: "enumeration",
+            description: "选择剧集上映时间",
+            enumOptions: [
+                { title: "即将上线", value: "coming_soon" },
+                { title: "正在热播", value: "now_playing" }
+            ]
+        },
+        {
+            name: "category",
+            title: "类型",
+            type: "enumeration",
+            description: "选择要查看的剧场类型",
+            belongTo: {
+              paramName: "type",
+              value: ["now_playing"]
+            },
+            enumOptions: [
+                { title: "迷雾剧场", value: "迷雾剧场" },
+                { title: "白夜剧场", value: "白夜剧场" },
+                { title: "生花剧场", value: "生花剧场" }
+            ]
+        },
+        {
+          name: "offset",
+          title: "起始位置",
+          type: "offset"
+        }
+      ]
     },
     {
       title: "院线电影",
@@ -304,10 +323,30 @@ var WidgetMetadata = {
       ]
     },
     {
+      title: "本周榜单",
+      description: "获取豆瓣本周榜单",
+      requiresWebView: false,
+      functionName: "getDoubanWeekly",
+      params: [
+        {
+          name: "type",
+          title: "榜单类型",
+          type: "enumeration",
+          enumOptions: [
+            { title: "一周口碑电影榜", value: "movie_weekly_best" },
+            { title: "华语口碑剧集榜", value: "tv_chinese_best_weekly" },
+            { title: "全球口碑剧集榜", value: "tv_global_best_weekly" },
+            { title: "国内口碑综艺榜", value: "show_chinese_best_weekly" },
+            { title: "国外口碑综艺榜", value: "show_global_best_weekly" }
+          ]
+        }
+      ]
+    },
+    {
       title: "年度榜单",
       description: "获取豆瓣年度榜单",
       requiresWebView: false,
-      functionName: "getMovie2024",
+      functionName: "getDouban2024",
       params: [
         {
           name: "id",
@@ -380,7 +419,7 @@ async function getTVRanking(params = {}) {
         
         const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${params.seriesType}&platformType=${params.platform}`, {
             headers: {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+                "User-Agent": USER_AGENT,
                 "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
             }
         });
@@ -402,9 +441,7 @@ async function getTVRanking(params = {}) {
         );
 
         const validResults = results.filter(Boolean);
-        if (!validResults.length) {
-            throw new Error("所有剧集处理失败");
-        }
+        if (!validResults.length) throw new Error("所有剧集处理失败");
 
         console.log(`[猫眼榜单] 成功处理 ${validResults.length}/${maoyanList.length} 个剧集`);
         return validResults;
@@ -442,19 +479,16 @@ async function getPreferenceRecommendations(params = {}) {
 
         const response = await Widget.http.get(url, {
             headers: {
+                "User-Agent": USER_AGENT,
                 "Referer": "https://movie.douban.com/explore"
             }
         });
 
-        if (!response.data?.items?.length) {
-            throw new Error("未找到匹配的影视作品");
-        }
+        if (!response.data?.items?.length) throw new Error("未找到匹配的影视作品");
 
         const validItems = response.data.items.filter(item => item.card === "subject");
 
-        if (!validItems.length) {
-            throw new Error("未找到有效的影视作品");
-        }
+        if (!validItems.length) throw new Error("未找到有效的影视作品");
 
         return validItems.map(item => ({
             id: item.id || "",
@@ -491,13 +525,12 @@ async function getDoubanRecs(params = {}, mediaType) {
         const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.type)}&score_range=${rating},10`;
         const response = await Widget.http.get(url, {
             headers: {
+                "User-Agent": USER_AGENT,
                 "Referer": "https://movie.douban.com/explore"
             }
         });
 
-        if (!response.data?.items?.length) {
-            throw new Error("数据格式不符合预期");
-        }
+        if (!response.data?.items?.length) throw new Error("数据格式不符合预期");
 
         return response.data.items.map(media => ({
             id: media.id || "",
@@ -517,7 +550,10 @@ async function getHotAnime(params = {}) {
     const url = `https://api.bilibili.com/pgc/page/channel?page_name=m_station_${channel}`;
     try {
       const response = await Widget.http.get(url, {
-        headers: { Referer: "https://m.bilibili.com/" }
+        headers: { 
+            "User-Agent": USER_AGENT,
+            "Referer": "https://m.bilibili.com/" 
+        }
       });
 
       const modules = response.data?.data?.modules;
@@ -527,7 +563,7 @@ async function getHotAnime(params = {}) {
       const items = targetModule?.module_data?.items || [];
       return items.map(item => ({ ...item, _source: channel }));
     } catch (err) {
-      console.warn(`获取 ${channel} 数据失败:`, err.message);
+      console.log(`获取 ${channel} 数据失败: ${err.message}`);
       return [];
     }
   };
@@ -562,52 +598,145 @@ async function getHotAnime(params = {}) {
     .map(({ originalIndex, ...rest }) => rest);
 }
 
-// 迷雾剧场
-async function getMysteryTheater(params = {}) {
+// 悬疑剧场
+async function getSuspenseTheater(params = {}) {
   try {
     const titles = await (async () => {
-      if (params.type === 'nowplaying') {
-        const response = await Widget.http.get('https://www.iqiyi.com/theater/2', {
-          headers: { 
-            "Referer": "https://www.iqiyi.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-          }
-        });
-        if (!response || !response.data) throw new Error("获取数据失败");
-
-        const $ = Widget.html.load(response.data);
-        if (!$ || $ === null) throw new Error("解析 HTML 失败");
-        const elements = $('.qy-mod-list .qy-mod-li');
-        if (!elements || elements.length === 0) throw new Error('未找到剧集列表元素');
-          
-        return elements
-          .map((_, el) => $(el).find('.link-txt').text())
-          .get()
-          .map(title => (title || '').replace(/^[0-9]{4}\s*/, '').trim())
-          .filter(title => title);
-      } else {
-        const response = await Widget.http.get(
-          'https://pcw-api.iqiyi.com/strategy/pcw/data/themeTheaterComingBlock?entity_id=44311095112',
-          { 
+      if (params.type === 'now_playing') {
+        if (params.category === "迷雾剧场") {
+          const response = await Widget.http.get('https://www.iqiyi.com/theater/2', {
             headers: { 
-              "Referer": "https://www.iqiyi.com/theater/2",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-            } 
-          }
-        );
+              "User-Agent": USER_AGENT,
+              "Referer": "https://www.iqiyi.com"
+            }
+          });
+          
+          if (!response?.data) throw new Error("获取数据失败");
+          
+          const $ = Widget.html.load(response.data);
+          if (!$) throw new Error("解析 HTML 失败");
+          
+          const elements = $('.qy-mod-list .qy-mod-li');
+          if (!elements?.length) throw new Error('未找到剧集列表元素');
+          
+          return elements
+            .map((_, el) => $(el).find('.link-txt').text())
+            .toArray()
+            .map(title => (title || '').replace(/^[0-9]{4}\s*/, '').trim())
+            .filter(Boolean);
+        }
+        
+        if (params.category === "白夜剧场" || params.category === "生花剧场") {
+          const title = encodeURIComponent("优酷剧场");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=${params.category === "白夜剧场" ? 2 : 1}`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+          
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
+          
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$) throw new Error("解析 HTML 失败");
+          
+          const dramaList = [];
+          $('.div-col ul li').each((index, element) => {
+            const liText = $(element).text().trim();
+            // 排除待定的剧名
+            if (liText.startsWith('待定：')) return;
+            const match = liText.match(/《([^》]+)》/);
+            if (match && match[1]) {
+              dramaList.push(match[1].trim());
+            }
+          });
+          
+          return dramaList.reverse();
+        }
+        return null;
+      } else {
+        async function fetchPendingDramas() {
+          const title = encodeURIComponent("优酷剧场");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
 
-        if (!response || !response.data) throw new Error("获取数据失败");
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
 
-        return response.data.data.formatData.list
-          .map(item => item.name)
-          .filter(title => title?.trim())
-          .map(title => title.trim());
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$) throw new Error("解析 HTML 失败");
+
+          const pendingDramas = [];
+          $('.div-col ul li').each((index, element) => {
+            const liText = $(element).text().trim();
+            // 只获取待定的剧名
+            if (liText.startsWith('待定：')) {
+              const match = liText.match(/待定：《([^》]+)》/);
+              if (match && match[1]) {
+                pendingDramas.push(match[1].trim());
+              }
+            }
+          });
+
+          return pendingDramas;
+        }
+
+        async function fetchMistDramas() {
+          const title = encodeURIComponent("迷雾剧场");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
+
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$) throw new Error("解析 HTML 失败");
+
+          const mistDramas = [];
+          $('.wikitable tbody tr').each((index, element) => {
+            if (index === 0) return; // 跳过表头行
+            const $td = $(element).find('td').first();
+            const titleText = $td.text().trim();
+            const match = titleText.match(/《([^》]+)》/);
+            if (match && match[1]) {
+              mistDramas.push(match[1].trim());
+            }
+          });
+
+          return mistDramas;
+        }
+
+        try {
+          const [pendingDramas, mistDramas] = await Promise.all([
+            fetchPendingDramas(),
+            fetchMistDramas()
+          ]);
+
+          return [...pendingDramas, ...mistDramas];
+        } catch (error) {
+          console.error("获取剧场数据失败:", error);
+          throw error;
+        }
       }
     })();
-
+    
+    console.log(titles);
     if (!titles?.length) throw new Error("未获取到剧集列表");
+    
+    const limit = 15;
+    const offset = Number(params.offset);
+    const pageItems = titles.slice(offset, offset + limit);
 
-    const tmdbPromises = titles.map(title => getTmdbDetail(title, 'tv'));
+    const tmdbPromises = pageItems.map(title => getTmdbDetail(title, 'tv'));
     const tmdbResults = await Promise.all(tmdbPromises);
 
     const results = tmdbResults
@@ -616,18 +745,11 @@ async function getMysteryTheater(params = {}) {
       .sort((a, b) => a.originalIndex - b.originalIndex)
       .map(({ originalIndex, ...rest }) => rest);
 
-    if (!results.length) {
-      throw new Error("未能获取到有效的剧集信息");
-    }
+    if (!results.length) throw new Error("未能获取到有效的剧集信息");
 
-    return results.map(item => ({
-      id: item.id ||"",
-      type: "tmdb",
-      title: item.title || "",
-      mediaType: "tv"
-    }));
+    return results;
   } catch (error) {
-    console.error("获取悬疑剧场剧集失败:", error);
+    console.error(`获取悬疑剧场剧集失败: ${error.message}`);
     throw error;
   }
 }
@@ -639,7 +761,13 @@ async function getMovies(params = {}) {
     console.log(`[电影列表] 开始获取${type}的电影`);
 
     const response = await Widget.http.get("https://movie.douban.com/cinema/nowplaying/shanghai/", {
-      headers: { Referer: "https://movie.douban.com/" }
+      headers: {
+        "User-Agent": USER_AGENT,
+        "referer": "https://sec.douban.com/",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-dest": "document"
+      }
     });
     
     if (!response || !response.data) throw new Error("获取数据失败");
@@ -669,18 +797,48 @@ async function getMovies(params = {}) {
     if (!results.length) throw new Error("未能解析出有效的电影信息");
 
     return results;
-  } catch (err) {
-    console.error("[电影列表] 获取失败：", err.message);
-    throw err;
+  } catch (error) {
+    console.error(`[电影列表] 获取失败: ${error.message}`);
+    throw error;
+  }
+}
+
+// 本周榜单
+async function getDoubanWeekly(params = {}) {
+  try {
+    const url = `https://m.douban.com/rexxar/api/v2/subject_collection/${params.type}/items?updated_at&items_only=1&type_tag&for_mobile=1`;
+    const response = await Widget.http.get(url, {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "referer": `https://m.douban.com/subject_collection/${params.type}/`
+      }
+    });
+    
+    if (!response.data?.subject_collection_items?.length) throw new Error("无返回数据");
+    
+    return response.data.subject_collection_items.map(item => ({
+      id: item.id,
+      type: "douban",
+      title: item.title,
+      posterPath: item.poster_path || "",
+      backdropPath: item.cover_url,
+      description: item.description|| "暂无描述",
+      mediaType: item.type,
+      link: `https://movie.douban.com/subject/${item.id}/`
+    }));
+  } catch (error) {
+    console.error(`获取榜单数据失败: ${error.message}`);
+    throw error;
   }
 }
 
 // 年度榜单
-async function getMovie2024(options = {}) {
+async function getDouban2024(options = {}) {
   try {
     
     const response = await Widget.http.get("https://movie.douban.com/j/neu/page/27/", {
       headers: {
+        "User-Agent": USER_AGENT,
         "Referer": "https://movie.douban.com/annual/2024/?fullscreen=1&dt_from=movie_navigation"
       }
     });
@@ -689,9 +847,7 @@ async function getMovie2024(options = {}) {
       String(widget.id) === String(options.id)
     );
     
-    if (!matched?.source_data) {
-      throw new Error("未找到对应的榜单数据");
-    }
+    if (!matched?.source_data) throw new Error("未找到对应的榜单数据");
 
     const sourceData = matched.source_data;
 
@@ -713,9 +869,7 @@ async function getMovie2024(options = {}) {
       }));
     }
 
-    if (!sourceData.subject_collection_items?.length) {
-      throw new Error("榜单数据为空");
-    }
+    if (!sourceData.subject_collection_items?.length) throw new Error("榜单数据为空");
 
     console.log('[电影年度数据] 成功获取数据');
     return sourceData.subject_collection_items.map(item => ({
@@ -727,107 +881,66 @@ async function getMovie2024(options = {}) {
     }));
 
   } catch (error) {
-    console.error('获取电影年度数据失败:', error);
+    console.error(`获取电影年度数据失败: ${error.message}`);
     throw error;
   }
 }
 
-// 公共函数： TMDB API 查询
+// TMDB 查询函数
 async function getTmdbDetail(title, mediaType) {
     if (!title?.trim() || !['tv', 'movie'].includes(mediaType)) {
-        console.error("[TMDB查询] 参数错误：title 不能为空，mediaType 必须为 'tv' 或 'movie'");
+        console.error(`[TMDB精确查询] 参数错误: title 不能为空，mediaType 必须为 'tv' 或 'movie'`);
         return null;
     }
-
-    const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390";
-    const rawTitle = title.trim();
-    const cleanTitle = cleanUpTitle(rawTitle);
-    const api = `https://api.themoviedb.org/3/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&language=zh-CN`;
+    
+    const yearMacth = title.match(/\b(19|20)\d{2}\b/)?.[1] || "";
+    const cleanTitle = title
+      .replace(/\b(19|20)\d{2}\b/g, '')
+      .replace(/(?:[·:：\---].*$|[（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    
+    const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMacth}&language=zh-CN`;
 
     try {
-        const response = await Widget.http.get(api, {
-            headers: {
-                "Authorization": `Bearer ${token}`,
-                "accept": "application/json"
-            }
+        const response = await Widget.tmdb.get(api);
+        if (!response.results?.length) {
+          throw new Error("TMDB无返回数据");
+          return null;
+        } 
+
+        const exactMatch = response.results.find(item => {
+            const name = (item.name || item.title || "").toLowerCase();
+            const original = (item.original_name || item.original_title || "").toLowerCase();
+            return name === cleanTitle.toLowerCase() || original === cleanTitle.toLowerCase();
         });
 
-        const results = response.data?.results;
-        if (!results?.length) {
-            console.log(`[TMDB查询] 未找到标题为 ${rawTitle} 的数据`);
+        if (!exactMatch) {
+            console.log(`[TMDB] 没有匹配结果: ${title}`);
             return null;
         }
 
-        const match = findBestMatch(results, cleanTitle.toLowerCase(), rawTitle.toLowerCase());
-        console.log(`[TMDB查询] 匹配结果: ${rawTitle} => ${match.name || match.title}`);
-        return formatResult(match, rawTitle);
+        return formatResult(exactMatch, title);
 
     } catch (error) {
-        console.error(`[TMDB查询] 请求失败:`, error);
+        throw new Error(`[TMDB] 请求失败: ${error.message}`);
         return null;
     }
 }
 
-// 清洗标题
-function cleanUpTitle(title) {
-    return title.replace(
-        /(?:之[^·:：\---()\s]*|[·:：\---].*$|[（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g,
-        ''
-    ).trim();
-}
-
-// 格式化 TMDB 返回数据
 function formatResult(item, originalTitle) {
+    const mediaType = item.first_air_date ? 'tv' : 'movie';
     return {
-        id: String(item.id),
+        id: item.id,
         type: "tmdb",
-        title: originalTitle,
-        coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+        title: item.name || item.title || originalTitle,
+        originalTitle: item.original_name || item.original_title || "",
+        posterPath: item.poster_path ? `https://image.tmdb.org/t/p/original${item.poster_path}` : "",
+        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/original${item.backdrop_path}` : "",
         description: item.overview || "暂无描述",
-        releaseDate: item.first_air_date || item.release_date || ""
+        releaseDate: item.first_air_date || item.release_date || "",
+        mediaType: mediaType,
+        rating: item.vote_average ? item.vote_average.toFixed(1) : "",
+        link: `https://www.themoviedb.org/${mediaType}/${item.id}`
     };
-}
-
-// 匹配最佳结果
-function findBestMatch(results, searchTitle, rawTitle) {
-    const exact = results.find(item => {
-        const name = (item.name || item.title || "").toLowerCase();
-        const original = (item.original_name || item.original_title || "").toLowerCase();
-        return name === searchTitle || original === searchTitle;
-    });
-    if (exact) return exact;
-
-    let best = results[0], highest = -Infinity;
-    for (const item of results) {
-        const name = (item.name || item.title || "").toLowerCase();
-        const original = (item.original_name || item.original_title || "").toLowerCase();
-        const score = Math.max(
-            getSimilarityScore(rawTitle, name),
-            getSimilarityScore(rawTitle, original)
-        );
-        if (score > highest) {
-            highest = score;
-            best = item;
-        }
-    }
-    return best;
-}
-
-// 相似度打分
-function getSimilarityScore(a, b) {
-    a = a.toLowerCase();
-    b = b.toLowerCase();
-    let score = 0;
-
-    if (b.includes(a)) score += 3;
-    if (a.includes(b)) score += 2;
-
-    const aWords = a.split(/\s+/);
-    const bWords = b.split(/\s+/);
-    const common = aWords.filter(w => bWords.includes(w)).length;
-
-    score += common;
-    score -= Math.abs(a.length - b.length) * 0.1;
-
-    return score;
 }
