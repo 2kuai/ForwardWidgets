@@ -892,27 +892,29 @@ async function getTmdbDetail(title, mediaType) {
         console.error(`[TMDB精确查询] 参数错误: title 不能为空，mediaType 必须为 'tv' 或 'movie'`);
         return null;
     }
-    
-    const yearMacth = title.match(/\b(19|20)\d{2}\b/)?.[1] || "";
+
+    const yearMatch = title.match(/\b(19|20)\d{2}\b/)?.[0] || "";
+
     const cleanTitle = title
-      .replace(/\b(19|20)\d{2}\b/g, '')
-      .replace(/(?:[·:：\---].*$|[（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-    
-    const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMacth}&language=zh-CN`;
+        .replace(/([（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMatch}&language=zh-CN`;
 
     try {
         const response = await Widget.tmdb.get(api);
+        
         if (!response.results?.length) {
-          throw new Error("TMDB无返回数据");
-          return null;
-        } 
+            console.log(`[TMDB] 无返回数据: ${title}`);
+            return null;
+        }
 
         const exactMatch = response.results.find(item => {
             const name = (item.name || item.title || "").toLowerCase();
             const original = (item.original_name || item.original_title || "").toLowerCase();
-            return name === cleanTitle.toLowerCase() || original === cleanTitle.toLowerCase();
+            const lowerCleanTitle = cleanTitle.toLowerCase();
+            return name === lowerCleanTitle || original === lowerCleanTitle;
         });
 
         if (!exactMatch) {
@@ -920,27 +922,73 @@ async function getTmdbDetail(title, mediaType) {
             return null;
         }
 
-        return formatResult(exactMatch, title);
+        const formattedResult = {
+            id: exactMatch.id,
+            type: "tmdb",
+            title: exactMatch.name || exactMatch.title || title,
+            originalTitle: exactMatch.original_name || exactMatch.original_title || "",
+            posterPath: exactMatch.poster_path ? `https://image.tmdb.org/t/p/original${exactMatch.poster_path}` : "",
+            backdropPath: exactMatch.backdrop_path ? `https://image.tmdb.org/t/p/original${exactMatch.backdrop_path}` : "",
+            description: exactMatch.overview || "暂无描述",
+            releaseDate: exactMatch.first_air_date || exactMatch.release_date || "",
+            mediaType: mediaType,
+            rating: exactMatch.vote_average ? exactMatch.vote_average.toFixed(1) : ""
+        };
+
+        return formattedResult;
 
     } catch (error) {
-        throw new Error(`[TMDB] 请求失败: ${error.message}`);
+        console.error(`[TMDB] 请求失败: ${error.message}`);
         return null;
     }
 }
 
-function formatResult(item, originalTitle) {
-    const mediaType = item.first_air_date ? 'tv' : 'movie';
-    return {
-        id: item.id,
-        type: "tmdb",
-        title: item.name || item.title || originalTitle,
-        originalTitle: item.original_name || item.original_title || "",
-        posterPath: item.poster_path ? `https://image.tmdb.org/t/p/original${item.poster_path}` : "",
-        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/original${item.backdrop_path}` : "",
-        description: item.overview || "暂无描述",
-        releaseDate: item.first_air_date || item.release_date || "",
-        mediaType: mediaType,
-        rating: item.vote_average ? item.vote_average.toFixed(1) : "",
-        link: `https://www.themoviedb.org/${mediaType}/${item.id}`
-    };
+async function getDoubanDetail(title) {
+    try {
+        if (!title?.trim()) {
+            throw new Error("标题不能为空");
+        }
+
+        const cleanTitle = title
+            .replace(/(?:[（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+
+        const url = `https://movie.douban.com/j/subject_suggest?q=${encodeURIComponent(cleanTitle)}`;
+        
+        const response = await Widget.http.get(url, {
+            headers: {
+                "User-Agent": USER_AGENT,
+                "Referer": "https://movie.douban.com/",
+                "Accept": "application/json, text/javascript, */*; q=0.01"
+            }
+        });
+
+        if (!response?.data?.length) {
+            throw new Error("[豆瓣] 未找到匹配的影视作品");
+        }
+
+        const exactMatch = response.data.find(item => {
+            const name = (item.sub_title || item.title).toLowerCase();
+            return name === cleanTitle.toLowerCase();
+        });
+
+        if (!exactMatch) {
+            console.log(`[豆瓣] 没有精确匹配结果: ${title}`);
+            return null;
+        }
+
+        return {
+            id: exactMatch.id || "",
+            type: "douban",
+            title: exactMatch.title || "",
+            posterPath: exactMatch.img || "",
+            backdropPath: exactMatch.img || "",
+            releaseDate: exactMatch.year || ""
+        };
+
+    } catch (error) {
+        console.error(`[豆瓣] 获取失败: ${error.message}`);
+        throw error;
+    }
 }
