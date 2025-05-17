@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.7",
+  version: "1.0.8",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -135,6 +135,12 @@ var WidgetMetadata = {
             { title: "首映时间", value: "R" },
             { title: "高分优选", value: "S" }
           ]
+        },
+        {
+          name: "tags",
+          title: "标签",
+          type: "input",
+          description: "设置自定义标签，例如：丧尸"  
         },
         {
           name: "rating",
@@ -312,7 +318,7 @@ var WidgetMetadata = {
           type: "enumeration",
           enumOptions: [
             { value: "nowplaying", title: "正在上映" },
-            { value: "upcoming", title: "即将上映" }
+            { value: "later", title: "即将上映" }
           ]
         },
         {
@@ -462,20 +468,24 @@ async function getPreferenceRecommendations(params = {}) {
             "地区": params.region || ""
         };
 
-        const tags = [];
-        if (params.genre) tags.push(params.genre);
-        if (params.region) tags.push(params.region);
+        const tags_sub = [];
+        if (params.genre) tags_sub.push(params.genre);
+        if (params.region) tags_sub.push(params.region);
         if (params.year) {
             if (params.year.includes("年代")) {
-                tags.push(params.year);
+                tags_sub.push(params.year);
             } else {
-                tags.push(`${params.year}年`);
+                tags_sub.push(`${params.year}年`);
             }
+        }
+        if (params.tags) {
+          const customTagsArray = params.tags.split(',').filter(tag => tag.trim() !== '');
+          tags_sub.push(...customTagsArray);
         }
 
         const limit = 15;
         const offset = Number(params.offset);
-        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags.join(","))}&sort=${params.sortBy}`;
+        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags_sub.join(","))}&sort=${params.sortBy}`;
 
         const response = await Widget.http.get(url, {
             headers: {
@@ -757,16 +767,16 @@ async function getSuspenseTheater(params = {}) {
 // 院线电影
 async function getMovies(params = {}) {
   try {
-    const type = params.type === "upcoming" ? "即将上映" : "正在上映";
-    console.log(`[电影列表] 开始获取${type}的电影`);
+    const type = params.type;
+    console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
 
-    const response = await Widget.http.get("https://movie.douban.com/cinema/nowplaying/shanghai/", {
+    const url = `https://movie.douban.com/cinema/${type}/shanghai/`;
+    
+    const response = await Widget.http.get(url, {
       headers: {
         "User-Agent": USER_AGENT,
         "referer": "https://sec.douban.com/",
-        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "sec-fetch-mode": "navigate",
-        "sec-fetch-dest": "document"
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
       }
     });
     
@@ -775,27 +785,55 @@ async function getMovies(params = {}) {
     const $ = Widget.html.load(response.data);
     if (!$ || $ === null) throw new Error("解析 HTML 失败");
     
-    const selector = params.type === "upcoming" ? "#upcoming .list-item" : "#nowplaying .list-item";
-    const elements = $(selector).toArray();
-
-    if (!elements.length) throw new Error(`未找到${type}的电影`);
-    
     const limit = 15;
     const offset = Number(params.offset);
-    const pageItems = elements.slice(offset, offset + limit);
-
-    const results = pageItems.map(el => {
-      const $el = $(el);   
-      return { 
-        id: $el.attr("id"), 
-        type: "douban", 
-        title: $el.attr("data-title") || $el.find(".stitle a").attr("title"),
-        mediaType: "movie"
-      };
-    }).filter(Boolean);
-
+    
+    let results = [];
+    if (type === "nowplaying") {
+      const selector = "#nowplaying .list-item";
+      const elements = $(selector).toArray();
+      if (!elements.length) throw new Error(`未找到${type}的电影`);
+      const pageItems = elements.slice(offset, offset + limit);
+      results = pageItems.map(el => {
+        const $el = $(el);   
+        return { 
+          id: $el.attr("id"), 
+          type: "douban", 
+          title: $el.attr("data-title") || $el.find(".stitle a").attr("title"),
+          mediaType: "movie"
+        };
+      }).filter(Boolean);      
+    } else if (type === "later") {
+      // 处理即将上映的情况
+      const selector = "#showing-soon .item.mod"; // 根据实际HTML结构调整选择器
+      const elements = $(selector).toArray();
+      if (!elements.length) throw new Error(`未找到${type === "later" ? "即将" : "正在"}上映的电影`);
+      const pageItems = elements.slice(offset, offset + limit);
+      results = pageItems.map(el => {
+        const $el = $(el);   
+        // 提取电影标题，优先从 <h3><a> 标签获取，如果不存在则尝试其他方式
+        let title = $el.find("h3 a").text().trim();
+        if (!title) {
+          // 如果没有找到 <h3><a>，尝试其他方式，比如直接从 <h3> 获取
+          title = $el.find("h3").text().trim().replace(/\s*\d{1,2}月\d{1,2}日.*$/, '').trim();
+        }
+        // 提取电影ID，假设URL中包含subject/后跟ID
+        let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
+        let id = idMatch ? idMatch[1] : null;
+        if (!id) {
+          // 如果无法从href获取ID，可以设置一个默认值或跳过
+          id = null; // 或者根据需求处理
+        }
+        return { 
+          id: id, 
+          type: "douban", 
+          title: title,
+          mediaType: "movie"
+        };
+      }).filter(Boolean); // 过滤掉无效的条目
+    }
+    
     if (!results.length) throw new Error("未能解析出有效的电影信息");
-
     return results;
   } catch (error) {
     console.error(`[电影列表] 获取失败: ${error.message}`);
