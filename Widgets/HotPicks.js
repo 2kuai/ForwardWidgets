@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.8",
+  version: "1.0.9",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -296,7 +296,9 @@ var WidgetMetadata = {
             enumOptions: [
                 { title: "迷雾剧场", value: "迷雾剧场" },
                 { title: "白夜剧场", value: "白夜剧场" },
-                { title: "生花剧场", value: "生花剧场" }
+                { title: "季风剧场", value: "季风剧场" },
+                { title: "X剧场", value: "X剧场" },
+                // { title: "生花剧场", value: "生花剧场" }
             ]
         },
         {
@@ -483,7 +485,7 @@ async function getPreferenceRecommendations(params = {}) {
           tags_sub.push(...customTagsArray);
         }
 
-        const limit = 15;
+        const limit = 20;
         const offset = Number(params.offset);
         const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags_sub.join(","))}&sort=${params.sortBy}`;
 
@@ -529,7 +531,7 @@ async function getDoubanRecs(params = {}, mediaType) {
         const rating = params.rating || "0";
         if (!/^\d$/.test(String(rating))) throw new Error("评分必须为 0～9 的整数");
         
-        const limit = 15;
+        const limit = 20;
         const offset = Number(params.offset);     
         const category = params.category != null ? params.category : "tv";        
         const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.type)}&score_range=${rating},10`;
@@ -590,7 +592,7 @@ async function getHotAnime(params = {}) {
 
   if (!items.length) throw new Error("未获取到任何条目");
   
-  const limit = 15;
+  const limit = 10;
   const offset = Number(params.offset);
   const pagedItems = items.slice(offset, offset + limit);
 
@@ -654,7 +656,6 @@ async function getSuspenseTheater(params = {}) {
           const dramaList = [];
           $('.div-col ul li').each((index, element) => {
             const liText = $(element).text().trim();
-            // 排除待定的剧名
             if (liText.startsWith('待定：')) return;
             const match = liText.match(/《([^》]+)》/);
             if (match && match[1]) {
@@ -664,6 +665,137 @@ async function getSuspenseTheater(params = {}) {
           
           return dramaList.reverse();
         }
+        
+        if (params.category === "季风剧场") {
+          const title = encodeURIComponent("芒果季风计划");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+          
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
+          
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$) throw new Error("解析 HTML 失败");
+          
+          const playingDramas = [];
+          
+          $('table.wikitable').each((tableIndex, table) => {
+            let isPendingSection = false;
+            
+            $(table).find('tr').each((rowIndex, row) => {
+              const $tds = $(row).find('td');
+              
+              if ($tds.length > 0) {
+                const rowText = $(row).text().trim();
+                
+                if (rowText.includes('待播映')) {
+                  isPendingSection = true;
+                  return;
+                }
+                
+                if (!isPendingSection) {
+                  if (rowIndex > 0) {
+                    const $firstTd = $tds.eq(0);
+                    const $link = $firstTd.find('a').first();
+                    
+                    if ($link.length) {
+                      const title = $link.text().trim();
+                      if (title) {
+                        playingDramas.push(title);
+                      }
+                    }
+                  }
+                }
+              }
+            });
+          });
+          
+          try {
+            const networkUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
+            const networkResponse = await Widget.http.get(networkUrl, {
+              headers: {
+                "User-Agent": USER_AGENT,
+                "Accept": "application/json"
+              }
+            });
+            
+            if (networkResponse?.data?.parse?.text?.["*"]) {
+              const $network = Widget.html.load(networkResponse.data.parse.text["*"]);
+              
+              $network('table.wikitable tr').each((i, row) => {
+                const $tds = $network(row).find('td');
+                
+                if ($tds.length >= 2 && i > 0) {
+                  const status = $tds.eq(1).text().trim();
+                  
+                  if (status.includes('播映完毕')) {
+                    const $link = $tds.eq(0).find('a').first();
+                    if ($link.length) {
+                      const title = $link.text().trim();
+                      if (title) {
+                        playingDramas.push(title);
+                      }
+                    }
+                  }
+                }
+              });
+            }
+          } catch (error) {
+            console.error("获取网络剧数据失败:", error.message);
+          }
+          
+          return playingDramas;
+        }
+        
+        if (params.category === "X剧场") {
+          const title = encodeURIComponent("X剧场");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=1`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+
+          if (!response?.data?.parse?.text?.["*"]) {
+            throw new Error("获取维基百科数据失败");
+          }
+
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$ || !$('table.wikitable').length) {
+            throw new Error("未找到目标表格");
+          }
+
+          const dramaList = [];
+          const $table = $('table.wikitable').first();
+
+          $table.find('tr').each((index, row) => {
+            if (index === 0) return;
+            const $cells = $(row).find('td');
+            if ($cells.length < 2) return;
+            const dateText = $cells.eq(0).text().trim();
+            if (/待公布/.test(dateText)) return;
+            const $nameLink = $cells.eq(1).find('a').first();
+            if (!$nameLink.length) return;
+            const dramaName = $nameLink
+              .clone()
+              .children()
+              .end()
+              .text()
+              .replace(/[《》\s]+/g, ' ')
+              .trim();
+            if (dramaName) {
+              dramaList.push(dramaName);
+            }
+          });
+
+          return dramaList.length ? dramaList.reverse() : [];
+        }
+        
         return null;
       } else {
         async function fetchPendingDramas() {
@@ -684,7 +816,6 @@ async function getSuspenseTheater(params = {}) {
           const pendingDramas = [];
           $('.div-col ul li').each((index, element) => {
             const liText = $(element).text().trim();
-            // 只获取待定的剧名
             if (liText.startsWith('待定：')) {
               const match = liText.match(/待定：《([^》]+)》/);
               if (match && match[1]) {
@@ -713,7 +844,7 @@ async function getSuspenseTheater(params = {}) {
 
           const mistDramas = [];
           $('.wikitable tbody tr').each((index, element) => {
-            if (index === 0) return; // 跳过表头行
+            if (index === 0) return;
             const $td = $(element).find('td').first();
             const titleText = $td.text().trim();
             const match = titleText.match(/《([^》]+)》/);
@@ -725,13 +856,142 @@ async function getSuspenseTheater(params = {}) {
           return mistDramas;
         }
 
+        async function fetchSeasonWindDramas() {
+          const title = encodeURIComponent("芒果季风计划");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
+
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$) throw new Error("解析 HTML 失败");
+
+          const pendingDramas = [];
+
+          $('table.wikitable').each((tableIndex, table) => {
+            let isPendingSection = false;
+            
+            $(table).find('tr').each((rowIndex, row) => {
+              const $tds = $(row).find('td');
+              
+              if ($tds.length > 0) {
+                const rowText = $(row).text().trim();
+                
+                if (rowText.includes('待播映')) {
+                  isPendingSection = true;
+                }
+                
+                if (isPendingSection) {
+                  const $firstTd = $tds.eq(0);
+                  const $link = $firstTd.find('a').first();
+                  
+                  if ($link.length) {
+                    const title = $link.text().trim();
+                    if (title) {
+                      pendingDramas.push(title);
+                    }
+                  }
+                }
+              }
+            });
+          });
+          
+          try {
+            const networkUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
+            const networkResponse = await Widget.http.get(networkUrl, {
+              headers: {
+                "User-Agent": USER_AGENT,
+                "Accept": "application/json"
+              }
+            });
+            
+            if (networkResponse?.data?.parse?.text?.["*"]) {
+              const $network = Widget.html.load(networkResponse.data.parse.text["*"]);
+              
+              $network('table.wikitable tr').each((i, row) => {
+                const $tds = $network(row).find('td');
+                
+                if ($tds.length >= 2) {
+                  const status = $tds.eq(1).text().trim();
+                  
+                  if (status.includes('待播映')) {
+                    const $link = $tds.eq(0).find('a').first();
+                    if ($link.length) {
+                      const title = $link.text().trim();
+                      if (title) {
+                        pendingDramas.push(title);
+                      }
+                    }
+                  }
+                }
+              });
+            }
+          } catch (error) {
+            console.error("获取网络剧数据失败:", error.message);
+          }
+
+          return pendingDramas;
+        }
+
+        async function fetchXTheaterDramas() {
+          const title = encodeURIComponent("X剧场");
+          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=1`;
+          const response = await Widget.http.get(url, {
+            headers: {
+              "User-Agent": USER_AGENT,
+              "Accept": "application/json"
+            }
+          });
+
+          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
+
+          const $ = Widget.html.load(response.data.parse.text["*"]);
+          if (!$ || !$('table.wikitable').length) throw new Error("未找到目标表格");
+
+          const pendingDramas = [];
+          const $table = $('table.wikitable').first();
+
+          $table.find('tr').each((index, row) => {
+            if (index === 0) return;
+            const $cells = $(row).find('td');
+            if ($cells.length < 2) return;
+            
+            const dateText = $cells.eq(0).text().trim();
+            if (!/待公布/.test(dateText)) return;
+            
+            const $nameLink = $cells.eq(1).find('a').first();
+            if (!$nameLink.length) return;
+            
+            const dramaName = $nameLink
+              .clone()
+              .children()
+              .end()
+              .text()
+              .replace(/[《》\s]+/g, ' ')
+              .trim();
+              
+            if (dramaName) {
+              pendingDramas.push(dramaName);
+            }
+          });
+
+          return pendingDramas;
+        }
+
         try {
-          const [pendingDramas, mistDramas] = await Promise.all([
+          const [pendingDramas, mistDramas, seasonWindDramas, xTheaterDramas] = await Promise.all([
             fetchPendingDramas(),
-            fetchMistDramas()
+            fetchMistDramas(),
+            fetchSeasonWindDramas(),
+            fetchXTheaterDramas()
           ]);
 
-          return [...pendingDramas, ...mistDramas];
+          return [...pendingDramas, ...mistDramas, ...seasonWindDramas, ...xTheaterDramas];
         } catch (error) {
           console.error("获取剧场数据失败:", error);
           throw error;
@@ -739,10 +999,10 @@ async function getSuspenseTheater(params = {}) {
       }
     })();
     
-    console.log(titles);
     if (!titles?.length) throw new Error("未获取到剧集列表");
+    console.log(titles);
     
-    const limit = 15;
+    const limit = 10;
     const offset = Number(params.offset);
     const pageItems = titles.slice(offset, offset + limit);
 
@@ -785,7 +1045,7 @@ async function getMovies(params = {}) {
     const $ = Widget.html.load(response.data);
     if (!$ || $ === null) throw new Error("解析 HTML 失败");
     
-    const limit = 15;
+    const limit = 20;
     const offset = Number(params.offset);
     
     let results = [];
@@ -804,25 +1064,20 @@ async function getMovies(params = {}) {
         };
       }).filter(Boolean);      
     } else if (type === "later") {
-      // 处理即将上映的情况
-      const selector = "#showing-soon .item.mod"; // 根据实际HTML结构调整选择器
+      const selector = "#showing-soon .item.mod";
       const elements = $(selector).toArray();
       if (!elements.length) throw new Error(`未找到${type === "later" ? "即将" : "正在"}上映的电影`);
       const pageItems = elements.slice(offset, offset + limit);
       results = pageItems.map(el => {
         const $el = $(el);   
-        // 提取电影标题，优先从 <h3><a> 标签获取，如果不存在则尝试其他方式
         let title = $el.find("h3 a").text().trim();
         if (!title) {
-          // 如果没有找到 <h3><a>，尝试其他方式，比如直接从 <h3> 获取
           title = $el.find("h3").text().trim().replace(/\s*\d{1,2}月\d{1,2}日.*$/, '').trim();
         }
-        // 提取电影ID，假设URL中包含subject/后跟ID
         let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
         let id = idMatch ? idMatch[1] : null;
         if (!id) {
-          // 如果无法从href获取ID，可以设置一个默认值或跳过
-          id = null; // 或者根据需求处理
+          id = null;
         }
         return { 
           id: id, 
@@ -830,7 +1085,7 @@ async function getMovies(params = {}) {
           title: title,
           mediaType: "movie"
         };
-      }).filter(Boolean); // 过滤掉无效的条目
+      }).filter(Boolean);
     }
     
     if (!results.length) throw new Error("未能解析出有效的电影信息");
@@ -924,7 +1179,7 @@ async function getDouban2024(options = {}) {
   }
 }
 
-// TMDB 查询函数
+// 通用剧名查询
 async function getTmdbDetail(title, mediaType) {
     if (!title?.trim() || !['tv', 'movie'].includes(mediaType)) {
         console.error(`[TMDB精确查询] 参数错误: title 不能为空，mediaType 必须为 'tv' 或 'movie'`);
@@ -938,14 +1193,13 @@ async function getTmdbDetail(title, mediaType) {
         .replace(/\s+/g, ' ')
         .trim();
 
-    const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMatch}&language=zh-CN`;
-
     try {
+        const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMatch}&language=zh-CN`;
         const response = await Widget.tmdb.get(api);
         
-        if (!response.results?.length) {
-            console.log(`[TMDB] 无返回数据: ${title}`);
-            return null;
+        if (!response?.results?.length) {
+            console.log(`[TMDB] 无返回数据，尝试使用豆瓣搜索: ${title}`);
+            return await getDoubanDetail(cleanTitle);
         }
 
         const exactMatch = response.results.find(item => {
@@ -956,11 +1210,17 @@ async function getTmdbDetail(title, mediaType) {
         });
 
         if (!exactMatch) {
-            console.log(`[TMDB] 没有匹配结果: ${title}`);
+            console.log(`[TMDB] 没有精确匹配结果，尝试使用豆瓣搜索: ${title}`);
+            const doubanResult = await getDoubanDetail(cleanTitle);
+            if (doubanResult) {
+                console.log(`[豆瓣] 成功找到匹配结果: ${title}`);
+                return doubanResult;
+            }
             return null;
         }
 
-        const formattedResult = {
+        console.log(`[TMDB] 成功找到匹配结果: ${title}`);
+        return {
             id: exactMatch.id,
             type: "tmdb",
             title: exactMatch.name || exactMatch.title || title,
@@ -973,26 +1233,23 @@ async function getTmdbDetail(title, mediaType) {
             rating: exactMatch.vote_average ? exactMatch.vote_average.toFixed(1) : ""
         };
 
-        return formattedResult;
-
     } catch (error) {
-        console.error(`[TMDB] 请求失败: ${error.message}`);
-        return null;
+        console.error(`[TMDB] 请求失败: ${error.message}，尝试使用豆瓣搜索`);
+        try {
+            return await getDoubanDetail(cleanTitle);
+        } catch (doubanError) {
+            console.error(`[豆瓣] 请求也失败: ${doubanError.message}`);
+            return null;
+        }
     }
 }
 
 async function getDoubanDetail(title) {
     try {
-        if (!title?.trim()) {
-            throw new Error("标题不能为空");
-        }
+        if (!title?.trim()) throw new Error("标题不能为空");
 
-        const cleanTitle = title
-            .replace(/(?:[（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
-            .replace(/\s+/g, ' ')
-            .trim();
-
-        const url = `https://movie.douban.com/j/subject_suggest?q=${encodeURIComponent(cleanTitle)}`;
+        console.log(`[豆瓣] 开始搜索: ${title}`);
+        const url = `https://movie.douban.com/j/subject_suggest?q=${encodeURIComponent(title)}`;
         
         const response = await Widget.http.get(url, {
             headers: {
@@ -1003,12 +1260,12 @@ async function getDoubanDetail(title) {
         });
 
         if (!response?.data?.length) {
-            throw new Error("[豆瓣] 未找到匹配的影视作品");
+            throw new Error("未找到匹配的影视作品");
         }
 
         const exactMatch = response.data.find(item => {
             const name = (item.sub_title || item.title).toLowerCase();
-            return name === cleanTitle.toLowerCase();
+            return name === title.toLowerCase();
         });
 
         if (!exactMatch) {
@@ -1016,17 +1273,19 @@ async function getDoubanDetail(title) {
             return null;
         }
 
+        console.log(`[豆瓣] 找到匹配结果: ${exactMatch.title}`);
         return {
             id: exactMatch.id || "",
             type: "douban",
             title: exactMatch.title || "",
             posterPath: exactMatch.img || "",
             backdropPath: exactMatch.img || "",
-            releaseDate: exactMatch.year || ""
+            releaseDate: exactMatch.year || "",
+            mediaType: exactMatch.type || "movie"
         };
 
     } catch (error) {
-        console.error(`[豆瓣] 获取失败: ${error.message}`);
+        console.error(`[豆瓣] 搜索失败: ${error.message}`);
         throw error;
     }
 }
