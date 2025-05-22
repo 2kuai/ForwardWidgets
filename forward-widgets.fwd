@@ -11,6 +11,15 @@
       "version": "1.0.7",
       "author": "两块",
       "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/HotPicks.js"
+    },
+    {
+      "id": "tv_live",
+      "title": "电视台",
+      "description": "获取热门电视直播频道",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "两块",
+      "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/TvLive.js"
     }
   ]
 }
