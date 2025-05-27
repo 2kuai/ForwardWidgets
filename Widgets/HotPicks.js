@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.0.9",
+  version: "1.1.0",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -49,6 +49,15 @@ var WidgetMetadata = {
       requiresWebView: false,
       functionName: "getPreferenceRecommendations",
       params: [
+        {
+          name: "source",
+          title: "来源",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣", value: "douban" },
+            { title: "TMDB", value: "tmdb" }
+          ]
+        },
         {
           name: "mediaType",
           title: "类别",
@@ -320,7 +329,8 @@ var WidgetMetadata = {
           type: "enumeration",
           enumOptions: [
             { value: "nowplaying", title: "正在上映" },
-            { value: "later", title: "即将上映" }
+            { value: "later", title: "即将上映" },
+            { value: "historyRank", title: "历史票房榜单" }
           ]
         },
         {
@@ -414,7 +424,6 @@ var WidgetMetadata = {
   ]
 };
 
-
 // 实时榜单
 async function getTVRanking(params = {}) {
     try {
@@ -481,8 +490,8 @@ async function getPreferenceRecommendations(params = {}) {
             }
         }
         if (params.tags) {
-          const customTagsArray = params.tags.split(',').filter(tag => tag.trim() !== '');
-          tags_sub.push(...customTagsArray);
+            const customTagsArray = params.tags.split(',').filter(tag => tag.trim() !== '');
+            tags_sub.push(...customTagsArray);
         }
 
         const limit = 20;
@@ -501,19 +510,26 @@ async function getPreferenceRecommendations(params = {}) {
         const validItems = response.data.items.filter(item => item.card === "subject");
 
         if (!validItems.length) throw new Error("未找到有效的影视作品");
-
-        return validItems.map(item => ({
-            id: item.id || "",
-            type: "douban",
-            title: item.title || "未知标题",
-            coverUrl: item.pic?.normal || "",
-            mediaType: params.mediaType
-        }));
+        
+        if (params.source === "douban") {
+            return validItems.map(item => ({
+                id: item.id || "",
+                type: "douban",
+                title: item.title || "未知标题",
+                coverUrl: item.pic?.normal || "",
+                mediaType: params.mediaType
+            }));
+        } else {
+            return await Promise.all(validItems.map(async item => {
+                return await getTmdbDetail(item.title, params.mediaType);
+            }));
+        }
 
     } catch (error) {
         throw error;
     }
-} 
+}
+
 
 // 电影推荐
 async function getHotMovies(params = {}) {
@@ -1028,6 +1044,14 @@ async function getSuspenseTheater(params = {}) {
 async function getMovies(params = {}) {
   try {
     const type = params.type;
+    
+    // 处理票房榜单数据
+    if (type === "historyRank") {
+      return await getHistoryRank(params);
+    } else if (type === "todayRank") {
+      return await getTodayRank(params);
+    }
+    
     console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
 
     const url = `https://movie.douban.com/cinema/${type}/shanghai/`;
@@ -1092,6 +1116,64 @@ async function getMovies(params = {}) {
     return results;
   } catch (error) {
     console.error(`[电影列表] 获取失败: ${error.message}`);
+    throw error;
+  }
+}
+
+// 票房榜单
+async function getHistoryRank(params = {}) {
+  try {
+    const response = await Widget.http.get("https://piaofang.maoyan.com/i/globalBox/historyRank", {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
+      }
+    });
+    
+    // 解析HTML内容
+    const $ = Widget.html.load(response.data);
+    const movies = [];
+    
+    // 获取所有榜单项
+    $(".movie-item").each((index, element) => {
+      const $item = $(element);
+      const title = $item.find(".movie-name").text().trim();
+      const releaseYear = $item.find(".movie-year").text().trim();
+      
+      if (title) movies.push(`${title}（${releaseYear}）`);
+
+    });
+    
+    // 分页处理
+    const offset = Number(params.offset) || 0;
+    const limit = 10;
+    const paginatedMovies = movies.slice(offset, offset + limit);
+    
+    if (paginatedMovies.length === 0 && offset > 0) {
+      throw new Error("没有更多数据");
+    }
+    
+    // 获取 TMDB 详情（只返回 TMDB 数据）
+    const tmdbResults = await Promise.all(
+      paginatedMovies.map(async (movie) => {
+        try {
+          // 调用 getTmdbDetail，传入原始标题（如 "2029阿凡达"）
+          const tmdbDetail = await getTmdbDetail(movie, "movie");
+          
+          if (tmdbDetail) {
+            return tmdbDetail; // 直接返回 TMDB 数据
+          }
+          return null;
+        } catch (error) {
+          console.error(`获取电影[${movie.originalTitle}]详情失败:`, error);
+          return null;
+        }
+      })
+    ).then(results => results.filter(Boolean)); // 过滤掉 null 值
+    
+    return tmdbResults;
+  } catch (error) {
+    console.error("获取历史票房榜单失败:", error);
     throw error;
   }
 }
@@ -1179,113 +1261,64 @@ async function getDouban2024(options = {}) {
   }
 }
 
-// 通用剧名查询
-async function getTmdbDetail(title, mediaType) {
-    if (!title?.trim() || !['tv', 'movie'].includes(mediaType)) {
-        console.error(`[TMDB精确查询] 参数错误: title 不能为空，mediaType 必须为 'tv' 或 'movie'`);
-        return null;
+// 通用剧名查询，例如：await getTmdbDetail("阿凡达（2019）", "movie")
+const getTmdbDetail = async (title, mediaType) => {
+  if (!title?.trim() || !['tv', 'movie'].includes(mediaType)) {
+    console.error(`[TMDB] 参数错误: mediaType 必须为 'tv' 或 'movie'`);
+    return null;
+  }
+
+  const yearMatch = title.match(/\b(19|20)\d{2}\b/)?.[0];
+
+  const cleanTitle = title
+    .replace(/([（(][^）)]*[)）])/g, '') // 移除中文括号及内容
+    .replace(/剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版/g, '') // 移除不需要的部分
+    .replace(/第[0-9一二三四五六七八九十]+季/g, '') // 移除季信息
+    .trim();
+
+  try {        
+    const params = {
+      query: cleanTitle,
+      language: "zh_CN"
+    };
+
+    if (yearMatch) {
+      params.year = yearMatch;
     }
 
-    const yearMatch = title.match(/\b(19|20)\d{2}\b/)?.[0] || "";
+    const response = await Widget.tmdb.get(`/search/${mediaType}`, {params});
 
-    const cleanTitle = title
-        .replace(/([（(][^）)]*[)）]|剧场版|特别篇|动态漫|中文配音|中配|粤语版|国语版|\s+[^\s]+篇|第[0-9一二三四五六七八九十]+季)/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-    try {
-        const api = `/search/${mediaType}?query=${encodeURIComponent(cleanTitle)}&year=${yearMatch}&language=zh-CN`;
-        const response = await Widget.tmdb.get(api);
-        
-        if (!response?.results?.length) {
-            console.log(`[TMDB] 无返回数据，尝试使用豆瓣搜索: ${title}`);
-            return await getDoubanDetail(cleanTitle);
-        }
-
-        const exactMatch = response.results.find(item => {
-            const name = (item.name || item.title || "").toLowerCase();
-            const original = (item.original_name || item.original_title || "").toLowerCase();
-            const lowerCleanTitle = cleanTitle.toLowerCase();
-            return name === lowerCleanTitle || original === lowerCleanTitle;
-        });
-
-        if (!exactMatch) {
-            console.log(`[TMDB] 没有精确匹配结果，尝试使用豆瓣搜索: ${title}`);
-            const doubanResult = await getDoubanDetail(cleanTitle);
-            if (doubanResult) {
-                console.log(`[豆瓣] 成功找到匹配结果: ${title}`);
-                return doubanResult;
-            }
-            return null;
-        }
-
-        console.log(`[TMDB] 成功找到匹配结果: ${title}`);
-        return {
-            id: exactMatch.id,
-            type: "tmdb",
-            title: exactMatch.name || exactMatch.title || title,
-            originalTitle: exactMatch.original_name || exactMatch.original_title || "",
-            posterPath: exactMatch.poster_path ? `https://image.tmdb.org/t/p/original${exactMatch.poster_path}` : "",
-            backdropPath: exactMatch.backdrop_path ? `https://image.tmdb.org/t/p/original${exactMatch.backdrop_path}` : "",
-            description: exactMatch.overview || "暂无描述",
-            releaseDate: exactMatch.first_air_date || exactMatch.release_date || "",
-            mediaType: mediaType,
-            rating: exactMatch.vote_average ? exactMatch.vote_average.toFixed(1) : ""
-        };
-
-    } catch (error) {
-        console.error(`[TMDB] 请求失败: ${error.message}，尝试使用豆瓣搜索`);
-        try {
-            return await getDoubanDetail(cleanTitle);
-        } catch (doubanError) {
-            console.error(`[豆瓣] 请求也失败: ${doubanError.message}`);
-            return null;
-        }
+    if (!response?.results?.length) {
+      console.log(`[TMDB] 无返回数据`);
+      return null;
     }
-}
 
-async function getDoubanDetail(title) {
-    try {
-        if (!title?.trim()) throw new Error("标题不能为空");
+    const exactMatch = response.results.find(
+      item => 
+        (item.name === cleanTitle || item.title === cleanTitle) ||
+        (item.original_name === cleanTitle || item.original_title === cleanTitle)
+    );
 
-        console.log(`[豆瓣] 开始搜索: ${title}`);
-        const url = `https://movie.douban.com/j/subject_suggest?q=${encodeURIComponent(title)}`;
-        
-        const response = await Widget.http.get(url, {
-            headers: {
-                "User-Agent": USER_AGENT,
-                "Referer": "https://movie.douban.com/",
-                "Accept": "application/json, text/javascript, */*; q=0.01"
-            }
-        });
-
-        if (!response?.data?.length) {
-            throw new Error("未找到匹配的影视作品");
-        }
-
-        const exactMatch = response.data.find(item => {
-            const name = (item.sub_title || item.title).toLowerCase();
-            return name === title.toLowerCase();
-        });
-
-        if (!exactMatch) {
-            console.log(`[豆瓣] 没有精确匹配结果: ${title}`);
-            return null;
-        }
-
-        console.log(`[豆瓣] 找到匹配结果: ${exactMatch.title}`);
-        return {
-            id: exactMatch.id || "",
-            type: "douban",
-            title: exactMatch.title || "",
-            posterPath: exactMatch.img || "",
-            backdropPath: exactMatch.img || "",
-            releaseDate: exactMatch.year || "",
-            mediaType: exactMatch.type || "movie"
-        };
-
-    } catch (error) {
-        console.error(`[豆瓣] 搜索失败: ${error.message}`);
-        throw error;
+    if (exactMatch) {
+      return formatTmdbResult(exactMatch, mediaType);
     }
-}
+
+    return formatTmdbResult(response.results[0], mediaType);
+  } catch (error) {
+    console.error(`[TMDB] 请求失败: ${error.message}`);
+    return null;
+  }
+};
+
+// 辅助函数：格式化 TMDB 返回的结果
+const formatTmdbResult = (item, mediaType) => ({
+  id: item.id,
+  type: "tmdb",
+  title: item.name ?? item.title,
+  description: item.overview,
+  posterPath: item.poster_path,
+  backdropPath: item.backdrop_path,
+  releaseDate: item.first_air_date ?? item.release_date,
+  rating: item.vote_average,
+  mediaType: mediaType
+});
