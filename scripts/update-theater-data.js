@@ -1,9 +1,11 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const fs = require('fs');
+const fs = require('fs').promises;
 const path = require('path');
 
 const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
+const TMDB_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NzE0YWYxZGMwZDA3ZjVkODA1ZDEzNGQwMGZkZGM5ZCIsIm5iZiI6MTc0MzI1NDg0NS4wNCwic3ViIjoiNjdlN2Y1M2RiNTY1NWFhYzQyNjM4ODk2Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.rBotPSAvlgM8mMWI4_NVLEU-ssD9plLdA-r17bPA3aA';
+const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 
 async function fetchMistTheaterData() {
   try {
@@ -170,43 +172,95 @@ async function fetchXTheaterData() {
   }
 }
 
-async function main() {
-  try {
-    const [mistTheater, whiteNightTheater, seasonWindTheater, xTheater] = await Promise.all([
-      fetchMistTheaterData(),
-      fetchWhiteNightTheaterData(),
-      fetchSeasonWindTheaterData(),
-      fetchXTheaterData()
-    ]);
+async function fetchFromWikipedia() {
+    try {
+        const response = await axios.get('https://zh.wikipedia.org/w/api.php', {
+            params: {
+                action: 'parse',
+                page: '迷雾剧场',
+                format: 'json',
+                prop: 'text',
+                section: 0
+            }
+        });
 
-    const data = {
-      mist_theater: {
-        now_playing: mistTheater
-      },
-      white_night_theater: {
-        now_playing: whiteNightTheater
-      },
-      season_wind_theater: {
-        now_playing: seasonWindTheater
-      },
-      x_theater: {
-        now_playing: xTheater
-      },
-      last_updated: new Date().toISOString()
-    };
-
-    const dataPath = path.join(__dirname, '..', 'data', 'theater_data.json');
-    
-    // 确保目录存在
-    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
-    
-    // 写入数据
-    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-    console.log('剧场数据更新成功');
-  } catch (error) {
-    console.error('更新失败:', error.message);
-    process.exit(1);
-  }
+        const html = response.data.parse.text['*'];
+        const titleYearRegex = /《([^》]+)》\s*\((\d{4})年\)/g;
+        const matches = [...html.matchAll(titleYearRegex)];
+        
+        return matches.map(match => ({
+            title: match[1],
+            year: match[2]
+        }));
+    } catch (error) {
+        console.error('Error fetching from Wikipedia:', error);
+        return [];
+    }
 }
 
-main(); 
+async function searchTMDB(title, year) {
+    try {
+        const response = await axios.get(`${TMDB_BASE_URL}/search/tv`, {
+            params: {
+                api_key: TMDB_API_KEY,
+                query: title,
+                first_air_date_year: year,
+                language: 'zh-CN'
+            }
+        });
+
+        if (response.data.results && response.data.results.length > 0) {
+            const result = response.data.results[0];
+            return {
+                title: result.name,
+                original_title: result.original_name,
+                year: year,
+                poster_path: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
+                overview: result.overview,
+                vote_average: result.vote_average,
+                first_air_date: result.first_air_date
+            };
+        }
+        return null;
+    } catch (error) {
+        console.error(`Error searching TMDB for ${title}:`, error);
+        return null;
+    }
+}
+
+async function updateTheaterData() {
+    try {
+        // 从维基百科获取剧名和年份
+        const wikiData = await fetchFromWikipedia();
+        console.log(`Found ${wikiData.length} shows from Wikipedia`);
+
+        // 使用TMDB API搜索详细信息
+        const shows = [];
+        for (const item of wikiData) {
+            console.log(`Searching TMDB for: ${item.title} (${item.year})`);
+            const tmdbData = await searchTMDB(item.title, item.year);
+            if (tmdbData) {
+                shows.push(tmdbData);
+            }
+            // 添加延迟以避免API限制
+            await new Promise(resolve => setTimeout(resolve, 250));
+        }
+
+        // 保存数据
+        const data = {
+            last_updated: new Date().toISOString(),
+            shows: shows
+        };
+
+        const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
+        await fs.mkdir(path.dirname(outputPath), { recursive: true });
+        await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
+        
+        console.log(`Successfully updated theater data with ${shows.length} shows`);
+    } catch (error) {
+        console.error('Error updating theater data:', error);
+        process.exit(1);
+    }
+}
+
+updateTheaterData(); 
