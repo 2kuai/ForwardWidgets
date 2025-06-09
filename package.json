@@ -8,7 +8,6 @@
     "update-theater-data": "node scripts/update-theater-data.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12"
+    "axios": "^1.6.0"
   }
 } 
