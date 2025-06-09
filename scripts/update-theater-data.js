@@ -1,5 +1,4 @@
 import axios from 'axios';
-import cheerio from 'cheerio';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -20,7 +19,6 @@ async function fetchMistTheaterData() {
       }
     });
 
-    const $ = cheerio.load(response.data);
     const elements = $('.qy-mod-list .qy-mod-li');
     
     if (!elements.length) {
