@@ -1,0 +1,36 @@
+name: Update Theater Data
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 每6小时运行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: |
+          npm install axios cheerio
+          
+      - name: Create data directory
+        run: mkdir -p data
+        
+      - name: Update theater data
+        run: |
+          node scripts/update-theater-data.js
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/theater_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data" && git push) 
