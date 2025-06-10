@@ -173,7 +173,7 @@ async function fetchWhiteNightTheaterTitles() {
 
 async function fetchMonsoonTheaterTitles() {
     try {
-        console.log('Fetching 季风剧场 data from Wikipedia...');
+        console.log('Fetching 季风剧场 data from Wikipedia (section 2 only)...');
         const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
             params: {
                 action: 'parse',
@@ -197,81 +197,50 @@ async function fetchMonsoonTheaterTitles() {
         const airedShows = [];
         const upcomingShows = [];
         
-        // 处理已播剧目（section 2）
-        const airedTable = $('table.wikitable').first();
-        if (airedTable.length) {
-            console.log('Processing aired shows table for 季风剧场');
-            $(airedTable).find('tr').slice(1).each((rowIndex, row) => {
+        const mainTable = $('table.wikitable').first();
+        if (mainTable.length) {
+            console.log('Processing combined table for 季风剧场');
+            
+            $(mainTable).find('tr').slice(1).each((rowIndex, row) => {
                 const columns = $(row).find('td');
                 if (columns.length >= 4) {
                     const dateText = $(columns[0]).text().trim();
                     const titleLink = $(columns[1]).find('a').first();
                     const title = titleLink.text().trim().replace(/^《|》$/g, '');
                     
-                    const yearMatch = dateText.match(/(\d{4})年/);
-                    const year = yearMatch ? yearMatch[1] : '';
-                    
-                    if (title && year) {
-                        const monthDayMatch = dateText.match(/(\d{1,2})月(\d{1,2})日/);
-                        let airDate = `${year}-01-01`;
-                        if (monthDayMatch) {
-                            airDate = `${year}-${monthDayMatch[1].padStart(2, '0')}-${monthDayMatch[2].padStart(2, '0')}`;
-                        }
-                        
-                        airedShows.push({
+                    // 判断是已播还是待播
+                    if (dateText.includes('待定') || dateText.includes('预计')) {
+                        // 待播剧目处理
+                        upcomingShows.push({
                             title: title,
-                            year: year,
-                            air_date: airDate,
                             actors: $(columns[2]).text().trim(),
                             notes: $(columns[3]).text().trim(),
                             source: '季风剧场'
                         });
+                    } else {
+                        // 已播剧目处理
+                        const yearMatch = dateText.match(/(\d{4})年/);
+                        const year = yearMatch ? yearMatch[1] : '';
+                        
+                        if (title && year) {
+                            const monthDayMatch = dateText.match(/(\d{1,2})月(\d{1,2})日/);
+                            let airDate = `${year}-01-01`;
+                            if (monthDayMatch) {
+                                airDate = `${year}-${monthDayMatch[1].padStart(2, '0')}-${monthDayMatch[2].padStart(2, '0')}`;
+                            }
+                            
+                            airedShows.push({
+                                title: title,
+                                year: year,
+                                air_date: airDate,
+                                actors: $(columns[2]).text().trim(),
+                                notes: $(columns[3]).text().trim(),
+                                source: '季风剧场'
+                            });
+                        }
                     }
                 }
             });
-        }
-
-        // 获取待播剧目（section 3）
-        try {
-            console.log('Fetching upcoming shows for 季风剧场...');
-            const upcomingResponse = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-                params: {
-                    action: 'parse',
-                    page: '芒果季风计划',
-                    format: 'json',
-                    prop: 'text',
-                    section: 3
-                },
-                timeout: 10000
-            });
-
-            if (upcomingResponse.data && upcomingResponse.data.parse && upcomingResponse.data.parse.text) {
-                const upcomingHtml = upcomingResponse.data.parse.text['*'];
-                const $upcoming = cheerio.load(upcomingHtml);
-                
-                const upcomingTable = $upcoming('table.wikitable').first();
-                if (upcomingTable.length) {
-                    console.log('Processing upcoming shows table for 季风剧场');
-                    $(upcomingTable).find('tr').slice(1).each((rowIndex, row) => {
-                        const columns = $(row).find('td');
-                        if (columns.length >= 2) {
-                            const titleLink = $(columns[0]).find('a').first();
-                            const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                            
-                            if (title) {
-                                upcomingShows.push({
-                                    title: title,
-                                    actors: $(columns[1]).text().trim(),
-                                    notes: columns.length >= 3 ? $(columns[2]).text().trim() : '',
-                                    source: '季风剧场'
-                                });
-                            }
-                        }
-                    });
-                }
-            }
-        } catch (error) {
-            console.error('Error fetching upcoming shows for 季风剧场:', error.message);
         }
         
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
@@ -335,47 +304,42 @@ async function searchTMDB(title, year = null) {
 
 async function updateTheaterData() {
     try {
-        // 获取迷雾剧场数据
-        const mistTheater = await fetchMistTheaterTitles();
-        // 获取白夜剧场数据
-        const whiteNightTheater = await fetchWhiteNightTheaterTitles();
-        // 获取季风剧场数据
-        const monsoonTheater = await fetchMonsoonTheaterTitles();
+        // 获取三个剧场的数据
+        const [mistTheater, whiteNightTheater, monsoonTheater] = await Promise.all([
+            fetchMistTheaterTitles(),
+            fetchWhiteNightTheaterTitles(),
+            fetchMonsoonTheaterTitles()
+        ]);
         
         console.log(`Final counts before TMDB search:
         - 迷雾剧场: ${mistTheater.airedShows.length} aired, ${mistTheater.upcomingShows.length} upcoming
         - 白夜剧场: ${whiteNightTheater.airedShows.length} aired, ${whiteNightTheater.upcomingShows.length} upcoming
         - 季风剧场: ${monsoonTheater.airedShows.length} aired, ${monsoonTheater.upcomingShows.length} upcoming`);
         
-        // 合并三个剧场的数据
+        // 合并数据
         const allAiredShows = [...mistTheater.airedShows, ...whiteNightTheater.airedShows, ...monsoonTheater.airedShows];
         const allUpcomingShows = [...mistTheater.upcomingShows, ...whiteNightTheater.upcomingShows, ...monsoonTheater.upcomingShows];
         
-        // Process aired shows
-        const processedAiredShows = [];
-        for (const item of allAiredShows) {
-            const tmdbData = await searchTMDB(item.title, item.year);
-            if (tmdbData) {
-                processedAiredShows.push({
-                    ...tmdbData,
-                    source: item.source
-                });
+        // 并行处理TMDB搜索（限制并发数）
+        const processBatch = async (items, isAired) => {
+            const results = [];
+            for (const item of items) {
+                const tmdbData = await searchTMDB(item.title, isAired ? item.year : null);
+                if (tmdbData) {
+                    results.push({
+                        ...tmdbData,
+                        source: item.source
+                    });
+                }
+                await new Promise(resolve => setTimeout(resolve, 250)); // 限流
             }
-            await new Promise(resolve => setTimeout(resolve, 250));
-        }
-        
-        // Process upcoming shows
-        const processedUpcomingShows = [];
-        for (const item of allUpcomingShows) {
-            const tmdbData = await searchTMDB(item.title);
-            if (tmdbData) {
-                processedUpcomingShows.push({
-                    ...tmdbData,
-                    source: item.source
-                });
-            }
-            await new Promise(resolve => setTimeout(resolve, 250));
-        }
+            return results;
+        };
+
+        const [processedAiredShows, processedUpcomingShows] = await Promise.all([
+            processBatch(allAiredShows, true),
+            processBatch(allUpcomingShows, false)
+        ]);
         
         const data = {
             last_updated: new Date().toISOString(),
@@ -391,13 +355,18 @@ async function updateTheaterData() {
         - ${processedAiredShows.length} aired shows
         - ${processedUpcomingShows.length} upcoming shows`);
         
-        // 调试：输出部分数据样本
-        console.log('Sample aired shows:', processedAiredShows.slice(0, 3));
-        console.log('Sample upcoming shows:', processedUpcomingShows.slice(0, 3));
+        return data;
     } catch (error) {
         console.error('Error updating data:', error);
-        process.exit(1);
+        throw error;
     }
 }
 
-updateTheaterData();
+// 执行更新
+updateTheaterData().then(data => {
+    console.log('Data update completed');
+    process.exit(0);
+}).catch(err => {
+    console.error('Data update failed:', err);
+    process.exit(1);
+});
