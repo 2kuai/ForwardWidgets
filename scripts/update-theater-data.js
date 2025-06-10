@@ -36,10 +36,6 @@ async function fetchMistTheaterTitles() {
         const airedShows = [];
         const upcomingShows = [];
         
-        // 调试：输出HTML片段检查
-        // console.log('Sample HTML:', html.substring(0, 500));
-        
-        // 迷雾剧场处理逻辑 - 表格形式
         const tables = $('table.wikitable');
         console.log(`Found ${tables.length} tables in 迷雾剧场 section`);
         
@@ -135,32 +131,35 @@ async function fetchWhiteNightTheaterTitles() {
         const $ = cheerio.load(html);
         if (!$) throw new Error("解析 HTML 失败");
         
-        // 调试：输出HTML片段检查
-        // console.log('Sample HTML:', html.substring(0, 500));
-        
-        const dramaList = [];
+        const airedShows = [];
+        const upcomingShows = [];
         const listItems = $('.div-col ul li');
         console.log(`Found ${listItems.length} list items in 白夜剧场 section`);
         
         listItems.each((index, element) => {
             const liText = $(element).text().trim();
-            if (liText.startsWith('待定：')) return;
-            
             const match = liText.match(/《([^》]+)》/);
+            
             if (match && match[1]) {
-                dramaList.push({
+                const showData = {
                     title: match[1].trim(),
                     source: '白夜剧场'
-                });
+                };
+                
+                if (liText.startsWith('待定：')) {
+                    upcomingShows.push(showData);
+                } else {
+                    airedShows.push(showData);
+                }
             } else {
                 console.log(`No title found in list item: ${liText}`);
             }
         });
         
-        console.log(`Found ${dramaList.length} shows in 白夜剧场`);
+        console.log(`Found in 白夜剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
         return { 
-            airedShows: dramaList,
-            upcomingShows: [] 
+            airedShows,
+            upcomingShows
         };
     } catch (error) {
         console.error('Error fetching 白夜剧场 from Wikipedia:', error.message);
@@ -199,7 +198,6 @@ async function searchTMDB(title, year = null) {
                 id: result.id,
                 type: "tmdb",
                 title: result.name,
-                original_title: result.original_name,
                 description: result.overview,
                 posterPath: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
                 backdropPath: result.backdrop_path ? `https://image.tmdb.org/t/p/w500${result.backdrop_path}` : null,
