@@ -171,7 +171,6 @@ async function fetchWhiteNightTheaterTitles() {
     }
 }
 
-
 async function fetchMonsoonTheaterTitles() {
     try {
         console.log('Fetching 季风剧场 data from Wikipedia');
@@ -199,103 +198,84 @@ async function fetchMonsoonTheaterTitles() {
         
         const airedShows = [];
         const upcomingShows = [];
+        let currentYear = '';
         
         // 处理电视剧表格
-        $('table.wikitable').each((tableIndex, table) => {
-            let isPendingSection = false;
-            let currentYear = '';
+        $('table.wikitable').first().find('tr').each((rowIndex, row) => {
+            const columns = $(row).find('td, th');
             
-            $(table).find('tr').each((rowIndex, row) => {
-                // 检查是否是年份行（包含rowspan）
-                const yearRow = $(row).find('td[rowspan]');
-                if (yearRow.length > 0) {
-                    const yearText = yearRow.text().trim();
-                    if (yearText.includes('待播映')) {
-                        isPendingSection = true;
-                        currentYear = '待播';
-                    } else {
-                        const yearMatch = yearText.match(/(\d{4})年/);
-                        currentYear = yearMatch ? yearMatch[1] : '';
-                        isPendingSection = false;
-                    }
-                    return;
+            // 检查是否是年份行（包含rowspan）
+            const yearCell = $(row).find('td[rowspan], th[rowspan]');
+            if (yearCell.length > 0) {
+                const yearText = yearCell.text().trim();
+                if (yearText.includes('待播映')) {
+                    currentYear = '待播映';
+                } else {
+                    const yearMatch = yearText.match(/(\d{4})年/);
+                    currentYear = yearMatch ? yearMatch[1] : '';
                 }
+                return;
+            }
+            
+            if (columns.length >= 4) {
+                const titleLink = $(columns[0]).find('a').first();
+                const title = titleLink.text().trim().replace(/^《|》$/g, '');
                 
-                const columns = $(row).find('td');
-                if (columns.length >= 4) {
-                    const titleLink = $(columns[0]).find('a').first();
-                    const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                    
-                    if (!title) return;
-                    
-                    const showData = {
-                        title: title,
-                        actors: $(columns[2]).text().trim(),
-                        notes: $(columns[3]).text().trim(),
-                        source: '季风剧场'
-                    };
-                    
-                    if (isPendingSection || currentYear === '待播') {
-                        upcomingShows.push(showData);
-                    } else {
+                if (!title) return;
+                
+                const status = $(columns[1]).text().trim();
+                const showData = {
+                    title: title,
+                    actors: $(columns[2]).text().trim(),
+                    notes: $(columns[3]).text().trim(),
+                    source: '季风剧场'
+                };
+                
+                if (currentYear === '待播映' || status === '待播映') {
+                    upcomingShows.push(showData);
+                } else {
+                    if (currentYear) {
                         showData.year = currentYear;
-                        showData.air_date = `${currentYear}-01-01`; // 默认日期
-                        airedShows.push(showData);
+                        showData.air_date = `${currentYear}-01-01`;
                     }
+                    airedShows.push(showData);
                 }
-            });
+            }
         });
         
-        // 尝试获取网络剧数据
-        try {
-            const networkResponse = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-                params: {
-                    action: 'parse',
-                    page: '芒果季风计划',
-                    format: 'json',
-                    prop: 'text',
-                    section: 3
-                },
-                timeout: 10000
-            });
-
-            if (networkResponse.data?.parse?.text?.['*']) {
-                const networkHtml = networkResponse.data.parse.text['*'];
-                const $network = cheerio.load(networkHtml);
+        // 处理网络剧表格
+        $('table.wikitable').last().find('tr').each((rowIndex, row) => {
+            const columns = $(row).find('td, th');
+            
+            if (rowIndex === 0) return; // 跳过表头
+            
+            if (columns.length >= 4) {
+                const titleLink = $(columns[0]).find('a').first();
+                const title = titleLink.text().trim().replace(/^《|》$/g, '');
                 
-                $network('table.wikitable').each((tableIndex, table) => {
-                    $network(table).find('tr').each((rowIndex, row) => {
-                        const columns = $network(row).find('td');
-                        if (columns.length >= 2) {
-                            const status = $network(columns[1]).text().trim();
-                            if (status.includes('待播映')) {
-                                const titleLink = $network(columns[0]).find('a').first();
-                                const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                                
-                                if (title) {
-                                    upcomingShows.push({
-                                        title: title,
-                                        source: '季风剧场(网络剧)'
-                                    });
-                                }
-                            } else if (status.includes('播映完毕')) {
-                                const titleLink = $network(columns[0]).find('a').first();
-                                const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                                
-                                if (title) {
-                                    airedShows.push({
-                                        title: title,
-                                        source: '季风剧场(网络剧)'
-                                    });
-                                }
-                            }
-                        }
-                    });
-                });
+                if (!title) return;
+                
+                const status = $(columns[1]).text().trim();
+                const showData = {
+                    title: title,
+                    actors: $(columns[2]).text().trim(),
+                    notes: $(columns[3]).text().trim(),
+                    source: '季风剧场'
+                };
+                
+                if (status.includes('待播') || status.includes('即将播出')) {
+                    upcomingShows.push(showData);
+                } else {
+                    // 尝试从备注中提取年份
+                    const yearMatch = $(columns[3]).text().match(/(\d{4})年/);
+                    if (yearMatch) {
+                        showData.year = yearMatch[1];
+                        showData.air_date = `${yearMatch[1]}-01-01`;
+                    }
+                    airedShows.push(showData);
+                }
             }
-        } catch (error) {
-            console.error('Error fetching network dramas:', error.message);
-        }
+        });
         
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
         return { 
