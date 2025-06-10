@@ -26,7 +26,6 @@ async function fetchMistTheaterTitles() {
         
         const airedShows = [];
         const upcomingShows = [];
-        const currentDate = new Date();
         
         // Process aired shows (from tables with date columns)
         $('table.wikitable').has('th:contains("首播日期")').each((tableIndex, table) => {
@@ -94,7 +93,6 @@ async function searchTMDB(title, year = null) {
             language: 'zh-CN'
         };
         
-        // Only add year parameter if provided
         if (year) {
             params.first_air_date_year = year;
         }
@@ -109,13 +107,17 @@ async function searchTMDB(title, year = null) {
         if (response.data.results && response.data.results.length > 0) {
             const result = response.data.results[0];
             return {
+                id: result.id,
+                type: "tmdb",
                 title: result.name,
                 original_title: result.original_name,
-                year: result.first_air_date ? result.first_air_date.substring(0, 4) : year || '',
-                poster_path: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
-                overview: result.overview,
-                vote_average: result.vote_average,
-                first_air_date: result.first_air_date
+                description: result.overview,
+                posterPath: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
+                backdropPath: result.backdrop_path ? `https://image.tmdb.org/t/p/w500${result.backdrop_path}` : null,
+                releaseDate: result.first_air_date,
+                rating: result.vote_average,
+                mediaType: "tv",
+                source: '迷雾剧场'
             };
         }
         return null;
@@ -127,12 +129,11 @@ async function searchTMDB(title, year = null) {
 
 async function updateTheaterData() {
     try {
-        // Fetch data for 迷雾剧场
         const mistTheater = await fetchMistTheaterTitles();
         
         console.log(`Found ${mistTheater.airedShows.length} aired shows and ${mistTheater.upcomingShows.length} upcoming shows`);
         
-        // Process aired shows with year parameter
+        // Process aired shows - 只保留找到TMDB数据的
         const processedAiredShows = [];
         for (const item of mistTheater.airedShows) {
             console.log(`Searching TMDB for aired show: ${item.title} (${item.year})`);
@@ -142,39 +143,32 @@ async function updateTheaterData() {
                     ...tmdbData,
                     actors: item.actors,
                     notes: item.notes,
-                    air_date: item.air_date,
-                    source: item.source
+                    air_date: item.air_date
                 });
+            } else {
+                console.log(`No TMDB data found for aired show: ${item.title}`);
             }
-            await new Promise(resolve => setTimeout(resolve, 250)); // Rate limiting
+            await new Promise(resolve => setTimeout(resolve, 250));
         }
         
-        // Process upcoming shows without year parameter
+        // Process upcoming shows - 只保留找到TMDB数据的
         const processedUpcomingShows = [];
         for (const item of mistTheater.upcomingShows) {
             console.log(`Searching TMDB for upcoming show: ${item.title}`);
-            const tmdbData = await searchTMDB(item.title); // No year parameter
+            const tmdbData = await searchTMDB(item.title);
             
             if (tmdbData) {
                 processedUpcomingShows.push({
                     ...tmdbData,
                     actors: item.actors,
-                    notes: item.notes,
-                    source: item.source
+                    notes: item.notes
                 });
             } else {
-                // Fallback to basic info if no TMDB data found
-                processedUpcomingShows.push({
-                    title: item.title,
-                    actors: item.actors,
-                    notes: item.notes,
-                    source: item.source
-                });
+                console.log(`No TMDB data found for upcoming show: ${item.title}`);
             }
-            await new Promise(resolve => setTimeout(resolve, 250)); // Rate limiting
+            await new Promise(resolve => setTimeout(resolve, 250));
         }
         
-        // Structure the final data
         const data = {
             last_updated: new Date().toISOString(),
             aired_shows: processedAiredShows,
@@ -186,13 +180,12 @@ async function updateTheaterData() {
         await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
         
         console.log(`Successfully updated data with:
-        - ${processedAiredShows.length} aired shows
-        - ${processedUpcomingShows.length} upcoming shows`);
+        - ${processedAiredShows.length} aired shows (${mistTheater.airedShows.length - processedAiredShows.length} not found in TMDB)
+        - ${processedUpcomingShows.length} upcoming shows (${mistTheater.upcomingShows.length - processedUpcomingShows.length} not found in TMDB)`);
     } catch (error) {
         console.error('Error updating data:', error);
         process.exit(1);
     }
 }
 
-// Execute the update
 updateTheaterData();
