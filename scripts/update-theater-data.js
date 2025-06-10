@@ -205,6 +205,7 @@ async function fetchMonsoonTheaterTitles() {
             const tvTable = tables.first();
             let currentYear = '';
             let isPendingSection = false;
+            let rowspanCount = 0;
 
             tvTable.find('tr').each((rowIndex, row) => {
                 const columns = $(row).find('td, th');
@@ -216,10 +217,12 @@ async function fetchMonsoonTheaterTitles() {
                     if (yearText.includes('待播映')) {
                         isPendingSection = true;
                         currentYear = '';
+                        rowspanCount = 0;
                     } else {
                         const yearMatch = yearText.match(/(\d{4})年/);
                         currentYear = yearMatch ? yearMatch[1] : '';
                         isPendingSection = false;
+                        rowspanCount = parseInt(yearCell.attr('rowspan')) || 0;
                     }
                 }
                 
@@ -245,6 +248,11 @@ async function fetchMonsoonTheaterTitles() {
                             showData.air_date = `${currentYear}-01-01`;
                         }
                         airedShows.push(showData);
+                    }
+
+                    // 减少rowspan计数
+                    if (rowspanCount > 0) {
+                        rowspanCount--;
                     }
                 }
             });
