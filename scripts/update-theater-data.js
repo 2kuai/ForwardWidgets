@@ -206,59 +206,41 @@ async function fetchMonsoonTheaterTitles() {
             let currentYear = '';
             let isPendingSection = false;
 
-            // 首先获取所有年份行及其rowspan值
-            const yearRows = [];
             tvTable.find('tr').each((rowIndex, row) => {
+                // 检查是否是年份行
                 const yearCell = $(row).find('[rowspan]').first();
                 if (yearCell.length > 0) {
                     const yearText = yearCell.text().trim();
-                    const rowspan = parseInt(yearCell.attr('rowspan')) || 0;
                     if (yearText.includes('待播映')) {
-                        yearRows.push({ type: 'pending', rowspan: rowspan, startRow: rowIndex });
+                        isPendingSection = true;
+                        currentYear = '';
                     } else {
                         const yearMatch = yearText.match(/(\d{4})年/);
-                        if (yearMatch) {
-                            yearRows.push({ 
-                                type: 'year', 
-                                year: yearMatch[1], 
-                                rowspan: rowspan, 
-                                startRow: rowIndex 
-                            });
-                        }
+                        currentYear = yearMatch ? yearMatch[1] : '';
+                        isPendingSection = false;
                     }
                 }
-            });
 
-            // 处理每一行
-            tvTable.find('tr').each((rowIndex, row) => {
+                // 处理剧集行
                 const columns = $(row).find('td');
                 if (columns.length >= 4) {
-                    // 找到当前行所属的年份
-                    let yearInfo = null;
-                    for (const yr of yearRows) {
-                        if (rowIndex > yr.startRow && rowIndex <= yr.startRow + yr.rowspan) {
-                            yearInfo = yr;
-                            break;
-                        }
-                    }
-
                     const titleLink = $(columns[0]).find('a').first();
                     let title = titleLink.text().trim().replace(/^《|》$/g, '');
                     
                     if (!title) return;
                     
                     const showData = {
-                        title: yearInfo?.type === 'year' ? `${title}（${yearInfo.year}）` : title,
+                        title: currentYear ? `${title}（${currentYear}）` : title,
                         actors: $(columns[2]).text().trim(),
                         notes: $(columns[3]).text().trim(),
                         source: '季风剧场'
                     };
                     
-                    if (yearInfo?.type === 'pending') {
+                    if (isPendingSection) {
                         upcomingShows.push(showData);
-                    } else if (yearInfo?.type === 'year') {
-                        showData.year = yearInfo.year;
-                        showData.air_date = `${yearInfo.year}-01-01`;
+                    } else if (currentYear) {
+                        showData.year = currentYear;
+                        showData.air_date = `${currentYear}-01-01`;
                         airedShows.push(showData);
                     }
                 }
