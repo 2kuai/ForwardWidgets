@@ -203,53 +203,61 @@ async function fetchMonsoonTheaterTitles() {
         // 处理第一个表格（电视剧）
         if (tables.length > 0) {
             const tvTable = tables.first();
-            let currentYear = '';
             let isPendingSection = false;
-            let remainingRows = 0;
-
+            
             tvTable.find('tr').each((rowIndex, row) => {
-                const cells = $(row).find('td, th');
+                const $tds = $(row).find('td');
                 
-                // 检查是否是年份行
-                const yearCell = cells.filter('[rowspan]').first();
-                if (yearCell.length > 0) {
-                    const yearText = yearCell.text().trim();
-                    if (yearText.includes('待播映')) {
+                if ($tds.length > 0) {
+                    const rowText = $(row).text().trim();
+                    
+                    if (rowText.includes('待播映')) {
                         isPendingSection = true;
-                        currentYear = '';
-                        remainingRows = 0;
+                        return;
+                    }
+                    
+                    if (!isPendingSection) {
+                        if (rowIndex > 0) {
+                            const $firstTd = $tds.eq(0);
+                            const $link = $firstTd.find('a').first();
+                            
+                            if ($link.length) {
+                                const title = $link.text().trim();
+                                if (title) {
+                                    const yearMatch = rowText.match(/(\d{4})年/);
+                                    const year = yearMatch ? yearMatch[1] : '';
+                                    
+                                    const showData = {
+                                        title: year ? `${title}（${year}）` : title,
+                                        actors: $tds.eq(2).text().trim(),
+                                        notes: $tds.eq(3).text().trim(),
+                                        source: '季风剧场'
+                                    };
+                                    
+                                    if (year) {
+                                        showData.year = year;
+                                        showData.air_date = `${year}-01-01`;
+                                    }
+                                    
+                                    airedShows.push(showData);
+                                }
+                            }
+                        }
                     } else {
-                        const yearMatch = yearText.match(/(\d{4})年/);
-                        currentYear = yearMatch ? yearMatch[1] : '';
-                        isPendingSection = false;
-                        remainingRows = parseInt(yearCell.attr('rowspan')) || 0;
-                    }
-                }
-
-                // 处理剧集行
-                if (cells.length >= 4) {
-                    const titleLink = $(cells[0]).find('a').first();
-                    let title = titleLink.text().trim().replace(/^《|》$/g, '');
-                    
-                    if (!title) return;
-                    
-                    const showData = {
-                        title: currentYear ? `${title}（${currentYear}）` : title,
-                        actors: $(cells[2]).text().trim(),
-                        notes: $(cells[3]).text().trim(),
-                        source: '季风剧场'
-                    };
-                    
-                    if (isPendingSection) {
-                        upcomingShows.push(showData);
-                    } else if (currentYear) {
-                        showData.year = currentYear;
-                        showData.air_date = `${currentYear}-01-01`;
-                        airedShows.push(showData);
-                    }
-
-                    if (remainingRows > 0) {
-                        remainingRows--;
+                        const $firstTd = $tds.eq(0);
+                        const $link = $firstTd.find('a').first();
+                        
+                        if ($link.length) {
+                            const title = $link.text().trim();
+                            if (title) {
+                                upcomingShows.push({
+                                    title: title,
+                                    actors: $tds.eq(2).text().trim(),
+                                    notes: $tds.eq(3).text().trim(),
+                                    source: '季风剧场'
+                                });
+                            }
+                        }
                     }
                 }
             });
@@ -258,49 +266,38 @@ async function fetchMonsoonTheaterTitles() {
         // 处理第二个表格（网络剧）
         if (tables.length > 1) {
             const webTable = tables.eq(1);
-            let currentStatus = '';
-            let remainingRows = 0;
             
-            webTable.find('tr').each((rowIndex, row) => {
-                const cells = $(row).find('td, th');
+            webTable.find('tr').each((i, row) => {
+                const $tds = $(row).find('td');
                 
-                // 检查是否是状态行
-                const statusCell = cells.filter('[rowspan]').first();
-                if (statusCell.length > 0) {
-                    currentStatus = statusCell.text().trim();
-                    remainingRows = parseInt(statusCell.attr('rowspan')) || 0;
-                }
-
-                // 处理剧集行
-                if (cells.length >= 4) {
-                    const titleLink = $(cells[0]).find('a').first();
-                    let title = titleLink.text().trim().replace(/^《|》$/g, '');
+                if ($tds.length >= 2) {
+                    const status = $tds.eq(1).text().trim();
+                    const $link = $tds.eq(0).find('a').first();
                     
-                    if (!title) return;
-                    
-                    const showData = {
-                        title: title,
-                        actors: $(cells[2]).text().trim(),
-                        notes: $(cells[3]).text().trim(),
-                        source: '季风剧场'
-                    };
-                    
-                    if (currentStatus.includes('待播映')) {
-                        upcomingShows.push(showData);
-                    } else {
-                        // 尝试从备注中提取年份
-                        const yearMatch = $(cells[3]).text().match(/(\d{4})年/);
-                        if (yearMatch) {
-                            const year = yearMatch[1];
-                            showData.year = year;
-                            showData.air_date = `${year}-01-01`;
-                            showData.title = `${title}（${year}）`;
+                    if ($link.length) {
+                        const title = $link.text().trim();
+                        if (title) {
+                            const showData = {
+                                title: title,
+                                actors: $tds.eq(2).text().trim(),
+                                notes: $tds.eq(3).text().trim(),
+                                source: '季风剧场'
+                            };
+                            
+                            if (status.includes('待播映')) {
+                                upcomingShows.push(showData);
+                            } else {
+                                // 尝试从备注中提取年份
+                                const yearMatch = $tds.eq(3).text().match(/(\d{4})年/);
+                                if (yearMatch) {
+                                    const year = yearMatch[1];
+                                    showData.year = year;
+                                    showData.air_date = `${year}-01-01`;
+                                    showData.title = `${title}（${year}）`;
+                                }
+                                airedShows.push(showData);
+                            }
                         }
-                        airedShows.push(showData);
-                    }
-
-                    if (remainingRows > 0) {
-                        remainingRows--;
                     }
                 }
             });
