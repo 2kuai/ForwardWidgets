@@ -198,41 +198,40 @@ async function fetchMonsoonTheaterTitles() {
 
         // 处理电视剧表格
         const tvTable = $('table.wikitable').first();
-        let currentYear = '';
         let isPendingSection = false;
+        
         tvTable.find('tr').each((rowIndex, row) => {
             const $ths = $(row).find('th');
             const $tds = $(row).find('td');
-            // 检查是否是年份或待播映行
+            
+            // 检查是否是待播映行
             const yearCell = $ths.filter('[rowspan]').first();
             if (yearCell.length > 0) {
                 const yearText = yearCell.text().trim();
-                if (yearText.includes('待播映')) {
-                    isPendingSection = true;
-                    currentYear = '';
-                } else {
-                    const yearMatch = yearText.match(/(\d{4})年/);
-                    currentYear = yearMatch ? yearMatch[1] : '';
-                    isPendingSection = false;
-                }
+                isPendingSection = yearText.includes('待播映');
             }
+            
             if ($tds.length > 0) {
                 const $firstTd = $tds.eq(0);
                 const $link = $firstTd.find('a').first();
+                
                 if ($link.length) {
-                    const title = $link.text().trim();
+                    const title = $firstTd.text().trim()
+                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
+                        .replace(/[《》]/g, '') // 移除书名号
+                        .trim();
+                        
                     if (title) {
                         const showData = {
-                            title: currentYear ? `${title}（${currentYear}）` : title,
+                            title: title,
                             actors: $tds.eq(2).text().trim(),
                             notes: $tds.eq(3).text().trim(),
                             source: '季风剧场'
                         };
+                        
                         if (isPendingSection) {
                             upcomingShows.push(showData);
-                        } else if (currentYear) {
-                            showData.year = currentYear;
-                            showData.air_date = `${currentYear}-01-01`;
+                        } else {
                             airedShows.push(showData);
                         }
                     }
