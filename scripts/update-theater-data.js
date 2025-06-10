@@ -196,127 +196,84 @@ async function fetchMonsoonTheaterTitles() {
         const airedShows = [];
         const upcomingShows = [];
 
-        // 查找所有wikitable表格
-        const tables = $('table.wikitable');
-        console.log(`Found ${tables.length} tables in 季风剧场 page`);
-
-        // 处理第一个表格（电视剧）
-        if (tables.length > 0) {
-            const tvTable = tables.first();
-            let currentYear = '';
-            let isPendingSection = false;
-            
-            tvTable.find('tr').each((rowIndex, row) => {
-                const $tds = $(row).find('td');
-                const $ths = $(row).find('th');
-                
-                // 检查是否是年份行
-                const yearCell = $ths.filter('[rowspan]').first();
-                if (yearCell.length > 0) {
-                    const yearText = yearCell.text().trim();
-                    if (yearText.includes('待播映')) {
-                        isPendingSection = true;
-                        currentYear = '';
-                    } else {
-                        const yearMatch = yearText.match(/(\d{4})年/);
-                        currentYear = yearMatch ? yearMatch[1] : '';
-                        isPendingSection = false;
-                    }
+        // 处理电视剧表格
+        const tvTable = $('table.wikitable').first();
+        let currentYear = '';
+        let isPendingSection = false;
+        tvTable.find('tr').each((rowIndex, row) => {
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
+            // 检查是否是年份或待播映行
+            const yearCell = $ths.filter('[rowspan]').first();
+            if (yearCell.length > 0) {
+                const yearText = yearCell.text().trim();
+                if (yearText.includes('待播映')) {
+                    isPendingSection = true;
+                    currentYear = '';
+                } else {
+                    const yearMatch = yearText.match(/(\d{4})年/);
+                    currentYear = yearMatch ? yearMatch[1] : '';
+                    isPendingSection = false;
                 }
-                
-                if ($tds.length > 0) {
-                    const $firstTd = $tds.eq(0);
-                    const $link = $firstTd.find('a').first();
-                    
-                    if ($link.length) {
-                        const title = $link.text().trim();
-                        if (title) {
-                            const showData = {
-                                title: currentYear ? `${title}（${currentYear}）` : title,
-                                actors: $tds.eq(2).text().trim(),
-                                notes: $tds.eq(3).text().trim(),
-                                source: '季风剧场'
-                            };
-                            
-                            if (currentYear) {
-                                showData.year = currentYear;
-                                showData.air_date = `${currentYear}-01-01`;
-                            }
-                            
-                            if (isPendingSection) {
-                                upcomingShows.push(showData);
-                            } else {
-                                airedShows.push(showData);
-                            }
+            }
+            if ($tds.length > 0) {
+                const $firstTd = $tds.eq(0);
+                const $link = $firstTd.find('a').first();
+                if ($link.length) {
+                    const title = $link.text().trim();
+                    if (title) {
+                        const showData = {
+                            title: currentYear ? `${title}（${currentYear}）` : title,
+                            actors: $tds.eq(2).text().trim(),
+                            notes: $tds.eq(3).text().trim(),
+                            source: '季风剧场'
+                        };
+                        if (isPendingSection) {
+                            upcomingShows.push(showData);
+                        } else if (currentYear) {
+                            showData.year = currentYear;
+                            showData.air_date = `${currentYear}-01-01`;
+                            airedShows.push(showData);
                         }
                     }
                 }
-            });
-        }
+            }
+        });
 
-        // 处理第二个表格（网络剧）
-        if (tables.length > 1) {
-            const webTable = tables.eq(1);
-            let currentStatus = '';
-            
-            webTable.find('tr').each((i, row) => {
-                const $tds = $(row).find('td');
-                const $ths = $(row).find('th');
-                
-                // 检查是否是状态行
-                const statusCell = $ths.filter('[rowspan]').first();
-                if (statusCell.length > 0) {
-                    currentStatus = statusCell.text().trim();
-                }
-                
-                if ($tds.length >= 2) {
-                    const $link = $tds.eq(0).find('a').first();
-                    
-                    if ($link.length) {
-                        const title = $link.text().trim();
-                        if (title) {
-                            const showData = {
-                                title: title,
-                                actors: $tds.eq(2).text().trim(),
-                                notes: $tds.eq(3).text().trim(),
-                                source: '季风剧场'
-                            };
-                            
-                            if (currentStatus.includes('待播映')) {
-                                upcomingShows.push(showData);
-                            } else {
-                                // 尝试从备注中提取年份
-                                const yearMatch = $tds.eq(3).text().match(/(\d{4})年/);
-                                if (yearMatch) {
-                                    const year = yearMatch[1];
-                                    showData.year = year;
-                                    showData.air_date = `${year}-01-01`;
-                                    showData.title = `${title}（${year}）`;
-                                }
-                                airedShows.push(showData);
-                            }
+        // 处理网络剧表格
+        const webTable = $('table.wikitable').eq(1);
+        let currentStatus = '';
+        webTable.find('tr').each((rowIndex, row) => {
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
+            // 检查是否是进度（状态）行
+            const statusCell = $ths.filter('[rowspan]').first();
+            if (statusCell.length > 0) {
+                currentStatus = statusCell.text().trim();
+            }
+            if ($tds.length > 0) {
+                const $firstTd = $tds.eq(0);
+                const $link = $firstTd.find('a').first();
+                if ($link.length) {
+                    const title = $link.text().trim();
+                    if (title) {
+                        const showData = {
+                            title: title,
+                            actors: $tds.eq(2).text().trim(),
+                            notes: $tds.eq(3).text().trim(),
+                            source: '季风剧场'
+                        };
+                        // 进度为"待播映"归为未播出，其余归为已播出
+                        if (currentStatus.includes('待播映') || $tds.eq(1).text().trim().includes('待播映')) {
+                            upcomingShows.push(showData);
+                        } else {
+                            airedShows.push(showData);
                         }
                     }
                 }
-            });
-        }
+            }
+        });
 
-        // 确保所有剧集都被正确获取
-        const expectedAiredShows = [
-            '猎狼者（2021）',
-            '陪你一起好好吃饭（2022）',
-            '今生也是第一次（2023）',
-            '天目危机',
-            '张卫国的夏天'
-        ];
-        
-        const expectedUpcomingShows = [
-            '非凡医者',
-            '朝歌少年行'
-        ];
-
-        console.log('Expected aired shows:', expectedAiredShows);
-        console.log('Expected upcoming shows:', expectedUpcomingShows);
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
         console.log('Aired shows:', airedShows.map(s => s.title));
         console.log('Upcoming shows:', upcomingShows.map(s => s.title));
