@@ -229,7 +229,9 @@ async function fetchMonsoonTheaterTitles() {
                             source: '季风剧场'
                         };
                         
-                        if (isPendingSection) {
+                        // 检查状态列是否包含"待播映"
+                        const statusText = $tds.eq(1).text().trim();
+                        if (isPendingSection || statusText.includes('待播映')) {
                             upcomingShows.push(showData);
                         } else {
                             airedShows.push(showData);
