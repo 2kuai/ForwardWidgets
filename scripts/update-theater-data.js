@@ -198,10 +198,12 @@ async function fetchMonsoonTheaterTitles() {
         
         const airedShows = [];
         const upcomingShows = [];
-        let currentYear = '';
         
         // 处理电视剧表格
-        $('table.wikitable').first().find('tr').each((rowIndex, row) => {
+        const tvTable = $('table.wikitable').first();
+        let currentYear = '';
+        
+        tvTable.find('tr').each((rowIndex, row) => {
             const columns = $(row).find('td, th');
             
             // 检查是否是年份行（包含rowspan）
@@ -223,7 +225,6 @@ async function fetchMonsoonTheaterTitles() {
                 
                 if (!title) return;
                 
-                const status = $(columns[1]).text().trim();
                 const showData = {
                     title: title,
                     actors: $(columns[2]).text().trim(),
@@ -231,7 +232,7 @@ async function fetchMonsoonTheaterTitles() {
                     source: '季风剧场'
                 };
                 
-                if (currentYear === '待播映' || status === '待播映') {
+                if (currentYear === '待播映') {
                     upcomingShows.push(showData);
                 } else {
                     if (currentYear) {
@@ -244,10 +245,12 @@ async function fetchMonsoonTheaterTitles() {
         });
         
         // 处理网络剧表格
-        $('table.wikitable').last().find('tr').each((rowIndex, row) => {
-            const columns = $(row).find('td, th');
-            
+        const webTable = $('table.wikitable').last();
+        
+        webTable.find('tr').each((rowIndex, row) => {
             if (rowIndex === 0) return; // 跳过表头
+            
+            const columns = $(row).find('td, th');
             
             if (columns.length >= 4) {
                 const titleLink = $(columns[0]).find('a').first();
@@ -263,7 +266,7 @@ async function fetchMonsoonTheaterTitles() {
                     source: '季风剧场'
                 };
                 
-                if (status.includes('待播') || status.includes('即将播出')) {
+                if (status.includes('待播映')) {
                     upcomingShows.push(showData);
                 } else {
                     // 尝试从备注中提取年份
