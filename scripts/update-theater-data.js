@@ -199,7 +199,9 @@ async function fetchMonsoonTheaterTitles() {
         // 处理电视剧表格
         const tvTable = $('table.wikitable').first();
         let isPendingSection = false;
+        let pendingShows = new Set(); // 用于存储待播剧集
         
+        // 首先收集所有待播剧集
         tvTable.find('tr').each((rowIndex, row) => {
             const $ths = $(row).find('th');
             const $tds = $(row).find('td');
@@ -222,6 +224,32 @@ async function fetchMonsoonTheaterTitles() {
                         .trim();
                         
                     if (title) {
+                        // 检查状态列是否包含"待播映"
+                        const statusText = $tds.eq(1).text().trim();
+                        if (isPendingSection || statusText.includes('待播映')) {
+                            pendingShows.add(title);
+                        }
+                    }
+                }
+            }
+        });
+        
+        // 然后处理所有剧集
+        tvTable.find('tr').each((rowIndex, row) => {
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
+            
+            if ($tds.length > 0) {
+                const $firstTd = $tds.eq(0);
+                const $link = $firstTd.find('a').first();
+                
+                if ($link.length) {
+                    const title = $firstTd.text().trim()
+                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
+                        .replace(/[《》]/g, '') // 移除书名号
+                        .trim();
+                        
+                    if (title) {
                         const showData = {
                             title: title,
                             actors: $tds.eq(2).text().trim(),
@@ -229,9 +257,7 @@ async function fetchMonsoonTheaterTitles() {
                             source: '季风剧场'
                         };
                         
-                        // 检查状态列是否包含"待播映"
-                        const statusText = $tds.eq(1).text().trim();
-                        if (isPendingSection || statusText.includes('待播映')) {
+                        if (pendingShows.has(title)) {
                             upcomingShows.push(showData);
                         } else {
                             airedShows.push(showData);
