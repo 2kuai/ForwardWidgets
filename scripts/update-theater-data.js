@@ -181,7 +181,8 @@ async function fetchMonsoonTheaterTitles() {
                 action: 'parse',
                 page: '芒果季风计划',
                 format: 'json',
-                prop: 'text'
+                prop: 'text',
+                section: 2
             },
             timeout: 10000
         });
@@ -220,18 +221,17 @@ async function fetchMonsoonTheaterTitles() {
                         currentYear = yearMatch ? yearMatch[1] : '';
                         isPendingSection = false;
                     }
-                    return;
                 }
                 
                 // 处理剧集行
                 if (columns.length >= 4) {
                     const titleLink = $(columns[0]).find('a').first();
-                    const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                    let title = titleLink.text().trim().replace(/^《|》$/g, '');
                     
                     if (!title) return;
                     
                     const showData = {
-                        title: title,
+                        title: currentYear ? `${title}（${currentYear}）` : title,
                         actors: $(columns[2]).text().trim(),
                         notes: $(columns[3]).text().trim(),
                         source: '季风剧场'
@@ -255,12 +255,10 @@ async function fetchMonsoonTheaterTitles() {
             const webTable = tables.eq(1);
             
             webTable.find('tr').each((rowIndex, row) => {
-                if (rowIndex === 0) return; // 跳过表头
-                
                 const columns = $(row).find('td');
                 if (columns.length >= 4) {
                     const titleLink = $(columns[0]).find('a').first();
-                    const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                    let title = titleLink.text().trim().replace(/^《|》$/g, '');
                     const status = $(columns[1]).text().trim();
                     
                     if (!title) return;
@@ -278,8 +276,10 @@ async function fetchMonsoonTheaterTitles() {
                         // 尝试从备注中提取年份
                         const yearMatch = $(columns[3]).text().match(/(\d{4})年/);
                         if (yearMatch) {
-                            showData.year = yearMatch[1];
-                            showData.air_date = `${yearMatch[1]}-01-01`;
+                            const year = yearMatch[1];
+                            showData.year = year;
+                            showData.air_date = `${year}-01-01`;
+                            showData.title = `${title}（${year}）`;
                         }
                         airedShows.push(showData);
                     }
