@@ -175,6 +175,7 @@ async function fetchMonsoonTheaterTitles() {
     try {
         console.log('Fetching 季风剧场 data from Wikipedia...');
         
+        // 获取芒果季风计划页面内容
         const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
             params: {
                 action: 'parse',
@@ -197,29 +198,57 @@ async function fetchMonsoonTheaterTitles() {
 
         // 处理电视剧表格
         const tvTable = $('table.wikitable').first();
-        let currentYear = '';
         let isPendingSection = false;
+        let pendingShows = new Set(); // 用于存储待播剧集
         
+        // 首先收集所有待播剧集
         tvTable.find('tr').each((rowIndex, row) => {
-            const $row = $(row);
-            const $tds = $row.find('td');
-            const $ths = $row.find('th');
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
             
-            // 检查年份单元格（可能有rowspan）
-            const yearTh = $ths.filter('[rowspan]').first();
-            if (yearTh.length > 0) {
-                const yearText = yearTh.text().trim();
-                currentYear = yearText.match(/\d{4}/)?.[0] || '';
+            // 检查是否是待播映行
+            const yearCell = $ths.filter('[rowspan]').first();
+            if (yearCell.length > 0) {
+                const yearText = yearCell.text().trim();
                 isPendingSection = yearText.includes('待播映');
-                return; // 跳过标题行
             }
             
-            if ($tds.length >= 4) {
+            if ($tds.length > 0) {
                 const $firstTd = $tds.eq(0);
                 const $link = $firstTd.find('a').first();
                 
                 if ($link.length) {
-                    const title = $link.text().trim().replace(/^《|》$/g, '');
+                    const title = $firstTd.text().trim()
+                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
+                        .replace(/[《》]/g, '') // 移除书名号
+                        .trim();
+                        
+                    if (title) {
+                        // 检查状态列是否包含"待播映"
+                        const statusText = $tds.eq(1).text().trim();
+                        if (isPendingSection || statusText.includes('待播映')) {
+                            pendingShows.add(title);
+                        }
+                    }
+                }
+            }
+        });
+        
+        // 然后处理所有剧集
+        tvTable.find('tr').each((rowIndex, row) => {
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
+            
+            if ($tds.length > 0) {
+                const $firstTd = $tds.eq(0);
+                const $link = $firstTd.find('a').first();
+                
+                if ($link.length) {
+                    const title = $firstTd.text().trim()
+                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
+                        .replace(/[《》]/g, '') // 移除书名号
+                        .trim();
+                        
                     if (title) {
                         const showData = {
                             title: title,
@@ -228,14 +257,7 @@ async function fetchMonsoonTheaterTitles() {
                             source: '季风剧场'
                         };
                         
-                        // 如果有年份信息则添加
-                        if (currentYear) {
-                            showData.year = currentYear;
-                            showData.air_date = `${currentYear}-01-01`;
-                        }
-                        
-                        // 根据状态分类
-                        if (isPendingSection || $row.text().includes('待播映')) {
+                        if (pendingShows.has(title)) {
                             upcomingShows.push(showData);
                         } else {
                             airedShows.push(showData);
@@ -245,47 +267,42 @@ async function fetchMonsoonTheaterTitles() {
             }
         });
 
-        // 处理网络剧表格（如果有）
+        // 处理网络剧表格
         const webTable = $('table.wikitable').eq(1);
-        if (webTable.length > 0) {
-            let webStatus = '';
-            
-            webTable.find('tr').each((rowIndex, row) => {
-                const $row = $(row);
-                const $tds = $row.find('td');
-                const $ths = $row.find('th');
-                
-                // 检查状态标题
-                const statusTh = $ths.filter('[rowspan]').first();
-                if (statusTh.length > 0) {
-                    webStatus = statusTh.text().trim();
-                    return; // 跳过标题行
-                }
-                
-                if ($tds.length >= 4) {
-                    const $link = $tds.eq(0).find('a').first();
-                    if ($link.length) {
-                        const title = $link.text().trim().replace(/^《|》$/g, '');
-                        if (title) {
-                            const showData = {
-                                title: title,
-                                actors: $tds.eq(2).text().trim(),
-                                notes: $tds.eq(3).text().trim(),
-                                source: '季风剧场'
-                            };
-                            
-                            if (webStatus.includes('待播映') || $row.text().includes('待播映')) {
-                                upcomingShows.push(showData);
-                            } else {
-                                airedShows.push(showData);
-                            }
+        let currentStatus = '';
+        webTable.find('tr').each((rowIndex, row) => {
+            const $ths = $(row).find('th');
+            const $tds = $(row).find('td');
+            // 检查是否是进度（状态）行
+            const statusCell = $ths.filter('[rowspan]').first();
+            if (statusCell.length > 0) {
+                currentStatus = statusCell.text().trim();
+            }
+            if ($tds.length > 0) {
+                const $firstTd = $tds.eq(0);
+                const $link = $firstTd.find('a').first();
+                if ($link.length) {
+                    const title = $link.text().trim();
+                    if (title) {
+                        const showData = {
+                            title: title,
+                            actors: $tds.eq(2).text().trim(),
+                            notes: $tds.eq(3).text().trim(),
+                            source: '季风剧场'
+                        };
+                        // 进度为"待播映"归为未播出，其余归为已播出
+                        if (currentStatus.includes('待播映') || $tds.eq(1).text().trim().includes('待播映')) {
+                            upcomingShows.push(showData);
+                        } else {
+                            airedShows.push(showData);
                         }
                     }
                 }
-            });
-        }
+            }
+        });
 
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
+        
         return { 
             airedShows,
             upcomingShows
