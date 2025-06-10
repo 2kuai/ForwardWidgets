@@ -140,10 +140,7 @@ async function updateTheaterData() {
             const tmdbData = await searchTMDB(item.title, item.year);
             if (tmdbData) {
                 processedAiredShows.push({
-                    ...tmdbData,
-                    actors: item.actors,
-                    notes: item.notes,
-                    air_date: item.air_date
+                    ...tmdbData
                 });
             } else {
                 console.log(`No TMDB data found for aired show: ${item.title}`);
