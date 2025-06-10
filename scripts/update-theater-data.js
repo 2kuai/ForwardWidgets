@@ -118,12 +118,10 @@ async function searchTMDB(title, year) {
 
 async function updateTheaterData() {
     try {
-        // Fetch data for multiple theaters (currently just 迷雾剧场)
+        // Fetch data for 迷雾剧场
         const mistTheater = await fetchMistTheaterTitles();
-        // In the future, you can add:
-        // const whiteNightTheater = await fetchWhiteNightTheaterTitles();
         
-        console.log(`Found ${mistTheater.airedShows.length} aired shows and ${mistTheater.upcomingShows.length} upcoming shows from 迷雾剧场`);
+        console.log(`Found ${mistTheater.airedShows.length} aired shows and ${mistTheater.upcomingShows.length} upcoming shows`);
         
         // Process aired shows
         const processedAiredShows = [];
@@ -150,34 +148,19 @@ async function updateTheaterData() {
             source: item.source
         }));
         
-        // Structure the final data with theater categories
+        // Structure the final data without theater categories
         const data = {
             last_updated: new Date().toISOString(),
-            theaters: {
-                "迷雾剧场": {
-                    description: "爱奇艺推出的悬疑类型剧场",
-                    shows: {
-                        已播: processedAiredShows,
-                        待播: processedUpcomingShows
-                    }
-                },
-                // In the future you can add:
-                // "白夜剧场": {
-                //     description: "爱奇艺推出的另一类型剧场",
-                //     shows: {
-                //         已播: [...],
-                //         待播: [...]
-                //     }
-                // }
-            }
+            aired_shows: processedAiredShows,
+            upcoming_shows: processedUpcomingShows
         };
         
         const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
-        console.log(`Successfully updated theater data with ${processedAiredShows.length} aired shows and ${processedUpcomingShows.length} upcoming shows from 迷雾剧场`);
+        console.log(`Successfully updated data with ${processedAiredShows.length} aired shows and ${processedUpcomingShows.length} upcoming shows`);
     } catch (error) {
-        console.error('Error updating theater data:', error);
+        console.error('Error updating data:', error);
         process.exit(1);
     }
 }
