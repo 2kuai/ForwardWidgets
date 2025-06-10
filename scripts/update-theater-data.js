@@ -301,9 +301,25 @@ async function fetchMonsoonTheaterTitles() {
             });
         }
 
+        // 确保所有剧集都被正确获取
+        const expectedAiredShows = [
+            '猎狼者（2021）',
+            '陪你一起好好吃饭（2022）',
+            '今生也是第一次（2023）',
+            '天目危机',
+            '张卫国的夏天'
+        ];
+        
+        const expectedUpcomingShows = [
+            '非凡医者',
+            '朝歌少年行'
+        ];
+
+        console.log('Expected aired shows:', expectedAiredShows);
+        console.log('Expected upcoming shows:', expectedUpcomingShows);
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
-        console.log('Aired shows:', airedShows);
-        console.log('Upcoming shows:', upcomingShows);
+        console.log('Aired shows:', airedShows.map(s => s.title));
+        console.log('Upcoming shows:', upcomingShows.map(s => s.title));
         
         return { 
             airedShows,
