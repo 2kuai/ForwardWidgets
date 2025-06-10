@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TMDB_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NzE0YWYxZGMwZDA3ZjVkODA1ZDEzNGQwMGZkZGM5ZCIsIm5iZiI6MTc0MzI1NDg0NS4wNCwic3ViIjoiNjdlN2Y1M2RiNTY1NWFhYzQyNjM4ODk2Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.rBotPSAvlgM8mMWI4_NVLEU-ssD9plLdA-r17bPA3aA';
-const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
+const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
 
 async function fetchMistTheaterTitles() {
     try {
@@ -89,12 +89,14 @@ async function fetchMistTheaterTitles() {
 
 async function searchTMDB(title, year) {
     try {
-        const response = await axios.get(`${TMDB_BASE_URL}/search/tv`, {
+        const response = await axios.get(TMDB_BASE_URL, {
             params: {
-                api_key: TMDB_API_KEY,
                 query: title,
                 first_air_date_year: year,
                 language: 'zh-CN'
+            },
+            headers: {
+                Authorization: `Bearer ${TMDB_API_KEY}`
             }
         });
         if (response.data.results && response.data.results.length > 0) {
