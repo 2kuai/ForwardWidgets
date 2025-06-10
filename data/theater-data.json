@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-10T16:22:52.282Z",
+  "last_updated": "2025-06-10T16:28:56.370Z",
   "aired_shows": [
     {
       "id": 104329,
@@ -782,18 +782,6 @@
       "source": "季风剧场"
     },
     {
-      "id": 239479,
-      "type": "tmdb",
-      "title": "非凡医者",
-      "description": "本剧讲述了一个言行不同寻常、不擅长沟通的怪咖医学天才陈辉，进入医院后，亲历复杂的医患关系，面对生命的无常，屡展受挫，在外科同僚们的帮助下，步步突破自己“只见疾病不见人”的局限，成长为一名既可以医人也可以医心的好医生。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/b397FRoGVj2MucXwNh1vxr4D0CO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/q2NFO23QwssZKrz0X4XGPFWaCxL.jpg",
-      "releaseDate": "2023-11-17",
-      "rating": 8,
-      "mediaType": "tv",
-      "source": "季风剧场"
-    },
-    {
       "id": 291624,
       "type": "tmdb",
       "title": "火星孤儿",
@@ -962,6 +950,18 @@
       "rating": 0,
       "mediaType": "tv",
       "source": "白夜剧场"
+    },
+    {
+      "id": 239479,
+      "type": "tmdb",
+      "title": "非凡医者",
+      "description": "本剧讲述了一个言行不同寻常、不擅长沟通的怪咖医学天才陈辉，进入医院后，亲历复杂的医患关系，面对生命的无常，屡展受挫，在外科同僚们的帮助下，步步突破自己“只见疾病不见人”的局限，成长为一名既可以医人也可以医心的好医生。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/b397FRoGVj2MucXwNh1vxr4D0CO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/q2NFO23QwssZKrz0X4XGPFWaCxL.jpg",
+      "releaseDate": "2023-11-17",
+      "rating": 8,
+      "mediaType": "tv",
+      "source": "季风剧场"
     },
     {
       "id": 283165,
