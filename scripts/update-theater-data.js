@@ -87,24 +87,31 @@ async function fetchMistTheaterTitles() {
     }
 }
 
-async function searchTMDB(title, year) {
+async function searchTMDB(title, year = null) {
     try {
+        const params = {
+            query: title,
+            language: 'zh-CN'
+        };
+        
+        // Only add year parameter if provided
+        if (year) {
+            params.first_air_date_year = year;
+        }
+
         const response = await axios.get(TMDB_BASE_URL, {
-            params: {
-                query: title,
-                first_air_date_year: year,
-                language: 'zh-CN'
-            },
+            params,
             headers: {
                 Authorization: `Bearer ${TMDB_API_KEY}`
             }
         });
+        
         if (response.data.results && response.data.results.length > 0) {
             const result = response.data.results[0];
             return {
                 title: result.name,
                 original_title: result.original_name,
-                year: year,
+                year: result.first_air_date ? result.first_air_date.substring(0, 4) : year || '',
                 poster_path: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
                 overview: result.overview,
                 vote_average: result.vote_average,
@@ -125,7 +132,7 @@ async function updateTheaterData() {
         
         console.log(`Found ${mistTheater.airedShows.length} aired shows and ${mistTheater.upcomingShows.length} upcoming shows`);
         
-        // Process aired shows
+        // Process aired shows with year parameter
         const processedAiredShows = [];
         for (const item of mistTheater.airedShows) {
             console.log(`Searching TMDB for aired show: ${item.title} (${item.year})`);
@@ -139,18 +146,35 @@ async function updateTheaterData() {
                     source: item.source
                 });
             }
-            await new Promise(resolve => setTimeout(resolve, 250));
+            await new Promise(resolve => setTimeout(resolve, 250)); // Rate limiting
         }
         
-        // Process upcoming shows
-        const processedUpcomingShows = mistTheater.upcomingShows.map(item => ({
-            title: item.title,
-            actors: item.actors,
-            notes: item.notes,
-            source: item.source
-        }));
+        // Process upcoming shows without year parameter
+        const processedUpcomingShows = [];
+        for (const item of mistTheater.upcomingShows) {
+            console.log(`Searching TMDB for upcoming show: ${item.title}`);
+            const tmdbData = await searchTMDB(item.title); // No year parameter
+            
+            if (tmdbData) {
+                processedUpcomingShows.push({
+                    ...tmdbData,
+                    actors: item.actors,
+                    notes: item.notes,
+                    source: item.source
+                });
+            } else {
+                // Fallback to basic info if no TMDB data found
+                processedUpcomingShows.push({
+                    title: item.title,
+                    actors: item.actors,
+                    notes: item.notes,
+                    source: item.source
+                });
+            }
+            await new Promise(resolve => setTimeout(resolve, 250)); // Rate limiting
+        }
         
-        // Structure the final data without theater categories
+        // Structure the final data
         const data = {
             last_updated: new Date().toISOString(),
             aired_shows: processedAiredShows,
@@ -160,11 +184,15 @@ async function updateTheaterData() {
         const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
-        console.log(`Successfully updated data with ${processedAiredShows.length} aired shows and ${processedUpcomingShows.length} upcoming shows`);
+        
+        console.log(`Successfully updated data with:
+        - ${processedAiredShows.length} aired shows
+        - ${processedUpcomingShows.length} upcoming shows`);
     } catch (error) {
         console.error('Error updating data:', error);
         process.exit(1);
     }
 }
 
+// Execute the update
 updateTheaterData();
