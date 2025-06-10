@@ -173,8 +173,10 @@ async function fetchWhiteNightTheaterTitles() {
 
 async function fetchMonsoonTheaterTitles() {
     try {
-        console.log('Fetching 季风剧场 data from Wikipedia');
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
+        console.log('Fetching 季风剧场 data from Wikipedia...');
+        
+        // 获取电视剧部分 (section=2)
+        const tvResponse = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
             params: {
                 action: 'parse',
                 page: '芒果季风计划',
@@ -185,36 +187,48 @@ async function fetchMonsoonTheaterTitles() {
             timeout: 10000
         });
 
-        if (!response.data || !response.data.parse || !response.data.parse.text) {
-            console.error('Invalid Wikipedia API response:', response.data);
+        // 获取网络剧部分 (section=3)
+        const webResponse = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
+            params: {
+                action: 'parse',
+                page: '芒果季风计划',
+                format: 'json',
+                prop: 'text',
+                section: 3
+            },
+            timeout: 10000
+        });
+
+        if (!tvResponse.data?.parse?.text?.['*'] || !webResponse.data?.parse?.text?.['*']) {
+            console.error('Invalid Wikipedia API response');
             return { airedShows: [], upcomingShows: [] };
         }
 
-        const html = response.data.parse.text['*'];
-        console.log('Successfully fetched 季风剧场 HTML content');
-        
-        const $ = cheerio.load(html);
-        if (!$) throw new Error("解析 HTML 失败");
+        const $tv = cheerio.load(tvResponse.data.parse.text['*']);
+        const $web = cheerio.load(webResponse.data.parse.text['*']);
         
         const airedShows = [];
         const upcomingShows = [];
-        
+
         // 处理电视剧表格
-        const tvTable = $('table.wikitable').first();
+        const tvTable = $tv('table.wikitable').first();
         let currentYear = '';
-        
+        let isPendingSection = false;
+
         tvTable.find('tr').each((rowIndex, row) => {
             const columns = $(row).find('td, th');
             
-            // 检查是否是年份行（包含rowspan）
+            // 检查年份行
             const yearCell = $(row).find('td[rowspan], th[rowspan]');
             if (yearCell.length > 0) {
                 const yearText = yearCell.text().trim();
                 if (yearText.includes('待播映')) {
-                    currentYear = '待播映';
+                    isPendingSection = true;
+                    currentYear = '';
                 } else {
                     const yearMatch = yearText.match(/(\d{4})年/);
                     currentYear = yearMatch ? yearMatch[1] : '';
+                    isPendingSection = false;
                 }
                 return;
             }
@@ -232,7 +246,7 @@ async function fetchMonsoonTheaterTitles() {
                     source: '季风剧场'
                 };
                 
-                if (currentYear === '待播映') {
+                if (isPendingSection) {
                     upcomingShows.push(showData);
                 } else {
                     if (currentYear) {
@@ -243,22 +257,19 @@ async function fetchMonsoonTheaterTitles() {
                 }
             }
         });
-        
+
         // 处理网络剧表格
-        const webTable = $('table.wikitable').last();
-        
-        webTable.find('tr').each((rowIndex, row) => {
+        $web('table.wikitable tr').each((rowIndex, row) => {
             if (rowIndex === 0) return; // 跳过表头
             
-            const columns = $(row).find('td, th');
-            
+            const columns = $(row).find('td');
             if (columns.length >= 4) {
                 const titleLink = $(columns[0]).find('a').first();
                 const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                const status = $(columns[1]).text().trim();
                 
                 if (!title) return;
                 
-                const status = $(columns[1]).text().trim();
                 const showData = {
                     title: title,
                     actors: $(columns[2]).text().trim(),
@@ -279,7 +290,7 @@ async function fetchMonsoonTheaterTitles() {
                 }
             }
         });
-        
+
         console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
         return { 
             airedShows,
@@ -294,7 +305,6 @@ async function fetchMonsoonTheaterTitles() {
         return { airedShows: [], upcomingShows: [] };
     }
 }
-
 
 async function searchTMDB(title, year = null) {
     try {
