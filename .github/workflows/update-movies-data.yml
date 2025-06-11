@@ -1,0 +1,81 @@
+name: Update Movies Data
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai  # 设置时区为北京时间
+    permissions:
+      contents: write  # 允许推送代码
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史记录
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: |
+          npm install axios cheerio
+          
+      - name: Create data directory
+        run: mkdir -p data
+        
+      - name: Backup current data
+        run: |
+          if [ -f data/movies-data.json ]; then
+            cp data/movies-data.json data/movies-data.backup.json
+          fi
+          
+      - name: Update Movies data
+        id: update
+        run: |
+          node scripts/update-movies-data.js
+        continue-on-error: true
+        
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/movies-data.json
+          git commit -m "Update Movies data [skip ci]"
+          git push
+          
+      - name: Restore backup on failure
+        if: failure() && steps.update.outcome == 'failure'
+        run: |
+          if [ -f data/movies-data.backup.json ]; then
+            cp data/movies-data.backup.json data/movies-data.json
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add data/movies-data.json
+            git commit -m "Restore Movies data after failed update [skip ci]"
+            git push
+          fi
+          
+      - name: Send notification on failure
+        if: failure()
+        run: |
+          echo "::warning::Failed to update movies data. Check the workflow run for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+      - name: Send notification on success
+        if: success() && steps.git-check.outputs.changes == 'true'
+        run: |
+          echo "::notice::Movies data has been updated successfully. Changes have been committed and pushed." 
