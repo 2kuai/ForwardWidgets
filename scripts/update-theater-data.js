@@ -303,51 +303,6 @@ async function fetchMonsoonTheaterTitles() {
     }
 }
 
-
-
-async function searchTMDB(title, year = null) {
-    try {
-        console.log(`Searching TMDB for: ${title}${year ? ` (${year})` : ''}`);
-        const params = {
-            query: title,
-            language: 'zh-CN'
-        };
-        
-        if (year) {
-            params.first_air_date_year = year;
-        }
-
-        const response = await axios.get(TMDB_BASE_URL, {
-            params,
-            headers: {
-                Authorization: `Bearer ${TMDB_API_KEY}`
-            },
-            timeout: 10000
-        });
-        
-        if (response.data.results && response.data.results.length > 0) {
-            const result = response.data.results[0];
-            console.log(`Found TMDB match for: ${title} -> ${result.name}`);
-            return {
-                id: result.id,
-                type: "tmdb",
-                title: result.name,
-                description: result.overview,
-                posterPath: result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : null,
-                backdropPath: result.backdrop_path ? `https://image.tmdb.org/t/p/w500${result.backdrop_path}` : null,
-                releaseDate: result.first_air_date,
-                rating: result.vote_average,
-                mediaType: "tv"
-            };
-        }
-        console.log(`No TMDB results found for: ${title}`);
-        return null;
-    } catch (error) {
-        console.error(`Error searching TMDB for ${title}:`, error.message);
-        return null;
-    }
-}
-
 async function fetchXTheaterTitles() {
     try {
         console.log('Fetching X剧场 data from Wikipedia...');
@@ -527,8 +482,63 @@ async function updateTheaterData() {
     }
 }
 
+async function searchTMDB(title, year = null) {
+    try {
+        console.log(`Searching TMDB for: ${title}${year ? ` (${year})` : ''}`);
+        const params = {
+            query: title,
+            language: 'zh-CN'
+        };
+        
+        if (year) {
+            params.first_air_date_year = year;
+        }
 
+        const response = await axios.get(TMDB_BASE_URL, {
+            params,
+            headers: {
+                Authorization: `Bearer ${TMDB_API_KEY}`
+            },
+            timeout: 10000
+        });
+        
+        if (response.data.results && response.data.results.length > 0) {
+            // 查找精确匹配的结果
+            const exactMatch = response.data.results.find(result => {
+                // 比较标题是否相同（忽略大小写和前后空格）
+                const isTitleMatch = result.name.trim().toLowerCase() === title.trim().toLowerCase();
+                
+                // 如果有年份参数，还需要比较年份
+                if (year) {
+                    const releaseYear = result.first_air_date ? new Date(result.first_air_date).getFullYear() : null;
+                    return isTitleMatch && releaseYear === parseInt(year);
+                }
+                
+                return isTitleMatch;
+            });
 
+            if (exactMatch) {
+                console.log(`Found exact TMDB match for: ${title} -> ${exactMatch.name}`);
+                return {
+                    id: exactMatch.id,
+                    type: "tmdb",
+                    title: exactMatch.name,
+                    description: exactMatch.overview,
+                    posterPath: exactMatch.poster_path ? `https://image.tmdb.org/t/p/w500${exactMatch.poster_path}` : null,
+                    backdropPath: exactMatch.backdrop_path ? `https://image.tmdb.org/t/p/w500${exactMatch.backdrop_path}` : null,
+                    releaseDate: exactMatch.first_air_date,
+                    rating: exactMatch.vote_average,
+                    mediaType: "tv"
+                };
+            }
+        }
+        console.log(`No exact TMDB match found for: ${title}`);
+        return null;
+    } catch (error) {
+        console.error(`Error searching TMDB for ${title}:`, error.message);
+        return null;
+    }
+}
 
 // 执行更新
 updateTheaterData().then(data => {
