@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.112",
+  version: "1.1.1",
   requiredVersion: "0.0.1",
   modules: [
     {
