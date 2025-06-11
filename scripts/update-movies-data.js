@@ -11,7 +11,8 @@ const __dirname = path.dirname(__filename);
 // 配置项
 const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
-  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+  tmdbApiKey: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390',
+  tmdbBaseUrl: 'https://api.themoviedb.org/3',
   outputPath: 'data/movies-data.json',
   headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -25,6 +26,52 @@ const config = {
 
 // 延迟函数
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// 从TMDB获取电影详情
+async function getTmdbDetails(title, year) {
+  try {
+    const response = await axios.get(`${config.tmdbBaseUrl}/search/movie`, {
+      params: {
+        query: title,
+        year: year,
+        language: 'zh-CN'
+      },
+      headers: {
+        'Authorization': `Bearer ${config.tmdbApiKey}`,
+        'Accept': 'application/json'
+      },
+      timeout: 10000
+    });
+
+    if (!response?.data?.results?.length) {
+      console.log(`[TMDB] 未找到电影: ${title} (${year})`);
+      return null;
+    }
+
+    // 查找最匹配的结果
+    const exactMatch = response.data.results.find(movie => 
+      movie.title === title || 
+      movie.original_title === title
+    );
+
+    const movie = exactMatch || response.data.results[0];
+    
+    return {
+      id: movie.id,
+      type: "tmdb",
+      title: movie.title,
+      description: movie.overview,
+      posterPath: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
+      backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` : null,
+      releaseDate: movie.release_date,
+      rating: movie.vote_average,
+      mediaType: "movie"
+    };
+  } catch (error) {
+    console.error(`[TMDB] 获取电影详情失败: ${error.message}`);
+    return null;
+  }
+}
 
 // 获取豆瓣电影数据
 async function getMovies(type) {
@@ -46,47 +93,53 @@ async function getMovies(type) {
       throw new Error("解析 HTML 失败");
     }
 
-    let results = [];
+    let movies = [];
     if (type === "nowplaying") {
       const selector = "#nowplaying .list-item";
       const elements = $(selector).toArray();
       if (!elements.length) {
         throw new Error(`未找到正在上映的电影`);
       }
-      results = elements.map(el => {
+      movies = elements.map(el => {
         const $el = $(el);
-        return {
-          id: $el.attr("id"),
-          type: "douban",
-          title: $el.attr("data-title") || $el.find(".stitle a").attr("title"),
-          mediaType: "movie"
-        };
-      }).filter(movie => movie.id && movie.title);
+        const title = $el.find("h3 a").text().trim();
+        const yearMatch = title.match(/（(\d{4})）$/);
+        const year = yearMatch ? yearMatch[1] : null;
+        return { title, year };
+      });
     } else if (type === "later") {
       const selector = "#showing-soon .item.mod";
       const elements = $(selector).toArray();
       if (!elements.length) {
         throw new Error(`未找到即将上映的电影`);
       }
-      results = elements.map(el => {
+      movies = elements.map(el => {
         const $el = $(el);
         let title = $el.find("h3 a").text().trim();
         if (!title) {
           title = $el.find("h3").text().trim().replace(/\s*\d{1,2}月\d{1,2}日.*$/, '').trim();
         }
-        let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
-        let id = idMatch ? idMatch[1] : null;
-        return {
-          id: id,
-          type: "douban",
-          title: title,
-          mediaType: "movie"
-        };
-      }).filter(movie => movie.id && movie.title);
+        const yearMatch = title.match(/（(\d{4})）$/);
+        const year = yearMatch ? yearMatch[1] : null;
+        const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
+        return { title: cleanTitle, year };
+      });
+      console.log(movies);
     }
 
-    if (!results.length) {
+    if (!movies.length) {
       throw new Error("未能解析出有效的电影信息");
+    }
+
+    // 使用TMDB获取详细信息
+    console.log(`开始从TMDB获取${movies.length}部电影的详细信息...`);
+    const results = [];
+    for (const movie of movies) {
+      const details = await getTmdbDetails(movie.title, movie.year);
+      if (details) {
+        results.push(details);
+      }
+      await delay(250); // 添加延迟以避免API限制
     }
 
     return results;
@@ -120,7 +173,7 @@ async function main() {
 ✅ 数据采集完成！
 🎬 正在热映: ${nowplaying.length}部
 🍿 即将上映: ${later.length}部
-📊 总计: ${result.total}部
+📊 总计: ${nowplaying.length + later.length}部
 🕒 更新时间: ${result.last_updated}
 `);
 
