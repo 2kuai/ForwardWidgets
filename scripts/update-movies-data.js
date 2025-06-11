@@ -90,8 +90,6 @@ async function getTmdbDetails(title, year) {
 async function getMovies(params = {}) {
   try {
     const type = params.type || 'nowplaying';
-    const limit = params.limit || 20;
-    const offset = Number(params.offset) || 0;
     
     console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
     const url = `${config.doubanBaseUrl}/${type}/shanghai/`;
@@ -117,8 +115,8 @@ async function getMovies(params = {}) {
       if (!elements.length) {
         throw new Error(`未找到正在上映的电影`);
       }
-      const pageItems = elements.slice(offset, offset + limit);
-      movies = pageItems.map(el => {
+      
+      movies = elements.map(el => {
         const $el = $(el);
         const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
         const yearMatch = title?.match(/（(\d{4})）$/);
@@ -131,8 +129,8 @@ async function getMovies(params = {}) {
       if (!elements.length) {
         throw new Error(`未找到即将上映的电影`);
       }
-      const pageItems = elements.slice(offset, offset + limit);
-      movies = pageItems.map(el => {
+
+      movies = elements.map(el => {
         const $el = $(el);
         let title = $el.find("h3 a").text().trim();
         if (!title) {
