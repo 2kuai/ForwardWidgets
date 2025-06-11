@@ -2,55 +2,35 @@ name: Update Movies Data
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # 每12小时运行一次（UTC时间）
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 */12 * * *'  # 每12小时运行一次
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  update-movies:
+  update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 10    # 设置超时时间
     
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # 获取完整git历史
-
-      - name: Setup Node.js
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
-
+          
       - name: Install dependencies
         run: |
-          npm install axios cheerio js-yaml
-
+          npm install axios cheerio
+          
       - name: Create data directory
         run: mkdir -p data
-
-      - name: Run data updater
-        run: node scripts/update-movies-data.js
-        env:
-          TZ: Asia/Shanghai  # 设置时区
-
-      - name: Commit changes
-        id: commit
+        
+      - name: Update Movies data
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add data/movies-data.json
-          git diff --cached --quiet || git commit -m "Auto-update: Latest movie data [skip ci]"
+          node scripts/update-movies-data.js
           
-      - name: Push changes
-        if: steps.commit.outputs.exit-code == 0
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: movie-data
-          path: data/movies-data.json
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/movies-data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Movies data" && git push) 
