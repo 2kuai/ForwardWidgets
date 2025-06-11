@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-12T00:54:11.223+08:00",
+  "last_updated": "2025-06-12T01:02:31.865+08:00",
   "nowplaying": [
     {
       "id": 541671,
@@ -386,6 +386,39 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
       "releaseDate": "2024-12-06",
       "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 845111,
+      "type": "tmdb",
+      "title": "三个火枪手：米莱迪",
+      "description": "从卢浮宫到白金汉宫，到巴黎的阴沟到拉罗谢尔的围城……在一个被宗教战争分裂并受到英国入侵威胁的王国里，少数男男女女将剑拔弩张，将他们的命运与法国的命运绑在一起 。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gl7kGqjM6wKkWemDeuHuBvNwYxv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tWVXGyDNQM7zRKp162PSdBSgCzb.jpg",
+      "releaseDate": "2023-12-13",
+      "rating": 6.436,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1467574,
+      "type": "tmdb",
+      "title": "人生会议",
+      "description": "46岁的卫星凭借一台时光机成功穿越到20岁，从此打开时空任意门！他开始PUA年轻的自己，忽悠对方签下“人生协议”，实现爆改自由：当大老板、搞科研当博士、成为伽马星球二王子......把所有对人生的不满意统统修正，开启一场叠满buff的穿越之旅！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/f05jh34hJQLcykKWwu78eePZOcm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kCka1ZsdRNeYgMCHT0WcuFILVXV.jpg",
+      "releaseDate": "2025-06-28",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1495672,
+      "type": "tmdb",
+      "title": "夏季成人礼",
+      "description": "影片聚焦父女亲情，讲述女儿在18岁成人礼之际离家出走后，原本水火不容的生父和继父增进了解，并共同寻女的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dxQCot5i7eTmWoFHscCAm2awvle.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jufQG3Sve1HlAQW54xZ1nxYrPAD.jpg",
+      "releaseDate": "2025-06-28",
+      "rating": 0,
       "mediaType": "movie"
     }
   ]
