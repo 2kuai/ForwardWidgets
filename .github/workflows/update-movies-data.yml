@@ -47,19 +47,28 @@ jobs:
           chmod 644 data/movies-data.json
         continue-on-error: true
         
+      - name: Debug data directory and git status
+        run: |
+          ls -l data
+          git status
+          
       - name: Check for changes
         id: git-check
         run: |
           git diff --quiet data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
           
-      - name: Commit and push if changed
+      - name: Commit and push if changed (including new files)
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/movies-data.json
-          git commit -m "Update Movies data [skip ci]"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Movies data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
           
       - name: Restore backup on failure
         if: failure() && steps.update.outcome == 'failure'
