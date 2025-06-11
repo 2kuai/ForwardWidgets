@@ -28,19 +28,23 @@ jobs:
         run: |
           npm install axios cheerio
           
-      - name: Create data directory
-        run: mkdir -p data
-        
+      - name: Setup data directory
+        run: |
+          mkdir -p data
+          chmod 755 data
+          
       - name: Backup current data
         run: |
           if [ -f data/movies-data.json ]; then
             cp data/movies-data.json data/movies-data.backup.json
+            chmod 644 data/movies-data.backup.json
           fi
           
       - name: Update Movies data
         id: update
         run: |
           node scripts/update-movies-data.js
+          chmod 644 data/movies-data.json
         continue-on-error: true
         
       - name: Check for changes
@@ -62,6 +66,7 @@ jobs:
         run: |
           if [ -f data/movies-data.backup.json ]; then
             cp data/movies-data.backup.json data/movies-data.json
+            chmod 644 data/movies-data.json
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add data/movies-data.json

@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-  outputPath: path.join(__dirname, '..', 'data', 'movies-data.json'),
+  outputPath: 'data/movies-data.json',
   headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -114,27 +114,8 @@ async function main() {
       total: nowplaying.length + later.length
     };
 
-    // 确保data目录存在
-    const dataDir = path.dirname(config.outputPath);
-    try {
-      await fs.access(dataDir);
-    } catch {
-      console.log('创建data目录...');
-      await fs.mkdir(dataDir, { recursive: true });
-    }
-
     // 写入文件
-    console.log(`保存数据到: ${config.outputPath}`);
     await fs.writeFile(config.outputPath, JSON.stringify(result, null, 2));
-    
-    // 验证文件是否成功写入
-    try {
-      await fs.access(config.outputPath);
-      const stats = await fs.stat(config.outputPath);
-      console.log(`文件大小: ${stats.size} 字节`);
-    } catch (error) {
-      throw new Error(`文件写入验证失败: ${error.message}`);
-    }
     
     console.log(`
 ✅ 数据采集完成！
