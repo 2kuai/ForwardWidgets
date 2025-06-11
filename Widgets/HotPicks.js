@@ -721,65 +721,25 @@ async function getMovies(params = {}) {
     
     console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
 
-    const url = `https://movie.douban.com/cinema/${type}/shanghai/`;
-    
-    const response = await Widget.http.get(url, {
+    const response = await Widget.http.get('https://raw.githubusercontent.com/2kuai/ForwardWidgets/main/data/movies-data.json', {
       headers: {
-        "User-Agent": USER_AGENT,
-        "referer": "https://sec.douban.com/",
-        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        "User-Agent": USER_AGENT
       }
     });
     
-    if (!response || !response.data) throw new Error("获取数据失败");
+    if (!response?.data) throw new Error("获取院线数据失败");
 
-    const $ = Widget.html.load(response.data);
-    if (!$ || $ === null) throw new Error("解析 HTML 失败");
+    const data = response.data;
+    const movieType = type === "later" ? "later" : "nowplaying";
+    
+    if (!data[movieType]?.length) throw new Error(`未找到${type === "later" ? "即将" : "正在"}上映的电影`);
     
     const limit = 20;
     const offset = Number(params.offset);
+    const results = data[movieType].slice(offset, offset + limit);
     
-    let results = [];
-    if (type === "nowplaying") {
-      const selector = "#nowplaying .list-item";
-      const elements = $(selector).toArray();
-      if (!elements.length) throw new Error(`未找到${type}的电影`);
-      const pageItems = elements.slice(offset, offset + limit);
-      results = pageItems.map(el => {
-        const $el = $(el);   
-        return { 
-          id: $el.attr("id"), 
-          type: "douban", 
-          title: $el.attr("data-title") || $el.find(".stitle a").attr("title"),
-          mediaType: "movie"
-        };
-      }).filter(Boolean);      
-    } else if (type === "later") {
-      const selector = "#showing-soon .item.mod";
-      const elements = $(selector).toArray();
-      if (!elements.length) throw new Error(`未找到${type === "later" ? "即将" : "正在"}上映的电影`);
-      const pageItems = elements.slice(offset, offset + limit);
-      results = pageItems.map(el => {
-        const $el = $(el);   
-        let title = $el.find("h3 a").text().trim();
-        if (!title) {
-          title = $el.find("h3").text().trim().replace(/\s*\d{1,2}月\d{1,2}日.*$/, '').trim();
-        }
-        let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
-        let id = idMatch ? idMatch[1] : null;
-        if (!id) {
-          id = null;
-        }
-        return { 
-          id: id, 
-          type: "douban", 
-          title: title,
-          mediaType: "movie"
-        };
-      }).filter(Boolean);
-    }
+    if (!results.length) throw new Error("没有更多数据");
     
-    if (!results.length) throw new Error("未能解析出有效的电影信息");
     return results;
   } catch (error) {
     console.error(`[电影列表] 获取失败: ${error.message}`);
