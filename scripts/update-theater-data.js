@@ -337,8 +337,7 @@ async function searchTMDB(title, year = null) {
                 backdropPath: result.backdrop_path ? `https://image.tmdb.org/t/p/w500${result.backdrop_path}` : null,
                 releaseDate: result.first_air_date,
                 rating: result.vote_average,
-                mediaType: "tv",
-                source: result.source || 'unknown'
+                mediaType: "tv"
             };
         }
         console.log(`No TMDB results found for: ${title}`);
@@ -378,13 +377,12 @@ async function updateTheaterData() {
                 const tmdbData = await searchTMDB(title, year);
                 if (tmdbData) {
                     const showData = {
-                        ...tmdbData,
-                        original_title: show // 保留原始格式（包含年份）
+                        ...tmdbData
                     };
                     
                     // 根据release_date分类
-                    if (tmdbData.release_date) {
-                        const releaseDate = new Date(tmdbData.release_date);
+                    if (tmdbData.first_air_date) {
+                        const releaseDate = new Date(tmdbData.first_air_date);
                         if (releaseDate <= currentDate) {
                             airedShows.push(showData);
                         } else {
@@ -399,8 +397,8 @@ async function updateTheaterData() {
             
             // 对已播剧集按release_date降序排序（最新的在前）
             airedShows.sort((a, b) => {
-                const dateA = new Date(a.release_date || 0);
-                const dateB = new Date(b.release_date || 0);
+                const dateA = new Date(a.first_air_date || 0);
+                const dateB = new Date(b.first_air_date || 0);
                 return dateB - dateA;
             });
             
