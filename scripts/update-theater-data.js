@@ -381,8 +381,8 @@ async function updateTheaterData() {
                     };
                     
                     // 根据release_date分类
-                    if (tmdbData.first_air_date) {
-                        const releaseDate = new Date(tmdbData.first_air_date);
+                    if (tmdbData.releaseDate) {
+                        const releaseDate = new Date(tmdbData.releaseDate);
                         if (releaseDate <= currentDate) {
                             airedShows.push(showData);
                         } else {
@@ -397,8 +397,8 @@ async function updateTheaterData() {
             
             // 对已播剧集按release_date降序排序（最新的在前）
             airedShows.sort((a, b) => {
-                const dateA = new Date(a.first_air_date || 0);
-                const dateB = new Date(b.first_air_date || 0);
+                const dateA = new Date(a.releaseDate || 0);
+                const dateB = new Date(b.releaseDate || 0);
                 return dateB - dateA;
             });
             
