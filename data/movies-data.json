@@ -1,504 +1,258 @@
 {
-  "last_updated": "2025-06-11T23:26:52.960+08:00",
-  "nowplaying": [
-    {
-      "id": "34807062",
-      "type": "douban",
-      "title": "疾速追杀：芭蕾杀姬",
-      "mediaType": "movie"
-    },
-    {
-      "id": "30433456",
-      "type": "douban",
-      "title": "碟中谍8：最终清算",
-      "mediaType": "movie"
-    },
-    {
-      "id": "11600089",
-      "type": "douban",
-      "title": "功夫梦：融合之道",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36469477",
-      "type": "douban",
-      "title": "时间之子",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36809928",
-      "type": "douban",
-      "title": "哆啦A梦：大雄的绘画奇遇记",
-      "mediaType": "movie"
-    },
-    {
-      "id": "30345743",
-      "type": "douban",
-      "title": "星际宝贝史迪奇",
-      "mediaType": "movie"
-    },
-    {
-      "id": "27077476",
-      "type": "douban",
-      "title": "会计刺客2",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1291936",
-      "type": "douban",
-      "title": "攻壳机动队",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36563406",
-      "type": "douban",
-      "title": "私家侦探",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36978067",
-      "type": "douban",
-      "title": "苍茫的天涯是我的爱",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36933869",
-      "type": "douban",
-      "title": "红嫁衣",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36896644",
-      "type": "douban",
-      "title": "独一无二",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35512487",
-      "type": "douban",
-      "title": "我仍在此",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1297359",
-      "type": "douban",
-      "title": "幽灵公主",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36512371",
-      "type": "douban",
-      "title": "大风杀",
-      "mediaType": "movie"
-    },
-    {
-      "id": "33414470",
-      "type": "douban",
-      "title": "水饺皇后",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35927475",
-      "type": "douban",
-      "title": "雷霆特攻队*",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35929258",
-      "type": "douban",
-      "title": "猎金·游戏",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36988926",
-      "type": "douban",
-      "title": "人生开门红",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35558009",
-      "type": "douban",
-      "title": "永不失联的爱",
-      "mediaType": "movie"
-    },
-    {
-      "id": "37359996",
-      "type": "douban",
-      "title": "致命玩偶",
-      "mediaType": "movie"
-    },
-    {
-      "id": "37374493",
-      "type": "douban",
-      "title": "风味快餐车",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1292220",
-      "type": "douban",
-      "title": "情书",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36445098",
-      "type": "douban",
-      "title": "还有明天",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35144311",
-      "type": "douban",
-      "title": "雄狮少年",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36613553",
-      "type": "douban",
-      "title": "孤独摇滚(下)",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36135198",
-      "type": "douban",
-      "title": "黎明的一切",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1302061",
-      "type": "douban",
-      "title": "德州巴黎",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1308807",
-      "type": "douban",
-      "title": "哈尔的移动城堡",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1433577",
-      "type": "douban",
-      "title": "赛末点",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1292048",
-      "type": "douban",
-      "title": "蓝白红三部曲之蓝",
-      "mediaType": "movie"
-    },
-    {
-      "id": "26683290",
-      "type": "douban",
-      "title": "你的名字。",
-      "mediaType": "movie"
-    },
-    {
-      "id": "37076031",
-      "type": "douban",
-      "title": "潜艇总动员：冒险岛",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35603727",
-      "type": "douban",
-      "title": "猫猫的奇幻漂流",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1421309",
-      "type": "douban",
-      "title": "双姝奇缘",
-      "mediaType": "movie"
-    },
-    {
-      "id": "33425279",
-      "type": "douban",
-      "title": "日暮·归乡",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1292287",
-      "type": "douban",
-      "title": "新龙门客栈",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36415357",
-      "type": "douban",
-      "title": "孤独摇滚(上)",
-      "mediaType": "movie"
-    },
-    {
-      "id": "26149750",
-      "type": "douban",
-      "title": "我的世界大电影",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1291583",
-      "type": "douban",
-      "title": "天空之城",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1292218",
-      "type": "douban",
-      "title": "中央车站",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1296757",
-      "type": "douban",
-      "title": "随心所欲",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1434269",
-      "type": "douban",
-      "title": "黑炮事件",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1299261",
-      "type": "douban",
-      "title": "红色沙漠",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1302210",
-      "type": "douban",
-      "title": "神女",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36959346",
-      "type": "douban",
-      "title": "孤独的美食家 剧场版",
-      "mediaType": "movie"
-    },
-    {
-      "id": "37298398",
-      "type": "douban",
-      "title": "海底小纵队：海啸大危机",
-      "mediaType": "movie"
-    },
-    {
-      "id": "33446686",
-      "type": "douban",
-      "title": "黑暗迷踪",
-      "mediaType": "movie"
-    },
-    {
-      "id": "3592496",
-      "type": "douban",
-      "title": "月升中天",
-      "mediaType": "movie"
-    },
-    {
-      "id": "26938697",
-      "type": "douban",
-      "title": "猎狐·行动",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1291838",
-      "type": "douban",
-      "title": "红猪",
-      "mediaType": "movie"
-    },
-    {
-      "id": "24875534",
-      "type": "douban",
-      "title": "十二公民",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36768946",
-      "type": "douban",
-      "title": "海洋奇缘2",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36083337",
-      "type": "douban",
-      "title": "家的方向",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36597308",
-      "type": "douban",
-      "title": "荣耀",
-      "mediaType": "movie"
-    },
-    {
-      "id": "1438425",
-      "type": "douban",
-      "title": "早春二月",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35538581",
-      "type": "douban",
-      "title": "玩乐时间",
-      "mediaType": "movie"
-    },
-    {
-      "id": "35932316",
-      "type": "douban",
-      "title": "陪你在全世界长大",
-      "mediaType": "movie"
-    },
-    {
-      "id": "37386220",
-      "type": "douban",
-      "title": "情润天山",
-      "mediaType": "movie"
-    },
-    {
-      "id": "36946781",
-      "type": "douban",
-      "title": "特别的你",
-      "mediaType": "movie"
-    }
-  ],
+  "last_updated": "2025-06-11T23:59:30.466+08:00",
+  "nowplaying": [],
   "later": [
     {
-      "id": "36247731",
-      "type": "douban",
+      "id": 1087192,
+      "type": "tmdb",
       "title": "新·驯龙高手",
+      "description": "　　影片讲述小嗝嗝（梅森·泰晤士 Mason Thames 饰）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
+      "releaseDate": "2025-06-06",
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
-      "id": "25917971",
-      "type": "douban",
+      "id": 1489864,
+      "type": "tmdb",
       "title": "恋曲尘封",
+      "description": "　　阿轩（黄轩 饰）是一位非常热爱艺术的少年，他早早的辍了学，住在一间地下室里，每天埋首于艺术创作之中。一次偶然间，阿轩发现了一本落满了灰尘的日记，日记属于一位名叫阿岚（蒋雯丽 饰）的女子，写于她18岁那一年，记录了一段懵懂的恋情。阿轩被这本日记深深的打动了。  　　让阿轩没有想到的是，他竟然在现实里遇见了阿岚，此时的阿岚已经36岁了。受到日记的影响，阿轩对阿岚充满了兴趣和好奇，他隐瞒了日记的存在，在阿岚的面前还原了日记里所记录的点点滴滴，令阿岚内心泛起了涟漪。而在此过程中，阿轩也发现自己对阿岚的感情产生了变化。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/olIuz1d7TNzfMfX7sLQFSjY6hlB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gwW1cF2HYxw4sMUHOdTe4HQ3vGJ.jpg",
+      "releaseDate": "2025-06-13",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "1295284",
-      "type": "douban",
+      "id": 45505,
+      "type": "tmdb",
       "title": "星月童话",
+      "description": "未婚夫达也（张国荣）在香港死于一场交通意外后，瞳（常盘贵子）以为自此失去幸福，生活质量开始大幅滑坡。为了兑现曾与达也在香港许下的承诺，她勉强收拾心情只身来到伤心城。同瞳一样，香港警察家宝（张国荣）也有一段伤心往事，他曾因工作狂热导致女友无法忍受冷落自杀身亡。女友死后，家宝选择做了卧底，想以更加狂热刺激的工作来麻醉和折磨自己。瞳遇到家宝后，因为家宝与达也长得一模一样，疑惑达也还在，内心又起美丽的憧憬，两个因爱受伤的人擦出烂漫火花。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9OlWix6xjpYlhMI6hSLxPaK5Cmb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/brXQrEZq1G5AQnz8J4y5BDysLWZ.jpg",
+      "releaseDate": "1999-04-01",
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
-      "id": "36622930",
-      "type": "douban",
+      "id": 1359994,
+      "type": "tmdb",
       "title": "分手清单",
+      "description": "一次偶然的机会，马天泽与夏沫因为吃火锅成为朋友，转而进阶为恋人。相恋三年后，两人没有走进婚姻的殿堂，反而是要在朋友们的见证下，执行完成当初定下的一系列稀奇古怪的“分手清单”内容。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zldilc8JxiSeOVqNvAMONyo9a5o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4F8hAOFbm6Bm3P957jatWFosS9j.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "37361513",
-      "type": "douban",
+      "id": 1487560,
+      "type": "tmdb",
       "title": "破局者迷",
+      "description": "　　李氏家族不曾向外界开放的藏书楼临渊阁突然遭窃，侦探白飞受邀前来协助调查。在神秘的密室现场，他发现这看似普通的盗窃案背后危机四伏，人人都似乎怀揣着不可告人的秘密。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vLPmVcmKV5ea9dMdN2hiAKGsqOS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/A2qHtWZ1Y5jcewV1q0GMPKAVpYy.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36473829",
-      "type": "douban",
+      "id": 942074,
+      "type": "tmdb",
       "title": "但愿人长久",
+      "description": "来自湖南的新移民子圆及妹妹子缺两姊妹在香港成长，除了面对身份认同、贫穷，还有一个更大的命题：一个长年吸毒的父亲（吴慷仁 饰）。 从小父亲若即若离，喜怒无常，又时常因坐牢突然消失，使两姊妹长期处于不安。小时候她们还会讨好父亲，中学她们掌握了话语权开始反抗、挣扎、逃离。长大后本以为可以彻底挣脱父亲，却发现自己喜欢的所有人事，原来都带着父亲的影子，都与童年的某个回忆有关……影片改编导演祝紫嫣的短篇小说。白描二十载的父女离散，记忆一对姊妹的成长悲欢。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ow7F9gCFpY97MlvsqIxKkT8bq7h.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rSigug388cIA2syRjoxZPu59FDK.jpg",
+      "releaseDate": "2024-04-11",
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
-      "id": "36862993",
-      "type": "douban",
+      "id": 1387103,
+      "type": "tmdb",
       "title": "好好说再见",
+      "description": "三十出头的单亲妈妈应诺（钟欣潼 饰）牵着自己刚满五岁的女儿丢丢踏上了江南小城槐花树下的小径。  她想把丢丢托付给曾与自己断绝关系，发誓老死不相往来的父亲应大海（林栋甫 饰），自己只身出国参加梦寐以求的世界翻糖蛋糕大赛，虽然这个决定其实背后另有隐情……不靠谱的老应使出各种奇怪的招数阻拦应诺离开。  在一 段时光的相处后，应诺逐渐改变了想法。在生命迎来终点之前，她将如何实现一场完美的告别……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r6IB49ap3onG2LsRDkHkqLO8DYE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/drUOK1iUY5OLjQM16cIWhnwV7Zt.jpg",
+      "releaseDate": "2025-06-20",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36471673",
-      "type": "douban",
+      "id": 1205834,
+      "type": "tmdb",
       "title": "最美不是下雨天",
+      "description": "音乐大学学生湊人（京本大我 饰）在过去的事件中受到创伤，她与雪乃（古川琴音 饰）在钢琴的引导下相互吸引，雪乃的天真烂漫和动人心弦的琴音抚慰了湊人，两人一起度过的日子变得无可替代，但有一天，雪乃从湊人面前消失了。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kAyQAgWalPiLK9W6qiwnHIvXX9W.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uHYBvSvke7c63g56LjIrqzD2lVn.jpg",
+      "releaseDate": "2024-06-28",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
-      "id": "26749938",
-      "type": "douban",
+      "id": 1139695,
+      "type": "tmdb",
       "title": "酱园弄·悬案",
+      "description": "影片根据民国四大奇案之一改编，女子杀夫碎尸最终竟无罪释放？1945年，上海酱园弄发生一起骇人血案，一石激起千层浪。詹周氏（章子怡 饰）为何杀夫？又如何凭一己之力完成碎尸？随着时代变迁，她的命运又将如何改写？大时代下鲜活的众生群像又将如何展开？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dwZ8ovST9NTuCteWJQERut2KvQM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yIvQblXpyQ2qLfqQQpk1BY5MiTa.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "28510051",
-      "type": "douban",
+      "id": 954905,
+      "type": "tmdb",
       "title": "艺术学院1994",
+      "description": "　　90年代初，南方艺术学院，美术系张小军（董子健 配音）和“兔子”是死党，一起思考艺术，谈论理想，憧憬爱情。因为画作被划破，他们卷入和林卫国（白客 配音）的是非中。郁闷的他们在画展上结识了音乐系的郝丽丽（周冬雨 配音）和高红（姜逸磊 配音），校园生活似乎染上了新的色彩。而老考生赵有才（黄渤 配音）的遭遇和留法研究生吴英俊（大鹏 配音）的出现打破了事情发展的节奏……小军去西北写生一个月，回来后发现一切都变了。正是毕业时节，在现实面前，对于艺术、爱情、友情、理想，每个人有了不同的理解和选择，彼此渐行渐远。小军不能完全理解大家的变化，陷入迷惘和孤独 ……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/iHANhUZlvOb2e5fp8vTnPbOd4W6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jJ1757F6MCpab42xt4BFRoqxXxD.jpg",
+      "releaseDate": "2025-06-21",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "35360553",
-      "type": "douban",
+      "id": 796185,
+      "type": "tmdb",
       "title": "三个火枪手：达达尼昂",
+      "description": "达达尼昂，一个意气风发的年轻加斯科涅人，在试图拯救一位被绑架的贵妇后被留下等死。逃出生天后，他一到巴黎，就想尽一切办法寻找袭击者，却没有意识到他的追索将把他引向一场事关法国未来的战争的核心。在国王的火枪手阿索斯、波托斯和阿拉米斯的帮助下，他面对邪恶的红衣主教黎塞留和米拉迪·德·温特的阴谋，同时爱上了女王的心腹康斯坦斯。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nw5LHr6iZpVk4IlNV3CBTUB6f8V.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lx89oBeJIastndjbQxznnfSYpmR.jpg",
+      "releaseDate": "2023-04-05",
+      "rating": 6.961,
       "mediaType": "movie"
     },
     {
-      "id": "37293933",
-      "type": "douban",
+      "id": 1488302,
+      "type": "tmdb",
       "title": "阿克达拉",
+      "description": "一位有先天听觉障碍的新疆小女孩，和一位新疆老爷爷通过交换小秘密，揭开了一段封尘已久的深情往事。系红纱巾的稻草人在棉花田里默默守望。他为什么给稻草人系上红纱巾；三个毫无血缘关系的人，为什么亲如一家；一个守候半生的老人，一个失聪的小姑娘，一个埋藏了半个世纪的秘密究竟是什么？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gPpWpQWtyPI1CMnd23DKEg1I0y3.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-06-21",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "37017543",
-      "type": "douban",
+      "id": 1488731,
+      "type": "tmdb",
       "title": "炽热年华",
+      "description": "　　纯真开朗的女大学生吉慧英（冯文娟 饰）在突遭家庭变故后，鼓起勇气坚韧前行，在被男人垄断的煤炭行业闯出一片天地的励志故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7triOXJ3JQRSGXkL8KzUJesytDI.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-06-21",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "37370064",
-      "type": "douban",
+      "id": 1492939,
+      "type": "tmdb",
       "title": "和我说早安",
+      "description": "　　自幼喜爱绘画的大学生夏初筝因患抑郁症而计划自杀，在同学李梦琦的帮助下逐渐打开心扉、重拾希望。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/42Di8BqrbWEAeOzZZr20Pza8OKP.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-06-22",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36468120",
-      "type": "douban",
+      "id": 1182247,
+      "type": "tmdb",
       "title": "风起前的蒲公英",
+      "description": "　蒲公英中学是北京市第一所专门为进城务工者的子女创办的中学。袁小燕老师已经在这所学校的合唱团工作了八年。每年新生入学的时候，她都要选一批热爱音乐、基础条件好的初一学生加入合唱团。随着北京大兴国际机场的建设，这座最初建立在废弃车间里的初中将搬到新建的现代校舍。在老校区的最后一年里，合唱团迎来了新一批孩子，而升入初二的团员们则需要和家人面对未来的选择。对于合唱团的孩子们来说，初中生涯终将会被升学的压力和离别的无奈所中止。在这段与音乐为伴的人生旅程中，他们一直品尝着属于青春岁月的苦乐悲喜，将它们深埋心底，转化为成长的养分。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jHH8FNCYc52yY92iQ94yXZS5T8p.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-06-25",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36090458",
-      "type": "douban",
+      "id": 1022787,
+      "type": "tmdb",
       "title": "地球特派员",
+      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+      "releaseDate": "2025-06-18",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "35689244",
-      "type": "douban",
+      "id": 911430,
+      "type": "tmdb",
       "title": "F1：狂飙飞车",
+      "description": "　　桑尼·海耶斯（布拉德·皮特 饰）曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯（哈维尔·巴登 饰）却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯（达姆森·伊德瑞斯 饰）并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8PHTO4a11JuZwYko7QPBUWq45wJ.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36851291",
-      "type": "douban",
+      "id": 1396965,
+      "type": "tmdb",
       "title": "名侦探柯南：独眼的残像",
+      "description": "长野县八岳连峰未宝岳。长野县警大和敢助在雪山上追赶“某个男人”时，突然有什么人的影子出现在了敢助的视野中。回过神来的瞬间，“某个男人”射出的步枪子弹掠过了敢助的左眼，伴随着地面轰鸣发生了雪崩。敢助就这样被吞噬——  10个月后。接到野边山国立天文台的设施研究员被某人袭击的报警后，从雪崩中奇迹般生还的敢助，和上原由衣赶到了现场。正在了解情况的时候天文台的巨大抛物面天线启动了，敢助受伤了的左眼不知为何突然剧烈地疼痛起来……  那天晚上，毛利侦探事务所接到了小五郎警视厅时期关系很好的同事、被称作“鳄鱼”的刑警的电话。他正在未宝岳调查将敢助卷入的雪崩事故，据说案件文档中有小五郎的名字。  柯南也跟着约定和“鳄鱼”日后见面的小五郎同去，但在前往约好的地点的途中，突然响起了枪声。\r 没有实现的约定，与存在于独眼中的残像。  在冰雪肆虐的山岳之上，白茫茫的因缘（乳白天空谜案）之帷幕被拉开了——",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vvuM1SdFbrCTHb2JdqHBsvLEzj9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
+      "releaseDate": "2025-04-18",
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
-      "id": "35370668",
-      "type": "douban",
+      "id": 799766,
+      "type": "tmdb",
       "title": "更好的我",
+      "description": "　　见证巨星罗比·威廉姆斯波澜壮阔的不凡人生，除了名利、金钱、欲望之外，还有很多你不知道的事……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
+      "releaseDate": "2024-12-06",
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
-      "id": "1958667",
-      "type": "douban",
-      "title": "蜡笔小新：大人王国的反击",
+      "id": 37280,
+      "type": "tmdb",
+      "title": "蜡笔小新：呼风唤雨！猛烈！大人帝国的反击",
+      "description": "这天在小新居住的春日部附近，突然新开了一家叫“20世纪博”的游乐园。游乐园里到处播放着从前20世纪的旧的电视节目和电影，这里，一切都是从前时光的回放。每一个到了这里的大人，都沉浸在过去的旧时光里，而对小孩子来说，这些的东西一点意思都没有。令小新万万想不到的是，进入了游乐园的爸爸妈妈都不在理会其他事情，只是一直沉醉在以往的时光里。城里的大人们都进去了，只剩下了小孩子！这到底是谁的阴谋，小新他们能否粉碎这阴谋？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AgU1NkeXlkizsIdg9atqyomO1P1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tMu1ceUmscHoOJFCkz3HmTRBAg3.jpg",
+      "releaseDate": "2001-04-21",
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
-      "id": "35360551",
-      "type": "douban",
+      "id": 845111,
+      "type": "tmdb",
       "title": "三个火枪手：米莱迪",
+      "description": "从卢浮宫到白金汉宫，到巴黎的阴沟到拉罗谢尔的围城……在一个被宗教战争分裂并受到英国入侵威胁的王国里，少数男男女女将剑拔弩张，将他们的命运与法国的命运绑在一起 。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gl7kGqjM6wKkWemDeuHuBvNwYxv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tWVXGyDNQM7zRKp162PSdBSgCzb.jpg",
+      "releaseDate": "2023-12-13",
+      "rating": 6.436,
       "mediaType": "movie"
     },
     {
-      "id": "36217765",
-      "type": "douban",
+      "id": 1467574,
+      "type": "tmdb",
       "title": "人生会议",
+      "description": "46岁的卫星凭借一台时光机成功穿越到20岁，从此打开时空任意门！他开始PUA年轻的自己，忽悠对方签下“人生协议”，实现爆改自由：当大老板、搞科研当博士、成为伽马星球二王子......把所有对人生的不满意统统修正，开启一场叠满buff的穿越之旅！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/f05jh34hJQLcykKWwu78eePZOcm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kCka1ZsdRNeYgMCHT0WcuFILVXV.jpg",
+      "releaseDate": "2025-06-28",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": "36245633",
-      "type": "douban",
+      "id": 1495672,
+      "type": "tmdb",
       "title": "夏季成人礼",
+      "description": "影片聚焦父女亲情，讲述女儿在18岁成人礼之际离家出走后，原本水火不容的生父和继父增进了解，并共同寻女的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dxQCot5i7eTmWoFHscCAm2awvle.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jufQG3Sve1HlAQW54xZ1nxYrPAD.jpg",
+      "releaseDate": "2025-06-28",
+      "rating": 0,
       "mediaType": "movie"
     }
   ]
