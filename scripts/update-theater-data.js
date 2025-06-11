@@ -348,19 +348,92 @@ async function searchTMDB(title, year = null) {
     }
 }
 
+async function fetchXTheaterTitles() {
+    try {
+        console.log('Fetching X剧场 data from Wikipedia...');
+        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
+            params: {
+                action: 'parse',
+                page: 'X剧场',
+                format: 'json',
+                prop: 'text',
+                section: 1
+            },
+            timeout: 10000
+        });
+
+        if (!response.data || !response.data.parse || !response.data.parse.text) {
+            console.error('Invalid Wikipedia API response:', response.data);
+            return { "X剧场": [] };
+        }
+
+        const html = response.data.parse.text['*'];
+        console.log('Successfully fetched X剧场 HTML content');
+        
+        const $ = cheerio.load(html);
+        const xTheaterShows = [];
+        
+        // 解析表格数据
+        const table = $('table.wikitable');
+        if (table.length === 0) {
+            console.log('No table found in X剧场 section');
+            return { "X剧场": [] };
+        }
+
+        console.log('Processing X剧场 table');
+        
+        table.find('tr').slice(1).each((rowIndex, row) => {
+            const columns = $(row).find('td');
+            if (columns.length >= 2) {
+                // 处理首播日期列
+                const dateText = $(columns[0]).text().trim();
+                let year = '';
+                
+                // 匹配日期格式：2023年4月22日 或 待公布
+                if (dateText !== '待公布') {
+                    const yearMatch = dateText.match(/(\d{4})/);
+                    year = yearMatch ? yearMatch[1] : '';
+                }
+                
+                // 处理剧名列
+                const titleLink = $(columns[1]).find('a').first();
+                const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                
+                if (title) {
+                    // 如果有有效年份则添加年份，否则不加
+                    const formattedTitle = year ? `${title}（${year}）` : title;
+                    xTheaterShows.push(formattedTitle);
+                }
+            }
+        });
+
+        console.log(`Found ${xTheaterShows.length} shows in X剧场`);
+        return { "X剧场": xTheaterShows };
+    } catch (error) {
+        console.error('Error fetching X剧场 from Wikipedia:', error.message);
+        if (error.response) {
+            console.error('Response status:', error.response.status);
+            console.error('Response data:', error.response.data);
+        }
+        return { "X剧场": [] };
+    }
+}
+
 async function updateTheaterData() {
     try {
-        // 获取三个剧场的数据
-        const [mistTheater, whiteNightTheater, monsoonTheater] = await Promise.all([
+        // 获取四个剧场的数据
+        const [mistTheater, whiteNightTheater, monsoonTheater, xTheater] = await Promise.all([
             fetchMistTheaterTitles(),
             fetchWhiteNightTheaterTitles(),
-            fetchMonsoonTheaterTitles()
+            fetchMonsoonTheaterTitles(),
+            fetchXTheaterTitles()  // 新增的X剧场
         ]);
         
         console.log(`Final counts before TMDB search:
         - 迷雾剧场: ${mistTheater["迷雾剧场"].length} shows
         - 白夜剧场: ${whiteNightTheater["白夜剧场"].length} shows
-        - 季风剧场: ${monsoonTheater["季风剧场"].length} shows`);
+        - 季风剧场: ${monsoonTheater["季风剧场"].length} shows
+        - X剧场: ${xTheater["X剧场"].length} shows`);  // 新增的X剧场
         
         // 为每个剧场单独处理TMDB搜索并分类
         const processTheaterShows = async (theaterName, shows) => {
@@ -408,11 +481,12 @@ async function updateTheaterData() {
             };
         };
 
-        // 并行处理三个剧场的数据
-        const [mistTheaterData, whiteNightTheaterData, monsoonTheaterData] = await Promise.all([
+        // 并行处理四个剧场的数据
+        const [mistTheaterData, whiteNightTheaterData, monsoonTheaterData, xTheaterData] = await Promise.all([
             processTheaterShows("迷雾剧场", mistTheater["迷雾剧场"]),
             processTheaterShows("白夜剧场", whiteNightTheater["白夜剧场"]),
-            processTheaterShows("季风剧场", monsoonTheater["季风剧场"])
+            processTheaterShows("季风剧场", monsoonTheater["季风剧场"]),
+            processTheaterShows("X剧场", xTheater["X剧场"])
         ]);
         
         // 创建最终数据结构
@@ -429,6 +503,10 @@ async function updateTheaterData() {
             "季风剧场": {
                 aired: monsoonTheaterData.aired,
                 upcoming: monsoonTheaterData.upcoming
+            },
+            "X剧场": {
+                aired: xTheaterData.aired,
+                upcoming: xTheaterData.upcoming
             }
         };
         
@@ -439,7 +517,8 @@ async function updateTheaterData() {
         console.log(`Successfully updated data:
         - 迷雾剧场: ${mistTheaterData.aired.length} aired, ${mistTheaterData.upcoming.length} upcoming
         - 白夜剧场: ${whiteNightTheaterData.aired.length} aired, ${whiteNightTheaterData.upcoming.length} upcoming
-        - 季风剧场: ${monsoonTheaterData.aired.length} aired, ${monsoonTheaterData.upcoming.length} upcoming`);
+        - 季风剧场: ${monsoonTheaterData.aired.length} aired, ${monsoonTheaterData.upcoming.length} upcoming
+        - X剧场: ${xTheaterData.aired.length} aired, ${xTheaterData.upcoming.length} upcoming`);
         
         return data;
     } catch (error) {
@@ -447,6 +526,8 @@ async function updateTheaterData() {
         throw error;
     }
 }
+
+
 
 
 // 执行更新
