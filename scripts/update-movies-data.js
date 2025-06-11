@@ -112,7 +112,7 @@ async function getMovies(params = {}) {
 
     let movies = [];
     if (type === "nowplaying") {
-      const selector = "#nowplaying .list-item";
+      const selector = "#nowplaying .lists .list-item";
       const elements = $(selector).toArray();
       if (!elements.length) {
         throw new Error(`未找到正在上映的电影`);
@@ -120,10 +120,10 @@ async function getMovies(params = {}) {
       const pageItems = elements.slice(offset, offset + limit);
       movies = pageItems.map(el => {
         const $el = $(el);
-        const title = $el.attr("data-title") || $el.find(".stitle a").attr("title");
+        const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
         const yearMatch = title?.match(/（(\d{4})）$/);
         const year = yearMatch ? yearMatch[1] : null;
-        return title
+        return title;
       }).filter(Boolean);
     } else if (type === "later") {
       const selector = "#showing-soon .item.mod";
