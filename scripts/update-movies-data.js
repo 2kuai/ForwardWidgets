@@ -110,8 +110,7 @@ async function main() {
     const result = {
       last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
       nowplaying,
-      later,
-      total: nowplaying.length + later.length
+      later
     };
 
     // 写入文件
