@@ -2,12 +2,14 @@ name: Update Theater Data
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每6小时运行一次
+    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai  # 设置时区为北京时间
     
     steps:
       - uses: actions/checkout@v3

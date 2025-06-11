@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.0",
+  version: "1.1.112",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -19,6 +19,7 @@ var WidgetMetadata = {
           name: "seriesType",
           title: "类型",
           type: "enumeration",
+          cacheDuration: 10800,
           enumOptions: [
             { title: "全部剧集", value: "" },
             { title: "电视剧", value: "0" },
@@ -27,7 +28,7 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "platform",
+          name: "sort_by",
           title: "平台",
           type: "enumeration",
           enumOptions: [
@@ -48,6 +49,7 @@ var WidgetMetadata = {
       description: "根据个人偏好推荐影视作品",
       requiresWebView: false,
       functionName: "getPreferenceRecommendations",
+      cacheDuration: 10800,
       params: [
         {
           name: "source",
@@ -135,7 +137,7 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "sortBy",
+          name: "sort_by",
           title: "排序",
           type: "enumeration",
           enumOptions: [
@@ -169,7 +171,17 @@ var WidgetMetadata = {
       description: "最近热门电影推荐",
       requiresWebView: false,
       functionName: "getHotMovies",
+      cacheDuration: 3600,
       params: [
+        {
+          name: "source",
+          title: "来源",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣", value: "douban" },
+            { title: "TMDB", value: "tmdb" }
+          ]
+        },
         {
           name: "category",
           title: "类别",
@@ -182,11 +194,11 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "type",
+          name: "sort_by",
           title: "类型",
           type: "enumeration",
           enumOptions: [
-            { title: "全部地区", value: "全部" },
+            { title: "全部电影", value: "全部" },
             { title: "华语电影", value: "华语" },
             { title: "欧美电影", value: "欧美" },
             { title: "韩国电影", value: "韩国" },
@@ -211,9 +223,19 @@ var WidgetMetadata = {
       description: "最近热门剧集推荐",
       requiresWebView: false,
       functionName: "getHotTv",
+      cacheDuration: 3600,
       params: [
         {
-          name: "type",
+          name: "source",
+          title: "来源",
+          type: "enumeration",
+          enumOptions: [
+            { title: "豆瓣", value: "douban" },
+            { title: "TMDB", value: "tmdb" }
+          ]
+        },
+        {
+          name: "sort_by",
           title: "类型",
           type: "enumeration",
           enumOptions: [
@@ -224,7 +246,6 @@ var WidgetMetadata = {
             { title: "韩剧", value: "tv_korean" },
             { title: "动画", value: "tv_animation" },
             { title: "纪录片", value: "tv_documentary" },
-            { title: "全部综艺", value: "show" },
             { title: "国内综艺", value: "show_domestic" },
             { title: "国外综艺", value: "show_foreign" }
           ]
@@ -247,6 +268,7 @@ var WidgetMetadata = {
       description: "最近热门番剧推荐",
       requiresWebView: false,
       functionName: "getHotAnime",
+      cacheDuration: 3600,
       params: [
         {
           name: "type",
@@ -282,6 +304,7 @@ var WidgetMetadata = {
         description: "获取白夜剧场剧集信息",
         requiresWebView: false,
         functionName: "getSuspenseTheater",
+        cacheDuration: 86400,
         params: [
         {
             name: "type",
@@ -294,26 +317,17 @@ var WidgetMetadata = {
             ]
         },
         {
-            name: "category",
+            name: "sort_by",
             title: "类型",
             type: "enumeration",
             description: "选择要查看的剧场类型",
-            belongTo: {
-              paramName: "type",
-              value: ["now_playing"]
-            },
             enumOptions: [
+                { title: "全部剧场", value: "all" },
                 { title: "迷雾剧场", value: "迷雾剧场" },
                 { title: "白夜剧场", value: "白夜剧场" },
                 { title: "季风剧场", value: "季风剧场" },
-                { title: "X剧场", value: "X剧场" },
-                // { title: "生花剧场", value: "生花剧场" }
+                { title: "X剧场", value: "X剧场" }
             ]
-        },
-        {
-          name: "offset",
-          title: "起始位置",
-          type: "offset"
         }
       ]
     },
@@ -322,6 +336,7 @@ var WidgetMetadata = {
       description: "获取正在上映或即将上映的电影列表",
       requiresWebView: false,
       functionName: "getMovies",
+      cacheDuration: 43200,
       params: [
         {
           name: "type",
@@ -330,7 +345,8 @@ var WidgetMetadata = {
           enumOptions: [
             { value: "nowplaying", title: "正在上映" },
             { value: "later", title: "即将上映" },
-            { value: "historyRank", title: "历史票房榜单" }
+            { value: "todayRank", title: "今日票房" },
+            { value: "historyRank", title: "历史票房" }
           ]
         },
         {
@@ -345,6 +361,7 @@ var WidgetMetadata = {
       description: "获取豆瓣本周榜单",
       requiresWebView: false,
       functionName: "getDoubanWeekly",
+      cacheDuration: 10800,
       params: [
         {
           name: "type",
@@ -365,6 +382,7 @@ var WidgetMetadata = {
       description: "获取豆瓣年度榜单",
       requiresWebView: false,
       functionName: "getDouban2024",
+      cacheDuration: 86400,
       params: [
         {
           name: "id",
@@ -432,9 +450,9 @@ async function getTVRanking(params = {}) {
             String(today.getMonth() + 1).padStart(2, '0') +
             String(today.getDate()).padStart(2, '0');
         
-        console.log(`[猫眼榜单] 正在获取${params.platform === '0' ? '全网' : `平台${params.platform}`}榜单数据...`);
+        console.log(`[猫眼榜单] 正在获取${params.sort_by === '0' ? '全网' : `平台${params.sort_by}`}榜单数据...`);
         
-        const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${params.seriesType}&platformType=${params.platform}`, {
+        const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${params.seriesType}&platformType=${params.sort_by}`, {
             headers: {
                 "User-Agent": USER_AGENT,
                 "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
@@ -496,7 +514,7 @@ async function getPreferenceRecommendations(params = {}) {
 
         const limit = 20;
         const offset = Number(params.offset);
-        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags_sub.join(","))}&sort=${params.sortBy}`;
+        const url = `https://m.douban.com/rexxar/api/v2/${params.mediaType}/recommend?refresh=0&start=${offset}&count=${Number(offset) + limit}&selected_categories=${encodeURIComponent(JSON.stringify(selectedCategories))}&uncollect=false&score_range=${rating},10&tags=${encodeURIComponent(tags_sub.join(","))}&sort=${params.sort_by}`;
 
         const response = await Widget.http.get(url, {
             headers: {
@@ -513,10 +531,9 @@ async function getPreferenceRecommendations(params = {}) {
         
         if (params.source === "douban") {
             return validItems.map(item => ({
-                id: item.id || "",
+                id: item.id,
                 type: "douban",
-                title: item.title || "未知标题",
-                coverUrl: item.pic?.normal || "",
+                title: item.title,
                 mediaType: params.mediaType
             }));
         } else {
@@ -550,7 +567,7 @@ async function getDoubanRecs(params = {}, mediaType) {
         const limit = 20;
         const offset = Number(params.offset);     
         const category = params.category != null ? params.category : "tv";        
-        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.type)}&score_range=${rating},10`;
+        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.sort_by)}&score_range=${rating},10`;
         const response = await Widget.http.get(url, {
             headers: {
                 "User-Agent": USER_AGENT,
@@ -560,17 +577,26 @@ async function getDoubanRecs(params = {}, mediaType) {
 
         if (!response.data?.items?.length) throw new Error("数据格式不符合预期");
 
-        return response.data.items.map(media => ({
-            id: media.id || "",
-            type: "douban",
-            title: media.title || "",
-            mediaType
-        }));
+        if (params.source === "douban") {
+            return response.data.items.map(item => ({
+                id: item.id,
+                type: "douban",
+                title: item.title,
+                mediaType: mediaType
+            }));
+        } else {
+            const tmdbDetails = await Promise.all(response.data.items.map(async item => {
+                return await getTmdbDetail(item.title, mediaType);
+            }));
+            // Filter out null values when source is tmdb
+            return tmdbDetails.filter(detail => detail !== null);
+        }
 
     } catch (error) {
         throw error;
     }
 }
+
 
 // 追番推荐
 async function getHotAnime(params = {}) {
@@ -629,416 +655,57 @@ async function getHotAnime(params = {}) {
 // 悬疑剧场
 async function getSuspenseTheater(params = {}) {
   try {
-    const titles = await (async () => {
-      if (params.type === 'now_playing') {
-        if (params.category === "迷雾剧场") {
-          const response = await Widget.http.get('https://www.iqiyi.com/theater/2', {
-            headers: { 
-              "User-Agent": USER_AGENT,
-              "Referer": "https://www.iqiyi.com"
-            }
-          });
-          
-          if (!response?.data) throw new Error("获取数据失败");
-          
-          const $ = Widget.html.load(response.data);
-          if (!$) throw new Error("解析 HTML 失败");
-          
-          const elements = $('.qy-mod-list .qy-mod-li');
-          if (!elements?.length) throw new Error('未找到剧集列表元素');
-          
-          return elements
-            .map((_, el) => $(el).find('.link-txt').text())
-            .toArray()
-            .map(title => (title || '').replace(/^[0-9]{4}\s*/, '').trim())
-            .filter(Boolean);
-        }
-        
-        if (params.category === "白夜剧场" || params.category === "生花剧场") {
-          const title = encodeURIComponent("优酷剧场");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=${params.category === "白夜剧场" ? 2 : 1}`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-          
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-          
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$) throw new Error("解析 HTML 失败");
-          
-          const dramaList = [];
-          $('.div-col ul li').each((index, element) => {
-            const liText = $(element).text().trim();
-            if (liText.startsWith('待定：')) return;
-            const match = liText.match(/《([^》]+)》/);
-            if (match && match[1]) {
-              dramaList.push(match[1].trim());
-            }
-          });
-          
-          return dramaList.reverse();
-        }
-        
-        if (params.category === "季风剧场") {
-          const title = encodeURIComponent("芒果季风计划");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-          
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-          
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$) throw new Error("解析 HTML 失败");
-          
-          const playingDramas = [];
-          
-          $('table.wikitable').each((tableIndex, table) => {
-            let isPendingSection = false;
-            
-            $(table).find('tr').each((rowIndex, row) => {
-              const $tds = $(row).find('td');
-              
-              if ($tds.length > 0) {
-                const rowText = $(row).text().trim();
-                
-                if (rowText.includes('待播映')) {
-                  isPendingSection = true;
-                  return;
-                }
-                
-                if (!isPendingSection) {
-                  if (rowIndex > 0) {
-                    const $firstTd = $tds.eq(0);
-                    const $link = $firstTd.find('a').first();
-                    
-                    if ($link.length) {
-                      const title = $link.text().trim();
-                      if (title) {
-                        playingDramas.push(title);
-                      }
-                    }
-                  }
-                }
-              }
-            });
-          });
-          
-          try {
-            const networkUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
-            const networkResponse = await Widget.http.get(networkUrl, {
-              headers: {
-                "User-Agent": USER_AGENT,
-                "Accept": "application/json"
-              }
-            });
-            
-            if (networkResponse?.data?.parse?.text?.["*"]) {
-              const $network = Widget.html.load(networkResponse.data.parse.text["*"]);
-              
-              $network('table.wikitable tr').each((i, row) => {
-                const $tds = $network(row).find('td');
-                
-                if ($tds.length >= 2 && i > 0) {
-                  const status = $tds.eq(1).text().trim();
-                  
-                  if (status.includes('播映完毕')) {
-                    const $link = $tds.eq(0).find('a').first();
-                    if ($link.length) {
-                      const title = $link.text().trim();
-                      if (title) {
-                        playingDramas.push(title);
-                      }
-                    }
-                  }
-                }
-              });
-            }
-          } catch (error) {
-            console.error("获取网络剧数据失败:", error.message);
-          }
-          
-          return playingDramas;
-        }
-        
-        if (params.category === "X剧场") {
-          const title = encodeURIComponent("X剧场");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=1`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
+    const response = await Widget.http.get('https://raw.githubusercontent.com/2kuai/ForwardWidgets/main/data/theater-data.json', {
+      headers: {
+        "User-Agent": USER_AGENT
+      }
+    });
+    
+    if (!response?.data) throw new Error("获取剧场数据失败");
+    
+    const data = response.data;
+    const sortBy = params.sort_by || "all"; // 默认全部剧场
+    const type = params.type || "now_playing"; // 默认正在热播
 
-          if (!response?.data?.parse?.text?.["*"]) {
-            throw new Error("获取维基百科数据失败");
-          }
+    // 映射type参数到数据中的section
+    const sectionMap = {
+      "now_playing": "aired",
+      "coming_soon": "upcoming"
+    };
+    const section = sectionMap[type] || "aired";
 
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$ || !$('table.wikitable').length) {
-            throw new Error("未找到目标表格");
-          }
-
-          const dramaList = [];
-          const $table = $('table.wikitable').first();
-
-          $table.find('tr').each((index, row) => {
-            if (index === 0) return;
-            const $cells = $(row).find('td');
-            if ($cells.length < 2) return;
-            const dateText = $cells.eq(0).text().trim();
-            if (/待公布/.test(dateText)) return;
-            const $nameLink = $cells.eq(1).find('a').first();
-            if (!$nameLink.length) return;
-            const dramaName = $nameLink
-              .clone()
-              .children()
-              .end()
-              .text()
-              .replace(/[《》\s]+/g, ' ')
-              .trim();
-            if (dramaName) {
-              dramaList.push(dramaName);
-            }
-          });
-
-          return dramaList.length ? dramaList.reverse() : [];
-        }
-        
-        return null;
-      } else {
-        async function fetchPendingDramas() {
-          const title = encodeURIComponent("优酷剧场");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$) throw new Error("解析 HTML 失败");
-
-          const pendingDramas = [];
-          $('.div-col ul li').each((index, element) => {
-            const liText = $(element).text().trim();
-            if (liText.startsWith('待定：')) {
-              const match = liText.match(/待定：《([^》]+)》/);
-              if (match && match[1]) {
-                pendingDramas.push(match[1].trim());
-              }
-            }
-          });
-
-          return pendingDramas;
-        }
-
-        async function fetchMistDramas() {
-          const title = encodeURIComponent("迷雾剧场");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$) throw new Error("解析 HTML 失败");
-
-          const mistDramas = [];
-          $('.wikitable tbody tr').each((index, element) => {
-            if (index === 0) return;
-            const $td = $(element).find('td').first();
-            const titleText = $td.text().trim();
-            const match = titleText.match(/《([^》]+)》/);
-            if (match && match[1]) {
-              mistDramas.push(match[1].trim());
-            }
-          });
-
-          return mistDramas;
-        }
-
-        async function fetchSeasonWindDramas() {
-          const title = encodeURIComponent("芒果季风计划");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=2`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$) throw new Error("解析 HTML 失败");
-
-          const pendingDramas = [];
-
-          $('table.wikitable').each((tableIndex, table) => {
-            let isPendingSection = false;
-            
-            $(table).find('tr').each((rowIndex, row) => {
-              const $tds = $(row).find('td');
-              
-              if ($tds.length > 0) {
-                const rowText = $(row).text().trim();
-                
-                if (rowText.includes('待播映')) {
-                  isPendingSection = true;
-                }
-                
-                if (isPendingSection) {
-                  const $firstTd = $tds.eq(0);
-                  const $link = $firstTd.find('a').first();
-                  
-                  if ($link.length) {
-                    const title = $link.text().trim();
-                    if (title) {
-                      pendingDramas.push(title);
-                    }
-                  }
-                }
-              }
-            });
-          });
-          
-          try {
-            const networkUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=3`;
-            const networkResponse = await Widget.http.get(networkUrl, {
-              headers: {
-                "User-Agent": USER_AGENT,
-                "Accept": "application/json"
-              }
-            });
-            
-            if (networkResponse?.data?.parse?.text?.["*"]) {
-              const $network = Widget.html.load(networkResponse.data.parse.text["*"]);
-              
-              $network('table.wikitable tr').each((i, row) => {
-                const $tds = $network(row).find('td');
-                
-                if ($tds.length >= 2) {
-                  const status = $tds.eq(1).text().trim();
-                  
-                  if (status.includes('待播映')) {
-                    const $link = $tds.eq(0).find('a').first();
-                    if ($link.length) {
-                      const title = $link.text().trim();
-                      if (title) {
-                        pendingDramas.push(title);
-                      }
-                    }
-                  }
-                }
-              });
-            }
-          } catch (error) {
-            console.error("获取网络剧数据失败:", error.message);
-          }
-
-          return pendingDramas;
-        }
-
-        async function fetchXTheaterDramas() {
-          const title = encodeURIComponent("X剧场");
-          const url = `https://zh.wikipedia.org/w/api.php?action=parse&page=${title}&format=json&prop=text&section=1`;
-          const response = await Widget.http.get(url, {
-            headers: {
-              "User-Agent": USER_AGENT,
-              "Accept": "application/json"
-            }
-          });
-
-          if (!response?.data?.parse?.text?.["*"]) throw new Error("获取维基百科数据失败");
-
-          const $ = Widget.html.load(response.data.parse.text["*"]);
-          if (!$ || !$('table.wikitable').length) throw new Error("未找到目标表格");
-
-          const pendingDramas = [];
-          const $table = $('table.wikitable').first();
-
-          $table.find('tr').each((index, row) => {
-            if (index === 0) return;
-            const $cells = $(row).find('td');
-            if ($cells.length < 2) return;
-            
-            const dateText = $cells.eq(0).text().trim();
-            if (!/待公布/.test(dateText)) return;
-            
-            const $nameLink = $cells.eq(1).find('a').first();
-            if (!$nameLink.length) return;
-            
-            const dramaName = $nameLink
-              .clone()
-              .children()
-              .end()
-              .text()
-              .replace(/[《》\s]+/g, ' ')
-              .trim();
-              
-            if (dramaName) {
-              pendingDramas.push(dramaName);
-            }
-          });
-
-          return pendingDramas;
-        }
-
-        try {
-          const [pendingDramas, mistDramas, seasonWindDramas, xTheaterDramas] = await Promise.all([
-            fetchPendingDramas(),
-            fetchMistDramas(),
-            fetchSeasonWindDramas(),
-            fetchXTheaterDramas()
-          ]);
-
-          return [...pendingDramas, ...mistDramas, ...seasonWindDramas, ...xTheaterDramas];
-        } catch (error) {
-          console.error("获取剧场数据失败:", error);
-          throw error;
+    // 处理全部剧场的情况
+    let results = [];
+    if (sortBy === "all") {
+      // 合并所有剧场的对应section数据
+      for (const theaterName of ["迷雾剧场", "白夜剧场", "季风剧场", "X剧场"]) {
+        if (data[theaterName]?.[section]) {
+          results.push(...data[theaterName][section].map(item => ({
+            ...item,
+            theater: theaterName // 添加剧场来源标识
+          })));
         }
       }
-    })();
-    
-    if (!titles?.length) throw new Error("未获取到剧集列表");
-    console.log(titles);
-    
-    const limit = 10;
-    const offset = Number(params.offset);
-    const pageItems = titles.slice(offset, offset + limit);
+    } else {
+      // 单个剧场的情况
+      if (!data[sortBy]) throw new Error(`未找到 ${sortBy} 数据`);
+      if (!data[sortBy][section]) throw new Error(`${sortBy} 中没有 ${type} 数据`);
+      
+      results = data[sortBy][section].map(item => ({
+        ...item,
+        theater: sortBy // 添加剧场来源标识
+      }));
+    }
 
-    const tmdbPromises = pageItems.map(title => getTmdbDetail(title, 'tv'));
-    const tmdbResults = await Promise.all(tmdbPromises);
-
-    const results = tmdbResults
-      .map((result, index) => result ? { ...result, originalIndex: index } : null)
-      .filter(Boolean)
-      .sort((a, b) => a.originalIndex - b.originalIndex)
-      .map(({ originalIndex, ...rest }) => rest);
-
-    if (!results.length) throw new Error("未能获取到有效的剧集信息");
-
+    // 返回所有数据（不再分页）
     return results;
+    
   } catch (error) {
-    console.error(`获取悬疑剧场剧集失败: ${error.message}`);
+    console.error(`获取剧场数据失败: ${error.message}`);
     throw error;
   }
 }
+
 
 // 院线电影
 async function getMovies(params = {}) {
@@ -1120,7 +787,63 @@ async function getMovies(params = {}) {
   }
 }
 
-// 票房榜单
+// 历史票房
+async function getTodayRank(params = {}) {
+  try {
+    const response = await Widget.http.get("https://piaofang.maoyan.com/i/globalBox/todayRank", {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
+      }
+    });
+    
+    // 解析HTML内容
+    const $ = Widget.html.load(response.data);
+    const movies = [];
+    
+    // 获取所有榜单项
+    $(".movie-item").each((index, element) => {
+      const $item = $(element);
+      const title = $item.find(".movie-name").text().trim();
+      const releaseYear = $item.find(".movie-year").text().trim();
+      
+      if (title) movies.push(`${title}（${releaseYear}）`);
+
+    });
+    
+    // 分页处理
+    const offset = Number(params.offset) || 0;
+    const limit = 10;
+    const paginatedMovies = movies.slice(offset, offset + limit);
+    
+    if (paginatedMovies.length === 0 && offset > 0) {
+      throw new Error("没有更多数据");
+    }
+    
+    // 获取 TMDB 详情（只返回 TMDB 数据）
+    const tmdbResults = await Promise.all(
+      paginatedMovies.map(async (movie) => {
+        try {
+          // 调用 getTmdbDetail，传入原始标题（如 "2029阿凡达"）
+          const tmdbDetail = await getTmdbDetail(movie, "movie");
+          
+          if (tmdbDetail) {
+            return tmdbDetail; // 直接返回 TMDB 数据
+          }
+          return null;
+        } catch (error) {
+          console.error(`获取电影[${movie.originalTitle}]详情失败:`, error);
+          return null;
+        }
+      })
+    ).then(results => results.filter(Boolean)); // 过滤掉 null 值
+    
+    return tmdbResults;
+  } catch (error) {
+    console.error("获取历史票房榜单失败:", error);
+    throw error;
+  }
+}
 async function getHistoryRank(params = {}) {
   try {
     const response = await Widget.http.get("https://piaofang.maoyan.com/i/globalBox/historyRank", {
@@ -1177,6 +900,7 @@ async function getHistoryRank(params = {}) {
     throw error;
   }
 }
+
 
 // 本周榜单
 async function getDoubanWeekly(params = {}) {
