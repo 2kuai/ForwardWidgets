@@ -26,15 +26,14 @@ async function fetchMistTheaterTitles() {
 
         if (!response.data || !response.data.parse || !response.data.parse.text) {
             console.error('Invalid Wikipedia API response:', response.data);
-            return { airedShows: [], upcomingShows: [] };
+            return { "迷雾剧场": [] };
         }
 
         const html = response.data.parse.text['*'];
         console.log('Successfully fetched 迷雾剧场 HTML content');
         
         const $ = cheerio.load(html);
-        const airedShows = [];
-        const upcomingShows = [];
+        const mistTheaterShows = [];
         
         const tables = $('table.wikitable');
         console.log(`Found ${tables.length} tables in 迷雾剧场 section`);
@@ -56,20 +55,8 @@ async function fetchMistTheaterTitles() {
                         const year = yearMatch ? yearMatch[1] : '';
                         
                         if (title && year) {
-                            const monthDayMatch = dateText.match(/(\d{1,2})月(\d{1,2})日/);
-                            let airDate = `${year}-01-01`;
-                            if (monthDayMatch) {
-                                airDate = `${year}-${monthDayMatch[1].padStart(2, '0')}-${monthDayMatch[2].padStart(2, '0')}`;
-                            }
-                            
-                            airedShows.push({
-                                title: title,
-                                year: year,
-                                air_date: airDate,
-                                actors: $(columns[2]).text().trim(),
-                                notes: $(columns[3]).text().trim(),
-                                source: '迷雾剧场'
-                            });
+                            const formattedTitle = `${title}（${year}）`;
+                            mistTheaterShows.push(formattedTitle);
                         }
                     }
                 });
@@ -82,29 +69,25 @@ async function fetchMistTheaterTitles() {
                         const title = titleLink.text().trim().replace(/^《|》$/g, '');
                         
                         if (title) {
-                            upcomingShows.push({
-                                title: title,
-                                actors: $(columns[1]).text().trim(),
-                                notes: columns.length >= 3 ? $(columns[2]).text().trim() : '',
-                                source: '迷雾剧场'
-                            });
+                            mistTheaterShows.push(title);
                         }
                     }
                 });
             }
         });
         
-        console.log(`Found in 迷雾剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
-        return { airedShows, upcomingShows };
+        console.log(`Found ${mistTheaterShows.length} shows in 迷雾剧场`);
+        return { "迷雾剧场": mistTheaterShows };
     } catch (error) {
         console.error('Error fetching 迷雾剧场 from Wikipedia:', error.message);
         if (error.response) {
             console.error('Response status:', error.response.status);
             console.error('Response data:', error.response.data);
         }
-        return { airedShows: [], upcomingShows: [] };
+        return { "迷雾剧场": [] };
     }
 }
+
 
 async function fetchWhiteNightTheaterTitles() {
     try {
@@ -122,7 +105,7 @@ async function fetchWhiteNightTheaterTitles() {
 
         if (!response.data || !response.data.parse || !response.data.parse.text) {
             console.error('Invalid Wikipedia API response:', response.data);
-            return { airedShows: [], upcomingShows: [] };
+            return { "白夜剧场": [] };
         }
 
         const html = response.data.parse.text['*'];
@@ -131,8 +114,7 @@ async function fetchWhiteNightTheaterTitles() {
         const $ = cheerio.load(html);
         if (!$) throw new Error("解析 HTML 失败");
         
-        const airedShows = [];
-        const upcomingShows = [];
+        const whiteNightTheaterShows = [];
         const listItems = $('.div-col ul li');
         console.log(`Found ${listItems.length} list items in 白夜剧场 section`);
         
@@ -141,25 +123,29 @@ async function fetchWhiteNightTheaterTitles() {
             const match = liText.match(/《([^》]+)》/);
             
             if (match && match[1]) {
-                const showData = {
-                    title: match[1].trim(),
-                    source: '白夜剧场'
-                };
+                const title = match[1].trim();
                 
-                if (liText.startsWith('待定：')) {
-                    upcomingShows.push(showData);
+                // Check if the text contains a year pattern like (2023)
+                const yearMatch = liText.match(/\((\d{4})\)/);
+                
+                if (yearMatch) {
+                    // For aired shows with year: "剧名（年份）"
+                    whiteNightTheaterShows.push(`${title}（${yearMatch[1]}）`);
+                } else if (liText.startsWith('待定：')) {
+                    // For upcoming shows: just the title
+                    whiteNightTheaterShows.push(title);
                 } else {
-                    airedShows.push(showData);
+                    // For other aired shows without explicit year
+                    whiteNightTheaterShows.push(title);
                 }
             } else {
                 console.log(`No title found in list item: ${liText}`);
             }
         });
         
-        console.log(`Found in 白夜剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
+        console.log(`Found ${whiteNightTheaterShows.length} shows in 白夜剧场`);
         return { 
-            airedShows,
-            upcomingShows
+            "白夜剧场": whiteNightTheaterShows
         };
     } catch (error) {
         console.error('Error fetching 白夜剧场 from Wikipedia:', error.message);
@@ -167,9 +153,10 @@ async function fetchWhiteNightTheaterTitles() {
             console.error('Response status:', error.response.status);
             console.error('Response data:', error.response.data);
         }
-        return { airedShows: [], upcomingShows: [] };
+        return { "白夜剧场": [] };
     }
 }
+
 
 async function fetchMonsoonTheaterTitles() {
     try {
@@ -189,12 +176,11 @@ async function fetchMonsoonTheaterTitles() {
 
         if (!response.data?.parse?.text?.['*']) {
             console.error('Invalid Wikipedia API response');
-            return { airedShows: [], upcomingShows: [] };
+            return { "季风剧场": [] };
         }
 
         const $ = cheerio.load(response.data.parse.text['*']);
-        const airedShows = [];
-        const upcomingShows = [];
+        const monsoonTheaterShows = [];
 
         // 处理电视剧表格
         const tvTable = $('table.wikitable').first();
@@ -250,17 +236,17 @@ async function fetchMonsoonTheaterTitles() {
                         .trim();
                         
                     if (title) {
-                        const showData = {
-                            title: title,
-                            actors: $tds.eq(2).text().trim(),
-                            notes: $tds.eq(3).text().trim(),
-                            source: '季风剧场'
-                        };
+                        // 尝试提取年份信息
+                        const yearMatch = $tds.eq(1).text().trim().match(/(\d{4})/);
+                        const year = yearMatch ? yearMatch[1] : '';
                         
                         if (pendingShows.has(title)) {
-                            upcomingShows.push(showData);
+                            // 待播剧集只添加剧名
+                            monsoonTheaterShows.push(title);
                         } else {
-                            airedShows.push(showData);
+                            // 已播剧集添加剧名和年份（如果有）
+                            const formattedTitle = year ? `${title}（${year}）` : title;
+                            monsoonTheaterShows.push(formattedTitle);
                         }
                     }
                 }
@@ -284,28 +270,28 @@ async function fetchMonsoonTheaterTitles() {
                 if ($link.length) {
                     const title = $link.text().trim();
                     if (title) {
-                        const showData = {
-                            title: title,
-                            actors: $tds.eq(2).text().trim(),
-                            notes: $tds.eq(3).text().trim(),
-                            source: '季风剧场'
-                        };
+                        // 尝试提取年份信息
+                        const yearMatch = $tds.eq(1).text().trim().match(/(\d{4})/);
+                        const year = yearMatch ? yearMatch[1] : '';
+                        
                         // 进度为"待播映"归为未播出，其余归为已播出
                         if (currentStatus.includes('待播映') || $tds.eq(1).text().trim().includes('待播映')) {
-                            upcomingShows.push(showData);
+                            // 待播剧集只添加剧名
+                            monsoonTheaterShows.push(title);
                         } else {
-                            airedShows.push(showData);
+                            // 已播剧集添加剧名和年份（如果有）
+                            const formattedTitle = year ? `${title}（${year}）` : title;
+                            monsoonTheaterShows.push(formattedTitle);
                         }
                     }
                 }
             }
         });
 
-        console.log(`Found in 季风剧场: ${airedShows.length} aired, ${upcomingShows.length} upcoming`);
+        console.log(`Found ${monsoonTheaterShows.length} shows in 季风剧场`);
         
         return { 
-            airedShows,
-            upcomingShows
+            "季风剧场": monsoonTheaterShows
         };
     } catch (error) {
         console.error('Error fetching 季风剧场 from Wikipedia:', error.message);
@@ -313,9 +299,10 @@ async function fetchMonsoonTheaterTitles() {
             console.error('Response status:', error.response.status);
             console.error('Response data:', error.response.data);
         }
-        return { airedShows: [], upcomingShows: [] };
+        return { "季风剧场": [] };
     }
 }
+
 
 
 async function searchTMDB(title, year = null) {
@@ -372,48 +359,89 @@ async function updateTheaterData() {
         ]);
         
         console.log(`Final counts before TMDB search:
-        - 迷雾剧场: ${mistTheater.airedShows.length} aired, ${mistTheater.upcomingShows.length} upcoming
-        - 白夜剧场: ${whiteNightTheater.airedShows.length} aired, ${whiteNightTheater.upcomingShows.length} upcoming
-        - 季风剧场: ${monsoonTheater.airedShows.length} aired, ${monsoonTheater.upcomingShows.length} upcoming`);
+        - 迷雾剧场: ${mistTheater["迷雾剧场"].length} shows
+        - 白夜剧场: ${whiteNightTheater["白夜剧场"].length} shows
+        - 季风剧场: ${monsoonTheater["季风剧场"].length} shows`);
         
-        // 合并数据
-        const allAiredShows = [...mistTheater.airedShows, ...whiteNightTheater.airedShows, ...monsoonTheater.airedShows];
-        const allUpcomingShows = [...mistTheater.upcomingShows, ...whiteNightTheater.upcomingShows, ...monsoonTheater.upcomingShows];
-        
-        // 并行处理TMDB搜索（限制并发数）
-        const processBatch = async (items, isAired) => {
-            const results = [];
-            for (const item of items) {
-                const tmdbData = await searchTMDB(item.title, isAired ? item.year : null);
+        // 为每个剧场单独处理TMDB搜索并分类
+        const processTheaterShows = async (theaterName, shows) => {
+            const airedShows = [];
+            const upcomingShows = [];
+            const currentDate = new Date();
+            
+            for (const show of shows) {
+                // 解析剧名和年份（如果有）
+                const match = show.match(/^(.+?)(?:（(\d{4})）)?$/);
+                const title = match[1];
+                const year = match[2] || null;
+                
+                const tmdbData = await searchTMDB(title, year);
                 if (tmdbData) {
-                    results.push({
+                    const showData = {
                         ...tmdbData,
-                        source: item.source
-                    });
+                        original_title: show // 保留原始格式（包含年份）
+                    };
+                    
+                    // 根据release_date分类
+                    if (tmdbData.release_date) {
+                        const releaseDate = new Date(tmdbData.release_date);
+                        if (releaseDate <= currentDate) {
+                            airedShows.push(showData);
+                        } else {
+                            upcomingShows.push(showData);
+                        }
+                    } else {
+                        upcomingShows.push(showData);
+                    }
                 }
                 await new Promise(resolve => setTimeout(resolve, 250)); // 限流
             }
-            return results;
+            
+            // 对已播剧集按release_date降序排序（最新的在前）
+            airedShows.sort((a, b) => {
+                const dateA = new Date(a.release_date || 0);
+                const dateB = new Date(b.release_date || 0);
+                return dateB - dateA;
+            });
+            
+            return {
+                aired: airedShows,
+                upcoming: upcomingShows
+            };
         };
 
-        const [processedAiredShows, processedUpcomingShows] = await Promise.all([
-            processBatch(allAiredShows, true),
-            processBatch(allUpcomingShows, false)
+        // 并行处理三个剧场的数据
+        const [mistTheaterData, whiteNightTheaterData, monsoonTheaterData] = await Promise.all([
+            processTheaterShows("迷雾剧场", mistTheater["迷雾剧场"]),
+            processTheaterShows("白夜剧场", whiteNightTheater["白夜剧场"]),
+            processTheaterShows("季风剧场", monsoonTheater["季风剧场"])
         ]);
         
+        // 创建最终数据结构
         const data = {
-            last_updated: new Date().toISOString(),
-            aired_shows: processedAiredShows,
-            upcoming_shows: processedUpcomingShows
+            last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
+            "迷雾剧场": {
+                aired: mistTheaterData.aired,
+                upcoming: mistTheaterData.upcoming
+            },
+            "白夜剧场": {
+                aired: whiteNightTheaterData.aired,
+                upcoming: whiteNightTheaterData.upcoming
+            },
+            "季风剧场": {
+                aired: monsoonTheaterData.aired,
+                upcoming: monsoonTheaterData.upcoming
+            }
         };
         
         const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
         
-        console.log(`Successfully updated data with:
-        - ${processedAiredShows.length} aired shows
-        - ${processedUpcomingShows.length} upcoming shows`);
+        console.log(`Successfully updated data:
+        - 迷雾剧场: ${mistTheaterData.aired.length} aired, ${mistTheaterData.upcoming.length} upcoming
+        - 白夜剧场: ${whiteNightTheaterData.aired.length} aired, ${whiteNightTheaterData.upcoming.length} upcoming
+        - 季风剧场: ${monsoonTheaterData.aired.length} aired, ${monsoonTheaterData.upcoming.length} upcoming`);
         
         return data;
     } catch (error) {
@@ -421,6 +449,7 @@ async function updateTheaterData() {
         throw error;
     }
 }
+
 
 // 执行更新
 updateTheaterData().then(data => {
