@@ -114,11 +114,27 @@ async function main() {
       total: nowplaying.length + later.length
     };
 
-    // 创建data目录（如果不存在）
-    await fs.mkdir(path.dirname(config.outputPath), { recursive: true });
-    
+    // 确保data目录存在
+    const dataDir = path.dirname(config.outputPath);
+    try {
+      await fs.access(dataDir);
+    } catch {
+      console.log('创建data目录...');
+      await fs.mkdir(dataDir, { recursive: true });
+    }
+
     // 写入文件
+    console.log(`保存数据到: ${config.outputPath}`);
     await fs.writeFile(config.outputPath, JSON.stringify(result, null, 2));
+    
+    // 验证文件是否成功写入
+    try {
+      await fs.access(config.outputPath);
+      const stats = await fs.stat(config.outputPath);
+      console.log(`文件大小: ${stats.size} 字节`);
+    } catch (error) {
+      throw new Error(`文件写入验证失败: ${error.message}`);
+    }
     
     console.log(`
 ✅ 数据采集完成！
