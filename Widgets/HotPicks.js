@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.1",
+  version: "1.1.2",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -301,7 +301,7 @@ var WidgetMetadata = {
     },
     {
         title: "悬疑剧场",
-        description: "获取白夜剧场剧集信息",
+        description: "获取悬疑剧场剧集信息",
         requiresWebView: false,
         functionName: "getSuspenseTheater",
         cacheDuration: 86400,
@@ -339,20 +339,14 @@ var WidgetMetadata = {
       cacheDuration: 43200,
       params: [
         {
-          name: "type",
+          name: "sort_by",
           title: "类型",
           type: "enumeration",
           enumOptions: [
-            { value: "nowplaying", title: "正在上映" },
-            { value: "later", title: "即将上映" },
-            { value: "todayRank", title: "今日票房" },
-            { value: "historyRank", title: "历史票房" }
+            { title: "正在上映", value: "nowplaying" },
+            { title: "即将上映", value: "later" },
+            { title: "历史票房", value: "historyRank" }
           ]
-        },
-        {
-          name: "offset",
-          title: "起始位置",
-          type: "offset"
         }
       ]
     },
@@ -667,37 +661,30 @@ async function getSuspenseTheater(params = {}) {
     const sortBy = params.sort_by || "all"; // 默认全部剧场
     const type = params.type || "now_playing"; // 默认正在热播
 
-    // 映射type参数到数据中的section
     const sectionMap = {
       "now_playing": "aired",
       "coming_soon": "upcoming"
     };
     const section = sectionMap[type] || "aired";
 
-    // 处理全部剧场的情况
     let results = [];
     if (sortBy === "all") {
-      // 合并所有剧场的对应section数据
       for (const theaterName of ["迷雾剧场", "白夜剧场", "季风剧场", "X剧场"]) {
         if (data[theaterName]?.[section]) {
           results.push(...data[theaterName][section].map(item => ({
-            ...item,
-            theater: theaterName // 添加剧场来源标识
+            ...item
           })));
         }
       }
     } else {
-      // 单个剧场的情况
       if (!data[sortBy]) throw new Error(`未找到 ${sortBy} 数据`);
       if (!data[sortBy][section]) throw new Error(`${sortBy} 中没有 ${type} 数据`);
       
       results = data[sortBy][section].map(item => ({
-        ...item,
-        theater: sortBy // 添加剧场来源标识
+        ...item
       }));
     }
 
-    // 返回所有数据（不再分页）
     return results;
     
   } catch (error) {
@@ -710,16 +697,7 @@ async function getSuspenseTheater(params = {}) {
 // 院线电影
 async function getMovies(params = {}) {
   try {
-    const type = params.type;
-    
-    // 处理票房榜单数据
-    if (type === "historyRank") {
-      return await getHistoryRank(params);
-    } else if (type === "todayRank") {
-      return await getTodayRank(params);
-    }
-    
-    console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
+    const type = params.sort_by;
 
     const response = await Widget.http.get('https://raw.githubusercontent.com/2kuai/ForwardWidgets/main/data/movies-data.json', {
       headers: {
@@ -728,15 +706,8 @@ async function getMovies(params = {}) {
     });
     
     if (!response?.data) throw new Error("获取院线数据失败");
-
-    const data = response.data;
-    const movieType = type === "later" ? "later" : "nowplaying";
     
-    if (!data[movieType]?.length) throw new Error(`未找到${type === "later" ? "即将" : "正在"}上映的电影`);
-    
-    const limit = 20;
-    const offset = Number(params.offset);
-    const results = data[movieType].slice(offset, offset + limit);
+    const results = response.data[type];
     
     if (!results.length) throw new Error("没有更多数据");
     
@@ -746,121 +717,6 @@ async function getMovies(params = {}) {
     throw error;
   }
 }
-
-// 历史票房
-async function getTodayRank(params = {}) {
-  try {
-    const response = await Widget.http.get("https://piaofang.maoyan.com/i/globalBox/todayRank", {
-      headers: {
-        "User-Agent": USER_AGENT,
-        "Referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
-      }
-    });
-    
-    // 解析HTML内容
-    const $ = Widget.html.load(response.data);
-    const movies = [];
-    
-    // 获取所有榜单项
-    $(".movie-item").each((index, element) => {
-      const $item = $(element);
-      const title = $item.find(".movie-name").text().trim();
-      const releaseYear = $item.find(".movie-year").text().trim();
-      
-      if (title) movies.push(`${title}（${releaseYear}）`);
-
-    });
-    
-    // 分页处理
-    const offset = Number(params.offset) || 0;
-    const limit = 10;
-    const paginatedMovies = movies.slice(offset, offset + limit);
-    
-    if (paginatedMovies.length === 0 && offset > 0) {
-      throw new Error("没有更多数据");
-    }
-    
-    // 获取 TMDB 详情（只返回 TMDB 数据）
-    const tmdbResults = await Promise.all(
-      paginatedMovies.map(async (movie) => {
-        try {
-          // 调用 getTmdbDetail，传入原始标题（如 "2029阿凡达"）
-          const tmdbDetail = await getTmdbDetail(movie, "movie");
-          
-          if (tmdbDetail) {
-            return tmdbDetail; // 直接返回 TMDB 数据
-          }
-          return null;
-        } catch (error) {
-          console.error(`获取电影[${movie.originalTitle}]详情失败:`, error);
-          return null;
-        }
-      })
-    ).then(results => results.filter(Boolean)); // 过滤掉 null 值
-    
-    return tmdbResults;
-  } catch (error) {
-    console.error("获取历史票房榜单失败:", error);
-    throw error;
-  }
-}
-async function getHistoryRank(params = {}) {
-  try {
-    const response = await Widget.http.get("https://piaofang.maoyan.com/i/globalBox/historyRank", {
-      headers: {
-        "User-Agent": USER_AGENT,
-        "Referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
-      }
-    });
-    
-    // 解析HTML内容
-    const $ = Widget.html.load(response.data);
-    const movies = [];
-    
-    // 获取所有榜单项
-    $(".movie-item").each((index, element) => {
-      const $item = $(element);
-      const title = $item.find(".movie-name").text().trim();
-      const releaseYear = $item.find(".movie-year").text().trim();
-      
-      if (title) movies.push(`${title}（${releaseYear}）`);
-
-    });
-    
-    // 分页处理
-    const offset = Number(params.offset) || 0;
-    const limit = 10;
-    const paginatedMovies = movies.slice(offset, offset + limit);
-    
-    if (paginatedMovies.length === 0 && offset > 0) {
-      throw new Error("没有更多数据");
-    }
-    
-    // 获取 TMDB 详情（只返回 TMDB 数据）
-    const tmdbResults = await Promise.all(
-      paginatedMovies.map(async (movie) => {
-        try {
-          // 调用 getTmdbDetail，传入原始标题（如 "2029阿凡达"）
-          const tmdbDetail = await getTmdbDetail(movie, "movie");
-          
-          if (tmdbDetail) {
-            return tmdbDetail; // 直接返回 TMDB 数据
-          }
-          return null;
-        } catch (error) {
-          console.error(`获取电影[${movie.originalTitle}]详情失败:`, error);
-          return null;
-        }
-      })
-    ).then(results => results.filter(Boolean)); // 过滤掉 null 值
-    
-    return tmdbResults;
-  } catch (error) {
-    console.error("获取历史票房榜单失败:", error);
-    throw error;
-  }
-}
-
 
 // 本周榜单
 async function getDoubanWeekly(params = {}) {
