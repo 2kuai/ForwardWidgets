@@ -13,7 +13,7 @@ const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
   tmdbApiKey: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390',
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
-  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/globalBox/historyRank',
+  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/api/rank/globalBox/historyRankList?WuKongReady=h5',
   outputPath: 'data/movies-data.json',
   USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
   headers: {
@@ -151,22 +151,18 @@ async function getHistoryRank() {
       timeout: 10000
     });
     
-    const $ = cheerio.load(response.data);
-    const movies = [];
-    
-    $(".movie-item").each((index, element) => {
-      const $item = $(element);
-      const title = $item.find(".movie-name").text().trim();
-      const releaseYear = $item.find(".movie-year").text().trim();
-      if (title) movies.push(`${title}（${releaseYear}）`);
-    });
+    // 提取电影数据，格式化为 "电影名（年份）"
+    const movieList = response.data?.data?.list || [];
+    const movies = movieList.map(item => (
+      `${item.movieName}${item.releaseTime ? `（${item.releaseTime}）` : ''}`
+    ));
 
     const tmdbResults = await Promise.all(
       movies.map(async movie => {
         try {
-          return await getTmdbDetails(movie);
+          return await getTmdbDetails(movie); // 传入 "电影名（年份）"
         } catch (error) {
-          console.error(`获取电影详情失败: ${movie}`, error);
+          console.error(`获取电影详情失败: ${movie}`, error); // 直接打印字符串 movie
           return null;
         }
       })
