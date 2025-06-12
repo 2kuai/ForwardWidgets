@@ -121,7 +121,7 @@ async function getMovies(params = {}) {
         const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
         const yearMatch = title?.match(/（(\d{4})）$/);
         const year = yearMatch ? yearMatch[1] : null;
-        return title;
+        return `${title}（${year}）`;
       }).filter(Boolean);
     } else if (type === "later") {
       const selector = "#showing-soon .item.mod";
@@ -140,7 +140,7 @@ async function getMovies(params = {}) {
         const year = yearMatch ? yearMatch[1] : null;
         let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
         let id = idMatch ? idMatch[1] : null;
-        return title;
+        return `${title}（${year}）`;
       }).filter(Boolean);
     }
 
