@@ -148,7 +148,7 @@ async function getHistoryRank() {
       headers: {
         "User-Agent": config.USER_AGENT,
         "Referer": "https://piaofang.maoyan.com/",
-        "mygsig": "{"m1":"0.0.2","m2":0,"m3":"0.0.57_tool"}"
+        "mygsig": '{"m1":"0.0.2","m2":0,"m3":"0.0.57_tool"}'
       },
       timeout: 10000
     });
