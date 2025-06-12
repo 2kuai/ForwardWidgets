@@ -17,7 +17,7 @@ const PLATFORMS = [
   { title: "乐视视频", value: "4" },
   { title: "搜狐视频", value: "5" },
   { title: "PPTV", value: "6" },
-  { title: "芒果TV", value: "7" 
+  { title: "芒果TV", value: "7" }
 ];
 
 // Helper functions
@@ -111,9 +111,9 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
 // Main function
 async function fetchMaoyanData() {
   const result = {
+    lastUpdated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
     tv: {},
     show: {},
-    lastUpdated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
   };
 
   // Process all platforms in parallel
