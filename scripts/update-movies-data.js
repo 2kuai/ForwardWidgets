@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Get the directory name in ESM
+// 获取当前目录
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -13,7 +13,9 @@ const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
   tmdbApiKey: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390',
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
+  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/globalBox/historyRank',
   outputPath: 'data/movies-data.json',
+  USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
   headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -30,10 +32,10 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 // 从TMDB获取电影详情
 async function getTmdbDetails(title) {
   try {
-    // 清理标题中的年份信息
     const yearMatch = title.match(/（(\d{4})）$/);
-    const year = title.match(/（(\d{4})）$/)?.[1] ?? "";
-    const cleanTitle = title.replace(/（\d{4}）$/, '').trim();    
+    const year = yearMatch ? yearMatch[1] : "";
+    const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
+    
     const response = await axios.get(`${config.tmdbBaseUrl}/search/movie`, {
       params: {
         query: cleanTitle,
@@ -52,7 +54,6 @@ async function getTmdbDetails(title) {
       return null;
     }
 
-    // 查找最匹配的结果
     const exactMatch = response.data.results.find(movie => {
       const movieTitle = movie.title.toLowerCase();
       const searchTitle = cleanTitle.toLowerCase();
@@ -63,7 +64,6 @@ async function getTmdbDetails(title) {
 
     const movie = exactMatch || response.data.results[0];
     
-    // 如果匹配度太低，返回null
     const movieTitle = movie.title.toLowerCase();
     const searchTitle = cleanTitle.toLowerCase();
     if (!movieTitle.includes(searchTitle) && !searchTitle.includes(movieTitle)) {
@@ -92,7 +92,6 @@ async function getTmdbDetails(title) {
 async function getMovies(params = {}) {
   try {
     const type = params.type || 'nowplaying';
-    
     console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
     const url = `${config.doubanBaseUrl}/${type}/shanghai/`;
     
@@ -101,23 +100,11 @@ async function getMovies(params = {}) {
       timeout: 10000
     });
 
-    if (!response || !response.data) {
-      throw new Error("获取数据失败");
-    }
-
     const $ = cheerio.load(response.data);
-    if (!$) {
-      throw new Error("解析 HTML 失败");
-    }
-
     let movies = [];
+
     if (type === "nowplaying") {
-      const selector = "#nowplaying .lists .list-item";
-      const elements = $(selector).toArray();
-      if (!elements.length) {
-        throw new Error(`未找到正在上映的电影`);
-      }
-      
+      const elements = $("#nowplaying .lists .list-item").toArray();
       movies = elements.map(el => {
         const $el = $(el);
         const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
@@ -125,91 +112,109 @@ async function getMovies(params = {}) {
         return `${title}${year ? `（${year}）` : ''}`;
       }).filter(Boolean);
     } else if (type === "later") {
-      const selector = "#showing-soon .item.mod";
-      const elements = $(selector).toArray();
-      if (!elements.length) {
-        throw new Error(`未找到即将上映的电影`);
-      }
-
+      const elements = $("#showing-soon .item.mod").toArray();
       movies = elements.map(el => {
         const $el = $(el);
         let title = $el.find("h3 a").text().trim();
-        if (!title) {
-          title = $el.find("h3").text().trim();
-        }
+        if (!title) title = $el.find("h3").text().trim();
         const year = $el.attr("data-release");
         return `${title}${year ? `（${year}）` : ''}`;
       }).filter(Boolean);
     }
 
-    if (!movies.length) {
-      throw new Error("未能解析出有效的电影信息");
-    } else {
-      console.log(movies);
-    }
-
-    // 使用TMDB获取详细信息
     console.log(`开始从TMDB获取${movies.length}部电影的详细信息...`);
     const results = [];
     for (const movie of movies) {
       try {
-        const details = await getTmdbDetails(movie, null);
-        if (details) {
-          results.push(details);
-        } else {
-          console.log(`[TMDB] 跳过未找到的电影: ${movie}`);
-        }
-        await delay(250); // 添加延迟以避免API限制
+        const details = await getTmdbDetails(movie);
+        if (details) results.push(details);
+        await delay(250);
       } catch (error) {
-        console.error(`[TMDB] 处理电影失败: ${movie}`, error.message);
-        continue; // 跳过错误的电影，继续处理下一个
+        console.error(`处理电影失败: ${movie}`, error);
       }
     }
-
-    if (!results.length) {
-      throw new Error("未能从TMDB获取到任何电影信息");
-    }
-
     return results;
   } catch (error) {
-    console.error(`[电影列表] 获取失败: ${error.message}`);
-    throw error;
+    console.error(`获取电影列表失败: ${error.message}`);
+    return [];
+  }
+}
+
+// 获取历史票房排行
+async function getHistoryRank() {
+  try {
+    const response = await axios.get(config.HistoryBoxOfficeUrl, {
+      headers: {
+        "User-Agent": config.USER_AGENT,
+        "Referer": "https://piaofang.maoyan.com/rankings/year"
+      },
+      timeout: 10000
+    });
+    
+    const $ = cheerio.load(response.data);
+    const movies = [];
+    
+    $(".movie-item").each((index, element) => {
+      const $item = $(element);
+      const title = $item.find(".movie-name").text().trim();
+      const releaseYear = $item.find(".movie-year").text().trim();
+      if (title) movies.push(`${title}（${releaseYear}）`);
+    });
+
+    const tmdbResults = await Promise.all(
+      movies.map(async movie => {
+        try {
+          return await getTmdbDetails(movie);
+        } catch (error) {
+          console.error(`获取电影详情失败: ${movie}`, error);
+          return null;
+        }
+      })
+    ).then(results => results.filter(Boolean));
+    
+    return tmdbResults;
+  } catch (error) {
+    console.error("获取历史票房榜单失败:", error);
+    return [];
   }
 }
 
 // 主函数
 async function main() {
   try {
-    // 添加请求延迟
     await delay(2000);
+    console.log("开始数据采集...");
 
-    const [nowplaying, later] = await Promise.all([
+    const [nowplaying, later, historyRank] = await Promise.all([
       getMovies({ type: 'nowplaying' }),
-      getMovies({ type: 'later' })
+      getMovies({ type: 'later' }),
+      getHistoryRank()
     ]);
 
     const result = {
       last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
       nowplaying,
-      later
+      later,
+      historyRank
     };
 
-    // 写入文件
+    // 确保目录存在
+    await fs.mkdir(path.dirname(config.outputPath), { recursive: true });
     await fs.writeFile(config.outputPath, JSON.stringify(result, null, 2));
     
     console.log(`
 ✅ 数据采集完成！
-🎬 正在热映: ${nowplaying.length}部
-🍿 即将上映: ${later.length}部
-📊 总计: ${nowplaying.length + later.length}部
-🕒 更新时间: ${result.last_updated}
+🎬🎬 正在热映: ${nowplaying.length}部
+🍿🍿 即将上映: ${later.length}部
+📜📜 历史票房: ${historyRank.length}部
+🕒🕒🕒 更新时间: ${result.last_updated}
+数据已保存至: ${path.resolve(config.outputPath)}
 `);
-
   } catch (error) {
-    console.error('💥 程序执行出错:', error);
+    console.error('程序执行出错:', error);
     process.exit(1);
   }
 }
 
 // 执行
-main(); 
+main();
