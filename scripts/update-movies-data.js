@@ -119,9 +119,8 @@ async function getMovies(params = {}) {
       movies = elements.map(el => {
         const $el = $(el);
         const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
-        const yearMatch = title?.match(/（(\d{4})）$/);
-        const year = yearMatch ? yearMatch[1] : null;
-        return `${title}（${year}）`;
+        const year = $el.attr("data-release");
+        return `${title}${year ? `（${year}）` : ''}`;
       }).filter(Boolean);
     } else if (type === "later") {
       const selector = "#showing-soon .item.mod";
@@ -134,13 +133,10 @@ async function getMovies(params = {}) {
         const $el = $(el);
         let title = $el.find("h3 a").text().trim();
         if (!title) {
-          title = $el.find("h3").text().trim().replace(/\s*\d{1,2}月\d{1,2}日.*$/, '').trim();
+          title = $el.find("h3").text().trim();
         }
-        const yearMatch = title.match(/（(\d{4})）$/);
-        const year = yearMatch ? yearMatch[1] : null;
-        let idMatch = $el.find("h3 a").attr("href")?.match(/subject\/(\d+)/);
-        let id = idMatch ? idMatch[1] : null;
-        return `${title}（${year}）`;
+        const year = $el.attr("data-release");
+        return `${title}${year ? `（${year}）` : ''}`;
       }).filter(Boolean);
     }
 
