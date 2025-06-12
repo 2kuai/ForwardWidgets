@@ -28,15 +28,17 @@ const config = {
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // 从TMDB获取电影详情
-async function getTmdbDetails(title, year) {
+async function getTmdbDetails(title) {
   try {
     // 清理标题中的年份信息
-    const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
-    
+    const yearMatch = title.match(/（(\d{4})）$/);
+    const year = title.match(/（(\d{4})）$/)?.[1] ?? "";
+    const cleanTitle = title.replace(/（\d{4}）$/, '').trim();    
     const response = await axios.get(`${config.tmdbBaseUrl}/search/movie`, {
       params: {
         query: cleanTitle,
-        language: 'zh-CN'
+        language: 'zh-CN',
+        year: year
       },
       headers: {
         'Authorization': `Bearer ${config.tmdbApiKey}`,
