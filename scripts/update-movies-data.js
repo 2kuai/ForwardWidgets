@@ -32,61 +32,62 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 // 从TMDB获取电影详情
 async function getTmdbDetails(title) {
   try {
+    // 提取年份（格式：电影名（2021））
     const yearMatch = title.match(/（(\d{4})）$/);
     const year = yearMatch ? yearMatch[1] : "";
+    // 清除标题中的年份部分
     const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
     
+    // 调用TMDB搜索API
     const response = await axios.get(`${config.tmdbBaseUrl}/search/movie`, {
       params: {
-        query: cleanTitle,
-        language: 'zh-CN',
-        year: year
+        query: cleanTitle,  // 查询标题
+        language: 'zh-CN',  // 中文结果
+        year: year          // 年份筛选
       },
       headers: {
         'Authorization': `Bearer ${config.tmdbApiKey}`,
         'Accept': 'application/json'
       },
-      timeout: 10000
+      timeout: 10000  // 10秒超时
     });
 
+    // 如果没有结果
     if (!response?.data?.results?.length) {
       console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
       return null;
     }
-
-    const exactMatch = response.data.results.find(movie => {
-      const movieTitle = movie.title.toLowerCase();
-      const searchTitle = cleanTitle.toLowerCase();
-      return movieTitle === searchTitle || 
-             movieTitle.includes(searchTitle) || 
-             searchTitle.includes(movieTitle);
-    });
-
-    const movie = exactMatch || response.data.results[0];
     
-    const movieTitle = movie.title.toLowerCase();
-    const searchTitle = cleanTitle.toLowerCase();
-    if (!movieTitle.includes(searchTitle) && !searchTitle.includes(movieTitle)) {
-      console.log(`[TMDB] 匹配度太低，跳过: ${cleanTitle} -> ${movie.title}`);
-      return null;
-    }
+    // 寻找完全匹配的条目（中文名或原名）
+    const movie = response.data.results.find(
+      item => 
+        (item.title === cleanTitle || item.original_title === cleanTitle)
+    ) || response.data.results[0];  // 如果没有精确匹配，返回第一个结果
 
+    // 返回格式化后的电影信息
     return {
       id: movie.id,
       type: "tmdb",
       title: movie.title,
+      originalTitle: movie.original_title,
       description: movie.overview,
-      posterPath: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
-      backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` : null,
+      posterPath: movie.poster_path 
+        ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` 
+        : null,
+      backdropPath: movie.backdrop_path 
+        ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` 
+        : null,
       releaseDate: movie.release_date,
       rating: movie.vote_average,
       mediaType: "movie"
     };
+    
   } catch (error) {
     console.error(`[TMDB] 获取电影详情失败: ${error.message}`);
     return null;
   }
 }
+
 
 // 获取豆瓣电影数据
 async function getMovies(params = {}) {
@@ -153,17 +154,14 @@ async function getHistoryRank() {
       timeout: 10000
     });
     
-    console.log('猫眼API响应状态:', response.status);
-    console.log('猫眼API数据样例:', response.data?.data?.list?.slice(0, 3));
-    
     const movieList = response.data?.data?.list || [];
     console.log(`从猫眼获取到${movieList.length}部历史票房电影`);
     
     const movies = movieList.map(item => (
       `${item.movieName}${item.releaseTime ? `（${item.releaseTime}）` : ''}`
     ));
-
-    console.log('准备匹配的电影示例:', movies.slice(0, 5));
+    
+    console.log(movies);
     
     const tmdbResults = await Promise.all(
       movies.map(async movie => {
