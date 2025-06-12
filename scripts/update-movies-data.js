@@ -143,37 +143,49 @@ async function getMovies(params = {}) {
 // 获取历史票房排行
 async function getHistoryRank() {
   try {
+    console.log('正在请求猫眼历史票房API...');
     const response = await axios.get(config.HistoryBoxOfficeUrl, {
       headers: {
         "User-Agent": config.USER_AGENT,
-        "Referer": "https://piaofang.maoyan.com/rankings/year"
+        "Referer": "https://piaofang.maoyan.com/",
+        "mygsig": "{"m1":"0.0.2","m2":0,"m3":"0.0.57_tool"}"
       },
       timeout: 10000
     });
     
-    // 提取电影数据，格式化为 "电影名（年份）"
+    console.log('猫眼API响应状态:', response.status);
+    console.log('猫眼API数据样例:', response.data?.data?.list?.slice(0, 3));
+    
     const movieList = response.data?.data?.list || [];
+    console.log(`从猫眼获取到${movieList.length}部历史票房电影`);
+    
     const movies = movieList.map(item => (
       `${item.movieName}${item.releaseTime ? `（${item.releaseTime}）` : ''}`
     ));
 
+    console.log('准备匹配的电影示例:', movies.slice(0, 5));
+    
     const tmdbResults = await Promise.all(
       movies.map(async movie => {
         try {
-          return await getTmdbDetails(movie); // 传入 "电影名（年份）"
+          const result = await getTmdbDetails(movie);
+          if (!result) console.log(`TMDB未匹配到: ${movie}`);
+          return result;
         } catch (error) {
-          console.error(`获取电影详情失败: ${movie}`, error); // 直接打印字符串 movie
+          console.error(`获取电影详情失败: ${movie}`, error);
           return null;
         }
       })
     ).then(results => results.filter(Boolean));
     
+    console.log(`成功匹配${tmdbResults.length}部历史票房电影`);
     return tmdbResults;
   } catch (error) {
     console.error("获取历史票房榜单失败:", error);
     return [];
   }
 }
+
 
 // 主函数
 async function main() {
