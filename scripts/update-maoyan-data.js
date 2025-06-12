@@ -2,12 +2,12 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
+// 配置项
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
 const TMDB_API_KEY = '3bbc78a7bcb275e63f9a352ce1985c83';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
-const TMDB_REQUEST_DELAY = 250; // 250ms delay between requests
-const OUTPUT_PATH = path.join(__dirname, '../data/update-maoyan-data.json');
+const TMDB_REQUEST_DELAY = 250; // TMDB请求间隔(毫秒)
+const OUTPUT_PATH = path.join(__dirname, '../data/update-maoyan-data.json'); // 输出路径
 
 const PLATFORMS = [
   { title: "全网", value: "0" },
@@ -20,7 +20,7 @@ const PLATFORMS = [
   { title: "芒果TV", value: "7" }
 ];
 
-// Helper functions
+// 工具函数
 function cleanShowName(showName) {
   return showName.replace(/(第[\d一二三四五六七八九十]+季)/g, '').trim();
 }
@@ -29,7 +29,7 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// TMDB API functions
+// TMDB数据处理
 async function searchTMDB(showName) {
   try {
     const cleanedName = cleanShowName(showName);
@@ -58,12 +58,12 @@ async function searchTMDB(showName) {
     }
     return null;
   } catch (error) {
-    console.error(`TMDB search error for "${showName}": ${error.message}`);
+    console.error(`[TMDB] 搜索失败 "${showName}": ${error.message}`);
     return null;
   }
 }
 
-// Maoyan data fetching
+// 猫眼数据抓取
 async function fetchPlatformData(platformValue, platformTitle, seriesType) {
   try {
     const today = new Date();
@@ -71,7 +71,7 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
       String(today.getMonth() + 1).padStart(2, '0') +
       String(today.getDate()).padStart(2, '0');
 
-    console.log(`Fetching ${seriesType === '2' ? 'variety shows' : 'TV shows'} for ${platformTitle}...`);
+    console.log(`[${platformTitle}] 正在获取${seriesType === '2' ? '综艺' : '剧集'}数据...`);
     
     const url = `https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${seriesType}&platformType=${platformValue}`;
     
@@ -79,7 +79,8 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
       headers: {
         "User-Agent": USER_AGENT,
         "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
-      }
+      },
+      timeout: 10000 // 10秒超时
     });
 
     if (response.data?.dataList?.list) {
@@ -98,27 +99,26 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
           enhancedShows.push(tmdbData);
         }
       }
-      
       return enhancedShows;
     }
     return [];
   } catch (error) {
-    console.error(`Error fetching data for ${platformTitle}: ${error.message}`);
+    console.error(`[${platformTitle}] 数据获取失败:`, error.message);
     return [];
   }
 }
 
-// Main function
-async function fetchMaoyanData() {
+// 主函数
+async function main() {
   const result = {
     lastUpdated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
     tv: {},
-    show: {},
+    show: {}
   };
 
-  // Process all platforms in parallel
+  // 并行获取所有平台数据
   await Promise.all([
-    // TV shows
+    // 剧集数据
     (async () => {
       const tvResults = await Promise.all(
         PLATFORMS.map(async platform => ({
@@ -129,7 +129,7 @@ async function fetchMaoyanData() {
       tvResults.forEach(r => { result.tv[r.platform] = r.shows; });
     })(),
     
-    // Variety shows
+    // 综艺数据
     (async () => {
       const showResults = await Promise.all(
         PLATFORMS.map(async platform => ({
@@ -141,24 +141,17 @@ async function fetchMaoyanData() {
     })()
   ]);
 
-  return result;
+  // 保存数据
+  const dataDir = path.dirname(OUTPUT_PATH);
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(result, null, 2));
+  console.log(`数据已保存至: ${OUTPUT_PATH}`);
 }
 
-// Execution
-(async () => {
-  try {
-    // Ensure data directory exists
-    const dataDir = path.dirname(OUTPUT_PATH);
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
-    }
-
-    const result = await fetchMaoyanData();
-    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(result, null, 2));
-    
-    console.log(`Data successfully saved to ${OUTPUT_PATH}`);
-  } catch (error) {
-    console.error('Script execution failed:', error);
-    process.exit(1);
-  }
-})();
+// 执行入口
+main().catch(error => {
+  console.error('脚本执行出错:', error);
+  process.exit(1);
+});
