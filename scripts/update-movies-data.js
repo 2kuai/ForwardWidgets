@@ -13,7 +13,7 @@ const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
   tmdbApiKey: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390',
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
-  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/api/rank/globalBox/historyRankList?WuKongReady=h5',
+  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/globalBox/historyRank',
   outputPath: 'data/movies-data.json',
   USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
   headers: {
@@ -148,13 +148,31 @@ async function getHistoryRank() {
     const response = await axios.get(config.HistoryBoxOfficeUrl, {
       headers: {
         "User-Agent": config.USER_AGENT,
-        "Referer": "https://piaofang.maoyan.com/",
-        "mygsig": '{"m1":"0.0.2","m2":0,"m3":"0.0.57_tool"}'
+        "referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
       },
       timeout: 10000
     });
     
-    const movieList = response.data?.data?.list || [];
+    const $ = cheerio.load(response.data);
+    const scriptContents = $('script').map((i, el) => $(el).html()).get();
+    
+    let propsData = null;
+    
+    for (const script of scriptContents) {
+  if (script && script.includes('var props = {')) {
+    const propsMatch = script.match(/var props\s*=\s*({[\s\S]*?})\s*;?\s*(?:\n|$)/);
+    if (propsMatch && propsMatch[1]) {
+      try {
+        propsData = JSON.parse(propsMatch[1]);
+        break;
+      } catch (e) {
+        console.error('Error parsing props JSON:', e);
+      }
+    }
+  }
+}
+    
+    const movieList = propsData.data.detail.list || [];
     console.log(`从猫眼获取到${movieList.length}部历史票房电影`);
     
     const movies = movieList.map(item => (
