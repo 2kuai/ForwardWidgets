@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.2",
+  version: "1.1.3",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -21,10 +21,8 @@ var WidgetMetadata = {
           type: "enumeration",
           cacheDuration: 10800,
           enumOptions: [
-            { title: "全部剧集", value: "" },
-            { title: "电视剧", value: "0" },
-            { title: "网络剧", value: "1" },
-            { title: "综艺", value: "2" }
+            { title: "剧集", value: "tv" },
+            { title: "综艺", value: "show" }
           ]
         },
         {
@@ -32,14 +30,14 @@ var WidgetMetadata = {
           title: "平台",
           type: "enumeration",
           enumOptions: [
-            { title: "全网", value: "0" },
-            { title: "优酷", value: "1" },
-            { title: "爱奇艺", value: "2" },
-            { title: "腾讯视频", value: "3" },
-            { title: "乐视视频", value: "4" },
-            { title: "搜狐视频", value: "5" },
-            { title: "PPTV", value: "6" },
-            { title: "芒果TV", value: "7" }
+            { title: "全网", value: "全网" },
+            { title: "优酷", value: "优酷" },
+            { title: "爱奇艺", value: "爱奇艺" },
+            { title: "腾讯视频", value: "腾讯视频" },
+            { title: "乐视视频", value: "乐视视频" },
+            { title: "搜狐视频", value: "搜狐视频" },
+            { title: "PPTV", value: "PPTV" },
+            { title: "芒果TV", value: "芒果TV" }
           ]
         }
       ]
@@ -264,42 +262,6 @@ var WidgetMetadata = {
       ]
     },
     {
-      title: "追番推荐",
-      description: "最近热门番剧推荐",
-      requiresWebView: false,
-      functionName: "getHotAnime",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "type",
-          title: "类型",
-          type: "enumeration",
-          enumOptions: [
-            { title: "正在热播", value: "V_CARD" },
-            { title: "为你推荐", value: "COMMON_FEED" }
-          ]
-        },
-        {
-          name: "name",
-          title: "名称",
-          type: "enumeration",
-          belongTo: {
-            paramName: "type",
-            value: ["COMMON_FEED"]
-          },
-          enumOptions: [
-            { title: "番剧", value: "bangumi" },
-            { title: "国创", value: "guochuang" }
-          ]
-        },
-        {
-          name: "offset",
-          title: "起始位置",
-          type: "offset"
-        }
-      ]
-    },
-    {
         title: "悬疑剧场",
         description: "获取悬疑剧场剧集信息",
         requiresWebView: false,
@@ -358,7 +320,7 @@ var WidgetMetadata = {
       cacheDuration: 10800,
       params: [
         {
-          name: "type",
+          name: "sort_by",
           title: "榜单类型",
           type: "enumeration",
           enumOptions: [
@@ -438,15 +400,8 @@ var WidgetMetadata = {
 
 // 实时榜单
 async function getTVRanking(params = {}) {
-    try {
-        const today = new Date();
-        const showDate = today.getFullYear() +
-            String(today.getMonth() + 1).padStart(2, '0') +
-            String(today.getDate()).padStart(2, '0');
-        
-        console.log(`[猫眼榜单] 正在获取${params.sort_by === '0' ? '全网' : `平台${params.sort_by}`}榜单数据...`);
-        
-        const response = await Widget.http.get(`https://piaofang.maoyan.com/dashboard/webHeatData?showDate=${showDate}&seriesType=${params.seriesType}&platformType=${params.sort_by}`, {
+    try {       
+        const response = await Widget.http.get(`https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/data/maoyan-data.json`, {
             headers: {
                 "User-Agent": USER_AGENT,
                 "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
@@ -454,26 +409,9 @@ async function getTVRanking(params = {}) {
         });
 
         if (!response || !response.data) throw new Error("获取数据失败");
+        if (!response.data[params.seriesType] || !response.data[params.seriesType][params.sort_by]) throw new Error("获取剧场失败");
 
-        const maoyanList = response.data.dataList.list;
-        const results = await Promise.all(
-            maoyanList
-                .filter(item => item.seriesInfo?.name)
-                .map(async item => {
-                    try {
-                        return await getTmdbDetail(item.seriesInfo.name, 'tv');
-                    } catch (error) {
-                        console.log(`[猫眼榜单] 处理 '${item.seriesInfo.name}' 失败: ${error.message}`);
-                        return null;
-                    }
-                })
-        );
-
-        const validResults = results.filter(Boolean);
-        if (!validResults.length) throw new Error("所有剧集处理失败");
-
-        console.log(`[猫眼榜单] 成功处理 ${validResults.length}/${maoyanList.length} 个剧集`);
-        return validResults;
+        return response.data[params.seriesType][params.sort_by];
 
     } catch (error) {
         throw new Error(`获取榜单失败: ${error.message}`);
@@ -591,61 +529,6 @@ async function getDoubanRecs(params = {}, mediaType) {
     }
 }
 
-
-// 追番推荐
-async function getHotAnime(params = {}) {
-    const fetchChannelData = async (channel) => {
-    const url = `https://api.bilibili.com/pgc/page/channel?page_name=m_station_${channel}`;
-    try {
-      const response = await Widget.http.get(url, {
-        headers: { 
-            "User-Agent": USER_AGENT,
-            "Referer": "https://m.bilibili.com/" 
-        }
-      });
-
-      const modules = response.data?.data?.modules;
-      if (!Array.isArray(modules)) return [];
-
-      const targetModule = modules.find(mod => mod.type === params.type);
-      const items = targetModule?.module_data?.items || [];
-      return items.map(item => ({ ...item, _source: channel }));
-    } catch (err) {
-      console.log(`获取 ${channel} 数据失败: ${err.message}`);
-      return [];
-    }
-  };
-
-  let items = [];
-
-  if (params.type === "V_CARD") {
-    const results = await Promise.all(["bangumi", "guochuang"].map(fetchChannelData));
-    items = results.flat();
-  } else if (params.type === "COMMON_FEED") {
-    if (!params.name) throw new Error("为你推荐类型下必须指定 name 参数");
-    items = await fetchChannelData(params.name);
-  }
-
-  if (!items.length) throw new Error("未获取到任何条目");
-  
-  const limit = 10;
-  const offset = Number(params.offset);
-  const pagedItems = items.slice(offset, offset + limit);
-
-  const enriched = await Promise.all(
-    pagedItems.map((item, index) =>
-      getTmdbDetail(item.title, "tv")
-        .then(data => data ? { ...data, originalIndex: index, source: item._source } : null)
-        .catch(() => null)
-    )
-  );
-
-  return enriched
-    .filter(Boolean)
-    .sort((a, b) => a.originalIndex - b.originalIndex)
-    .map(({ originalIndex, ...rest }) => rest);
-}
-
 // 悬疑剧场
 async function getSuspenseTheater(params = {}) {
   try {
@@ -721,7 +604,7 @@ async function getMovies(params = {}) {
 // 本周榜单
 async function getDoubanWeekly(params = {}) {
   try {
-    const url = `https://m.douban.com/rexxar/api/v2/subject_collection/${params.type}/items?updated_at&items_only=1&type_tag&for_mobile=1`;
+    const url = `https://m.douban.com/rexxar/api/v2/subject_collection/${params.sort_by}/items?updated_at&items_only=1&type_tag&for_mobile=1`;
     const response = await Widget.http.get(url, {
       headers: {
         "User-Agent": USER_AGENT,
@@ -778,9 +661,7 @@ async function getDouban2024(options = {}) {
       return matchedGroup.subject_collection_items.map(item => ({
         id: item.id,
         type: "douban",
-        title: item.title,
-        coverUrl: item.cover_url, 
-        rating: item.rating.value
+        title: item.title
       }));
     }
 
