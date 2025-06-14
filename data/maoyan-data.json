@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-14T19:05:23.852+08:00",
+  "lastUpdated": "2025-06-14T20:16:47.681+08:00",
   "tv": {
     "全网": [
       {
@@ -25,17 +25,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 78326,
-        "type": "tmdb",
-        "title": "三国机密之潜龙在渊",
-        "description": "东汉末年，灵帝宠妃王美人诞下双生子，因遭何皇后迫害，对外称只生一子刘协，另一个儿子刘平则被人偷偷带出，密养宫外。十八年后，各路诸侯互相征伐，傀儡皇帝刘协重病沉疴，为挽救大厦将倾的汉室，他密诏刘平回宫，替代自己复兴汉室。从来不知自己身世的刘平，与从小一起长大的司马懿，踏入了不可知的战场。在曹氏集团亲信满宠、郭嘉等人围绕刘平的身世展开侦查时，刘平在皇后伏寿等人的帮助下化解了一轮又一轮的危机。最后关头，刘平认清了一个时代的变更已不可改变，他用不战的方式，取得了最大胜利。但与其政见不同、手段狠辣的司马懿，却与之走上了不同的道路。最后刘平在稳定了中原的和平局面后，与伏寿在民间行医济世，教授儿童。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3DQDoQQgnYqRSlAYHqMIrl8g0vj.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hgsj2oO2YF61jqE01xi2PHwbFNW.jpg",
-        "releaseDate": "2018-03-27",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "id": 290054,
         "type": "tmdb",
         "title": "七根心简",
@@ -44,6 +33,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/lNLtXMxEfzMsb3HALClrj3J3rH3.jpg",
         "releaseDate": "2025-06-08",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 78326,
+        "type": "tmdb",
+        "title": "三国机密之潜龙在渊",
+        "description": "东汉末年，灵帝宠妃王美人诞下双生子，因遭何皇后迫害，对外称只生一子刘协，另一个儿子刘平则被人偷偷带出，密养宫外。十八年后，各路诸侯互相征伐，傀儡皇帝刘协重病沉疴，为挽救大厦将倾的汉室，他密诏刘平回宫，替代自己复兴汉室。从来不知自己身世的刘平，与从小一起长大的司马懿，踏入了不可知的战场。在曹氏集团亲信满宠、郭嘉等人围绕刘平的身世展开侦查时，刘平在皇后伏寿等人的帮助下化解了一轮又一轮的危机。最后关头，刘平认清了一个时代的变更已不可改变，他用不战的方式，取得了最大胜利。但与其政见不同、手段狠辣的司马懿，却与之走上了不同的道路。最后刘平在稳定了中原的和平局面后，与伏寿在民间行医济世，教授儿童。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3DQDoQQgnYqRSlAYHqMIrl8g0vj.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hgsj2oO2YF61jqE01xi2PHwbFNW.jpg",
+        "releaseDate": "2018-03-27",
+        "rating": 7,
         "mediaType": "tv"
       },
       {
@@ -137,6 +137,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 261586,
+        "type": "tmdb",
+        "title": "蛮好的人生",
+        "description": "三十九岁的保险从业人员胡曼黎在以为自己即将迎接人生巅峰之时，却同时失去了婚姻和工作。竞争对手暗中作梗，胡曼黎惨遭公司开除，而始作俑者竟是二十八岁的薛晓舟。胡曼黎在与薛晓舟几番交手后，他们逐渐从误解到相互认同，胡曼黎决定不计前嫌和薛晓舟联手合作，从头再来。薛晓舟成长为保险业界不容小觑的金牌销冠，胡曼黎也决定回归自己的事业主场。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/y6XEECTluyAl7Or21gjTNNjKryL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iqAUSxIvX6HbQ40BtVXr1HmQeuR.jpg",
+        "releaseDate": "2025-04-17",
+        "rating": 7.714,
+        "mediaType": "tv"
+      },
+      {
         "id": 272100,
         "type": "tmdb",
         "title": "沙尘暴",
@@ -156,17 +167,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/i7bHHftPPu7oly5w2jFeoPtR8rY.jpg",
         "releaseDate": "2025-03-27",
         "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 261586,
-        "type": "tmdb",
-        "title": "蛮好的人生",
-        "description": "三十九岁的保险从业人员胡曼黎在以为自己即将迎接人生巅峰之时，却同时失去了婚姻和工作。竞争对手暗中作梗，胡曼黎惨遭公司开除，而始作俑者竟是二十八岁的薛晓舟。胡曼黎在与薛晓舟几番交手后，他们逐渐从误解到相互认同，胡曼黎决定不计前嫌和薛晓舟联手合作，从头再来。薛晓舟成长为保险业界不容小觑的金牌销冠，胡曼黎也决定回归自己的事业主场。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/y6XEECTluyAl7Or21gjTNNjKryL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iqAUSxIvX6HbQ40BtVXr1HmQeuR.jpg",
-        "releaseDate": "2025-04-17",
-        "rating": 7.714,
         "mediaType": "tv"
       },
       {
@@ -293,6 +293,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 293450,
+        "type": "tmdb",
+        "title": "法网缉凶",
+        "description": "伴随着24年前的“CH试剂案”主案犯丁桥在海外落网并与其手中重要的“CH3试剂”一同押送回国，海州市接连的出现命案，警察查到谁，谁就莫名毙命，这让刑警队长孙正阳百思不得其解，他开始怀疑，这和二十多年前的那桩旧案有着密切关系。最重要的是，他怀疑自己的搭档，新到任的楚白可能与犯罪集团有关联，毕竟他的父亲就是二十多年前那桩旧案的主要负责人楚江河，并在当年朝自己的父亲，时任刑警队长的孙永安开枪导致父亲重伤，而后，楚江河一直下落不明，伴随着调查的一点点深入，孙正阳对楚白的怀疑与日俱增，直到有一天，楚白把枪顶在了孙正阳身后。然而，孙正阳没想到，这一切只是局长高平布下的一张网，目的就是查明那场陈年旧案的真相",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mpxF0xDysqgOpngfUPxDe0BYBmv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nLtuxsEbfYVySqZcgS55axDA6De.jpg",
+        "releaseDate": "2025-06-13",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 292214,
         "type": "tmdb",
         "title": "我叫张思德",
@@ -315,25 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 293450,
+        "id": 261588,
         "type": "tmdb",
-        "title": "法网缉凶",
-        "description": "伴随着24年前的“CH试剂案”主案犯丁桥在海外落网并与其手中重要的“CH3试剂”一同押送回国，海州市接连的出现命案，警察查到谁，谁就莫名毙命，这让刑警队长孙正阳百思不得其解，他开始怀疑，这和二十多年前的那桩旧案有着密切关系。最重要的是，他怀疑自己的搭档，新到任的楚白可能与犯罪集团有关联，毕竟他的父亲就是二十多年前那桩旧案的主要负责人楚江河，并在当年朝自己的父亲，时任刑警队长的孙永安开枪导致父亲重伤，而后，楚江河一直下落不明，伴随着调查的一点点深入，孙正阳对楚白的怀疑与日俱增，直到有一天，楚白把枪顶在了孙正阳身后。然而，孙正阳没想到，这一切只是局长高平布下的一张网，目的就是查明那场陈年旧案的真相",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mpxF0xDysqgOpngfUPxDe0BYBmv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nLtuxsEbfYVySqZcgS55axDA6De.jpg",
-        "releaseDate": "2025-06-13",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 242912,
-        "type": "tmdb",
-        "title": "黄雀",
-        "description": "一趟南下的列车，将北地的警察郭鹏飞（郭京飞饰）带入暗潮涌动的反扒征途。在与盗贼的数次交手中，郭鹏飞结识了高冷医生黎小莲（秦岚饰），万象众生尽显眼前，究竟谁是敌谁是友？一桩看似简单的案件又隐藏着怎样的复杂真相？盗迹寻踪，抽丝剥茧，一场暗夜对决就此拉开序幕。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/50T3KpEgp3tVvH5eMvtTso9htqa.jpg",
-        "releaseDate": "2025-03-18",
-        "rating": 6.5,
+        "title": "绝密较量",
+        "description": "国安三处副处长杨光在一次收网行动中得到情报，有境外间谍组织欲破坏中美两国合作会谈。杨光带领队友前往支援，间谍组织却暗杀我方会议代表，致会谈终止。中美双方合作会议重启，敌方却再度出手杀害我国科研专家，窃取我国机密技术。杨光敏感察觉事态背后定有阴谋，带领三处抽丝剥茧展开调查。无独有偶，神秘女人赵亚苧以国际公关身份若隐若现，敌友难辨。杨光运筹帷幄、重拳出击，成功将境外情报组织赫尔墨斯及其头目山下恒友等人缉拿归案，殊料却被赵亚苧感谢之名构陷，百口莫辩。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jzSvgnFhXLeJDp42vfPklRRcOK1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5LBh74gor6htNcqkJ0lD67Xf5mi.jpg",
+        "releaseDate": "2025-04-28",
+        "rating": 7.3,
         "mediaType": "tv"
       }
     ],
@@ -405,17 +405,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 257782,
-        "type": "tmdb",
-        "title": "雁回时",
-        "description": "寒冬腊月，从小被弃养乡下的庄家三小姐庄寒雁，竟遍体鳞伤的晕倒在庄府门前，她的出现引起庄家内宅大乱，更惹来大理寺少卿傅云夕的关注和探究。这只冬日北上的孤雁，背后究竟藏着什么秘密？京城奸宦一夜倒台，神秘义子藏身迷雾，一张张面具之下，究竟孰真孰假，孰恶孰善？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/euEapRmeE0DUo4uT4cY7VaTi1vz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nn7y8RgR4JKDicWWerlbBz1dfTD.jpg",
-        "releaseDate": "2025-03-18",
-        "rating": 9.2,
-        "mediaType": "tv"
-      },
-      {
         "id": 270860,
         "type": "tmdb",
         "title": "无尽的尽头",
@@ -427,6 +416,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 258490,
+        "type": "tmdb",
+        "title": "棋士",
+        "description": "《棋士》主要探讨了世纪初剧烈社会变革下⼈的状态和选择。以世纪初的南方城市为背景，讲述了一个普通的围棋老师崔业（王宝强 饰）因一场意外卷入罪案，逐步走向犯罪，被身为警察的哥哥崔伟（陈明昊 饰）穷追不舍，兄弟二人黑白殊途的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1Q16z9yXH9tlCq6yz5Td65wsfob.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zTfV8rTIeZmtEciQI7HJxOyKYoB.jpg",
+        "releaseDate": "2025-03-25",
+        "rating": 7.538,
+        "mediaType": "tv"
+      },
+      {
+        "id": 257782,
+        "type": "tmdb",
+        "title": "雁回时",
+        "description": "寒冬腊月，从小被弃养乡下的庄家三小姐庄寒雁，竟遍体鳞伤的晕倒在庄府门前，她的出现引起庄家内宅大乱，更惹来大理寺少卿傅云夕的关注和探究。这只冬日北上的孤雁，背后究竟藏着什么秘密？京城奸宦一夜倒台，神秘义子藏身迷雾，一张张面具之下，究竟孰真孰假，孰恶孰善？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/euEapRmeE0DUo4uT4cY7VaTi1vz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nn7y8RgR4JKDicWWerlbBz1dfTD.jpg",
+        "releaseDate": "2025-03-18",
+        "rating": 9.2,
+        "mediaType": "tv"
+      },
+      {
         "id": 284763,
         "type": "tmdb",
         "title": "刑侦12",
@@ -435,17 +446,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/lzItqS5uXOakGSI8bKBkCGoEf9v.jpg",
         "releaseDate": "2025-05-19",
         "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 292214,
-        "type": "tmdb",
-        "title": "我叫张思德",
-        "description": "1933年，红军来到仪陇，18岁的张思德与伙伴勇闯金城寨，摸清敌情助红军攻城，就此投身革命。训练场上，他咬牙蜕变；战场上，他智取盐场、勇盗敌船、巧夺机枪，屡建奇功。反六路围剿，他目睹战友为守护百姓牺牲；长征途中，他尝百草、救战友，将他人安危置于首位。抗战时期，张思德成为毛主席警卫员，始终以百姓需求为念。1944年，在烧炭时窑洞塌方，他毫不犹豫将生的希望推给战友，自己却被黄土吞噬。从贫苦少年到革命战士，他用生命践行“为人民服务”，正如毛主席在追悼会上所言，他的死比泰山还重，其精神化作永恒丰碑。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7ManfrnWK9rTJTY0WH7dIM53rGo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8ClBREn0MXYeIJAx6yv1YD9Z9Jz.jpg",
-        "releaseDate": "2025-05-29",
-        "rating": 5,
         "mediaType": "tv"
       }
     ],
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 222714,
-        "type": "tmdb",
-        "title": "蝶影",
-        "description": "1937年11月，上海沦陷，落入日军之手，以魏大宏、林秋雁为首的我地下党组织转入地下工作。1941年，日军在上海启动绝密的“蝎美人计划”，意图利用“伪钞”扰乱我国金融市场，并借机大肆掠夺我国珍贵的文物古籍等。以魏大宏、林秋雁为首的我党行动小组，秘密行动，行动途中，结识了唐二十三，胖子，瘦猴等一群侠肝义胆的年轻人，后来，小组一举粉碎了敌人的秘密计划，夺回了被掠夺去的文物古籍。林秋雁的同胞妹妹林秋月，原本是军统的学员，在一次意外中与姐姐失散，相认以后，受到大姐林秋雁的感召，和军统教官周天昊一起脱离军统组织，加入了魏大宏和林秋雁的行动小组。在一次战斗过程中，林秋月不幸牺牲，林秋雁则在完成任务以后，带着妹妹林秋月的遗愿，和教官周天昊一起北上参加了新四军。若干年后，经历了战场炮火洗礼的林秋雁和周天昊两个人，成长为我新四军优秀的指挥员。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/andkS4ZitjzxZBOAMiOeWeA4Z2b.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
-        "releaseDate": "2023-03-21",
-        "rating": 5,
-        "mediaType": "tv"
-      },
-      {
         "id": 247580,
         "type": "tmdb",
         "title": "一路向前",
@@ -492,6 +481,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/6UvZPs4JdjB65H7FjkiCeTaG2Ag.jpg",
         "releaseDate": "2024-02-26",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 222714,
+        "type": "tmdb",
+        "title": "蝶影",
+        "description": "1937年11月，上海沦陷，落入日军之手，以魏大宏、林秋雁为首的我地下党组织转入地下工作。1941年，日军在上海启动绝密的“蝎美人计划”，意图利用“伪钞”扰乱我国金融市场，并借机大肆掠夺我国珍贵的文物古籍等。以魏大宏、林秋雁为首的我党行动小组，秘密行动，行动途中，结识了唐二十三，胖子，瘦猴等一群侠肝义胆的年轻人，后来，小组一举粉碎了敌人的秘密计划，夺回了被掠夺去的文物古籍。林秋雁的同胞妹妹林秋月，原本是军统的学员，在一次意外中与姐姐失散，相认以后，受到大姐林秋雁的感召，和军统教官周天昊一起脱离军统组织，加入了魏大宏和林秋雁的行动小组。在一次战斗过程中，林秋月不幸牺牲，林秋雁则在完成任务以后，带着妹妹林秋月的遗愿，和教官周天昊一起北上参加了新四军。若干年后，经历了战场炮火洗礼的林秋雁和周天昊两个人，成长为我新四军优秀的指挥员。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/andkS4ZitjzxZBOAMiOeWeA4Z2b.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
+        "releaseDate": "2023-03-21",
+        "rating": 5,
         "mediaType": "tv"
       },
       {
@@ -596,6 +596,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 1418,
+        "type": "tmdb",
+        "title": "生活大爆炸",
+        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
+        "releaseDate": "2007-09-24",
+        "rating": 7.909,
+        "mediaType": "tv"
+      },
+      {
+        "id": 1418,
+        "type": "tmdb",
+        "title": "生活大爆炸",
+        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
+        "releaseDate": "2007-09-24",
+        "rating": 7.909,
+        "mediaType": "tv"
+      },
+      {
         "id": 261831,
         "type": "tmdb",
         "title": "不思异：志怪",
@@ -604,28 +626,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8qMUwOg23QmPAP55ITmuBSYUDFT.jpg",
         "releaseDate": "2025-03-18",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 1418,
-        "type": "tmdb",
-        "title": "生活大爆炸",
-        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
-        "releaseDate": "2007-09-24",
-        "rating": 7.909,
-        "mediaType": "tv"
-      },
-      {
-        "id": 1418,
-        "type": "tmdb",
-        "title": "生活大爆炸",
-        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
-        "releaseDate": "2007-09-24",
-        "rating": 7.909,
         "mediaType": "tv"
       },
       {
@@ -662,14 +662,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 107806,
+        "id": 278579,
         "type": "tmdb",
-        "title": "天地传说之宝莲灯",
-        "description": "二十二年前，从天庭偷溜出来的仙女三圣母携着一盏神灯下了凡间，遇上了书生刘彦昌，二人就这样相爱了，可是天凡有别，触犯了天庭法规的三圣母被关压在了山中，留下了书生和孩子，以及不知所踪的宝莲灯。二十二年后，三圣母的孩子刘沉香已长成了乖巧懂事的少年，照顾着一蹶不振的父亲，且向隐士田藟学习法术。小仙女踏雪奉皇母娘娘之命寻找宝莲灯，偶遇了山间采药的沉香，二人一拍即合。而这时，踏雪无意间发现了一盏看似普通却暗藏玄机的灯，而它正是宝莲灯。修好它的田藟不小心触到了开关，把踏雪和沉香送到了22年前，沉香知道了自己的身世，也萌发了救母的念头，而前路漫漫，困难重重……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/57Woq9M0mJC3Pk0VmSitJMEjKSL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rIH33zXjQfWdzlecNptvubZLRqL.jpg",
-        "releaseDate": "2001-01-01",
-        "rating": 5,
+        "title": "天下同心",
+        "description": "1948年，面对蒋介石国民党反动派的假民主、真独裁，中共中央邀请民主人士前往解放区召开和平建国的政治协商会议，以毛泽东为核心的第一代党的领导集体，以政治、军事、经济、民生方方面面一切“为人民服务”的实际行动，最终让以李济深、沈钧儒、张澜、宋庆龄、黄炎培、梁思成等为代表的各民主党派、各阶层、各阵营，甚至包括傅作义等国民党起义高级将领、张治中等国共和谈代表都看到了中国共产党为中华民族带来的全新希望，他们从此自觉选择并真心拥护中国共产党的领导，团结合作、肝胆相照、荣辱与共，携手建立独立、民主、和平、统一的新中国，华夏大地万水朝东、天下同心，迈向伟大的民族复兴新征程 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7heT6xS5OGQrK32p6f8YknbJMXi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
+        "releaseDate": "2024-12-02",
+        "rating": 6,
         "mediaType": "tv"
       }
     ],
@@ -730,17 +730,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 157931,
-        "type": "tmdb",
-        "title": "黑河风云",
-        "description": "1918年，旅俄华侨戴志远与父亲安排的俄国姑娘莉莉娅举行订婚仪式，遭日本军袭击，只身逃回黑河。顾淑媛爱上了他，他却心仪青梅竹马的同学林茵。林茵为掩护革命青年赴俄， 重伤落江。日本人占领黑河，戴志远奋起...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/l1bmk41BOgUqsz9bRfCnegnyzyw.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bxHZiKxwlGbdpJzXFJN74s6FCzi.jpg",
-        "releaseDate": "2020-03-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 124844,
         "type": "tmdb",
         "title": "温州三家人",
@@ -748,6 +737,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/fcmLYxVlen6GVAeUwsQdAfm6U8f.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/iHTmYWQbsou9YcfoQmQTxFcxRD2.jpg",
         "releaseDate": "2021-05-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 157931,
+        "type": "tmdb",
+        "title": "黑河风云",
+        "description": "1918年，旅俄华侨戴志远与父亲安排的俄国姑娘莉莉娅举行订婚仪式，遭日本军袭击，只身逃回黑河。顾淑媛爱上了他，他却心仪青梅竹马的同学林茵。林茵为掩护革命青年赴俄， 重伤落江。日本人占领黑河，戴志远奋起...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/l1bmk41BOgUqsz9bRfCnegnyzyw.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bxHZiKxwlGbdpJzXFJN74s6FCzi.jpg",
+        "releaseDate": "2020-03-08",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -945,17 +945,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1XoRpLGykC0hTE3rSJyX7BWpo7l.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/euFt6T6lzFcSdqqrzR3XBlYTkxr.jpg",
-        "releaseDate": "2022-06-03",
-        "rating": 6.6,
-        "mediaType": "tv"
-      },
-      {
         "id": 287103,
         "type": "tmdb",
         "title": "风驰赛车手",
@@ -964,6 +953,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/y1FXIywPxRi97nwI7JpKzso2bii.jpg",
         "releaseDate": "2025-05-29",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1XoRpLGykC0hTE3rSJyX7BWpo7l.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/euFt6T6lzFcSdqqrzR3XBlYTkxr.jpg",
+        "releaseDate": "2022-06-03",
+        "rating": 6.6,
         "mediaType": "tv"
       },
       {
@@ -1453,6 +1453,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 255291,
+        "type": "tmdb",
+        "title": "三孩来了",
+        "description": "人口老龄化、出生率低已成为当今社会聚焦关注的热点问题。2021年5月31日，中共中央政治局推出三孩生育政策。金鹰卡通立足三孩政策，紧跟主流风向，推出全国首档三孩家庭观察类综艺《三孩来了》",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6ShWx7PSUX5SwSiRsYuOIrWmYSd.jpg",
+        "backdropPath": null,
+        "releaseDate": "2023-07-15",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 292445,
         "type": "tmdb",
         "title": "萌探奇遇记",
@@ -1494,17 +1505,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/b7ab1GJzoDOwVwyfPjECjTV6sHX.jpg",
         "releaseDate": "2025-04-17",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 255291,
-        "type": "tmdb",
-        "title": "三孩来了",
-        "description": "人口老龄化、出生率低已成为当今社会聚焦关注的热点问题。2021年5月31日，中共中央政治局推出三孩生育政策。金鹰卡通立足三孩政策，紧跟主流风向，推出全国首档三孩家庭观察类综艺《三孩来了》",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6ShWx7PSUX5SwSiRsYuOIrWmYSd.jpg",
-        "backdropPath": null,
-        "releaseDate": "2023-07-15",
-        "rating": 0,
         "mediaType": "tv"
       }
     ]
