@@ -1,10 +1,15 @@
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// 获取当前模块的路径
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 配置项
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
-const TMDB_API_KEY = '3bbc78a7bcb275e63f9a352ce1985c83';
+const TMDB_API_KEY = process.env.TMDB_API_KEY || '3bbc78a7bcb275e63f9a352ce1985c83';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_REQUEST_DELAY = 250; // TMDB请求间隔(毫秒)
 const OUTPUT_PATH = path.join(__dirname, '../data/update-maoyan-data.json'); // 输出路径
