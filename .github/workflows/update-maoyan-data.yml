@@ -26,7 +26,7 @@ jobs:
       run: mkdir -p data
       
     - name: Run Maoyan data script
-      run: node scripts/update-maoyan-data.js
+      run: node scripts/maoyan-data.js
       
     - name: Commit and push changes
       run: |
