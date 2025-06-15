@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-15T00:14:06.471+08:00",
+  "last_updated": "2025-06-16T00:14:26.423+08:00",
   "nowplaying": [
     {
       "id": 1087192,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.803,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5IbxcBXZ5EhVAttfNDMPncikudr.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.115,
+      "rating": 7.12,
       "mediaType": "movie"
     },
     {
@@ -34,43 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1155234,
-      "type": "tmdb",
-      "title": "时间之子",
-      "originalTitle": "时间之子",
-      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
-      "releaseDate": "2025-05-30",
-      "rating": 2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1372489,
-      "type": "tmdb",
-      "title": "哆啦A梦：大雄的绘画奇遇记",
-      "originalTitle": "映画ドラえもん のび太の絵世界物語",
-      "description": "本作的舞台设定在一个如画般宏伟的中世纪欧洲世界。哆啦A梦和大雄等人进入了绘画的世界，围绕着幻之宝石展开冒险，并与强大的敌人对抗。这是一个原创故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/10MpgjKuwK3C8nLlRmvljl4L8Iw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
-      "releaseDate": "2025-03-07",
-      "rating": 5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 552524,
-      "type": "tmdb",
-      "title": "星际宝贝史迪奇",
-      "originalTitle": "Lilo & Stitch",
-      "description": "　　讲述孤独的夏威夷小女孩莉萝（玛雅·凯洛哈 饰）和看起来调皮捣蛋的外星生物史迪奇（克里斯·桑德斯 Chris Sanders 配音）的冒险故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xXh0IQ55HzWUsc3xznDLFeyaI80.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
-      "releaseDate": "2025-05-17",
-      "rating": 7.1,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -86,6 +50,54 @@
       "mediaType": "movie"
     },
     {
+      "id": 1372489,
+      "type": "tmdb",
+      "title": "哆啦A梦：大雄的绘画奇遇记",
+      "originalTitle": "映画ドラえもん のび太の絵世界物語",
+      "description": "本作的舞台设定在一个如画般宏伟的中世纪欧洲世界。哆啦A梦和大雄等人进入了绘画的世界，围绕着幻之宝石展开冒险，并与强大的敌人对抗。这是一个原创故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/10MpgjKuwK3C8nLlRmvljl4L8Iw.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
+      "releaseDate": "2025-03-07",
+      "rating": 6.25,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1155234,
+      "type": "tmdb",
+      "title": "时间之子",
+      "originalTitle": "时间之子",
+      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
+      "releaseDate": "2025-05-30",
+      "rating": 2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1489864,
+      "type": "tmdb",
+      "title": "恋曲尘封",
+      "originalTitle": "恋曲尘封",
+      "description": "　　阿轩（黄轩 饰）是一位非常热爱艺术的少年，他早早的辍了学，住在一间地下室里，每天埋首于艺术创作之中。一次偶然间，阿轩发现了一本落满了灰尘的日记，日记属于一位名叫阿岚（蒋雯丽 饰）的女子，写于她18岁那一年，记录了一段懵懂的恋情。阿轩被这本日记深深的打动了。  　　让阿轩没有想到的是，他竟然在现实里遇见了阿岚，此时的阿岚已经36岁了。受到日记的影响，阿轩对阿岚充满了兴趣和好奇，他隐瞒了日记的存在，在阿岚的面前还原了日记里所记录的点点滴滴，令阿岚内心泛起了涟漪。而在此过程中，阿轩也发现自己对阿岚的感情产生了变化。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/olIuz1d7TNzfMfX7sLQFSjY6hlB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gwW1cF2HYxw4sMUHOdTe4HQ3vGJ.jpg",
+      "releaseDate": "2022-11-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 552524,
+      "type": "tmdb",
+      "title": "星际宝贝史迪奇",
+      "originalTitle": "Lilo & Stitch",
+      "description": "　　讲述孤独的夏威夷小女孩莉萝（玛雅·凯洛哈 饰）和看起来调皮捣蛋的外星生物史迪奇（克里斯·桑德斯 Chris Sanders 配音）的冒险故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xXh0IQ55HzWUsc3xznDLFeyaI80.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+      "releaseDate": "2025-05-17",
+      "rating": 7.101,
+      "mediaType": "movie"
+    },
+    {
       "id": 1205892,
       "type": "tmdb",
       "title": "私家侦探",
@@ -98,18 +110,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1366558,
-      "type": "tmdb",
-      "title": "独一无二",
-      "originalTitle": "独一无二",
-      "description": "　　17岁的女孩喻延（张婧仪 饰）与爸爸（陈明昊 饰）、妈妈（蒋勤勤 饰）、哥哥（辛云来 饰）生活在祖辈经营的喻记鱼杂铺中。作为听障家庭中唯一的听人，她自幼游走在家人的无声世界与外面的有声世界之间，已经习惯于担任桥梁和翻译器。家人的爱与依赖如藤蔓般缠绕着她，然而去往更宽广世界的渴望之火也在心里熊熊灼烧。突如其来的变故，让喻延不得不面对追寻梦想与捍卫家人的两难局面。在成长的选择中，她尝试着找寻自己，也找到能与家人分享的歌声。  　　本片改编自法国电影《贝利叶一家》。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gFT9RJ92gPZvsIjbbkZtnktU6wj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/p5r5isFtPQ7NaP5J1Ze3FkiRQFA.jpg",
-      "releaseDate": "2025-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1443424,
       "type": "tmdb",
       "title": "红嫁衣",
@@ -118,6 +118,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zFZJMTwuhfaV4qPqp4lnC6oRp4c.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2tlo2W6GHeFUs7b0gNSOelX9oIK.jpg",
       "releaseDate": "2025-05-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1366558,
+      "type": "tmdb",
+      "title": "独一无二",
+      "originalTitle": "独一无二",
+      "description": "　　17岁的女孩喻延（张婧仪 饰）与爸爸（陈明昊 饰）、妈妈（蒋勤勤 饰）、哥哥（辛云来 饰）生活在祖辈经营的喻记鱼杂铺中。作为听障家庭中唯一的听人，她自幼游走在家人的无声世界与外面的有声世界之间，已经习惯于担任桥梁和翻译器。家人的爱与依赖如藤蔓般缠绕着她，然而去往更宽广世界的渴望之火也在心里熊熊灼烧。突如其来的变故，让喻延不得不面对追寻梦想与捍卫家人的两难局面。在成长的选择中，她尝试着找寻自己，也找到能与家人分享的歌声。  　　本片改编自法国电影《贝利叶一家》。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gFT9RJ92gPZvsIjbbkZtnktU6wj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/p5r5isFtPQ7NaP5J1Ze3FkiRQFA.jpg",
+      "releaseDate": "2025-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -178,7 +190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/otQo3B6uiUIlQ2OGsCgwG56tPA2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
       "releaseDate": "2025-03-31",
-      "rating": 6.512,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -372,7 +384,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
       "releaseDate": "2024-12-06",
-      "rating": 7.781,
+      "rating": 7.782,
       "mediaType": "movie"
     },
     {
@@ -446,7 +458,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.239,
+      "rating": 8.24,
       "mediaType": "movie"
     },
     {
@@ -470,7 +482,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sCzcYW9h55WcesOqA12cgEr9Exw.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.9,
+      "rating": 7.906,
       "mediaType": "movie"
     },
     {
@@ -530,7 +542,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tVSFt0tDsbvVw0DxAkknyq3ClQB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
       "releaseDate": "2024-06-11",
-      "rating": 7.554,
+      "rating": 7.553,
       "mediaType": "movie"
     },
     {
@@ -542,19 +554,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.695,
+      "rating": 6.696,
       "mediaType": "movie"
     },
     {
-      "id": 8587,
+      "id": 420818,
       "type": "tmdb",
       "title": "狮子王",
       "originalTitle": "The Lion King",
-      "description": "　　辛巴是荣耀王国的小王子，他的父亲穆法沙是一个威严的国王。然而叔叔刀疤却对穆法沙的王位觊觎已久。要想坐上王位，刀疤必须除去小王子。于是刀疤利用种种借口让辛巴外出，然后伺机大开杀戒，无奈辛巴被穆法沙及时来救。在反复的算计下，穆法沙惨死在刀疤手下。刀疤一方面别有用心地劝辛巴离开，一方面派人将他赶尽杀绝。辛巴逃亡中遇到了机智的丁满和善良的彭彭，他们抚养辛巴长成雄壮的大狮子，鼓励他回去森林复国。在接下来一场复国救民的斗争中，辛巴真正长成一个坚强的男子汉，领会了责任的真谛。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eFtJyNhv339OHknjFNq76bkxPlw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
-      "releaseDate": "1994-06-15",
-      "rating": 8.258,
+      "description": "由乔恩·费儒执导的全新《狮子王》把故事带回到非洲大草原上，在那里，一个未来的万兽之王刚刚诞生。辛巴崇拜自己的父亲狮王木法沙，也深知自己肩负着的王室命运。但并非王国里的每位成员都在庆祝小王子的降临——作为前王位继承者，狮王木法沙的弟弟刀疤有着自己的盘算。这场对王位的争夺蹂躏着荣耀大地，伴随着背叛、悲剧和冲突，最终导致辛巴的流放。接着辛巴结识了一对古怪的新朋友，在他们的帮助下，他将学会成长并夺回本该属于自己的一切。  由乔恩·费儒执导的全新《狮子王》把故事带回到非洲大草原上，在这里未来的国王将要直面背叛和悲剧，夺回本属于自己在荣耀石上的王座。  翻拍自1994年迪士尼经典动画《狮子王》，后者被认为是迪士尼动画电影以及整个动画电影史的顶峰之一。故事讲述小狮子王辛巴在众多热情的朋友的陪伴下，不但经历了生命中最光荣的时刻，也遭遇了最艰难的挑战，最后终于成为了森林之王。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7uGvNWHS43gXfEL8ggeRWYJeD7N.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+      "releaseDate": "2019-07-12",
+      "rating": 7.108,
       "mediaType": "movie"
     },
     {
@@ -590,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9eiKUlyHx5McEpL4R7A14Jo13Ep.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kBSSbN1sOiJtXjAGVZXxHJR9Kox.jpg",
       "releaseDate": "2022-05-21",
-      "rating": 8.175,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -638,7 +650,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lZVumU6dplne9LpitkVDYxhKSDl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
       "releaseDate": "2023-04-05",
-      "rating": 7.619,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
