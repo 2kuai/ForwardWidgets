@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.3",
+  version: "1.1.4",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -496,10 +496,10 @@ async function getDoubanRecs(params = {}, mediaType) {
         const rating = params.rating || "0";
         if (!/^\d$/.test(String(rating))) throw new Error("评分必须为 0～9 的整数");
         
-        const limit = 20;
+        const limit = 30;
         const offset = Number(params.offset);     
         const category = params.category != null ? params.category : "tv";        
-        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${encodeURIComponent(category)}&type=${encodeURIComponent(params.sort_by)}&score_range=${rating},10`;
+        const url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${offset}&limit=${offset + limit}&category=${category}&type=${params.sort_by}&score_range=${rating},10`;
         const response = await Widget.http.get(url, {
             headers: {
                 "User-Agent": USER_AGENT,
