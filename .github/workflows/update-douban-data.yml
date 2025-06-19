@@ -1,0 +1,31 @@
+name: Update Douban Weekly Data
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # UTC时间，等于北京时间凌晨2点
+  workflow_dispatch:
+
+jobs:
+  update-douban-weekly-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run update-douban-data.js
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/update-douban-data.js
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update douban weekly data [auto]' 
