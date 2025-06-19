@@ -116,7 +116,7 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
 // 主函数
 async function main() {
   const result = {
-    lastUpdated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
+    last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
     tv: {},
     show: {}
   };
