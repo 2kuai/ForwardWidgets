@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 // 配置项
 const config = {
   doubanBaseUrl: 'https://movie.douban.com/cinema',
-  tmdbApiKey: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYmJjNzhhN2JjYjI3NWU2M2Y5YTM1MmNlMTk4NWM4MyIsInN1YiI6IjU0YmU4MTNlYzNhMzY4NDA0NjAwODZjOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.esM4zgTT64tFpnw9Uk5qwrhlaDUwtNNYKVzv_jNr390',
+  tmdbApiKey: process.env.TMDB_API_KEY,
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
   HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/globalBox/historyRank',
   outputPath: 'data/movies-data.json',
