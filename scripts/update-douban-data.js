@@ -67,12 +67,6 @@ async function fetchWeeklyList(typeKey) {
       id: item.id,
       type: 'douban',
       title: item.title,
-      posterPath: item.poster_path || '',
-      backdropPath: item.cover_url,
-      description: item.description || '',
-      mediaType: item.type,
-      link: `https://movie.douban.com/subject/${item.id}/`,
-      rating: item.rating?.value,
       releaseDate: item.year || ''
     }));
   } catch (error) {
@@ -108,9 +102,6 @@ async function fetchAnnualList(id, sub_id) {
         id: item.id,
         type: 'douban',
         title: item.title,
-        coverUrl: item.cover_url,
-        rating: item.rating?.value,
-        description: item.description || '',
         releaseDate: item.year || ''
       }));
     }
@@ -122,9 +113,6 @@ async function fetchAnnualList(id, sub_id) {
       id: item.id,
       type: 'douban',
       title: item.title,
-      coverUrl: item.cover_url,
-      rating: item.rating?.value,
-      description: item.description || '',
       releaseDate: item.year || ''
     }));
   } catch (error) {
@@ -154,13 +142,21 @@ async function searchTMDB(title, mediaType, year) {
       timeout: 10000
     });
     if (!response.data?.results?.length) return null;
-    const best = response.data.results[0];
+    const bestMatch = response.data.results[0];
     return {
-      posterPath: best.poster_path ? `https://image.tmdb.org/t/p/w500${best.poster_path}` : '',
-      backdropPath: best.backdrop_path ? `https://image.tmdb.org/t/p/w500${best.backdrop_path}` : '',
-      description: best.overview || '',
-      rating: best.vote_average,
-      releaseDate: best.release_date || best.first_air_date || ''
+      id: bestMatch.id,
+      type: 'tmdb',
+      title: bestMatch.title || bestMatch.name,
+      description: bestMatch.overview,
+      posterPath: bestMatch.poster_path 
+        ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` 
+        : null,
+      backdropPath: bestMatch.backdrop_path 
+        ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
+        : null,
+      releaseDate: bestMatch.release_date || bestMatch.first_air_date,
+      rating: bestMatch.vote_average,
+      mediaType: mediaType
     };
   } catch (error) {
     console.error(`[TMDB] 搜索失败: ${title} (${mediaType})`, error.message);
