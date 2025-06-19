@@ -63,12 +63,9 @@ async function fetchWeeklyList(typeKey) {
       console.warn(`[${typeKey}] 无返回数据`);
       return [];
     }
-    return response.data.subject_collection_items.map(item => ({
-      id: item.id,
-      type: 'douban',
-      title: item.title,
-      releaseDate: item.year || ''
-    }));
+    return response.data.subject_collection_items.map(item =>
+      item.year ? `${item.title}（${item.year}）` : item.title
+    );
   } catch (error) {
     console.error(`[${typeKey}] 获取榜单失败: ${error.message}`);
     return [];
@@ -98,23 +95,17 @@ async function fetchAnnualList(id, sub_id) {
         console.warn(`[${id}:${sub_id}] 未找到匹配的子榜单数据`);
         return [];
       }
-      return matchedGroup.subject_collection_items.map(item => ({
-        id: item.id,
-        type: 'douban',
-        title: item.title,
-        releaseDate: item.year || ''
-      }));
+      return matchedGroup.subject_collection_items.map(item =>
+        item.year ? `${item.title}（${item.year}）` : item.title
+      );
     }
     if (!sourceData.subject_collection_items?.length) {
       console.warn(`[${id}] 榜单数据为空`);
       return [];
     }
-    return sourceData.subject_collection_items.map(item => ({
-      id: item.id,
-      type: 'douban',
-      title: item.title,
-      releaseDate: item.year || ''
-    }));
+    return sourceData.subject_collection_items.map(item =>
+      item.year ? `${item.title}（${item.year}）` : item.title
+    );
   } catch (error) {
     console.error(`[${id}${sub_id ? ':' + sub_id : ''}] 获取年度榜单失败: ${error.message}`);
     return [];
@@ -122,44 +113,48 @@ async function fetchAnnualList(id, sub_id) {
 }
 
 async function searchTMDB(title, mediaType, year) {
-  if (!TMDB_API_KEY) return null;
   try {
+    const cleanedName = title;
+    const url = mediaType === 'movie'
+      ? `${TMDB_BASE_URL}/search/movie`
+      : `${TMDB_BASE_URL}/search/tv`;
     const params = {
-      query: title,
+      query: cleanedName,
       language: 'zh-CN'
     };
     if (year) {
       if (mediaType === 'movie') params.year = year;
       if (mediaType === 'tv') params.first_air_date_year = year;
     }
-    const url = `${TMDB_BASE_URL}/${mediaType}`;
     const response = await axios.get(url, {
       params,
       headers: {
-        Authorization: `Bearer ${TMDB_API_KEY}`,
-        Accept: 'application/json'
-      },
-      timeout: 10000
+        'Authorization': `Bearer ${TMDB_API_KEY}`,
+        'Accept': 'application/json'
+      }
     });
-    if (!response.data?.results?.length) return null;
-    const bestMatch = response.data.results[0];
-    return {
-      id: bestMatch.id,
-      type: 'tmdb',
-      title: bestMatch.title || bestMatch.name,
-      description: bestMatch.overview,
-      posterPath: bestMatch.poster_path 
-        ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` 
-        : null,
-      backdropPath: bestMatch.backdrop_path 
-        ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
-        : null,
-      releaseDate: bestMatch.release_date || bestMatch.first_air_date,
-      rating: bestMatch.vote_average,
-      mediaType: mediaType
-    };
+    const data = response.data;
+    if (data.results && data.results.length > 0) {
+      const bestMatch = data.results[0];
+      return {
+        id: bestMatch.id,
+        type: 'tmdb',
+        title: mediaType === 'movie' ? bestMatch.title : bestMatch.name,
+        description: bestMatch.overview,
+        posterPath: bestMatch.poster_path 
+          ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` 
+          : null,
+        backdropPath: bestMatch.backdrop_path 
+          ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
+          : null,
+        releaseDate: mediaType === 'movie' ? bestMatch.release_date : bestMatch.first_air_date,
+        rating: bestMatch.vote_average,
+        mediaType: mediaType
+      };
+    }
+    return null;
   } catch (error) {
-    console.error(`[TMDB] 搜索失败: ${title} (${mediaType})`, error.message);
+    console.error(`[TMDB] 搜索失败 "${title}": ${error.message}`);
     return null;
   }
 }
@@ -171,15 +166,10 @@ function needTMDBFill(obj, fields) {
 async function fillWithTMDB(list, mediaType) {
   for (const item of list) {
     const year = (item.releaseDate || '').match(/\d{4}/)?.[0];
-    const needFields = ['posterPath', 'backdropPath', 'description', 'rating', 'releaseDate'];
-    if (needTMDBFill(item, needFields)) {
+    if (!item.tmdb) {
       const tmdb = await searchTMDB(item.title, mediaType, year);
       if (tmdb) {
-        for (const f of needFields) {
-          if (!item[f] || item[f] === '' || item[f] === undefined) {
-            item[f] = tmdb[f] || item[f];
-          }
-        }
+        item.tmdb = tmdb;
       }
       await new Promise(r => setTimeout(r, 300));
     }
