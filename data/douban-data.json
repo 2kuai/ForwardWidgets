@@ -1,2190 +1,292 @@
 {
-  "last_updated": "2025-06-20T00:35:22.095+08:00",
+  "last_updated": "2025-06-20T00:47:34.366+08:00",
   "weekly": {
     "movie_weekly_best": [
-      {
-        "id": "37309928",
-        "type": "douban",
-        "title": "铁血战士：杀戮之王",
-        "releaseDate": "2025-06-05",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cebPdLZbvgIGyh484H5Ocai0CxW.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/a3F9cXjRH488qcOqFmFZwqawBMU.jpg",
-        "description": "故事跨越时空，从维京时代到幕府日本至二战时期，讲述三个铁血战士的勇猛事迹。人类的宿命是否将从此改写？",
-        "rating": 7.989
-      },
-      {
-        "id": "36742579",
-        "type": "douban",
-        "title": "罪人",
-        "releaseDate": "2025-04-16",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9hRm4WVM3D5HzjMBTKSsPBOd50c.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
-        "description": "魅力冷峻且坚毅的双胞胎企业家斯莫克（迈克尔·B·乔丹 饰）和斯塔克（迈克尔·B·乔丹 饰），这对兄弟在历经第一次世界大战的战壕和芝加哥黑帮的洗礼后，于1932年带着大把现金、一卡车烈酒，怀揣着开一家自动点唱机酒吧的计划，在阔别七年后回到了他们位于密西西比三角洲的家乡克拉克斯代尔。他们穿着时髦的大城市服装，打扮得整洁利落，在这个极度贫穷、实行种族隔离的种植园小镇上显得格外扎眼。他们从汗流浃背的老好人霍格伍德（大卫·马尔多纳多 饰）手中买下了一座废弃的磨坊、里面的设备以及磨坊所在的土地，并警告霍格伍德和他三K党那帮狐朋狗友，除非他们想挨枪子，否则别踏进自己的地盘。",
-        "rating": 7.6
-      },
-      {
-        "id": "30433456",
-        "type": "douban",
-        "title": "碟中谍8：最终清算",
-        "releaseDate": "2025-05-17",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
-        "description": "超级人工智能“智体”即将引爆全球核弹危机，把世界推向毁灭边缘。而伊森·亨特和他的IMF小队在上次行动中遭遇重创，团队濒临分崩离析。虽然伊森已获得关闭“智体”的钥匙，但要彻底消灭“智体”，完成这一拯救全人类的终极任务，仍需要IMF小队齐心协力突破重重困难。他们不仅要面对全知全能又无影无形的“智体”与其手下盖布瑞尔的百般阻拦，还要解决来自过去的种种恩怨。每个抉择都关乎信念与命运，等待伊森和IMF小队的，究竟是怎样的结局？",
-        "rating": 7.2
-      },
-      {
-        "id": "36299051",
-        "type": "douban",
-        "title": "夏日之书",
-        "releaseDate": "2025-01-31",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dKkoPlhFGcSXEtNpL0yTgbpanMf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yq2Beqopd35PYcRwfv1IwNJIitK.jpg",
-        "description": "影片改编自托芙·扬松广受喜爱的同名小说《夏日之书》，讲述了九岁女孩索菲娅与年迈祖母之间的温情故事。索菲娅处在飞速成长的懵懂岁月，而祖母的生命已悄然接近尾声。她们和索菲娅的父亲一起来到芬兰湾一座与世隔绝的小岛，在这里度过宁静的夏日时光。她们在岛上自由漫步，畅谈生命、自然与其他的一切，却始终避而不谈索菲娅母亲离世带来的悲痛，以及彼此心底深藏的爱意。随着夏日的流逝，情感的创伤逐渐愈合，亲情的纽带愈发紧密，祖母终于能够了无牵挂，安心离去。",
-        "rating": 8.5
-      },
-      {
-        "id": "34807062",
-        "type": "douban",
-        "title": "疾速追杀：芭蕾杀姬",
-        "releaseDate": "2025-06-04",
-        "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
-        "description": "　　故事发生在《疾速追杀3》和《疾速追杀4》之间，聚焦一名从小就训练成杀手的年轻女子，她的家人被杀害，她要追杀报仇。",
-        "rating": 7.081
-      },
-      {
-        "id": "36978178",
-        "type": "douban",
-        "title": "大卫·爱登堡：海洋",
-        "releaseDate": "2025-05-08",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bCFDt7pVXM5tiMt8O98ta5kI0kx.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2hthvh4L1pHYZ5alepSqIAFYrRv.jpg",
-        "description": "大衛愛登堡帶領觀眾踏上一段驚心動魄的旅程，向我們展現了沒有什麼比海洋對我們的生存更重要，更充滿生機、奇觀和驚喜。透過展現珊瑚礁、海藻森林和廣闊海洋的壯麗場景，愛登堡闡述了健康的海洋為何能維持整個地球的穩定和繁榮。",
-        "rating": 8.37
-      },
-      {
-        "id": "37337767",
-        "type": "douban",
-        "title": "疾速剧痛",
-        "releaseDate": "2025-05-08",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ctZ9bjmCYyfFt3cUepc9axr0zHs.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fog8Vbeg1KOZAucucPxgYpXJ0a0.jpg",
-        "description": "见证约翰·威克现象背后从未见过的镜头和真实故事——从独立电影到价值数十亿美元的特许经营权。",
-        "rating": 7.406
-      },
-      {
-        "id": "36901791",
-        "type": "douban",
-        "title": "愤怒小队 公务员与7个欺诈师",
-        "releaseDate": "2024-11-22",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bo1qPR9eAnyMPhm3vOQMfTw86Ca.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/28MBvi6y4txLIdvPqoFdFgZ7XAL.jpg",
-        "description": "在税务局工作的熊泽二郎被骗子冰室真琴骗走了一大笔钱，故事展开了。熊泽在好友侦探的帮助下抓住了冰室，但为了自己怀抱的“某种复仇”决定和冰室联手。2人召集了一群骗子的不法分子，组成了骗子团体愤怒小队，为了向只隐瞒逃税的大企业收取未缴纳的10亿日元而行动起来。",
-        "rating": 6.5
-      },
-      {
-        "id": "36879461",
-        "type": "douban",
-        "title": "电影《剧本》预告片的展示",
-        "releaseDate": ""
-      },
-      {
-        "id": "35332882",
-        "type": "douban",
-        "title": "乳汁",
-        "releaseDate": "2024-04-04",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9jYmwhJZGmJ2SgWyR6ZNHMgPew1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fWY3c1suEBvSPlrTBA3PjWUbfBL.jpg",
-        "description": "孩子死后几天，罗宾的乳房开始分泌乳汁。 由于舍不得扔掉，她决定捐献母乳。 由于寻找捐赠地点比她预想的要困难得多，越来越多的牛奶开始挤满她的冰箱和生活。",
-        "rating": 5
-      }
+      "铁血战士：杀戮之王",
+      "罪人",
+      "碟中谍8：最终清算",
+      "夏日之书",
+      "疾速追杀：芭蕾杀姬",
+      "大卫·爱登堡：海洋",
+      "疾速剧痛",
+      "愤怒小队 公务员与7个欺诈师",
+      "电影《剧本》预告片的展示",
+      "乳汁"
     ],
     "tv_chinese_best_weekly": [
-      {
-        "id": "36808875",
-        "type": "douban",
-        "title": "忘了我记得",
-        "releaseDate": "2025-05-23",
-        "posterPath": "https://image.tmdb.org/t/p/w500/z2w9BOQDmE7waIqxXJwQarTvsuN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/moaqVgNSqfUTfrbKEaAiXq1FL8S.jpg",
-        "description": "剧情聚焦于关于每个家中，常会潜意识选择“忘记”，但却深耕心底“记得”的又哭又笑的故事。程乐乐（谢盈萱 饰）是一位脱口秀演员兼职便利商店店员，过着日复一日工作的平凡生活，她也有她的人生愿望，却没想到人生考验接连而来。除了和丈夫张凯（霍建华 饰）陷入婚姻困境，更面临与父亲程光齐（秦汉 饰）的种种问题 。一次误打误撞，乐乐站上脱口秀舞台，开始了脱口秀演员生涯。这一连串的意外让乐乐鼓起勇气，在工作与生活中，打破重构了自己和至亲、恋人、朋友的关系。",
-        "rating": 9
-      },
-      {
-        "id": "33437319",
-        "type": "douban",
-        "title": "我们与恶的距离2",
-        "releaseDate": "2019-03-24",
-        "posterPath": "https://image.tmdb.org/t/p/w500/lX2XIe6n6B4nFaGH1A6mbSOCXDs.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xqj7weNzGm9DteG09bqpKsbpzwY.jpg",
-        "description": "品味新闻台编辑台主管宋乔安（贾静雯饰）的儿子是二年前李晓明无差别杀人事件的罹难者，先生刘昭国（温升豪饰）是网络先驱报的创办人，夫妻在儿子走后因现实磨难渐行渐远准备离婚，但11岁的女儿行为却日渐失序，为了女儿终逼二人必须重新检视自己身上的伤口。李晓明的辩护律师王赦（吴慷仁饰），在李晓明死刑定案之后，仍想要了解其犯罪动机，锲而不舍的他，开启了众人命运的连结。",
-        "rating": 8.734
-      },
-      {
-        "id": "36467256",
-        "type": "douban",
-        "title": "灵笼 第二季",
-        "releaseDate": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/urpfQtuSljeVmLcwgVASMYQVBtU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/d5L1U1plOTJ5LjKzNk1ofJ599vT.jpg",
-        "description": "《灵笼》第二季是由武汉艺画开天制作、哔哩哔哩独播的原创科幻动画，延续第一季末日世界观，聚焦人类在“玛娜生态”灾难后的生存博弈。本季于​​2025年5月23日开播​​，共12集，首播当日播放量破亿，豆瓣评分8.3分。剧情围绕两大阵营展开。"
-      },
-      {
-        "id": "36656706",
-        "type": "douban",
-        "title": "无尽的尽头",
-        "releaseDate": "2025-04-24",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3nPPFat4htIgyTUEgp52oleu0aE.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jxERBK2qW5vaVAWcfvXs89Q4Yf9.jpg",
-        "description": "聚焦未成年人司法保护，讲述了未成年人检察小组初创，检察官林之桃与助理检察员白恩宇，为了孩子们，携手对抗人性之恶的故事。 始于悬念，终于救赎；拨开迷惘，山止川行。",
-        "rating": 7.333
-      },
-      {
-        "id": "37000929",
-        "type": "douban",
-        "title": "荒神录之玲珑山",
-        "releaseDate": "2025-05-02",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xoLtN3ihjF3QUQuQONCijVs7gct.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yxPOrjWGHgjmp8ie6KfdgQiKdIZ.jpg",
-        "description": "《荒神录之玲珑山》讲述的是架构于中国上古奇书《山海经》世界观，展现出双男主小宇与天衣师徒二人跨越时间的羁绊。动画采用中式水墨、岩彩重彩艺术风格，以三维渲染、二维手绘特效结合，配以民族摇滚音乐，共同打造出国风民族之美。",
-        "rating": 8
-      },
-      {
-        "id": "36490015",
-        "type": "douban",
-        "title": "护宝寻踪",
-        "releaseDate": "2025-05-20",
-        "posterPath": "https://image.tmdb.org/t/p/w500/DHdtmiPBKfIrwIhFgn03vjNQc0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/k4GHSwS1IuVJNUHcoMEiwr7lWag.jpg",
-        "description": "秦川大学考古系研究生方堃在协助追索海外流失文物时，发现白鹿原尹村的一处墓穴可能是不为人知的高等级帝陵。导师昝茂昌带其前往白鹿原实地勘察，却意外献出生命。方堃带着导师的遗愿，成长为一名考古队员。尹村未知墓穴引发考古届关注，方堃受邀参与勘察，与已成为考古队长的昔日恋人雒青重逢。方堃重提当年的猜测，引发争议和关注，也引起文物犯罪分子的觊觎。方堃、雒青以及公安局文物缉查队长齐大仓等一线文物保护工作者一起组织群众参与文物保护，与以穆见晖为首的文物犯罪团伙斗智斗勇，有力地保护了白......",
-        "rating": 8
-      },
-      {
-        "id": "35496391",
-        "type": "douban",
-        "title": "无忧渡",
-        "releaseDate": "2025-04-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3XbZ3xubGODmUe2kEbD9x685DXV.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mLqTgXV5vJAY7RwnMfuSlbZyEU7.jpg",
-        "description": "繁华的广平城，人妖共存，妖擅长隐匿形迹，伪装成人，却不被人所知。富家千金半夏有一双奇怪的眼睛，经常能看到那些子虚乌有的影子。因为这个，无论她多么循规蹈矩、乖巧懂事，仍会被人在背地叫做“疯子”。半夏戳破了堂嫂是妖的秘密，引来追杀，就此和捉妖师宣夜相识。宣夜对半夏眼睛的轻轻一吻，让她彻底看清了这个人妖共存的世界。他们一起调查了广平城中的碧玉梨回春、九命猫换命、《广平春晓图》一日轮回等多起诡异之事后，关系日渐亲密。但宣夜背负的秘密，却将半夏一次次推开，因为他逐渐发现，自己虽身为捉妖师，却很有可能也是妖……",
-        "rating": 8.167
-      },
-      {
-        "id": "35634021",
-        "type": "douban",
-        "title": "三命",
-        "releaseDate": "2025-03-31",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nh5lHXkeA9sxrX2o9shQAmTuHUP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sAOOVrb9SDthQdaw8j7rC2xYhWx.jpg",
-        "description": "这是一个横跨六十年，关于一个人，有三段人生的故事……自出娘胎，初见世界，我们便开始面对无数抉择。吃什么，穿什么，学什么，每一个决定，都是一个分岔口，每个路口都会通往不同的人生路。有人说命运早注定，有人说命运在你手。你可以选择相信一切皆偶然，也可以相信三世书早已记载。骆泽信出生于60年代的香港，他是个未足月的七星仔，经过一番挣扎才成功活下来，迎接他平凡中带点不凡的一生。信在中学开始创作漫画，在学校内传阅时，却发现有神秘人暗中窜改漫画内容，信与同学勤设局报复，没想到神秘人竟是一个即将离校的气质女生。信打算道歉那天，遇上一只断线风筝，当中的微小差错，引领信走上三条截然不同的人生路…",
-        "rating": 8
-      },
-      {
-        "id": "34930849",
-        "type": "douban",
-        "title": "人生若如初见",
-        "releaseDate": "2018-03-02",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aDdyuPuw8l6ejhyQjuCy0qsNDzM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8PZiArOE0Dkhc8nZifhQXxneoa4.jpg",
-        "description": "秦桑是符远财政次长之女，7岁时救了14岁的易连恺，易连恺是江左巡阅使易继培的三儿子。自此易连恺暗生情愫，可惜秦桑并不知情。10年后，秦家被人陷害家道没落，秦桑无奈中嫁给了易连恺，易连恺满心欢喜却碰上了秦桑冷冰冰的脸。当时藩镇割据、民不聊生，易老爷易继培一腔热血，想重振河山，于是把重任交给了易连恺，嘱托他一定要牺牲小我，实现大我。为了守护父亲的嘱托和实现自己的英雄抱负，易连恺把对秦桑的爱恋埋藏在心里，和慕容家展开了数次对决。与此同时，秦桑的初恋情人历望平游学回国，得知秦桑被逼嫁入易家，于是暗地里潜伏在易家准备联合慕容家打垮易家夺回秦桑。符远一战，易连恺把秦桑送出城门，为了守护易家最后的阵地死在了慕容家的炮火中。",
-        "rating": 6
-      },
-      {
-        "id": "35651341",
-        "type": "douban",
-        "title": "长安的荔枝",
-        "releaseDate": "2025-06-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gE2qL2xa7UIK1MA8Jwlw541t3Ui.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-        "description": "大唐年间，李善德（雷佳音饰）在同僚的欺瞒之下从监事变身“荔枝使”，被迫接下一道为贺贵妃生辰、需从岭南运送新鲜荔枝到长安的“死亡”任务，荔枝“一日色变，两日香变，三日味变”，而岭南距长安五千余里，山水迢迢，这是个不可能完成的任务。为保女儿李袖儿余生安稳，李善德无奈启程前往岭南；与此同时，替左相寻找扳倒右相敛财罪证的郑平安（岳云鹏饰）已先一步抵达岭南。各自身负重任的郎舅二人在他乡偶遇，意外结识胡商商会会长阿弥塔(那尔那茜饰)、空浪坊坊主云清(安沺饰)、胡商苏谅(吕凉饰)、峒女阿僮(周美君饰)、峒人阿俊（王沐霖饰）等人，还遭遇岭南刺史何有光(冯嘉怡饰)和掌书记赵辛民(公磊饰)的重重阻拦。双线纠缠之下任务难度飙升，他们将如何打破死局、寻觅一线生机？",
-        "rating": 7.875
-      }
+      "忘了我记得",
+      "我们与恶的距离2",
+      "灵笼 第二季",
+      "无尽的尽头",
+      "荒神录之玲珑山",
+      "护宝寻踪",
+      "无忧渡",
+      "三命",
+      "人生若如初见",
+      "长安的荔枝"
     ],
     "tv_global_best_weekly": [
-      {
-        "id": "36744090",
-        "type": "douban",
-        "title": "未知的首尔",
-        "releaseDate": "2025-05-24",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xev1XgmwDdv8ZpCVKkeoj5yzbze.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/m0VuPoWQhbgMjVIwAdZmmHgHQrl.jpg",
-        "description": "该剧讲述一对除了脸以外什么都不一样的双胞胎姐妹，通过互换人生的谎言去寻找真正的爱情与人生。",
-        "rating": 7.7
-      },
-      {
-        "id": "36392949",
-        "type": "douban",
-        "title": "悬案解码",
-        "releaseDate": "2025-05-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2R9T5mx4SfTYGOGFsgmdG36Doyp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
-        "description": "一位个性傲慢却才华出众的警察当上新部门主管，率领一群跌破众人眼镜的怪咖，陆续侦破爱丁堡的多桩悬案。",
-        "rating": 7.972
-      },
-      {
-        "id": "36508122",
-        "type": "douban",
-        "title": "瑞克和莫蒂 第八季",
-        "releaseDate": ""
-      },
-      {
-        "id": "37148139",
-        "type": "douban",
-        "title": "成了BL剧的主演 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36186396",
-        "type": "douban",
-        "title": "欢愉的艺术",
-        "releaseDate": "2024-05-30",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iK7Sg8lYc9oJaCoDGVDV41FYCE8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3yGa40zYReC11yjkBW5E618VRCy.jpg",
-        "description": "一场大火吞噬了莫德丝塔的过往，也焚尽了她的枷锁。她被修道院那位圣洁美丽的院长收留，却在日复一日的仰望中，滋长出禁忌的渴望——既然得不到偏爱，那便将她拖入深渊。\n\n二十世纪初的西西里，腥咸的海风裹挟着暴力与背叛。莫德丝塔辗转至贵族深宅，释放欲望，尽享当下的欢愉。直到法西斯主义盛行，莫德斯塔在硝烟中投身政治，成了共产主义的信徒。她在权谋与信仰的交织中淬炼成钢，成为乱世灵魂的庇护所。\n\n她生于灰烬，却活成了燎原的烈焰……",
-        "rating": 7.5
-      },
-      {
-        "id": "36182183",
-        "type": "douban",
-        "title": "无赦之仇",
-        "releaseDate": "2025-06-06",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jq6BmpNCvD6nYTbKLdPOBEf1ACo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/y7OFTnu8Gh2KHWX0Y05y8OY9kCB.jpg",
-        "description": "故事围绕主角南基准的过去与复仇之路展开。 11 年前，他为了摆脱黑帮的控制，亲手砍断自己的阿基里斯腱，从此远离江湖，过着隐居生活。然而，当他得知长期担任副手的弟弟南基锡意外身亡后，他被迫重新踏入黑帮世界，展开一场充满危机与冲突的复仇行动。",
-        "rating": 8
-      },
-      {
-        "id": "36410615",
-        "type": "douban",
-        "title": "金妮与乔治娅 第三季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36066726",
-        "type": "douban",
-        "title": "彩排 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "37259671",
-        "type": "douban",
-        "title": "疯狂独角兽",
-        "releaseDate": "2025-05-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iE1i1mw7Is8wVlYUxqc0W4DhZD8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/YI4EbHaGj4CDjA0YcbTUKHvLPt.jpg",
-        "description": "一个年轻人放弃街头生活开拓了新领域，带来机遇的同时也出现了强大的敌人。",
-        "rating": 7.7
-      },
-      {
-        "id": "36070790",
-        "type": "douban",
-        "title": "ONE：高中英雄们",
-        "releaseDate": "2025-05-30",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uWK4QcYrLGITRNDvhLelm66j4Er.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6Ohfk6UG6BstEQbwqJ0JHSjHl3O.jpg",
-        "description": "Kakao网漫《ONE》将改编成8集电视剧《ONE: HighSchool Heroes》。\n\n该剧讲述只知道学习的模范生宜谦和润起组成的“HighSchool Heroes”代替遭受暴力折磨的受害者挥动正义的拳头。\n\n由《两个男人》《量子物理学》李成泰导演执导。",
-        "rating": 8.6
-      }
+      "未知的首尔",
+      "悬案解码",
+      "瑞克和莫蒂 第八季",
+      "成了BL剧的主演 第二季",
+      "欢愉的艺术",
+      "无赦之仇",
+      "金妮与乔治娅 第三季",
+      "彩排 第二季",
+      "疯狂独角兽",
+      "ONE：高中英雄们"
     ],
     "show_chinese_best_weekly": [
-      {
-        "id": "37080187",
-        "type": "douban",
-        "title": "开始推理吧 第三季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36977962",
-        "type": "douban",
-        "title": "快乐的大人 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "37037824",
-        "type": "douban",
-        "title": "名侦探的假期",
-        "releaseDate": "2024-12-19",
-        "posterPath": "https://image.tmdb.org/t/p/w500/skAjXUuQH45XU3t48s5K5pPwLY8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mw0KyRRmRUpiHdCWlz3Wnw3p9XY.jpg",
-        "description": "《名侦探的假期》是由芒果TV节目中心晏吉超级工作室原创的一档轻推理旅行团体综艺。节目邀请名侦探俱乐部成员何炅、张若昀、大张伟、魏晨、王鸥、吴昕、杨蓉，利用三天假期，前往“地中海好莱坞”马耳他，开启一场修炼名侦探品格的“充电之旅”。嘉宾们将在三天的旅程中，通过实地探索、解谜推理、沉浸式体验等方式，完成一次对观察力、探索力、表现力等多重侦探技能的全方位充电。",
-        "rating": 10
-      },
-      {
-        "id": "37054768",
-        "type": "douban",
-        "title": "哈哈哈哈哈 第五季",
-        "releaseDate": ""
-      },
-      {
-        "id": "37114084",
-        "type": "douban",
-        "title": "大侦探·拾光季",
-        "releaseDate": "2025-02-21",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3rTAtWHfQfr8qYFBx4lSdI9f1tR.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nXYrT4ya1JHTHAtic5St3nKotWo.jpg",
-        "description": "《大侦探·拾光季 搜证事件簿》为综艺《大侦探·拾光季》的SVIP版衍生节目，完整记录嘉宾搜证全过程，内容包括嘉宾搜证心路历程以及嘉宾间的逗趣互动。"
-      },
-      {
-        "id": "36936178",
-        "type": "douban",
-        "title": "团建不能停",
-        "releaseDate": "2024-11-21",
-        "posterPath": "https://image.tmdb.org/t/p/w500/IoseTcSMabmDRrtLpWNO4GT001.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/wHlT9VrIL0N7c7mcfXRER8no1BL.jpg",
-        "description": "社牛天团650（汪苏泷、徐志胜、李雪琴、李嘉琦）开办“脸挺大”团建公司，承接圈内各式brief，用最具脑洞、最搞笑、最有输出的团体风格花式整活儿，打造娱乐圈的团建中心；只有你想不到，别怕650做不到～"
-      },
-      {
-        "id": "37105509",
-        "type": "douban",
-        "title": "江湖见",
-        "releaseDate": "1991-06-13",
-        "posterPath": "https://image.tmdb.org/t/p/w500/oNkoeSmCWTNrr2p1jJdlqA3djJz.jpg",
-        "description": "由于严父不谅，指龙辱及家门，龙在家中饱受冷眼，加上交友不慎逐渐走上不归路，最后更遭家庭离弃，孑然一身，在江湖中打滚。\n\n刘松仁饰演周胜龙\n\n刘松仁饰演周胜龙\n\n视出入狱为家常便饭，他在帮会内的地位也随他入狱的次数而每况愈下。虽获特赦，但他在地下赌场内的职位已由昔日一个手下坐上。龙与老大展开谈判，老大不胜其烦，答应他自己拥有一个赌场，但资金要自己想辨法筹措。龙身无分文，正烦恼，手下建议用绑架勒索来筹措资金。龙不答应，手下瞒着龙私下策划绑票勾当。选定目标为某富商独子，不料阴差阳错，绑错了富商儿子的同学－邢过。这也许是天意吧－－原来过竟然是龙当年少不更事时，给少年情人邢美丽留下的孽种。美丽母亲为保家声及美丽前途，将过认作自己的亲儿子，于是亲母变姐姐，外公外婆则变成父母。而龙亦不知自己居然有个十八岁的儿子。\n\n龙手下绑架一事东窗事发，为过大哥邢俊男掳获，手下为减轻罪名，竟将一切推在龙身上，男根据线索追捕龙，终于落网，男乍见为之内心冲激，因为眼前这个犯人就是当年几乎毁了自己亲妹妹邢美丽一生幸福的人。\n\n龙有理说不清，幸过挺身而出，力证龙并非主谋，兼是自己的救命恩人。案情大白，龙得以身免，但男对龙不存好感，警告龙勿让他抓到错处，否则决不轻饶。龙从过口中得悉美丽早年远赴国外留学，如今已是国际上颇有名气的时装设计师。龙抚今追昔，不禁泛起阵阵涟漪过知道龙是“姐姐”的旧情人，加上对龙颇具好感，并倾倒于龙的所谓将湖原则和义气，将龙视为偶像，龙难得有人把他视作英雄，不禁飘飘然。"
-      },
-      {
-        "id": "37149452",
-        "type": "douban",
-        "title": "来吧！哪里怕",
-        "releaseDate": "2024-12-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8c6waEopa82r0NrEe06HQKWzbvi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9OhAhWiM4oBareA69or9rP9CEEx.jpg",
-        "description": "敖犬、小煜、威廉、阿緯、小杰、王子 6 位大男孩，堅持每分每秒鐘追逐夢！15 年後，終於聚首接下所有困難挑戰，夥伴在身旁哪裡怕？"
-      },
-      {
-        "id": "37249082",
-        "type": "douban",
-        "title": "愛就拉上她",
-        "releaseDate": ""
-      },
-      {
-        "id": "37090482",
-        "type": "douban",
-        "title": "半熟恋人 第四季",
-        "releaseDate": ""
-      }
+      "开始推理吧 第三季",
+      "快乐的大人 第二季",
+      "名侦探的假期",
+      "哈哈哈哈哈 第五季",
+      "大侦探·拾光季",
+      "团建不能停",
+      "江湖见",
+      "来吧！哪里怕",
+      "愛就拉上她",
+      "半熟恋人 第四季"
     ],
     "show_global_best_weekly": [
-      {
-        "id": "36666524",
-        "type": "douban",
-        "title": "克拉克森的农场 第四季",
-        "releaseDate": ""
-      },
-      {
-        "id": "37269843",
-        "type": "douban",
-        "title": "罗罗民宿",
-        "releaseDate": "2025-06-02",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qGzmcGUiH0NQTTy9gpYFp6QTpUo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mPtkXCqvHu5mPyr8EeQhj2wivwa.jpg",
-        "description": "　　是制作组秘密企划并准备的节目，虽然具体内容尚未公开，但根据《罗罗民宿》的题目，预计将成为\"民宿\"营业概念的综艺节目。"
-      },
-      {
-        "id": "36857961",
-        "type": "douban",
-        "title": "Biong Biong地球游戏厅 第三季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36884437",
-        "type": "douban",
-        "title": "既然出生就环游世界4",
-        "releaseDate": ""
-      },
-      {
-        "id": "37213479",
-        "type": "douban",
-        "title": "线下恋爱",
-        "releaseDate": "2025-02-18",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wdmFv3fytIpCQtWTWfl1cL8N1fN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/puLGStQgzsgYAyuwW4ATcneVX8Z.jpg",
-        "description": "年轻的单身男女在异国度过十天，仅靠缘分相知相爱。没有任何电子设备，他们能否觅得良缘？",
-        "rating": 9
-      },
-      {
-        "id": "37081289",
-        "type": "douban",
-        "title": "你的爱",
-        "releaseDate": "2023-05-18",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aXD6Ti6RDHRFbyUrF7b0T6Ljb3N.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/h0CQ36rm9cSLznve5ocCDtYlnwN.jpg",
-        "description": "少女红娘基蒂听从内心，来到首尔一所精英高中。在那里，她认识到生活、爱情和家庭比她想象得更加复杂。",
-        "rating": 8.082
-      },
-      {
-        "id": "36754365",
-        "type": "douban",
-        "title": "旗安84的奇趣民宿",
-        "releaseDate": "2025-04-08",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1iLD4qd9hbCjiBIyu64F9OImK4I.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ap6Hg7roMXPBewSBaeJEQNG5sIq.jpg",
-        "description": "奇案84在偏僻小岛上开设让人逃离烦嚣的另类民宿，由防弹少年团Jin和池艺恩带领客人进行有趣的冒险，过程中也少不了各种爆笑的突发状况。",
-        "rating": 8.2
-      },
-      {
-        "id": "37279734",
-        "type": "douban",
-        "title": "睁眼一看是 SUPER TV",
-        "releaseDate": "2025-03-22",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tjRi0DSclwWzRyneYtvXTdvCGZn.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/AifpdNaBB2rDXvk7MD3B2qB8fUm.jpg",
-        "description": "SUPER JUNIOR即将开启出道20周年企划旅程，并以全新真人秀综艺《睁眼一看是 SUPER TV》拉开序幕，该综艺是一档为SUPER JUNIOR量身打造、独一无二的硬核综艺，步入成熟“20岁的SUPER JUNIOR”将在“说话算话的世界”里进行合则生、分则困的挑战。"
-      },
-      {
-        "id": "37256859",
-        "type": "douban",
-        "title": "百万秘宝攻防战 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36996173",
-        "type": "douban",
-        "title": "心脏配对",
-        "releaseDate": "2025-03-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ein5lzPxB6GbM4iSI3KAvRKZCP0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/le4cxF6YQgAu3aYugCCOeLQOppq.jpg",
-        "description": "如果说《Heart Signal》描绘了青春男女间痒痒的恋爱初期的样子，那么《Heart Pairing》则将重点放在了聚集适婚年龄的出演者，考虑价值观、经济观和恋爱观寻找未来配偶的样子上。\n\n出演者们以意大利佛罗伦萨和托斯卡纳为背景地结束了约一个月的拍摄。\n\n朴PD说：“因为出现了梦想结婚的出演者，所以计划讲述更真挚、更深刻的恋爱故事。”"
-      }
+      "克拉克森的农场 第四季",
+      "罗罗民宿",
+      "Biong Biong地球游戏厅 第三季",
+      "既然出生就环游世界4",
+      "线下恋爱",
+      "你的爱",
+      "旗安84的奇趣民宿",
+      "睁眼一看是 SUPER TV",
+      "百万秘宝攻防战 第一季",
+      "心脏配对"
     ]
   },
   "annual": {
     "478": [
-      {
-        "id": "36154853",
-        "type": "douban",
-        "title": "好东西",
-        "releaseDate": "2024-11-09",
-        "posterPath": "https://image.tmdb.org/t/p/w500/osnvxHXEcYeiAK8WCwEVQc7irWO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/tVTI6OrkI1UtydLLEdKl0G2xNXS.jpg",
-        "description": "单亲妈妈王铁梅带小孩王茉莉搬到新家后，结识了邻居小叶，两位性格迥异的女性，一个坚强，一个柔软，一个擅长给人当妈，一个擅长随时撒谎，面对旧创伤和新挑战，她们彼此温暖互相慰藉的故事。",
-        "rating": 7.667
-      },
-      {
-        "id": "36587974",
-        "type": "douban",
-        "title": "出走的决心",
-        "releaseDate": "2024-09-06",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cNVSqjuLjrL5UM7s6HDFfczF8Jl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jwd6OELE02g47rzl2lC6SVyDj5S.jpg",
-        "description": "根据50岁阿姨自驾游故事改编。天真浪漫的李红（咏梅 饰）一生有过许多梦想，18岁时憧憬大学，25岁时憧憬爱情，45岁时憧憬远游……但为了那些“对别人来说更重要”的事，她只能一等再等，也一再错过。50岁，她决心不再等待，活出不一样的人生！",
-        "rating": 8
-      },
-      {
-        "id": "36712987",
-        "type": "douban",
-        "title": "破·地狱",
-        "releaseDate": "2024-11-09",
-        "posterPath": "https://image.tmdb.org/t/p/w500/au4RvTojRfJLLpAzsZXPg5x8txd.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3gWzonuhwq7GUEdAywM3ykP1ekA.jpg",
-        "description": "影片讲述了在疫情肆虐生意萧条的背景下，婚礼策划师道生被迫改行成为一名葬礼经纪人。起初因理念不合与喃呒师傅文哥产生许多冲突，二人关系岌岌可危。而面对一位特殊的逝者，文哥的出手相助使得道生重新审视生死的意义。",
-        "rating": 7.9
-      },
-      {
-        "id": "34940879",
-        "type": "douban",
-        "title": "年少日记",
-        "releaseDate": "2023-11-16",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ipqwnVP6IEsAx8X674blrzWljPj.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hbyC5oS7rqdK616qCx30DyXN4Bn.jpg",
-        "description": "一封没署名的遗书、一群看似无恙的学生，让中学老师郑Sir想起充满暴力与遗憾的童年往事。他亦面对妻子离别、父亲病危，同时必须找出企图轻生的同学，阻止悲剧重现。第五届“首部剧情电影计划”大专组得奖作品。",
-        "rating": 7.8
-      },
-      {
-        "id": "35883131",
-        "type": "douban",
-        "title": "雄狮少年2",
-        "releaseDate": "2024-12-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ziv1feLHah9qzrMno0btZyxJJfO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2aBRKrISNFi1fAfDNexh4zsnUG4.jpg",
-        "description": "　　来上海打工的无名之辈阿娟（李昕 配音），为了赚钱给父亲治病，同意代表没落的传武拳馆参加“上海格斗之夜”武术比赛，为此他必须战胜所有的高手、偏见和自己。",
-        "rating": 7.909
-      },
-      {
-        "id": "36151692",
-        "type": "douban",
-        "title": "周处除三害",
-        "releaseDate": "2023-10-06",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eNvuf4PHepy0nlXfludjGCJGG59.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cu5Qk2QHxOyyMrD3Bq93DxgmJer.jpg",
-        "description": "通缉犯陈桂林（阮经天 饰）生命将尽，却发现自己在通缉榜上只排名第三，他决心查出前两名通缉犯的下落，并将他们一一除掉。陈桂林以为自己已成为当代的周处除三害，却没想到永远参不透的贪嗔痴，才是人生终要面对的罪与罚。  影片引用的“周处除三害”典故，见于《晋书·周处传》和《世说新语》。据记载，少年周处身形魁梧，武力高强，却横行乡里，为邻人所厌。后周处只身斩杀猛虎孽蛟，他自己也浪子回头、改邪归正，至此三害皆除。",
-        "rating": 7.293
-      },
-      {
-        "id": "35725869",
-        "type": "douban",
-        "title": "年会不能停！",
-        "releaseDate": "2023-12-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nhsi6kfqwlfAdzaeZOocnUqMlH2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/f4OCzvS3HvisHEkxq5596jg21UJ.jpg",
-        "description": "集团裁员风波之下，人心惶惶，底层钳工胡建林（大鹏 饰）却被阴差阳错调入集团总部！裹挟在“错调”事件中的人事经理马杰（白客 饰）诚惶诚恐，为保饭碗被迫为其周旋隐瞒。从“工厂”到“大厂”，从“蓝领”变“金领”，胡建林因与大厂环境格格不入而笑料百出，也像一面“职场照妖镜”照出众生相……胡建林为何能在裁员之际一路升职加薪制霸大厂？马杰又能否在“错调”事件中全身而退？这对“天选打工双侠”会引发怎样轰轰烈烈的职场大整顿？",
-        "rating": 7.5
-      },
-      {
-        "id": "36149032",
-        "type": "douban",
-        "title": "我们一起摇太阳",
-        "releaseDate": "2024-02-10",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ia08FRXcH5GwjpohOFVCQdsvEB1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nffhhbdrEvIXPJCt30JqA0jWbuv.jpg",
-        "description": "当“没头脑”吕途（彭昱畅 饰）遇上“不高兴”凌敏（李庚希 饰），两个身患重症却性格迥异的年轻人，因为“生命接力”的约定，阴差阳错地踏上了一段充满爱与力量的治愈之旅。影片是韩延导演“生命三部曲”终章，部分取材于纪实报道文章《最功利的婚姻交易，最动情的永恒约定》。",
-        "rating": 7.556
-      },
-      {
-        "id": "35956190",
-        "type": "douban",
-        "title": "走走停停",
-        "releaseDate": "2024-05-25",
-        "posterPath": "https://image.tmdb.org/t/p/w500/73GxpIsOqcFg6kH6aEM6an68X5n.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/k3ygr0gSX6Hn8ppB7pEMk3bzE96.jpg",
-        "description": "落魄北漂文艺青年吴迪（胡歌 饰），工作感情双双失意，沮丧返乡。吴迪“突袭”返乡的行为打破了一家人原本平静的生活，他不仅需要重新面对与家人的“亲密”相处，还要为自己的未来寻找更多的可能。在现实面前多番碰壁后，一次偶然的机会下他与高中同学冯柳柳（高圆圆 饰）相遇，随后生活也发生了意想不到的转变。",
-        "rating": 6.8
-      },
-      {
-        "id": "35611467",
-        "type": "douban",
-        "title": "老狐狸",
-        "releaseDate": "2023-11-24",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gtcmhRXV8qkXW0XhTJ0CPyKi67t.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aCvWiaBL9Y2gGMi4GxVBqUyh6Nh.jpg",
-        "description": "故事发生在1989年全民皆股的年代，小男孩廖界与父亲廖泰来相依为命，他们相信人性本善，没发现世界正在改变。股市飙涨、物价翻倍，有人一夕暴富，有人意识到现实残酷；单纯老实的廖界父子属于后者。不料，他们碰上了聪明狡猾的“老狐狸”，命运道路可能截然不同。财富与良心两条岔路，该怎么选？",
-        "rating": 7.6
-      }
+      "好东西",
+      "出走的决心",
+      "破·地狱",
+      "年少日记",
+      "雄狮少年2",
+      "周处除三害",
+      "年会不能停！",
+      "我们一起摇太阳",
+      "走走停停",
+      "老狐狸"
     ],
     "528": [
-      {
-        "id": "35426925",
-        "type": "douban",
-        "title": "机器人之梦",
-        "releaseDate": "2023-12-06",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-        "description": "影片改编自Sara Varon的漫画，讲述1980年代的纽约，孤独的小狗DOG订购了一个机器人，很快它俩变得密不可分，一起过着快乐的生活。但随后，小狗将机器人丢弃在了海边……",
-        "rating": 8.025
-      },
-      {
-        "id": "26656728",
-        "type": "douban",
-        "title": "泳者之心",
-        "releaseDate": "2024-05-31",
-        "posterPath": "https://image.tmdb.org/t/p/w500/GGXiFzwzMzSPyibDs5PZzLI2U6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fpo2qM5b4gTF5EHuYGlxsDIlZOj.jpg",
-        "description": "影片根据真实历史事件改编，银幕再现首位游泳横渡英吉利海峡的女泳者传奇经历。无惧时代禁锢和社会偏见，特鲁迪·埃德尔（黛西·雷德利 Daisy Ridley 饰）破纪录跨越34公里天堑，直面惊涛骇浪，克服水母刺蜇……",
-        "rating": 7.893
-      },
-      {
-        "id": "35712804",
-        "type": "douban",
-        "title": "首尔之春",
-        "releaseDate": "2023-11-22",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fvseAYbhIyxBsnsqPC4Pe6Kjj1F.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yOn8w3aGd6Rf9JYki7XaC9ZiyDg.jpg",
-        "description": "10·26总统刺杀事件发生后，根据戒严法，陆军参谋总长郑相镐（李星民 饰）被任命为戒严司令官，保安司令官全斗光（黄政民 饰）被任命为联合调查本部长。郑祥镐对全斗光动员军队内的私人组织以团结势力的行为有所察觉，为了应对该情况，他将李泰信（郑雨盛 饰）任命为首都警备司令官。12月12日，掌握所有情报的全斗光为了篡夺权力绑架郑相镐，继而发动军事叛变。他不光派出了军队内部的私人组织，甚至把其好友卢泰健（朴海俊 饰）部署在三八线的第9步兵师也召唤至首尔。李泰信得知此事后带领陆军本部宪兵监金准烨（金成均 饰）出动守卫首都圈，誓要扑灭叛乱，尽忠职守保卫国家。  被权力蒙蔽双眼的全斗光领导的叛乱军和以首都警备司令官李泰信为首的镇压军之间，一触即发的9个小时流逝而去…",
-        "rating": 7.5
-      },
-      {
-        "id": "36328210",
-        "type": "douban",
-        "title": "姥姥的外孙",
-        "releaseDate": "2024-04-04",
-        "posterPath": "https://image.tmdb.org/t/p/w500/46PHpRYxgZlAFs9HRzE3MLM1KnA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3kvS6Ws5usxSk1wIbKZ7YPug2V2.jpg",
-        "description": "出身泰国华人家庭的无业年轻人阿安（马群耀 饰）看到堂妹因照顾病重的爷爷而继承房产后，也对身患绝症的姥姥（乌萨·萨梅坎姆 饰）动了心思，计划复刻堂妹的“致富之路”获取百万遗产。但面对同样“努力”的舅舅们和挑剔毒舌的姥姥，阿安这条争当全职孝孙的“啃姥致富”之路似乎没有他预想的那么顺利……",
-        "rating": 8.117
-      },
-      {
-        "id": "35797709",
-        "type": "douban",
-        "title": "怪物",
-        "releaseDate": "2023-06-02",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kpWASAfVSBIA1IVKp06b1S0HMlc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/vAsxVpXP53cMSsD9u4EekQKz4ur.jpg",
-        "description": "平静的湖畔小镇，疼爱儿子的单亲妈妈早织（安藤樱 饰）、为学生着想的爽直老师保利 （永山瑛太 饰）以及天真烂漫的孩子们本过着安稳的生活，却因为一次校园冲突，发酵酿成轩然大波，惹起社会与媒体的关注。当事态越见严重，竟在一个暴风雨的清晨，两个孩子双双失去了踪影…",
-        "rating": 7.959
-      },
-      {
-        "id": "36934908",
-        "type": "douban",
-        "title": "因果报应",
-        "releaseDate": "2024-06-14",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tAyIdfrfHhsmJEVTHFdvZA8EHcG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/if61bpqSXngkGoGNjMdHZt02wZS.jpg",
-        "description": "理发师玛哈拉贾大闹警局，悬赏70万要为一个价值300的垃圾桶立案。众人疑惑之际，才发觉玛哈拉贾来警局另有目的……当女儿被恶人残忍迫害，真相与正义似乎无处可寻，憨厚老实的底层父亲只能以身设局，用剃须刀杀出一条复仇血路。永远不要低估一个父亲为女儿复仇的决心！",
-        "rating": 7.8
-      },
-      {
-        "id": "36090457",
-        "type": "douban",
-        "title": "头脑特工队2",
-        "releaseDate": "2024-06-11",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tVSFt0tDsbvVw0DxAkknyq3ClQB.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-        "description": "小女孩莱莉刚步入青春期，在她的大脑总部，正经历着一场突如其来的大拆迁，为意想不到的新情绪腾出空间。一直以来配合默契的情绪小伙伴乐乐、忧忧、怒怒、怕怕和厌厌，在新情绪焦焦的突然到来时变得不知所措，并且她看起来不是孤身一人。",
-        "rating": 7.6
-      },
-      {
-        "id": "35575567",
-        "type": "douban",
-        "title": "沙丘2",
-        "releaseDate": "2024-02-27",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1p25wDEdFRRTtwtPFbtPHISefzG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/o869RihWTdTyBcEZBjz0izvEsVf.jpg",
-        "description": "《沙丘2》承接第一部剧情，讲述保罗·厄崔迪（提莫西·查拉梅 Timothée Chalamet 饰）被帕迪沙皇帝和哈克南人联手灭族后，在厄拉科斯星球遇到弗雷曼女战士契妮（赞达亚 Zendaya 饰）以及加入弗雷曼人后展开的传奇旅程。保罗与让他家破人亡的阴谋家们开战，同时面临着一生所爱与已知宇宙命运的两难选择。",
-        "rating": 8.145
-      },
-      {
-        "id": "36765646",
-        "type": "douban",
-        "title": "蓦然回首",
-        "releaseDate": "2024-06-28",
-        "posterPath": "https://image.tmdb.org/t/p/w500/d7RxZbv7x1AKsa8q2UO2IKa59D8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1MzBCKjwDyQg2Cu8XJR8Ox59sWY.jpg",
-        "description": "藤野是一名小学四年级学生，她在校报上连载的四格漫画专栏获得了同学们的一致好评。然而某天她的老师却突然告诉她，逃学的京本想在报纸上刊登自己的漫画。两个女孩对漫画的共同热情让她们走到了一起，直到有一天，某件事的发生打破了这一切，一个令人揪心的成长故事就此展开。",
-        "rating": 8.019
-      },
-      {
-        "id": "36060209",
-        "type": "douban",
-        "title": "排球少年！！垃圾场决战",
-        "releaseDate": "2024-02-16",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7eOTFvo5gyXJIHVDURKorE6ERgU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cZmOrIOkJ2SNfVdiO85dUbOAYnL.jpg",
-        "description": "剧场版描述了原作中最受欢迎的故事之一。乌野高中对阵音驹高中，俗称 \"垃圾场决战\"。现在，在约定的地方，一场没有\"再来一次\"的比赛开始了——",
-        "rating": 7.6
-      }
+      "机器人之梦",
+      "泳者之心",
+      "首尔之春",
+      "姥姥的外孙",
+      "怪物",
+      "因果报应",
+      "头脑特工队2",
+      "沙丘2",
+      "蓦然回首",
+      "排球少年！！垃圾场决战"
     ],
     "529": [
-      {
-        "id": "36445098",
-        "type": "douban",
-        "title": "还有明天",
-        "releaseDate": "2023-10-26",
-        "posterPath": "https://image.tmdb.org/t/p/w500/o6rDAvX4kqyEuoIhDV7NCehfq8v.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fNXUCk54vGcoKr34olN14ohUSFY.jpg",
-        "description": "1946年5月的罗马被二战留下的贫困、街头游荡的盟军民兵，以及6月2日至3日的国体公投所激发的变革愿望撕裂。女主角迪莉娅是虐待狂伊万诺的妻子，也是三个孩子的母亲，其中包括十几岁的玛塞拉。在处理家庭事务的间隙，她照顾闷闷不乐的岳父奥托里诺，偶尔还要去城里的一些商店打工。这个女人在这艰难的生活中也有几个盟友：爱她的机械师尼诺；玛丽莎，一位机智乐观的朋友；还有威廉，想要帮助她的非裔美国士兵。迪莉娅的生活被玛塞拉与朱利奥的订婚打乱。朱利奥来自一个富裕的家庭，他们的收入主要源于经营的酒吧。然而迪莉娅很快意识到，若红事确定，她的女儿将走向与她相似的痛苦婚姻。因此，在威廉的帮助下，她设法炸毁了准女婿的酒吧，迫使他们家离开罗马。尽管马塞拉陷入绝望，但迪莉娅知道她做了正确的事。在邮寄给她的第一张选民卡的鼓励下，她决心反击。6月2日，决定国家命运的时刻到来。迪莉娅想要参加，并找借口逃离丈夫，但岳父却突然去世。好在这并未阻碍她作为女性第一次参与投票。可她丢失的选民卡却接二连三被丈夫和绝望中的女儿找到。她必须在其中周旋，确保能为自己、孩子和国家的未来做出正确的选择。",
-        "rating": 8.127
-      },
-      {
-        "id": "35699773",
-        "type": "douban",
-        "title": "杂种",
-        "releaseDate": "1993-08-01",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9w0Z9aXiUW6fDUKtnByUCbmocLi.jpg",
-        "description": "改革开放的大潮下，古老的皇城北京也按捺不住那份躁动。人们来去匆匆，生活节奏陡然加快，躁动的摇滚乐和肆无忌惮的谩骂响彻夜空，看不到未来却又为未来拼搏的年轻人们恣意宣泄着心中的愤懑。摇滚乐手卡子（李委 饰）的女友毛毛（喻飞鸿 饰）怀了孩子，两人为要与不要的问题大吵一架。之后毛毛失踪，装作不在意的卡子又四处寻找女友；崔健（崔健 饰）与乐队在摇滚乐之路上艰难前行，身无分文的他们交不起场地租金，被迫打起游击，乐队的排练经常受到干扰；买书为生的黄耶鲁被骗子袁红海（武啦啦 饰）骗尽钱财，他和哥们好友四处寻找骗子，结果兄弟间反倒出了矛盾。滚滚洪流，这群不甘受缚的青年趁着韶华未尽，可劲儿燃烧、挥霍着他们这无望、困顿的青春……",
-        "rating": 6
-      },
-      {
-        "id": "35268501",
-        "type": "douban",
-        "title": "乘船而去",
-        "releaseDate": "2024-04-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/92pAMgwlXDXIjjgfldY9ZpT8E2B.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jEzM2zRBXcEz6u6qa78ySeh2tJC.jpg",
-        "description": "独自生活在运河边农村的老太太周瑾突然被确诊脑瘤，漂在外地的子女不得不回乡照顾。大女儿苏念真在上海经营留学咨询机构，正在经历第二次离婚，她坚持要给母亲最好的治疗；小儿子苏念清是个四处漂泊的导游，他支持母亲放下，接受无常。在死亡面前，周瑾寻找着精神的归宿 ，苏念真和苏念清在不断发现母亲秘密的同时，正与故乡失去最后的连接",
-        "rating": 7
-      },
-      {
-        "id": "36401998",
-        "type": "douban",
-        "title": "只此青绿",
-        "releaseDate": "2024-09-15",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2U32CZU2qKY4VrQQ5AC1dXAzTHU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bxoTtN40SPujsogRkeeHkvJ3Ttz.jpg",
-        "description": "　　一位现代文物研究员在《千里江山图》即将展出之际潜心钻研，穿越九百余年时空走入北宋少年画家希孟的内心，目睹了希孟呕心沥血忘我创作，与无数劳动者携手，历尽千辛万苦创作出传世画卷的历程。",
-        "rating": 8
-      },
-      {
-        "id": "36629878",
-        "type": "douban",
-        "title": "12年级的失败",
-        "releaseDate": "2023-08-11",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6RV2o8PBCEyw9ylOWViV1CtULIF.jpg",
-        "description": "基于IPS 官员 Manoj Kumar Sharma 和 IRS 官员 Shraddha Joshi 的真实故事改编。马诺杰-库马尔-夏尔马（Manoj Kumar Sharma）来自钱巴尔村，在那里考试作弊是家常便饭。他正在参加 12 年级考试，并想找一份小工的工作。但在考试期间，一位严厉的警官 DCP 杜什扬-辛格（Dushyant Singh）来到这里，阻止了作弊行为。 第二年，他通过了考试，梦想成为一名 IAS，但命运另有安排，Manoj 必须从一开始就努力学习。",
-        "rating": 7.961
-      },
-      {
-        "id": "35618436",
-        "type": "douban",
-        "title": "从今以后",
-        "releaseDate": "2010-10-22",
-        "posterPath": "https://image.tmdb.org/t/p/w500/drYCspLQboS0z4iLWXt0orAuLsG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/f2z00VIPyrrfFabw0RnoY5M8uYt.jpg",
-        "description": "------马特•达蒙扮演的乔治是一个美国的蓝领工人。不过乔治不是那种除了工作就去泡酒吧的工人，他有一种灵异的特异功能，他能看到死去的坚人，并且能和他们进行交流侍。这样的“能力”大大影响了他的正常生活，他时时刻刻都能理解到“活着”的意义。与此同时，在地球的另一个大陆上，一个叫做马瑞的法国女记者久久无法逃遁于自己的一次濒死体验，那次痛苦的经历发生在海啸中，马瑞差点为此送了小命。英国，伦敦，一个叫做马库斯的男孩失去了自己的兄弟，带走他兄弟的并不是上帝，而是车祸。马库斯后来也能在冥冥之中看到自己的兄弟，并且和他说话。虽然如此，但是马库斯还是久久不能从兄弟的死中释怀，他需要一个对于生命无常的合理的解释。　　三个人，三种生活，三次对生命意义和生活真相的追问。在影片的结尾，三个主角以一种出其不意的方式相见－－唯一可以确定的是，死亡本身以及有关死亡的体验和认知，将会彻头彻尾地改变他们的生活和生命。",
-        "rating": 6.116
-      },
-      {
-        "id": "35973112",
-        "type": "douban",
-        "title": "我们最后一次做孩子",
-        "releaseDate": "2023-10-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xcqZ0x2PwXx9B7a4Kk3LFdineoO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yaEUCwcNhd7lZl73BBliqtIhWTv.jpg",
-        "description": "1943年的意大利罗马，四个来自不同家庭背景的小孩在战火纷飞中玩着战争游戏并结成了“史上最伟大的友谊”。10月某日，来自富裕犹太家庭的里卡尔多被德军带去了犹太人隔离区，剩余的三个好友通过伊塔洛担任国家法西斯党干部的父亲的关系得知了他的所在，决心穿越意大利“英雄救友”。本片改编自同名畅销反战小说，通过儿童冒险喜剧的形式和孩子们的天真视角展现了二战对意大利这个国家及其人民的摧残，在全球冲突肆虐的当下更具现实意义，发人深思。",
-        "rating": 7.142
-      },
-      {
-        "id": "35861594",
-        "type": "douban",
-        "title": "僧侣和枪",
-        "releaseDate": "2023-10-17",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iV9P24I3b58f4TrNzbxdhTbJhii.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8nDmmnksfkTqwVa1en54KXDMRtg.jpg",
-        "description": "故事发生在2006年，时值不丹推进民主化改革，计划举行大选。为此，政府官员提前组织一场模拟选举来进行测试。在布姆唐宗乌拉格窝的乌拉镇，一位和尚奉喇嘛之命寻找两把枪，以应对国家即将出现的转变。与此同时，一位美国古董武器收藏家来到不丹，想买走和尚手中的一把珍贵的步枪。",
-        "rating": 7.253
-      },
-      {
-        "id": "35928797",
-        "type": "douban",
-        "title": "枯叶",
-        "releaseDate": "2023-09-14",
-        "posterPath": "https://image.tmdb.org/t/p/w500/v6pdaK4xtDGg832CzXnd2zMKiFJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cru4rjGcdHGhnPyjNXvW82jOrif.jpg",
-        "description": "故事讲述两个孤独的人在赫尔辛基的夜晚偶然相遇，并试图找到彼此生命中的第一个，唯一且最终的爱。他们通往这个目标的道路被男人的酗酒、丢失的电话号码、不知道彼此名字或地址，以及生活总倾向于在那些寻求幸福的人的道路上设置障碍所笼罩。",
-        "rating": 7.15
-      },
-      {
-        "id": "35448539",
-        "type": "douban",
-        "title": "奇美拉",
-        "releaseDate": "1996-07-31",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iJXFXlNYTZ1fuOu1a65SnOBX6ma.jpg",
-        "description": "雨夜，主角牧（Osa mu）与好友杰（Jay）在行车中撞见了事故现场，锁封路段的空军急忙嗔叱二人逃离，而顷刻便遭到了不明物体的袭击。牧无意随气流卷进了一辆拖车里，在那他邂逅了一位长着金色和红色眼睛的裸体双性人奇美拉（KIMERA）。耳冘于美貌的牧不自觉隔着玻璃亲吻奇美拉。这时，两名吸血鬼样的角色飞来，其中一个蝙蝠一样的男人攻击牧，另一个被毁容的畸形人则保护牧，双方僵持不下，消失在空中。蝙蝠一样的男人、披着斗篷的畸形人和囿于低温容器中的异瞳美人究竟是……",
-        "rating": 3.063
-      }
+      "还有明天",
+      "杂种",
+      "乘船而去",
+      "只此青绿",
+      "12年级的失败",
+      "从今以后",
+      "我们最后一次做孩子",
+      "僧侣和枪",
+      "枯叶",
+      "奇美拉"
     ],
     "545": [
-      {
-        "id": "35496807",
-        "type": "douban",
-        "title": "山花烂漫时",
-        "releaseDate": "2024-09-10",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uTMVxKfZ3mS1uEyDto5L4xEwb0g.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/37ITMZLF38YGVfojHNtPWWxYGia.jpg",
-        "description": "张桂梅是中国西部山区的一名普通中学女教师，多年间她不断目睹自己的女学生因家庭贫穷而辍学，在15、16岁的年纪或嫁人生子、或外出打工，这让张桂梅无比痛心和惋惜。她立志要办一所全免费的女子高中，让这些大山里的女孩获得受教育的机会、能够考上大学、走出大山，彻底改变命运。2008年，全中国唯一一所全免费的女子高中成立，在没老师、没学生、没经费、没经验的重重困境下，张桂梅带领女高师生们完成了不可能的任务：让学习基础极度落后的女高学生们，全部考上了大学。这所女子高中让一批批女孩走出了大山，改变了命运。然而随着学校的发展，越来越多大山里贫困女生前来报考，新的问题和困难也随之而来……",
-        "rating": 7.2
-      },
-      {
-        "id": "36245596",
-        "type": "douban",
-        "title": "我的阿勒泰",
-        "releaseDate": "2024-05-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/p4ctRVe99vLMisq8c2yvfAwvHfc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xWA5NwzG0ib2HEiKJnY4Vx7CmRz.jpg",
-        "description": "生长在阿勒泰的汉族少女李文秀一心在大城市中追求文学梦想，却屡屡碰壁被迫回到老家与开小卖部的母亲相依为命。在结识哈萨克少年巴太之后，文秀渐渐发现了当地之美。",
-        "rating": 8
-      },
-      {
-        "id": "36354085",
-        "type": "douban",
-        "title": "问苍茫",
-        "releaseDate": "2023-12-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7LlSL5jFRsYL5Rzee9u7aXS7iXq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kbY3qNGgDCWQR5aoUUkImf6kIat.jpg",
-        "description": "本剧讲述了1921年至1927年，从中共一大归来的青年毛泽东带着对中华民族将走向何方的忧国之问，如何在矢志不移地践行马克思主义信仰的过程中，以一个“探路人”“早行者”的姿态，从一名追随者成长为先行者、开拓者，并探索出中国革命正确道路的历史故事。从发展团员、党员到发动工人运动，从国共第一次合作到坚决同国民党右派斗争，直到走进田间地头，用脚步丈量出农民运动对于中国革命的意义，青年毛泽东始终恪守着马克思主义和湖湘文化的精髓，向上成长，向下扎根，敢为人先，知行合一。“问苍茫大地，谁主沉浮？”，正是青年毛泽东及其同道的仰天长问和探寻之路，为中国革命开拓出辽阔新天。",
-        "rating": 8.7
-      },
-      {
-        "id": "34874646",
-        "type": "douban",
-        "title": "繁花",
-        "releaseDate": "2023-12-27",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rV1owsdKtXytJ5eFMOOVTze3mrk.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hKP2hZ3WrQXxBnSeIji2OvbtrFT.jpg",
-        "description": "九十年代的上海处处是机遇与希望。青年阿宝凭借改革开放的春风和自己的打拼跻身成为商界后起之秀，黄河路上无人不晓。平凡阿宝蜕变为宝总，离不开高人爷叔与夜东京老板玲子、外贸大楼汪小姐的鼎力协助。随着神秘女子李李空降黄河路，一家时髦饭店即将搅动整条街，也令宝总原本决胜千里的事业变得动荡惊心，他与身边人的关系也经受着前所未有的考验。于此同时，深圳股市的过江龙强总也随时会给阿宝致命一击。阿宝唯有向前，以赤子之心翻越高山，方可奔赴繁花满眼。",
-        "rating": 8.6
-      },
-      {
-        "id": "36188849",
-        "type": "douban",
-        "title": "唐朝诡事录之西行",
-        "releaseDate": "2022-09-27",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/AoOMaQ4JEhOcRlhQzIKRZp0Au7N.jpg",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "rating": 8.1
-      },
-      {
-        "id": "35656028",
-        "type": "douban",
-        "title": "天行健",
-        "releaseDate": "2024-05-08",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qUHMZCLvz7UTh4iFRCg01XRuYG5.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/eX8M2tWRvg5vAbMQiOwm858PKNg.jpg",
-        "description": "晚清末年，深宫之中，文渊阁里净坛密藏宝图失窃，为争夺这份几乎能改天换地的宝藏，各方势力蠢蠢欲动。身份各异的一行人卷入一场离奇的寻宝之旅，并在恢弘激荡的历史浪潮中，逐步坚定救国的理想。",
-        "rating": 8.8
-      },
-      {
-        "id": "36059770",
-        "type": "douban",
-        "title": "日光之城",
-        "releaseDate": "2024-10-02",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pzDljY6elWRPmEUHUjEdNt5GiyP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w4wX5yLQc9ncdS8Qk15w5L5Ipz9.jpg",
-        "description": "该剧讲述了以索朗为代表的六位年轻人在西藏这片热土上寻找自我，追逐梦想的故事。他们当中有土生土长的当地人，也有远道而来的追梦人。在日新月异、蓬勃发展的新都市拉萨，他们充满挑战和希望地生活，一点一滴勾勒出当代西藏青年奋斗者的鲜活风貌与理想热情。",
-        "rating": 9
-      },
-      {
-        "id": "36151693",
-        "type": "douban",
-        "title": "不够善良的我们",
-        "releaseDate": "2024-04-06",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ruZ5YdZMPYWsWP6VfZcvPJIWzvT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1LVNTIL6pzH4vZZ7Wi9N4Zv9zEK.jpg",
-        "description": "面临四十不惑的人妻简庆芬，有个老公体贴儿子听话的幸福家庭，日子别无所求但了无新意，需要一点目标来寻求刺激。倒杯红酒想起过去，刚出社会时同事Rebecca是她的假想敌，同天生日还常撞同件上衣，连喜欢的男人都是同一类型。止不住好奇的她立刻上网搜寻，发现Rebecca时常把心情写在社群，生活自在男友还比她年轻，似乎每天都过得充满惊喜。简庆芬对此感到很不甘心，这场人生的胜负她必须得赢！",
-        "rating": 8
-      },
-      {
-        "id": "36534750",
-        "type": "douban",
-        "title": "小巷人家",
-        "releaseDate": "2024-10-28",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kKEGxNzMDkF09lniLvLSRh7Vuff.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qo5DzqUV7J0fqeEPeZxLcfukTuu.jpg",
-        "description": "20世纪70年代末，苏州棉纺厂家属区一条小巷里住着庄、林两家人。正值高考恢复，身为教师的庄超英和妻子黄玲将儿女高考作为家庭头等大事，邻居林武峰和宋莹一家受其影响也开始关注儿子学业。庄超英、黄玲一家看似和谐体面，儿子庄图南刻苦好学，女儿庄筱婷乖巧懂事，但庄超英的懦弱愚孝让家人备受伤害。隔壁林武峰、宋莹一家看似我行我素，儿子林栋哲异常顽皮，实则夫妻间相互扶持，亲子间相互尊重，家庭热闹而完满。林武峰和宋莹顺应时代变迁，举家到广州寻找新的机遇，从小青梅竹马的庄筱婷与林栋哲分开后发现对彼此的心意，相约考入同一所大学，在毕业时面临家庭与现实的阻碍仍坚定地选择了对方，庄图南和李佳辗转多年后也终成眷属。",
-        "rating": 9.5
-      },
-      {
-        "id": "36097760",
-        "type": "douban",
-        "title": "边水往事",
-        "releaseDate": "2024-08-16",
-        "posterPath": "https://image.tmdb.org/t/p/w500/z8xHvQu17vjNHPVI4O9vqnqQDhi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zWZJV304xSYKa2KRs73jyhnlz1c.jpg",
-        "description": "三边坡，一处鱼龙混杂的热带异域，一个繁茂与衰败并生的斑驳之地。意外流落三边坡的打工小白沈星遇到在多方势力间游走的三边坡和事佬猜叔，一场冒险，一段善良微光指引下的回归，在留与逃的挣扎中将如何上演。",
-        "rating": 7.591
-      }
+      "山花烂漫时",
+      "我的阿勒泰",
+      "问苍茫",
+      "繁花",
+      "唐朝诡事录之西行",
+      "天行健",
+      "日光之城",
+      "不够善良的我们",
+      "小巷人家",
+      "边水往事"
     ],
     "546": [
-      {
-        "id": "35420025",
-        "type": "douban",
-        "title": "小谢尔顿 第七季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36731231",
-        "type": "douban",
-        "title": "万物生灵 第五季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35919997",
-        "type": "douban",
-        "title": "9号秘事 第九季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35932853",
-        "type": "douban",
-        "title": "绝望写手 第三季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36370737",
-        "type": "douban",
-        "title": "良医 第七季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35918977",
-        "type": "douban",
-        "title": "流人 第四季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36107982",
-        "type": "douban",
-        "title": "夜访吸血鬼 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35785050",
-        "type": "douban",
-        "title": "我的天才女友 第四季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35758380",
-        "type": "douban",
-        "title": "黄石 第五季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35908210",
-        "type": "douban",
-        "title": "心跳漏一拍 第三季",
-        "releaseDate": ""
-      }
+      "小谢尔顿 第七季",
+      "万物生灵 第五季",
+      "9号秘事 第九季",
+      "绝望写手 第三季",
+      "良医 第七季",
+      "流人 第四季",
+      "夜访吸血鬼 第二季",
+      "我的天才女友 第四季",
+      "黄石 第五季",
+      "心跳漏一拍 第三季"
     ],
     "547": [
-      {
-        "id": "36419921",
-        "type": "douban",
-        "title": "谜探路德维希 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "30482958",
-        "type": "douban",
-        "title": "百年孤独 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "26415434",
-        "type": "douban",
-        "title": "雷普利",
-        "releaseDate": "2011-05-30",
-        "posterPath": "https://image.tmdb.org/t/p/w500/48L2PVRc54iqgyah4HXjDHAK5aP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kEcOanBp2Zkln6hmWYYV3mXsdCu.jpg",
-        "description": "　　张美丽（李多海 饰）为替父还债，在日本福冈的一家歌厅做陪酒小姐，她想早日赚够钱回韩国寻找生身母亲李花（崔明吉 饰）。用险招凑到钱的张美丽只身赶往韩国，急着找工作拿签证的她因为一次意外车祸与韩国某酒店社长张明勋（金胜友 饰）邂逅，张美丽为了留在韩国不惜伪造学历，被张明勋聘为酒店的高级客户翻译。同时，张明勋的竞争对手，日本知名度假村会长公子宋裕贤（朴有天 饰），因为张美丽酷似已故的生母，从而对她一见钟情。从此，这两个男人和谎言堆积如山的另类灰姑娘张美丽之间的爱恨纠葛，拉开了序幕。",
-        "rating": 5.8
-      },
-      {
-        "id": "35128081",
-        "type": "douban",
-        "title": "辐射 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35604181",
-        "type": "douban",
-        "title": "企鹅人 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36151169",
-        "type": "douban",
-        "title": "驯鹿宝贝",
-        "releaseDate": "2024-04-11",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6CoU5X4M8dpkqpe5a0HS1khE7fh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2qLYxCyxf4fim0X5OqM5FjZqWXu.jpg",
-        "description": "一个事业不顺的喜剧演员对一名脆弱女子的善意举动引发了令人窒息的迷恋，二人的生活因此面临分崩离析的危险。",
-        "rating": 7.639
-      },
-      {
-        "id": "36323224",
-        "type": "douban",
-        "title": "豺狼的日子 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "36402104",
-        "type": "douban",
-        "title": "老练律师 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "35819414",
-        "type": "douban",
-        "title": "人生复本 第一季",
-        "releaseDate": ""
-      },
-      {
-        "id": "21264415",
-        "type": "douban",
-        "title": "空战群英",
-        "releaseDate": "2024-01-25",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2i2k8r7S56HJmaJ5JERaz0wjE2s.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6snBXmgkscLEJQmxx46qEIlqYlB.jpg",
-        "description": "本剧由《兄弟连》和《太平洋战争》的制片人史蒂文·斯皮尔伯格、汤姆·汉克斯和加里·高兹曼联袂打造。第二次世界大战期间，第100轰炸机大队的飞行员出生入死，用勇气、牺牲和胜利建立一段兄弟情谊。",
-        "rating": 7.787
-      }
+      "谜探路德维希 第一季",
+      "百年孤独 第一季",
+      "雷普利",
+      "辐射 第一季",
+      "企鹅人 第一季",
+      "驯鹿宝贝",
+      "豺狼的日子 第一季",
+      "老练律师 第一季",
+      "人生复本 第一季",
+      "空战群英"
     ],
     "559": [
-      {
-        "id": "34879969",
-        "type": "douban",
-        "title": "平原上的火焰",
-        "releaseDate": "2021-03-08",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rWhzcvjmlFllW84YtZFeqA8614Q.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1jMk5iJXHPHpdp1qI4S7wfcYW46.jpg",
-        "description": "刑警庄树在追查一起出租车杀人案时，意外发现昔日青梅竹马的好友李斐也被牵扯其中，自己也许正是案件的亲历者。庄树一时思绪如潮，层层探寻，揭开了8年前的一段往事——生性顽劣、与家人不睦的少年，一心想要出走的少女，热血固执的警察，在这座东北工业小城内，一场烟火之约让他们的命运在一个大雪纷飞的平安夜发生了彻底的改变……",
-        "rating": 3.8
-      },
-      {
-        "id": "26749938",
-        "type": "douban",
-        "title": "酱园弄·悬案",
-        "releaseDate": "2025-06-14",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dwZ8ovST9NTuCteWJQERut2KvQM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yIvQblXpyQ2qLfqQQpk1BY5MiTa.jpg",
-        "description": "影片根据民国四大奇案之一改编，女子杀夫碎尸最终竟无罪释放？1945年，上海酱园弄发生一起骇人血案，一石激起千层浪。詹周氏（章子怡 饰）为何杀夫？又如何凭一己之力完成碎尸？随着时代变迁，她的命运又将如何改写？大时代下鲜活的众生群像又将如何展开？"
-      },
-      {
-        "id": "36289423",
-        "type": "douban",
-        "title": "射雕英雄传：侠之大者",
-        "releaseDate": "2025-01-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xZmUHiZlzuU3FuD9EE5wdZpNc95.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7A3ru3bxmWtyF0ep0CJcLLzWT35.jpg",
-        "description": "恩怨情仇的江湖，权势角力的战乱时代，郭靖（肖战 饰）童年离别家乡，逐渐炼就可改变局面和命运的庞大力量。虽受高人赏识和器重，得传天下绝世武功“九阴真经”和“降龙十八掌”，却惹来各方嫉忌，成为众矢之的。  　　郭靖，不亢不卑，怀赤子之心，与黄蓉（庄达菲 饰）在铁骑箭雨和硝烟旌旗中，力挽狂澜，保护南宋边关。  　　雕海苍穹，勇者无惧，侠之大者，力拔山河，成就武林传说。  　　本片主要改编自金庸同名原著第34至40章。",
-        "rating": 5.9
-      },
-      {
-        "id": "30181250",
-        "type": "douban",
-        "title": "封神第二部：战火西岐",
-        "releaseDate": "2025-01-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/5bBgvH3hTxlANUsLP1ov0lEKmJp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4u0Pvva7aWR4ptgHdG3tDrTJeKw.jpg",
-        "description": "姜子牙、姬发带队坚守西岐，家园保卫战一触即发！邓婵玉、闻仲奉商王殷寿之命，率魔家四将等殷商大军征伐西岐，西岐一方得殷郊、雷震子、杨戬、哪吒等相助，更聚全民之力守卫家园。兵戈相对、法术交锋，两大阵营掀起强强对决，关于“封神榜” 的争夺正在继续......",
-        "rating": 6.2
-      },
-      {
-        "id": "27605659",
-        "type": "douban",
-        "title": "731",
-        "releaseDate": "2025-07-31",
-        "posterPath": "https://image.tmdb.org/t/p/w500/zJPiOieiEXIbiZvhzbRQD6C3V3v.jpg",
-        "description": "影片以侵华日军731部队在中国东北进行的细菌实验为背景，通过一个小人物的曲折命运，揭露731部队的罪行。"
-      },
-      {
-        "id": "27205117",
-        "type": "douban",
-        "title": "她杀",
-        "releaseDate": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bfcPj4YhcZgKUNjTLfcRo78kCvP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gCk5A9JIFzLLADY06IV4B5TiPuB.jpg",
-        "description": "毕业季，四位大学女生畅想着未来，浑然不觉一场事故竟让彼此的友情经受到前所未有的考验。七年后，因为这场事故，女孩们各自的人生都发生了翻天覆地的变化。机缘巧合下，当年的事件再次被追溯。爱与复仇之下，一场人性的争斗，正在上演……"
-      },
-      {
-        "id": "26671336",
-        "type": "douban",
-        "title": "得闲谨制",
-        "releaseDate": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fhgkZwwNVi7bd13uiO67Yro1HbY.jpg",
-        "description": "一个桃花源般的小镇，一群因南京沦陷而逃难至此安居数年的百姓，偶有一日数名日军误入此地，百姓被日军逼到绝境后奋起直面迎战。一场双方武器相差悬殊的战斗，一次智慧与意志的比拼，就此展开。"
-      },
-      {
-        "id": "35416174",
-        "type": "douban",
-        "title": "狂野时代",
-        "releaseDate": "2025-10-15",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8mOJCEONLTnvTRytBgKt5psrUoC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rsKnezLAdnbi5ivcV6cOu8HMTLI.jpg",
-        "description": "在一个人类已经不再做梦的世界里，有一个怪物依然整日沉迷于梦的幻觉中，他迷失了。而一个女人可以看清幻觉，于是她潜入了他的梦中去寻找……"
-      },
-      {
-        "id": "34780991",
-        "type": "douban",
-        "title": "哪吒之魔童闹海",
-        "releaseDate": "2025-01-29",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
-        "description": "天劫之后，哪吒、敖丙的灵魂虽保住了，但肉身很快会魂飞魄散。太乙真人打算用七色宝莲给二人重塑肉身。但是在重塑肉身的过程中却遇到重重困难，哪吒、敖丙的命运将走向何方？  申公豹放出被囚的四龙王，东海龙王敖光人形首次曝光并表示“我若出战，就让陈塘关鸡犬不留”，哪吒为了守卫陈塘关将与四海龙王大打出手。",
-        "rating": 8
-      },
-      {
-        "id": "35295960",
-        "type": "douban",
-        "title": "蛟龙行动",
-        "releaseDate": "2025-01-26",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uBrKUkHqXXRzmYlGr87HyYGeiQl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/wteoGPQwhj79yQuEINoTwqfEzav.jpg",
-        "description": "　　未来某日，中国海军截获关键情报——一艘超级潜艇正密谋一项针对我国东南沿海城市的绝密军事计划。我方派出最新型潜艇“龙鲸号”，与蛟龙小队协同作战。海底战场险象环生，蛟龙遭遇重重陷阱，潜艇与敌多番埋伏周旋，更驶入海底火山口遍布的广袤深海，一场惊心动魄、攸关生死存亡的深海决战拉开帷幕……\r 　　该影片为《红海行动》续作。",
-        "rating": 8.2
-      }
+      "平原上的火焰",
+      "酱园弄·悬案",
+      "射雕英雄传：侠之大者",
+      "封神第二部：战火西岐",
+      "731",
+      "她杀",
+      "得闲谨制",
+      "狂野时代",
+      "哪吒之魔童闹海",
+      "蛟龙行动"
     ],
     "560": [
-      {
-        "id": "26817136",
-        "type": "douban",
-        "title": "疯狂动物城2",
-        "releaseDate": "2025-11-26",
-        "posterPath": "https://image.tmdb.org/t/p/w500/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/oMB0dF0NTXA9UPu3GxE9gGbcMwP.jpg",
-        "description": "《疯狂动物城2》将确认朱迪和尼克的关系，导演暗示二人组可以不仅仅是朋友。"
-      },
-      {
-        "id": "30433456",
-        "type": "douban",
-        "title": "碟中谍8：最终清算",
-        "releaseDate": "2025-05-17",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
-        "description": "超级人工智能“智体”即将引爆全球核弹危机，把世界推向毁灭边缘。而伊森·亨特和他的IMF小队在上次行动中遭遇重创，团队濒临分崩离析。虽然伊森已获得关闭“智体”的钥匙，但要彻底消灭“智体”，完成这一拯救全人类的终极任务，仍需要IMF小队齐心协力突破重重困难。他们不仅要面对全知全能又无影无形的“智体”与其手下盖布瑞尔的百般阻拦，还要解决来自过去的种种恩怨。每个抉择都关乎信念与命运，等待伊森和IMF小队的，究竟是怎样的结局？",
-        "rating": 7.2
-      },
-      {
-        "id": "5348089",
-        "type": "douban",
-        "title": "阿凡达3：火与烬",
-        "releaseDate": "2025-12-17",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vDdFxksDMkUJjZXd00OKJfwXKre.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pN3eaCl3sqwrerU8UNdp40F2mK0.jpg",
-        "description": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。"
-      },
-      {
-        "id": "26404869",
-        "type": "douban",
-        "title": "惊天魔盗团3",
-        "releaseDate": "2025-11-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
-        "description": "《惊天魔盗团》将拍第3部，四骑士再度出击用魔术伎俩取不义之财。"
-      },
-      {
-        "id": "34429795",
-        "type": "douban",
-        "title": "编号17",
-        "releaseDate": "2025-02-28",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nxurv5ccvnqqz7WRTBMvV9ZARS0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pkZ8SaIQwjBuS1fcJJE7Are7IrL.jpg",
-        "description": "米奇·巴恩斯（罗伯特·帕丁森 饰）在地球一事无成，无奈下加入星际殖民计划，任职“消耗体”，从此开启了可以反复去世又不断重生、高危工作繁多望不到头的“宇宙牛马”死去活来打工记。某次，第17号米奇从又一危险任务死里逃生，回家后却发现自己已经被米奇18号取代了位置，一场啼笑皆非的科幻冒险黑色喜剧就此上演。影片改编自爱德华·阿什顿的科幻小说《米奇7号》。",
-        "rating": 6.9
-      },
-      {
-        "id": "35443158",
-        "type": "douban",
-        "title": "美国队长4",
-        "releaseDate": "2025-02-12",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qp7WNCVAkS0nQu7RXrAzfYqDuNP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8eifdha9GQeZAkexgtD45546XKx.jpg",
-        "description": "能够展翅高飞的猎鹰山姆·威尔逊受史蒂夫·罗杰斯的信任所托，接过盾牌，正式成为美国队长。在与美国总统塔迪厄斯·罗斯）会面后，山姆发现自己被卷入了一场国际事件。他必须赶在真正的幕后黑手让全世界陷入混乱之前查明真相，揭露这起波及全球的阴谋。",
-        "rating": 6.1
-      },
-      {
-        "id": "34825559",
-        "type": "douban",
-        "title": "神奇4侠：初露锋芒",
-        "releaseDate": "2025-07-23",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sZyCm4Z6LsQFfZjqoiJrwFzTVUG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/unthV1mq9llhEinIMPcCUImFodt.jpg",
-        "description": "以漫威电影宇宙（MCU）为背景，改编自漫威漫画的同名角色。"
-      },
-      {
-        "id": "34807062",
-        "type": "douban",
-        "title": "疾速追杀：芭蕾杀姬",
-        "releaseDate": "2025-06-04",
-        "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
-        "description": "　　故事发生在《疾速追杀3》和《疾速追杀4》之间，聚焦一名从小就训练成杀手的年轻女子，她的家人被杀害，她要追杀报仇。",
-        "rating": 7.081
-      },
-      {
-        "id": "36090458",
-        "type": "douban",
-        "title": "地球特派员",
-        "releaseDate": "2025-06-18",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
-        "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-        "rating": 6.595
-      },
-      {
-        "id": "27606065",
-        "type": "douban",
-        "title": "电幻国度",
-        "releaseDate": "2025-03-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/k2lWElNXcbKSifxeueHCYJ49WPC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2n7lYEeIbucsEQCswRcVB6ZYmMP.jpg",
-        "description": "故事设定在 1990 年代的平行时空，当时机器人群起暴动，一名父母双亡的少女为了寻找失踪的弟弟，涉险穿越美国西部。结伴同行的除了一个如漫画中走出来的机器人，还有一个走私客与他的跟班。他们浩浩荡荡来到沙漠中与世隔绝的机器人隔离区，遇见了一群奇特又活泼的机械盟友，更发现失踪之谜背后暗藏着邪恶阴谋。",
-        "rating": 6.541
-      }
+      "疯狂动物城2",
+      "碟中谍8：最终清算",
+      "阿凡达3：火与烬",
+      "惊天魔盗团3",
+      "编号17",
+      "美国队长4",
+      "神奇4侠：初露锋芒",
+      "疾速追杀：芭蕾杀姬",
+      "地球特派员",
+      "电幻国度"
     ],
     "561": [
-      {
-        "id": "35774681",
-        "type": "douban",
-        "title": "怪奇物语 第五季",
-        "releaseDate": ""
-      },
-      {
-        "id": "27181010",
-        "type": "douban",
-        "title": "藏海传",
-        "releaseDate": "2025-05-18",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jnYzQyA5Rh1b5nOnlo0Sh8yCFYr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
-        "description": "原是大雍国钦天监监正蒯铎之子稚奴，一夜之间身负血海之仇。十年隐忍和学习之后，稚奴化名藏海（肖战 饰）回到京城，凭借营造技艺和纵横之术，在朝堂上步步高升。他将当年灭门真相公之于众、一雪冤屈，也在逐渐成长中，看到了朝堂的陋习。最终，为了国家安定和百姓安居乐业，藏海协助大雍消弭了战争。",
-        "rating": 7.889
-      },
-      {
-        "id": "35783948",
-        "type": "douban",
-        "title": "人生切割术 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "3008787",
-        "type": "douban",
-        "title": "英雄志",
-        "releaseDate": "2021-12-16",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pG1ThLroUznNT8HHlRENBjHbtBE.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6IYnOiLsVA2ok79LYKmPBkSkyFS.jpg",
-        "description": "　　恐怖组织“瓦干布”渗透香港，在香港掀起一场化武争夺战，飞虎队总指挥范少锋临危受命，率飞虎队与恐怖分子斗智斗勇。飞虎队身陷瓦干布的无情杀局，特勤队警司展博文召集警界精英张伟桦、张嘉轩和高子乐成立秘密反恐小组S Team。面对重重危机，在国际刑警许俊飞的协助下，中青两代最终放下恩怨情仇，联手阻止化武病毒在香港蔓延。",
-        "rating": 10
-      },
-      {
-        "id": "36164706",
-        "type": "douban",
-        "title": "狐妖小红娘·王权篇",
-        "releaseDate": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9Rl4WYPxU2A0szilupCa7xNuO2E.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mntJ2jG7f5B2XmadA2Xq4yiF5jc.jpg",
-        "description": "自幼被当作一气盟斩妖除魔的终极兵器培养的王权富贵，遇到了潜入王权山庄做间谍的蜘蛛精清瞳。清瞳的出现，越发激起富贵对妖怪看法的改变，也给富贵展示了更多外面的世界。富贵内心渴望自由、憧憬天下大同的信念被逐渐点燃，经历万剑穿心，带着清瞳离开王权山庄，走上了自己所悟之道。"
-      },
-      {
-        "id": "36221305",
-        "type": "douban",
-        "title": "最后生还者 第二季",
-        "releaseDate": ""
-      },
-      {
-        "id": "33437319",
-        "type": "douban",
-        "title": "我们与恶的距离2",
-        "releaseDate": "2019-03-24",
-        "posterPath": "https://image.tmdb.org/t/p/w500/lX2XIe6n6B4nFaGH1A6mbSOCXDs.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xqj7weNzGm9DteG09bqpKsbpzwY.jpg",
-        "description": "品味新闻台编辑台主管宋乔安（贾静雯饰）的儿子是二年前李晓明无差别杀人事件的罹难者，先生刘昭国（温升豪饰）是网络先驱报的创办人，夫妻在儿子走后因现实磨难渐行渐远准备离婚，但11岁的女儿行为却日渐失序，为了女儿终逼二人必须重新检视自己身上的伤口。李晓明的辩护律师王赦（吴慷仁饰），在李晓明死刑定案之后，仍想要了解其犯罪动机，锲而不舍的他，开启了众人命运的连结。",
-        "rating": 8.734
-      },
-      {
-        "id": "35651341",
-        "type": "douban",
-        "title": "长安的荔枝",
-        "releaseDate": "2025-06-07",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gE2qL2xa7UIK1MA8Jwlw541t3Ui.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-        "description": "大唐年间，李善德（雷佳音饰）在同僚的欺瞒之下从监事变身“荔枝使”，被迫接下一道为贺贵妃生辰、需从岭南运送新鲜荔枝到长安的“死亡”任务，荔枝“一日色变，两日香变，三日味变”，而岭南距长安五千余里，山水迢迢，这是个不可能完成的任务。为保女儿李袖儿余生安稳，李善德无奈启程前往岭南；与此同时，替左相寻找扳倒右相敛财罪证的郑平安（岳云鹏饰）已先一步抵达岭南。各自身负重任的郎舅二人在他乡偶遇，意外结识胡商商会会长阿弥塔(那尔那茜饰)、空浪坊坊主云清(安沺饰)、胡商苏谅(吕凉饰)、峒女阿僮(周美君饰)、峒人阿俊（王沐霖饰）等人，还遭遇岭南刺史何有光(冯嘉怡饰)和掌书记赵辛民(公磊饰)的重重阻拦。双线纠缠之下任务难度飙升，他们将如何打破死局、寻觅一线生机？",
-        "rating": 7.875
-      },
-      {
-        "id": "35923772",
-        "type": "douban",
-        "title": "淮水竹亭",
-        "releaseDate": "2025-04-28",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4KNymQxbzWaCiUnE2WUDkCcAxkB.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/v5gASVk9yLsKd3h6c44yPIy8PKr.jpg",
-        "description": "《狐妖小红娘竹业篇》改编自国漫头部IP，讲述了两大家族东方家和王权家的掌舵人东方淮竹（刘诗诗 饰）、王权弘业（张云龙 饰）因一场意外相识，许下“七月初七， 淮水竹亭”的约定，与各路伙伴一起走上重振一气盟，共同努力安定局势的道 路，就此展开了一段互相救赎的故事。",
-        "rating": 8.7
-      },
-      {
-        "id": "36161782",
-        "type": "douban",
-        "title": "白莲花度假村 第三季",
-        "releaseDate": ""
-      }
+      "怪奇物语 第五季",
+      "藏海传",
+      "人生切割术 第二季",
+      "英雄志",
+      "狐妖小红娘·王权篇",
+      "最后生还者 第二季",
+      "我们与恶的距离2",
+      "长安的荔枝",
+      "淮水竹亭",
+      "白莲花度假村 第三季"
     ],
     "563": {
       "16065": [
-        {
-          "id": "35797709",
-          "type": "douban",
-          "title": "怪物",
-          "releaseDate": "2023-06-02",
-          "posterPath": "https://image.tmdb.org/t/p/w500/kpWASAfVSBIA1IVKp06b1S0HMlc.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/vAsxVpXP53cMSsD9u4EekQKz4ur.jpg",
-          "description": "平静的湖畔小镇，疼爱儿子的单亲妈妈早织（安藤樱 饰）、为学生着想的爽直老师保利 （永山瑛太 饰）以及天真烂漫的孩子们本过着安稳的生活，却因为一次校园冲突，发酵酿成轩然大波，惹起社会与媒体的关注。当事态越见严重，竟在一个暴风雨的清晨，两个孩子双双失去了踪影…",
-          "rating": 7.959
-        },
-        {
-          "id": "35863319",
-          "type": "douban",
-          "title": "去唱卡拉OK吧！",
-          "releaseDate": "2024-01-12",
-          "posterPath": "https://image.tmdb.org/t/p/w500/DPMeR8BhHrhwyCag2STgaHvjcu.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/mYJCl1TT33ioMs6mLMM6TZNo73D.jpg",
-          "description": "由于某种原因想要变得擅长唱歌的黑社会成员成田狂儿（绫野刚 饰）邀请担任合唱部部长的中学生冈聪实去卡拉OK指导他唱歌。聪实虽然讨厌狂儿，但还是进行了歌唱指导，在这过程中两人产生了奇妙的友情。合唱部部长冈聪实由试镜选拔而出的斋藤润饰演。",
-          "rating": 7.3
-        },
-        {
-          "id": "36126230",
-          "type": "douban",
-          "title": "Single8",
-          "releaseDate": "2023-03-18",
-          "posterPath": "https://image.tmdb.org/t/p/w500/7cRl2X9e0SILkVmzvKNThDprYXU.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/bda4LA1BHOqLULfP7PnYmiRXfIx.jpg",
-          "description": "1978年夏天看完《星球大战》后，广志被深深地打动了，并受到启发要拍摄自己的电影。他和他的朋友一起制作手工特效，让他自己的科幻故事梦想成真。根据年轻时的经历，小中和哉给特摄电影制作写了一封迷人的情书",
-          "rating": 7.545
-        },
-        {
-          "id": "36135198",
-          "type": "douban",
-          "title": "黎明的一切",
-          "releaseDate": "2024-02-09",
-          "posterPath": "https://image.tmdb.org/t/p/w500/e80D8IWg4ZfKQIO6hInuZpZlbrs.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/9TZY0Jk2G2papFIWgQzY1QwZklo.jpg",
-          "description": "影片改编自濑尾麻衣子的同名小说，讲述拥有常人难以理解的疾病和烦恼的同事二人互相帮助度过各自创伤的故事。患有经前综合征的藤沢美纱，因为刚转职来的山添孝俊做的某件事而爆发怒火。陷入自我厌恶的美纱才知道孝俊其实患有恐慌症，逐渐两人为了获得其他同事们的理解，彼此间变成了既不是朋友也不是恋人的同志关系，即使自己的症状没有改善也会想着能否帮到对方。",
-          "rating": 7.2
-        },
-        {
-          "id": "36593404",
-          "type": "douban",
-          "title": "入侵者们的晚餐",
-          "releaseDate": "2024-01-03",
-          "posterPath": "https://image.tmdb.org/t/p/w500/nGV3xsW1gkOBNw4RakoaXnPzibg.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/vTE10QVy6DlA9jLJb8fkzdRRUNU.jpg",
-          "description": "在某个月黑风高的晚上，有三个女人偷偷潜入某间豪宅。原本在家事服务公司工作、安分守己地生活着的她们，为何会变成共犯？而在那里等着她们的，究竟是绝望还是希望？",
-          "rating": 7.375
-        },
-        {
-          "id": "35873964",
-          "type": "douban",
-          "title": "福田村事件",
-          "releaseDate": "2023-09-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/kGYVwPruEVRu1C2vS9ufHfBjmOx.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/bqju2YCKJwG5g2ZSKrjRsKhVgPg.jpg",
-          "description": "1923年9月1日发生的关东大地震，在那次灾害发生5天后，在千叶县福田村发生了实际的屠杀事件。9名小贩在地震后的混乱中被杀，他们为什么被杀，村民们为什么要杀他们？  泽田智一（井浦新）离开了担任教师的日本统治下的京城（现首尔），与妻子静子（田中丽奈）一起回到了故乡福田村。 智一是日军在朝鲜犯下的屠杀事件的目击者，但是，他也向妻子静子隐瞒了这一事实。与此同时，小贩团一行以关东地区为目标从香川出发，9月1日袭击关东地区的大地震，很多人束手无策，在流言蜚语中陷入大混乱。然后命运的9月6日，小贩团的15人为了前往下一个小贩之地而前往利根川的渡口，一场始于经理和摆渡人小争执的误会，点燃了焦躁不安的村民集体心理，引起了后来被历史埋葬的大屠杀。",
-          "rating": 6.313
-        },
-        {
-          "id": "36110780",
-          "type": "douban",
-          "title": "你好，妈妈",
-          "releaseDate": "2023-09-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/pAAuaQSzkdXqzddHTdA7q2cnO5.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/h1Ai4ZeNdhQgD8UX3lnW0BJCXVK.jpg",
-          "description": "山田洋次执导，吉永小百合、大泉洋、永野芽郁主演，人力主管的工作让昭夫每日绷紧了神经，雪上加霜的是，他正处于与妻子离婚的边缘，与大学生女儿的关系也并非一帆风顺。有一天，他决定去东京的老城区看望他的母亲福江。然而，事情似乎有点不对劲。他的母亲过去总是穿着围裙工作，但现在她穿上了时髦的衣服，看起来比以往任何时候都活泼，甚至还坠入了爱河！昭夫十分困惑，在自己母亲的家里感到格格不入，但在遇到善良、热情、有些爱管闲事的邻居和他从未见过的母亲的另一面后，昭夫逐渐开始发现一些以往没注意过的东西。",
-          "rating": 5.9
-        },
-        {
-          "id": "35707335",
-          "type": "douban",
-          "title": "波纹",
-          "releaseDate": "2023-05-26",
-          "posterPath": "https://image.tmdb.org/t/p/w500/nXUBKPy1r3ZRHhc4eztDslw3jIq.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/aceG4A7qDPNjiuyQ9APIPCyNpGp.jpg",
-          "description": "一名中年妇女在丈夫离家出走后，心灵归依新兴宗教，每日静心祈祷，只喝教会贩售的瓶装水，把庭院改造成涟漪波纹的枯山水，没想到丈夫带着罹癌身体回来求照顾，饭来张口茶来伸手的儿子也把残疾女友带进家门，将她看似平静的生活掀起涟漪，压抑的阴暗情绪也即将爆发。荻上直子一改过往疗愈图像风格，透过地震辐射、环境照护、残疾弱势、宗教信仰，以惊悚笔触犀利揭开日本女性压抑的真实处境。而即使世界不像预期，仍要活得痛快，寻回内心清脆响亮的节拍。",
-          "rating": 6.4
-        },
-        {
-          "id": "35280762",
-          "type": "douban",
-          "title": "世界的阿菊",
-          "releaseDate": "2023-04-28",
-          "posterPath": "https://image.tmdb.org/t/p/w500/hkPAmCjqM35IU67TdWUvxFDW9Bb.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/2W4Fg57M8DNk6WPgBxtKKQB6Cjy.jpg",
-          "description": "　　本片以江户时代末期的长屋贫民街为舞台，描写了两个年轻掏粪工与落魄武士家大小姐的爱情。黑白色调、学院画幅、章回体叙事，在这个喧嚣的时代，导演以激进的姿态回归古典，用他最擅长的喜剧形式写尽底层百姓人生，不断挖掘人性的光辉。曾获柏林国际电影节最佳女演员奖，并三度获得日本电影学院最佳女配角奖的黑木华，用无声的演技完美诠释失声后的女主角阿菊，又一次贡献出卓越表演。",
-          "rating": 7.5
-        },
-        {
-          "id": "36680228",
-          "type": "douban",
-          "title": "最后的里程",
-          "releaseDate": "2024-08-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/UGw4ohXtocldgPRtUjXnXJAoXN.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/now7huridSv1NH6kUxVQGuAgVNw.jpg",
-          "description": "11月，即将到来的全球最大购物活动之一“黑色星期五”前夜发生了一起世界知名电商网站的快递箱爆炸事件。很快，这起事件演变成了让整个日本陷入恐慌的连续爆破事件。巨大物流仓库的新任主管·舟渡艾蕾娜（满岛光 饰）和团队经理·梨本孔（冈田将生 饰）一同应对这场前所未有的危机。如何才能阻止这个遍布全球绝对无法停止的现代社会生命线的连续爆破事件？当谜题被解开时，这个世界所隐藏真面目将浮出水面。",
-          "rating": 6.9
-        }
+        "怪物",
+        "去唱卡拉OK吧！",
+        "Single8",
+        "黎明的一切",
+        "入侵者们的晚餐",
+        "福田村事件",
+        "你好，妈妈",
+        "波纹",
+        "世界的阿菊",
+        "最后的里程"
       ],
       "16066": [
-        {
-          "id": "35712804",
-          "type": "douban",
-          "title": "首尔之春",
-          "releaseDate": "2023-11-22",
-          "posterPath": "https://image.tmdb.org/t/p/w500/fvseAYbhIyxBsnsqPC4Pe6Kjj1F.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/yOn8w3aGd6Rf9JYki7XaC9ZiyDg.jpg",
-          "description": "10·26总统刺杀事件发生后，根据戒严法，陆军参谋总长郑相镐（李星民 饰）被任命为戒严司令官，保安司令官全斗光（黄政民 饰）被任命为联合调查本部长。郑祥镐对全斗光动员军队内的私人组织以团结势力的行为有所察觉，为了应对该情况，他将李泰信（郑雨盛 饰）任命为首都警备司令官。12月12日，掌握所有情报的全斗光为了篡夺权力绑架郑相镐，继而发动军事叛变。他不光派出了军队内部的私人组织，甚至把其好友卢泰健（朴海俊 饰）部署在三八线的第9步兵师也召唤至首尔。李泰信得知此事后带领陆军本部宪兵监金准烨（金成均 饰）出动守卫首都圈，誓要扑灭叛乱，尽忠职守保卫国家。  被权力蒙蔽双眼的全斗光领导的叛乱军和以首都警备司令官李泰信为首的镇压军之间，一触即发的9个小时流逝而去…",
-          "rating": 7.5
-        },
-        {
-          "id": "36088979",
-          "type": "douban",
-          "title": "梦之歌",
-          "releaseDate": "2023-10-25",
-          "posterPath": "https://image.tmdb.org/t/p/w500/thGB5jtYGDbMDo3IkO9W5heNLQA.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/4Y8Z9zuaPBSDILRI82etKQuGnsq.jpg",
-          "description": "《梦之歌》描绘了在一个充满活力的春天，两位好朋友之间特别的一天，涵盖了青涩的爱情、嫉妒、友谊、小误会、尴尬的告白、焦虑，以及他们周围世界的每一个小细节",
-          "rating": 7.6
-        },
-        {
-          "id": "36744087",
-          "type": "douban",
-          "title": "当我的指尖触碰到你的温度时",
-          "releaseDate": ""
-        },
-        {
-          "id": "36171172",
-          "type": "douban",
-          "title": "大都市的爱情法",
-          "releaseDate": "2024-10-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/jcYMn5zDJBebCtytjlddJkTUukj.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/rFLxECXOOvC4BmxdCdf4WCq4AyZ.jpg",
-          "description": "电影改编自朴相映作家的同名小说，该小说入围布克奖、都柏林文学奖。该剧讲述有着自由灵魂不看眼色的在熙（金高银饰）和很懂得隐藏天生秘密的兴秀（卢尚贤饰）一起生活后展开的发生的故事，描绘了同性恋的年轻男作家横冲直撞地学习生活和爱情的过程。",
-          "rating": 7.7
-        },
-        {
-          "id": "36369460",
-          "type": "douban",
-          "title": "郊游",
-          "releaseDate": "2018-09-20",
-          "posterPath": "https://image.tmdb.org/t/p/w500/mzTixPfB1VMHhi62HqUEg9jhFL9.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/5qNvYH7qFLQcTcyQ219xvtYs4qI.jpg",
-          "description": "尼爾、湯瑪斯、安德烈3位高中死黨在畢業30週年同學會再次聚首，從輕狂少年郎變成平庸中年大叔的他們，決定重拾往日榮光，一同展開跑趴、灌酒、撩妹的狂歡之旅；起初百無禁忌的哥們旅行，卻因為湯瑪斯女友的17歲女兒莉莉亂入而充滿變數…",
-          "rating": 5.808
-        }
+        "首尔之春",
+        "梦之歌",
+        "当我的指尖触碰到你的温度时",
+        "大都市的爱情法",
+        "郊游"
       ],
       "16067": [
-        {
-          "id": "36154853",
-          "type": "douban",
-          "title": "好东西",
-          "releaseDate": "2024-11-09",
-          "posterPath": "https://image.tmdb.org/t/p/w500/osnvxHXEcYeiAK8WCwEVQc7irWO.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/tVTI6OrkI1UtydLLEdKl0G2xNXS.jpg",
-          "description": "单亲妈妈王铁梅带小孩王茉莉搬到新家后，结识了邻居小叶，两位性格迥异的女性，一个坚强，一个柔软，一个擅长给人当妈，一个擅长随时撒谎，面对旧创伤和新挑战，她们彼此温暖互相慰藉的故事。",
-          "rating": 7.667
-        },
-        {
-          "id": "35725869",
-          "type": "douban",
-          "title": "年会不能停！",
-          "releaseDate": "2023-12-29",
-          "posterPath": "https://image.tmdb.org/t/p/w500/nhsi6kfqwlfAdzaeZOocnUqMlH2.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/f4OCzvS3HvisHEkxq5596jg21UJ.jpg",
-          "description": "集团裁员风波之下，人心惶惶，底层钳工胡建林（大鹏 饰）却被阴差阳错调入集团总部！裹挟在“错调”事件中的人事经理马杰（白客 饰）诚惶诚恐，为保饭碗被迫为其周旋隐瞒。从“工厂”到“大厂”，从“蓝领”变“金领”，胡建林因与大厂环境格格不入而笑料百出，也像一面“职场照妖镜”照出众生相……胡建林为何能在裁员之际一路升职加薪制霸大厂？马杰又能否在“错调”事件中全身而退？这对“天选打工双侠”会引发怎样轰轰烈烈的职场大整顿？",
-          "rating": 7.5
-        },
-        {
-          "id": "35956190",
-          "type": "douban",
-          "title": "走走停停",
-          "releaseDate": "2024-05-25",
-          "posterPath": "https://image.tmdb.org/t/p/w500/73GxpIsOqcFg6kH6aEM6an68X5n.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/k3ygr0gSX6Hn8ppB7pEMk3bzE96.jpg",
-          "description": "落魄北漂文艺青年吴迪（胡歌 饰），工作感情双双失意，沮丧返乡。吴迪“突袭”返乡的行为打破了一家人原本平静的生活，他不仅需要重新面对与家人的“亲密”相处，还要为自己的未来寻找更多的可能。在现实面前多番碰壁后，一次偶然的机会下他与高中同学冯柳柳（高圆圆 饰）相遇，随后生活也发生了意想不到的转变。",
-          "rating": 6.8
-        },
-        {
-          "id": "36369452",
-          "type": "douban",
-          "title": "飞驰人生2",
-          "releaseDate": "2024-02-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/mJGPPKMsYTxvkAIu4SbAtP2PCef.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ch8rKF1a5WXFDcxi2AKfmnaMBk7.jpg",
-          "description": "昔日冠军车手张驰沦为落魄驾校教练，过着靠脸吃饭勉强度日的生活。不料天上掉馅饼，濒临停产的老头乐车厂厂长主动提出赞助张驰组建车队再闯最后一届巴音布鲁克拉力赛。面对这泼天的富贵，张驰蠢蠢欲动，而厂长背后真实的目的无人知晓……带资进队的车手厉小海，看似单纯善良却为何有着与之身份毫不相符的超强天赋？张驰召集老朋友孙宇强和记星，与天才车手厉小海和总是考不过科目二的菜鸟驾校学员刘显德组成了一个苦中作乐、鸡飞狗跳的草台班子，克服重重困难，笑料百出地奔赴赛场。这一次他将超越无数次出现在梦中的终点线……",
-          "rating": 7.2
-        },
-        {
-          "id": "35749842",
-          "type": "douban",
-          "title": "朱同在三年级丢失了超能力",
-          "releaseDate": "2024-05-25",
-          "posterPath": "https://image.tmdb.org/t/p/w500/bRCkkj31Oa5ISxzPi7KiTgeTEnI.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/opfM09SFPVizLtsPsfLuI8vSlJ6.jpg",
-          "description": "三年级小学生朱同，他成绩垫底、调皮捣蛋，每天他的小脑瓜里都会出现一万种幻想。然而有一天，他发现班主任牛老师居然在走廊上追打外星人、草坪中的小花会说话、同学变成了杂草人......无数令人匪夷所思的事件纷至沓来，离奇幻想与学校生活的苦恼交织。朱同能否顺利逃过惩罚，又能否如愿以偿代表学校参加全国广播操比赛？一场现实与奇幻交织的旅程即将展开……",
-          "rating": 6.8
-        }
+        "好东西",
+        "年会不能停！",
+        "走走停停",
+        "飞驰人生2",
+        "朱同在三年级丢失了超能力"
       ],
       "16068": [
-        {
-          "id": "36149032",
-          "type": "douban",
-          "title": "我们一起摇太阳",
-          "releaseDate": "2024-02-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/ia08FRXcH5GwjpohOFVCQdsvEB1.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/nffhhbdrEvIXPJCt30JqA0jWbuv.jpg",
-          "description": "当“没头脑”吕途（彭昱畅 饰）遇上“不高兴”凌敏（李庚希 饰），两个身患重症却性格迥异的年轻人，因为“生命接力”的约定，阴差阳错地踏上了一段充满爱与力量的治愈之旅。影片是韩延导演“生命三部曲”终章，部分取材于纪实报道文章《最功利的婚姻交易，最动情的永恒约定》。",
-          "rating": 7.556
-        },
-        {
-          "id": "36744087",
-          "type": "douban",
-          "title": "当我的指尖触碰到你的温度时",
-          "releaseDate": ""
-        },
-        {
-          "id": "36171172",
-          "type": "douban",
-          "title": "大都市的爱情法",
-          "releaseDate": "2024-10-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/jcYMn5zDJBebCtytjlddJkTUukj.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/rFLxECXOOvC4BmxdCdf4WCq4AyZ.jpg",
-          "description": "电影改编自朴相映作家的同名小说，该小说入围布克奖、都柏林文学奖。该剧讲述有着自由灵魂不看眼色的在熙（金高银饰）和很懂得隐藏天生秘密的兴秀（卢尚贤饰）一起生活后展开的发生的故事，描绘了同性恋的年轻男作家横冲直撞地学习生活和爱情的过程。",
-          "rating": 7.7
-        },
-        {
-          "id": "35618436",
-          "type": "douban",
-          "title": "从今以后",
-          "releaseDate": "2010-10-22",
-          "posterPath": "https://image.tmdb.org/t/p/w500/drYCspLQboS0z4iLWXt0orAuLsG.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/f2z00VIPyrrfFabw0RnoY5M8uYt.jpg",
-          "description": "------马特•达蒙扮演的乔治是一个美国的蓝领工人。不过乔治不是那种除了工作就去泡酒吧的工人，他有一种灵异的特异功能，他能看到死去的坚人，并且能和他们进行交流侍。这样的“能力”大大影响了他的正常生活，他时时刻刻都能理解到“活着”的意义。与此同时，在地球的另一个大陆上，一个叫做马瑞的法国女记者久久无法逃遁于自己的一次濒死体验，那次痛苦的经历发生在海啸中，马瑞差点为此送了小命。英国，伦敦，一个叫做马库斯的男孩失去了自己的兄弟，带走他兄弟的并不是上帝，而是车祸。马库斯后来也能在冥冥之中看到自己的兄弟，并且和他说话。虽然如此，但是马库斯还是久久不能从兄弟的死中释怀，他需要一个对于生命无常的合理的解释。　　三个人，三种生活，三次对生命意义和生活真相的追问。在影片的结尾，三个主角以一种出其不意的方式相见－－唯一可以确定的是，死亡本身以及有关死亡的体验和认知，将会彻头彻尾地改变他们的生活和生命。",
-          "rating": 6.116
-        },
-        {
-          "id": "35875476",
-          "type": "douban",
-          "title": "法式火锅",
-          "releaseDate": "2023-11-08",
-          "posterPath": "https://image.tmdb.org/t/p/w500/9XyjfTzvIAvwakzy2fnKXgLS9FA.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/yDA4vgY6Thi8jflN94kHa05mqjj.jpg",
-          "description": "欧仁妮是一位手艺出色的厨师，她在过去20年里一直为美食家多丹工作。他们的感情日渐深厚，最终发展成一段恋情，两人做出了令世界上最杰出的厨师都赞不绝口的美味佳肴。当欧仁妮拒绝多丹的求婚后，多丹决定开始为她烹饪。",
-          "rating": 7.114
-        }
+        "我们一起摇太阳",
+        "当我的指尖触碰到你的温度时",
+        "大都市的爱情法",
+        "从今以后",
+        "法式火锅"
       ],
       "16069": [
-        {
-          "id": "35882838",
-          "type": "douban",
-          "title": "某种物质",
-          "releaseDate": "2024-09-07",
-          "posterPath": "https://image.tmdb.org/t/p/w500/oDDYHINnemOisgswvLU0EZuHLFH.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/wMEhptvj6pcp2QSzHYcl4DFA5Pz.jpg",
-          "description": "曾经红极一时的好莱坞巨星伊丽莎白无法面对自己老去的容颜，决定使用一种名为“完美物质”的黑市药物，透过注射药物的细胞复制物质，创造出更年轻、更好的另一个自己。“年华老去”及“年轻貌美”的自己该如何共存？会是更强烈的容貌焦虑大战？还是要不断迎合大众对“美”的期待？一场自我身体主导权的争夺战即将上演……",
-          "rating": 7.144
-        },
-        {
-          "id": "35792500",
-          "type": "douban",
-          "title": "异形：夺命舰",
-          "releaseDate": "2024-08-13",
-          "posterPath": "https://image.tmdb.org/t/p/w500/cDJwZ4lSZiUnHtixdyhaPPwsjyo.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/iJaSpQNZ8GsqVDWfbCXmyZQXZ5l.jpg",
-          "description": "一群年轻而勇敢的太空殖民者为逃离外星采矿殖民地的沉闷生活，在冒险探索一座废弃的太空站时，意外遭遇了宇宙中最可怕的生命体——异形。狭窄幽暗、危机四伏的空间站中，大逃杀的序幕已经被无情拉开，人类再次成为异形生物捕猎的目标。在无尽的黑暗与死亡威胁的笼罩之下，太空探险队员们能否在每一次心跳的瞬间，察觉到未知生物潜伏的丝丝寒意？在这场你死我活的追逐战中，他们将直面怎样的信任挑战和道德挣扎？当一个又一个同伴被残忍吞噬，求救无门的他们究竟能否在这场太空杀戮中寻得一线生机？",
-          "rating": 7.196
-        },
-        {
-          "id": "36068379",
-          "type": "douban",
-          "title": "魔鬼深夜秀",
-          "releaseDate": "2024-03-19",
-          "posterPath": "https://image.tmdb.org/t/p/w500/4RIEuUQ1xqvRxALZ8pLgN9b8e9a.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/umyOinNa6vqqnqoVc9QqzyaapUz.jpg",
-          "description": "大卫·达斯马齐安 (David Dastmalchian) 饰演电视节目《夜猫子》的魅力主持，这部电影追溯了这个节目 1977 年万圣节现场特辑的录制过程，几个有特殊能力的嘉宾来访，而很快这个准备以招魂作为娱乐的节目遭到了真正恶魔的困扰。",
-          "rating": 7.119
-        },
-        {
-          "id": "36727829",
-          "type": "douban",
-          "title": "危笑2",
-          "releaseDate": "2024-10-16",
-          "posterPath": "https://image.tmdb.org/t/p/w500/ojjmjXzsq0EkXDuHPYaAfjA832p.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/iR79ciqhtaZ9BE7YFA1HpCHQgX4.jpg",
-          "description": "女歌星斯凯·莱利因背痛去朋友家取药，却目睹朋友残忍自杀。几天后，各种奇怪诡异的现象让斯凯大大发疯，身边的亲朋好友都莫名对着她诡异微笑。一天一天过去，斯凯才知道自己传染了微笑诅咒，而受害者没有一位活过一周的，斯凯只能向假死医师莫里斯求助……",
-          "rating": 6.6
-        },
-        {
-          "id": "36439490",
-          "type": "douban",
-          "title": "异教徒",
-          "releaseDate": "2024-10-31",
-          "posterPath": "https://image.tmdb.org/t/p/w500/pqLpfaVyUJ4yIEHaoRis7W5bFPo.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
-          "description": "两名女传教士被引诱到一个古怪危险的男人家里，试图改变他的信仰，开启了一场猫捉老鼠的游戏。",
-          "rating": 7.006
-        }
+        "某种物质",
+        "异形：夺命舰",
+        "魔鬼深夜秀",
+        "危笑2",
+        "异教徒"
       ],
       "16070": [
-        {
-          "id": "35426925",
-          "type": "douban",
-          "title": "机器人之梦",
-          "releaseDate": "2023-12-06",
-          "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-          "description": "影片改编自Sara Varon的漫画，讲述1980年代的纽约，孤独的小狗DOG订购了一个机器人，很快它俩变得密不可分，一起过着快乐的生活。但随后，小狗将机器人丢弃在了海边……",
-          "rating": 8.025
-        },
-        {
-          "id": "36090457",
-          "type": "douban",
-          "title": "头脑特工队2",
-          "releaseDate": "2024-06-11",
-          "posterPath": "https://image.tmdb.org/t/p/w500/tVSFt0tDsbvVw0DxAkknyq3ClQB.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-          "description": "小女孩莱莉刚步入青春期，在她的大脑总部，正经历着一场突如其来的大拆迁，为意想不到的新情绪腾出空间。一直以来配合默契的情绪小伙伴乐乐、忧忧、怒怒、怕怕和厌厌，在新情绪焦焦的突然到来时变得不知所措，并且她看起来不是孤身一人。",
-          "rating": 7.6
-        },
-        {
-          "id": "35603727",
-          "type": "douban",
-          "title": "猫猫的奇幻漂流",
-          "releaseDate": "2024-08-29",
-          "posterPath": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-          "description": "世界似乎即将毁灭，到处都是人类的遗迹。一只猫的家园被一场大洪水摧毁，它在一艘载满了不同动物的船上找到了避难所。尽管它们之间存在差异，但它必须与它们合作，面临各种未知的挑战。",
-          "rating": 8.2
-        },
-        {
-          "id": "36765646",
-          "type": "douban",
-          "title": "蓦然回首",
-          "releaseDate": "2024-06-28",
-          "posterPath": "https://image.tmdb.org/t/p/w500/d7RxZbv7x1AKsa8q2UO2IKa59D8.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/1MzBCKjwDyQg2Cu8XJR8Ox59sWY.jpg",
-          "description": "藤野是一名小学四年级学生，她在校报上连载的四格漫画专栏获得了同学们的一致好评。然而某天她的老师却突然告诉她，逃学的京本想在报纸上刊登自己的漫画。两个女孩对漫画的共同热情让她们走到了一起，直到有一天，某件事的发生打破了这一切，一个令人揪心的成长故事就此展开。",
-          "rating": 8.019
-        },
-        {
-          "id": "36060209",
-          "type": "douban",
-          "title": "排球少年！！垃圾场决战",
-          "releaseDate": "2024-02-16",
-          "posterPath": "https://image.tmdb.org/t/p/w500/7eOTFvo5gyXJIHVDURKorE6ERgU.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/cZmOrIOkJ2SNfVdiO85dUbOAYnL.jpg",
-          "description": "剧场版描述了原作中最受欢迎的故事之一。乌野高中对阵音驹高中，俗称 \"垃圾场决战\"。现在，在约定的地方，一场没有\"再来一次\"的比赛开始了——",
-          "rating": 7.6
-        }
+        "机器人之梦",
+        "头脑特工队2",
+        "猫猫的奇幻漂流",
+        "蓦然回首",
+        "排球少年！！垃圾场决战"
       ],
       "16071": [
-        {
-          "id": "30412658",
-          "type": "douban",
-          "title": "里斯本丸沉没",
-          "releaseDate": "2024-08-31",
-          "posterPath": "https://image.tmdb.org/t/p/w500/xn5Kqt1fGoGEsr3b3egwWhTlmi6.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/24QqgIElJ4Gym024xzYbzMAVw1y.jpg",
-          "description": "这是一部东方的“敦刻尔克”，是一部关于纪念中国渔民伟大壮举的纪录片电影。电影人方励和摄制组通过详尽的历史调查，极尽所能地寻访英、美、日、中核心当事人及后代，试图无限接近中国舟山东极岛附近海底30米处的二战“死亡之船”——“里斯本丸”的沉船真相。",
-          "rating": 8.3
-        },
-        {
-          "id": "36491177",
-          "type": "douban",
-          "title": "坂本龙一：杰作",
-          "releaseDate": "2023-12-27",
-          "posterPath": "https://image.tmdb.org/t/p/w500/z64lrVEeJPZkPdhwJSBE3eFb1Ey.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/zS1OiCw3opLQYxjmhqhOQ7D7YyD.jpg",
-          "description": "本片记录了坂本龙一教授生前最后一场钢琴独奏音乐会。剪辑特意保留坂本龙一的练习和忘谱中断的演奏，声音中也保留了他的呼吸声。伴随着教授拖着虚弱的身体弹奏最后一曲《圣诞快乐劳伦斯先生》，观众们一同走过坂本龙一燃烧的生命和他热爱的世界。",
-          "rating": 8.5
-        },
-        {
-          "id": "36897587",
-          "type": "douban",
-          "title": "Burning Sun：揭露韩流明星聊天室里的秘密",
-          "releaseDate": "2024-05-19",
-          "posterPath": "https://image.tmdb.org/t/p/w500/mlcQL3Hq7o5VoY0XOeEzfWvhC64.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/Lu4ylOhkegm4TNZmDkVHEK67xD.jpg",
-          "description": "在韩国，韩流（K-pop）艺人们拥有名气、财富和不计其数的女性粉丝，但其中一些名人过着双面人生。  在鲜为人知的地下世界，女性遭下药、性侵和羞辱的视频被在聊天群组中分享，一些参与者则是平时衣冠楚楚的艺人。  两名女性记者决定调查揭发知名韩流明星们的秘密聊天群组，但她们也为此付出了高昂的代价。这部纪录片讲述了她们的故事。",
-          "rating": 8.5
-        },
-        {
-          "id": "36950178",
-          "type": "douban",
-          "title": "地球脉动：极境生存",
-          "releaseDate": "2024-07-27",
-          "posterPath": "https://image.tmdb.org/t/p/w500/mFeLdQk41rALLOOkDVA0Q11BklI.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/avvrjZ0VvcoPlOHLtnc7UzaootQ.jpg",
-          "description": "制作团队历时1904天，探访了全球六大洲的43个国家和地区，通过轻型无人机、高速摄影机和远程深海潜水器等先进的拍摄设备，探索地球上众多令人称奇的栖息地，呈现自然界最壮丽恢弘的奇观与野生动物不可思议的生存传奇，揭示大自然发生的惊人变化及深远影响，感受生命的延续与轮回。"
-        },
-        {
-          "id": "35183325",
-          "type": "douban",
-          "title": "女人世界",
-          "releaseDate": "1954-09-30",
-          "posterPath": "https://image.tmdb.org/t/p/w500/n6NBpVPI0qiyzpynRLpnE2Y9w1x.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/9UDHgEN16ySO73voijsVoPoqcZi.jpg",
-          "description": "Needing to fill the position of general manager of his company, and believing that an executive's wife is crucial to her husband's success, auto industry mogul Gifford brings three couples to New York to size up: Jerry and Carol: he hard-driven and self-reliant, she willing to use her beauty to further her husband's career; Sid and Elizabeth, he ulcer-ridden and torn between achieving success and restoring their troubled marriage, she positive that his job will kill him, but gamely agreeing to play the good wife for the duration; and down-to-earth Bill, whose good-natured Katie fears that his promotion would spell the end of their idyllic familiy existence.",
-          "rating": 7.1
-        }
+        "里斯本丸沉没",
+        "坂本龙一：杰作",
+        "Burning Sun：揭露韩流明星聊天室里的秘密",
+        "地球脉动：极境生存",
+        "女人世界"
       ]
     },
     "565": {
       "16080": [
-        {
-          "id": "1889243",
-          "type": "douban",
-          "title": "星际穿越",
-          "releaseDate": "2014-11-05",
-          "posterPath": "https://image.tmdb.org/t/p/w500/v7Iib57HHgSEI9B7XYRF6qrs11T.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/l33oR0mnvf20avWyIMxW02EtQxn.jpg",
-          "description": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前 NASA 宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前 NASA 成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA 借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
-          "rating": 8.455
-        },
-        {
-          "id": "11026735",
-          "type": "douban",
-          "title": "超能陆战队",
-          "releaseDate": "2014-10-24",
-          "posterPath": "https://image.tmdb.org/t/p/w500/p3SDxXL2kVke2smA093oYjmLFju.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/4s2d3xdyqotiVNHTlTlJjrr3q0H.jpg",
-          "description": "未来世界的超级都市旧京山，热爱发明创造的天才少年小宏，在哥哥泰迪的鼓励下参加了罗伯特·卡拉汉教授主持的理工学院机器人专业的入学大赛。他凭借神奇的微型磁力机器人赢得观众、参赛者以及考官的一致好评，谁知突如其来的灾难却将小宏的梦想和人生毁于一旦。大火烧毁了展示会场，而哥哥为了救出受困的卡拉汉教授命丧火场。身心饱受创伤的小宏闭门不出，哥哥生前留下的治疗型机器人大白则成为安慰他的唯一伙伴。原以为微型机器人也毁于火灾，谁知小宏和大白竟意外发现有人在某座废弃工厂内大批量地生产他的发明。稍后哥哥的朋友们弗雷德等人也加入进来，他们穿上小宏发明的超级战士战斗装备，和怀有险恶阴谋的神秘对手展开较量…",
-          "rating": 7.729
-        },
-        {
-          "id": "21318488",
-          "type": "douban",
-          "title": "消失的爱人",
-          "releaseDate": "2014-10-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/rbs1LbLCIYhLyiTggRztnWFWfbp.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/1ufic9NSdolkgNkQSAVjlVp0uqn.jpg",
-          "description": "结婚五周年纪念日的早上，尼克·邓恩来到妹妹玛戈的酒吧，咒骂抱怨那个曾经彼此恩爱缠绵的妻子艾米以及全然看不见希望的婚姻。当他返回家中时， 却发现客厅留下了暴行的痕迹，而妻子竟不见了踪影。女探员朗达·邦妮接到报案后赶来调查，而现场留下的种种蛛丝马迹似乎昭示着这并非是一件寻常的失踪案，其背后或许隐藏着裂变于夫妻之情的谋杀罪行。艾米的失踪通过媒体大肆渲染和妄加揣测很快闻名全国，品行不端的尼克被推上风口浪尖，至今不见踪影的爱人对他进行无情审判，你侬我侬的甜言蜜语早已化作以血洗血的复仇与折磨……",
-          "rating": 7.889
-        },
-        {
-          "id": "11525673",
-          "type": "douban",
-          "title": "布达佩斯大饭店",
-          "releaseDate": "2014-02-26",
-          "posterPath": "https://image.tmdb.org/t/p/w500/2OfmHuihnQs43CtoiPfy4bAIvBS.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/xHDynIimfsgj0ZOs0j5ma8v1vmM.jpg",
-          "description": "故事发生在20世纪30年代到60年代的欧洲，影片围绕着一位带着传奇般色彩的酒店礼宾员和他的年轻门生展开。在远近闻名、宾客络绎不绝的布达佩斯大饭店里，礼宾员古斯塔夫先生经历了不少声色犬马，其中不乏无价名画的失窃、名门王族望族的财产纷争等荒谬轶事；不仅如此，他还跟这家豪华酒店一齐见证了欧洲半个世纪间的战火硝烟，沧海桑田……",
-          "rating": 8.037
-        },
-        {
-          "id": "24405378",
-          "type": "douban",
-          "title": "王牌特工：特工学院",
-          "releaseDate": "2015-01-24",
-          "posterPath": "https://image.tmdb.org/t/p/w500/rtk93yrvMIBlTIDDG07o62N8Pm9.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/qzUIOTk0E3F1zjvYjcBRTKUTgf9.jpg",
-          "description": "17年前，英国秘密特工组织金士曼（Kingsman）的一位特工在任务中为保护同伴而牺牲，他的牺牲保护了所有同伴，金士曼成员之一的哈 利·哈特找到其家属并且赠予了其子一枚属于金士曼特有的项链徽章。17年后 ，这个小男孩艾格西长大成人，但因家庭境遇无选择地成为小混混。因为一次事件，哈利重遇艾格西，并意识到他有着过人却深藏不露胆量与智慧。艾格西的忠诚与聪慧打动了哈利，哈利决定改造埃格西成为下一任金士曼。此时，一位叫瓦伦丁的百万富翁正计划着自己的正义诡计去维护、规划世界。金士曼拯救地球的超级英雄之旅正式展开。",
-          "rating": 7.6
-        },
-        {
-          "id": "10463953",
-          "type": "douban",
-          "title": "模仿游戏",
-          "releaseDate": "2014-11-14",
-          "posterPath": "https://image.tmdb.org/t/p/w500/hqa3UAu3wdSeRUvfNzJTbuR3VgK.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/gLQoJ9P79g501oEEtrN8zMlCPpx.jpg",
-          "description": "根据Andrew Hodges所写的传记《艾伦·图灵》（Alan Turing: The Enigma）改编。艾伦·图灵是英国数学家、逻辑学家，二战中曾协助军方破解德国的著名密码系统Enigma，对盟军取得了二战的胜利有一定的帮助。图灵对于人工智能的发展有诸多贡献，著名的图灵机模型为现代计算机的逻辑工作方式奠定了基础。图灵是著名的同性恋之一，并因为其同性恋倾向而遭到迫害，使得他的职业生涯尽毁。1952年，他的同性伴侣协同一名同谋一起闯进了图灵的房子实施盗窃。图灵为此而报警。但是警方的调查结果使得他被控以“明显的猥亵和性颠倒行为”。他没有申辩，并被定罪。在著名的公审后，他被给予了两个选择：坐牢或荷尔蒙疗法。他选择了荷尔蒙注射，并持续了一年。在这段时间里，药物产生了包括乳房不断发育的副作用。1954年，图灵因食用浸过氰化物溶液的苹果死亡。很多人相信他是自杀。但是他的母亲极力争论他的死是意外，因为他在实验室里不小心堆放了很多化学物品。",
-          "rating": 7.994
-        },
-        {
-          "id": "25773932",
-          "type": "douban",
-          "title": "爆裂鼓手",
-          "releaseDate": "2014-10-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/7NHomD7LT2vx1qQwdT31TI2xTVC.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg",
-          "description": "19岁少年安德鲁（迈尔斯·特勒 Miles Teller 饰）成长在单亲家庭，一心想成为顶级爵士乐鼓手。某晚他在学校练习时被魔鬼导师弗莱彻（J·K·西蒙斯 J.K. Simmons 饰）相中，进入正规乐队，同时也开始为追求完美付出代价。安德鲁越是刻苦练习，与外部世界越是隔膜。唯一理解他的是弗莱彻，但后者的暴躁与喜怒无常扭曲了这段师生关系，更让安德鲁耳濡目染，连带自身的性格亦发生变化。最后当安德鲁终于登上纽约音乐厅的舞台，他才惊恐的发现原来弗莱彻一直等着将他打入尘埃......",
-          "rating": 8.377
-        },
-        {
-          "id": "25805741",
-          "type": "douban",
-          "title": "后会无期",
-          "releaseDate": "2014-07-24",
-          "posterPath": "https://image.tmdb.org/t/p/w500/jUEyM6BVJHvGZs8KHYRJgZJPWj9.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/dzJfEnNwgBRuKcpnWQe5euDLIdN.jpg",
-          "description": "故事开始于虚构的中国最东边的小岛“东极岛”，智力低下的青年胡生（高华阳 饰）讲述了关于他的两个哥们儿——马浩汉（冯绍峰 饰）和江河（陈柏霖 饰）的故事。浩汉在外闯荡多年后回到故乡，却发现全岛面临着拆迁问题，而他最好的朋友，岛上唯一的老师江河也将被调到更为偏远的地区。于是 浩汉做出了一个决定，那就是开车送江河去三千多公里外的学校报到。兄弟三人踏上了前所未有的旅程，途中他们见了当临时演员的童年玩伴周沫（陈乔恩 饰），误入歧途的苏米（王珞丹 饰），还有浩汉心仪多年从未见面的笔友刘莺莺（袁泉 饰），以及不羁的摩托车手阿吕（钟汉良 饰）。看似平常的旅程却暗藏伏笔，浩汉和江河最终走到了终点，开始了截然不同的人生轨迹。本片是著名作家兼赛车手韩寒的电影导演处女作。",
-          "rating": 6.2
-        },
-        {
-          "id": "24404677",
-          "type": "douban",
-          "title": "超体",
-          "releaseDate": "2014-07-25",
-          "posterPath": "https://image.tmdb.org/t/p/w500/n66nkkHG1XoI8E2NPJkw8WT7Zkb.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ozVwXlfxqNsariipatGwa5px3Pm.jpg",
-          "description": "居住在台北的年轻女子露西，被迫成为“人体快递”， 胃里被黑帮植入一种新型病毒，在一次被暴打后，胃里的病毒融入血液，从而使她意外拥有了用意念便可控制周围物体的超能力，比如预见未来、用意念移动物品、消除疼痛、瞬间变身等。她的顽强反抗和逃脱也因此引起非法组织的追杀，在调查非法组织并与之斗争的同时，自己的生命也在迅速走向消亡，在挽救生命、寻找真相的道路上，露西从手无缚鸡之力的弱女子逐渐成长为一名无所不能、无所不在的超级女英雄。",
-          "rating": 6.464
-        },
-        {
-          "id": "25917973",
-          "type": "douban",
-          "title": "心迷宫",
-          "releaseDate": "2014-07-21",
-          "posterPath": "https://image.tmdb.org/t/p/w500/a7Eb5korUAji3X4eiN6ybE1r9yn.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/lyd5j6kpY7ZECmX1thQ9TRzUU7.jpg",
-          "description": "　　一个青年在一次争执中失手杀死了同村的痞子，被迫逃亡。他没有想过会用这样的方式逃离安逸的生活，离开之际却惊人的发现宿命早已将他和父亲紧紧连接在一起，走或留他都将失去一切。一个饱受家庭暴力摧残的留守女人，在曾经恋人的怀抱里找到了慰藉。黑暗里绝望的女人与情夫密谋杀夫，可当莽夫的死讯真的传来时，情夫却避而不见矢口否认一切。当女人又一次陷入绝望，另一个男人出现在她的生活里，他给女人带来的不仅仅是关心……一个行为正直严格自律的老村长，精心设计着自己退休后的晚年生活。一生忠诚于信仰的他，却在本性面前轻易地低下了头；一个污点掉落在命运蓝图上，他竭力去擦掉污迹，却剥开了一个黑洞，深陷其中。",
-          "rating": 7.5
-        }
+        "星际穿越",
+        "超能陆战队",
+        "消失的爱人",
+        "布达佩斯大饭店",
+        "王牌特工：特工学院",
+        "模仿游戏",
+        "爆裂鼓手",
+        "后会无期",
+        "超体",
+        "心迷宫"
       ],
       "16081": [
-        {
-          "id": "1291549",
-          "type": "douban",
-          "title": "放牛班的春天",
-          "releaseDate": "2004-03-17",
-          "posterPath": "https://image.tmdb.org/t/p/w500/yHMNLZAlH9q7sz9A5vcgYby9IGW.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/eWYrrdCKd4bjOKB9DB0HtRUhI1o.jpg",
-          "description": "1949年的法国乡村，音乐家克莱门特（杰勒德·尊诺 饰）到了一间外号叫“塘低”的男子寄宿学校当助理教师。学校里的学生大部分都是难缠的问题儿童，体罚在这里司空见惯，学校的校长（弗朗西斯·贝尔兰德 饰）只顾自己的前途，残暴高压。性格沉静的克莱门特尝试用自己的方法改善这种状况，他重新创作音乐作品，组织合唱团，决定用音乐的方法来打开学生们封闭的心灵。然而，事情并不顺利，克莱门特发现学生皮埃尔·莫安琦（尚·巴堤·莫里耶 饰）拥有非同一般的音乐天赋，但是单亲家庭长大的他，性格异常敏感孤僻，怎样释放皮埃尔的音乐才能，让克莱门特头痛不已；同时，他与皮埃尔母亲的感情也渐渐微妙起来。",
-          "rating": 7.728
-        },
-        {
-          "id": "1291543",
-          "type": "douban",
-          "title": "功夫",
-          "releaseDate": "2004-02-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/l0K2XZpJIAheTotb096MwAdEQpX.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/8NT7h1CxdXapqt6hdLhfFcoZJAU.jpg",
-          "description": "1940年代的上海，自小受尽欺辱的街头混混阿星为了能出人头地，可谓窥见机会的缝隙就往里钻，今次他盯上行动日益猖獗的黑道势力“斧头帮”，想借之大名成就大业。阿星假冒“斧头帮”成员试图在一个叫“猪笼城寨”的地方对居民敲诈，不想引来真的“斧头帮”与“猪笼城寨”居民的恩怨。“猪笼城寨”原是藏龙卧虎之处，居民中有许多身怀绝技者，他们隐藏于此本是为远离江湖恩怨，不想麻烦自动上身，躲都躲不及。而在观战正邪两派的斗争中，阿星逐渐领悟功夫的真谛。",
-          "rating": 7.5
-        },
-        {
-          "id": "1308807",
-          "type": "douban",
-          "title": "哈尔的移动城堡",
-          "releaseDate": "2004-09-09",
-          "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
-          "description": "继母因无力负担生活，将苏菲和她的两个妹妹都送到了制帽店去当学徒。两个妹妹很快先后就离开了制帽店去追寻各自的梦想，只有苏菲坚持了下来。一天，小镇旁边来了一座移动堡垒，传说堡垒的主人哈尔专吸取年青姑娘的灵魂，所以小镇的姑娘都不敢靠近。一个恶毒的巫婆嫉妒苏菲的制帽技术，用巫术把她变成了一个80岁的老太婆，而且苏菲还不能对别人说出自己身中的巫术。无奈，苏菲决定独自一人逃离小镇。天黑了，虚弱的苏菲没走多远，来到了移动城堡。心想自己已经是老太婆了，苏菲壮着胆子走进了城堡。不想，遇到了和她遭遇相同的火焰魔。两人约定彼此帮助对方打破各自的咒语。",
-          "rating": 8.397
-        },
-        {
-          "id": "1292343",
-          "type": "douban",
-          "title": "蝴蝶效应",
-          "releaseDate": "2004-01-17",
-          "posterPath": "https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/yriYPLqyFqPW0QXaegT1KmWXk9a.jpg",
-          "description": "　　伊万曾经有一个糟糕的童年，因为他行为闯下了大祸，令他童年充满不堪回忆的往事。而事实上，他确实只是依稀记得一点可怕的情景，这些情景一直纠缠着他的正常生活。伊万接受心理学家建议，把琐碎生活记在记事本里，却偶然发现通过记事本回到过去。这时他才清楚记起，童年时候的自己做了那么多的错事。他幻想着用现在的意识，潜入童年的身体，去弥补种种过失给人们带来的伤害，尤其是希望与当年暗恋的凯西最终走回一起。然而他一次次的跨越时空的更改，只能越来越招致现实世界的不可救药。一切就像蝴蝶效应般，牵一发而动全身。",
-          "rating": 7.579
-        },
-        {
-          "id": "1291544",
-          "type": "douban",
-          "title": "哈利·波特与阿兹卡班的囚徒",
-          "releaseDate": "2004-05-31",
-          "posterPath": "https://image.tmdb.org/t/p/w500/1fkeuOQ2VwzmR8FjXDrGCIKLcTz.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
-          "description": "哈利即将在霍格沃兹渡过第三个年头，此时却传出恶棍小天狼星从阿兹卡班越狱的消息。据说小天狼星正是背叛哈利父母的好友，他的教父，而这次小天狼星越狱似乎正是为了找他。哈利的心里悄悄的滋生了为父母报仇的想法，期待着小天狼星的出现。新来的魔法老师卢平有着桀骜不驯的个性，与哈利关系很好，教了哈利许多实用的黑魔法防御知识。而此时在他的魔法地图上却出现了一个神秘人物，虫尾巴。偶然的机会下，在尖叫棚屋里集齐了哈利父亲当年的所有好友，卢平、虫尾巴、小天狼星，哈利的魔杖直指向小天狼星，但他发现那罪犯看他的眼神里充满了疼爱…",
-          "rating": 8.012
-        },
-        {
-          "id": "1309163",
-          "type": "douban",
-          "title": "恋恋笔记本",
-          "releaseDate": "2004-05-25",
-          "posterPath": "https://image.tmdb.org/t/p/w500/1yFP2jxd12D6JUodFh532Vwljbf.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/eEN7tsCCHppGhONHngvHKSdxi7r.jpg",
-          "description": "一个浸润着鲜红与纯白的爱情故事，写在一本洒满昏黄的笔记本上，被一位老先生(詹姆斯·加纳 饰)，一遍一遍的讲述。老太太(吉娜·罗兰兹 饰)总是静静的听着，好奇的追问结果。在一家疗养院，这样不变的场景每天都会上演。笔记本上，秀美的字迹，记载着发生在那个夏天的爱情。艾莉(瑞秋·麦克亚当斯 饰)是富有人家的千金，她随家人来到小镇避暑。在一个充满梦幻的游乐场，邂逅了诺亚(瑞恩·高斯林 饰)。诺亚没有钱，却活的很快乐。艾莉在他那学会了自由，得到了欢笑，两人很快热恋起来。然而在艾莉父母的阻挠下，相爱的两个人，就被分开在夏天结束的那一刻。随着诺亚的365封信被偷偷藏起，艾莉在7年后终于放弃了等待。就在她要步入教堂的前一天，突然在报纸上看到了诺亚曾许诺给自己建造的白色房子。一切记忆，全部苏醒……也许，应该苏醒的，不是故事中的，而是听故事的人。",
-          "rating": 7.891
-        },
-        {
-          "id": "1291990",
-          "type": "douban",
-          "title": "爱在日落黄昏时",
-          "releaseDate": "2004-06-16",
-          "posterPath": "https://image.tmdb.org/t/p/w500/zHTvLCSh5jad9F2sseftGi37ndO.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/tcZi0LQc5iu2u6i5aOWyj9NBBvl.jpg",
-          "description": "九年前，杰西（伊桑·霍克 Ethan Hawke 饰）与席琳（朱莉·德尔佩 Julie Delpy 饰）在火车上不期而遇，怦然心动。在维也纳渡过疯狂而又浪漫的一夜后，他们在日出前分手，并相约在维也纳重逢。九年之后，杰西已成为畅销书作家，而席琳则是法国环保组织成员。杰西在新书里娓娓道来的，正是九年前的浪漫夜晚。在巴黎促销新书时，杰西与席琳在书店相遇，然而他们只有一下午的时光相处，日落之前，杰西要乘飞机赶回美国。两人在午后的巴黎街头散步，在美丽的护城河上泛舟，无所不谈，兴致勃勃。可是就像命运的捉弄，快乐的时光像烟花一样醉人却短暂。杰西对席琳一送再送，难以忘情；席琳用吉他和歌声，怀念着内心深处的爱恋。太阳就快落下去了，杰西就要误了飞机，又或许他更不想错过的，是命里注定的缘分。",
-          "rating": 7.8
-        },
-        {
-          "id": "1292274",
-          "type": "douban",
-          "title": "幸福终点站",
-          "releaseDate": "2004-06-17",
-          "posterPath": "https://image.tmdb.org/t/p/w500/eJOOCW8cFvxbjNYiwHK9VPMGjPZ.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/zt3cmdZr3t0K64gzpwIc4LXiuDu.jpg",
-          "description": "为了完成父亲的心愿，维克多（汤姆•汉克斯 Tom Hanks 饰）从故国乘坐飞机前往美国肯尼迪机场，但戏剧性的事情发生了：他被告知祖国发生政变，而他的身份证护照一一失效，同时他的签证也无法再使用。进退两难的维克多只有在机场滞留，等待新证件的办理。但是，他在机场等待了整整9个月。在这9个月里面，他用机场的洗手间洗漱，在候机室睡觉，他已经学懂因地制宜，在机场照料自己的生活，甚至还找了一份建筑工地工作。然而维克多的邋遢晦气却招来了机场负责人弗兰克（史坦利•图齐 Stanley Tucci 饰）的不满，而恐怕更令他气愤妒忌的是，美丽的空姐艾米利亚（凯瑟琳•泽塔-琼斯 Catherine Zeta-Jones 饰）竟然爱上了维克多。处在甜蜜中的维克多，也在慢慢观察机场的人生百态，自得其乐。",
-          "rating": 7.347
-        },
-        {
-          "id": "1417598",
-          "type": "douban",
-          "title": "电锯惊魂",
-          "releaseDate": "2004-10-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/s4Y6FR7HWlQM4d3zgG3FEmwAbPj.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/hdQcJFEy1GSYzwVOE0VOOAAexs8.jpg",
-          "description": "亚当渐渐从昏迷中苏醒过来，发现自己被锁在一间破旧的地下室内。地下室相对的另一个房间，还锁着一个不知所措的劳伦斯医生。两个人的中间竟然有一具满身血污的死尸，手中握着一把点三八手枪。他们不知道自己为什么被绑架，但是遗留的磁带却命令劳伦斯在八小时内杀掉亚当。如果劳伦斯失败，两个人都会送命；劳伦斯的妻子艾莉森(莫妮卡·波特饰)、女儿也会跟着陪葬。回想泰普警探(丹尼斯·格洛弗饰)最近正在调查的谋杀案，劳伦斯意识到他和亚当即将成为下一个受害者，而他只知道这个在幕后的变态杀人狂叫“竖锯”。时间只剩下短短的几小时，他们必须克服恐惧，弄清楚精心设计的圈套。杀人狂只留下一点点线索，以及两把不起眼的手锯——尽管它不能锯断铁铐，却足以切割血肉和骨头。",
-          "rating": 7.421
-        },
-        {
-          "id": "1291550",
-          "type": "douban",
-          "title": "天下无贼",
-          "releaseDate": "2004-12-09",
-          "posterPath": "https://image.tmdb.org/t/p/w500/7eGOkuw5gZ7qHhIw8chiAL56yqi.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/tWkDLLSdtsDa41wUDTtKDs4d5E2.jpg",
-          "description": "王薄（刘德华 饰）和王丽（刘若英 饰）本是一对最佳贼拍档，但因怀了王薄的孩子，王丽决定收手赎罪，两人产生分歧。在火车站遇到刚刚从城市里挣了一笔钱准备回老家用它盖房子娶媳妇的农村娃子傻根（王宝强 饰）后，王丽被他的单纯打动，决定暗中保护不使他的辛苦钱失窃，王薄却寻思找合适机会下手，但 最终因为“夫妻情深”归入了王丽的阵营。 不料傻根的钱早被以黎叔（葛优 饰）为头目的另一著名扒窃团伙盯上，于是一系列围绕傻根书包里的钞票、在王薄、王丽和黎叔团伙之间展开的强强斗争上演。",
-          "rating": 7.2
-        }
+        "放牛班的春天",
+        "功夫",
+        "哈尔的移动城堡",
+        "蝴蝶效应",
+        "哈利·波特与阿兹卡班的囚徒",
+        "恋恋笔记本",
+        "爱在日落黄昏时",
+        "幸福终点站",
+        "电锯惊魂",
+        "天下无贼"
       ],
       "16082": [
-        {
-          "id": "1292052",
-          "type": "douban",
-          "title": "肖申克的救赎",
-          "releaseDate": "1994-09-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/lnu10JjbS3dhv38UCg832hmvQj3.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-          "description": "1947年，小有成就的青年银行家安迪因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德，请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟络，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步。",
-          "rating": 8.7
-        },
-        {
-          "id": "1295644",
-          "type": "douban",
-          "title": "这个杀手不太冷",
-          "releaseDate": "1994-09-14",
-          "posterPath": "https://image.tmdb.org/t/p/w500/jGcGdr049jROZGXS0mD78daypvr.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/bguFhzIGpQdGQ6uizm07oMKbgHi.jpg",
-          "description": "里昂是名孤独的职业杀手，受人雇佣。一天，邻居家小姑娘马蒂尔达敲开他的房门，要求在他那里暂避杀身之祸。原来邻居家的主人是警方缉毒组的眼线，只因贪污了一小包毒品而遭恶警杀害全家的惩罚。马蒂尔达得到里昂的留救，幸免于难，并留在里昂那里。里昂教小女孩使枪，她教里昂法文，两人关系日趋亲密，相处融洽。女孩想着去报仇，反倒被抓，里昂及时赶到，将女孩救回。混杂着哀怨情仇的正邪之战渐次升级，更大的冲突在所难免……",
-          "rating": 8.301
-        },
-        {
-          "id": "1292720",
-          "type": "douban",
-          "title": "阿甘正传",
-          "releaseDate": "1994-06-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/Ace1AhTTz2PQ2OVaX5mfZ7ey7Gv.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/tlEFuIlaxRPXIYVHXbOSAMCfWqk.jpg",
-          "description": "阿甘于二战结束后不久出生在美国南方阿拉巴马州一个闭塞的小镇，他先天弱智，智商只有75，然而他的妈妈是一个性格坚强的女性，她常常鼓励阿甘“傻人有傻福”，要他自强不息。阿甘像普通孩子一样上学，并且认识了一生的朋友和至爱珍妮，在珍妮和妈妈的爱护下，阿甘凭着上帝赐予的“飞毛腿”开始了一生不停的奔跑。阿甘成为橄榄球巨星、越战英雄、乒乓球外交使者、亿万富翁，但是，他始终忘不了珍妮，几次匆匆的相聚和离别，更是加深了阿甘的思念。有一天，阿甘收到珍妮的信，他们终于又要见面…",
-          "rating": 8.468
-        },
-        {
-          "id": "1292365",
-          "type": "douban",
-          "title": "活着",
-          "releaseDate": "1994-05-18",
-          "posterPath": "https://image.tmdb.org/t/p/w500/jx5VmZsJIWQ1g6YX60Fk0tkMxxL.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/eNog8pV3p7I5OnBxDLIo97GnXOP.jpg",
-          "description": "富少福贵（葛优 饰）嗜赌成性，妻子家珍（巩俐 饰）屡劝无果后带着女儿凤霞离开了他。当夜，福贵输光所有家产气死父亲，被迫靠变卖母亲首饰租间破屋过活。一年后，家珍手拉凤霞怀抱刚出世的儿子有庆回到家中，福贵痛改前非，开始靠演皮影戏过起安份守己的日子。但好景不常，内战时期，福贵被国民党抓去当劳工，一番辗转终回到家乡与一家人团圆后，凤霞因病变成哑巴，而在后来的大跃进和文革中，他虽获某些小福，逆境却也一直与他如影相随。\r 根据余华同名小说改编。",
-          "rating": 8.1
-        },
-        {
-          "id": "1301753",
-          "type": "douban",
-          "title": "狮子王",
-          "releaseDate": "2025-02-06",
-          "posterPath": "https://image.tmdb.org/t/p/w500/dIvKzcX3dPAsOVOzMTfmnGbG0eL.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/i8zu91n7foXyw4iMpQ90xKk5yvF.jpg",
-          "description": "该特别节目将在好莱坞露天剧场录制“迪士尼《狮子王 30 周年 – 现场到电影音乐会活动》”，庆祝《狮子王》从 1994 年的原始动画电影到 1998 年获得托尼奖的百老汇音乐剧，再到 2019 年的戏剧真人电影的 30 年演变。",
-          "rating": 7.1
-        },
-        {
-          "id": "1291832",
-          "type": "douban",
-          "title": "低俗小说",
-          "releaseDate": "1994-09-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/faXrVXwMExh6zIVV9I5v2ydP1K7.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-          "description": "《低俗小说》由“文森特和马沙的妻子”、“金表”、“邦妮的处境”三个故事以及影片首尾的序幕和尾声五个部分组成。看似独立的小故事里面，却又有环环相扣的人和事。盗贼“小南瓜”和“小兔子”在早餐店里打劫，却遇上了天大的麻烦——黑社会成员朱尔斯（塞缪尔•杰克逊Samuel L. Jackson饰）和文森特（约翰•特拉沃尔塔John Travolta饰）在店内用餐，可谓天外有天。二人是否会放过两名小盗贼？而文森特是黑社会大哥马沙•华莱士（文•瑞姆斯Ving Rhames饰）的手下，马沙下命令让他陪妻子一个晚上，明知如有雷池必死无疑，但面对马沙妻子美艳诱惑，文森特该怎么办?",
-          "rating": 8.488
-        },
-        {
-          "id": "1291999",
-          "type": "douban",
-          "title": "重庆森林",
-          "releaseDate": "1994-07-14",
-          "posterPath": "https://image.tmdb.org/t/p/w500/ejkczWHjQoNAPUmTU26tU3aRkr8.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
-          "description": "编号为223的警察失恋后患上失恋综合症，在与金发女杀手擦肩而过又离奇相遇并有了一晚温情后，原本以为包括“爱情”在内的所有东西都有保质期的他意外地迎来心灵的短暂温暖。可是，他们的爱情还是结束了。快餐店新来的女招待阿菲爱上了时常光顾快餐店的编号为633的警察，因拆了他的女友留在快餐店给他的“分手” 信，阿菲知晓了他的心情，偷拿到他的钥匙趁他不在时常潜入他家，一边梦游一边悄悄地改变他的生活，终在被他撞见时令其感受到情感的回归。然而，这才是他们爱情的开始。",
-          "rating": 8
-        },
-        {
-          "id": "1297518",
-          "type": "douban",
-          "title": "九品芝麻官",
-          "releaseDate": "2024-03-16",
-          "posterPath": "https://image.tmdb.org/t/p/w500/aKYXMSo9ZoQKrnDsYTmBDIlaj0o.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/6JbLudai6xSQU4eXlPj9xDXWIj8.jpg",
-          "description": "无心混迹官场的“九品芝麻官”包龙星意外地卷入了一场惊天惨案，原本清晰的案情一夜之间被有心之人颠倒了黑白，坚信“邪不压正”的包龙星与强于自己数倍的力量展开了信念的较量，最终证明了自己的同时也捍卫了正义。",
-          "rating": 2
-        },
-        {
-          "id": "1291818",
-          "type": "douban",
-          "title": "饮食男女",
-          "releaseDate": "2012-03-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/nU3OAfWULrGUBkFWsVjPdUWip8Z.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/1kLN4nKtMPKXfAUydyAtx0sbvhK.jpg",
-          "description": "唐士哲（曾江饰）是杭州城内远近驰名的大厨，不仅做得一手好菜，对两个女儿的要求也非常严苛：每周末家庭聚餐必不可少，而且餐桌上摆的一定是素菜。两个女儿唐瓦儿（霍思燕饰）、唐小兰（蒋梦婕饰）崇尚一切现代文化，无肉不欢的她们从来对这种家庭仪式都抱着敷衍的态度，对自己各自感情生活也一知半解。  唐瓦儿是典型的都市白领，经营着一家高级会所，跟游戏设计师张全（蓝正龙饰）谈着一场姐弟恋。张全是一个典型的宅男，他所熟悉的世界是一个“一加一肯定会等于二”的程序世界，但这种简单直接的游戏规则在感情中却到处碰壁，让他不知所措。张全的大妈白苹（归亚蕾饰）外表风骚、讲话口没遮拦，但其实内心寂寞空虚。把张全视为亲生儿子的她，一心想谈成张全和唐瓦儿的婚事，因此自告奋勇去杭州撮合，没想到过程有如刘姥姥进大观园，正事没谈成却吹皱了一池春水，将唐瓦儿和张全的关系搞得雪上加霜。张全和唐瓦儿面临分手，唐士哲突然宣布要关掉“好风水”菜馆。白苹误打误撞参加了唐士哲的餐厅关闭之前准备的最后的晚餐。谁料当最后一道菜上桌，却揭开了一段尘封了半个多世纪的往事，让所有人肝肠寸断。  爱情究竟是可有可无的点缀还是终其一生的渴求，于是在这场素食痴恋面前，几个年轻人也都找到了属于自己的爱，和属于自己的那道菜  。",
-          "rating": 4.7
-        },
-        {
-          "id": "1291875",
-          "type": "douban",
-          "title": "阳光灿烂的日子",
-          "releaseDate": "1995-08-21",
-          "posterPath": "https://image.tmdb.org/t/p/w500/okm9Ml09l6pkpYyYXmpDcBJEVBo.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/xEURgJFFdOBkHUlM5xr3krbB6uD.jpg",
-          "description": "20世纪70年代初的北京，忙着“闹革命”大人无空理会小孩，加上学校停课无事可做，以军队大院男孩为突出代表的少年人便自找乐子，靠起哄、打架、闹事、拍婆子等方式挥霍过量的荷尔蒙。马小军（夏雨 饰）就是这样的少年，他的嗜好之一是趁别人家无人用万能钥匙将其锁打开，溜进去耍玩一番，正是用这样的方式，少女米兰（宁静 饰）的照片先于其人入了马小军的双眼。通过院里的“头儿”刘忆苦（耿乐 饰），马小军又见到之前在炮局偶然瞥见过一眼的米兰，开始正式将其当作梦中情人，然而在米兰眼中，马小军不过是毛孩一个，她中意的人是成熟、稳重、帅气的刘忆苦。自此，马小军迎来五味混杂的青春期生活。",
-          "rating": 7.821
-        }
+        "肖申克的救赎",
+        "这个杀手不太冷",
+        "阿甘正传",
+        "活着",
+        "狮子王",
+        "低俗小说",
+        "重庆森林",
+        "九品芝麻官",
+        "饮食男女",
+        "阳光灿烂的日子"
       ],
       "16083": [
-        {
-          "id": "1292262",
-          "type": "douban",
-          "title": "美国往事",
-          "releaseDate": "1984-05-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/lCwFuZd708iZRTzfj1GbWK0gbQx.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/uPYa165sraN2c8gZBM9C47g3JoU.jpg",
-          "description": "　　二十年代的美国，纽约少年“面条”和几个同龄朋友一起认识了聪明狡黠的“麦克斯”，他们开始从事走私活动。不久，面条在一场械斗中杀伤人命，被关进监牢。若干年后，“面条”出狱，当时的小伙伴们已经变成了健壮的青年人，在“麦克斯”的带领下，他们开始了一系列抢劫、盗窃、敲诈活动。随着犯罪活动的不断深入， “麦克斯”似乎被胜利冲昏了头脑，竟然把美国联邦储备银行也列入了行动目标。“面条”不忍眼看好友走向毁灭，偷偷打电话报警，想逼迫“麦克斯”收手。警察与 “面条”的朋友展开激烈枪战，“麦克斯”等人全部被杀。“面条”带着深深的悔恨和痛苦，离开纽约，回到年少时生长的地方。三十五年过去了，几近垂暮的“面条”重新回到纽约的伤心地，他遇见了少时的朋友和旧情人，而当年“麦克斯”他们的死，背后竟然包含着出乎意料的阴谋。",
-          "rating": 8.409
-        },
-        {
-          "id": "1291585",
-          "type": "douban",
-          "title": "风之谷",
-          "releaseDate": "1984-03-11",
-          "posterPath": "https://image.tmdb.org/t/p/w500/2qYsvbv87NjFtfpDPZdXlUDiKiG.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ulVUa2MvnJAjAeRt7h23FFJVRKH.jpg",
-          "description": "1000年后的枯人们，并不是生活在天堂里，而看上去美丽的景象，其实是危机四伏。在人类自我毁灭的浩劫后，以菌类为主的腐海森林，散发着有毒的气体，逐渐的侵蚀着人类的居住区，而生活在腐海中的王虫群，更是可以在瞬间毁灭辛苦建立起来的新的家园的恐怖生物。疲惫于战争的人群经历了艰难困苦，总算找到个可以暂时安居的地方，那里由于风的力量而没有受到腐海的侵袭，这个美丽的家园就是风之谷。风之谷是个不受腐海波及的地方，人们生活的很快乐，可是有野心的多米吉亚人，不惜发动战争，利用王虫荷母打击风之谷，在一个黑暗艰苦的时期，展开白鸟之翼的娜伍丝嘉，将会面临怎样的危机以及成长，将会怎样对待敌意和战争，最重要的是，背负着族人的期待，面对着疯狂的王虫，纤弱的身躯，是否能够承担起保护自己家园的重任？",
-          "rating": 8
-        },
-        {
-          "id": "1300656",
-          "type": "douban",
-          "title": "终结者",
-          "releaseDate": "1984-10-26",
-          "posterPath": "https://image.tmdb.org/t/p/w500/qJNgd5dLjP8hh34NmCsdAlMVfA4.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
-          "description": "公元2029年，经过核毁灭的地球已由电脑“天网”统治，人类几乎被消灭殆尽。剩下的的人类在领袖约翰康纳的领导下与电脑英勇作战，并扭转了局面。“天网”为了改变这一切，制造了时光逆转装置，派遣终结者人型机械人T-800回到1984年,去杀死约翰的母亲莎拉康纳，以阻止约翰的诞生。约翰发现了一这阴谋，攻占了实验室， 战士卡尔雷斯自愿通过时间通道回到1984年保护莎拉。T-800是个有肌肉，血液等人类特性的机械战士。它来到洛杉矶，按照电话簿追杀名叫莎拉康纳的女人，但真正的那个莎拉却在危急关头被卡尔雷斯所救。但是警察却将雷斯作为恐怖分子抓了起来。没有人相信雷斯所说的关于未来世界和战争的话，认为他是个疯子。T-800闯进了警局，警察根本不堪一击。所幸雷斯逃了出来，把莎拉带到了郊外，面对事实的经历，莎拉终于相信了雷斯。在汽车旅馆中，雷斯向莎拉吐露了长久的爱意，两人拥抱着上床，原来雷斯就是约翰的父亲。T-800找到了他们，雷斯与莎拉带着做好的炸药管逃走。在追逐中，雷斯机智地炸毁了T-800驾驶的油罐车，T-800被烈火吞没了，但雷斯却受了重伤。然而，T-800并未被毁灭，它的人类外壳被烧去了，露出了由微电脑控制的合金机械骨骼。T-800追杀两人进了工厂，雷斯舍命用最后一枚炸药毁掉了T-800的下半身，但残余的T-800仍然不忘追杀莎拉。最终，莎拉用计将T-800困在液压机里，将它压成了一堆废铁。半年后，未来的领袖就要出世了。莎拉继承了雷斯的遗志，为培养儿子做各种准备。前方的路还很长……",
-          "rating": 7.667
-        },
-        {
-          "id": "1422283",
-          "type": "douban",
-          "title": "高山下的花环",
-          "releaseDate": "1984-10-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/A8GUbKyDLCJ5RDjeQidCQgrwMXr.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/2sLCc6i73v1pZLasmjf2iolnIxp.jpg",
-          "description": "驻扎在四川广元的九连长梁三喜（吕晓禾 饰）为了从军政治部调来的指导员赵蒙生（唐国强 饰）推迟了探亲假，可出身高干家庭吃不了苦的蒙生打算只干几个月就走。1979年，赵母吴爽（刘燕生 饰）得知蒙生部队将要赴越作战，加紧督办调动之事。耿直的炮排长靳开来（何伟 饰）听说后火冒三丈，扬言要自费上北京告状。部队开赴云南边境，吴爽孤注一掷请求军长雷震（童超 饰）将蒙生调回后方……",
-          "rating": 8.5
-        },
-        {
-          "id": "1293399",
-          "type": "douban",
-          "title": "莫扎特传",
-          "releaseDate": "1984-09-19",
-          "posterPath": "https://image.tmdb.org/t/p/w500/1n5VUlCqgmVax1adxGZm8oCFaKc.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/4XwiwzyzX9msbC1wg5NN0PbqQXu.jpg",
-          "description": "本片讲述了伟大的音乐天才沃尔夫岗.阿巴迪斯.莫扎特（Wolfgang AmadeusMozart）的一生。影片采用倒叙手法，由安东尼奥.萨利埃雷（AntonioSalieri）讲述。他是一位宫廷乐师、莫扎特的天才使他既羡慕又震惊，心理上发生了变态，决定除掉莫扎特。音乐在全片中具有叙述和点出主题的作用，将莫扎特的音乐和他的生平事件串连在一起，刻划了莫扎特与萨利埃雷在音乐上的冲突。",
-          "rating": 8
-        },
-        {
-          "id": "1292867",
-          "type": "douban",
-          "title": "快餐车",
-          "releaseDate": "1984-08-17",
-          "posterPath": "https://image.tmdb.org/t/p/w500/6raV4LMuSTsYen1vVe5gMHjOYwO.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/dELhGxcMdDepJuZTeHGKxhLF1V2.jpg",
-          "description": "成龙、洪金宝与元彪三名师兄弟继《A计划》之后合演的动作喜剧，外景远征西班牙拍摄，欧式古堡成为主要的故事场景。洪金宝兼饰演私家侦探，受雇找寻欧洲女子哥莉亚及其女儿施维亚。他找了经营快餐车的成龙与元彪帮忙，不久就在精神病院找到当扒手的施维亚，并揭其身份。原来洪受委托要找的人真正身份是伯爵女儿，其中牵涉伯爵留下的巨额遗产，以及她堂兄的夺产阴谋。最后，当然免不了要上演一场英雄救美的苦战。全片内容虽然平平无奇，但仍然拍得爽朗热闹，符合成龙电影一贯的娱乐观众需求！ 西班牙巴塞罗那华侨青年托马士 与大卫 以经营快餐车为生，另一位华侨胖子毛比 则是一侦探社的打手并代理了侦探社社长，一天，有位顾客要委托侦探社在十四天内找到一个名叫歌丽亚的女人及她的女儿苏维亚，至于相关线索，只有歌丽亚的一张像片和一个关于她曾流落花街的传闻，因社长避债在外，毛比 找到托马士 和大卫 相助，开始了查找，不久就在精神病院找到当扒手的苏维亚，并揭其身份。原来洪受委托要找的人真正身份是伯爵女儿，其中牵涉伯爵留下的巨额遗产，以及她弟弟的夺产阴谋。最后，当然免不了要上演一场英雄救美的苦战。",
-          "rating": 6.9
-        },
-        {
-          "id": "1302061",
-          "type": "douban",
-          "title": "德州巴黎",
-          "releaseDate": "1984-07-16",
-          "posterPath": "https://image.tmdb.org/t/p/w500/mYYdCi54E2xVbUxCr03tMookv9Z.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/pAKpSMrCv9HQdMKvIdLgTdpKh5f.jpg",
-          "description": "　　查韦斯（Harry Dean Stanton 饰）迷失在德州荒无人烟的沙漠中，因为身体虚弱而昏迷。医院联系了他的弟弟沃特（Dean Stockwell 饰）来接他。出院的查韦斯一直沉默，直到看见“巴黎，德州”的牌子，才终于开口。回到洛杉矶弟弟家，查韦斯见到了儿子亨特（Hunter Carson 饰演），弟弟弟妹其实是养父养母。但是亨特对突如其来的父亲并不接受。后来，查韦斯用很特别的方式收复了孩子的心。通过交流，查韦斯了解到孩子的生母简（Nastassja Kinski 饰）的下落。于是，父子踏上了一条寻母之路……本片获第37届戛纳电影节最佳影片金棕榈大奖。",
-          "rating": 8.1
-        },
-        {
-          "id": "1301434",
-          "type": "douban",
-          "title": "夺宝奇兵2",
-          "releaseDate": "1984-05-23",
-          "posterPath": "https://image.tmdb.org/t/p/w500/sPpZFG3WjGpHZ4JKH6QAeI2ikso.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/f133nWlU6yUkZqqwcCXCbTEJWHr.jpg",
-          "description": "中国，印第安纳琼斯博士（Harrison Ford 饰）与上海黑帮老大交易，对方在换得努尔哈赤的骨灰后便背信弃义，欲灭琼斯之口。关键时刻，机灵小鬼豆丁（Jonathan Ke Quan 饰）救下琼斯博士和无故卷进的一位歌女威莉（Kate Capshaw 饰）。由于三人乘坐的飞机失事，跳机后，乘着橡皮艇，他们竟漂流到了印度的一个村子。这里河水干涸，庄稼尽毁，饥荒横行，民不聊生。当地人将之归咎为彭高皇宫的妖孽作怪，并将“从天而降”的琼斯一行视为神灵的化身，他们请求琼斯帮他们拿回被掳走的圣石和所有的小孩子。魔宫果然充满古怪，统治者是个小屁孩，贵族们吃水蛭、巨蟒、甲虫、猴脑，皇宫内部更是机关重重，误打误撞间，他们目睹到血腥的邪教献祭仪式……这一仗注定艰苦异常！",
-          "rating": 7.299
-        },
-        {
-          "id": "1307371",
-          "type": "douban",
-          "title": "开心鬼",
-          "releaseDate": "1984-07-14",
-          "posterPath": "https://image.tmdb.org/t/p/w500/dqtvVBuG5qS3p80OyeE6GbTvCnr.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/xfyKUnuK3N8qmB4CkmmvvXWmRnE.jpg",
-          "description": "清朝，连考十多次也没能中上状元后，朱秀才气死了老爹、气走了老婆，自己也含冤于某一寺庙悬梁自杀，结果无法投胎，灵魂被附在了他自杀时所用的麻绳上。时间来到1980年代，香港高中女生林小花、林青青和颜如玉暑期旅行的路上遭遇暴风雨，为避雨，她们闯进朱秀才自杀的寺庙，雨毕，林青青于慌乱中将附有朱秀才灵魂的那根麻绳带进住室，惹来一片惊声尖叫，但随着交流的深入，她们慢慢与朱秀才成为无话不谈的朋友，而彼此通过对方的鼓励，更加清楚了接下来要走的路——当然，这一过程中，没少闹笑话。",
-          "rating": 6.2
-        },
-        {
-          "id": "1302542",
-          "type": "douban",
-          "title": "血迷宫",
-          "releaseDate": "1984-03-26",
-          "posterPath": "https://image.tmdb.org/t/p/w500/svU6pu4lfHn0T5BVZchVxL58HB5.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/rGPoNNk4fvgG2mvkNAxJJPlszOu.jpg",
-          "description": "雨夜，雷伊（约翰•盖兹 John Getz 饰）跟艾比（弗兰西斯•麦克多蒙德 Frances McDormand 饰）在酒店偷情。雷伊是酒吧伙计，而艾比则是酒吧老板玛迪（丹•哈达娅 Dan Hedaya 饰）的妻子。玛迪怀疑妻子出轨，因此雇佣侦探维斯调查。知悉真相的玛迪怒不可遏，潜入雷伊家，企图绑走妻子，却在厮打中受伤。玛迪密会维斯，决定花钱做掉二人。维斯潜入雷伊家翻到了艾比的手枪。回来后，维斯给玛迪看了两人被杀的照片，趁玛迪不备，将其击毙。雷伊发现玛迪尸体，误以为艾比所为，因此毁尸灭迹。晚上，雷伊再次回到酒吧，赫然发现了威斯假造的照片。这时，雷伊和艾比都不知道，死亡的威胁正在步步紧逼……",
-          "rating": 7.243
-        }
+        "美国往事",
+        "风之谷",
+        "终结者",
+        "高山下的花环",
+        "莫扎特传",
+        "快餐车",
+        "德州巴黎",
+        "夺宝奇兵2",
+        "开心鬼",
+        "血迷宫"
       ],
       "16084": [
-        {
-          "id": "1299131",
-          "type": "douban",
-          "title": "教父2",
-          "releaseDate": "1974-12-20",
-          "posterPath": "https://image.tmdb.org/t/p/w500/4J8jUmjgKPggRPJqqdkjWCj2k0D.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
-          "description": "影片主要讲述第二代教父麦克·柯里昂的奋斗历程，同时回忆了第一代教父维多·柯里昂创业的艰辛，反映了不同历史时期，两代教父的事业、家庭生活。麦克为儿子托尼举行圣餐仪式和庆祝活动的当夜，麦克在家中遭到袭击，凶手被人灭口，面临接管家族事业以来的重重危机，麦克回忆起了父亲维多·柯里昂年轻时在美国的创业历程。麦克一边调查袭击的真相，一边继续开展赌博、酒店等生意，和另一个黑帮人物海门罗斯斗智斗勇，不断扩大势力。终于，麦克的不法行为引起了政府的关注，麦克受到一系列的指控；同时，麦克的家庭也遇到了危机，夫妻感情濒临破裂；而最让麦克痛心的，却是家族中，亲人的背叛。和第一代教父其乐融融的家庭生活比起来，麦克无疑很失败。",
-          "rating": 8.571
-        },
-        {
-          "id": "1292699",
-          "type": "douban",
-          "title": "东方快车谋杀案",
-          "releaseDate": "2017-11-03",
-          "posterPath": "https://image.tmdb.org/t/p/w500/lvdZaePuA9oh4Un2bQf0U1RKPqP.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/2J283YNxKhxAqHeVegUJ5mzLfGb.jpg",
-          "description": "大侦探波洛乘上东方快车，夜间三次被吵醒，第二天清晨便发现同车的美国富商雷切特被人谋杀，死者被戳了12刀。波洛根据他所观察到的各种可疑迹象以及同车人士的讯问，并结合美国实行的12人陪审团制度等情况进行逻辑推理，成功地揭开了一起“集体复仇”奇案。",
-          "rating": 6.702
-        },
-        {
-          "id": "1293889",
-          "type": "douban",
-          "title": "唐人街",
-          "releaseDate": "1977-12-02",
-          "posterPath": "https://image.tmdb.org/t/p/w500/hVdhHIN0EsqPHmP3a0H09aGpCMA.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/lzuMIAaVefwOgLfYz3czsH8Zn1S.jpg",
-          "description": "故事发生在繁华的大城市香港，谭东（傅声 饰）和爷爷靠经营一个橙汁摊维持生计。谭东大字不识一个，却有着一身了得的功夫和力气，仅凭一双厚实的大手便能够榨出橙汁，爷孙两人的生意因此格外的好。\r 很快，一个名叫徐豪（王龙威 饰）的小混混便注意到了谭东，他先发制人挑衅后者却在比武之中一败涂地。羞愤之中，徐豪设下诡计令谭东背负上了贩毒的罪名，谭东因此遭到了警方的通缉。无奈之下，谭东踏上了逃亡的旅途，一路来到了美国旧金山，藏匿在唐人街上的一间餐厅之中。在那里，谭东结识了留学生杨坚文（孙建 饰），志同道合的两人之间结下了坚实的友谊。",
-          "rating": 6.3
-        },
-        {
-          "id": "1297239",
-          "type": "douban",
-          "title": "了不起的盖茨比",
-          "releaseDate": "1974-03-27",
-          "posterPath": "https://image.tmdb.org/t/p/w500/zCjwyhfDTFgunVVzBoEFzafpjbV.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/syIACSAOLd5iHFDtFelF8kmPM2l.jpg",
-          "description": "故事描写一个长岛富豪的神秘巨宅中总是夜夜笙歌，但他却心事满腹，仿佛一直都在追求一个无法达到的梦想。",
-          "rating": 6.296
-        },
-        {
-          "id": "1461985",
-          "type": "douban",
-          "title": "闪闪的红星",
-          "releaseDate": "1974-01-01",
-          "posterPath": "https://image.tmdb.org/t/p/w500/4OP6fkgibeg1dFViaF2vu9VEkp2.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/52ZCS4FzdNRBDmKSWroGHw7oDM.jpg",
-          "description": "故事发生在红军抗击日寇时期。少年潘东子（祝新运 饰）的父亲响应号召，参加红军抗击敌军去了，只剩下母亲与东子相依为命。母亲也是抗敌的积极分子，从小耳濡目染的东子虽然只有11岁，也立下了决心长大参加红军对抗日军。一天，汉奸胡汗三带领日军来捉拿东子的母亲，眼看形势危急，东子妈决定留下来掩护其他群众撤退。在连扔两枚手榴弹砸死多名敌人后，东子妈亦英勇就义。目睹了妈妈被敌人杀害的惨况，东子决心用自己的力量为母亲报仇。东子开始用自己的机智与勇敢与敌人周旋，暗中帮当地的游击队送盐送信。通与敌人的斗争，东子渐渐成长，替母亲报仇的时刻也终于来到。",
-          "rating": 5.8
-        },
-        {
-          "id": "1366165",
-          "type": "douban",
-          "title": "死者田园祭",
-          "releaseDate": "1974-12-28",
-          "posterPath": "https://image.tmdb.org/t/p/w500/8WiNgQeYBAh9fOsPCRjQdBSnoEk.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/cRm7qbkTMcW9r0vQOiaz3pQZvNS.jpg",
-          "description": "“我”（菅貫太郎 饰）是一名电影导演，当前正在拍摄一部带有自传性质的影片，影片的情节如下：童年的“我”（高野浩幸 饰）生活在一个偏远山村，与母亲过着孤单辛苦的生活。父亲早年过世，“我”只能通过巫术叫出父亲的鬼魂与他对话。隔壁的少妇（八千草薫 饰）美艳动人，我深深为之着迷。某日，一支流动马戏团来到“我”的村庄，从他们的口中，“我”得知外面大千世界的精彩。于是在某个夜晚，“我”和隔壁的少妇整理行囊，偷偷离开了家乡。 影片进行到这里，“我”却突然陷入瓶颈。那天，“我”遇到了童年的自己，藉着对童年时代的回溯，“我”发现影片中竟然有着如此多的虚伪和不真实。“我”找到了真实的过去，以及所有被刻意遗忘的残酷回忆……",
-          "rating": 7.5
-        },
-        {
-          "id": "1421733",
-          "type": "douban",
-          "title": "伊豆的舞女",
-          "releaseDate": "1974-12-28",
-          "posterPath": "https://image.tmdb.org/t/p/w500/A6UHSn4CVdh5AHScrBLGy6VmYzh.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/r6mTcCqdF5qDQYefeEZtxgzrcCp.jpg",
-          "description": "本片改编自川端康成著名小说《伊豆的舞女》。 即将就读东京某高等学校的川岛（三浦友和）趁开学前的暑假前往伊豆旅行，在乍晴乍雨的山道上，他遇到一群巡回卖艺的歌舞伎艺人，因被其中一个梳着古代发髻、背着大鼓的娇小玲珑舞娘吸引，他决定与他们一起上路，路上，他得知该舞娘叫熏（山口百惠）。川岛不计歌舞伎艺人地位卑微，常邀请他们到他住的旅馆玩耍，而在和熏有过单独相处后，他更被其纯洁无瑕的美震撼，陷入矛盾中，一面为自己难以抑制的冲动而苦恼，一面为她在表演时可能受到侮辱惴惴不安。熏在两人的交往中，也渐渐生出真情。可是两人也只能是彼此生命中的过客。",
-          "rating": 8
-        },
-        {
-          "id": "1883701",
-          "type": "douban",
-          "title": "解放军在巴黎",
-          "releaseDate": "1974-02-27",
-          "posterPath": "https://image.tmdb.org/t/p/w500/oNj6WHxZal4p093gQlczfZ1wCbO.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/bKhGQWlZebqlxwYU8atAs4xvgYf.jpg",
-          "description": "20世纪60年代，在主席以及我党的英明领导之下，中国人民终于挫败帝国主义的阴谋，将鲜艳的五星红旗插在欧洲的土地上。六亿雄狮镇西方，欧洲民众尽欢颜。\r 腐败堕落的法国总统及其走狗落荒而逃，我军兵不血刃，顺利入主巴黎。为了帮助欧洲民众改造资本主义思想，早日脱离苦海。我军响应主席的号召，在欧洲实行计划经济，以国家为单位对各国工业进行整体规划。在思想改造方面，我军将中国的成功经验应用到欧洲各国，如在法国电视台开办一档名为《电视批斗》的节目，对思想落后的坏分子批倒批臭；彻底改造奢华淫靡的社会风气，将一切资本主义的堕落符号与象征扫除殆尽；适时举行军民联欢，排演大型红色歌舞剧《卡门》。在一番大力整治之下，法国巴黎呈现出一片欣欣向荣、积极进取的好局面。\r 然而，仍有部分反动分子亡我之心不死，在他们鬼祟的动作之下，来之不易的稳定局面岌岌可危……",
-          "rating": 6.3
-        },
-        {
-          "id": "1294092",
-          "type": "douban",
-          "title": "恐惧吞噬灵魂",
-          "releaseDate": "1974-03-05",
-          "posterPath": "https://image.tmdb.org/t/p/w500/5Oru4v8tRUN90JUuM6BNDJoetLt.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/ih2q5hoclUTICLxMzV31vxgpCzR.jpg",
-          "description": "　　艾米（布里奇特·米拉 Brigitte Mira 饰）是一名60岁的清洁女工，辛苦工作的她拿着微薄的工资，生活很是清贫。机缘巧合之下，她结识了40岁的阿里（El Hedi ben Salem 饰），他们一起跳了一支舞后阿里提出送艾米回家。夜深了，阿里错过了末班车，只得在艾米家留宿。两个孤独寂寞的人相见恨晚，秉烛夜谈，当艾米为此感到深深的疑虑时，阿里只是淡淡的安慰了她。果不其然，艾米留宿男人的事情很快传遍了大街小巷，邻居同事的指指戳戳教她如坐针毡，无奈的她只得编撰了一个谎言，她说阿里是她的未婚夫。这门婚事毫不意外的遭到了所有人的反对，大家尽己所能的排挤、诋毁这对夫妻，这使得他们决定外出旅行避避风头。回来后两人的境遇有所好转，并不是街坊邻居接纳了他们，而是因为他们有了新的排挤对象。没有了外界的压力，艾米和阿里的感情却又因为内部的矛盾而产生了裂痕 影片用写实的手法展现了一个冷漠、刻薄的社会，探讨了这个社会之中存在的各种歧视以及人性之中孤独又灰暗的一面。",
-          "rating": 7.763
-        },
-        {
-          "id": "1297188",
-          "type": "douban",
-          "title": "自由的幻影",
-          "releaseDate": "1974-09-10",
-          "posterPath": "https://image.tmdb.org/t/p/w500/f6cON5ebistPm6AS1XcZZMmKpIi.jpg",
-          "backdropPath": "https://image.tmdb.org/t/p/w500/Ai3fiCnWzHl3bL4CZQQ1pt2uiOU.jpg",
-          "description": "本片由几个超现实的小故事串联而成。公园里，一个神秘男子塞给一个中产阶级家庭的女孩几张图片，女孩父母对这些帕特农神庙、凯旋门等古建筑的图片大惊失色。丈夫晚上被幻觉困扰求助医生，恰巧女护士请假离去，在回家的路上，女护士偶遇受虐狂帽商、赌博的神父等人。一位教授搭护士的车来到警局授课，却总被打断，他最后讲了一段赴宴的经历，几个朋友在马桶上闲聊，而吃饭却在厕所一样的单间里。一名罹患癌症的男人被告知女儿失踪，虽然女儿就在身边，但一群人仍然四处寻找。一名枪手在高层建筑里随意射杀路人，被判处死刑，但看起来却像是当庭释放。警察局长接到了死去的妹妹电话，他前往墓地查看，却发现自己的位置已经被别人代替……本片获1975年意大利电影新闻记者协会银兔奖。",
-          "rating": 7.445
-        }
+        "教父2",
+        "东方快车谋杀案",
+        "唐人街",
+        "了不起的盖茨比",
+        "闪闪的红星",
+        "死者田园祭",
+        "伊豆的舞女",
+        "解放军在巴黎",
+        "恐惧吞噬灵魂",
+        "自由的幻影"
       ]
     }
   }
