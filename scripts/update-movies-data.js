@@ -26,6 +26,8 @@ const config = {
   }
 };
 
+console.log(config.tmdbApiKey);
+
 // 延迟函数
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
