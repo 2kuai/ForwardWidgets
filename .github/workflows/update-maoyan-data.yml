@@ -9,6 +9,9 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
     - name: Checkout repository

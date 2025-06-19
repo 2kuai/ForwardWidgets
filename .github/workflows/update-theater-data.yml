@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai  # 设置时区为北京时间
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
       - uses: actions/checkout@v3

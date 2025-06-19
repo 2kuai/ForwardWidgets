@@ -9,7 +9,10 @@ const __dirname = path.dirname(__filename);
 
 // 配置项
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
-const TMDB_API_KEY = process.env.TMDB_API_KEY || '3bbc78a7bcb275e63f9a352ce1985c83';
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
+if (!TMDB_API_KEY) {
+  throw new Error('TMDB_API_KEY 环境变量未设置');
+}
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_REQUEST_DELAY = 250; // TMDB请求间隔(毫秒)
 const OUTPUT_PATH = path.join(__dirname, '../data/maoyan-data.json'); // 输出路径
@@ -38,9 +41,16 @@ function delay(ms) {
 async function searchTMDB(showName) {
   try {
     const cleanedName = cleanShowName(showName);
-    const url = `${TMDB_BASE_URL}/search/tv?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(cleanedName)}&language=zh-CN`;
-    
-    const response = await axios.get(url);
+    const response = await axios.get(`${TMDB_BASE_URL}/search/tv`, {
+      params: {
+        query: cleanedName,
+        language: 'zh-CN'
+      },
+      headers: {
+        'Authorization': `Bearer ${TMDB_API_KEY}`,
+        'Accept': 'application/json'
+      }
+    });
     const data = response.data;
     
     if (data.results && data.results.length > 0) {
