@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-20T00:15:46.605+08:00",
+  "last_updated": "2025-06-21T00:15:32.885+08:00",
   "nowplaying": [
     {
       "id": 1087192,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 8,
+      "rating": 7.948,
       "mediaType": "movie"
     },
     {
@@ -26,6 +26,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1387103,
+      "type": "tmdb",
+      "title": "好好说再见",
+      "originalTitle": "好好说再见",
+      "description": "三十出头的单亲妈妈应诺（钟欣潼 饰）牵着自己刚满五岁的女儿丢丢踏上了江南小城槐花树下的小径。  她想把丢丢托付给曾与自己断绝关系，发誓老死不相往来的父亲应大海（林栋甫 饰），自己只身出国参加梦寐以求的世界翻糖蛋糕大赛，虽然这个决定其实背后另有隐情……不靠谱的老应使出各种奇怪的招数阻拦应诺离开。  在一 段时光的相处后，应诺逐渐改变了想法。在生命迎来终点之前，她将如何实现一场完美的告别……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r6IB49ap3onG2LsRDkHkqLO8DYE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/drUOK1iUY5OLjQM16cIWhnwV7Zt.jpg",
+      "releaseDate": "2025-06-20",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 541671,
       "type": "tmdb",
       "title": "疾速追杀：芭蕾杀姬",
@@ -34,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.1,
+      "rating": 7.088,
       "mediaType": "movie"
     },
     {
@@ -46,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.159,
+      "rating": 7.154,
       "mediaType": "movie"
     },
     {
@@ -94,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xXh0IQ55HzWUsc3xznDLFeyaI80.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.1,
+      "rating": 7.099,
       "mediaType": "movie"
     },
     {
@@ -122,6 +134,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1200063,
+      "type": "tmdb",
+      "title": "猎金·游戏",
+      "originalTitle": "猎金·游戏",
+      "description": "金融高材生高寒（欧豪 饰）品行正直，专业能力出类拔萃，一心想在金融领域有所作为。因为同窗好友楚峰的家族企业卓通正在进行上市筹备，高寒意外得到国际投行蓝石的实习机会。在众实习生全是世界名校毕业，要么家势显赫能带来业务，要么是内部高管推荐，高寒身在其中显得另类和寒酸，幸得首席分析师张托德（刘德华 饰）的赏识，得以参与投行IPO业务。高寒在张托德的引领下，快速适应高压力快节奏的日常，磨练出扎实的专业技能和谈判技巧，却不知业绩的获得并非只是能者得之。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bYPrXWl7AuuQN2ZqMcdWYxdomsN.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6PNj5JTtoPjhp5shvSlhGWmXTl9.jpg",
+      "releaseDate": "2025-05-01",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
       "id": 1241924,
       "type": "tmdb",
       "title": "水饺皇后",
@@ -134,42 +158,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1200063,
-      "type": "tmdb",
-      "title": "猎金·游戏",
-      "originalTitle": "猎金·游戏",
-      "description": "金融高材生高寒（欧豪 饰）品行正直，专业能力出类拔萃，一心想在金融领域有所作为。因为同窗好友楚峰的家族企业卓通正在进行上市筹备，高寒意外得到国际投行蓝石的实习机会。在众实习生全是世界名校毕业，要么家势显赫能带来业务，要么是内部高管推荐，高寒身在其中显得另类和寒酸，幸得首席分析师张托德（刘德华 饰）的赏识，得以参与投行IPO业务。高寒在张托德的引领下，快速适应高压力快节奏的日常，磨练出扎实的专业技能和谈判技巧，却不知业绩的获得并非只是能者得之。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9HnrAAdEPWhhzNIgoCQYtnyQI38.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/18KKoObAPj1lykfEaqCASPnlUg8.jpg",
-      "releaseDate": "2025-05-01",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1358189,
-      "type": "tmdb",
-      "title": "永不失联的爱",
-      "originalTitle": "永不失联的爱",
-      "description": "所谓宿命就是“最初是你，最后也依然是你”。经历人生巨变的林七七偶然救下林南一并彼此相爱，好友丁真见证了两人许多难忘的瞬间。当所有美好顺利展开，误会却让相爱的两个人走到分开的边缘。然而一场看似偶然的重逢，让两个人明白，我们可以错过任何人但唯独不能错过你，即使我们不小心走散，我也会拼命找到你。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/j2bUVFxhPW3ymTHCiZJFxZb8ocz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7mQgY3xvOEn3ONXA1JHUQcNPtHm.jpg",
-      "releaseDate": "2025-05-20",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1406563,
-      "type": "tmdb",
-      "title": "人生开门红",
-      "originalTitle": "人生开门红",
-      "description": "一场意外的危机公关，让“烤肠哥”周大江（常远 饰）阴差阳错与顶流网红小海茉（邓家佳 饰）组成了“预制情侣”，被迫为霸道总裁秦天龙（王耀庆 饰）“顶包”的周大江，误打误撞成为了直播新宠。手忙脚乱地应对着流量规则，在成为新晋网红的路上笑料百出。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mfPq6nRGEJBx6DHa066UMvlh7Zi.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zjVViPDaRVxoDOE0Ssl1pmfjOsg.jpg",
-      "releaseDate": "2025-04-28",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1184918,
       "type": "tmdb",
       "title": "荒野机器人",
@@ -178,7 +166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gzq36QVwlXpkHWTQ4ob0Kb1C50i.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
       "releaseDate": "2024-09-12",
-      "rating": 8.314,
+      "rating": 8.313,
       "mediaType": "movie"
     },
     {
@@ -195,66 +183,6 @@
     }
   ],
   "later": [
-    {
-      "id": 1139695,
-      "type": "tmdb",
-      "title": "酱园弄·悬案",
-      "originalTitle": "酱园弄·悬案",
-      "description": "影片根据民国四大奇案之一改编，女子杀夫碎尸最终竟无罪释放？1945年，上海酱园弄发生一起骇人血案，一石激起千层浪。詹周氏（章子怡 饰）为何杀夫？又如何凭一己之力完成碎尸？随着时代变迁，她的命运又将如何改写？大时代下鲜活的众生群像又将如何展开？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dwZ8ovST9NTuCteWJQERut2KvQM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yIvQblXpyQ2qLfqQQpk1BY5MiTa.jpg",
-      "releaseDate": "2025-06-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 954905,
-      "type": "tmdb",
-      "title": "艺术学院1994",
-      "originalTitle": "艺术学院1994",
-      "description": "　　90年代初，南方艺术学院，美术系张小军（董子健 配音）和“兔子”是死党，一起思考艺术，谈论理想，憧憬爱情。因为画作被划破，他们卷入和林卫国（白客 配音）的是非中。郁闷的他们在画展上结识了音乐系的郝丽丽（周冬雨 配音）和高红（姜逸磊 配音），校园生活似乎染上了新的色彩。而老考生赵有才（黄渤 配音）的遭遇和留法研究生吴英俊（大鹏 配音）的出现打破了事情发展的节奏……小军去西北写生一个月，回来后发现一切都变了。正是毕业时节，在现实面前，对于艺术、爱情、友情、理想，每个人有了不同的理解和选择，彼此渐行渐远。小军不能完全理解大家的变化，陷入迷惘和孤独 ……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/iHANhUZlvOb2e5fp8vTnPbOd4W6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jJ1757F6MCpab42xt4BFRoqxXxD.jpg",
-      "releaseDate": "2025-06-21",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 796185,
-      "type": "tmdb",
-      "title": "三个火枪手：达达尼昂",
-      "originalTitle": "Les Trois Mousquetaires : D'Artagnan",
-      "description": "达达尼昂，一个意气风发的年轻加斯科涅人，在试图拯救一位被绑架的贵妇后被留下等死。逃出生天后，他一到巴黎，就想尽一切办法寻找袭击者，却没有意识到他的追索将把他引向一场事关法国未来的战争的核心。在国王的火枪手阿索斯、波托斯和阿拉米斯的帮助下，他面对邪恶的红衣主教黎塞留和米拉迪·德·温特的阴谋，同时爱上了女王的心腹康斯坦斯。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nw5LHr6iZpVk4IlNV3CBTUB6f8V.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lx89oBeJIastndjbQxznnfSYpmR.jpg",
-      "releaseDate": "2023-04-05",
-      "rating": 6.963,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1488302,
-      "type": "tmdb",
-      "title": "阿克达拉",
-      "originalTitle": "阿克达拉",
-      "description": "一位有先天听觉障碍的新疆小女孩，和一位新疆老爷爷通过交换小秘密，揭开了一段封尘已久的深情往事。系红纱巾的稻草人在棉花田里默默守望。他为什么给稻草人系上红纱巾；三个毫无血缘关系的人，为什么亲如一家；一个守候半生的老人，一个失聪的小姑娘，一个埋藏了半个世纪的秘密究竟是什么？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gPpWpQWtyPI1CMnd23DKEg1I0y3.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-06-21",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1488731,
-      "type": "tmdb",
-      "title": "炽热年华",
-      "originalTitle": "炽热年华",
-      "description": "　　纯真开朗的女大学生吉慧英（冯文娟 饰）在突遭家庭变故后，鼓起勇气坚韧前行，在被男人垄断的煤炭行业闯出一片天地的励志故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7triOXJ3JQRSGXkL8KzUJesytDI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/89qFgbDbyBU7xrDYRO9BSDqEwxx.jpg",
-      "releaseDate": "2025-06-21",
-      "rating": 0,
-      "mediaType": "movie"
-    },
     {
       "id": 1492939,
       "type": "tmdb",
@@ -288,7 +216,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.595,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -300,7 +228,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lSbblLngbeZIn6G4WXDcyQ6SLhw.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 8,
+      "rating": 8.7,
       "mediaType": "movie"
     },
     {
@@ -324,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
       "releaseDate": "2024-12-06",
-      "rating": 7.8,
+      "rating": 7.789,
       "mediaType": "movie"
     },
     {
@@ -408,7 +336,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eEPePqbB1wRq76CJtBxPr4p329I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lqMcxZ0wmXqRZoxpxaSG0GmLFbb.jpg",
       "releaseDate": "2021-05-20",
-      "rating": 7.75,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -432,6 +360,66 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a1FUZsYGwMtGub5bJG5UlRPQbmx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/diRS2bfX9KZG4ijX50G4FTNeQy9.jpg",
       "releaseDate": "2025-07-05",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1356014,
+      "type": "tmdb",
+      "title": "皮皮鲁和鲁西西之309暗室",
+      "originalTitle": "皮皮鲁和鲁西西之309暗室",
+      "description": "　　皮皮鲁兄妹在自家衣柜发现309暗室，打开后遇到了科学家“觅工”并得到“致聪盔”。皮皮鲁将“致聪盔”戴到了宠物“大傻”的头上后，城市陷入瘫痪。皮皮鲁和家人齐心协力战胜“大傻”，魔方市恢复了原来模样。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5DjsdDkOFdD9ZPHKzc7MiaohM0v.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4tBD7h254pnhAJTZUzCxbGzYlam.jpg",
+      "releaseDate": "2024-10-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 9574,
+      "type": "tmdb",
+      "title": "飞天法宝",
+      "originalTitle": "Flubber",
+      "description": "从事研究工作的菲利普博士，其生活可用一个“忙”字概括，忙到把婚礼忘记，让新娘在教堂苦等。但他的研究却取得突破：他找到一种绿色物质，它可以克服地心吸力，不管涂在什么东西上，人或者车，都可以腾空而起，自由自在地在天空中飞翔。不过这种物质自身也有脾气，随时会捉弄一下使用它的人。为了把伤心而去的未婚妻找回来，也为了挽救他所在学校关门的命运，他把新发明用在了校篮球队队员的球鞋上，结果球队大胜而归。但同时也招来别有用心者对新发明的觊觎。结果有一天，他的法宝真的不翼而飞了。这样一来，未婚妻又会说他瞎忙而不肯回到他身边。  　　一名天生脱线、终日沉浸于科学研究的菲利普博士(罗宾威廉斯饰)，连自己的婚礼都忘记参加，留下新娘一个人在教堂里。平常照料博士的是一名充满活泼干劲的机器人——薇波(WEEBO)，虽然偶尔会出点小状况，但薇波还是帮了博士不少的忙。然而，薇波一直对博士存有好感。所以，当博士的未婚妻决定再给博士一次机会时，却被薇波从中捣乱，故意把结婚的时间记错，就这样再次地错过了步入礼堂的时间。  　　就在此刻，博士有了一个破天荒的发现，他发明了一种神奇的绿色橡胶，可以抵抗地心引力，只要将它涂抹在任何物体上，就可以让该物体自由飞翔，唯一的缺点就是这玩意儿，颇具个性，而且顽皮，必须花费一段时间才可以掌握他的个性。于是，有了飞天法宝的协助，博士挽回了他的婚姻，同时替妻子就职的学校成功地撑过关门大吉的难关。此外，他们还将飞天法宝涂在原本溃不成军的篮球队的球鞋底下，却出乎意料地打败了敌队。  　　好景不常的是，当博士彰显了飞天法宝的特殊效能时，却引来了坏蛋的觊觎，想利用飞天法宝来做不法之途，正当博士与薇波不注意时，飞天法宝不见了，究竟博士要如何凭一己之力才能找回飞天法宝呢？而调皮捣蛋的绿色小精灵在坏蛋的控制之下会有什么惊人之举呢？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hVdGW5t7FghJ9j0SCUrCw0Sj4ty.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/iaAWeeZaWU7c1UHfxMOhqxLXAUp.jpg",
+      "releaseDate": "1997-11-26",
+      "rating": 5.65,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1061474,
+      "type": "tmdb",
+      "title": "超人",
+      "originalTitle": "Superman",
+      "description": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/omRDPZtSOc6BCkd4hKD6fNDuP0K.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mMS24Uh4AsgkchTFFQaOwFnFDnO.jpg",
+      "releaseDate": "2025-07-09",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1233154,
+      "type": "tmdb",
+      "title": "八戒之天蓬下界",
+      "originalTitle": "八戒之天蓬下界",
+      "description": "　　作为首次以猪八戒为主角的国漫大片，也着重将笔墨用于塑造人物的角色成长与变化。比起以往充满反叛精神的传统国漫英雄，猪八戒向来是一个充满争议与话题的角色形象。虽然贪吃懒惰小自私，但同样拥有自己的底线与坚持，这也使他成为了一个有缺陷的暖男。  　　本次影片中还铺设了猪八戒与其初恋福陵山云栈洞“卵二姐”的爱情线，让猪八戒有情有义的形象更加突出，“美女与野兽”般的相遇虽然美丽而短暂，却更想让人为他们真挚的爱情流泪。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bI6j1vR03r6IYcrfBG7HRqXB8TC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6WajXfBdKs0cGgrqVCgdPuuxm1n.jpg",
+      "releaseDate": "2024-02-10",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1481390,
+      "type": "tmdb",
+      "title": "聊斋：兰若寺",
+      "originalTitle": "聊斋：兰若寺",
+      "description": "　　作为追光动画“新传说”系列下“聊斋”故事的首部作品，影片讲述一书生夜宿兰若寺，被蛤蟆、乌龟二精怪抓到古井底评判故事好坏，书生听到了井边古今未来发生的几个故事，也讲出了自己的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2OoMFBbiCegPocPTywKksVVyQw4.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-07-12",
       "rating": 0,
       "mediaType": "movie"
     }
@@ -458,7 +446,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.2,
+      "rating": 8.24,
       "mediaType": "movie"
     },
     {
@@ -470,7 +458,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.6,
+      "rating": 7.611,
       "mediaType": "movie"
     },
     {
@@ -494,7 +482,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8,
+      "rating": 8.031,
       "mediaType": "movie"
     },
     {
@@ -518,7 +506,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oK7IP8Yx4pTgZSFE8RD74pwlJtW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
       "releaseDate": "2018-04-25",
-      "rating": 8.236,
+      "rating": 8.237,
       "mediaType": "movie"
     },
     {
@@ -542,7 +530,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tVSFt0tDsbvVw0DxAkknyq3ClQB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
       "releaseDate": "2024-06-11",
-      "rating": 7.553,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -554,7 +542,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.7,
+      "rating": 6.696,
       "mediaType": "movie"
     },
     {
@@ -626,7 +614,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mbYTRO33LJAgpCMrIn9ibiWHbMH.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 7,
+      "rating": 6.971,
       "mediaType": "movie"
     },
     {
@@ -638,7 +626,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vnqTgYrnS9dnq9y6gzpR69vsiNu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
       "releaseDate": "2015-04-22",
-      "rating": 7.27,
+      "rating": 7.271,
       "mediaType": "movie"
     },
     {
@@ -674,7 +662,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tLsJ1mqkGTreTuT64N5wXcNwTqm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
       "releaseDate": "2011-07-12",
-      "rating": 8.086,
+      "rating": 8.1,
       "mediaType": "movie"
     }
   ]
