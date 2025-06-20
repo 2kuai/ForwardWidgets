@@ -64,7 +64,7 @@ async function fetchWeeklyList(typeKey) {
       return [];
     }
     return response.data.subject_collection_items.map(item =>
-      tem.title
+      `${item.title}${item.year ? `（${item.year}）` : ''}`
     );
   } catch (error) {
     console.error(`[${typeKey}] 获取榜单失败: ${error.message}`);
@@ -96,7 +96,7 @@ async function fetchAnnualList(id, sub_id) {
         return [];
       }
       return matchedGroup.subject_collection_items.map(item =>
-        item.title
+        `${item.title}${item.year ? `（${item.year}）` : ''}`
       );
     }
     if (!sourceData.subject_collection_items?.length) {
@@ -104,7 +104,7 @@ async function fetchAnnualList(id, sub_id) {
       return [];
     }
     return sourceData.subject_collection_items.map(item =>
-      item.title
+      `${item.title}${item.year ? `（${item.year}）` : ''}`
     );
   } catch (error) {
     console.error(`[${id}${sub_id ? ':' + sub_id : ''}] 获取年度榜单失败: ${error.message}`);
