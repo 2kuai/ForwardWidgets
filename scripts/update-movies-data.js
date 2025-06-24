@@ -10,20 +10,10 @@ const __dirname = path.dirname(__filename);
 
 // 配置项
 const config = {
-  doubanBaseUrl: 'https://movie.douban.com/cinema',
   tmdbApiKey: process.env.TMDB_API_KEY,
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
-  HistoryBoxOfficeUrl: 'https://piaofang.maoyan.com/i/globalBox/historyRank',
   outputPath: 'data/movies-data.json',
-  USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-  headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-mode': 'navigate',
-    'Referer': 'https://movie.douban.com/explore'
-  }
+  USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 };
 
 // 延迟函数
@@ -91,61 +81,76 @@ async function getTmdbDetails(title) {
 
 // 获取豆瓣电影数据
 async function getMovies(params = {}) {
-  try {
-    const type = params.type || 'nowplaying';
-    console.log(`开始获取${type === "later" ? "即将" : "正在"}上映的电影`);
-    const url = `${config.doubanBaseUrl}/${type}/shanghai/`;
-    
-    const response = await axios.get(url, {
-      headers: config.headers,
-      timeout: 10000
-    });
+    try {
+        const type = params.type || 'nowplaying';
+        console.log(`开始获取${type === "coming" ? "即将" : "正在"}上映的电影`);
+        const url = `https://movie.douban.com/${type}?sequence=asc`;
+        
+        const response = await axios.get(url, {
+            headers: {
+              'User-Agent': config.USER_AGENT,
+              'referer': `https://movie.douban.com/${type}?sequence=desc`
+            },
+            timeout: 10000
+        });
 
-    const $ = cheerio.load(response.data);
-    let movies = [];
+        const $ = cheerio.load(response.data);
+        let movies = [];
 
-    if (type === "nowplaying") {
-      const elements = $("#nowplaying .lists .list-item").toArray();
-      movies = elements.map(el => {
-        const $el = $(el);
-        const title = $el.attr("data-title") || $el.find(".stitle a").attr("title") || $el.find("h3 a").text().trim();
-        const year = $el.attr("data-release");
-        return `${title}${year ? `（${year}）` : ''}`;
-      }).filter(Boolean);
-    } else if (type === "later") {
-      const elements = $("#showing-soon .item.mod").toArray();
-      movies = elements.map(el => {
-        const $el = $(el);
-        let title = $el.find("h3 a").text().trim();
-        if (!title) title = $el.find("h3").text().trim();
-        const year = $el.attr("data-release");
-        return `${title}${year ? `（${year}）` : ''}`;
-      }).filter(Boolean);
+        if (type === "nowplaying") {
+            const elements = $("#nowplaying .lists .list-item").toArray();
+            movies = elements.map(el => {
+                const $el = $(el);
+                
+                let title = $el.attr("data-title") || 
+                            $el.find(".stitle a").attr("title") || 
+                            $el.find("h3 a").text().trim();
+                
+                const year = $el.attr("data-release");
+                
+                return `${title}${year ? `（${year}）` : ''}`;
+            }).filter(Boolean);
+        } else if (type === "coming") {
+            const elements = $(".coming_list tbody tr").toArray();
+            movies = elements.map(el => {
+                const $el = $(el);
+                let title = $el.find("td:nth-child(2) a").text().trim();
+                if (!title) title = $el.find("td:nth-child(2)").text().trim();
+                
+                const dateText = $el.find("td:first-child").text().trim();
+                let year = "";
+                const yearMatch = dateText.match(/(\d{4})年|\b(20\d{2})\b/);
+                if (yearMatch) {
+                    year = yearMatch[1] || yearMatch[2];
+                }
+                
+                return `${title}${year ? `（${year}）` : ''}`;
+            }).filter(Boolean);
+        }
+
+        console.log(`开始从TMDB获取${movies.length}部电影的详细信息...`);
+        const results = [];
+        for (const movie of movies) {
+            try {
+                const details = await getTmdbDetails(movie);
+                if (details) results.push(details);
+                await delay(250);
+            } catch (error) {
+                console.error(`处理电影失败: ${movie}`, error);
+            }
+        }
+        return results;
+    } catch (error) {
+        console.error(`获取电影列表失败: ${error.message}`);
+        return [];
     }
-
-    console.log(`开始从TMDB获取${movies.length}部电影的详细信息...`);
-    const results = [];
-    for (const movie of movies) {
-      try {
-        const details = await getTmdbDetails(movie);
-        if (details) results.push(details);
-        await delay(250);
-      } catch (error) {
-        console.error(`处理电影失败: ${movie}`, error);
-      }
-    }
-    return results;
-  } catch (error) {
-    console.error(`获取电影列表失败: ${error.message}`);
-    return [];
-  }
 }
 
 // 获取历史票房排行
 async function getHistoryRank() {
   try {
     console.log('正在请求猫眼历史票房API...');
-    const response = await axios.get(config.HistoryBoxOfficeUrl, {
+    const response = await axios.get("https://piaofang.maoyan.com/i/globalBox/historyRank", {
       headers: {
         "User-Agent": config.USER_AGENT,
         "referer": "https://piaofang.maoyan.com/i/globalBox/historyRank"
@@ -209,16 +214,16 @@ async function main() {
     await delay(2000);
     console.log("开始数据采集...");
 
-    const [nowplaying, later, historyRank] = await Promise.all([
+    const [nowplaying, coming, historyRank] = await Promise.all([
       getMovies({ type: 'nowplaying' }),
-      getMovies({ type: 'later' }),
+      getMovies({ type: 'coming' }),
       getHistoryRank()
     ]);
 
     const result = {
       last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
       nowplaying,
-      later,
+      coming,
       historyRank
     };
 
