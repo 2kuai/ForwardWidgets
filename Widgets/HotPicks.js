@@ -306,7 +306,7 @@ var WidgetMetadata = {
           type: "enumeration",
           enumOptions: [
             { title: "正在上映", value: "nowplaying" },
-            { title: "即将上映", value: "later" },
+            { title: "即将上映", value: "coming" },
             { title: "历史票房", value: "historyRank" }
           ]
         }
