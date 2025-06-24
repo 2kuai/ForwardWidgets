@@ -234,7 +234,7 @@ async function main() {
     console.log(`
 ✅ 数据采集完成！
 🎬🎬 正在热映: ${nowplaying.length}部
-🍿🍿 即将上映: ${later.length}部
+🍿🍿 即将上映: ${coming.length}部
 📜📜 历史票房: ${historyRank.length}部
 🕒🕒🕒 更新时间: ${result.last_updated}
 数据已保存至: ${path.resolve(config.outputPath)}
