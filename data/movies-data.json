@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-25T00:16:37.884+08:00",
+  "last_updated": "2025-06-26T00:17:16.027+08:00",
   "nowplaying": [
     {
       "id": 1139695,
@@ -22,19 +22,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 8,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
-      "id": 942074,
+      "id": 1182247,
       "type": "tmdb",
-      "title": "但愿人长久",
-      "originalTitle": "但願人長久",
-      "description": "来自湖南的新移民子圆及妹妹子缺两姊妹在香港成长，除了面对身份认同、贫穷，还有一个更大的命题：一个长年吸毒的父亲（吴慷仁 饰）。 从小父亲若即若离，喜怒无常，又时常因坐牢突然消失，使两姊妹长期处于不安。小时候她们还会讨好父亲，中学她们掌握了话语权开始反抗、挣扎、逃离。长大后本以为可以彻底挣脱父亲，却发现自己喜欢的所有人事，原来都带着父亲的影子，都与童年的某个回忆有关……影片改编导演祝紫嫣的短篇小说。白描二十载的父女离散，记忆一对姊妹的成长悲欢。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ow7F9gCFpY97MlvsqIxKkT8bq7h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rSigug388cIA2syRjoxZPu59FDK.jpg",
-      "releaseDate": "2024-04-11",
-      "rating": 7.5,
+      "title": "风起前的蒲公英",
+      "originalTitle": "风起前的蒲公英",
+      "description": "　蒲公英中学是北京市第一所专门为进城务工者的子女创办的中学。袁小燕老师已经在这所学校的合唱团工作了八年。每年新生入学的时候，她都要选一批热爱音乐、基础条件好的初一学生加入合唱团。随着北京大兴国际机场的建设，这座最初建立在废弃车间里的初中将搬到新建的现代校舍。在老校区的最后一年里，合唱团迎来了新一批孩子，而升入初二的团员们则需要和家人面对未来的选择。对于合唱团的孩子们来说，初中生涯终将会被升学的压力和离别的无奈所中止。在这段与音乐为伴的人生旅程中，他们一直品尝着属于青春岁月的苦乐悲喜，将它们深埋心底，转化为成长的养分。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jHH8FNCYc52yY92iQ94yXZS5T8p.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sUlqhJBtkrmAW5FrgUa0FWpjWj6.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 541671,
+      "type": "tmdb",
+      "title": "疾速追杀：芭蕾杀姬",
+      "originalTitle": "Ballerina",
+      "description": "　　故事发生在《疾速追杀3》和《疾速追杀4》之间，聚焦一名从小就训练成杀手的年轻女子，她的家人被杀害，她要追杀报仇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
+      "releaseDate": "2025-06-04",
+      "rating": 7.082,
       "mediaType": "movie"
     },
     {
@@ -47,18 +59,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/lx89oBeJIastndjbQxznnfSYpmR.jpg",
       "releaseDate": "2023-04-05",
       "rating": 6.962,
-      "mediaType": "movie"
-    },
-    {
-      "id": 541671,
-      "type": "tmdb",
-      "title": "疾速追杀：芭蕾杀姬",
-      "originalTitle": "Ballerina",
-      "description": "　　故事发生在《疾速追杀3》和《疾速追杀4》之间，聚焦一名从小就训练成杀手的年轻女子，她的家人被杀害，她要追杀报仇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
-      "releaseDate": "2025-06-04",
-      "rating": 7.087,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1OH5h7JhDN0L40IaCvb6eZu7Kup.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bL3ZoOk4mTTEBucm4A9RSFtyP6w.jpg",
       "releaseDate": "2025-05-31",
-      "rating": 5,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -182,18 +182,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1406563,
-      "type": "tmdb",
-      "title": "人生开门红",
-      "originalTitle": "人生开门红",
-      "description": "一场意外的危机公关，让“烤肠哥”周大江（常远 饰）阴差阳错与顶流网红小海茉（邓家佳 饰）组成了“预制情侣”，被迫为霸道总裁秦天龙（王耀庆 饰）“顶包”的周大江，误打误撞成为了直播新宠。手忙脚乱地应对着流量规则，在成为新晋网红的路上笑料百出。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mfPq6nRGEJBx6DHa066UMvlh7Zi.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zjVViPDaRVxoDOE0Ssl1pmfjOsg.jpg",
-      "releaseDate": "2025-04-28",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1477610,
       "type": "tmdb",
       "title": "海底小纵队：海啸大危机",
@@ -216,7 +204,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.727,
+      "rating": 6.695,
       "mediaType": "movie"
     },
     {
@@ -228,7 +216,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rZWkXnIyTLzUJpHSUpOb7vgB0BL.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 8.4,
+      "rating": 7.767,
       "mediaType": "movie"
     },
     {
@@ -311,8 +299,20 @@
       "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
       "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/utW2RcoGuvCPqGzfu3LcvaSDLxX.jpg",
-      "releaseDate": "2025-06-23",
-      "rating": 6.3,
+      "releaseDate": "2025-07-01",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1114777,
+      "type": "tmdb",
+      "title": "小白船",
+      "originalTitle": "小白船",
+      "description": "刘娴十五岁的夏天， 是最孤单寂寞的夏天。母亲远赴非洲，把她丢给了已离婚多年的父亲。刘娴感觉自己成为了一个弃儿，直到朝鲜族姑娘金明美出现，她像是一束光照亮刘娴孤寂的生活。明美肆意张扬的青春活力吸引着刘娴， 刘娴的生活也随之有了全新的色彩......躁动不安的夏日， 青春的懵懂与冲动，为刘娴的一生留下了刻骨铭心的特殊印记。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
+      "releaseDate": "2024-03-20",
+      "rating": 4.2,
       "mediaType": "movie"
     },
     {
@@ -412,18 +412,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1382007,
-      "type": "tmdb",
-      "title": "你行你上",
-      "originalTitle": "你行你上",
-      "description": "少年为了实现音乐梦想，自幼随父离家求学。面对未卜前程，全家初衷不改，于逆境中积累,自困境中突围。终有一日，英雄豹变，十七岁的他登上顶级艺术殿堂，以其巅峰表现征服世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ubP6BLaGBqqVnpUv6MpRvl50Utq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6lk4gKnoujQAm9Mg4EnFfNWpoOw.jpg",
-      "releaseDate": "",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1406607,
       "type": "tmdb",
       "title": "戏台",
@@ -478,8 +466,20 @@
       "originalTitle": "Smurfs",
       "description": "　　蓝精灵村庄每日载歌载舞一片欢乐，直到蓝爸爸（约翰·古德曼 John Goodman 配音）被格格巫绑架打破了平静，蓝妹妹（蕾哈娜 Rihanna 配音）带领蓝精灵勇闯现实世界，用魔法和智慧开启冒险。",
       "posterPath": "https://image.tmdb.org/t/p/w500/pshPDXbQHRK3w88mgxEMfroC4kF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4fsyGmrZrCq9ndkoMLXrLPyMSpf.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/t4xcdwNTmoJFVHfw9vHSChRphXO.jpg",
       "releaseDate": "2025-07-05",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1382007,
+      "type": "tmdb",
+      "title": "你行！你上！",
+      "originalTitle": "你行！你上！",
+      "description": "少年为了实现音乐梦想，自幼随父离家求学。面对未卜前程，全家初衷不改，于逆境中积累,自困境中突围。终有一日，英雄豹变，十七岁的他登上顶级艺术殿堂，以其巅峰表现征服世界。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6cdBQyxQm3Rtd51zeqeVeb6qmMs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6lk4gKnoujQAm9Mg4EnFfNWpoOw.jpg",
+      "releaseDate": "2025-07-25",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -734,7 +734,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.24,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -866,7 +866,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fNZFqhIoE9Du1Gr6Py0rwhhV3fE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
       "releaseDate": "2015-04-01",
-      "rating": 7.223,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -878,7 +878,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9eiKUlyHx5McEpL4R7A14Jo13Ep.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kBSSbN1sOiJtXjAGVZXxHJR9Kox.jpg",
       "releaseDate": "2022-05-21",
-      "rating": 8.2,
+      "rating": 8.176,
       "mediaType": "movie"
     },
     {
@@ -914,7 +914,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vnqTgYrnS9dnq9y6gzpR69vsiNu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
       "releaseDate": "2015-04-22",
-      "rating": 7.27,
+      "rating": 7.271,
       "mediaType": "movie"
     },
     {
