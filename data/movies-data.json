@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-26T00:17:16.027+08:00",
+  "last_updated": "2025-06-27T00:16:47.011+08:00",
   "nowplaying": [
     {
       "id": 1139695,
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.082,
+      "rating": 7.072,
       "mediaType": "movie"
     },
     {
@@ -59,18 +59,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/lx89oBeJIastndjbQxznnfSYpmR.jpg",
       "releaseDate": "2023-04-05",
       "rating": 6.962,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1387103,
-      "type": "tmdb",
-      "title": "好好说再见",
-      "originalTitle": "好好说再见",
-      "description": "三十出头的单亲妈妈应诺（钟欣潼 饰）牵着自己刚满五岁的女儿丢丢踏上了江南小城槐花树下的小径。  她想把丢丢托付给曾与自己断绝关系，发誓老死不相往来的父亲应大海（林栋甫 饰），自己只身出国参加梦寐以求的世界翻糖蛋糕大赛，虽然这个决定其实背后另有隐情……不靠谱的老应使出各种奇怪的招数阻拦应诺离开。  在一 段时光的相处后，应诺逐渐改变了想法。在生命迎来终点之前，她将如何实现一场完美的告别……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/r6IB49ap3onG2LsRDkHkqLO8DYE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/drUOK1iUY5OLjQM16cIWhnwV7Zt.jpg",
-      "releaseDate": "2025-06-20",
-      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -110,6 +98,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1387103,
+      "type": "tmdb",
+      "title": "好好说再见",
+      "originalTitle": "好好说再见",
+      "description": "三十出头的单亲妈妈应诺（钟欣潼 饰）牵着自己刚满五岁的女儿丢丢踏上了江南小城槐花树下的小径。  她想把丢丢托付给曾与自己断绝关系，发誓老死不相往来的父亲应大海（林栋甫 饰），自己只身出国参加梦寐以求的世界翻糖蛋糕大赛，虽然这个决定其实背后另有隐情……不靠谱的老应使出各种奇怪的招数阻拦应诺离开。  在一 段时光的相处后，应诺逐渐改变了想法。在生命迎来终点之前，她将如何实现一场完美的告别……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r6IB49ap3onG2LsRDkHkqLO8DYE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/drUOK1iUY5OLjQM16cIWhnwV7Zt.jpg",
+      "releaseDate": "2025-06-20",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 552524,
+      "type": "tmdb",
+      "title": "星际宝贝史迪奇",
+      "originalTitle": "Lilo & Stitch",
+      "description": "　　讲述孤独的夏威夷小女孩莉萝（玛雅·凯洛哈 饰）和看起来调皮捣蛋的外星生物史迪奇（克里斯·桑德斯 Chris Sanders 配音）的冒险故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xXh0IQ55HzWUsc3xznDLFeyaI80.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+      "releaseDate": "2025-05-17",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
       "id": 1488302,
       "type": "tmdb",
       "title": "阿克达拉",
@@ -134,18 +146,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1488731,
-      "type": "tmdb",
-      "title": "炽热年华",
-      "originalTitle": "炽热年华",
-      "description": "　　纯真开朗的女大学生吉慧英（冯文娟 饰）在突遭家庭变故后，鼓起勇气坚韧前行，在被男人垄断的煤炭行业闯出一片天地的励志故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7triOXJ3JQRSGXkL8KzUJesytDI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/89qFgbDbyBU7xrDYRO9BSDqEwxx.jpg",
-      "releaseDate": "2025-06-21",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1443424,
       "type": "tmdb",
       "title": "红嫁衣",
@@ -158,15 +158,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1362519,
+      "id": 1488731,
       "type": "tmdb",
-      "title": "苍茫的天涯是我的爱",
-      "originalTitle": "苍茫的天涯是我的爱",
-      "description": "手持定制剧本，就能走上顶流之路？模范司机赵天涯（曾毅 饰）与一心想要爆火的Rapper于虹（周奇 饰）阴差阳错成为“师徒搭档”。于虹误以为赵天涯是MCN老板乌力吉（孙艺洲 饰）安排的真人秀NPC，误打误撞坐上老赵的大货车，由此踏上从内蒙古到湖南横跨5000公里的“送羊”闯关之旅。这一路，大开眼界。他们偶遇曼玉山庄董事长（柳岩 饰）慷慨解围，围观蒙古女孩Momo（王玉雯 饰）的绝美家族婚礼。在于虹以为自己即将走上人生巅峰之际，剧本走向却发生了天翻地覆的转变……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2CAT8N3jxYm8RuqMzhuFvAXcH7C.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/o7EiPtuOlSWEjSoFBcKjz9BH0kX.jpg",
-      "releaseDate": "2025-04-30",
-      "rating": 4.2,
+      "title": "炽热年华",
+      "originalTitle": "炽热年华",
+      "description": "　　纯真开朗的女大学生吉慧英（冯文娟 饰）在突遭家庭变故后，鼓起勇气坚韧前行，在被男人垄断的煤炭行业闯出一片天地的励志故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7triOXJ3JQRSGXkL8KzUJesytDI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/89qFgbDbyBU7xrDYRO9BSDqEwxx.jpg",
+      "releaseDate": "2025-06-21",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -196,54 +196,6 @@
   ],
   "coming": [
     {
-      "id": 1022787,
-      "type": "tmdb",
-      "title": "地球特派员",
-      "originalTitle": "Elio",
-      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
-      "releaseDate": "2025-06-18",
-      "rating": 6.695,
-      "mediaType": "movie"
-    },
-    {
-      "id": 911430,
-      "type": "tmdb",
-      "title": "F1：狂飙飞车",
-      "originalTitle": "F1 The Movie",
-      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rZWkXnIyTLzUJpHSUpOb7vgB0BL.jpg",
-      "releaseDate": "2025-06-25",
-      "rating": 7.767,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1396965,
-      "type": "tmdb",
-      "title": "名侦探柯南：独眼的残像",
-      "originalTitle": "名探偵コナン 隻眼の残像（フラッシュバック）",
-      "description": "长野县八岳连峰未宝岳。长野县警大和敢助在雪山上追赶“某个男人”时，突然有什么人的影子出现在了敢助的视野中。回过神来的瞬间，“某个男人”射出的步枪子弹掠过了敢助的左眼，伴随着地面轰鸣发生了雪崩。敢助就这样被吞噬——  10个月后。接到野边山国立天文台的设施研究员被某人袭击的报警后，从雪崩中奇迹般生还的敢助，和上原由衣赶到了现场。正在了解情况的时候天文台的巨大抛物面天线启动了，敢助受伤了的左眼不知为何突然剧烈地疼痛起来……  那天晚上，毛利侦探事务所接到了小五郎警视厅时期关系很好的同事、被称作“鳄鱼”的刑警的电话。他正在未宝岳调查将敢助卷入的雪崩事故，据说案件文档中有小五郎的名字。  柯南也跟着约定和“鳄鱼”日后见面的小五郎同去，但在前往约好的地点的途中，突然响起了枪声。\r 没有实现的约定，与存在于独眼中的残像。  在冰雪肆虐的山岳之上，白茫茫的因缘（乳白天空谜案）之帷幕被拉开了——",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
-      "releaseDate": "2025-04-18",
-      "rating": 7.4,
-      "mediaType": "movie"
-    },
-    {
-      "id": 799766,
-      "type": "tmdb",
-      "title": "更好的我",
-      "originalTitle": "Better Man",
-      "description": "　　见证巨星罗比·威廉姆斯波澜壮阔的不凡人生，除了名利、金钱、欲望之外，还有很多你不知道的事……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
-      "releaseDate": "2024-12-06",
-      "rating": 7.785,
-      "mediaType": "movie"
-    },
-    {
       "id": 37280,
       "type": "tmdb",
       "title": "蜡笔小新：呼风唤雨！猛烈！大人帝国的反击",
@@ -264,7 +216,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gl7kGqjM6wKkWemDeuHuBvNwYxv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tWVXGyDNQM7zRKp162PSdBSgCzb.jpg",
       "releaseDate": "2023-12-13",
-      "rating": 6.441,
+      "rating": 6.4,
+      "mediaType": "movie"
+    },
+    {
+      "id": 327825,
+      "type": "tmdb",
+      "title": "新大头儿子和小头爸爸1：秘密计划",
+      "originalTitle": "新大头儿子和小头爸爸1：秘密计划",
+      "description": "大头儿子（刘纯燕 配音）、小头爸爸（董浩 配音）和围裙妈妈（鞠萍 配音）一家人，各自有着自己的梦想，他们把这些梦想称为自己的“秘密计划”。爸爸妈妈并不真正理解大头儿子的梦想，认为大头儿子在胡闹。爸爸妈妈也有着自己的梦想，但爸爸妈妈的梦想都与大头儿子梦想的实现产生了一次又一次的冲突，他们是否还能重拾往日的欢乐……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vzQWNjh77wMxBY5LG5rGYwBE7EI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/EhUmGwBnIhO802PCHiaFZEp7jZ.jpg",
+      "releaseDate": "2014-09-26",
+      "rating": 9,
       "mediaType": "movie"
     },
     {
@@ -300,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/utW2RcoGuvCPqGzfu3LcvaSDLxX.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 7.1,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -312,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
       "releaseDate": "2024-03-20",
-      "rating": 4.2,
+      "rating": 6.167,
       "mediaType": "movie"
     },
     {
@@ -328,18 +292,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1357295,
-      "type": "tmdb",
-      "title": "恶意",
-      "originalTitle": "恶意",
-      "description": "影片围绕着滨江三院一起费解的双人坠楼案展开，资深媒体人叶攀（张小斐 饰）始终秉持追寻真相的原则，她在调查中先后将护士李悦和母亲尤茜报道为嫌疑人，却因此引发舆情，事态逐渐失控。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ohE4QR7JB9ATYR3Scv4qEjCEjHB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/m4pU5nwSsQhWEJFOwrvBWCbBuns.jpg",
-      "releaseDate": "2025-07-05",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1401502,
       "type": "tmdb",
       "title": "无名之辈：否极泰来",
@@ -347,6 +299,18 @@
       "description": "　　在曼谷街头大闹分手的“渣男”陈三金（章宇 饰）与“狠女”薛芳梅（任素汐 饰），意外卷入了一场犯罪集团的绑架活动。二人不出意外的成为了人质中的“出头鸟”、绑匪的“眼中钉”，在面临生存还是毁灭的一系列极端选择之际，二人尽显“渣男”“狠女”本性。殊不知这场意外背后还暗藏着更大危机，极端情境下的二人将何去何从？异国人群中的无名之辈们又将如何反抗命运？",
       "posterPath": "https://image.tmdb.org/t/p/w500/a1FUZsYGwMtGub5bJG5UlRPQbmx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/diRS2bfX9KZG4ijX50G4FTNeQy9.jpg",
+      "releaseDate": "2025-07-05",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1357295,
+      "type": "tmdb",
+      "title": "恶意",
+      "originalTitle": "恶意",
+      "description": "影片围绕着滨江三院一起费解的双人坠楼案展开，资深媒体人叶攀（张小斐 饰）始终秉持追寻真相的原则，她在调查中先后将护士李悦和母亲尤茜报道为嫌疑人，却因此引发舆情，事态逐渐失控。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ohE4QR7JB9ATYR3Scv4qEjCEjHB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/m4pU5nwSsQhWEJFOwrvBWCbBuns.jpg",
       "releaseDate": "2025-07-05",
       "rating": 0,
       "mediaType": "movie"
@@ -382,7 +346,7 @@
       "originalTitle": "Superman",
       "description": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
       "posterPath": "https://image.tmdb.org/t/p/w500/omRDPZtSOc6BCkd4hKD6fNDuP0K.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mMS24Uh4AsgkchTFFQaOwFnFDnO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/d6On7koBBPAankQotNn77js38v5.jpg",
       "releaseDate": "2025-07-09",
       "rating": 0,
       "mediaType": "movie"
@@ -432,7 +396,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gwbxrlFrlYMcgUGmDrrKgoboe06.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ugXEDHKGNUAp1ma4x7JOUCSmAXs.jpg",
       "releaseDate": "2015-07-29",
-      "rating": 7.61,
+      "rating": 7.611,
       "mediaType": "movie"
     },
     {
@@ -466,7 +430,7 @@
       "originalTitle": "Smurfs",
       "description": "　　蓝精灵村庄每日载歌载舞一片欢乐，直到蓝爸爸（约翰·古德曼 John Goodman 配音）被格格巫绑架打破了平静，蓝妹妹（蕾哈娜 Rihanna 配音）带领蓝精灵勇闯现实世界，用魔法和智慧开启冒险。",
       "posterPath": "https://image.tmdb.org/t/p/w500/pshPDXbQHRK3w88mgxEMfroC4kF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/t4xcdwNTmoJFVHfw9vHSChRphXO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4fsyGmrZrCq9ndkoMLXrLPyMSpf.jpg",
       "releaseDate": "2025-07-05",
       "rating": 0,
       "mediaType": "movie"
@@ -477,7 +441,7 @@
       "title": "你行！你上！",
       "originalTitle": "你行！你上！",
       "description": "少年为了实现音乐梦想，自幼随父离家求学。面对未卜前程，全家初衷不改，于逆境中积累,自困境中突围。终有一日，英雄豹变，十七岁的他登上顶级艺术殿堂，以其巅峰表现征服世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6cdBQyxQm3Rtd51zeqeVeb6qmMs.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/m2jsHifYXtgcUKHGNE6XQVSpAmS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6lk4gKnoujQAm9Mg4EnFfNWpoOw.jpg",
       "releaseDate": "2025-07-25",
       "rating": 0,
@@ -734,7 +698,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.2,
+      "rating": 8.24,
       "mediaType": "movie"
     },
     {
@@ -746,7 +710,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.61,
+      "rating": 7.611,
       "mediaType": "movie"
     },
     {
@@ -830,7 +794,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.696,
+      "rating": 6.697,
       "mediaType": "movie"
     },
     {
@@ -878,7 +842,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9eiKUlyHx5McEpL4R7A14Jo13Ep.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kBSSbN1sOiJtXjAGVZXxHJR9Kox.jpg",
       "releaseDate": "2022-05-21",
-      "rating": 8.176,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -914,7 +878,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vnqTgYrnS9dnq9y6gzpR69vsiNu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
       "releaseDate": "2015-04-22",
-      "rating": 7.271,
+      "rating": 7.27,
       "mediaType": "movie"
     },
     {
