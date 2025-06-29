@@ -127,7 +127,8 @@ async function getMovies(params = {}) {
                 return `${title}${year ? `（${year}）` : ''}`;
             }).filter(Boolean);
         }
-
+        
+        console.log(`从豆瓣获取到${movieList.length}部历史票房电影`);
         console.log(`开始从TMDB获取${movies.length}部电影的详细信息...`);
         const results = [];
         for (const movie of movies) {
