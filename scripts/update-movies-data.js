@@ -82,6 +82,7 @@ async function getTmdbDetails(title) {
 // 获取豆瓣电影数据
 async function getMovies(params = {}) {
     try {
+        console.log('正在请求豆瓣${type === "coming" ? "即将" : "正在"}上映API...');
         const type = params.type || 'nowplaying';
         const url = `https://movie.douban.com/${type}?sequence=asc`;
         
@@ -123,11 +124,11 @@ async function getMovies(params = {}) {
                     year = yearMatch[1] || yearMatch[2];
                 }
                 
-                return `${title}${year ? `（${year}）` : ''}`;
+                return `${title}${year ? `（${year}）` : '（2025）'}`;
             }).filter(Boolean);
         }
         
-        console.log(`开始豆瓣获取${movies.length}部${type === "coming" ? "即将" : "正在"}上映的电影`);
+        console.log(`从豆瓣获取${movies.length}部${type === "coming" ? "即将" : "正在"}上映的电影`);
         console.log(movies);
         const results = [];
         for (const movie of movies) {
@@ -199,7 +200,6 @@ async function getHistoryRank() {
       })
     ).then(results => results.filter(Boolean));
     
-    console.log(`成功匹配${tmdbResults.length}部历史票房电影`);
     return tmdbResults;
   } catch (error) {
     console.error("获取历史票房榜单失败:", error);
