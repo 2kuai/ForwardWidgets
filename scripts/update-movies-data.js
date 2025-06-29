@@ -82,7 +82,6 @@ async function getTmdbDetails(title) {
 // 获取豆瓣电影数据
 async function getMovies(params = {}) {
     try {
-        console.log('正在请求豆瓣${type === "coming" ? "即将" : "正在"}上映API...');
         const type = params.type || 'nowplaying';
         const url = `https://movie.douban.com/${type}?sequence=asc`;
         
@@ -124,7 +123,7 @@ async function getMovies(params = {}) {
                     year = yearMatch[1] || yearMatch[2];
                 }
                 
-                return `${title}${year ? `（${year}）` : '（2025）'}`;
+                return `${title}${year ? `（${year}）` : ''}`;
             }).filter(Boolean);
         }
         
@@ -150,7 +149,6 @@ async function getMovies(params = {}) {
 // 获取历史票房排行
 async function getHistoryRank() {
   try {
-    console.log('正在请求猫眼历史票房API...');
     const response = await axios.get("https://piaofang.maoyan.com/i/globalBox/historyRank", {
       headers: {
         "User-Agent": config.USER_AGENT,
