@@ -165,7 +165,7 @@ async function updateTheaterData() {
             console.log(`- ${theaterName}: ${airedCount} aired, ${upcomingCount} upcoming`);
         }
         
-        const outputPath = path.join(__dirname, '..', 'data', 'theater-data_2.json');
+        const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
         
