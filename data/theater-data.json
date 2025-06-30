@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-30T19:35:33.265+08:00",
+  "last_updated": "2025-06-30T22:17:42.674+08:00",
   "迷雾剧场": {
     "aired": [
       {
@@ -10,6 +10,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/2UDUw8YRqVJZD2U55rRDLDpYoer.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/wamVXjQotdYo6K9EP3W95fdOEW2.jpg",
         "releaseDate": "2025-04-18",
+        "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 252572,
+        "type": "tmdb",
+        "title": "乌云之上",
+        "description": "韩青是三合刑侦队的女警官，因为不苟言笑只问工作被送外号“不高兴”，她与搭档钟伟合作多年十分默契，然而钟伟却在跟踪一位嫌疑人后失踪，快两个月杳无音信。韩青在焦虑、痛苦中处理着其它案件，同时不放弃任何与钟伟有关的线索。新出现的命案引起韩青的高度警觉，她通过蛛丝马迹判断命案与钟伟的失踪有关，尽管调查中阻力重重，真正的嫌犯最终还是浮出水面，而钟伟到底经历了什么也一点点变得清晰起来，警方抽丝剥茧，发现了失踪、杀人、贩毒三件大案的关联处，摸到了一个犯罪集团精心组织架构的网，也发现了隐藏在这个网背后的秘密。三合刑侦队群策群力，一举破获了全案，犯罪分子悉数落网。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gnaDUFZYlScmjU8vQqfdn4KcFVe.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/gId0qV04Np9d4zfZ6GdPS92H68o.jpg",
+        "releaseDate": "2025-04-03",
         "rating": 7,
         "mediaType": "tv"
       },
@@ -33,17 +44,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/v9U7EW0ql5A7n1mRZt6fCXj1B6h.jpg",
         "releaseDate": "2024-12-26",
         "rating": 7.7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263078,
-        "type": "tmdb",
-        "title": "二十一天",
-        "description": "临近新年，海舟市老牌商场罗百百货突然发生沉降事故，致使13人被困地下。这场时间与生命的赛跑，带来的是人性、道德与信仰的重重考验…….",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aspujSYHZa15665On6aXRzv8HE2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/n61RGMZSpx2XDMrwI9PqcaYOo5.jpg",
-        "releaseDate": "2024-09-26",
-        "rating": 7,
         "mediaType": "tv"
       },
       {
@@ -80,14 +80,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 136443,
+        "id": 241206,
         "type": "tmdb",
-        "title": "仿生人间",
-        "description": "与人类形象无异的仿生人由于发展过快，引发公众的担忧。“明眸”组织专门负责仿生人案件，组员程诺头脑冷静，安秋善于共情，面对仿生人不断被害，两人联手揭开谜团。众生烟火，仿生人间。人类和仿生人的命运都正在被悄悄改写。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/udnBSh8FwIBShMYO8rh4hEKUgRd.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/slASAYIaA85iwLcCwv26yMQ8zHX.jpg",
-        "releaseDate": "2023-10-18",
-        "rating": 6.5,
+        "title": "三大队",
+        "description": "讲述一次审讯意外，三大队刑警程兵（秦昊 饰）入狱服刑，队友受牵连脱警、降职，曾经的三大队分崩离析。十年牢狱，程兵重获自由，信仰崩塌，热血化为沉默，他失去一切，而案件的犯罪嫌疑人王大勇依旧在逃…\n\n穿一天警服，终身是正义。三大队需要交代，不甘化作执着，利刃再次出鞘 ，程兵和三大队的兄弟重新集结踏上追凶之路，在孤独和漫长的旅途中配合警方千里追凶，也在这苦行僧一样的历程中重新找到人生的坐标和生命的意义。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/55akiT10951gxxaRuCEzgXNzznF.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8PkKQcA53Zb9fEojItVfpeDLxsX.jpg",
+        "releaseDate": "2023-12-21",
+        "rating": 8.7,
         "mediaType": "tv"
       },
       {
@@ -124,11 +124,22 @@
         "mediaType": "tv"
       },
       {
+        "id": 136444,
+        "type": "tmdb",
+        "title": "回来的女儿",
+        "description": "故事发生在上世纪90年代的潭岭小镇，孤女陈佑希（张子枫 饰）为了寻找失踪的好姐妹小秀，以李家多年前走丢的女儿“李文文”的身份闯入李家。陈佑希被家庭温暖包围，渐渐放下猜疑，却发现“温暖”的背后，藏着谎言、阴谋、犯罪还有死亡，不知不觉中陈佑希已踏入险境...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nwkDrVOsvZ4Hp7vj4Kb0igE7SQU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zFwWz18YITYvyxreic8wHyjkxCL.jpg",
+        "releaseDate": "2022-12-21",
+        "rating": 7.2,
+        "mediaType": "tv"
+      },
+      {
         "id": 132281,
         "type": "tmdb",
         "title": "淘金",
         "description": "拱马国淘金区四木场，淘金客们要赶在雨季来临前淘到更多的砂金。金老板武建超为退休上岸积攒了数年的砂金被人摸走，又遭遇河段将被吞并的危机，背后操控这一切的是一个绰号为“猫头鹰”的神秘金贩。淘金新手陈保金为追寻哥哥意外死亡的真相，孤身一人来到拱马，却深陷迷局。突如其来的“洗场”，让淘金客们一季的辛苦与期冀付之东流。众人孤注一掷，奔向荒废数十年的姊妹岭老金场做最后一搏。淘金客们闯入深山老林，死亡的阴影一路伴随，而“猫头鹰”也逐渐浮出水面。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ueG7uWftEVhdSwZtqtkY5e8rpHl.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8aNMRIoYUorGEMmQF5kstZZKsVg.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/zwVk6EQe3eMu1oLM467kT3MF84I.jpg",
         "releaseDate": "2022-01-18",
         "rating": 8,
@@ -165,6 +176,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8rpZkWvBPaX9anEqQh2nYk9okJl.jpg",
         "releaseDate": "2021-10-13",
         "rating": 5.6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 133988,
+        "type": "tmdb",
+        "title": "再见那一天",
+        "description": "上世纪90年代，热血不羁的“钢厂大院才子”胡广来，跟刚调来的社区民警老公安全党愿，惺惺相惜情同弟兄。因姐姐胡芳被流氓强暴，胡广来激愤下失手杀死对方被判死缓，彻底绝望。全党愿毅然担负起了胡广来与这个世界的纽带，在他不断地坚持和感化下，胡广来认真改造减刑，重拾了生活的尊严和希望。就在刑期将满前，胡广来惊闻全党愿被一个叫“史瑞克”的人打死的噩耗……去世前，癌症晚期的全党愿，把胡广来托付给了干女儿梅湘。在梅湘帮助下胡广来学会了自食其力。同时胡广来也开始和梅湘一起秉承全党愿的遗志，帮助那些刑满回乡人员，重新开始生活。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9Gsblc2vL07fEzqTVLHkC8El13g.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9Skh84vXgOIm3BomtEsVhOaL0R.jpg",
+        "releaseDate": "2021-09-21",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -225,6 +247,17 @@
     ],
     "upcoming": [
       {
+        "id": 252579,
+        "type": "tmdb",
+        "title": "正当防卫",
+        "description": "市检察院资深检察官段鸿山在办理“被家暴女性杀夫”案件时，省检察院青年检察官方灵渊被任派协助办案。两人办案过程中，发现案件与十四年前段鸿山办理的李沐风、梅筝、江婷经历的“校园防卫过当案”息息相关，二人以事实为根据，以法律为准绳，综合考量“天理、人情、国法”，最终给予案件准确定性的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jMppzp6ohtFBKoAe89KyUIPfAfv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9xvzNkAzJQ1yUw9mytGUaVXrbpB.jpg",
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 263151,
         "type": "tmdb",
         "title": "树影迷宫",
@@ -245,44 +278,22 @@
         "releaseDate": "",
         "rating": 0,
         "mediaType": "tv"
-      },
-      {
-        "id": 277616,
-        "type": "tmdb",
-        "title": "回来的她们",
-        "description": "一辆看似意外的跑车撞人案，所有人牵扯其中，正邪较量，光暗共存，关于那些尘封已久的秘密，她们有话要说...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/unycK5Sphq17Rj1gv6NXegUBpl8.jpg",
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 289723,
-        "type": "tmdb",
-        "title": "无罪之身",
-        "description": "该剧由一桩绑架案展开，讲述了警方在探案过程中发现了证物留声机里记录的一起尘封十年的凶杀案，随着警方对这起杀人案的调查，竟发现了隐藏在案件背后更为惊人的秘密。剧集并未拘泥于探究案件本身，而是以情感为扣，着力展现三位本该前程似锦的年轻人在命运的裹挟下相互守护的真挚情感 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/b9ejm0VCKt4kNc0vNvg9tfEDb9X.jpg",
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 280063,
-        "type": "tmdb",
-        "title": "目之所及",
-        "description": "世纪之交，因为水利工程的蓄水要求，一座江边小城即将被淹没，人们如火如荼地进行着新城的建设和人口的迁徙。2002年夏的东江市，暴雨如注。一桩离奇的杀人案闯入了警方的视野，死去的情人、消失又复生的丈夫，他们是“凶手”亦是“死者”。终于在警方锲而不舍的追查下，揭秘出一段尘封多年的往事。人性的复杂让许多人蒙蔽了双眼，但真相永远不会被淹没，目之所及皆是阳光。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hx9MV90H8RD5zp7C7d5vprWMNTO.jpg",
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
       }
     ]
   },
   "白夜剧场": {
     "aired": [
+      {
+        "id": 272937,
+        "type": "tmdb",
+        "title": "以法之名",
+        "description": "本剧讲述了海东省检察院检察官洪亮、郑雅萍等人在复查东平市“万海黑社会性质组织案”过程中发现司法人员在案件中的徇私枉法。他们以举报线索为突破口，彻底打掉了背后的黑恶势力，同时查办司法工作人员的职务犯罪。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qQ2l2l9hNLIufPKlOLpkNpBUEEP.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yzWsuXA9CORUwxhuSDgmGN90Mqq.jpg",
+        "releaseDate": "2025-06-24",
+        "rating": 9,
+        "mediaType": "tv"
+      },
       {
         "id": 272100,
         "type": "tmdb",
@@ -372,212 +383,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 221208,
+        "id": 76582,
         "type": "tmdb",
-        "title": "他是谁",
-        "description": "1988年，刑警卫国平（张译 饰）在追捕连环凶杀案的行动中目睹战友牺牲，而凶手却逃跑了，此事成为卫国平的心结。八年后，宁江市发生了骇人听闻的碎尸案，此时卫国平已成长为成熟的刑警队长。他在带领队员调查的过程中相继破获了不少相关案件，但是碎尸案始终充满疑云，并且很多线索与八年前的连环凶杀案有关，这些发现让卫国平振奋但也成为他后来判断案情的阻碍。在案件的推进过程中，聂宝华（赵阳 饰）的犯罪集团也介入其中，最终卫国平在领导和队友的帮助支持下，抓获了八年前的凶手，同时打掉了以聂宝华为首的犯罪集团。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9cx60vuOGztQJlzx2P64Yldwibd.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uWISo3qZBixbea1H766UiV9px95.jpg",
-        "releaseDate": "2023-03-14",
-        "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 220149,
-        "type": "tmdb",
-        "title": "立功·东北旧事",
-        "description": "故事发生在1990年，东北一座人口两万人的小城市——双鱼河，双鱼河恶性事件频发，而这些案件的线索竟皆与暖瓶厂保卫科职工商全亮（范伟 饰）有着千丝万缕的关联，黄金动人心，在老妖山黄金传说浮出水面之际，众黑恶势力先后“入局”寻金，矛盾冲突不断升级，当贪念逐渐占据“上风”，人性深林又会展现怎样的众生相？重重疑团，云山雾罩……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3KTTGhNhpligwrXFO7m9L2QZmMe.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4BTr9WsgBUrHCCIACbnKX7P7vK9.jpg",
-        "releaseDate": "2023-02-10",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 211833,
-        "type": "tmdb",
-        "title": "执念如影",
-        "description": "警界双雄骆松与高川因追查恩师程枫华意外遇害而引发的系列故事。程枫华去世后，高川因故脱离警队，但仍然执着于调查恩师的死亡真相，而接连发生的系列案件也让骆松对于程枫华的遇害有了更多怀疑。双雄再度联手，殊不知，二人已经陷入幕后主使精心策划的生死迷局之中。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/zaMvX97gYyW4Ygfzt0vawshnxlF.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6s9iqd4npD0LSwk9CGXkpo0oQoW.jpg",
-        "releaseDate": "2022-10-07",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 197706,
-        "type": "tmdb",
-        "title": "冰雨火",
-        "description": "　　三年前，吴刚因涉毒被贩毒集团K所杀，其子吴振峰（陈晓 饰）因莽撞违纪被开除警籍。吴振峰心如死灰，被兄弟陈宇（王一博 饰）阻拦出境，途中二人险遭劫持，吴振峰为救陈宇被毒贩掳走，从此再无音讯，这一刻二人的命运被彻底改写。三年后，陈宇成为禁毒民警，不料吴振峰再度归来却与命案牵连。吴振峰洗刷嫌疑后，却被陈宇发觉他与贩毒集团有着千丝万缕的联系。为彻底歼灭贩毒集团，陈宇服从上级部门的安排，脱下警服开启禁毒生涯的新历程。与此同时他才得知吴振峰竟是潜伏在贩毒集团的孤胆英雄。陈宇与吴振峰先后打入贩毒集团内部，两人默契配合，并肩作战，最终在公安部署下将贩毒集团一网打尽。兄弟二人继续投身于公安禁毒事业中，不忘初心，牢记使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nnWbHbB3n9d9TZss9bn4VuFR0zG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/vcOsC4I6mgsioqQ4Qz53YWNPLXz.jpg",
-        "releaseDate": "2022-08-11",
-        "rating": 6.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 207712,
-        "type": "tmdb",
-        "title": "胆小鬼",
-        "description": "剧集讲述了一段跨越十年的沉郁青春往事：少年秦理因父亲抢劫杀人，而成为校园中的众矢之的。转学生黄姝，及其好友王頔、冯雪娇始终坚定地站在他身边，四人建立起了一段珍贵的校园情谊。然而，成长过程中一连串事件的发生，却不断挑战着这段友情，坚守与背叛，他们该如何抉择……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/j2O4YU4c1VLARgE7y4ZLQz5tDWL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/n1fFWasuf0LwXw1Nx4TmgdQDZV.jpg",
-        "releaseDate": "2022-08-08",
-        "rating": 7.1,
-        "mediaType": "tv"
-      },
-      {
-        "id": 205994,
-        "type": "tmdb",
-        "title": "庭外",
-        "description": "系列剧《庭外》开创性地运用双单元剧的形式，分为《盲区》和《落水者》两个篇章。\n\n第一单元《庭外・盲区》，故事发生在16小时之内，法官鲁南（夏雨 饰）在出差南津向庭长汇报工作时，被要求参详一桩九年前“离奇碎尸惨案”的死刑复核工作，而这桩案子又与“陈曼团伙走私案”有千丝万缕的联系。为探寻真相，鲁南与在津港的乔绍廷（罗晋 饰）联手，凭借各自的“极限操作”，最终破解了真正谜底。而乔绍廷也借此意外得到了《庭外·落水者》中自己跟进的那起“离奇无尸案”的重要线索。\n\n第二单元《庭外・落水者》讲述了主人公乔绍廷（罗晋 饰）身为金牌律师，在代理一桩“离奇无尸案”时遭遇的重重困境。尽管被陷害为犯罪嫌疑人，他仍执着于调査案件的真相。同时，优秀的青年律师萧臻（焦俊艳 饰）与他搭档，共同跟进案件的死刑复核工作。另外，此案也牵动了津港市金馥、德志两大律所的暗中纷争。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/K8ux4HzF8k7OiQq8JPKgHMxdRc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/e9xOGHv69wOMNBDEp6BwtnJJZ76.jpg",
-        "releaseDate": "2022-07-14",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 203804,
-        "type": "tmdb",
-        "title": "回廊亭",
-        "description": "该剧改编自东野圭吾推理小说《回廊亭杀人事件》，讲述了深夜回廊亭突然大火，一名男子葬身火海，姜远星严重烧伤毁容；阳光帅气的程成出现于远星的生命中，两人的命运似乎也被这场大火改变的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4ypn9sUvPxYAsYszCH8kjxhuyMi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/msjUMpkWIVitYdTI9v79sAdrut1.jpg",
-        "releaseDate": "2022-06-15",
-        "rating": 6.8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 200737,
-        "type": "tmdb",
-        "title": "重生之门",
-        "description": "　　该剧讲述了出身“盗贼世家”的天才大学生庄文杰（王俊凯饰）意外卷入“睡莲”案，结识了精明能干的警官罗坚（张译饰），之后二人合作共同破获多起离奇大案，并让尘封多年的“洛神失窃案”谜底得以揭开，成功捉住真凶、捍卫正义的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rEMW6pqHtNbeylN4Rf2PFF27A2K.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/QqSXYsmlyFY33oAtgdlcu5OFIp.jpg",
-        "releaseDate": "2022-04-27",
-        "rating": 5.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 130817,
-        "type": "tmdb",
-        "title": "玫瑰行者",
-        "description": "岭南市禁毒大队长程吉在执行任务中遇害后，警校生林蔷误打误撞被毒贩当做交易人员，警队顺势安排林蔷隐藏身份开始执行卧底任务搜集毒贩罪证。在潜入邱虎集团时，林蔷结识了海外毒枭马洪涛的养子张冼赫，林蔷既要假装与其情投意合获取情报，又要抑制自己真实情感，两人颇有默契地和邱虎、刘兵两大毒枭周旋，然而这一切都是马洪涛的计划，利用警方力量打击竞争者坐享渔翁之利。林蔷身份被张冼赫发现，张冼赫陷入两难，与此同时外围的联合执法队伍也要赶在林蔷被马洪涛识破前找到他们的藏身之地，林蔷命悬一线，更令她没想到的是，自己生父的秘密也与宿敌马洪涛有关 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/BKZvaqVnbQM7Rp4W24kDDujlEG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yFz4Fi3XpIimDSCVFNSfLNP9RX8.jpg",
-        "releaseDate": "2021-08-11",
-        "rating": 4.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 113436,
-        "type": "tmdb",
-        "title": "黑白禁区",
-        "description": "淦天雷、熊国良、杨晓蕾曾是警校的铁三角。淦天雷为帮杨晓蕾解围打架伤人受到处分，离开警校后南下讨生活，被凯撒集团年轻骨干车厘子相中，带进集团。淦天雷遇到警方卧底石小海（海叔），受其点化，成为邰勇峰的线人并屡建奇功，经省厅特批成为一名警察。在对凯撒集团执行收网任务之际，淦天雷因苏灵引爆炸弹陷入昏迷。八年后，淦天雷在医院苏醒，却失去了记忆。凯撒之案，因证据不足，尚未破解，淦天雷的记忆成为解开秘密的唯一钥匙。伴随着淦天雷的苏醒，凯撒集团和谭家两大势力重新复苏作案。邰勇峰意识到其中有蹊跷，决定放手让淦天雷追查。淦天雷逐渐找回记忆，拿到了关键信息。最终，经过警方努力，凯撒和谭家两大团伙所有罪犯全部落网。为查出凯撒背后的国际性犯罪组织，淦天雷又踏上了新征程。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uBG7vVsPas834CTNAD8BZfanpYE.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ifXzC7pH2DTOkBcFQ0jAl3muTUn.jpg",
-        "releaseDate": "2020-12-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 114527,
-        "type": "tmdb",
-        "title": "迷雾追踪",
-        "description": "西南一座小城，发生了两起匪夷所思的离奇案件，在警方剥茧抽丝的调查过程中，发现了一系列不为人知的秘密。随着线索越来越多，看似简单的案子却是纠葛复杂，究竟谁才是真正的幕后操控者，爱恨罪恶纠缠，正义和黑暗，较量越演越烈 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/woGjZhFu88r8GFfctntG6uLGZVl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1NuzXXhcu1scvbshHaThLXIDsFQ.jpg",
-        "releaseDate": "2020-12-11",
-        "rating": 6.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 113632,
-        "type": "tmdb",
-        "title": "最初的相遇，最后的别离",
-        "description": "　　前缉毒警严谨在卧底贩毒集团调查陈年疑案时，与“似水流年”咖啡店老板季晓鸥相爱。一桩离奇的杀人案却将两人的爱情拖入深渊。真相迷雾重重，而严谨仿佛坠入无尽的黑暗，他和季晓鸥的爱情又将何去何从……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4stsmAjooxFCIMIqz2su8soJyCR.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pF2X4U8pRbuRCv9KnBGeXNpfVKT.jpg",
-        "releaseDate": "2020-11-19",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 112573,
-        "type": "tmdb",
-        "title": "破茧",
-        "description": "省昆虫研究所毒理昆虫学专业研究生谭景天无意中卷入一桩离奇的案件，死因竟与一种罕见的虫子——子弹蚁有直接的关系。谭景天为洗脱“罪名”协助警察破案，并因此与年轻女法医金灵产生交集。谭景天在昆虫专业上的造诣和金灵精准的法医分析相得益彰，配合刑警队长陈悍及诸位刑警共同寻踪出每个案件的草蛇灰线。谭景天与金灵以及刑警队诸位警察一起完成了“美洲大蠊案”、“微刺盲蝽案”、“磕头虫案”、“多眼灰蝶案”、“梭毒隐翅虫案”等案件的破解。在此过程中，谭景天也解开了自己的身世之谜，揪出了隐藏多年的幕后真凶。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cmchrQLbRUE9jIwTw0rDgC2vB57.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ooNVwzt4yEX1JoPJfu8cNlACfu1.jpg",
-        "releaseDate": "2020-11-03",
-        "rating": 4.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 111589,
-        "type": "tmdb",
-        "title": "平行迷途",
-        "description": "　　改编自豆瓣阅读同名小说《天蓝蓝》，苏明和顾俊是警校的同班同学，两人毕业后开始了不同的人生轨迹和爱情，然而有一天，苏明突然被停职，就此消失。顾俊本以为他们的不同仅仅是因为阶级的差别，然而随着案情推进，顾俊才发现隐藏在苏明身上的秘密。耀眼的阳光透出层层阴霾，让一切清澈见底。我们也许不会和黑暗势力真枪实弹，而我们都有可能遇到你所爱非人的质问……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4JWGhx5y6LXB1qhWps3BUVS1qng.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/o1ICfh1SJujtSOj3db0yfHAkrkI.jpg",
-        "releaseDate": "2020-10-13",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 110360,
-        "type": "tmdb",
-        "title": "我在香港遇见他",
-        "description": "　　该剧讲述了赴港求学的青年李嘉辗转高街、浅水湾、湾仔等地寻找租房的过程中，与两个密友张叉叉、时诚所经历的各种惊心动魄却又感动人心的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vjjNCm4GTu61XCWtkqBirpJYOdQ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5afEV3Q9fbFVI1ow3QcNBxBlf2E.jpg",
-        "releaseDate": "2020-09-21",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
-        "id": 107722,
-        "type": "tmdb",
-        "title": "白色月光",
-        "description": "张一和张鑫本是建筑领域令人艳羡的佳偶，张一怀孕后张鑫主动提出辞职照顾家庭，到如今女儿笑笑已经五岁。从表面上看，事业稳步上升，家庭美满幸福，张一没有意识到，她已经处在被谎言包裹的漩涡之中……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fwVw9NcYb0FTFvgXC4KFy8TAmku.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bT3PV5ybIBHWjOcvCGWbwdcDa3D.jpg",
-        "releaseDate": "2020-08-19",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 107460,
-        "type": "tmdb",
-        "title": "刺",
-        "description": "故事讲述了警官陈茜，接到一起女性失踪事件的报案，经过与失踪人韩晓婷周边同事和朋友的接触，一桩十年前发生的校园欺凌案件逐渐浮出水面。十年前的一所高中里，发生在韩晓婷，刘涛，张蓓蕾等人之间的故事，友情与爱情，背叛与旁观，侮辱与损害……在韩晓婷心中留下了深深的阴影。十年后，故事中的主人公因工作关系重新被命运捏合在一起韩晓婷展开了复仇计划……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/buj2G3DDJAzkO4579aBB4Igvexk.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/obVvn2atJXcnZOKUkPvT7Xj2Fjs.jpg",
-        "releaseDate": "2020-07-28",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
-        "id": 104374,
-        "type": "tmdb",
-        "title": "失踪人口",
-        "description": "一场车祸，六名幸存者，无法逃离的神秘河谷，错综复杂的命运羁绊，那些掩埋在心底的秘密，即将唤醒！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/x4S2Wpv9Ry8cIP5LQ08kPakm1Vm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/eGoTmdFE4ySlc64q0d7Xfj31WVR.jpg",
-        "releaseDate": "2020-06-03",
-        "rating": 2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 146402,
-        "type": "tmdb",
-        "title": "真相",
-        "description": "我们生活中总有一些悲剧不断发生，夫妻之间、邻里之间、朋友之间、同事之间、因一些琐碎的事情而发生矛盾，并且因为各自的固执和偏狭，导致矛盾愈演愈烈，双方按捺不住，激情杀人。类似悲剧在我们的周围俯拾皆是，但遗憾的是，许多人关注的是悲剧的结果，往往忽略了悲剧的起因。本剧目的就在于让人们透过这些悲剧发生、发展的过程，让每一个人都警惕自己生活中的某些情感变化，并以别人的悲剧为鉴，理智地化解这些情感变化。由于激愤杀人的触发点大都是生活小事、没有波澜壮阔的情节背景，没有大起大落的人物命运变化，有的只是某种情绪在生活琐事中的不断积累，是人物心态的稍微变化，极适宜以小见大的系列单元剧表现，并且唯此才能涵盖生活的丰富和广泛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pRR1DgPar98Bm9a88UctRkk8bCg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uAU202kARKjHEo0HoP8YLnboUUK.jpg",
-        "releaseDate": "2001-01-01",
-        "rating": 0,
+        "title": "悬案",
+        "description": "USA台将拍摄剧集《悬案》(Unsolved)，讲述说唱史两位传奇人物2Pac和The Notorious B.I.G.的谋杀案。近日饰演两人的演员都选出，分别是《冲出康普顿》中就演了2Pac的Marcc Rose和新人Wavyy Jonez。2Pac和The Notorious B.I.G.是90年代美国斗得不可开交的东西岸说唱界的代表人物，先后在1996和97年被枪杀，至今都仍是悬案。该剧就将讲述这前后的事了，由大热剧集《美国犯罪故事：公诉辛普森》的Anthony Hemingway执导并担任制作人，乔什·杜哈明(《变形金刚》)饰演调查该案件的洛杉矶警署警探Greg Kading，此人之后也将他的查案所见写成了书，吉米·辛普森饰另一名警探Russell Poole。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qWV5jwbQcPsQpLJnzB71gVIp9na.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/npxiPFvsRRDbbCv5IQkcBl3lFI3.jpg",
+        "releaseDate": "2018-02-27",
+        "rating": 6.705,
         "mediaType": "tv"
       }
     ],
@@ -594,11 +407,44 @@
         "mediaType": "tv"
       },
       {
-        "id": 270429,
+        "id": 262957,
         "type": "tmdb",
-        "title": "无声的回响",
-        "description": "一段尘封往事，两具沉湖女尸，无法说话的被害人，由谁来为她们发声？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/lAOCfzQv7RhF1Oa44X5faJ5dpzL.jpg",
+        "title": "暗恋者的救赎",
+        "description": "该剧讲述的是做事执着，具有出众观察力的刑警队长宋诚在调查侦破一起刑案件过程中，发现该案和四年前的一起案件有些微妙关联。随着宋城深入调查，隐藏在两起案件中的共同证人俞笑的秘密被渐渐揭开。最后，他们互相配合，克服重重困难阻碍，将真凶绳之以法。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8wSEvsH1UWUIqacz9ZBCbU7i5LH.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 281705,
+        "type": "tmdb",
+        "title": "刍狗之血",
+        "description": "刚正不阿的法官秦誉，因儿子肇事撞伤黑帮老大之子，掩埋真相。黑帮老大为子复仇，掀起腥风血雨。女警唐萱则坚守正义，穷追真相。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyOCZwco3J8P24Nlb7KY4unrEWc.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 254498,
+        "type": "tmdb",
+        "title": "黑夜告白",
+        "description": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kTsZurJPuW21lZPjsFubVkB1iNK.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 270844,
+        "type": "tmdb",
+        "title": "势在必行",
+        "description": "本剧讲述了2000年，古城监狱新来的狱警罗维民无意间发现，正在服刑的重刑犯王国炎身负数起命案疑点。立功心切的他与同事赵中和想进一步调查此案时，却落入埋伏，身边的人也不明不白死去。一时之间，监狱内外，风云搅动，一场横跨十几年的追查就此展开。本剧是由中央政法委重点指导的国内首部监狱刑侦题材剧，改编自张平小说《十面埋伏》。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kTnDQGqjDU4WTQ5Aax01FkR6xjw.jpg",
         "backdropPath": null,
         "releaseDate": "",
         "rating": 0,
@@ -608,6 +454,28 @@
   },
   "季风剧场": {
     "aired": [
+      {
+        "id": 243569,
+        "type": "tmdb",
+        "title": "19层",
+        "description": "从小与父亲有着隔阂的大学生春雨被卷入到一个无法摆脱的名为“19层”的游戏中。在游戏中，春雨遇到了聪明沉着的高玄，武力值强大的豆豆，以及搞怪的杨八万等人。她和好友们一起经历了充斥着皮影的“鬼楼”，被皮俑追击的荒村等关卡，好友们因为在不同的游戏阶段过关失败，导致现实中陷入昏迷。危机重重之下，春雨决定查明她们进入游戏的原因和游戏背后的阴谋。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/c8RuAfcKD7NNZGvHdguhh5u4CJ8.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7cEKZB4x9CKeVkVlIoNHeaB9kgl.jpg",
+        "releaseDate": "2024-01-16",
+        "rating": 6.9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 239479,
+        "type": "tmdb",
+        "title": "非凡医者",
+        "description": "本剧讲述了一个言行不同寻常、不擅长沟通的怪咖医学天才陈辉，进入医院后，亲历复杂的医患关系，面对生命的无常，屡展受挫，在外科同僚们的帮助下，步步突破自己“只见疾病不见人”的局限，成长为一名既可以医人也可以医心的好医生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/b397FRoGVj2MucXwNh1vxr4D0CO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q2NFO23QwssZKrz0X4XGPFWaCxL.jpg",
+        "releaseDate": "2023-11-17",
+        "rating": 8,
+        "mediaType": "tv"
+      },
       {
         "id": 232828,
         "type": "tmdb",
@@ -686,6 +554,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 206251,
+        "type": "tmdb",
+        "title": "张卫国的夏天",
+        "description": "　本剧讲述了知足常乐的京剧团道具师傅张卫国（黄磊 饰）做了大半辈子的京剧，虽然过着特别普通的生活，却深信自己是“皇家的后裔”。在一次参加剧团师兄弟的聚会上，一群各自失意的中年男人开始各种浮夸的自我包装和互相攀比，带着这种包装回到生活的张卫国，经历了以为自己暴富，却又一夜负债，在一系列 大喜大悲和鸡飞狗跳之后，最终卸下伪装，直面真实的自己的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fNyHghEBRdJtpYaTZ1irEpCKEO6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/entZON841b7j451uWfkyMgLJoBA.jpg",
+        "releaseDate": "2022-07-12",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 203581,
+        "type": "tmdb",
+        "title": "妻子的选择",
+        "description": "该剧讲述了家庭主妇方糖在发现丈夫高家为疑似背叛后，随之剥茧抽丝般一步步揭开自己婚姻糖衣下的真相，从陷入怀疑到直面真相，再到自我救赎涅槃重生的女性励志成长故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uuxNRNDTNz0Xc5JzMAa7tOZnsb7.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mCGbU3OXDVj7sa8ATyJtqtaUINt.jpg",
+        "releaseDate": "2022-06-06",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 152550,
         "type": "tmdb",
         "title": "没有工作的一年",
@@ -694,6 +584,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/hdJkM6fTJapaG0NFGAvZ3PC3UlX.jpg",
         "releaseDate": "2022-04-11",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 157673,
+        "type": "tmdb",
+        "title": "陪你一起好好吃饭",
+        "description": "　　剧集讲述了不会做饭连厨房都没有的余昊，为了自己创建的美食平台，赞助美食真人秀并自己出镜。但效率优先的他根本不想为此浪费时间学做菜，因而用替身拍摄，得罪了节目组。苏可岚临危受命成为公关总监，接手公关工作应对危机，并成为了余昊的厨艺老师。她带他进入了厨房，也慢慢开始进入他的心……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2iJqcPX2nZnAgJVPvbFIjSMp54m.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ztbO8rnxReKKJTmIMBksi1vIky8.jpg",
+        "releaseDate": "2022-02-14",
+        "rating": 7.1,
         "mediaType": "tv"
       },
       {
@@ -741,6 +642,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 132043,
+        "type": "tmdb",
+        "title": "天目危机",
+        "description": "　　物理系天才李天醉心研究「前卫科学-意识的力量」。他的母亲著名音乐人梅雪燕在日本卷入一宗神秘平交道事故，李天只身前往日本，不料已踏进一个精心策划的犯罪陷阱里。幕后的强大敌人暗中摆布着李天，用比他更尖端的前卫科学，进行一连串犯罪事件。李天在东京遇上了活泼率真的张妮，负责调查案件的刑警山崎，他们三人组成一支关系微妙的探案团队。事件矛头直指二十多年前的神秘乐队“先行者乐队”，三人找到了多年追查乐队的身带残障的报社记者服部介，了解到真相关系到二十年前，先行者乐队在鹿鸣馆表演中发生的一场巨大火灾，更牵涉到李天父母辈的惊人秘密……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dFFQei8ajUJe84MOPNTxPteqDgV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/h18UeslvlXiggfwQHoOo6B6rA3B.jpg",
+        "releaseDate": "2021-08-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 129417,
         "type": "tmdb",
         "title": "我在他乡挺好的",
@@ -774,19 +686,7 @@
         "mediaType": "tv"
       }
     ],
-    "upcoming": [
-      {
-        "id": 291624,
-        "type": "tmdb",
-        "title": "火星孤儿",
-        "description": "As the world teeters on the brink of collapse following the arrival of an alien civilization, a group of passionate high school students mount a desperate resistance to save humanity's last hope.",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yKZ2v0zVpXJtAULDDyfhFgWWj0q.jpg",
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      }
-    ]
+    "upcoming": []
   },
   "X剧场": {
     "aired": [
@@ -847,6 +747,28 @@
       }
     ],
     "upcoming": [
+      {
+        "id": 273119,
+        "type": "tmdb",
+        "title": "人鱼",
+        "description": "一场少女失踪案，让三个命运迥异的女孩面临人生抉择，平凡家庭的悲喜尽显无余；地上城市与地下管道明暗交织，少女踽踽独行于其中，历经苦难，揭开背后的真相，完成自我救赎，走向希望。",
+        "posterPath": null,
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 282905,
+        "type": "tmdb",
+        "title": "重影",
+        "description": "“一桩没有尸体的凶案，一场没有终点的逃亡……” 一年前，北方小城“晨苍”发生了一起仇杀案，凶手秦虹潜逃。 一年后，警方在南方“发现”秦虹时，秦虹已被男友抛尸大海，尸骨无存。 这是一起人证、物证俱全，凶手甚至已经交代犯罪事实的案件，可消失无踪的尸体让主管刑警刘望惴惴不安。 “秦虹真的死了吗？”",
+        "posterPath": "https://image.tmdb.org/t/p/w500/x3uTTXkFDD6rAqB1HBTs0x51dG2.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 258492,
         "type": "tmdb",
