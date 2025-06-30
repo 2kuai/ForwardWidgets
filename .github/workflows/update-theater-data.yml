@@ -29,11 +29,11 @@ jobs:
         
       - name: Update theater data
         run: |
-          node scripts/update-theater-data_2.js
+          node scripts/update-theater-data.js
           
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/theater-data.json
+          git add data/theater-data_2.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data" && git push) 
