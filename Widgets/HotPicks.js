@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.5",
+  version: "1.1.6",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -563,6 +563,7 @@ async function getSuspenseTheater(params = {}) {
           })));
         }
       }
+      results.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
     } else {
       if (!data[sortBy]) throw new Error(`未找到 ${sortBy} 数据`);
       if (!data[sortBy][section]) throw new Error(`${sortBy} 中没有 ${type} 数据`);
