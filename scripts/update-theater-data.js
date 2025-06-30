@@ -57,8 +57,10 @@ async function fetchTheaterTitles(theaterName, doulistId) {
         const items = $('ul.doulist-items > li');
         console.log(`找到 ${items.length} 个剧集项目`);
         
-        // 并行处理所有剧集
-        const showPromises = items.map(async (index, element) => {
+        // 串行处理所有剧集并加入限流
+        const shows = [];
+        const itemElements = items.get();
+        for (const [index, element] of itemElements.entries()) {
             try {
                 const title = $(element).find('.info .title').text().trim();
                 const meta = $(element).find('.info .meta').text().trim();
@@ -75,22 +77,24 @@ async function fetchTheaterTitles(theaterName, doulistId) {
                 // 获取TMDB数据
                 const tmdbData = await searchTMDB(cleanTitle, parsedYear);
                 
-                const showData = {
-                    doubanTitle: showTitle,
-                    tmdbData: tmdbData || null
-                };
-                
-                console.log(`处理成功: 第${index + 1}个项目`, showTitle);
-                return showData;
+                // 限流
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                if (tmdbData) {
+                    const showData = {
+                        doubanTitle: showTitle,
+                        tmdbData: tmdbData
+                    };
+                    console.log(`处理成功: 第${index + 1}个项目`, showTitle);
+                    shows.push(showData);
+                } else {
+                    console.log(`处理失败，未找到TMDB数据: 第${index + 1}个项目`, showTitle);
+                }
                 
             } catch (error) {
                 console.error(`处理 ${theaterName} 剧场第${index + 1}个项目时出错`, error.message);
-                return null;
             }
-        }).get();
-        
-        // 等待所有剧集处理完成
-        const shows = (await Promise.all(showPromises)).filter(Boolean);
+        }
         
         console.log(`${theaterName} 剧场数据处理完成`, `共获取 ${shows.length} 个剧集`);
         
@@ -100,7 +104,7 @@ async function fetchTheaterTitles(theaterName, doulistId) {
         const upcoming = [];
         
         for (const show of shows) {
-            if (show.tmdbData?.releaseDate) {
+            if (show.tmdbData.releaseDate) {
                 const releaseDate = new Date(show.tmdbData.releaseDate);
                 if (releaseDate < now) {
                     aired.push(show.tmdbData);
@@ -109,9 +113,7 @@ async function fetchTheaterTitles(theaterName, doulistId) {
                 }
             } else {
                 // 没有TMDB数据或releaseDate的默认放入upcoming
-                upcoming.push({
-                    ...show.tmdbData
-                });
+                upcoming.push(show.tmdbData);
             }
         }
 
@@ -144,8 +146,11 @@ async function fetchTheaterTitles(theaterName, doulistId) {
 
 async function updateTheaterData() {
     try {
-        const theaterPromises = THEATERS.map(theater => fetchTheaterTitles(theater.name, theater.id));
-        const theaterResults = await Promise.all(theaterPromises);
+        const theaterResults = [];
+        for (const theater of THEATERS) {
+            const result = await fetchTheaterTitles(theater.name, theater.id);
+            theaterResults.push(result);
+        }
 
         const data = {
             last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
