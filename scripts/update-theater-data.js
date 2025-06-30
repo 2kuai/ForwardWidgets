@@ -1,11 +1,7 @@
-import axios from 'axios';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import * as cheerio from 'cheerio';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const axios = require('axios');
+const fs = require('fs').promises;
+const path = require('path');
+const cheerio = require('cheerio');
 
 // 配置
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
@@ -228,7 +224,7 @@ async function main() {
         log("===== 所有剧场数据获取完成 =====");
         log("最终结果:", JSON.stringify(finalResult, null, 2));
         
-        const outputPath = path.join(__dirname, '..', 'data', 'theater-data_2.json');
+        const outputPath = path.join(__dirname, '../data/theater-data_2.json');
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, JSON.stringify(finalResult, null, 2), 'utf8');
         
@@ -239,11 +235,7 @@ async function main() {
     }
 }
 
-// 执行主函数
-if (require.main === module) {
-    main()
-        .then(() => log("数据获取流程完成"))
-        .catch(() => logError("数据获取流程出错"));
-}
-
-module.exports = { main };
+// 直接执行主函数
+main()
+    .then(() => log("数据获取流程完成"))
+    .catch((error) => logError("数据获取流程出错:", error.message));
