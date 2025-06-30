@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-30T21:44:41.527+08:00",
+  "last_updated": "2025-06-30T21:58:11.451+08:00",
   "迷雾剧场": {
     "aired": [
       {
@@ -247,7 +247,6 @@
     ],
     "upcoming": [
       {
-        "doubanTitle": "正当防卫",
         "id": 252579,
         "type": "tmdb",
         "title": "正当防卫",
@@ -259,7 +258,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "树影迷宫",
         "id": 263151,
         "type": "tmdb",
         "title": "树影迷宫",
@@ -271,7 +269,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "低智商犯罪",
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -399,7 +396,6 @@
     ],
     "upcoming": [
       {
-        "doubanTitle": "旷野之境",
         "id": 265211,
         "type": "tmdb",
         "title": "旷野之境",
@@ -411,7 +407,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "暗恋者的救赎",
         "id": 262957,
         "type": "tmdb",
         "title": "暗恋者的救赎",
@@ -423,7 +418,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "刍狗之血",
         "id": 281705,
         "type": "tmdb",
         "title": "刍狗之血",
@@ -435,7 +429,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "黑夜告白",
         "id": 254498,
         "type": "tmdb",
         "title": "黑夜告白",
@@ -447,7 +440,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "势在必行",
         "id": 270844,
         "type": "tmdb",
         "title": "势在必行",
@@ -756,7 +748,6 @@
     ],
     "upcoming": [
       {
-        "doubanTitle": "人鱼",
         "id": 273119,
         "type": "tmdb",
         "title": "人鱼",
@@ -768,7 +759,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "重影",
         "id": 282905,
         "type": "tmdb",
         "title": "重影",
@@ -780,7 +770,6 @@
         "mediaType": "tv"
       },
       {
-        "doubanTitle": "人之初",
         "id": 258492,
         "type": "tmdb",
         "title": "人之初",
@@ -790,9 +779,6 @@
         "releaseDate": "",
         "rating": 0,
         "mediaType": "tv"
-      },
-      {
-        "doubanTitle": "走卒"
       }
     ]
   }
