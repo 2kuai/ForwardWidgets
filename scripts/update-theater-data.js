@@ -12,50 +12,82 @@ const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
 
 async function fetchMistTheaterTitles() {
     try {
-        console.log("开始获取迷雾剧场数据");
-        
-        const response = await axios.get('https://m.douban.com/doulist/128396349/', {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+        console.log('Fetching 迷雾剧场 data from Wikipedia...');
+        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
+            params: {
+                action: 'parse',
+                page: '迷雾剧场',
+                format: 'json',
+                prop: 'text',
+                section: 1
             },
-            timeout: 10000 // 10秒超时
+            timeout: 10000
         });
 
-        if (!response?.data) {
-            console.error('获取迷雾剧场数据失败: 无返回数据');
+        if (!response.data || !response.data.parse || !response.data.parse.text) {
+            console.error('Invalid Wikipedia API response:', response.data);
             return { "迷雾剧场": [] };
         }
+
+        const html = response.data.parse.text['*'];
+        console.log('Successfully fetched 迷雾剧场 HTML content');
         
-        const $ = cheerio.load(response.data);
+        const $ = cheerio.load(html);
         const mistTheaterShows = [];
         
-        // 使用更精确的选择器
-        const items = $('ul.doulist-items > li');
+        const tables = $('table.wikitable');
+        console.log(`Found ${tables.length} tables in 迷雾剧场 section`);
         
-        items.each((index, element) => {
-            try {
-                const title = $(element).find('.info .title').text().trim();
-                const meta = $(element).find('.info .meta').text().trim();
-                
-                // 提取年份
-                const yearMatch = meta.match(/(\d{4})(?=-\d{2}-\d{2})/);
-                const year = yearMatch?.[1] || '';
-                
-                
-                mistTheaterShows.push(year ? `${title}(${year})` : title);
-                
-            } catch (error) {
-                console.error(`处理第 ${index + 1} 个项目时出错:`, error.message);
+        tables.each((tableIndex, table) => {
+            const hasDateHeader = $(table).find('th:contains("首播日期")').length > 0;
+            const hasTitleHeader = $(table).find('th:contains("剧名")').length > 0;
+            
+            if (hasDateHeader) {
+                console.log(`Processing aired shows table #${tableIndex + 1}`);
+                $(table).find('tr').slice(1).each((rowIndex, row) => {
+                    const columns = $(row).find('td');
+                    if (columns.length >= 4) {
+                        const dateText = $(columns[0]).text().trim();
+                        const titleLink = $(columns[1]).find('a').first();
+                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                        
+                        const yearMatch = dateText.match(/(\d{4})年/);
+                        const year = yearMatch ? yearMatch[1] : '';
+                        
+                        if (title && year) {
+                            const formattedTitle = `${title}（${year}）`;
+                            mistTheaterShows.push(formattedTitle);
+                        }
+                    }
+                });
+            } else if (hasTitleHeader) {
+                console.log(`Processing upcoming shows table #${tableIndex + 1}`);
+                $(table).find('tr').slice(1).each((rowIndex, row) => {
+                    const columns = $(row).find('td');
+                    if (columns.length >= 2) {
+                        const titleLink = $(columns[0]).find('a').first();
+                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
+                        
+                        if (title) {
+                            mistTheaterShows.push(title);
+                        }
+                    }
+                });
             }
         });
         
-        console.log(mistTheaterShows);
+        console.log(`Found ${mistTheaterShows.length} shows in 迷雾剧场`);
         return { "迷雾剧场": mistTheaterShows };
-        
     } catch (error) {
+        console.error('Error fetching 迷雾剧场 from Wikipedia:', error.message);
+        if (error.response) {
+            console.error('Response status:', error.response.status);
+            console.error('Response data:', error.response.data);
+        }
         return { "迷雾剧场": [] };
     }
 }
+
 
 async function fetchWhiteNightTheaterTitles() {
     try {
@@ -273,46 +305,67 @@ async function fetchMonsoonTheaterTitles() {
 
 async function fetchXTheaterTitles() {
     try {
-        console.log("开始获取X剧场数据");
-        
-        const response = await axios.get('https://m.douban.com/doulist/155026800/', {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+        console.log('Fetching X剧场 data from Wikipedia...');
+        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
+            params: {
+                action: 'parse',
+                page: 'X剧场',
+                format: 'json',
+                prop: 'text',
+                section: 1
             },
-            timeout: 10000 // 10秒超时
+            timeout: 10000
         });
 
-        if (!response?.data) {
-            console.error('获取X剧场数据失败: 无返回数据');
+        if (!response.data || !response.data.parse || !response.data.parse.text) {
+            console.error('Invalid Wikipedia API response:', response.data);
             return { "X剧场": [] };
         }
+
+        const html = response.data.parse.text['*'];
+        console.log('Successfully fetched X剧场 HTML content');
         
-        const $ = cheerio.load(response.data);
+        const $ = cheerio.load(html);
         const xTheaterShows = [];
         
-        // 使用更精确的选择器
-        const items = $('ul.doulist-items > li');
+        // 解析表格数据
+        const table = $('table.wikitable');
+        if (table.length === 0) {
+            console.log('No table found in X剧场 section');
+            return { "X剧场": [] };
+        }
+
+        console.log('Processing X剧场 table');
         
-        items.each((index, element) => {
-            try {
-                const title = $(element).find('.info .title').text().trim();
-                const meta = $(element).find('.info .meta').text().trim();
+        table.find('tr').slice(1).each((rowIndex, row) => {
+            const columns = $(row).find('td');
+            if (columns.length >= 2) {
+                // 处理首播日期列
+                const dateText = $(columns[0]).text().trim();
+                let year = '';
                 
-                // 提取年份
-                const yearMatch = meta.match(/(\d{4})(?=-\d{2}-\d{2})/);
-                const year = yearMatch?.[1] || '';
+                // 匹配日期格式：2023年4月22日 或 待公布
+                if (dateText !== '待公布') {
+                    const yearMatch = dateText.match(/(\d{4})/);
+                    year = yearMatch ? yearMatch[1] : '';
+                }
                 
+                // 处理剧名列
+                const titleLink = $(columns[1]).find('a').first();
+                const title = titleLink.text().trim().replace(/^《|》$/g, '');
                 
-                xTheaterShows.push(year ? `${title}(${year})` : title);
-                
-            } catch (error) {
-                console.error(`处理第 ${index + 1} 个项目时出错:`, error.message);
+                if (title) {
+                    // 如果有有效年份则添加年份，否则不加
+                    const formattedTitle = year ? `${title}（${year}）` : title;
+                    xTheaterShows.push(formattedTitle);
+                }
             }
         });
-        
-        console.log(xTheaterShows);
+
+        console.log(`Found ${xTheaterShows.length} shows in X剧场`);
         return { "X剧场": xTheaterShows };
     } catch (error) {
+        console.error('Error fetching X剧场 from Wikipedia:', error.message);
         if (error.response) {
             console.error('Response status:', error.response.status);
             console.error('Response data:', error.response.data);
@@ -328,7 +381,7 @@ async function updateTheaterData() {
             fetchMistTheaterTitles(),
             fetchWhiteNightTheaterTitles(),
             fetchMonsoonTheaterTitles(),
-            fetchXTheaterTitles()
+            fetchXTheaterTitles()  // 新增的X剧场
         ]);
         
         console.log(`Final counts before TMDB search:
