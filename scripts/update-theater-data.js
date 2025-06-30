@@ -110,7 +110,6 @@ async function fetchTheaterTitles(theaterName, doulistId) {
             } else {
                 // 没有TMDB数据或releaseDate的默认放入upcoming
                 upcoming.push({
-                    doubanTitle: show.doubanTitle,
                     ...show.tmdbData
                 });
             }
