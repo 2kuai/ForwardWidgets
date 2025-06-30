@@ -1,8 +1,42 @@
 {
-  "last_updated": "2025-06-30T18:27:25.084+08:00",
+  "last_updated": "2025-06-30T18:53:55.175+08:00",
   "迷雾剧场": {
     "aired": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "id": 252579,
+        "type": "tmdb",
+        "title": "正当防卫",
+        "description": "市检察院资深检察官段鸿山在办理“被家暴女性杀夫”案件时，省检察院青年检察官方灵渊被任派协助办案。两人办案过程中，发现案件与十四年前段鸿山办理的李沐风、梅筝、江婷经历的“校园防卫过当案”息息相关，二人以事实为根据，以法律为准绳，综合考量“天理、人情、国法”，最终给予案件准确定性的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jMppzp6ohtFBKoAe89KyUIPfAfv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9xvzNkAzJQ1yUw9mytGUaVXrbpB.jpg",
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263151,
+        "type": "tmdb",
+        "title": "树影迷宫",
+        "description": "两代警察跌跌撞撞，至死不渝，在迷宫一样的胡同中找寻凶手，最终走出了自己人生的死胡同。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ipZgKKF89jhCyqyZz9UzmRFvDqZ.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/10yxjzsNO3OT9CCfd4VoyyHw1tl.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      }
+    ]
   },
   "白夜剧场": {
     "aired": [
