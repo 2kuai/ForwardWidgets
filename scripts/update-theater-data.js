@@ -26,14 +26,11 @@ async function fetchMistTheaterTitles() {
             return { "迷雾剧场": [] };
         }
         
-        console.log("成功获取迷雾剧场数据，长度:", response.data.length);
-        
         const $ = cheerio.load(response.data);
         const mistTheaterShows = [];
         
         // 使用更精确的选择器
         const items = $('ul.doulist-items > li');
-        console.log(`找到 ${items.length} 个剧集项目`);
         
         items.each((index, element) => {
             try {
@@ -42,7 +39,7 @@ async function fetchMistTheaterTitles() {
                 
                 // 提取年份
                 const yearMatch = meta.match(/(\d{4})(?=-\d{2}-\d{2})/);
-                const year = yearMatch?.[1] || '未知年份';
+                const year = yearMatch?.[1] || '';
                 
                 
                 mistTheaterShows.push(year ? `${title}(${year})` : title);
@@ -51,8 +48,8 @@ async function fetchMistTheaterTitles() {
                 console.error(`处理第 ${index + 1} 个项目时出错:`, error.message);
             }
         });
-
-        console.log(`成功解析 ${mistTheaterShows.length} 个剧集`);
+        
+        console.log(mistTheaterShows);
         return { "迷雾剧场": mistTheaterShows };
         
     } catch (error) {
@@ -352,7 +349,7 @@ async function updateTheaterData() {
             fetchMistTheaterTitles(),
             fetchWhiteNightTheaterTitles(),
             fetchMonsoonTheaterTitles(),
-            fetchXTheaterTitles()  // 新增的X剧场
+            fetchXTheaterTitles()
         ]);
         
         console.log(`Final counts before TMDB search:
