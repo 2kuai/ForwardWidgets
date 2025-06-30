@@ -12,82 +12,53 @@ const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
 
 async function fetchMistTheaterTitles() {
     try {
-        console.log('Fetching 迷雾剧场 data from Wikipedia...');
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-            params: {
-                action: 'parse',
-                page: '迷雾剧场',
-                format: 'json',
-                prop: 'text',
-                section: 1
+        console.log("开始获取迷雾剧场数据");
+        
+        const response = await axios.get('https://m.douban.com/doulist/128396349/', {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
             },
-            timeout: 10000
+            timeout: 10000 // 10秒超时
         });
 
-        if (!response.data || !response.data.parse || !response.data.parse.text) {
-            console.error('Invalid Wikipedia API response:', response.data);
+        if (!response?.data) {
+            console.error('获取迷雾剧场数据失败: 无返回数据');
             return { "迷雾剧场": [] };
         }
-
-        const html = response.data.parse.text['*'];
-        console.log('Successfully fetched 迷雾剧场 HTML content');
         
-        const $ = cheerio.load(html);
+        console.log("成功获取迷雾剧场数据，长度:", response.data.length);
+        
+        const $ = cheerio.load(response.data);
         const mistTheaterShows = [];
         
-        const tables = $('table.wikitable');
-        console.log(`Found ${tables.length} tables in 迷雾剧场 section`);
+        // 使用更精确的选择器
+        const items = $('ul.doulist-items > li');
+        console.log(`找到 ${items.length} 个剧集项目`);
         
-        tables.each((tableIndex, table) => {
-            const hasDateHeader = $(table).find('th:contains("首播日期")').length > 0;
-            const hasTitleHeader = $(table).find('th:contains("剧名")').length > 0;
-            
-            if (hasDateHeader) {
-                console.log(`Processing aired shows table #${tableIndex + 1}`);
-                $(table).find('tr').slice(1).each((rowIndex, row) => {
-                    const columns = $(row).find('td');
-                    if (columns.length >= 4) {
-                        const dateText = $(columns[0]).text().trim();
-                        const titleLink = $(columns[1]).find('a').first();
-                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                        
-                        const yearMatch = dateText.match(/(\d{4})年/);
-                        const year = yearMatch ? yearMatch[1] : '';
-                        
-                        if (title && year) {
-                            const formattedTitle = `${title}（${year}）`;
-                            mistTheaterShows.push(formattedTitle);
-                        }
-                    }
-                });
-            } else if (hasTitleHeader) {
-                console.log(`Processing upcoming shows table #${tableIndex + 1}`);
-                $(table).find('tr').slice(1).each((rowIndex, row) => {
-                    const columns = $(row).find('td');
-                    if (columns.length >= 2) {
-                        const titleLink = $(columns[0]).find('a').first();
-                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                        
-                        if (title) {
-                            mistTheaterShows.push(title);
-                        }
-                    }
-                });
+        items.each((index, element) => {
+            try {
+                const title = $(element).find('.info .title').text().trim();
+                const meta = $(element).find('.info .meta').text().trim();
+                
+                // 提取年份
+                const yearMatch = meta.match(/(\d{4})(?=-\d{2}-\d{2})/);
+                const year = yearMatch?.[1] || '未知年份';
+                
+                
+                mistTheaterShows.push(year ? `${title}(${year})` : title);
+                
+            } catch (error) {
+                console.error(`处理第 ${index + 1} 个项目时出错:`, error.message);
             }
         });
-        
-        console.log(`Found ${mistTheaterShows.length} shows in 迷雾剧场`);
+
+        console.log(`成功解析 ${mistTheaterShows.length} 个剧集`);
         return { "迷雾剧场": mistTheaterShows };
+        
     } catch (error) {
-        console.error('Error fetching 迷雾剧场 from Wikipedia:', error.message);
-        if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
-        }
         return { "迷雾剧场": [] };
     }
 }
-
 
 async function fetchWhiteNightTheaterTitles() {
     try {
@@ -365,7 +336,7 @@ async function fetchXTheaterTitles() {
         console.log(`Found ${xTheaterShows.length} shows in X剧场`);
         return { "X剧场": xTheaterShows };
     } catch (error) {
-        console.error('Error fetching X剧场 from Wikipedia:', error.message);
+            console.error('Error fetching X剧场 from Wikipedia:', error.message);
         if (error.response) {
             console.error('Response status:', error.response.status);
             console.error('Response data:', error.response.data);
