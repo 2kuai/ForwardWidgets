@@ -7,487 +7,51 @@ import * as cheerio from 'cheerio';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const TMDB_API_KEY = process.env.TMDB_API_KEY;
+// 配置
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
+const TMDB_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/original';
 
-async function fetchMistTheaterTitles() {
-    try {
-        console.log('Fetching 迷雾剧场 data from Wikipedia...');
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-            params: {
-                action: 'parse',
-                page: '迷雾剧场',
-                format: 'json',
-                prop: 'text',
-                section: 1
-            },
-            timeout: 10000
-        });
+// 剧场配置
+const THEATERS = [
+    { name: "迷雾剧场", id: "128396349" },
+    { name: "白夜剧场", id: "158539495" },
+    { name: "季风剧场", id: "153511846" },
+    { name: "X剧场", id: "155026800" }
+];
 
-        if (!response.data || !response.data.parse || !response.data.parse.text) {
-            console.error('Invalid Wikipedia API response:', response.data);
-            return { "迷雾剧场": [] };
-        }
-
-        const html = response.data.parse.text['*'];
-        console.log('Successfully fetched 迷雾剧场 HTML content');
-        
-        const $ = cheerio.load(html);
-        const mistTheaterShows = [];
-        
-        const tables = $('table.wikitable');
-        console.log(`Found ${tables.length} tables in 迷雾剧场 section`);
-        
-        tables.each((tableIndex, table) => {
-            const hasDateHeader = $(table).find('th:contains("首播日期")').length > 0;
-            const hasTitleHeader = $(table).find('th:contains("剧名")').length > 0;
-            
-            if (hasDateHeader) {
-                console.log(`Processing aired shows table #${tableIndex + 1}`);
-                $(table).find('tr').slice(1).each((rowIndex, row) => {
-                    const columns = $(row).find('td');
-                    if (columns.length >= 4) {
-                        const dateText = $(columns[0]).text().trim();
-                        const titleLink = $(columns[1]).find('a').first();
-                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                        
-                        const yearMatch = dateText.match(/(\d{4})年/);
-                        const year = yearMatch ? yearMatch[1] : '';
-                        
-                        if (title && year) {
-                            const formattedTitle = `${title}（${year}）`;
-                            mistTheaterShows.push(formattedTitle);
-                        }
-                    }
-                });
-            } else if (hasTitleHeader) {
-                console.log(`Processing upcoming shows table #${tableIndex + 1}`);
-                $(table).find('tr').slice(1).each((rowIndex, row) => {
-                    const columns = $(row).find('td');
-                    if (columns.length >= 2) {
-                        const titleLink = $(columns[0]).find('a').first();
-                        const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                        
-                        if (title) {
-                            mistTheaterShows.push(title);
-                        }
-                    }
-                });
-            }
-        });
-        
-        console.log(`Found ${mistTheaterShows.length} shows in 迷雾剧场`);
-        return { "迷雾剧场": mistTheaterShows };
-    } catch (error) {
-        console.error('Error fetching 迷雾剧场 from Wikipedia:', error.message);
-        if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
-        }
-        return { "迷雾剧场": [] };
-    }
+// 日志辅助函数
+function log(...messages) {
+    console.log(`[${new Date().toISOString()}]`, ...messages);
 }
 
-
-async function fetchWhiteNightTheaterTitles() {
-    try {
-        console.log('Fetching 白夜剧场 data from Wikipedia...');
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-            params: {
-                action: 'parse',
-                page: '优酷剧场',
-                format: 'json',
-                prop: 'text',
-                section: 2
-            },
-            timeout: 10000
-        });
-
-        if (!response.data || !response.data.parse || !response.data.parse.text) {
-            console.error('Invalid Wikipedia API response:', response.data);
-            return { "白夜剧场": [] };
-        }
-
-        const html = response.data.parse.text['*'];
-        console.log('Successfully fetched 白夜剧场 HTML content');
-        
-        const $ = cheerio.load(html);
-        if (!$) throw new Error("解析 HTML 失败");
-        
-        const whiteNightTheaterShows = [];
-        const listItems = $('.div-col ul li');
-        console.log(`Found ${listItems.length} list items in 白夜剧场 section`);
-        
-        listItems.each((index, element) => {
-            const liText = $(element).text().trim();
-            const match = liText.match(/《([^》]+)》/);
-            
-            if (match && match[1]) {
-                const title = match[1].trim();
-                
-                // Check if the text contains a year pattern like (2023)
-                const yearMatch = liText.match(/\((\d{4})\)/);
-                
-                if (yearMatch) {
-                    // For aired shows with year: "剧名（年份）"
-                    whiteNightTheaterShows.push(`${title}（${yearMatch[1]}）`);
-                } else if (liText.startsWith('待定：')) {
-                    // For upcoming shows: just the title
-                    whiteNightTheaterShows.push(title);
-                } else {
-                    // For other aired shows without explicit year
-                    whiteNightTheaterShows.push(title);
-                }
-            } else {
-                console.log(`No title found in list item: ${liText}`);
-            }
-        });
-        
-        console.log(`Found ${whiteNightTheaterShows.length} shows in 白夜剧场`);
-        return { 
-            "白夜剧场": whiteNightTheaterShows
-        };
-    } catch (error) {
-        console.error('Error fetching 白夜剧场 from Wikipedia:', error.message);
-        if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
-        }
-        return { "白夜剧场": [] };
-    }
+function logError(...messages) {
+    console.error(`[${new Date().toISOString()}]`, ...messages);
 }
 
-
-async function fetchMonsoonTheaterTitles() {
-    try {
-        console.log('Fetching 季风剧场 data from Wikipedia...');
-        
-        // 获取芒果季风计划页面内容
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-            params: {
-                action: 'parse',
-                page: '芒果季风计划',
-                format: 'json',
-                prop: 'text',
-                section: 2
-            },
-            timeout: 10000
-        });
-
-        if (!response.data?.parse?.text?.['*']) {
-            console.error('Invalid Wikipedia API response');
-            return { "季风剧场": [] };
-        }
-
-        const $ = cheerio.load(response.data.parse.text['*']);
-        const monsoonTheaterShows = [];
-
-        // 处理电视剧表格
-        const tvTable = $('table.wikitable').first();
-        let isPendingSection = false;
-        let pendingShows = new Set(); // 用于存储待播剧集
-        
-        // 首先收集所有待播剧集
-        tvTable.find('tr').each((rowIndex, row) => {
-            const $ths = $(row).find('th');
-            const $tds = $(row).find('td');
-            
-            // 检查是否是待播映行
-            const yearCell = $ths.filter('[rowspan]').first();
-            if (yearCell.length > 0) {
-                const yearText = yearCell.text().trim();
-                isPendingSection = yearText.includes('待播映');
-            }
-            
-            if ($tds.length > 0) {
-                const $firstTd = $tds.eq(0);
-                const $link = $firstTd.find('a').first();
-                
-                if ($link.length) {
-                    const title = $firstTd.text().trim()
-                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
-                        .replace(/[《》]/g, '') // 移除书名号
-                        .trim();
-                        
-                    if (title) {
-                        // 检查状态列是否包含"待播映"
-                        const statusText = $tds.eq(1).text().trim();
-                        if (isPendingSection || statusText.includes('待播映')) {
-                            pendingShows.add(title);
-                        }
-                    }
-                }
-            }
-        });
-        
-        // 然后处理所有剧集
-        tvTable.find('tr').each((rowIndex, row) => {
-            const $ths = $(row).find('th');
-            const $tds = $(row).find('td');
-            
-            if ($tds.length > 0) {
-                const $firstTd = $tds.eq(0);
-                const $link = $firstTd.find('a').first();
-                
-                if ($link.length) {
-                    const title = $firstTd.text().trim()
-                        .replace(/\s+/g, ' ')  // 替换多个空格为单个空格
-                        .replace(/[《》]/g, '') // 移除书名号
-                        .trim();
-                        
-                    if (title) {
-                        // 尝试提取年份信息
-                        const yearMatch = $tds.eq(1).text().trim().match(/(\d{4})/);
-                        const year = yearMatch ? yearMatch[1] : '';
-                        
-                        if (pendingShows.has(title)) {
-                            // 待播剧集只添加剧名
-                            monsoonTheaterShows.push(title);
-                        } else {
-                            // 已播剧集添加剧名和年份（如果有）
-                            const formattedTitle = year ? `${title}（${year}）` : title;
-                            monsoonTheaterShows.push(formattedTitle);
-                        }
-                    }
-                }
-            }
-        });
-
-        // 处理网络剧表格
-        const webTable = $('table.wikitable').eq(1);
-        let currentStatus = '';
-        webTable.find('tr').each((rowIndex, row) => {
-            const $ths = $(row).find('th');
-            const $tds = $(row).find('td');
-            // 检查是否是进度（状态）行
-            const statusCell = $ths.filter('[rowspan]').first();
-            if (statusCell.length > 0) {
-                currentStatus = statusCell.text().trim();
-            }
-            if ($tds.length > 0) {
-                const $firstTd = $tds.eq(0);
-                const $link = $firstTd.find('a').first();
-                if ($link.length) {
-                    const title = $link.text().trim();
-                    if (title) {
-                        // 尝试提取年份信息
-                        const yearMatch = $tds.eq(1).text().trim().match(/(\d{4})/);
-                        const year = yearMatch ? yearMatch[1] : '';
-                        
-                        // 进度为"待播映"归为未播出，其余归为已播出
-                        if (currentStatus.includes('待播映') || $tds.eq(1).text().trim().includes('待播映')) {
-                            // 待播剧集只添加剧名
-                            monsoonTheaterShows.push(title);
-                        } else {
-                            // 已播剧集添加剧名和年份（如果有）
-                            const formattedTitle = year ? `${title}（${year}）` : title;
-                            monsoonTheaterShows.push(formattedTitle);
-                        }
-                    }
-                }
-            }
-        });
-
-        console.log(`Found ${monsoonTheaterShows.length} shows in 季风剧场`);
-        
-        return { 
-            "季风剧场": monsoonTheaterShows
-        };
-    } catch (error) {
-        console.error('Error fetching 季风剧场 from Wikipedia:', error.message);
-        if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
-        }
-        return { "季风剧场": [] };
+// 从豆瓣标题中提取标题和年份
+function parseDoubanTitle(title) {
+    const yearMatch = title.match(/\((.*?)\)/);
+    let year = null;
+    let cleanTitle = title;
+    
+    if (yearMatch && yearMatch[1]) {
+        year = yearMatch[1];
+        cleanTitle = title.replace(`(${year})`, '').trim();
     }
+    
+    return { title: cleanTitle, year };
 }
 
-async function fetchXTheaterTitles() {
-    try {
-        console.log('Fetching X剧场 data from Wikipedia...');
-        const response = await axios.get('https://zh.m.wikipedia.org/w/api.php', {
-            params: {
-                action: 'parse',
-                page: 'X剧场',
-                format: 'json',
-                prop: 'text',
-                section: 1
-            },
-            timeout: 10000
-        });
-
-        if (!response.data || !response.data.parse || !response.data.parse.text) {
-            console.error('Invalid Wikipedia API response:', response.data);
-            return { "X剧场": [] };
-        }
-
-        const html = response.data.parse.text['*'];
-        console.log('Successfully fetched X剧场 HTML content');
-        
-        const $ = cheerio.load(html);
-        const xTheaterShows = [];
-        
-        // 解析表格数据
-        const table = $('table.wikitable');
-        if (table.length === 0) {
-            console.log('No table found in X剧场 section');
-            return { "X剧场": [] };
-        }
-
-        console.log('Processing X剧场 table');
-        
-        table.find('tr').slice(1).each((rowIndex, row) => {
-            const columns = $(row).find('td');
-            if (columns.length >= 2) {
-                // 处理首播日期列
-                const dateText = $(columns[0]).text().trim();
-                let year = '';
-                
-                // 匹配日期格式：2023年4月22日 或 待公布
-                if (dateText !== '待公布') {
-                    const yearMatch = dateText.match(/(\d{4})/);
-                    year = yearMatch ? yearMatch[1] : '';
-                }
-                
-                // 处理剧名列
-                const titleLink = $(columns[1]).find('a').first();
-                const title = titleLink.text().trim().replace(/^《|》$/g, '');
-                
-                if (title) {
-                    // 如果有有效年份则添加年份，否则不加
-                    const formattedTitle = year ? `${title}（${year}）` : title;
-                    xTheaterShows.push(formattedTitle);
-                }
-            }
-        });
-
-        console.log(`Found ${xTheaterShows.length} shows in X剧场`);
-        return { "X剧场": xTheaterShows };
-    } catch (error) {
-        console.error('Error fetching X剧场 from Wikipedia:', error.message);
-        if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
-        }
-        return { "X剧场": [] };
-    }
-}
-
-async function updateTheaterData() {
-    try {
-        // 获取四个剧场的数据
-        const [mistTheater, whiteNightTheater, monsoonTheater, xTheater] = await Promise.all([
-            fetchMistTheaterTitles(),
-            fetchWhiteNightTheaterTitles(),
-            fetchMonsoonTheaterTitles(),
-            fetchXTheaterTitles()  // 新增的X剧场
-        ]);
-        
-        console.log(`Final counts before TMDB search:
-        - 迷雾剧场: ${mistTheater["迷雾剧场"].length} shows
-        - 白夜剧场: ${whiteNightTheater["白夜剧场"].length} shows
-        - 季风剧场: ${monsoonTheater["季风剧场"].length} shows
-        - X剧场: ${xTheater["X剧场"].length} shows`);  // 新增的X剧场
-        
-        // 为每个剧场单独处理TMDB搜索并分类
-        const processTheaterShows = async (theaterName, shows) => {
-            const airedShows = [];
-            const upcomingShows = [];
-            const currentDate = new Date();
-            
-            for (const show of shows) {
-                // 解析剧名和年份（如果有）
-                const match = show.match(/^(.+?)(?:（(\d{4})）)?$/);
-                const title = match[1];
-                const year = match[2] || null;
-                
-                const tmdbData = await searchTMDB(title, year);
-                if (tmdbData) {
-                    const showData = {
-                        ...tmdbData
-                    };
-                    
-                    // 根据release_date分类
-                    if (tmdbData.releaseDate) {
-                        const releaseDate = new Date(tmdbData.releaseDate);
-                        if (releaseDate <= currentDate) {
-                            airedShows.push(showData);
-                        } else {
-                            upcomingShows.push(showData);
-                        }
-                    } else {
-                        upcomingShows.push(showData);
-                    }
-                }
-                await new Promise(resolve => setTimeout(resolve, 250)); // 限流
-            }
-            
-            // 对已播剧集按release_date降序排序（最新的在前）
-            airedShows.sort((a, b) => {
-                const dateA = new Date(a.releaseDate || 0);
-                const dateB = new Date(b.releaseDate || 0);
-                return dateB - dateA;
-            });
-            
-            return {
-                aired: airedShows,
-                upcoming: upcomingShows
-            };
-        };
-
-        // 并行处理四个剧场的数据
-        const [mistTheaterData, whiteNightTheaterData, monsoonTheaterData, xTheaterData] = await Promise.all([
-            processTheaterShows("迷雾剧场", mistTheater["迷雾剧场"]),
-            processTheaterShows("白夜剧场", whiteNightTheater["白夜剧场"]),
-            processTheaterShows("季风剧场", monsoonTheater["季风剧场"]),
-            processTheaterShows("X剧场", xTheater["X剧场"])
-        ]);
-        
-        // 创建最终数据结构
-        const data = {
-            last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
-            "迷雾剧场": {
-                aired: mistTheaterData.aired,
-                upcoming: mistTheaterData.upcoming
-            },
-            "白夜剧场": {
-                aired: whiteNightTheaterData.aired,
-                upcoming: whiteNightTheaterData.upcoming
-            },
-            "季风剧场": {
-                aired: monsoonTheaterData.aired,
-                upcoming: monsoonTheaterData.upcoming
-            },
-            "X剧场": {
-                aired: xTheaterData.aired,
-                upcoming: xTheaterData.upcoming
-            }
-        };
-        
-        const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
-        await fs.mkdir(path.dirname(outputPath), { recursive: true });
-        await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
-        
-        console.log(`Successfully updated data:
-        - 迷雾剧场: ${mistTheaterData.aired.length} aired, ${mistTheaterData.upcoming.length} upcoming
-        - 白夜剧场: ${whiteNightTheaterData.aired.length} aired, ${whiteNightTheaterData.upcoming.length} upcoming
-        - 季风剧场: ${monsoonTheaterData.aired.length} aired, ${monsoonTheaterData.upcoming.length} upcoming
-        - X剧场: ${xTheaterData.aired.length} aired, ${xTheaterData.upcoming.length} upcoming`);
-        
-        return data;
-    } catch (error) {
-        console.error('Error updating data:', error);
-        throw error;
-    }
-}
-
+// TMDB搜索函数
 async function searchTMDB(title, year = null) {
     try {
-        console.log(`Searching TMDB for: ${title}${year ? ` (${year})` : ''}`);
+        log(`Searching TMDB for: ${title}${year ? ` (${year})` : ''}`);
+        
         const params = {
             query: title,
-            language: 'zh-CN'
+            language: 'zh-CN',
+            include_adult: false
         };
         
         if (year) {
@@ -518,33 +82,168 @@ async function searchTMDB(title, year = null) {
             });
 
             if (exactMatch) {
-                console.log(`Found exact TMDB match for: ${title} -> ${exactMatch.name}`);
+                log(`Found exact TMDB match for: ${title} -> ${exactMatch.name}`);
                 return {
                     id: exactMatch.id,
                     type: "tmdb",
                     title: exactMatch.name,
                     description: exactMatch.overview,
-                    posterPath: exactMatch.poster_path ? `https://image.tmdb.org/t/p/w500${exactMatch.poster_path}` : null,
-                    backdropPath: exactMatch.backdrop_path ? `https://image.tmdb.org/t/p/w500${exactMatch.backdrop_path}` : null,
+                    posterPath: exactMatch.poster_path ? `${TMDB_IMAGE_BASE_URL}${exactMatch.poster_path}` : null,
+                    backdropPath: exactMatch.backdrop_path ? `${TMDB_IMAGE_BASE_URL}${exactMatch.backdrop_path}` : null,
                     releaseDate: exactMatch.first_air_date,
                     rating: exactMatch.vote_average,
                     mediaType: "tv"
                 };
             }
         }
-        console.log(`No exact TMDB match found for: ${title}`);
+        log(`No exact TMDB match found for: ${title}`);
         return null;
     } catch (error) {
-        console.error(`Error searching TMDB for ${title}:`, error.message);
+        logError(`Error searching TMDB for ${title}:`, error.message);
         return null;
     }
 }
 
-// 执行更新
-updateTheaterData().then(data => {
-    console.log('Data update completed');
-    process.exit(0);
-}).catch(err => {
-    console.error('Data update failed:', err);
-    process.exit(1);
-});
+// 获取单个剧场数据并补充TMDB信息
+async function fetchTheaterTitles(theaterName, doulistId) {
+    const theaterData = {
+        name: theaterName,
+        url: `https://m.douban.com/doulist/${doulistId}/`,
+        shows: []
+    };
+
+    try {
+        log(`开始获取 ${theaterName} 剧场数据`, `URL: ${theaterData.url}`);
+        
+        const response = await axios.get(theaterData.url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+            },
+            timeout: 10000
+        });
+
+        if (!response?.data) {
+            logError(`${theaterName} 剧场数据获取失败`, "无返回数据");
+            return { [theaterName]: { aired: [], upcoming: [] } };
+        }
+        
+        log(`${theaterName} 剧场HTML获取成功`, "开始解析...");
+        const $ = cheerio.load(response.data);
+        
+        const items = $('ul.doulist-items > li');
+        log(`找到 ${items.length} 个剧集项目`);
+        
+        // 并行处理所有剧集
+        const showPromises = items.map(async (index, element) => {
+            try {
+                const title = $(element).find('.info .title').text().trim();
+                const meta = $(element).find('.info .meta').text().trim();
+                
+                // 提取年份
+                const yearMatch = meta.match(/(\d{4})(?=-\d{2}-\d{2})/);
+                const year = yearMatch?.[1] || '';
+                
+                const showTitle = year ? `${title}(${year})` : title;
+                
+                // 解析豆瓣标题
+                const { title: cleanTitle, year: parsedYear } = parseDoubanTitle(showTitle);
+                
+                // 获取TMDB数据
+                const tmdbData = await searchTMDB(cleanTitle, parsedYear);
+                
+                const showData = {
+                    doubanTitle: showTitle,
+                    tmdbData: tmdbData || null
+                };
+                
+                log(`处理成功: 第${index + 1}个项目`, showTitle);
+                return showData;
+                
+            } catch (error) {
+                logError(`处理 ${theaterName} 剧场第${index + 1}个项目时出错`, error.message);
+                return null;
+            }
+        }).get();
+        
+        // 等待所有剧集处理完成
+        const shows = (await Promise.all(showPromises)).filter(Boolean);
+        
+        log(`${theaterName} 剧场数据处理完成`, `共获取 ${shows.length} 个剧集`);
+        
+        // 简单分类：假设有releaseDate且早于当前日期的为已播出，否则为即将播出
+        const now = new Date();
+        const aired = [];
+        const upcoming = [];
+        
+        for (const show of shows) {
+            if (show.tmdbData?.releaseDate) {
+                const releaseDate = new Date(show.tmdbData.releaseDate);
+                if (releaseDate < now) {
+                    aired.push(show);
+                } else {
+                    upcoming.push(show);
+                }
+            } else {
+                // 没有TMDB数据或releaseDate的默认放入aired
+                aired.push(show);
+            }
+        }
+        
+        return { 
+            [theaterName]: {
+                aired,
+                upcoming
+            }
+        };
+        
+    } catch (error) {
+        if (error.response) {
+            logError(`${theaterName} 剧场请求失败`, `状态码: ${error.response.status}`);
+        } else if (error.request) {
+            logError(`${theaterName} 剧场请求失败`, "无响应");
+        } else {
+            logError(`${theaterName} 剧场请求设置错误`, error.message);
+        }
+        
+        return { [theaterName]: { aired: [], upcoming: [] } };
+    }
+}
+
+// 主函数
+async function main() {
+    log("===== 开始获取所有剧场数据 =====");
+    
+    try {
+        // 并行获取所有剧场数据
+        const results = await Promise.all(
+            THEATERS.map(theater => fetchTheaterTitles(theater.name, theater.id))
+        );
+        
+        // 合并结果
+        const finalResult = {
+            last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
+            ...results.reduce((acc, curr) => ({ ...acc, ...curr }), {})
+        };
+        
+        log("===== 所有剧场数据获取完成 =====");
+        log("最终结果:", JSON.stringify(finalResult, null, 2));
+        
+        const outputPath = path.join(__dirname, '..', 'data', 'theater-data_2.json');
+        await fs.mkdir(path.dirname(outputPath), { recursive: true });
+        await fs.writeFile(outputPath, JSON.stringify(finalResult, null, 2), 'utf8');
+        
+        return finalResult;
+    } catch (error) {
+        logError("主流程出错:", error);
+        throw error;
+    }
+}
+
+// 执行主函数
+if (require.main === module) {
+    main()
+        .then(() => log("数据获取流程完成"))
+        .catch(() => logError("数据获取流程出错"));
+}
+
+module.exports = { main };
