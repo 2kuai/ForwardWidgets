@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-01T00:16:36.057+08:00",
+  "last_updated": "2025-07-02T00:17:06.357+08:00",
   "nowplaying": [
     {
       "id": 911430,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
       "releaseDate": "2025-06-23",
-      "rating": 7.629,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.9,
+      "rating": 7.917,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1022787,
+      "type": "tmdb",
+      "title": "地球特派员",
+      "originalTitle": "Elio",
+      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+      "releaseDate": "2025-06-18",
+      "rating": 6.912,
       "mediaType": "movie"
     },
     {
@@ -59,18 +71,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/oo8GVyvODffulZtxx6QWzRkrBxK.jpg",
       "releaseDate": "2025-05-30",
       "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1022787,
-      "type": "tmdb",
-      "title": "地球特派员",
-      "originalTitle": "Elio",
-      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
-      "releaseDate": "2025-06-18",
-      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
       "releaseDate": "2024-12-06",
-      "rating": 7.776,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sItIskd5xpiE64bBWYwZintkGf3.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.05,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -146,18 +146,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1155234,
-      "type": "tmdb",
-      "title": "时间之子",
-      "originalTitle": "时间之子",
-      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
-      "releaseDate": "2025-05-30",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
       "id": 1182247,
       "type": "tmdb",
       "title": "风起前的蒲公英",
@@ -170,6 +158,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1155234,
+      "type": "tmdb",
+      "title": "时间之子",
+      "originalTitle": "时间之子",
+      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
+      "releaseDate": "2025-05-30",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
       "id": 552524,
       "type": "tmdb",
       "title": "星际宝贝史迪奇",
@@ -178,7 +178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xXh0IQ55HzWUsc3xznDLFeyaI80.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.088,
+      "rating": 7.097,
       "mediaType": "movie"
     },
     {
@@ -219,18 +219,6 @@
     }
   ],
   "coming": [
-    {
-      "id": 1234821,
-      "type": "tmdb",
-      "title": "侏罗纪世界：重生",
-      "originalTitle": "Jurassic World Rebirth",
-      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
-      "releaseDate": "2025-07-01",
-      "rating": 7.7,
-      "mediaType": "movie"
-    },
     {
       "id": 1114777,
       "type": "tmdb",
@@ -276,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ohE4QR7JB9ATYR3Scv4qEjCEjHB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/m4pU5nwSsQhWEJFOwrvBWCbBuns.jpg",
       "releaseDate": "2025-06-27",
-      "rating": 10,
+      "rating": 5.5,
       "mediaType": "movie"
     },
     {
@@ -285,9 +273,9 @@
       "title": "皮皮鲁和鲁西西之309暗室",
       "originalTitle": "皮皮鲁和鲁西西之309暗室",
       "description": "　　皮皮鲁兄妹在自家衣柜发现309暗室，打开后遇到了科学家“觅工”并得到“致聪盔”。皮皮鲁将“致聪盔”戴到了宠物“大傻”的头上后，城市陷入瘫痪。皮皮鲁和家人齐心协力战胜“大傻”，魔方市恢复了原来模样。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5DjsdDkOFdD9ZPHKzc7MiaohM0v.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mBWYdj48GfXmnYWma23bvlYroKp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4tBD7h254pnhAJTZUzCxbGzYlam.jpg",
-      "releaseDate": "2024-10-01",
+      "releaseDate": "2025-07-05",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -394,8 +382,8 @@
       "originalTitle": "Smurfs",
       "description": "　　蓝精灵村庄每日载歌载舞一片欢乐，直到蓝爸爸（约翰·古德曼 John Goodman 配音）被格格巫绑架打破了平静，蓝妹妹（蕾哈娜 Rihanna 配音）带领蓝精灵勇闯现实世界，用魔法和智慧开启冒险。",
       "posterPath": "https://image.tmdb.org/t/p/w500/pshPDXbQHRK3w88mgxEMfroC4kF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/t4xcdwNTmoJFVHfw9vHSChRphXO.jpg",
-      "releaseDate": "2025-07-05",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nZFgO3BDxpLzTpDXhYbdXBGdUVm.jpg",
+      "releaseDate": "2025-06-30",
       "rating": 10,
       "mediaType": "movie"
     },
@@ -552,7 +540,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9tuK9kKSB2L6rMVlNOjwiWQaWxh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gRLrlofwDuICqGIEXYkoElDe4Y.jpg",
       "releaseDate": "2024-03-08",
-      "rating": 7.145,
+      "rating": 7.167,
       "mediaType": "movie"
     },
     {
@@ -674,7 +662,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.2,
+      "rating": 8.24,
       "mediaType": "movie"
     },
     {
@@ -698,7 +686,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sCzcYW9h55WcesOqA12cgEr9Exw.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.905,
+      "rating": 7.906,
       "mediaType": "movie"
     },
     {
@@ -866,7 +854,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lZVumU6dplne9LpitkVDYxhKSDl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
       "releaseDate": "2023-04-05",
-      "rating": 7.6,
+      "rating": 7.619,
       "mediaType": "movie"
     },
     {
@@ -890,7 +878,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tLsJ1mqkGTreTuT64N5wXcNwTqm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
       "releaseDate": "2011-07-12",
-      "rating": 8.086,
+      "rating": 8.087,
       "mediaType": "movie"
     }
   ]
