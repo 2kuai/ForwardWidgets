@@ -1,18 +1,6 @@
 {
-  "last_updated": "2025-07-06T00:14:42.820+08:00",
+  "last_updated": "2025-07-07T00:14:28.805+08:00",
   "nowplaying": [
-    {
-      "id": 1234821,
-      "type": "tmdb",
-      "title": "侏罗纪世界：重生",
-      "originalTitle": "Jurassic World Rebirth",
-      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
-      "releaseDate": "2025-07-01",
-      "rating": 6.528,
-      "mediaType": "movie"
-    },
     {
       "id": 911430,
       "type": "tmdb",
@@ -22,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8PHTO4a11JuZwYko7QPBUWq45wJ.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.688,
+      "rating": 7.684,
       "mediaType": "movie"
     },
     {
@@ -38,15 +26,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1114777,
+      "id": 1234821,
       "type": "tmdb",
-      "title": "小白船",
-      "originalTitle": "小白船",
-      "description": "刘娴十五岁的夏天， 是最孤单寂寞的夏天。母亲远赴非洲，把她丢给了已离婚多年的父亲。刘娴感觉自己成为了一个弃儿，直到朝鲜族姑娘金明美出现，她像是一束光照亮刘娴孤寂的生活。明美肆意张扬的青春活力吸引着刘娴， 刘娴的生活也随之有了全新的色彩......躁动不安的夏日， 青春的懵懂与冲动，为刘娴的一生留下了刻骨铭心的特殊印记。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
-      "releaseDate": "2024-03-20",
-      "rating": 6.2,
+      "title": "侏罗纪世界：重生",
+      "originalTitle": "Jurassic World Rebirth",
+      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+      "releaseDate": "2025-07-01",
+      "rating": 6.491,
       "mediaType": "movie"
     },
     {
@@ -82,7 +70,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.9,
+      "rating": 7.911,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1114777,
+      "type": "tmdb",
+      "title": "小白船",
+      "originalTitle": "小白船",
+      "description": "刘娴十五岁的夏天， 是最孤单寂寞的夏天。母亲远赴非洲，把她丢给了已离婚多年的父亲。刘娴感觉自己成为了一个弃儿，直到朝鲜族姑娘金明美出现，她像是一束光照亮刘娴孤寂的生活。明美肆意张扬的青春活力吸引着刘娴， 刘娴的生活也随之有了全新的色彩......躁动不安的夏日， 青春的懵懂与冲动，为刘娴的一生留下了刻骨铭心的特殊印记。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
+      "releaseDate": "2024-03-20",
+      "rating": 6.2,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.72,
+      "rating": 6.735,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1359994,
-      "type": "tmdb",
-      "title": "分手清单",
-      "originalTitle": "分手清单",
-      "description": "一次偶然的机会，马天泽与夏沫因为吃火锅成为朋友，转而进阶为恋人。相恋三年后，两人没有走进婚姻的殿堂，反而是要在朋友们的见证下，执行完成当初定下的一系列稀奇古怪的“分手清单”内容。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zldilc8JxiSeOVqNvAMONyo9a5o.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4F8hAOFbm6Bm3P957jatWFosS9j.jpg",
-      "releaseDate": "2025-06-14",
-      "rating": 10,
-      "mediaType": "movie"
-    },
-    {
       "id": 1372489,
       "type": "tmdb",
       "title": "哆啦A梦：大雄的绘画奇遇记",
@@ -155,6 +143,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
       "releaseDate": "2025-03-07",
       "rating": 6.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359994,
+      "type": "tmdb",
+      "title": "分手清单",
+      "originalTitle": "分手清单",
+      "description": "一次偶然的机会，马天泽与夏沫因为吃火锅成为朋友，转而进阶为恋人。相恋三年后，两人没有走进婚姻的殿堂，反而是要在朋友们的见证下，执行完成当初定下的一系列稀奇古怪的“分手清单”内容。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zldilc8JxiSeOVqNvAMONyo9a5o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4F8hAOFbm6Bm3P957jatWFosS9j.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 10,
       "mediaType": "movie"
     },
     {
@@ -228,7 +228,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hVdGW5t7FghJ9j0SCUrCw0Sj4ty.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iaAWeeZaWU7c1UHfxMOhqxLXAUp.jpg",
       "releaseDate": "1997-11-26",
-      "rating": 5.65,
+      "rating": 5.7,
       "mediaType": "movie"
     },
     {
@@ -369,7 +369,7 @@
       "title": "神奇4侠：初露锋芒",
       "originalTitle": "The Fantastic Four: First Steps",
       "description": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wMYCHC0LE8sHvI35LzSOQxAD2x6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/unthV1mq9llhEinIMPcCUImFodt.jpg",
       "releaseDate": "2025-07-23",
       "rating": 0,
@@ -614,7 +614,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aKeJgTDAiBe5hFgFgI3V3ChOLmh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.6,
+      "rating": 7.59,
       "mediaType": "movie"
     },
     {
@@ -722,7 +722,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.697,
+      "rating": 6.698,
       "mediaType": "movie"
     },
     {
@@ -746,7 +746,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.769,
+      "rating": 7.77,
       "mediaType": "movie"
     },
     {
@@ -758,7 +758,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fNZFqhIoE9Du1Gr6Py0rwhhV3fE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
       "releaseDate": "2015-04-01",
-      "rating": 7.2,
+      "rating": 7.223,
       "mediaType": "movie"
     },
     {
@@ -782,7 +782,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ebRkOLVkL1arxKRbXEFVekWtu2x.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/AoSZyb37ljMAxw0RdeQEBHKtgcc.jpg",
       "releaseDate": "2019-11-20",
-      "rating": 7.248,
+      "rating": 7.249,
       "mediaType": "movie"
     },
     {
@@ -794,7 +794,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.972,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -818,7 +818,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lZVumU6dplne9LpitkVDYxhKSDl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
       "releaseDate": "2023-04-05",
-      "rating": 7.62,
+      "rating": 7.621,
       "mediaType": "movie"
     },
     {
@@ -842,7 +842,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tLsJ1mqkGTreTuT64N5wXcNwTqm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
       "releaseDate": "2011-07-12",
-      "rating": 8.086,
+      "rating": 8.1,
       "mediaType": "movie"
     }
   ]
