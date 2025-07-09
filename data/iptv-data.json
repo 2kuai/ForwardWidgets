@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-07-09 09:15:15",
+  "last_updated": "2025-07-09 12:25:11",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "childItems": [
-        "https://smart.pendy.dpdns.org/Smart.php?id=cctv1",
         "http://fn.tmde.top:35455/mgtv/608807420.m3u8",
+        "https://smart.pendy.dpdns.org/Smart.php?id=cctv1",
         "http://8.138.7.223/tv/ptbtv.php?id=27",
         "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV1"
       ]
@@ -18,7 +18,8 @@
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "childItems": [
         "https://smart.pendy.dpdns.org/Smart.php?id=cctv2",
-        "http://fn.tmde.top:35455/mgtv/631780532.m3u8"
+        "http://fn.tmde.top:35455/mgtv/631780532.m3u8",
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV2"
       ]
     },
     {
@@ -45,6 +46,7 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/2200/179/344/202204010055_1626830735444_H169_1080.jpg",
       "description": "中国中央电视台中文国际频道美洲版，是专门为美洲地区华人观众打造的电视频道，提供新闻资讯、文化节目和专题报道等内容，促进中华文化在美洲地区的传播。",
       "childItems": [
+        "http://sport.pendy.dpdns.org/migu/608807416?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
         "http://fn.tmde.top:35455/mgtv/608807416.m3u8"
       ]
     },
@@ -53,8 +55,8 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/2200/179/315/202204010055_1626831001078_H169_1080.jpg",
       "description": "中国中央电视台中文国际频道欧洲版，是面向欧洲地区华人观众的专业电视频道，提供新闻、文化、娱乐等多元化节目，搭建中欧文化交流的桥梁。",
       "childItems": [
-        "http://fn.tmde.top:35455/mgtv/608807419.m3u8",
-        "http://sport.pendy.dpdns.org/migu/608807419?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA"
+        "http://sport.pendy.dpdns.org/migu/608807419?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA",
+        "http://fn.tmde.top:35455/mgtv/608807419.m3u8"
       ]
     },
     {
@@ -81,7 +83,8 @@
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "childItems": [
         "https://smart.pendy.dpdns.org/Smart.php?id=cctv6",
-        "http://fn.tmde.top:35455/mgtv/624878396.m3u8"
+        "http://fn.tmde.top:35455/mgtv/624878396.m3u8",
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV6"
       ]
     },
     {
@@ -108,6 +111,7 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/5501/083/624/202204010054_1626677492322_H169_1080.jpg",
       "description": "中国中央电视台纪录频道，是中国首个全国性专业纪录片频道，以全球视野、中国视角为定位，播出国内外优秀纪录片作品，涵盖自然、历史、科技、人文等多个领域。",
       "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV9",
         "http://fn.tmde.top:35455/mgtv/673168140.m3u8"
       ]
     },
@@ -116,8 +120,8 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/5500/212/874/202204010054_1626677759168_H169_1080.jpg",
       "description": "中国中央电视台科教频道，是以传播科学知识、推广教育理念为宗旨的专业电视频道，节目内容涵盖科技前沿、教育动态、历史文化等多个领域，寓教于乐。",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV10",
-        "http://fn.tmde.top:35455/mgtv/624878405.m3u8"
+        "http://fn.tmde.top:35455/mgtv/624878405.m3u8",
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV10"
       ]
     },
     {
@@ -125,6 +129,7 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/5500/988/610/202204010054_1626677917611_H169_1080.jpg",
       "description": "中国中央电视台戏曲频道，是中国唯一的国家级专业戏曲电视频道，致力于传承和弘扬中国传统戏曲艺术，播出京剧、越剧、豫剧、黄梅戏等各类戏曲节目。",
       "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV11",
         "http://fn.tmde.top:35455/mgtv/667987558.m3u8"
       ]
     },
@@ -133,8 +138,8 @@
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/5501/083/627/202204010053_1626678104342_H169_1080.jpg",
       "description": "中国中央电视台社会与法频道，是以法治宣传和社会教育为主要内容的专业电视频道，通过案例解析、法律咨询、社会热点追踪等节目形式，普及法律知识，弘扬法治精神。",
       "childItems": [
-        "http://fn.tmde.top:35455/mgtv/673168185.m3u8",
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV12"
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV12",
+        "http://fn.tmde.top:35455/mgtv/673168185.m3u8"
       ]
     },
     {
@@ -152,7 +157,8 @@
       "description": "中国中央电视台少儿频道，是面向3-14岁少年儿童的专业电视频道，以陪伴成长、启迪智慧为宗旨，播出动画片、儿童剧、教育节目等内容，促进少年儿童全面发展。",
       "childItems": [
         "https://smart.pendy.dpdns.org/Smart.php?id=cctv14",
-        "http://fn.tmde.top:35455/mgtv/624878440.m3u8"
+        "http://fn.tmde.top:35455/mgtv/624878440.m3u8",
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV14"
       ]
     },
     {
@@ -181,7 +187,8 @@
       "description": "中国中央电视台农业农村频道，是面向三农领域的专业电视频道，报道农业政策、农村发展、农民生活等内容，服务乡村振兴战略，助力农业农村现代化。",
       "childItems": [
         "https://smart.pendy.dpdns.org/Smart.php?id=cctv17",
-        "http://fn.tmde.top:35455/mgtv/673168256.m3u8"
+        "http://fn.tmde.top:35455/mgtv/673168256.m3u8",
+        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV17"
       ]
     }
   ],
@@ -207,7 +214,9 @@
       "name": "东方卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=东方卫视"
+      ]
     },
     {
       "name": "重庆卫视",
@@ -229,7 +238,9 @@
       "name": "辽宁卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png",
       "description": "辽宁广播电视台旗下的卫星频道，以家文化为核心，定位欢乐一家，播出新闻、综艺、电视剧和生活服务类节目，深受北方观众喜爱。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=辽宁卫视"
+      ]
     },
     {
       "name": "宁夏卫视",
@@ -251,7 +262,9 @@
       "name": "青海卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png",
       "description": "青海广播电视台旗下的卫星频道，以大美青海为主题，突出环保、生态和民族特色，播出新闻、纪实、综艺等节目，展现青海的自然风光和人文魅力。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=青海卫视"
+      ]
     },
     {
       "name": "陕西卫视",
@@ -273,7 +286,9 @@
       "name": "广东卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png",
       "description": "广东广播电视台旗下的卫星电视频道，以立足广东、面向全国、辐射海外为定位，突出岭南文化特色，提供新闻、综艺、电视剧等多元化节目内容。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=广东卫视"
+      ]
     },
     {
       "name": "湖北卫视",
@@ -295,7 +310,9 @@
       "name": "河南卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png",
       "description": "河南广播电视台旗下的卫星频道，以文化河南，中华源为定位，深度挖掘和传播华夏历史文明，打造了《唐宫夜宴》等一系列文化精品节目。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=河南卫视"
+      ]
     },
     {
       "name": "江西卫视",
@@ -325,7 +342,9 @@
       "name": "广西卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=广西卫视"
+      ]
     },
     {
       "name": "贵州卫视",
@@ -347,7 +366,9 @@
       "name": "西藏卫视",
       "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png",
       "description": "西藏广播电视台旗下的卫星频道，是宣传西藏的重要喉舌，使用藏语和汉语播出，介绍西藏的政治、经济、社会、文化发展情况。",
-      "childItems": []
+      "childItems": [
+        "http://qwt.zhibotv.top:2016/全网通.php?id=西藏卫视"
+      ]
     },
     {
       "name": "海南卫视",
