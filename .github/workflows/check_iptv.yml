@@ -2,7 +2,7 @@ name: IPTV Source Checker
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # 每天UTC时间0点运行
+    - cron: #'0 */3 * * *'  # 每天UTC时间0点运行
   workflow_dispatch:  # 允许手动触发
 
 jobs:
