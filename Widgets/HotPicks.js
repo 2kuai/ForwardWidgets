@@ -6,7 +6,7 @@ var WidgetMetadata = {
   description: "获取最新热播剧和热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.6",
+  version: "1.1.7",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -568,12 +568,13 @@ async function getSuspenseTheater(params = {}) {
       if (!data[sortBy]) throw new Error(`未找到 ${sortBy} 数据`);
       if (!data[sortBy][section]) throw new Error(`${sortBy} 中没有 ${type} 数据`);
       
-      results = data[sortBy][section].map(item => ({
-        ...item
-      }));
+      results = data[sortBy][section];
     }
 
-    return results.filter(item => !tmdbIdBlocklist.includes(String(item.id)));
+    return results.filter(item => 
+      !(tmdbIdBlocklist.includes(String(item.id)) || item.posterPath == null)
+    );
+
     
   } catch (error) {
     console.error(`获取剧场数据失败: ${error.message}`);
@@ -599,7 +600,7 @@ async function getMovies(params = {}) {
     
     if (!results.length) throw new Error("没有更多数据");
     
-    return results;
+    return results.filter(item => item.posterPath != null);
   } catch (error) {
     console.error(`[电影列表] 获取失败: ${error.message}`);
     throw error;
