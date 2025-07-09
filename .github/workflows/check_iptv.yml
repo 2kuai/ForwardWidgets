@@ -28,18 +28,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add iptv_sources_cleaned.json
-        git commit -m "Auto update: Clean invalid IPTV sources"
+        git commit -m "Auto update: Clean invalid IPTV sources [skip ci]"
         git push
-    
-    - name: Send notification
-      if: failure()
-      uses: actions-cool/dingtalk@v2
-      with:
-        webhook: ${{ secrets.DINGTALK_WEBHOOK }}
-        msgtype: 'markdown'
-        title: 'IPTV Source Check Report'
-        text: |
-          IPTV源检测报告
-          - 检测时间: ${{ steps.get-date.outputs.date }}
-          - 检测状态: 失败
-          - 详情请查看: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
