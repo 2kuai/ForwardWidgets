@@ -4,31 +4,54 @@ from datetime import datetime
 import concurrent.futures
 
 def check_url_availability(url, timeout=5):
-    """检测单个URL的可用性"""
+    """检测单个URL的可用性和响应时间"""
     try:
         # 先尝试HEAD请求，效率更高
+        start_time = datetime.now()
         response = requests.head(url, timeout=timeout, allow_redirects=True)
+        latency = (datetime.now() - start_time).total_seconds() * 1000  # 毫秒
+        
         if response.status_code == 200:
-            return True
+            return True, latency
         
         # 如果HEAD失败，尝试GET请求
+        start_time = datetime.now()
         response = requests.get(url, timeout=timeout, stream=True)
-        return response.status_code == 200
+        latency = (datetime.now() - start_time).total_seconds() * 1000  # 毫秒
+        return response.status_code == 200, latency
     except:
-        return False
+        return False, float('inf')  # 不可用的URL给无限大的延迟
 
 def process_channel(channel):
-    """处理单个频道的childItems"""
+    """处理单个频道的childItems，并按响应时间排序"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
     
     # 使用线程池并行检测所有childItems
     with concurrent.futures.ThreadPoolExecutor() as executor:
         urls = channel['childItems']
+        # 获取每个URL的可用性和延迟
         results = list(executor.map(check_url_availability, urls))
     
-    # 保留可用的链接
-    channel['childItems'] = [url for url, is_available in zip(urls, results) if is_available]
+    # 组合URL和检测结果
+    url_info = list(zip(urls, results))
+    
+    # 过滤掉不可用的URL，并按延迟排序
+    available_urls = [(url, latency) for url, (is_available, latency) in url_info if is_available]
+    
+    # 检查是否已经按延迟排序
+    is_sorted = True
+    for i in range(len(available_urls) - 1):
+        if available_urls[i][1] > available_urls[i+1][1]:
+            is_sorted = False
+            break
+    
+    # 如果未排序，则按延迟排序
+    if not is_sorted and len(available_urls) > 1:
+        available_urls.sort(key=lambda x: x[1])
+    
+    # 只保留URL，去掉延迟数据
+    channel['childItems'] = [url for url, _ in available_urls]
     return channel
 
 def main(input_file, output_file):
@@ -53,5 +76,5 @@ def main(input_file, output_file):
 
 if __name__ == '__main__':
     input_file = 'iptv_sources.json'
-    output_file = 'iptv_sources_cleaned.json'
+    output_file = 'data/iptv_data.json'
     main(input_file, output_file)
