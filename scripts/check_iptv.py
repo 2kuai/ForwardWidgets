@@ -76,5 +76,5 @@ def main(input_file, output_file):
 
 if __name__ == '__main__':
     input_file = 'iptv_sources.json'
-    output_file = 'data/iptv_data.json'
+    output_file = 'data/iptv-data.json'
     main(input_file, output_file)
