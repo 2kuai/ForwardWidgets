@@ -106,7 +106,7 @@ async function fetchTheaterTitles(theaterName, doulistId) {
         for (const show of shows) {
             if (show.tmdbData.releaseDate) {
                 const releaseDate = new Date(show.tmdbData.releaseDate);
-                if (releaseDate < now) {
+                if (releaseDate <= now) {
                     aired.push(show.tmdbData);
                 } else {
                     upcoming.push(show.tmdbData);
