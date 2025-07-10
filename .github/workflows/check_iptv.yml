@@ -2,7 +2,7 @@ name: IPTV Source Checker
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每天UTC时间0点运行
+    - cron: '0 */6 * * *'  # 每6小时运行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -32,6 +32,6 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add data/iptv_data.json
+        git add data/iptv_ data.json
         git commit -m "Auto update: Clean invalid IPTV sources [skip ci]"
         git push
