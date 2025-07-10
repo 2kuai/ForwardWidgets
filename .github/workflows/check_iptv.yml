@@ -2,12 +2,13 @@ name: IPTV Source Checker
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每天UTC时间0点运行
+    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   check-sources:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # 整个任务超时时间
     
     steps:
     - uses: actions/checkout@v3
@@ -20,18 +21,21 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y ffmpeg
-        
+        sudo apt-get install -y ffmpeg curl  # 同时安装ffmpeg和curl
+    
     - name: Install Python dependencies
       run: pip install requests
     
     - name: Run checker
       run: python scripts/check_iptv.py
+      timeout-minutes: 15  # 单次检测超时
     
     - name: Commit and push changes
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add data/iptv_data.json
-        git commit -m "Auto update: Clean invalid IPTV sources [skip ci]"
-        git push
+        git diff --quiet data/iptv_data.json || {
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/iptv_data.json
+          git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M') Clean invalid sources [skip ci]"
+          git push
+        }
