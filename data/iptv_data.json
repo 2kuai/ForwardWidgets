@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-07-10T17:43:53.977610",
+  "last_updated": "2025-07-10T17:55:18.657472",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "backdrop_path": "https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "childItems": [
-        "https://smart.pendy.dpdns.org/Smart.php?id=cctv1",
-        "http://8.138.7.223/tv/ptbtv.php?id=27"
+        "http://8.138.7.223/tv/ptbtv.php?id=27",
+        "https://smart.pendy.dpdns.org/Smart.php?id=cctv1"
       ]
     },
     {
