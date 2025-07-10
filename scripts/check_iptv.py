@@ -29,7 +29,7 @@ class SourceChecker:
         self.timeout = 10  # 全局超时设置
 
     def check_source_advanced(self, url):
-        """分级+多维度+重试的检测方案，含详细DEBUG日志"""
+        """分级+多维度+重试的检测方案，去除GET内容签名检测"""
         def _detect():
             try:
                 logger.debug(f"开始GET检测: {url}")
@@ -42,32 +42,15 @@ class SourceChecker:
                 if any(x in ctype for x in ['text/html', 'image/', 'xml', 'json']):
                     logger.debug(f"Content-Type不符: {url} {ctype}")
                     return 'fail', 'Content-Type不符', get_time, None
-                try:
-                    chunk = next(resp.iter_content(2048), b'')
-                    logger.debug(f"内容签名检测: {url} 前2KB: {chunk[:32]!r}")
-                except Exception as e:
-                    logger.debug(f"内容签名读取失败: {url} {e}")
-                    chunk = b''
-                if any(sig in chunk for sig in [b'#EXTM3U', b'ftyp', b'FLV']):
-                    logger.debug(f"内容签名通过: {url}")
-                    start_probe = time.time()
-                    ok, msg = self._ffprobe_check(url)
-                    probe_time = time.time() - start_probe
-                    logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
-                    if ok:
-                        return 'high', 'ffprobe通过', get_time, probe_time
-                    else:
-                        return 'medium', f'内容签名通过, ffprobe失败: {msg}', get_time, probe_time
+                # 直接进入ffprobe检测，不再做内容签名判断
+                start_probe = time.time()
+                ok, msg = self._ffprobe_check(url)
+                probe_time = time.time() - start_probe
+                logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
+                if ok:
+                    return 'high', 'ffprobe通过', get_time, probe_time
                 else:
-                    logger.debug(f"无内容签名: {url}")
-                    start_probe = time.time()
-                    ok, msg = self._ffprobe_check(url)
-                    probe_time = time.time() - start_probe
-                    logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
-                    if ok:
-                        return 'medium', 'ffprobe通过, 无签名', get_time, probe_time
-                    else:
-                        return 'fail', f'无签名且ffprobe失败: {msg}', get_time, probe_time
+                    return 'fail', f'ffprobe失败: {msg}', get_time, probe_time
             except Exception as e:
                 logger.debug(f"GET检测异常: {url} {e}")
                 return 'fail', f'GET失败: {e}', None, None
@@ -199,7 +182,6 @@ def process_channel(channel, max_workers=10):
 
     checker = SourceChecker()
     results = []
-    stats = {'high': 0, 'medium': 0, 'fail': 0}
     SLOW_THRESHOLD = 5.0
 
     urls = channel['childItems']
@@ -212,7 +194,6 @@ def process_channel(channel, max_workers=10):
                 status, reason, get_time, probe_time = future.result()
             except Exception as exc:
                 status, reason, get_time, probe_time = 'fail', f'检测异常: {exc}', None, None
-            stats[status] += 1
             total_time = (get_time or 0) + (probe_time or 0)
             speed = 'fast' if total_time <= SLOW_THRESHOLD else 'slow'
             logger.info(f"[RESULT] 状态: {status} | 速率: {speed} | 总耗时: {total_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {reason}")
@@ -221,7 +202,7 @@ def process_channel(channel, max_workers=10):
     # 排序：high > medium，同级别按total_time升序
     results.sort(key=lambda x: (0 if x[0]=='high' else 1, x[1]))
     channel['childItems'] = [item[2] for item in results]
-    channel['stats'] = stats
+    # 不再写入stats字段
     return channel
 
 def check_dependencies():
