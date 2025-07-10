@@ -5,6 +5,7 @@ from datetime import datetime
 import concurrent.futures
 import os
 import logging
+import time
 
 # 配置日志
 logging.basicConfig(
@@ -22,73 +23,100 @@ def check_url_with_head(url, timeout=5):
     try:
         response = requests.head(url, timeout=timeout, allow_redirects=True)
         if response.status_code == 200:
-            logger.info(f"HEAD请求成功: {url}")
+            logger.debug(f"HEAD请求成功: {url}")
             return True
         else:
-            logger.warning(f"HEAD请求返回非200状态码({response.status_code}): {url}")
+            logger.debug(f"HEAD请求返回非200状态码({response.status_code}): {url}")
             return False
     except Exception as e:
-        logger.error(f"HEAD请求失败({str(e)}): {url}")
+        logger.debug(f"HEAD请求失败({str(e)}): {url}")
         return False
 
-def check_url_with_ffmpeg(url, timeout=10):
-    """使用ffmpeg检测流媒体的实际可用性"""
+def check_stream_with_curl(url, timeout=15):
+    """使用curl检测流媒体可用性"""
     try:
-        # 使用ffmpeg探测流媒体，设置超时时间
         cmd = [
-            'ffmpeg',
-            '-v', 'error',
-            '-i', url,
-            '-map', '0',
-            '-f', 'null',
-            '-',
-            '-t', str(timeout)  # 限制探测时间
+            'curl',
+            '--silent',
+            '--fail',
+            '--max-time', str(timeout),
+            '--range', '0-500',  # 只请求前500字节
+            url
         ]
-        
-        # 启动ffmpeg进程
-        process = subprocess.Popen(
+        result = subprocess.run(
             cmd,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            stdin=subprocess.PIPE
+            timeout=timeout + 2
         )
-        
-        # 等待进程完成或超时
-        try:
-            _, stderr = process.communicate(timeout=timeout)
-            if process.returncode == 0 and b"Invalid data found" not in stderr:
-                logger.info(f"FFmpeg检测成功: {url}")
-                return True
-            else:
-                logger.warning(f"FFmpeg检测失败(返回码:{process.returncode}): {url}")
-                return False
-        except subprocess.TimeoutExpired:
-            process.kill()
-            logger.warning(f"FFmpeg检测超时: {url}")
-            return False
+        if result.returncode == 0:
+            logger.debug(f"curl检测成功: {url}")
+            return True
+        return False
+    except subprocess.TimeoutExpired:
+        logger.debug(f"curl检测超时: {url}")
+        return False
     except Exception as e:
-        logger.error(f"FFmpeg检测异常({str(e)}): {url}")
+        logger.debug(f"curl检测异常: {url} - {str(e)}")
         return False
 
-def check_url_availability(url, timeout=15):
+def check_stream_with_ffprobe(url, timeout=15):
+    """使用ffprobe检测流媒体信息"""
+    try:
+        cmd = [
+            'ffprobe',
+            '-v', 'error',
+            '-select_streams', 'v:0',
+            '-show_entries', 'stream=codec_name',
+            '-of', 'json',
+            '-timeout', str(timeout * 1000000),
+            url
+        ]
+        result = subprocess.run(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=timeout
+        )
+        return result.returncode == 0
+    except Exception:
+        return False
+
+def check_url_availability(url, timeout=15, max_retries=2):
     """检测单个URL的可用性和响应时间"""
-    # 先使用HEAD请求快速筛选
-    if not check_url_with_head(url, timeout):
-        return False, float('inf')
-    
-    # 使用ffmpeg进行更严格的检测
     start_time = datetime.now()
-    is_available = check_url_with_ffmpeg(url, timeout)
-    latency = (datetime.now() - start_time).total_seconds() * 1000  # 毫秒
+    is_available = False
+    latency = float('inf')
     
-    if is_available:
-        logger.info(f"URL检测完成: {url} 延迟: {latency:.2f}ms")
-    else:
-        logger.warning(f"URL不可用: {url}")
+    # 先使用HEAD请求快速筛选
+    if not check_url_with_head(url, min(timeout, 5)):
+        return False, latency
     
+    # 尝试多种检测方法
+    methods = [
+        check_stream_with_curl,
+        check_stream_with_ffprobe
+    ]
+    
+    for attempt in range(max_retries):
+        for method in methods:
+            try:
+                method_timeout = timeout // len(methods)  # 分配超时时间
+                if method(url, method_timeout):
+                    is_available = True
+                    latency = (datetime.now() - start_time).total_seconds() * 1000
+                    logger.info(f"检测成功: {url} 方法: {method.__name__} 延迟: {latency:.2f}ms")
+                    return is_available, latency
+            except Exception as e:
+                logger.debug(f"检测失败: {url} 方法: {method.__name__} 错误: {str(e)}")
+        
+        if attempt < max_retries - 1:
+            time.sleep(1)  # 重试前等待1秒
+    
+    logger.warning(f"URL检测失败: {url}")
     return is_available, latency
 
-def process_channel(channel):
+def process_channel(channel, max_workers=10):
     """处理单个频道的childItems，并按响应时间排序"""
     if 'childItems' not in channel or not channel['childItems']:
         logger.warning(f"频道 {channel.get('name', '未知')} 没有childItems")
@@ -97,46 +125,44 @@ def process_channel(channel):
     logger.info(f"开始处理频道: {channel.get('name', '未知')}")
     
     # 使用线程池并行检测所有childItems
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         urls = channel['childItems']
-        # 获取每个URL的可用性和延迟
-        results = list(executor.map(check_url_availability, urls))
+        futures = {executor.submit(check_url_availability, url): url for url in urls}
+        
+        url_info = []
+        for future in concurrent.futures.as_completed(futures):
+            url = futures[future]
+            try:
+                result = future.result()
+                url_info.append((url, result))
+            except Exception as e:
+                logger.error(f"检测异常: {url} - {str(e)}")
+                url_info.append((url, (False, float('inf'))))
     
-    # 组合URL和检测结果
-    url_info = list(zip(urls, results))
-    
-    # 过滤掉不可用的URL，并按延迟排序
+    # 过滤和排序
     available_urls = [(url, latency) for url, (is_available, latency) in url_info if is_available]
+    available_urls.sort(key=lambda x: x[1])  # 按延迟排序
     
-    # 记录检测结果
-    logger.info(f"频道 {channel.get('name', '未知')} 检测结果: 共 {len(urls)} 个源, 可用 {len(available_urls)} 个")
-    
-    # 检查是否已经按延迟排序
-    is_sorted = True
-    for i in range(len(available_urls) - 1):
-        if available_urls[i][1] > available_urls[i+1][1]:
-            is_sorted = False
-            break
-    
-    # 如果未排序，则按延迟排序
-    if not is_sorted and len(available_urls) > 1:
-        available_urls.sort(key=lambda x: x[1])
-        logger.info(f"频道 {channel.get('name', '未知')} 已按延迟排序")
-    
-    # 只保留URL，去掉延迟数据
+    logger.info(f"频道 {channel.get('name', '未知')} 结果: 共 {len(urls)} 个源, 可用 {len(available_urls)} 个")
     channel['childItems'] = [url for url, _ in available_urls]
     return channel
 
-def main(input_file, output_file):
+def main(input_file, output_file, max_workers=10):
     """主函数"""
     logger.info("开始IPTV源检测")
     
-    # 检查ffmpeg是否可用
-    try:
-        subprocess.run(['ffmpeg', '-version'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        logger.info("FFmpeg检测通过")
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        logger.error("错误: ffmpeg未安装或不可用，请先安装ffmpeg")
+    # 检查依赖工具是否可用
+    required_tools = ['curl', 'ffprobe']
+    missing_tools = []
+    for tool in required_tools:
+        try:
+            subprocess.run([tool, '--version'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            logger.info(f"{tool} 检测通过")
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            missing_tools.append(tool)
+    
+    if missing_tools:
+        logger.error(f"错误: 缺少必要工具 {', '.join(missing_tools)}，请先安装")
         return
     
     # 读取输入文件
@@ -154,9 +180,9 @@ def main(input_file, output_file):
     
     # 处理所有频道
     for category in data:
-        if isinstance(data[category], list):  # 只处理列表类型的频道
-            logger.info(f"开始处理分类: {category}")
-            data[category] = [process_channel(channel) for channel in data[category]]
+        if isinstance(data[category], list):
+            logger.info(f"开始处理分类: {category} (共 {len(data[category])} 个频道)")
+            data[category] = [process_channel(channel, max_workers) for channel in data[category]]
             logger.info(f"分类 {category} 处理完成")
     
     # 确保输出目录存在
@@ -166,16 +192,16 @@ def main(input_file, output_file):
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        logger.info(f"检测完成，结果已保存到 {output_file}")
         
         # 统计结果
         total_channels = sum(len(data[category]) for category in data if isinstance(data[category], list))
         total_sources = sum(len(channel.get('childItems', [])) for category in data if isinstance(data[category], list) for channel in data[category])
-        logger.info(f"最终统计: 共 {total_channels} 个频道, {total_sources} 个可用源")
+        logger.info(f"检测完成: 共 {total_channels} 个频道, {total_sources} 个可用源")
+        logger.info(f"结果已保存到 {output_file}")
     except Exception as e:
         logger.error(f"保存结果失败: {str(e)}")
 
 if __name__ == '__main__':
     input_file = 'iptv_sources.json'
     output_file = 'data/iptv_data.json'
-    main(input_file, output_file)
+    main(input_file, output_file, max_workers=20)
