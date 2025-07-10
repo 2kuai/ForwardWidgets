@@ -2,13 +2,12 @@ name: IPTV Source Checker
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   check-sources:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # 整个任务超时时间
     
     steps:
     - uses: actions/checkout@v3
@@ -21,14 +20,17 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y ffmpeg curl  # 同时安装ffmpeg和curl
+        sudo apt-get install -y ffmpeg curl
+        # 验证关键工具
+        ffprobe -version || { echo "FFprobe安装失败"; exit 1; }
+        curl --version
     
     - name: Install Python dependencies
       run: pip install requests
     
     - name: Run checker
       run: python scripts/check_iptv.py
-      timeout-minutes: 15  # 单次检测超时
+      timeout-minutes: 15
     
     - name: Commit and push changes
       run: |
