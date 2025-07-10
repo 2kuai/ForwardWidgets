@@ -193,31 +193,31 @@ class SourceChecker:
             return False, f"全局检测异常: {str(e)}"
 
 def process_channel(channel, max_workers=10):
-    """处理单个频道及其所有源，分级检测，按可用性和速度排序，只保留可用源"""
+    """处理单个频道及其所有源，分级检测，按可用性和速度排序，只保留可用源。适配childItems为字符串列表。"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
-    
+
     checker = SourceChecker()
     results = []
     stats = {'high': 0, 'medium': 0, 'fail': 0}
     SLOW_THRESHOLD = 5.0
-    
+
+    urls = channel['childItems']
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_source = {executor.submit(checker.check_source_advanced, source['url']): source for source in channel['childItems'] if 'url' in source}
-        for future in concurrent.futures.as_completed(future_to_source):
-            source = future_to_source[future]
+        future_to_url = {executor.submit(checker.check_source_advanced, url): url for url in urls}
+        for future in concurrent.futures.as_completed(future_to_url):
+            url = future_to_url[future]
             try:
                 status, reason, get_time, probe_time = future.result()
             except Exception as exc:
                 status, reason, get_time, probe_time = 'fail', f'检测异常: {exc}', None, None
             stats[status] += 1
-            # 速率判定（仅用于日志和排序）
             total_time = (get_time or 0) + (probe_time or 0)
             speed = 'fast' if total_time <= SLOW_THRESHOLD else 'slow'
-            # 日志输出
-            logger.info(f"[RESULT] 状态: {status} | 速率: {speed} | 总耗时: {total_time:.2f}s | URL: {source['url']} | 原因: {reason}")
+            logger.info(f"[RESULT] 状态: {status} | 速率: {speed} | 总耗时: {total_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {reason}")
             if status in ('high', 'medium'):
-                results.append((status, total_time, source))
+                results.append((status, total_time, url))
     # 排序：high > medium，同级别按total_time升序
     results.sort(key=lambda x: (0 if x[0]=='high' else 1, x[1]))
     channel['childItems'] = [item[2] for item in results]
