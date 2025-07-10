@@ -28,9 +28,11 @@ def check_source(source_url):
         if source_url.startswith(('http://', 'https://')):
             # 使用curl获取前1KB数据检查签名
             curl_cmd = [
-                'curl', '-s', '-r', '0-1024',
+                'curl', '-s', '-L', '--fail',
+                '-r', '0-1024',
                 '--connect-timeout', '3',
                 '--max-time', '5',
+                '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
                 source_url
             ]
             curl_result = subprocess.run(
@@ -40,7 +42,8 @@ def check_source(source_url):
             )
             
             if curl_result.returncode != 0:
-                return False, "连接失败"
+                error_msg = curl_result.stderr.decode('utf-8').strip()
+                return False, f"连接失败: {error_msg if error_msg else '未知错误'}"
                 
             # 检查常见流媒体签名
             content = curl_result.stdout
@@ -113,22 +116,50 @@ def process_channel(channel, max_workers=10):
     channel['childItems'] = valid_sources
     return channel
 
+def check_dependencies():
+    """检查所有必要依赖是否安装"""
+    required_tools = ['curl', 'ffmpeg', 'ffprobe']
+    missing_tools = []
+    
+    for tool in required_tools:
+        try:
+            # 检查工具是否存在
+            subprocess.run(
+                ['which', tool],
+                check=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+            
+            # 检查工具基本功能
+            if tool == 'curl':
+                subprocess.run(
+                    [tool, '--version'],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL
+                )
+            else:
+                subprocess.run(
+                    [tool, '-version'],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL
+                )
+                
+            logger.info(f"{tool} 检测通过")
+        except (subprocess.CalledProcessError, FileNotFoundError) as e:
+            missing_tools.append(tool)
+            logger.error(f"{tool} 检测失败: {str(e)}")
+    
+    return missing_tools
+
 def main(input_file, output_file, max_workers=10):
     """主函数（添加内存优化）"""
     logger.info("开始IPTV源检测")
     
     # 检查依赖工具
-    required_tools = ['curl', 'ffmpeg', 'ffprobe']
-    missing_tools = []
-    for tool in required_tools:
-        try:
-            subprocess.run([tool, '-version'], check=True, 
-                          stdout=subprocess.DEVNULL, 
-                          stderr=subprocess.DEVNULL)
-            logger.info(f"{tool} 检测通过")
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            missing_tools.append(tool)
-    
+    missing_tools = check_dependencies()
     if missing_tools:
         logger.error(f"错误: 缺少必要工具 {', '.join(missing_tools)}")
         return
