@@ -6,6 +6,8 @@ import concurrent.futures
 from datetime import datetime
 import logging
 import requests
+import time
+from urllib.parse import urlparse
 
 # 配置日志
 logging.basicConfig(
@@ -17,81 +19,150 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def check_source(source_url):
-    """检查单个源的有效性（优化版）"""
-    try:
-        # 协议检查
-        if not source_url.startswith(('http://', 'https://', 'rtmp://')):
-            return False, "无效的协议"
+class SourceChecker:
+    def __init__(self):
+        self.session = requests.Session()
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+        self.timeout = 10  # 全局超时设置
 
-        # 第一阶段：快速HTTP检查（仅适用于HTTP协议）
-        if source_url.startswith(('http://', 'https://')):
-            # 使用curl获取前1KB数据检查签名
-            curl_cmd = [
-                'curl', '-s', '-L', '--fail',
-                '-r', '0-1024',
-                '--connect-timeout', '3',
-                '--max-time', '5',
-                '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-                source_url
-            ]
-            curl_result = subprocess.run(
-                curl_cmd,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE
-            )
-            
-            if curl_result.returncode != 0:
-                error_msg = curl_result.stderr.decode('utf-8').strip()
-                return False, f"连接失败: {error_msg if error_msg else '未知错误'}"
+    def check_http_source(self, url):
+        """检查HTTP/HTTPS源的多阶段验证"""
+        try:
+            # 第一阶段：HEAD请求检查基本可访问性
+            try:
+                head_response = self.session.head(
+                    url,
+                    timeout=self.timeout,
+                    allow_redirects=True
+                )
+                head_response.raise_for_status()
                 
-            # 检查常见流媒体签名
-            content = curl_result.stdout
-            if not any(sig in content for sig in [b'#EXTM3U', b'FLV', b'ftyp']):
-                return False, "无效的流媒体格式"
+                # 检查Content-Type
+                content_type = head_response.headers.get('Content-Type', '').lower()
+                if 'video' not in content_type and 'audio' not in content_type:
+                    return False, "无效的Content-Type"
+                    
+            except requests.RequestException as e:
+                return False, f"HEAD请求失败: {str(e)}"
 
-        # 第二阶段：快速流验证（所有协议）
-        if source_url.startswith('rtmp://'):
-            probe_cmd = [
-                'ffprobe', '-v', 'error',
-                '-rw_timeout', '5000000',  # 5秒超时
-                '-select_streams', 'v:0',
-                '-show_entries', 'format=duration',
-                '-of', 'csv=print_section=0',
-                source_url
-            ]
-        else:
-            probe_cmd = [
-                'ffprobe', '-v', 'error',
-                '-timeout', '5000000',  # 5秒超时(微秒)
-                '-select_streams', 'v:0',
-                '-show_entries', 'stream=codec_name',
-                '-of', 'csv=print_section=0',
-                source_url
-            ]
+            # 第二阶段：部分GET请求检查内容签名
+            try:
+                get_response = self.session.get(
+                    url,
+                    timeout=self.timeout,
+                    headers={'Range': 'bytes=0-1024'},  # 只获取前1KB
+                    stream=True
+                )
+                get_response.raise_for_status()
+                
+                # 检查常见流媒体签名
+                content = next(get_response.iter_content(1024))
+                if not any(sig in content for sig in [b'#EXTM3U', b'FLV', b'ftyp']):
+                    return False, "无效的流媒体格式"
+                    
+            except requests.RequestException as e:
+                return False, f"GET请求失败: {str(e)}"
+
+            # 第三阶段：FFprobe完整验证
+            return self._ffprobe_check(url)
             
-        probe_result = subprocess.run(
-            probe_cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            timeout=5  # 双重超时保护
-        )
+        except Exception as e:
+            return False, f"HTTP检测异常: {str(e)}"
+
+    def check_rtmp_source(self, url):
+        """RTMP源专用检测"""
+        try:
+            # 基本URL解析
+            parsed = urlparse(url)
+            if not parsed.netloc:
+                return False, "无效的RTMP URL"
+
+            # 使用FFprobe进行RTMP验证
+            return self._ffprobe_check(url, is_rtmp=True)
+            
+        except Exception as e:
+            return False, f"RTMP检测异常: {str(e)}"
+
+    def _ffprobe_check(self, url, is_rtmp=False):
+        """使用FFprobe进行流验证的通用方法"""
+        try:
+            if is_rtmp:
+                probe_cmd = [
+                    'ffprobe', '-v', 'error',
+                    '-rw_timeout', '10000000',  # 10秒超时
+                    '-select_streams', 'v:0',
+                    '-show_entries', 'format=duration',
+                    '-of', 'csv=print_section=0',
+                    url
+                ]
+            else:
+                probe_cmd = [
+                    'ffprobe', '-v', 'error',
+                    '-timeout', '10000000',  # 10秒超时(微秒)
+                    '-select_streams', 'v:0',
+                    '-show_entries', 'stream=codec_name,width,height',
+                    '-of', 'csv=print_section=0',
+                    url
+                ]
+
+            probe_result = subprocess.run(
+                probe_cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                timeout=self.timeout
+            )
+
+            if probe_result.returncode != 0:
+                error_msg = probe_result.stderr.decode('utf-8').strip()
+                return False, f"FFprobe验证失败: {error_msg if error_msg else '未知错误'}"
+
+            # 解析输出结果
+            output = probe_result.stdout.decode('utf-8').strip()
+            if is_rtmp:
+                if not output or float(output) <= 0:
+                    return False, "无效的流持续时间"
+            else:
+                if not output:
+                    return False, "无视频流信息"
+                codec, width, height = output.split(',')
+                if not codec or not width or not height:
+                    return False, "不完整的流信息"
+
+            return True, "验证通过"
+            
+        except subprocess.TimeoutExpired:
+            return False, "FFprobe检测超时"
+        except Exception as e:
+            return False, f"FFprobe检测异常: {str(e)}"
+
+    def check_source(self, url):
+        """统一入口方法"""
+        start_time = time.time()
         
-        if probe_result.returncode == 0:
-            return True, "检测通过"
-        else:
-            return False, "流验证失败"
+        try:
+            # 协议检查
+            if url.startswith(('http://', 'https://')):
+                result, message = self.check_http_source(url)
+            elif url.startswith('rtmp://'):
+                result, message = self.check_rtmp_source(url)
+            else:
+                return False, "不支持的协议"
+
+            elapsed = time.time() - start_time
+            logger.debug(f"检测完成 [{elapsed:.2f}s]: {url} - {'有效' if result else '无效'} ({message})")
+            return result, message
             
-    except subprocess.TimeoutExpired:
-        return False, "检测超时"
-    except Exception as e:
-        return False, f"检测异常: {str(e)}"
+        except Exception as e:
+            return False, f"全局检测异常: {str(e)}"
 
 def process_channel(channel, max_workers=10):
     """处理单个频道及其所有源（优化线程池使用）"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
         
+    checker = SourceChecker()
     valid_sources = []
     futures = []
     
@@ -100,7 +171,7 @@ def process_channel(channel, max_workers=10):
         for source in channel['childItems']:
             if 'url' not in source:
                 continue
-            futures.append(executor.submit(check_source, source['url']))
+            futures.append(executor.submit(checker.check_source, source['url']))
         
         # 收集结果
         for i, future in enumerate(concurrent.futures.as_completed(futures)):
@@ -109,53 +180,37 @@ def process_channel(channel, max_workers=10):
             
             if is_valid:
                 valid_sources.append(source)
-                logger.debug(f"有效源: {source['url']}")
+                logger.info(f"有效源: {source['url']}")
             else:
-                logger.info(f"无效源: {source['url']} - 原因: {message}")
+                logger.warning(f"无效源: {source['url']} - 原因: {message}")
     
     channel['childItems'] = valid_sources
     return channel
 
 def check_dependencies():
     """检查所有必要依赖是否安装"""
-    required_tools = ['curl', 'ffmpeg', 'ffprobe']
+    required_tools = ['ffmpeg', 'ffprobe']
     missing_tools = []
     
     for tool in required_tools:
         try:
-            # 检查工具是否存在
+            # 检查工具是否存在且基本功能正常
             subprocess.run(
-                ['which', tool],
+                [tool, '-version'],
                 check=True,
                 stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL
+                stderr=subprocess.DEVNULL,
+                timeout=5
             )
-            
-            # 检查工具基本功能
-            if tool == 'curl':
-                subprocess.run(
-                    [tool, '--version'],
-                    check=True,
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL
-                )
-            else:
-                subprocess.run(
-                    [tool, '-version'],
-                    check=True,
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL
-                )
-                
             logger.info(f"{tool} 检测通过")
-        except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        except (subprocess.CalledProcessError, FileNotFoundError, subprocess.TimeoutExpired) as e:
             missing_tools.append(tool)
             logger.error(f"{tool} 检测失败: {str(e)}")
     
     return missing_tools
 
 def main(input_file, output_file, max_workers=10):
-    """主函数（添加内存优化）"""
+    """主函数"""
     logger.info("开始IPTV源检测")
     
     # 检查依赖工具
@@ -164,7 +219,7 @@ def main(input_file, output_file, max_workers=10):
         logger.error(f"错误: 缺少必要工具 {', '.join(missing_tools)}")
         return
     
-    # 读取输入文件（使用更高效的方式）
+    # 读取输入文件
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -180,7 +235,7 @@ def main(input_file, output_file, max_workers=10):
         'valid_sources': 0
     }
     
-    # 处理所有频道（显示进度）
+    # 处理所有频道
     for category in data:
         if isinstance(data[category], list):
             count = len(data[category])
@@ -220,9 +275,14 @@ if __name__ == '__main__':
                       help='输入JSON文件路径')
     parser.add_argument('-o', '--output', default='data/iptv_data.json',
                       help='输出JSON文件路径')
-    parser.add_argument('-w', '--workers', type=int, default=20,
+    parser.add_argument('-w', '--workers', type=int, default=10,
                       help='并发工作线程数')
+    parser.add_argument('-v', '--verbose', action='store_true',
+                      help='启用详细日志')
     
     args = parser.parse_args()
+    
+    if args.verbose:
+        logger.setLevel(logging.DEBUG)
     
     main(args.input, args.output, args.workers)
