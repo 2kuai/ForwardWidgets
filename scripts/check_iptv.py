@@ -27,47 +27,74 @@ class SourceChecker:
         })
         self.timeout = 10  # 全局超时设置
 
-    def check_http_source(self, url):
-        """检查HTTP/HTTPS源的多阶段验证"""
-        try:
-            # 第一阶段：HEAD请求检查基本可访问性
+    def check_source_advanced(self, url):
+        """分级+多维度+重试的检测方案"""
+        # 内部检测逻辑
+        def _detect():
             try:
-                head_response = self.session.head(
-                    url,
-                    timeout=self.timeout,
-                    allow_redirects=True
-                )
-                head_response.raise_for_status()
-                
-                # 检查Content-Type
-                content_type = head_response.headers.get('Content-Type', '').lower()
-                if 'video' not in content_type and 'audio' not in content_type:
-                    return False, "无效的Content-Type"
-                    
-            except requests.RequestException as e:
-                return False, f"HEAD请求失败: {str(e)}"
+                start_get = time.time()
+                resp = self.session.get(url, timeout=self.timeout, stream=True)
+                resp.raise_for_status()
+                get_time = time.time() - start_get
+                ctype = resp.headers.get('Content-Type', '').lower()
+                if any(x in ctype for x in ['text/html', 'image/', 'xml', 'json']):
+                    return 'fail', 'Content-Type不符', get_time, None
+                try:
+                    chunk = next(resp.iter_content(2048), b'')
+                except Exception:
+                    chunk = b''
+                # 内容签名
+                if any(sig in chunk for sig in [b'#EXTM3U', b'ftyp', b'FLV']):
+                    start_probe = time.time()
+                    ok, msg = self._ffprobe_check(url)
+                    probe_time = time.time() - start_probe
+                    if ok:
+                        return 'high', 'ffprobe通过', get_time, probe_time
+                    else:
+                        return 'medium', f'内容签名通过, ffprobe失败: {msg}', get_time, probe_time
+                else:
+                    start_probe = time.time()
+                    ok, msg = self._ffprobe_check(url)
+                    probe_time = time.time() - start_probe
+                    if ok:
+                        return 'medium', 'ffprobe通过, 无签名', get_time, probe_time
+                    else:
+                        return 'fail', f'无签名且ffprobe失败: {msg}', get_time, probe_time
+            except Exception as e:
+                return 'fail', f'GET失败: {e}', None, None
+        # 先检测一次
+        status, reason, get_time, probe_time = _detect()
+        # 可疑/失败重试一次
+        if status == 'fail':
+            time.sleep(1)
+            status, reason, get_time, probe_time = _detect()
+        return status, reason, get_time, probe_time
 
-            # 第二阶段：部分GET请求检查内容签名
+    def check_http_source(self, url):
+        """优化后的HTTP/HTTPS源检测：只要能GET到内容且不是HTML就判为有效，内容签名和ffprobe仅作参考"""
+        try:
+            # 直接GET部分内容
             try:
                 get_response = self.session.get(
                     url,
                     timeout=self.timeout,
-                    headers={'Range': 'bytes=0-1024'},  # 只获取前1KB
                     stream=True
                 )
                 get_response.raise_for_status()
-                
-                # 检查常见流媒体签名
-                content = next(get_response.iter_content(1024))
-                if not any(sig in content for sig in [b'#EXTM3U', b'FLV', b'ftyp']):
-                    return False, "无效的流媒体格式"
-                    
+                content_type = get_response.headers.get('Content-Type', '').lower()
+                if 'text/html' in content_type:
+                    return False, "Content-Type为HTML"
+                # 检查内容签名（可选）
+                try:
+                    chunk = next(get_response.iter_content(1024), b'')
+                    if any(sig in chunk for sig in [b'#EXTM3U', b'FLV', b'ftyp']):
+                        return True, "内容签名通过"
+                except Exception:
+                    pass  # 内容签名检测失败不影响整体判断
+                # 能GET到内容且不是HTML就算有效
+                return True, "GET成功，内容类型有效"
             except requests.RequestException as e:
                 return False, f"GET请求失败: {str(e)}"
-
-            # 第三阶段：FFprobe完整验证
-            return self._ffprobe_check(url)
-            
         except Exception as e:
             return False, f"HTTP检测异常: {str(e)}"
 
@@ -158,33 +185,36 @@ class SourceChecker:
             return False, f"全局检测异常: {str(e)}"
 
 def process_channel(channel, max_workers=10):
-    """处理单个频道及其所有源（优化线程池使用）"""
+    """处理单个频道及其所有源，分级检测，写入status和reason"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
-        
+    
     checker = SourceChecker()
     valid_sources = []
-    futures = []
+    stats = {'high': 0, 'medium': 0, 'fail': 0}
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # 提交所有检测任务
-        for source in channel['childItems']:
-            if 'url' not in source:
-                continue
-            futures.append(executor.submit(checker.check_source, source['url']))
-        
-        # 收集结果
-        for i, future in enumerate(concurrent.futures.as_completed(futures)):
-            source = channel['childItems'][i]
-            is_valid, message = future.result()
-            
-            if is_valid:
+        future_to_source = {executor.submit(checker.check_source_advanced, source['url']): source for source in channel['childItems'] if 'url' in source}
+        for future in concurrent.futures.as_completed(future_to_source):
+            source = future_to_source[future]
+            try:
+                status, reason, get_time, probe_time = future.result()
+            except Exception as exc:
+                status, reason, get_time, probe_time = 'fail', f'检测异常: {exc}', None, None
+            source['status'] = status
+            source['reason'] = reason
+            if get_time is not None:
+                source['get_time'] = round(get_time, 2)
+            if probe_time is not None:
+                source['probe_time'] = round(probe_time, 2)
+            stats[status] += 1
+            if status in ('high', 'medium'):
                 valid_sources.append(source)
-                logger.info(f"有效源: {source['url']}")
+                logger.info(f"[{status}] {source['url']} - {reason}")
             else:
-                logger.warning(f"无效源: {source['url']} - 原因: {message}")
-    
+                logger.warning(f"[{status}] {source['url']} - {reason}")
     channel['childItems'] = valid_sources
+    channel['stats'] = stats
     return channel
 
 def check_dependencies():
