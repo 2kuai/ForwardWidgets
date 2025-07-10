@@ -2,8 +2,8 @@ name: IPTV Source Checker
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # 每天UTC时间0点运行
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   check-sources:
@@ -17,34 +17,21 @@ jobs:
       with:
         python-version: '3.10'
     
-    - name: Install dependencies
+    - name: Install system dependencies
       run: |
-        # 1. 安装基础工具
         sudo apt-get update
-        sudo apt-get install -y curl tar xz-utils
+        sudo apt-get install -y ffmpeg curl
         
-        # 2. 安装静态编译版FFmpeg（确保ffprobe存在）
-        mkdir -p ~/ffmpeg
-        curl -sL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar xJ -C ~/ffmpeg --strip-components 1
-        echo "$HOME/ffmpeg" >> $GITHUB_PATH
-        
-        # 3. 验证安装
-        ffprobe -version || { echo "❌ ffprobe验证失败"; exit 1; }
-        echo "✅ ffprobe已安装：" $(ffprobe -version | head -n 1)
-    
     - name: Install Python dependencies
       run: pip install requests
     
     - name: Run checker
       run: python scripts/check_iptv.py
-      timeout-minutes: 15
     
     - name: Commit and push changes
       run: |
-        git diff --quiet data/iptv_data.json || {
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add data/iptv_data.json
-          git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M') Clean invalid sources [skip ci]"
-          git push
-        }
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add data/iptv_data.json
+        git commit -m "Auto update: Clean invalid IPTV sources [skip ci]"
+        git push
