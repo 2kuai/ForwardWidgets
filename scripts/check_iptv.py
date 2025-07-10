@@ -30,12 +30,12 @@ class SourceChecker:
         self.timeout = 10  # 全局超时设置
 
     def _ffprobe_check(self, url: str, is_rtmp: bool = False) -> Tuple[bool, str]:
-        """使用FFprobe进行流验证的通用方法"""
+        """只要ffprobe有输出就判为活着，不再要求流特征。"""
         try:
             if is_rtmp:
                 probe_cmd = [
                     'ffprobe', '-v', 'error',
-                    '-rw_timeout', '10000000',  # 10秒超时
+                    '-rw_timeout', '10000000',
                     '-select_streams', 'v:0',
                     '-show_entries', 'format=duration',
                     '-of', 'csv=print_section=0',
@@ -44,7 +44,7 @@ class SourceChecker:
             else:
                 probe_cmd = [
                     'ffprobe', '-v', 'error',
-                    '-timeout', '10000000',  # 10秒超时(微秒)
+                    '-timeout', '10000000',
                     '-select_streams', 'v:0',
                     '-show_entries', 'stream=codec_name,width,height',
                     '-of', 'csv=print_section=0',
@@ -60,16 +60,10 @@ class SourceChecker:
                 error_msg = probe_result.stderr.decode('utf-8').strip()
                 return False, f"FFprobe验证失败: {error_msg if error_msg else '未知错误'}"
             output = probe_result.stdout.decode('utf-8').strip()
-            if is_rtmp:
-                if not output or float(output) <= 0:
-                    return False, "无效的流持续时间"
+            if output:
+                return True, "ffprobe有输出，判为活着"
             else:
-                if not output:
-                    return False, "无视频流信息"
-                codec, width, height = output.split(',')
-                if not codec or not width or not height:
-                    return False, "不完整的流信息"
-            return True, "验证通过"
+                return False, "ffprobe无输出"
         except subprocess.TimeoutExpired:
             return False, "FFprobe检测超时"
         except Exception as e:
