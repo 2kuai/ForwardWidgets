@@ -14,7 +14,8 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.StreamHandler()
+        logging.StreamHandler(),
+        logging.FileHandler('iptv_check.log', encoding='utf-8')
     ]
 )
 logger = logging.getLogger(__name__)
@@ -28,44 +29,51 @@ class SourceChecker:
         self.timeout = 10  # 全局超时设置
 
     def check_source_advanced(self, url):
-        """分级+多维度+重试的检测方案"""
-        # 内部检测逻辑
+        """分级+多维度+重试的检测方案，含详细DEBUG日志"""
         def _detect():
             try:
+                logger.debug(f"开始GET检测: {url}")
                 start_get = time.time()
                 resp = self.session.get(url, timeout=self.timeout, stream=True)
                 resp.raise_for_status()
                 get_time = time.time() - start_get
                 ctype = resp.headers.get('Content-Type', '').lower()
+                logger.debug(f"GET成功: {url} Content-Type: {ctype} 用时: {get_time:.2f}s")
                 if any(x in ctype for x in ['text/html', 'image/', 'xml', 'json']):
+                    logger.debug(f"Content-Type不符: {url} {ctype}")
                     return 'fail', 'Content-Type不符', get_time, None
                 try:
                     chunk = next(resp.iter_content(2048), b'')
-                except Exception:
+                    logger.debug(f"内容签名检测: {url} 前2KB: {chunk[:32]!r}")
+                except Exception as e:
+                    logger.debug(f"内容签名读取失败: {url} {e}")
                     chunk = b''
-                # 内容签名
                 if any(sig in chunk for sig in [b'#EXTM3U', b'ftyp', b'FLV']):
+                    logger.debug(f"内容签名通过: {url}")
                     start_probe = time.time()
                     ok, msg = self._ffprobe_check(url)
                     probe_time = time.time() - start_probe
+                    logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
                     if ok:
                         return 'high', 'ffprobe通过', get_time, probe_time
                     else:
                         return 'medium', f'内容签名通过, ffprobe失败: {msg}', get_time, probe_time
                 else:
+                    logger.debug(f"无内容签名: {url}")
                     start_probe = time.time()
                     ok, msg = self._ffprobe_check(url)
                     probe_time = time.time() - start_probe
+                    logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
                     if ok:
                         return 'medium', 'ffprobe通过, 无签名', get_time, probe_time
                     else:
                         return 'fail', f'无签名且ffprobe失败: {msg}', get_time, probe_time
             except Exception as e:
+                logger.debug(f"GET检测异常: {url} {e}")
                 return 'fail', f'GET失败: {e}', None, None
-        # 先检测一次
         status, reason, get_time, probe_time = _detect()
-        # 可疑/失败重试一次
         if status == 'fail':
+            logger.debug(f"首次检测失败，重试: {url}")
             time.sleep(1)
             status, reason, get_time, probe_time = _detect()
         return status, reason, get_time, probe_time
