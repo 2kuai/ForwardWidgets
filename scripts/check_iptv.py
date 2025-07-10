@@ -70,7 +70,7 @@ def check_url_with_ffmpeg(url, timeout=10):
         logger.error(f"FFmpeg检测异常({str(e)}): {url}")
         return False
 
-def check_url_availability(url, timeout=5):
+def check_url_availability(url, timeout=15):
     """检测单个URL的可用性和响应时间"""
     # 先使用HEAD请求快速筛选
     if not check_url_with_head(url, timeout):
