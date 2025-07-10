@@ -17,13 +17,20 @@ jobs:
       with:
         python-version: '3.10'
     
-    - name: Install system dependencies
+    - name: Install dependencies
       run: |
+        # 1. 安装基础工具
         sudo apt-get update
-        sudo apt-get install -y ffmpeg curl
-        # 验证关键工具
-        ffprobe -version || { echo "FFprobe安装失败"; exit 1; }
-        curl --version
+        sudo apt-get install -y curl tar xz-utils
+        
+        # 2. 安装静态编译版FFmpeg（确保ffprobe存在）
+        mkdir -p ~/ffmpeg
+        curl -sL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar xJ -C ~/ffmpeg --strip-components 1
+        echo "$HOME/ffmpeg" >> $GITHUB_PATH
+        
+        # 3. 验证安装
+        ffprobe -version || { echo "❌ ffprobe验证失败"; exit 1; }
+        echo "✅ ffprobe已安装：" $(ffprobe -version | head -n 1)
     
     - name: Install Python dependencies
       run: pip install requests
