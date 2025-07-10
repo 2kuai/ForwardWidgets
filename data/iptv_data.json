@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-10 04:05:14",
+  "last_updated": "2025-07-10T06:21:17.579569",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -299,5 +299,9 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以服务百姓生活为宗旨，关注民生热点，提供实用资讯，搭建政府与群众沟通的桥梁。",
       "childItems": []
     }
-  ]
+  ],
+  "stats": {
+    "total_channels": 49,
+    "valid_sources": 0
+  }
 }
