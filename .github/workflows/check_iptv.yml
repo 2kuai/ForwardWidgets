@@ -21,11 +21,11 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
+        sudo apt-get install -y curl  # 只添加curl工具
         sudo apt-get install -y \
           ffmpeg \
-          curl \
           rtmpdump \
-          libavcodec-extra  # 支持更多编码格式
+          libavcodec-extra  # 原有其他依赖
         
     - name: Install Python dependencies
       run: pip install requests
