@@ -218,9 +218,8 @@ def process_channel(channel, max_workers=10):
             stats[status] += 1
             if status in ('high', 'medium'):
                 valid_sources.append(source)
-                logger.info(f"[{status}] {source['url']} - {reason}")
-            else:
-                logger.warning(f"[{status}] {source['url']} - {reason}")
+            # 新增：每个源都输出最终检测结果
+            logger.info(f"[RESULT] 状态: {status} | URL: {source['url']} | 原因: {reason}")
     channel['childItems'] = valid_sources
     channel['stats'] = stats
     return channel
