@@ -33,7 +33,7 @@ class SourceChecker:
         """用cvlc检测直播源（支持rtmp等），分析输出内容，只有包含关键字才判为可用。"""
         try:
             # --intf dummy: 无界面
-            # --run-time=15: 最多播放15秒
+            # --run-time=15: 最多加载15秒
             # -vvv: 最高详细度日志
             vlc_cmd = [
                 'cvlc', '--intf', 'dummy', '--run-time=15', '-vvv', url
@@ -42,7 +42,7 @@ class SourceChecker:
                 vlc_cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
-                timeout=self.timeout + 20  # 更长超时
+                timeout=self.timeout  # 最长30秒超时
             )
             output = (result.stdout.decode('utf-8', errors='ignore') + '\n' + result.stderr.decode('utf-8', errors='ignore')).lower()
             keywords = ['audio output', 'video output', 'decoder', 'stream_out', 'rtmp', 'demux']
@@ -98,7 +98,11 @@ def process_channel(channel: dict, max_workers: int = 10) -> dict:
             except Exception as exc:
                 ok, msg, check_time = False, f'检测异常: {exc}', None
             speed = 'fast' if (check_time or 0) <= SLOW_THRESHOLD else 'slow'
-            logger.info(f"[RESULT] 状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {msg}")
+            logger.info(
+                f"  频道: {channel.get('name','')}  URL: {url}\n"
+                f"  状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s\n"
+                f"  结果: {msg}"
+            )
             if ok:
                 results.append((check_time, url))
     # 按check_time升序排序
