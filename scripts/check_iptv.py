@@ -27,30 +27,29 @@ class SourceChecker:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
-        self.timeout = 10  # 全局超时设置
+        self.timeout = 30  # 全局超时设置
 
     def _vlc_check(self, url: str) -> Tuple[bool, str]:
-        """用cvlc检测直播源（支持rtmp等），只要能正常启动播放就判为可用。"""
+        """用cvlc检测直播源（支持rtmp等），分析输出内容，只有包含关键字才判为可用。"""
         try:
-            # --play-and-exit: 播放后退出
             # --intf dummy: 无界面
-            # --no-video: 不显示视频
-            # --no-audio: 不输出音频
-            # --run-time=10: 最多播放10秒
+            # --run-time=15: 最多播放15秒
+            # -vvv: 最高详细度日志
             vlc_cmd = [
-                'cvlc', '--play-and-exit', '--intf', 'dummy', '--no-video', '--no-audio', '--run-time=10', url
+                'cvlc', '--intf', 'dummy', '--run-time=15', '-vvv', url
             ]
             result = subprocess.run(
                 vlc_cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
-                timeout=self.timeout + 5  # 比ffprobe略宽松
+                timeout=self.timeout + 20  # 更长超时
             )
-            if result.returncode == 0:
-                return True, "cvlc检测通过，判为可用"
+            output = (result.stdout.decode('utf-8', errors='ignore') + '\n' + result.stderr.decode('utf-8', errors='ignore')).lower()
+            keywords = ['audio output', 'video output', 'decoder', 'stream_out', 'rtmp', 'demux']
+            if any(kw in output for kw in keywords):
+                return True, "cvlc检测通过，输出包含关键字，判为可用"
             else:
-                err = result.stderr.decode('utf-8').strip()
-                return False, f"cvlc检测失败: {err if err else '未知错误'}"
+                return False, f"cvlc检测失败: 输出不包含关键字。部分输出: {output[:200]}"
         except subprocess.TimeoutExpired:
             return False, "cvlc检测超时"
         except Exception as e:
