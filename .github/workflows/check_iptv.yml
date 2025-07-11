@@ -35,7 +35,7 @@ jobs:
       run: |
         python scripts/check_iptv.py \
           -i iptv_sources.json \
-          -o data/iptv_data.json \
+          -o data/iptv-data.json \
           -w 20
         
     - name: Commit and push changes
