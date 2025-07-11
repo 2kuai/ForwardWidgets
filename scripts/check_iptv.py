@@ -69,77 +69,12 @@ class SourceChecker:
         except Exception as e:
             return False, f"FFprobe检测异常: {str(e)}"
 
-    def check_source_advanced(self, url: str) -> Tuple[str, str, Optional[float], Optional[float]]:
-        """GET只判断状态码是否200，不判断Content-Type。ffprobe成功为high，GET成功但ffprobe失败为medium，GET失败为fail。"""
-        def _detect():
-            try:
-                logger.debug(f"开始GET检测: {url}")
-                start_get = time.time()
-                resp = self.session.get(url, timeout=self.timeout, stream=True)
-                get_time = time.time() - start_get
-                if resp.status_code != 200:
-                    logger.debug(f"GET状态码非200: {url} {resp.status_code}")
-                    return 'fail', f'GET状态码: {resp.status_code}', get_time, None
-                logger.debug(f"GET成功: {url} 状态码: {resp.status_code} 用时: {get_time:.2f}s")
-                # ffprobe检测
-                start_probe = time.time()
-                ok, msg = self._ffprobe_check(url)
-                probe_time = time.time() - start_probe
-                logger.debug(f"ffprobe检测: {url} 结果: {ok} {msg} 用时: {probe_time:.2f}s")
-                if ok:
-                    return 'high', 'ffprobe通过', get_time, probe_time
-                else:
-                    return 'medium', f'GET成功, ffprobe失败: {msg}', get_time, probe_time
-            except Exception as e:
-                logger.debug(f"GET检测异常: {url} {e}")
-                return 'fail', f'GET失败: {e}', None, None
-        status, reason, get_time, probe_time = _detect()
-        if status == 'fail':
-            logger.debug(f"首次检测失败，重试: {url}")
-            time.sleep(1)
-            status, reason, get_time, probe_time = _detect()
-        return status, reason, get_time, probe_time
-
-    def check_http_source(self, url):
-        try:
-            # 直接GET部分内容
-            try:
-                get_response = self.session.get(
-                    url,
-                    timeout=self.timeout,
-                    stream=True
-                )
-                get_response.raise_for_status()
-                content_type = get_response.headers.get('Content-Type', '').lower()
-                if 'text/html' in content_type:
-                    return False, "Content-Type为HTML"
-                # 检查内容签名（可选）
-                try:
-                    chunk = next(get_response.iter_content(1024), b'')
-                    if any(sig in chunk for sig in [b'#EXTM3U', b'FLV', b'ftyp']):
-                        return True, "内容签名通过"
-                except Exception:
-                    pass  # 内容签名检测失败不影响整体判断
-                # 能GET到内容且不是HTML就算有效
-                return True, "GET成功，内容类型有效"
-            except requests.RequestException as e:
-                return False, f"GET请求失败: {str(e)}"
-        except Exception as e:
-            return False, f"HTTP检测异常: {str(e)}"
-
-    def check_rtmp_source(self, url):
-        """RTMP源专用检测"""
-        try:
-            # 基本URL解析
-            parsed = urlparse(url)
-            if not parsed.netloc:
-                return False, "无效的RTMP URL"
-
-            # 使用FFprobe进行RTMP验证
-            return self._ffprobe_check(url, is_rtmp=True)
-            
-        except Exception as e:
-            return False, f"RTMP检测异常: {str(e)}"
+    def check_source_ffprobe_only(self, url: str) -> Tuple[bool, str, Optional[float]]:
+        """只用ffprobe检测，只要有输出就判为可用。"""
+        start_probe = time.time()
+        ok, msg = self._ffprobe_check(url)
+        probe_time = time.time() - start_probe
+        return ok, msg, probe_time
 
 def check_dependencies() -> list:
     """检查所有必要依赖是否安装"""
@@ -161,7 +96,7 @@ def check_dependencies() -> list:
     return missing_tools
 
 def process_channel(channel: dict, max_workers: int = 10) -> dict:
-    """处理单个频道及其所有源，GET成功全部保留，ffprobe结果只影响排序，GET失败的不保留。"""
+    """处理单个频道及其所有源，只用ffprobe检测，检测通过的全部保留。"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
     checker = SourceChecker()
@@ -169,21 +104,20 @@ def process_channel(channel: dict, max_workers: int = 10) -> dict:
     SLOW_THRESHOLD = 5.0
     urls = channel['childItems']
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_url = {executor.submit(checker.check_source_advanced, url): url for url in urls}
+        future_to_url = {executor.submit(checker.check_source_ffprobe_only, url): url for url in urls}
         for future in concurrent.futures.as_completed(future_to_url):
             url = future_to_url[future]
             try:
-                status, reason, get_time, probe_time = future.result()
+                ok, msg, probe_time = future.result()
             except Exception as exc:
-                status, reason, get_time, probe_time = 'fail', f'检测异常: {exc}', None, None
-            total_time = (get_time or 0) + (probe_time or 0)
-            speed = 'fast' if total_time <= SLOW_THRESHOLD else 'slow'
-            logger.info(f"[RESULT] 状态: {status} | 速率: {speed} | 总耗时: {total_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {reason}")
-            if status in ('high', 'medium'):
-                results.append((status, total_time, url))
-    # 排序：high > medium，同级别按total_time升序
-    results.sort(key=lambda x: (0 if x[0]=='high' else 1, x[1]))
-    channel['childItems'] = [item[2] for item in results]
+                ok, msg, probe_time = False, f'检测异常: {exc}', None
+            speed = 'fast' if (probe_time or 0) <= SLOW_THRESHOLD else 'slow'
+            logger.info(f"[RESULT] 状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {probe_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {msg}")
+            if ok:
+                results.append((probe_time, url))
+    # 按probe_time升序排序
+    results.sort(key=lambda x: x[0])
+    channel['childItems'] = [item[1] for item in results]
     return channel
 
 def main(input_file: str, output_file: str, max_workers: int = 10):
