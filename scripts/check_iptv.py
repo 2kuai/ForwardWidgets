@@ -10,14 +10,11 @@ import time
 from urllib.parse import urlparse
 from typing import Tuple, Optional
 
-# 配置日志
+# 配置日志 - 只保留控制台输出
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(),
-        logging.FileHandler('iptv_check.log', encoding='utf-8')
-    ]
+    handlers=[logging.StreamHandler()]
 )
 logger = logging.getLogger(__name__)
 
@@ -99,7 +96,7 @@ def process_channel(channel: dict, max_workers: int = 10) -> dict:
                 ok, msg, check_time = False, f'检测异常: {exc}', None
             speed = 'fast' if (check_time or 0) <= SLOW_THRESHOLD else 'slow'
             logger.info(
-                f"\n频道: {channel.get('name','')}  {url}"
+                f"\n频道: 【{channel.get('name','')}】  {url}"
                 f"\n状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s"
                 f"\n结果: {msg}"
             )
