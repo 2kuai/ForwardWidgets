@@ -52,8 +52,11 @@ async function getTmdbDetails(title) {
     const movie = response.data.results.find(
       item => 
         (item.title === cleanTitle || item.original_title === cleanTitle)
-    ) || response.data.results[0];  // 如果没有精确匹配，返回第一个结果
-
+    );
+    if (!movie) {
+      console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
+      return null;
+    }
     // 返回格式化后的电影信息
     return {
       id: movie.id,
