@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-11T14:52:10.319076",
+  "last_updated": "2025-07-11T15:08:57.436314",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -85,7 +85,9 @@
       "name": "CCTV-11 戏曲",
       "description": "中国中央电视台戏曲频道，是中国唯一的国家级专业戏曲电视频道，致力于传承和弘扬中国传统戏曲艺术，播出京剧、越剧、豫剧、黄梅戏等各类戏曲节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-CCTV11.png,lfo-center,l-end,l-end/CCTV11.png",
-      "childItems": []
+      "childItems": [
+        "http://8.138.7.223/tv/ptbtv.php?id=28"
+      ]
     },
     {
       "name": "CCTV-12 社会与法",
@@ -145,17 +147,13 @@
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 兵器科技",
       "description": "CCTV 兵器科技频道，专注于播出兵器、军事科技及相关专题节目，展示前沿科技与国防力量。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
-      ]
+      "childItems": []
     }
   ],
   "stv": [
@@ -314,8 +312,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
