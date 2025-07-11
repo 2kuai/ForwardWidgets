@@ -75,7 +75,7 @@
     {
       "name": "CCTV-6 电影",
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
-      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV6",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
