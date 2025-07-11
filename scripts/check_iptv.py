@@ -30,7 +30,7 @@ class SourceChecker:
         self.timeout = 10  # 全局超时设置
 
     def _ffprobe_check(self, url: str, is_rtmp: bool = False) -> Tuple[bool, str]:
-        """只要ffprobe有输出就判为活着，不再要求流特征。"""
+        """只要ffprobe没有报错（returncode==0），就判为活着，不再要求有输出。"""
         try:
             if is_rtmp:
                 probe_cmd = [
@@ -56,14 +56,11 @@ class SourceChecker:
                 stderr=subprocess.PIPE,
                 timeout=self.timeout
             )
-            if probe_result.returncode != 0:
+            if probe_result.returncode == 0:
+                return True, "ffprobe无报错，判为活着"
+            else:
                 error_msg = probe_result.stderr.decode('utf-8').strip()
                 return False, f"FFprobe验证失败: {error_msg if error_msg else '未知错误'}"
-            output = probe_result.stdout.decode('utf-8').strip()
-            if output:
-                return True, "ffprobe有输出，判为活着"
-            else:
-                return False, "ffprobe无输出"
         except subprocess.TimeoutExpired:
             return False, "FFprobe检测超时"
         except Exception as e:
