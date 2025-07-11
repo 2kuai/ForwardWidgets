@@ -29,58 +29,48 @@ class SourceChecker:
         })
         self.timeout = 10  # 全局超时设置
 
-    def _ffprobe_check(self, url: str, is_rtmp: bool = False) -> Tuple[bool, str]:
-        """只要ffprobe没有报错（returncode==0），就判为活着，不再要求有输出。"""
+    def _vlc_check(self, url: str) -> Tuple[bool, str]:
+        """用cvlc检测直播源（支持rtmp等），只要能正常启动播放就判为可用。"""
         try:
-            if is_rtmp:
-                probe_cmd = [
-                    'ffprobe', '-v', 'error',
-                    '-rw_timeout', '10000000',
-                    '-select_streams', 'v:0',
-                    '-show_entries', 'format=duration',
-                    '-of', 'csv=print_section=0',
-                    url
-                ]
-            else:
-                probe_cmd = [
-                    'ffprobe', '-v', 'error',
-                    '-timeout', '10000000',
-                    '-select_streams', 'v:0',
-                    '-show_entries', 'stream=codec_name,width,height',
-                    '-of', 'csv=print_section=0',
-                    url
-                ]
-            probe_result = subprocess.run(
-                probe_cmd,
+            # --play-and-exit: 播放后退出
+            # --intf dummy: 无界面
+            # --no-video: 不显示视频
+            # --no-audio: 不输出音频
+            # --run-time=10: 最多播放10秒
+            vlc_cmd = [
+                'cvlc', '--play-and-exit', '--intf', 'dummy', '--no-video', '--no-audio', '--run-time=10', url
+            ]
+            result = subprocess.run(
+                vlc_cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
-                timeout=self.timeout
+                timeout=self.timeout + 5  # 比ffprobe略宽松
             )
-            if probe_result.returncode == 0:
-                return True, "ffprobe无报错，判为活着"
+            if result.returncode == 0:
+                return True, "cvlc检测通过，判为可用"
             else:
-                error_msg = probe_result.stderr.decode('utf-8').strip()
-                return False, f"FFprobe验证失败: {error_msg if error_msg else '未知错误'}"
+                err = result.stderr.decode('utf-8').strip()
+                return False, f"cvlc检测失败: {err if err else '未知错误'}"
         except subprocess.TimeoutExpired:
-            return False, "FFprobe检测超时"
+            return False, "cvlc检测超时"
         except Exception as e:
-            return False, f"FFprobe检测异常: {str(e)}"
+            return False, f"cvlc检测异常: {str(e)}"
 
-    def check_source_ffprobe_only(self, url: str) -> Tuple[bool, str, Optional[float]]:
-        """只用ffprobe检测，只要有输出就判为可用。"""
-        start_probe = time.time()
-        ok, msg = self._ffprobe_check(url)
-        probe_time = time.time() - start_probe
-        return ok, msg, probe_time
+    def check_source_vlc_only(self, url: str) -> Tuple[bool, str, Optional[float]]:
+        """只用cvlc检测，只要能正常播放就判为可用。"""
+        start_check = time.time()
+        ok, msg = self._vlc_check(url)
+        check_time = time.time() - start_check
+        return ok, msg, check_time
 
 def check_dependencies() -> list:
     """检查所有必要依赖是否安装"""
-    required_tools = ['ffmpeg', 'ffprobe']
+    required_tools = ['cvlc']
     missing_tools = []
     for tool in required_tools:
         try:
             subprocess.run(
-                [tool, '-version'],
+                [tool, '--version'],
                 check=True,
                 stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL,
@@ -93,26 +83,26 @@ def check_dependencies() -> list:
     return missing_tools
 
 def process_channel(channel: dict, max_workers: int = 10) -> dict:
-    """处理单个频道及其所有源，只用ffprobe检测，检测通过的全部保留。"""
+    """处理单个频道及其所有源，只用cvlc检测，检测通过的全部保留。"""
     if 'childItems' not in channel or not channel['childItems']:
         return channel
     checker = SourceChecker()
     results = []
-    SLOW_THRESHOLD = 5.0
+    SLOW_THRESHOLD = 10.0
     urls = channel['childItems']
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_url = {executor.submit(checker.check_source_ffprobe_only, url): url for url in urls}
+        future_to_url = {executor.submit(checker.check_source_vlc_only, url): url for url in urls}
         for future in concurrent.futures.as_completed(future_to_url):
             url = future_to_url[future]
             try:
-                ok, msg, probe_time = future.result()
+                ok, msg, check_time = future.result()
             except Exception as exc:
-                ok, msg, probe_time = False, f'检测异常: {exc}', None
-            speed = 'fast' if (probe_time or 0) <= SLOW_THRESHOLD else 'slow'
-            logger.info(f"[RESULT] 状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {probe_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {msg}")
+                ok, msg, check_time = False, f'检测异常: {exc}', None
+            speed = 'fast' if (check_time or 0) <= SLOW_THRESHOLD else 'slow'
+            logger.info(f"[RESULT] 状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s | 频道: {channel.get('name','')} | URL: {url} | 原因: {msg}")
             if ok:
-                results.append((probe_time, url))
-    # 按probe_time升序排序
+                results.append((check_time, url))
+    # 按check_time升序排序
     results.sort(key=lambda x: x[0])
     channel['childItems'] = [item[1] for item in results]
     return channel

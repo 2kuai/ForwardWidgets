@@ -25,7 +25,8 @@ jobs:
         sudo apt-get install -y \
           ffmpeg \
           rtmpdump \
-          libavcodec-extra  # 原有其他依赖
+          libavcodec-extra \
+          vlc  # 新增cvlc依赖
         
     - name: Install Python dependencies
       run: pip install requests
