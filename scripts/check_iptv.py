@@ -99,9 +99,9 @@ def process_channel(channel: dict, max_workers: int = 10) -> dict:
                 ok, msg, check_time = False, f'检测异常: {exc}', None
             speed = 'fast' if (check_time or 0) <= SLOW_THRESHOLD else 'slow'
             logger.info(
-                f"  频道: {channel.get('name','')}  URL: {url}\n"
-                f"  状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s\n"
-                f"  结果: {msg}"
+                f"\n频道: {channel.get('name','')}  {url}"
+                f"\n状态: {'ok' if ok else 'fail'} | 速率: {speed} | 耗时: {check_time:.2f}s"
+                f"\n结果: {msg}"
             )
             if ok:
                 results.append((check_time, url))
