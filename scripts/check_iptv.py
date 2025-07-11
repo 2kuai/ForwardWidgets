@@ -147,7 +147,7 @@ if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input', default='iptv_sources.json', help='输入JSON文件路径')
-    parser.add_argument('-o', '--output', default='data/iptv_data.json', help='输出JSON文件路径')
+    parser.add_argument('-o', '--output', default='data/iptvdata.json', help='输出JSON文件路径')
     parser.add_argument('-w', '--workers', type=int, default=10, help='并发工作线程数')
     parser.add_argument('-v', '--verbose', action='store_true', help='启用详细日志')
     args = parser.parse_args()
