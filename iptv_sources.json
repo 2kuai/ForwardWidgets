@@ -215,7 +215,7 @@
     {
       "name": "CCTV 兵器科技",
       "description": "CCTV 兵器科技频道，专注于播出兵器、军事科技及相关专题节目，展示前沿科技与国防力量。",
-      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-DCDCDC,lfo-center,l-image,i-兵器科技.png,lfo-center,l-end,l-end/兵器科技.png",
       "childItems": [
         "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
       ]
@@ -225,7 +225,7 @@
     {
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_3.5,h-bh_mul_3,bg-DCDCDC,lfo-center,l-image,i-%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=北京卫视"
       ]
@@ -233,7 +233,7 @@
     {
       "name": "浙江卫视",
       "description": "浙江广播电视集团旗下的综合卫星频道，以中国蓝为品牌，播出新闻、综艺、电视剧等多元化节目，是中国最具影响力的省级卫视之一。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
       "childItems": [
         "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
         "http://qwt.zhibotv.top:2016/全网通.php?id=浙江卫视",
@@ -243,7 +243,7 @@
     {
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=东方卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
@@ -252,23 +252,23 @@
     {
       "name": "重庆卫视",
       "description": "重庆广播电视集团（总台）旗下的综合性卫星电视频道，以中国故事，天下传奇为定位，致力于传播中华优秀传统文化，播出新闻、文化、电视剧等节目。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-重庆卫视.png,lfo-center,l-end,l-end/重庆卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=重庆卫视"
       ]
     },
     {
       "name": "吉林卫视",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-吉林卫视.png,lfo-center,l-end,l-end/吉林卫视.png",
       "description": "吉林广播电视台旗下的卫星频道，以故乡的月亮为呼号，立足吉林、面向全国，突出东北地域特色，播出新闻、综艺、电视剧等节目。",
-      "childItems": [
+      "childItems       ": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=吉林卫视"
       ]
     },
     {
       "name": "辽宁卫视",
       "description": "辽宁广播电视台旗下的卫星频道，以家文化为核心，定位欢乐一家，播出新闻、综艺、电视剧和生活服务类节目，深受北方观众喜爱。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-辽宁卫视.png,lfo-center,l-end,l-end/辽宁卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=辽宁卫视"
       ]
@@ -276,7 +276,7 @@
     {
       "name": "宁夏卫视",
       "description": "宁夏广播电视总台旗下的卫星频道，是宁夏对外宣传的主窗口，以新闻宣传为主，同时播出社教、文化、经济和综艺娱乐等节目，展示宁夏的独特魅力。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-宁夏卫视.png,lfo-center,l-end,l-end/宁夏卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=宁夏卫视"
       ]
@@ -284,7 +284,7 @@
     {
       "name": "甘肃卫视",
       "description": "甘肃省广播电视总台旗下的卫星频道，以传承丝路文明，弘扬华夏文化为宗旨，播出新闻、文化、旅游、经济等节目，是展示甘肃形象的重要平台。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-甘肃卫视.png,lfo-center,l-end,l-end/甘肃卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=甘肃卫视"
       ]
@@ -292,7 +292,7 @@
     {
       "name": "青海卫视",
       "description": "青海广播电视台旗下的卫星频道，以大美青海为主题，突出环保、生态和民族特色，播出新闻、纪实、综艺等节目，展现青海的自然风光和人文魅力。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-青海卫视.png,lfo-center,l-end,l-end/青海卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=青海卫视"
       ]
@@ -300,7 +300,7 @@
     {
       "name": "陕西卫视",
       "description": "陕西广播电视台旗下的卫星电视频道，以传承中华文明、展示陕西形象为宗旨，突出历史文化特色，提供新闻、文化、旅游等多元化节目内容。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-陕西卫视.png,lfo-center,l-end,l-end/陕西卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=陕西卫视"
       ]
@@ -308,7 +308,7 @@
     {
       "name": "山东卫视",
       "description": "山东广播电视台旗下的卫星频道，以悠久文明，青春中国为定位，弘扬齐鲁文化，播出新闻、文化、电视剧、综艺等节目，是中国重要的省级卫视之一。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-山东卫视.png,lfo-center,l-end,l-end/山东卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=山东卫视"
       ]
@@ -316,7 +316,7 @@
     {
       "name": "广东卫视",
       "description": "广东广播电视台旗下的卫星电视频道，以立足广东、面向全国、辐射海外为定位，突出岭南文化特色，提供新闻、综艺、电视剧等多元化节目内容。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-广东卫视.png,lfo-center,l-end,l-end/广东卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=广东卫视"
       ]
@@ -324,7 +324,7 @@
     {
       "name": "湖北卫视",
       "description": "湖北广播电视台旗下的卫星电视频道，以传播荆楚文化、展现湖北风采为宗旨，突出地域特色，提供新闻、文化、综艺、旅游等多元化节目内容。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-湖北卫视.png,lfo-center,l-end,l-end/湖北卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=湖北卫视"
       ]
@@ -332,7 +332,7 @@
     {
       "name": "湖南卫视",
       "description": "湖南广播电视台旗下的卫星频道，以快乐中国为口号，是中国最具影响力的娱乐频道之一，以创新的综艺节目和热门电视剧闻名。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-湖南卫视.png,lfo-center,l-end,l-end/湖南卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=湖南卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_hunan"
@@ -341,7 +341,7 @@
     {
       "name": "河南卫视",
       "description": "河南广播电视台旗下的卫星频道，以文化河南，中华源为定位，深度挖掘和传播华夏历史文明，打造了《唐宫夜宴》等一系列文化精品节目。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-河南卫视.png,lfo-center,l-end,l-end/河南卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=河南卫视"
       ]
@@ -349,7 +349,7 @@
     {
       "name": "江西卫视",
       "description": "江西广播电视台旗下的卫星频道，以红色经典，时尚江西为定位，传承红色基因，展现江西发展新貌，播出新闻、电视剧、综艺等节目。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-江西卫视.png,lfo-center,l-end,l-end/江西卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=江西卫视"
       ]
@@ -357,7 +357,7 @@
     {
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=江苏卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_jiangsu"
@@ -366,7 +366,7 @@
     {
       "name": "东南卫视",
       "description": "福建省广播影视集团旗下的卫星频道，以海洋时代，中华情怀为定位，立足福建，面向台湾和海外华人，是连接两岸三地的重要桥梁。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-东南卫视.png,lfo-center,l-end,l-end/东南卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=东南卫视"
       ]
@@ -374,7 +374,7 @@
     {
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=广西卫视"
       ]
@@ -382,7 +382,7 @@
     {
       "name": "贵州卫视",
       "description": "贵州广播电视台旗下的卫星频道，以中国瀑乡，爽爽贵州为宣传口号，突出多彩的民族文化和山地旅游资源，播出新闻、综艺、电视剧等节目。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-贵州卫视.png,lfo-center,l-end,l-end/贵州卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=贵州卫视"
       ]
@@ -390,7 +390,7 @@
     {
       "name": "新疆卫视",
       "description": "新疆广播电视台旗下的卫星频道，是展示新疆形象、传播新疆声音的重要窗口，使用汉语播出，内容涵盖新闻、经济、文化、科教等方面。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-新疆卫视.png,lfo-center,l-end,l-end/新疆卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=新疆卫视"
       ]
@@ -398,7 +398,7 @@
     {
       "name": "西藏卫视",
       "description": "西藏广播电视台旗下的卫星频道，是宣传西藏的重要喉舌，使用藏语和汉语播出，介绍西藏的政治、经济、社会、文化发展情况。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-西藏卫视.png,lfo-center,l-end,l-end/西藏卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=西藏卫视"
       ]
@@ -406,7 +406,7 @@
     {
       "name": "海南卫视",
       "description": "海南广播电视总台旗下的卫星频道，以立足海南，面向世界为宗旨，聚焦海南自贸港建设，向全球观众展示一个开放、绿色、现代的海南。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-海南卫视.png,lfo-center,l-end,l-end/海南卫视.png",
       "childItems": [
         "http://nn.7x9d.cn/地方台8563/海南.php?id=hnws",
         "http://qwt.zhibotv.top:2016/全网通.php?id=海南卫视"
@@ -415,9 +415,17 @@
     {
       "name": "内蒙古卫视",
       "description": "内蒙古广播电视台旗下的卫星频道，是中国唯一用蒙古语和汉语两种语言播出的卫星频道，展示草原文化和内蒙古的独特魅力。",
-      "backdrop_path": "https://ik.imagekit.io/huangxd/tr:l-image,i-transparent.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png,lfo-center,l-end,l-end/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-内蒙古卫视.png,lfo-center,l-end,l-end/内蒙古卫视.png",
       "childItems": [
         "http://qwt.zhibotv.top:2016/全网通.php?id=内蒙古卫视"
+      ]
+    },
+    {
+      "name": "兵团卫视",
+      "description": "新疆生产建设兵团的官方卫星频道，以汉语为主，兼播维吾尔语、哈萨克语节目。聚焦兵团改革发展、现代农业、生态建设和民族团结，展现热爱祖国、无私奉献、艰苦创业、开拓进取的兵团精神。主要栏目包括《兵团新闻联播》《兵团记忆》《丝路绿洲》等，是全国了解兵团的重要窗口。",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-兵团卫视.png,lfo-center,l-end,l-end/兵团卫视.png",
+      "childItems": [
+        "https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8"
       ]
     }
   ],
