@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-12T13:34:01.169158",
+  "last_updated": "2025-07-12T18:16:29.281570",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -14,7 +14,9 @@
       "name": "CCTV-2 财经",
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV2.png,lfo-center,l-end,l-end/CCTV2.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv2"
+      ]
     },
     {
       "name": "CCTV-3 综艺",
@@ -48,15 +50,15 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-5+ 体育赛事",
       "description": "中国中央电视台体育赛事频道，是CCTV-5的补充频道，专注于播出更多体育赛事内容，特别是同时进行的多项重大体育赛事，满足体育爱好者的多样化需求。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-体育赛事.png,lfo-center,l-end,l-end/体育赛事.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv5A"
+      ]
     },
     {
       "name": "CCTV-6 电影",
@@ -94,7 +96,9 @@
       "name": "CCTV-10 科教",
       "description": "中国中央电视台科教频道，是以传播科学知识、推广教育理念为宗旨的专业电视频道，节目内容涵盖科技前沿、教育动态、历史文化等多个领域，寓教于乐。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV10.png,lfo-center,l-end,l-end/CCTV10.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv10"
+      ]
     },
     {
       "name": "CCTV-11 戏曲",
@@ -155,31 +159,41 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
+      ]
     },
     {
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
+      ]
     },
     {
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
+      ]
     },
     {
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
+      ]
     },
     {
       "name": "CCTV 兵器科技",
       "description": "CCTV 兵器科技频道，专注于播出兵器、军事科技及相关专题节目，展示前沿科技与国防力量。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-兵器科技.png,lfo-center,l-end,l-end/兵器科技.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
+      ]
     }
   ],
   "stv": [
