@@ -4,7 +4,7 @@ var WidgetMetadata = {
     description: "获取热门电视直播频道",
     author: "两块",
     site: "https://github.com/2kuai/ForwardWidgets",
-    version: "1.1.2",
+    version: "1.1.3",
     requiredVersion: "0.0.1",
     modules: [
         {
@@ -18,10 +18,10 @@ var WidgetMetadata = {
                     title: "类型",
                     type: "enumeration",
                     enumOptions: [
-                        { title: "全部", value: "all" },
-                        { title: "央视", value: "cctv" },
-                        { title: "卫视", value: "stv" },
-                        { title: "地方", value: "ltv" }
+                        { title: "全部频道", value: "all" },
+                        { title: "央视频道", value: "cctv" },
+                        { title: "卫视频道", value: "stv" },
+                        { title: "地方频道", value: "ltv" }
                     ]
                 },
                 {
@@ -29,6 +29,17 @@ var WidgetMetadata = {
                     title: "用户订阅",
                     type: "input",
                     description: "输入M3U格式订阅链接"
+                },
+                {
+                    name: "bg_color",
+                    title: "台标背景色",
+                    type: "input",
+                    description: "支持RGB颜色，如DCDCDC",
+                    placeholders: [
+                        { title: "雾霾灰", value: "90A4AE" },
+                        { title: "暖灰色", value: "424242" },
+                        { title: "深灰色", value: "1C1C1E" }
+                    ]
                 }
             ]
         }
@@ -127,7 +138,7 @@ async function getLiveTv(params = {}) {
                     id: url,
                     type: "url",
                     title: isMain ? item.name : title,
-                    backdropPath: item.backdrop_path.replace(/bg-\w{6}/g, 'bg-848483'),
+                    backdropPath: item.backdrop_path.replace(/bg-\w{6}/g, params.bg_color ? `bg-${params.bg_color}` : '$&'),
                     description: item.description,
                     videoUrl: url
                 });
