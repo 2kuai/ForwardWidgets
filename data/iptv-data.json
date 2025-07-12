@@ -1,13 +1,12 @@
 {
-  "last_updated": "2025-07-11T21:55:46.668134",
+  "last_updated": "2025-07-12T01:04:51.793495",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
-        "http://8.138.7.223/tv/ptbtv.php?id=27",
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
+        "http://8.138.7.223/tv/ptbtv.php?id=27"
       ]
     },
     {
@@ -177,7 +176,9 @@
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
+      ]
     },
     {
       "name": "CCTV 世界地理",
@@ -191,9 +192,7 @@
       "name": "CCTV 兵器科技",
       "description": "CCTV 兵器科技频道，专注于播出兵器、军事科技及相关专题节目，展示前沿科技与国防力量。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-DCDCDC,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
-      ]
+      "childItems": []
     }
   ],
   "stv": [
