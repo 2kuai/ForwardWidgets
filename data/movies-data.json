@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-12T00:18:30.560+08:00",
+  "last_updated": "2025-07-13T00:14:48.215+08:00",
   "nowplaying": [
     {
       "id": 1061474,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g62G6aBcAcJv3ClCKmJgmHarHvq.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.285,
+      "rating": 7.325,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.66,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 6.455,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -62,6 +62,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1481390,
+      "type": "tmdb",
+      "title": "聊斋：兰若寺",
+      "originalTitle": "聊斋：兰若寺",
+      "description": "年青书生蒲松龄行路遇险，不得已夜宿兰若寺，却被一蛤蟆一乌龟抓到了一口奇异的古井底，两只精怪比赛讲故事并逼迫蒲松龄评判故事的好坏……最终，被逼无奈的蒲松龄也讲出了自己的奇妙故事。\r 本片为篇章式结构，分为一条主线《井下故事》以及五个经典聊斋故事改编的《崂山道士》《莲花公主》《聂小倩》《画皮》《鲁公女》，共六个篇章。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/paZseaaIQBDfNnXrld7ml4ZW3RF.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uOpTbfagHI1Ug3f4RYSGhC8CHqk.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1087192,
       "type": "tmdb",
       "title": "新·驯龙高手",
@@ -70,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.888,
+      "rating": 7.899,
       "mediaType": "movie"
     },
     {
@@ -83,18 +95,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
       "releaseDate": "2025-04-18",
       "rating": 7.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1114777,
-      "type": "tmdb",
-      "title": "小白船",
-      "originalTitle": "小白船",
-      "description": "刘娴十五岁的夏天， 是最孤单寂寞的夏天。母亲远赴非洲，把她丢给了已离婚多年的父亲。刘娴感觉自己成为了一个弃儿，直到朝鲜族姑娘金明美出现，她像是一束光照亮刘娴孤寂的生活。明美肆意张扬的青春活力吸引着刘娴， 刘娴的生活也随之有了全新的色彩......躁动不安的夏日， 青春的懵懂与冲动，为刘娴的一生留下了刻骨铭心的特殊印记。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
-      "releaseDate": "2024-03-20",
-      "rating": 6.2,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.817,
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -134,51 +134,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1510936,
+      "id": 1359994,
       "type": "tmdb",
-      "title": "大宝明天见",
-      "originalTitle": "大宝明天见",
-      "description": "人到中年，夫妻感情不睦的董大宝十分想逃离日复一日的柴米油盐，在和兄弟们一次次的交谈中，他开始无比怀念自己曾经为了爱情而放弃的音乐梦，也开始为自己的选择感到后悔，一次意外，他穿越回十几年前，为了不让少年的自己重蹈覆辙，甚至不惜棒打鸳鸯，撮合爱人和情敌，只为将他“拉回正途”，一心搞音乐。但当他们终于圆梦站上舞台，看着台下情敌向自己未来的爱人表白时，董大宝终于幡然醒悟，悔恨莫及……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7yBfQbXwA4KpE4djcFqoFdMp4EU.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-07-12",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1458844,
-      "type": "tmdb",
-      "title": "当哒当：邪视",
-      "originalTitle": "DAN DA DAN: Evil Eye",
-      "description": "影片讲述寺仁因为家中发生的一系列谜团向青梅竹马小桃求助，随后小桃、寺仁以及厄卡伦三人前往寺仁家探秘并陷入地底神秘空间，一系列的危机随之而来。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lmg38wQ4Si1iAfZemjJ8QdSmjw2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oo8GVyvODffulZtxx6QWzRkrBxK.jpg",
-      "releaseDate": "2025-05-30",
-      "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1372489,
-      "type": "tmdb",
-      "title": "哆啦A梦：大雄的绘画奇遇记",
-      "originalTitle": "映画ドラえもん のび太の絵世界物語",
-      "description": "本作的舞台设定在一个如画般宏伟的中世纪欧洲世界。哆啦A梦和大雄等人进入了绘画的世界，围绕着幻之宝石展开冒险，并与强大的敌人对抗。这是一个原创故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/q6vkFtxPJftMyKUnKgEFQkfHTqO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
-      "releaseDate": "2025-03-07",
-      "rating": 6.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1155234,
-      "type": "tmdb",
-      "title": "时间之子",
-      "originalTitle": "时间之子",
-      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
-      "releaseDate": "2025-05-30",
-      "rating": 7,
+      "title": "分手清单",
+      "originalTitle": "分手清单",
+      "description": "一次偶然的机会，马天泽与夏沫因为吃火锅成为朋友，转而进阶为恋人。相恋三年后，两人没有走进婚姻的殿堂，反而是要在朋友们的见证下，执行完成当初定下的一系列稀奇古怪的“分手清单”内容。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dJbUTZOLIHeAOblk4fts9jy5KWA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4F8hAOFbm6Bm3P957jatWFosS9j.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 10,
       "mediaType": "movie"
     },
     {
@@ -191,6 +155,18 @@
       "backdropPath": null,
       "releaseDate": "2025-03-21",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1372489,
+      "type": "tmdb",
+      "title": "哆啦A梦：大雄的绘画奇遇记",
+      "originalTitle": "映画ドラえもん のび太の絵世界物語",
+      "description": "本作的舞台设定在一个如画般宏伟的中世纪欧洲世界。哆啦A梦和大雄等人进入了绘画的世界，围绕着幻之宝石展开冒险，并与强大的敌人对抗。这是一个原创故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/q6vkFtxPJftMyKUnKgEFQkfHTqO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
+      "releaseDate": "2025-03-07",
+      "rating": 6.2,
       "mediaType": "movie"
     },
     {
@@ -256,18 +232,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1144107,
-      "type": "tmdb",
-      "title": "罗小黑战记 2",
-      "originalTitle": "罗小黑战记 2",
-      "description": "　　小黑跟师父无限在村里过着安宁日子，他也渐渐适应了人类世界的生活。两年后，妖灵会馆突然被袭击，无限和小黑接到任务前往会馆。小黑能否经受住这突如其来的考验？面对意想不到的敌人，小黑又会做出怎样的选择……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5KDVDjqDUxVyXryfBOgMBjND8u7.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-07-18",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 936108,
       "type": "tmdb",
       "title": "魔法蓝精灵",
@@ -276,7 +240,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5Pj35TQUXTCus8WHnTLXE6cFs3M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nZFgO3BDxpLzTpDXhYbdXBGdUVm.jpg",
       "releaseDate": "2025-06-30",
-      "rating": 8.5,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -300,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bBKC6yWby1eI9JlCj5HqKm0YzuD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hZHeDPQGNKN9NN9GuW7qVbM2tDx.jpg",
       "releaseDate": "1925-07-13",
-      "rating": 8,
+      "rating": 7.983,
       "mediaType": "movie"
     },
     {
@@ -322,7 +286,7 @@
       "originalTitle": "The Fantastic Four: First Steps",
       "description": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wMYCHC0LE8sHvI35LzSOQxAD2x6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/unthV1mq9llhEinIMPcCUImFodt.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4b2mLlMMaMcZhvNvmPgwaFqme8Y.jpg",
       "releaseDate": "2025-07-23",
       "rating": 0,
       "mediaType": "movie"
@@ -448,18 +412,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249216,
-      "type": "tmdb",
-      "title": "阿波罗13号：生还实录",
-      "originalTitle": "Apollo 13: Survival",
-      "description": "尼尔·阿姆斯特朗登陆月球仅九个月后，美国宇航局便迎来了最大的危机：三名宇航员乘坐的宇宙飞船在前往月球的途中遭遇了灾难性的爆炸。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9tuK9kKSB2L6rMVlNOjwiWQaWxh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gRLrlofwDuICqGIEXYkoElDe4Y.jpg",
-      "releaseDate": "2024-03-08",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
       "id": 1175942,
       "type": "tmdb",
       "title": "坏蛋联盟2",
@@ -544,18 +496,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 805195,
-      "type": "tmdb",
-      "title": "相信奇迹的女孩",
-      "originalTitle": "The Girl Who Believes in Miracles",
-      "description": "12岁的萨拉·霍普金斯是家里最虔诚的一员。在一次去拜访祖父的旅行中，萨拉确信她看到耶稣在她祖父最喜欢的钓鱼点附近的河岸边。通过这一神示，她发现自己能够使死鸟复活。当然，家里没有人相信她。但随着时间的推移，他们发现萨拉能够治愈一些相信她能“看见”的人，很快，她的家人、当地人，甚至媒体都争相要更多地了解这个“能创造奇迹”的小女孩",
-      "posterPath": "https://image.tmdb.org/t/p/w500/riaVoQwSTQR7wDlZtveUSUhdoIu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wwKTCPDgaq5nWs76Oitq9flUYvN.jpg",
-      "releaseDate": "2021-04-02",
-      "rating": 7.462,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划2",
@@ -606,18 +546,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 299534,
-      "type": "tmdb",
-      "title": "复仇者联盟4：终局之战",
-      "originalTitle": "Avengers: Endgame",
-      "description": "几近绝望的复仇者们在惊奇队长的帮助下找到灭霸归隐之处，却得知六颗无限宝石均被销毁，希望彻底破灭。五年后，迷失在量子领域的蚁人意外回到现实世界，他的出现为幸存的复仇者们点燃了希望。与美国队长冰释前嫌的托尼找到了穿越时空的方法，星散各地的超级英雄再度集结，他们将分别穿越不同的时代去搜集无限宝石。与此同此，平行宇宙的灭霸察觉了他们的计划。这是一场注定要载入史册的终局之战，超级英雄们为了心中恪守的信念前仆后继……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-      "releaseDate": "2019-04-24",
-      "rating": 8.24,
-      "mediaType": "movie"
-    },
-    {
       "id": 76600,
       "type": "tmdb",
       "title": "阿凡达：水之道",
@@ -651,54 +579,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
       "rating": 8.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 140607,
-      "type": "tmdb",
-      "title": "星球大战7：原力觉醒",
-      "originalTitle": "Star Wars: The Force Awakens",
-      "description": "银河帝国不复存在，义军同盟改组为新共和国。银河系又崛起了一个黑暗组织——第一秩序，由最高领袖斯诺克领导，组织内还包括阿米蒂奇·赫克斯将军与凯洛·伦。曾经的莱娅公主建立了抵抗组织，被大家称作莱娅将军。有一份地图显示了卢克·天行者的隐居地，双方为了这份地图而展开激烈大战。第一秩序的冲锋队队员芬恩拒绝屠杀无辜人民，并在荒漠星球贾库上的一次突袭行动后逃离军队，并放走了被俘虏的抵抗组织飞行员波·达默龙。随后，芬恩与孤儿蕾伊相遇，在逃离第一秩序的追杀途中救下了掌握着重要情报的球形机器人BB-8。两人偶遇了已经老去但依旧勇猛的走私者汉·索洛，在汉·索洛的指引下，芬恩与蕾伊心中的责任感和宿命感渐渐燃起。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wNdrXBAFbfgpKgprtTFnoePn86x.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/k6EOrckWFuz7I4z4wiRwz8zsj4H.jpg",
-      "releaseDate": "2015-12-15",
-      "rating": 7.26,
-      "mediaType": "movie"
-    },
-    {
-      "id": 299536,
-      "type": "tmdb",
-      "title": "复仇者联盟3：无限战争",
-      "originalTitle": "Avengers: Infinity War",
-      "description": "随着复仇者联盟及其盟友继续保护世界免受来自任何单一英雄难以承担的威胁，一个新的危险从宇宙的阴影中浮现——灭霸。作为一个星际恶名昭彰的暴君，他的目标是收集所有六颗无限宝石，这些宝石拥有难以想象的力量，并利用它们将扭曲的意志强加于现实的每一个角落。复仇者们为此奋斗的一切都指向了这一刻——地球和整个存在的命运从未如此不确定。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oK7IP8Yx4pTgZSFE8RD74pwlJtW.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-      "releaseDate": "2018-04-25",
-      "rating": 8.236,
-      "mediaType": "movie"
-    },
-    {
-      "id": 634649,
-      "type": "tmdb",
-      "title": "Spider-Man: No Way Home",
-      "originalTitle": "Spider-Man: No Way Home",
-      "description": "在费了九牛二虎之力好不容易打败了神秘客之后，蜘蛛侠彼得·帕克（汤姆·赫兰德 Tom Holland 饰）却被濒死之际的神秘客揭露了真实身份。随后主流媒体对超能力者滥用权力造成普通平民生活无数困扰的行为大加挞伐，一时间彼得的生活乱作一团，甚至影响到了 MJ（赞达亚 Zendaya 饰）和好朋友内德（雅各布·巴特朗 Jacob Batalon 饰）的生活。备受困扰的彼得找到了奇异博士（本尼迪克特·康伯巴奇 Benedict Cumberbatch 饰），希望对方施展一条能够让世人忘记他真实身份的咒语。谁知乱中出错，这条咒语将其他宇宙中认识彼得·帕克的人陆续带来，其中包括章鱼博士、绿魔、沙人等其他蜘蛛侠的死对头。担心这些“对手”回到各自宇宙后迎来灭亡的命运，彼得决定拯救他们，却无意中带来让他无法承受的因果……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oxM2ZU1OtLHtKKQg1KMLFnjvAn2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zD5v1E4joAzFvmAEytt7fM3ivyT.jpg",
-      "releaseDate": "2021-12-15",
-      "rating": 7.943,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1022789,
-      "type": "tmdb",
-      "title": "头脑特工队2",
-      "originalTitle": "Inside Out 2",
-      "description": "小女孩莱莉刚步入青春期，在她的大脑总部，正经历着一场突如其来的大拆迁，为意想不到的新情绪腾出空间。一直以来配合默契的情绪小伙伴乐乐、忧忧、怒怒、怕怕和厌厌，在新情绪焦焦的突然到来时变得不知所措，并且她看起来不是孤身一人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tVSFt0tDsbvVw0DxAkknyq3ClQB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-      "releaseDate": "2024-06-11",
-      "rating": 7.554,
       "mediaType": "movie"
     },
     {
@@ -738,42 +618,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 168259,
-      "type": "tmdb",
-      "title": "速度与激情7",
-      "originalTitle": "Furious 7",
-      "description": "经历了紧张刺激的伦敦大战，多米尼克·托莱多（范·迪塞尔 Vin Diesel 饰）和他的伙伴们重新回归平静的生活，但是江湖的恩恩怨怨却决不允许他们轻易抽身而去。棘手的死对头欧文·肖瘫在医院，不得动弹，他的哥哥戴克·肖（杰森·斯坦森 Jason Stantham 饰）则发誓要为弟弟复仇。戴克曾是英国特种部队的王牌杀手，不仅身怀绝技，而且心狠手辣。他干掉了远在东京的韩，还几乎把探长卢克·霍布斯（道恩·强森 Dwayne Johnson 饰）送到另一个世界，甚至多米尼克那世外桃源般的家也被对方炸毁。复仇的利刃已经架在脖子上，多米尼克再也没有选择，他找到长久以来最为信赖的团队，与来势汹汹的戴克展开生死对决……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fNZFqhIoE9Du1Gr6Py0rwhhV3fE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
-      "releaseDate": "2015-04-01",
-      "rating": 7.224,
-      "mediaType": "movie"
-    },
-    {
-      "id": 361743,
-      "type": "tmdb",
-      "title": "Top Gun: Maverick",
-      "originalTitle": "Top Gun: Maverick",
-      "description": "壮志凌云2：独行侠 作为海军顶尖飞行员服役30多年后，皮特·米切尔（代号：“独行侠”）（汤姆·克鲁斯 饰演）决定打破体制的限制，成为一名试飞员接受更大的挑战。当他接到命令，为一项高难度特殊任务训练一群“高空利剑”项目的毕业生时，他遇到了已故的好友兼雷达截获官，代号“笨鹅”的尼克·布拉德肖中尉之子布莱德利·布拉德肖中尉（代号：“公鸡”）。  面对不确定的未来和难以释怀的心魔，独行侠必须战胜内心深处的恐惧。因此，他参与了一项需要巨大牺牲才能完成的任务",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9eiKUlyHx5McEpL4R7A14Jo13Ep.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kBSSbN1sOiJtXjAGVZXxHJR9Kox.jpg",
-      "releaseDate": "2022-05-21",
-      "rating": 8.174,
-      "mediaType": "movie"
-    },
-    {
-      "id": 330457,
-      "type": "tmdb",
-      "title": "冰雪奇缘2",
-      "originalTitle": "Frozen II",
-      "description": "阿伦黛尔王国的公主艾莎因为拥有难以控制的强大魔力而选择封闭心扉，远离家园。在妹妹安娜等的帮助鼓舞下，艾莎终于鼓起勇气拥抱真我获得真正的力量。正当艾莎与安娜终于获得了曾经梦寐以求的生活，艾莎却听到了一个神秘声音的呼唤，这声音许诺将揭示她为何拥有冰雪魔法的真相，而这个神秘的真相也威胁着她的王国。艾莎与安娜不得不再次踏上非凡的旅程，前往未知的魔法森林和暗海。在艰险加倍的旅程中，艾莎和安娜的姐妹深情也更加熠熠生辉……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ebRkOLVkL1arxKRbXEFVekWtu2x.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AoSZyb37ljMAxw0RdeQEBHKtgcc.jpg",
-      "releaseDate": "2019-11-20",
-      "rating": 7.249,
-      "mediaType": "movie"
-    },
-    {
       "id": 346698,
       "type": "tmdb",
       "title": "芭比",
@@ -782,31 +626,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.972,
-      "mediaType": "movie"
-    },
-    {
-      "id": 99861,
-      "type": "tmdb",
-      "title": "复仇者联盟2：奥创纪元",
-      "originalTitle": "Avengers: Age of Ultron",
-      "description": "托尼·斯塔克试图重启一个已经废弃的维和项目，不料该项目却成为危机导火索。世上最强大的超级英雄——钢铁侠、美国队长、雷神、绿巨人、黑寡妇和鹰眼，不得不接受终极考验，拯救危在旦夕的地球。神秘反派奥创逐渐崛起，超级英雄们必须重新集结，竭力阻止奥创实施人类灭绝计划。战斗中，复仇者联盟成员们还遇到了两个新人物——旺达·马克西莫夫和皮特罗·马克西莫夫，以及以全新面目归来的老朋友——幻视。世界秩序濒临崩溃，复仇者联盟必须阻止奥创的阴谋。强敌不断出现，一场空前绝后的全球浩战即将展开……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vnqTgYrnS9dnq9y6gzpR69vsiNu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
-      "releaseDate": "2015-04-22",
-      "rating": 7.271,
-      "mediaType": "movie"
-    },
-    {
-      "id": 502356,
-      "type": "tmdb",
-      "title": "超级马力欧兄弟大电影",
-      "originalTitle": "The Super Mario Bros. Movie",
-      "description": "马力欧（克里斯·帕拉特 Chris Pratt 配音）和路易吉（查理·戴 Charlie Day 饰）是生活在布鲁克林的两名水管工，他们刚刚成立了自己的小公司，但很显然，他们的家人并不完全支持兄弟两人的这份事业。某日，在工作中，马力欧和路易吉被水管吸入到了一个光怪陆离的世界之中，两人在旅途中被迫分开，马力欧来到了由碧姬公主（安雅·泰勒-乔伊 Anya Taylor-Joy 配音）统治的蘑菇王国，而路易吉则不幸的被传送到了由酷霸王（杰克·布莱克 Jack Black 配音）统治的库巴王国。此时，酷霸王正准备大举进攻蘑菇国，掳走公主并和她结婚，在这个节骨眼上，马力欧的出现带给了碧姬公主希望，她带着马力欧来到了丛林王国，请求那里的国王和王子（塞斯·罗根 Seth Aaron Rogen 饰）的支援。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lZVumU6dplne9LpitkVDYxhKSDl.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-      "releaseDate": "2023-04-05",
-      "rating": 7.6,
+      "rating": 6.973,
       "mediaType": "movie"
     },
     {
@@ -819,18 +639,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
       "releaseDate": "2018-02-13",
       "rating": 7.372,
-      "mediaType": "movie"
-    },
-    {
-      "id": 12445,
-      "type": "tmdb",
-      "title": "哈利·波特与死亡圣器(下)",
-      "originalTitle": "Harry Potter and the Deathly Hallows: Part 2",
-      "description": "当又一次和伏地魔的意识连通，哈利断定最后一件魂器藏在霍格沃茨，于是和罗恩、赫敏一同返回阴云密布的学校。在好友们的帮助下，他们成功驱逐了斯内普，然而觉察到哈利目的的伏地魔则率领徒众向霍格沃茨逼近。食死徒、摄魂怪、巨人疯狂涌入这所有着悠久历史的魔法学校，正邪决战旋即爆发，一时间血雨腥风，死伤无数。从斯内普的眼泪中，哈利不仅了解到父辈的故事，也证实了藏缅于他体内的最后的秘密。在此之后，他也和伏地魔迎来了最后的对决……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tLsJ1mqkGTreTuT64N5wXcNwTqm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
-      "releaseDate": "2011-07-12",
-      "rating": 8.087,
       "mediaType": "movie"
     }
   ]
