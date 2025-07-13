@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-07-12T18:16:29.281570",
+  "last_updated": "2025-07-13T01:10:05.272371",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
-        "http://8.138.7.223/tv/ptbtv.php?id=27",
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv1A",
+        "http://8.138.7.223/tv/ptbtv.php?id=27"
       ]
     },
     {
@@ -50,7 +50,9 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
+      ]
     },
     {
       "name": "CCTV-5+ 体育赛事",
