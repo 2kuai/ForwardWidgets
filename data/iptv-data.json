@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-13T06:19:17.506236",
+  "last_updated": "2025-07-13T12:23:59.675996",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -50,9 +50,7 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-5+ 体育赛事",
@@ -66,9 +64,7 @@
       "name": "CCTV-6 电影",
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-7 国防军事",
@@ -115,17 +111,13 @@
       "name": "CCTV-12 社会与法",
       "description": "中国中央电视台社会与法频道，是以法治宣传和社会教育为主要内容的专业电视频道，通过案例解析、法律咨询、社会热点追踪等节目形式，普及法律知识，弘扬法治精神。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV12.png,lfo-center,l-end,l-end/CCTV12.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv12"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv13"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -218,9 +210,7 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
-      ]
+      "childItems": []
     },
     {
       "name": "重庆卫视",
@@ -371,8 +361,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
@@ -380,8 +370,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
       ]
     },
     {
