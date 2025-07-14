@@ -1,18 +1,6 @@
 {
-  "last_updated": "2025-07-14T00:14:58.306+08:00",
+  "last_updated": "2025-07-15T00:17:37.887+08:00",
   "nowplaying": [
-    {
-      "id": 1061474,
-      "type": "tmdb",
-      "title": "超人",
-      "originalTitle": "Superman",
-      "description": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
-      "releaseDate": "2025-07-09",
-      "rating": 7.452,
-      "mediaType": "movie"
-    },
     {
       "id": 911430,
       "type": "tmdb",
@@ -22,7 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.679,
+      "rating": 7.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1061474,
+      "type": "tmdb",
+      "title": "超人",
+      "originalTitle": "Superman",
+      "description": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+      "releaseDate": "2025-07-09",
+      "rating": 7.455,
       "mediaType": "movie"
     },
     {
@@ -56,9 +56,9 @@
       "originalTitle": "Jurassic World Rebirth",
       "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
       "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 6.433,
+      "rating": 6.429,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.9,
+      "rating": 7.89,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
       "releaseDate": "2025-04-18",
-      "rating": 7.5,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -118,19 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.816,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1487560,
-      "type": "tmdb",
-      "title": "册杀",
-      "originalTitle": "册杀",
-      "description": "　　李氏家族不曾向外界开放的藏书楼临渊阁突然遭窃，侦探白飞受邀前来协助调查。在神秘的密室现场，他发现这看似普通的盗窃案背后危机四伏，人人都似乎怀揣着不可告人的秘密。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lEBWV3dIDWMRx9YosXgMyh5IvkO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/A2qHtWZ1Y5jcewV1q0GMPKAVpYy.jpg",
-      "releaseDate": "2025-07-08",
-      "rating": 0,
+      "rating": 6.804,
       "mediaType": "movie"
     },
     {
@@ -170,6 +158,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1487560,
+      "type": "tmdb",
+      "title": "册杀",
+      "originalTitle": "册杀",
+      "description": "　　李氏家族不曾向外界开放的藏书楼临渊阁突然遭窃，侦探白飞受邀前来协助调查。在神秘的密室现场，他发现这看似普通的盗窃案背后危机四伏，人人都似乎怀揣着不可告人的秘密。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lEBWV3dIDWMRx9YosXgMyh5IvkO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/A2qHtWZ1Y5jcewV1q0GMPKAVpYy.jpg",
+      "releaseDate": "2025-07-08",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1155234,
+      "type": "tmdb",
+      "title": "时间之子",
+      "originalTitle": "时间之子",
+      "description": "一场瑰丽奇幻的时间冒险，一次颠覆想象的复古美学。渔村少女千筱乘船来到向往已久的大都会，因为一场意外被时轮“选中”，获得了可以掌控时间的能力，成为独一无二的“时间之子”。在这趟奇妙的旅程中却遭到同样盯上时轮的庞大势力的追杀。少女千筱一人该如何应对重重危险？拥有操控时间能力的同时又会让她付出怎样的代价？民国背景下的繁华“大都会”又隐藏着哪些不为人知的秘密？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9jvvzh8s33gcZFP2tCWeKIB2g8u.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gEhb53bJ8nOPIfI7Ki9iUaSVJx9.jpg",
+      "releaseDate": "2025-05-30",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
       "id": 1443424,
       "type": "tmdb",
       "title": "红嫁衣",
@@ -183,18 +195,6 @@
     }
   ],
   "coming": [
-    {
-      "id": 1406607,
-      "type": "tmdb",
-      "title": "戏台",
-      "originalTitle": "戏台",
-      "description": "　　大裕斋跑腿伙计大嗓儿（黄渤 饰）竟被大帅（姜武 饰）点名要听他的戏？五庆班班主侯喜亭（陈佩斯 饰）无奈之下，只得让大嗓儿扮成西楚霸王的模样登台表演，眼见对方“站反了”，却只能无奈撞柱道：“太丢人了”。  　　民国年间，正逢五庆班携名角儿金啸天要演出《霸王别姬》，不料意外接踵而至，戏班班主、送包子的伙计、来视察的大帅、大名角儿金啸天，以及戏院经理、正在候场的花旦、出逃的六姨太、恶霸刘八爷等各色人物的命运阴差阳错地勾连在一起，上演了一出荒诞十足的喜剧。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/u4WdaKAiR84ZWyvvcb1rlIhNMeE.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-07-12",
-      "rating": 0,
-      "mediaType": "movie"
-    },
     {
       "id": 309809,
       "type": "tmdb",
@@ -224,7 +224,7 @@
       "type": "tmdb",
       "title": "长安的荔枝",
       "originalTitle": "长安的荔枝",
-      "description": "唐天宝年间，长安小吏李善德突然接到一个任务，要从岭南运来新鲜荔枝。荔枝易腐，离枝后三日变味，而岭南距长安五千余里，这是个不可能完成的任务。可为了家中的妻女，李善德决心放手一搏。",
+      "description": "唐天宝年间，人到中年的李善德（大鹏 饰）骂骂咧咧干了很多活，抠抠搜搜花了不少钱，到头来却还是个无名小吏。然而这一切随着一次召见似乎有了转机，某天有人安排给他一个“荔枝使”的肥差，只要办成，那就是荣华富贵人生逆袭，但要是办不成……",
       "posterPath": "https://image.tmdb.org/t/p/w500/S8XM9nknYxBHCp1AO1TNpqwRzo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/txkFj9VJVRceAnExkojDbUW1YQF.jpg",
       "releaseDate": "2025-07-12",
@@ -237,8 +237,8 @@
       "title": "花漾少女杀人事件",
       "originalTitle": "花漾少女杀人事件",
       "description": "　　单亲家庭下长大的江宁（张子枫 饰）正为职业生涯的最后机会拼命训练，不料天才对手钟灵的横空出世，夺走了母亲/教练王霜（马伊琍 饰）的青睐，三人的关系开始变得扑朔迷离，一场“杀人”的致命意外正悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1Q3ATTIhITAJbypwl6vv8OsllBV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nNt13ImDfCJ2DdrlPThOwFtfqN1.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r7797stbGbTlCNNe0C1SyYTYixJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6AhO4G645SltMCaP2OnSVor7HDf.jpg",
       "releaseDate": "2025-07-12",
       "rating": 0,
       "mediaType": "movie"
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5Pj35TQUXTCus8WHnTLXE6cFs3M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nZFgO3BDxpLzTpDXhYbdXBGdUVm.jpg",
       "releaseDate": "2025-06-30",
-      "rating": 6.7,
+      "rating": 6.938,
       "mediaType": "movie"
     },
     {
@@ -286,8 +286,32 @@
       "originalTitle": "The Fantastic Four: First Steps",
       "description": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wMYCHC0LE8sHvI35LzSOQxAD2x6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4b2mLlMMaMcZhvNvmPgwaFqme8Y.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
       "releaseDate": "2025-07-23",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1406607,
+      "type": "tmdb",
+      "title": "戏台",
+      "originalTitle": "戏台",
+      "description": "　　大裕斋跑腿伙计大嗓儿（黄渤 饰）竟被大帅（姜武 饰）点名要听他的戏？五庆班班主侯喜亭（陈佩斯 饰）无奈之下，只得让大嗓儿扮成西楚霸王的模样登台表演，眼见对方“站反了”，却只能无奈撞柱道：“太丢人了”。  　　民国年间，正逢五庆班携名角儿金啸天要演出《霸王别姬》，不料意外接踵而至，戏班班主、送包子的伙计、来视察的大帅、大名角儿金啸天，以及戏院经理、正在候场的花旦、出逃的六姨太、恶霸刘八爷等各色人物的命运阴差阳错地勾连在一起，上演了一出荒诞十足的喜剧。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/u4WdaKAiR84ZWyvvcb1rlIhNMeE.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-07-12",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1500536,
+      "type": "tmdb",
+      "title": "南京照相馆",
+      "originalTitle": "南京照相馆",
+      "description": "　　1937年南京大屠杀，邮差阿昌为了保命，冒充相馆冲洗工，为日军冲洗照片，并收留了一众中国军民，使相馆成为临时的庇护所。但面对日军残酷暴行，阿昌冒着生命危险将避难者们安全转移，并将屠杀罪证公之于众。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cnNDgtHJaLnUeXntFsfzeOuYrUE.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-07-19",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -334,18 +358,6 @@
       "originalTitle": "浪浪山小妖怪",
       "description": "　　以一只妖界“打工猪”的视角展开，因为想看看浪浪山外面的世界，小猪妖开启了一段异想天开的旅程，在离目标越来越近时，一切却突然发生了意料之外的转变……",
       "posterPath": "https://image.tmdb.org/t/p/w500/y9yzVMomZQqBU4lHf0UC2Zeg4C9.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-08-02",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1500536,
-      "type": "tmdb",
-      "title": "南京照相馆",
-      "originalTitle": "南京照相馆",
-      "description": "　　1937年南京大屠杀，邮差阿昌为了保命，冒充相馆冲洗工，为日军冲洗照片，并收留了一众中国军民，使相馆成为临时的庇护所。但面对日军残酷暴行，阿昌冒着生命危险将避难者们安全转移，并将屠杀罪证公之于众。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5CnjLEIhqVFvfXC4moDuTTOpIgD.jpg",
       "backdropPath": null,
       "releaseDate": "2025-08-02",
       "rating": 0,
@@ -418,7 +430,7 @@
       "originalTitle": "The Bad Guys 2",
       "description": "续集中几位正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
       "posterPath": "https://image.tmdb.org/t/p/w500/9CKzauWDhSgySsfP8SWarCmdAwB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qra80oA1Aw1KXj1JS46GLK4m3eE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-25",
       "rating": 0,
       "mediaType": "movie"
@@ -554,7 +566,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.611,
+      "rating": 7.612,
       "mediaType": "movie"
     },
     {
@@ -626,7 +638,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.973,
+      "rating": 6.972,
       "mediaType": "movie"
     },
     {
