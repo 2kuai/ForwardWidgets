@@ -22,6 +22,15 @@
       "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/TvLive.js"
     },
     {
+      "id": "cloud_cinema",
+      "title": "云端影院",
+      "description": "获取在线云端资源",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "两块",
+      "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/CloudCinema.js"
+    },
+    {
       "id": "movie_paradise",
       "title": "在线影院",
       "description": "获取在线电影、电视剧、动漫、综艺和短剧",
