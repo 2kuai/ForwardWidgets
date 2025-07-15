@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-15T06:21:05.267292",
+  "last_updated": "2025-07-15T12:27:56.012762",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -21,9 +21,7 @@
       "name": "CCTV-3 综艺",
       "description": "中国中央电视台综艺频道，是中国中央电视台拥有的一条以综艺及文化类节目为主的专业电视频道，始于1986年1月1日开播的第三套节目，采用普通话进行广播。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV3.png,lfo-center,l-end,l-end/CCTV3.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv3"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-4 中文国际",
@@ -49,7 +47,9 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
+      ]
     },
     {
       "name": "CCTV-5+ 体育赛事",
@@ -63,9 +63,7 @@
       "name": "CCTV-6 电影",
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-7 国防军事",
@@ -111,9 +109,7 @@
       "name": "CCTV-12 社会与法",
       "description": "中国中央电视台社会与法频道，是以法治宣传和社会教育为主要内容的专业电视频道，通过案例解析、法律咨询、社会热点追踪等节目形式，普及法律知识，弘扬法治精神。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV12.png,lfo-center,l-end,l-end/CCTV12.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv12"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-13 新闻",
@@ -214,9 +210,7 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
-      ]
+      "childItems": []
     },
     {
       "name": "重庆卫视",
