@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-16T06:20:28.167539",
+  "last_updated": "2025-07-16T12:26:39.711369",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -57,9 +57,7 @@
       "name": "CCTV-5+ 体育赛事",
       "description": "中国中央电视台体育赛事频道，是CCTV-5的补充频道，专注于播出更多体育赛事内容，特别是同时进行的多项重大体育赛事，满足体育爱好者的多样化需求。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-体育赛事.png,lfo-center,l-end,l-end/体育赛事.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv5A"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-6 电影",
@@ -73,9 +71,7 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv7"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-8 电视剧",
@@ -97,9 +93,7 @@
       "name": "CCTV-10 科教",
       "description": "中国中央电视台科教频道，是以传播科学知识、推广教育理念为宗旨的专业电视频道，节目内容涵盖科技前沿、教育动态、历史文化等多个领域，寓教于乐。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV10.png,lfo-center,l-end,l-end/CCTV10.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv10"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-11 戏曲",
@@ -208,7 +202,6 @@
       "description": "浙江广播电视集团旗下的综合卫星频道，以中国蓝为品牌，播出新闻、综艺、电视剧等多元化节目，是中国最具影响力的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
       "childItems": [
-        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
         "rtmp://weishi.hyuui.top/weishi/1234_zhejiang"
       ]
     },
@@ -216,9 +209,7 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
-      ]
+      "childItems": []
     },
     {
       "name": "重庆卫视",
@@ -358,9 +349,7 @@
       "name": "兵团卫视",
       "description": "新疆生产建设兵团的官方卫星频道，以汉语为主，兼播维吾尔语、哈萨克语节目。聚焦兵团改革发展、现代农业、生态建设和民族团结，展现热爱祖国、无私奉献、艰苦创业、开拓进取的兵团精神。主要栏目包括《兵团新闻联播》《兵团记忆》《丝路绿洲》等，是全国了解兵团的重要窗口。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-兵团卫视.png,lfo-center,l-end,l-end/兵团卫视.png",
-      "childItems": [
-        "https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8"
-      ]
+      "childItems": []
     }
   ],
   "ltv": [
@@ -369,7 +358,6 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
         "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
       ]
     },
@@ -377,34 +365,25 @@
       "name": "浙江新闻",
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
-      "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江经济",
       "description": "浙江经济频道是浙江广播电视集团旗下的专业财经频道，聚焦浙江经济发展动态，提供权威财经资讯、市场分析和商业报道，助力企业和投资者把握经济趋势。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江经济生活.png,lfo-center,l-end,l-end/浙江经济生活.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江少儿",
       "description": "浙江广播电视集团旗下的专业少儿频道，面向青少年儿童提供教育、娱乐、动画等节目内容，注重素质教育，促进少年儿童健康成长。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江少儿.png,lfo-center,l-end,l-end/浙江少儿.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江民生",
       "description": "浙江广播电视集团旗下的地面电视频道，以服务百姓生活为宗旨，关注民生热点，提供实用资讯，搭建政府与群众沟通的桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江民生休闲.png,lfo-center,l-end,l-end/浙江民生休闲.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
-      ]
+      "childItems": []
     }
   ]
 }
