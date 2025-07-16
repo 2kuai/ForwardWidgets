@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-11",
+  "last_updated": "2025-07-16",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -7,7 +7,6 @@
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
         "http://8.138.7.223/tv/ptbtv.php?id=27",
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV1",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
       ]
     },
@@ -16,7 +15,6 @@
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV2.png,lfo-center,l-end,l-end/CCTV2.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV2",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv2"
       ]
     },
@@ -25,7 +23,6 @@
       "description": "中国中央电视台综艺频道，是中国中央电视台拥有的一条以综艺及文化类节目为主的专业电视频道，始于1986年1月1日开播的第三套节目，采用普通话进行广播。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV3.png,lfo-center,l-end,l-end/CCTV3.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV3",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv3"
       ]
     },
@@ -34,7 +31,6 @@
       "description": "中国中央电视台中文国际频道，是中国中央电视台旗下一条以海外华人、华侨和台湾、香港、澳门观众为主要收视对象的电视频道，于1992年10月1日18时57分正式开播，主要使用汉语普通话对外广播，在中国内地也有相当规模的收视人群。中文国际频道开播当时仅有一个频道，2007年起分为三个频道，分别面向亚洲、欧洲、美洲播出。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV4.png,lfo-center,l-end,l-end/CCTV4.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV4",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv4"
       ]
     },
@@ -43,7 +39,7 @@
       "description": "中国中央电视台中文国际频道美洲版，是专门为美洲地区华人观众打造的电视频道，提供新闻资讯、文化节目和专题报道等内容，促进中华文化在美洲地区的传播。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV4美洲.png,lfo-center,l-end,l-end/CCTV4美洲.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV4"
+
       ]
     },
     {
@@ -51,7 +47,7 @@
       "description": "中国中央电视台中文国际频道欧洲版，是面向欧洲地区华人观众的专业电视频道，提供新闻、文化、娱乐等多元化节目，搭建中欧文化交流的桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV4欧洲.png,lfo-center,l-end,l-end/CCTV4欧洲.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV4"
+
       ]
     },
     {
@@ -59,7 +55,6 @@
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV5",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
       ]
     },
@@ -68,7 +63,6 @@
       "description": "中国中央电视台体育赛事频道，是CCTV-5的补充频道，专注于播出更多体育赛事内容，特别是同时进行的多项重大体育赛事，满足体育爱好者的多样化需求。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-体育赛事.png,lfo-center,l-end,l-end/体育赛事.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV5",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv5A"
       ]
     },
@@ -77,7 +71,6 @@
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV6",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
       ]
     },
@@ -86,7 +79,6 @@
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV7",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv7"
       ]
     },
@@ -95,7 +87,6 @@
       "description": "中国中央电视台电视剧频道，是中国最专业的电视剧播出平台，24小时不间断播出各类优秀电视剧作品，包括国产精品剧、经典老剧和海外引进剧等。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV8.png,lfo-center,l-end,l-end/CCTV8.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV8",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv8"
       ]
     },
@@ -104,7 +95,6 @@
       "description": "中国中央电视台纪录频道，是中国首个全国性专业纪录片频道，以全球视野、中国视角为定位，播出国内外优秀纪录片作品，涵盖自然、历史、科技、人文等多个领域。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV9.png,lfo-center,l-end,l-end/CCTV9.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV9",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv9"
       ]
     },
@@ -113,7 +103,6 @@
       "description": "中国中央电视台科教频道，是以传播科学知识、推广教育理念为宗旨的专业电视频道，节目内容涵盖科技前沿、教育动态、历史文化等多个领域，寓教于乐。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV10.png,lfo-center,l-end,l-end/CCTV10.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV10",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv10"
       ]
     },
@@ -123,7 +112,6 @@
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV11.png,lfo-center,l-end,l-end/CCTV11.png",
       "childItems": [
         "http://8.138.7.223/tv/ptbtv.php?id=28",
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV11",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv11"
       ]
     },
@@ -132,7 +120,6 @@
       "description": "中国中央电视台社会与法频道，是以法治宣传和社会教育为主要内容的专业电视频道，通过案例解析、法律咨询、社会热点追踪等节目形式，普及法律知识，弘扬法治精神。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV12.png,lfo-center,l-end,l-end/CCTV12.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV12",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv12"
       ]
     },
@@ -141,8 +128,8 @@
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV13",
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv13"
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv13",
+        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
       ]
     },
     {
@@ -150,7 +137,6 @@
       "description": "中国中央电视台少儿频道，是面向3-14岁少年儿童的专业电视频道，以陪伴成长、启迪智慧为宗旨，播出动画片、儿童剧、教育节目等内容，促进少年儿童全面发展。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV14.png,lfo-center,l-end,l-end/CCTV14.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV14",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv14"
       ]
     },
@@ -159,7 +145,6 @@
       "description": "中国中央电视台音乐频道，是中国唯一的国家级专业音乐电视频道，涵盖古典音乐、民族音乐、流行音乐等多种音乐类型，致力于推广高雅艺术，普及音乐知识。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV15.png,lfo-center,l-end,l-end/CCTV15.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV15",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv15"
       ]
     },
@@ -168,7 +153,7 @@
       "description": "中国中央电视台奥林匹克频道，是中国首个4K超高清体育频道，专注于奥林匹克运动和体育赛事报道，传播奥林匹克精神，推动体育文化发展。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV16.png,lfo-center,l-end,l-end/CCTV16.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV16"
+        "http://push-rtmp-hs-spe-f5.douyincdn.com/live/wT8gT8cW4xO4cP5tU3oP1eN0iR5lA6.flv"
       ]
     },
     {
@@ -176,7 +161,6 @@
       "description": "中国中央电视台农业农村频道，是面向三农领域的专业电视频道，报道农业政策、农村发展、农民生活等内容，服务乡村振兴战略，助力农业农村现代化。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV17.png,lfo-center,l-end,l-end/CCTV17.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=CCTV17",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv17"
       ]
     },
@@ -199,7 +183,7 @@
     {
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
-      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.2,h-bh_mul_3.7,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
       "childItems": [
         "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
       ]
@@ -219,6 +203,22 @@
       "childItems": [
         "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
       ]
+    },
+    {
+      "name": "CCTV 风云足球",
+      "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+      ]
+    },
+    {
+      "name": "CCTV 风云音乐",
+      "description": "CCTV 风云音乐是央视旗下专业音乐频道，汇聚全球流行、古典、摇滚等多元音乐风格，提供演唱会、MV、音乐盛典及独家专访。24小时不间断放送高品质音乐内容，为乐迷打造沉浸式视听享受，传递音乐魅力与艺术之美。",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云音乐.png,lfo-center,l-end,l-end/风云音乐.png",
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.87:5140"
+      ]
     }
   ],
   "stv": [
@@ -227,7 +227,7 @@
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=北京卫视"
+
       ]
     },
     {
@@ -236,7 +236,6 @@
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
       "childItems": [
         "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
-        "http://qwt.zhibotv.top:2016/全网通.php?id=浙江卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_zhejiang"
       ]
     },
@@ -245,7 +244,6 @@
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=东方卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
       ]
     },
@@ -254,15 +252,15 @@
       "description": "重庆广播电视集团（总台）旗下的综合性卫星电视频道，以中国故事，天下传奇为定位，致力于传播中华优秀传统文化，播出新闻、文化、电视剧等节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-重庆卫视.png,lfo-center,l-end,l-end/重庆卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=重庆卫视"
+
       ]
     },
     {
       "name": "吉林卫视",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-吉林卫视.png,lfo-center,l-end,l-end/吉林卫视.png",
       "description": "吉林广播电视台旗下的卫星频道，以故乡的月亮为呼号，立足吉林、面向全国，突出东北地域特色，播出新闻、综艺、电视剧等节目。",
-      "childItems       ": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=吉林卫视"
+      "childItems": [
+
       ]
     },
     {
@@ -270,7 +268,7 @@
       "description": "辽宁广播电视台旗下的卫星频道，以家文化为核心，定位欢乐一家，播出新闻、综艺、电视剧和生活服务类节目，深受北方观众喜爱。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-辽宁卫视.png,lfo-center,l-end,l-end/辽宁卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=辽宁卫视"
+
       ]
     },
     {
@@ -278,7 +276,7 @@
       "description": "宁夏广播电视总台旗下的卫星频道，是宁夏对外宣传的主窗口，以新闻宣传为主，同时播出社教、文化、经济和综艺娱乐等节目，展示宁夏的独特魅力。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-宁夏卫视.png,lfo-center,l-end,l-end/宁夏卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=宁夏卫视"
+
       ]
     },
     {
@@ -286,7 +284,7 @@
       "description": "甘肃省广播电视总台旗下的卫星频道，以传承丝路文明，弘扬华夏文化为宗旨，播出新闻、文化、旅游、经济等节目，是展示甘肃形象的重要平台。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-甘肃卫视.png,lfo-center,l-end,l-end/甘肃卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=甘肃卫视"
+
       ]
     },
     {
@@ -294,7 +292,7 @@
       "description": "青海广播电视台旗下的卫星频道，以大美青海为主题，突出环保、生态和民族特色，播出新闻、纪实、综艺等节目，展现青海的自然风光和人文魅力。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-青海卫视.png,lfo-center,l-end,l-end/青海卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=青海卫视"
+
       ]
     },
     {
@@ -302,7 +300,7 @@
       "description": "陕西广播电视台旗下的卫星电视频道，以传承中华文明、展示陕西形象为宗旨，突出历史文化特色，提供新闻、文化、旅游等多元化节目内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-陕西卫视.png,lfo-center,l-end,l-end/陕西卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=陕西卫视"
+
       ]
     },
     {
@@ -310,7 +308,7 @@
       "description": "山东广播电视台旗下的卫星频道，以悠久文明，青春中国为定位，弘扬齐鲁文化，播出新闻、文化、电视剧、综艺等节目，是中国重要的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-山东卫视.png,lfo-center,l-end,l-end/山东卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=山东卫视"
+
       ]
     },
     {
@@ -318,7 +316,7 @@
       "description": "广东广播电视台旗下的卫星电视频道，以立足广东、面向全国、辐射海外为定位，突出岭南文化特色，提供新闻、综艺、电视剧等多元化节目内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广东卫视.png,lfo-center,l-end,l-end/广东卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=广东卫视"
+
       ]
     },
     {
@@ -326,7 +324,7 @@
       "description": "湖北广播电视台旗下的卫星电视频道，以传播荆楚文化、展现湖北风采为宗旨，突出地域特色，提供新闻、文化、综艺、旅游等多元化节目内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-湖北卫视.png,lfo-center,l-end,l-end/湖北卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=湖北卫视"
+
       ]
     },
     {
@@ -334,7 +332,6 @@
       "description": "湖南广播电视台旗下的卫星频道，以快乐中国为口号，是中国最具影响力的娱乐频道之一，以创新的综艺节目和热门电视剧闻名。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-湖南卫视.png,lfo-center,l-end,l-end/湖南卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=湖南卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_hunan"
       ]
     },
@@ -343,7 +340,7 @@
       "description": "河南广播电视台旗下的卫星频道，以文化河南，中华源为定位，深度挖掘和传播华夏历史文明，打造了《唐宫夜宴》等一系列文化精品节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南卫视.png,lfo-center,l-end,l-end/河南卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=河南卫视"
+        "http://1.94.31.214/php/hntv.php?id=hnws"
       ]
     },
     {
@@ -351,7 +348,7 @@
       "description": "江西广播电视台旗下的卫星频道，以红色经典，时尚江西为定位，传承红色基因，展现江西发展新貌，播出新闻、电视剧、综艺等节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江西卫视.png,lfo-center,l-end,l-end/江西卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=江西卫视"
+
       ]
     },
     {
@@ -359,7 +356,6 @@
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=江苏卫视",
         "rtmp://weishi.hyuui.top/weishi/1234_jiangsu"
       ]
     },
@@ -368,7 +364,7 @@
       "description": "福建省广播影视集团旗下的卫星频道，以海洋时代，中华情怀为定位，立足福建，面向台湾和海外华人，是连接两岸三地的重要桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东南卫视.png,lfo-center,l-end,l-end/东南卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=东南卫视"
+        "http://8.138.7.223/tv/fjtv1.php?id=dnws"
       ]
     },
     {
@@ -376,7 +372,7 @@
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=广西卫视"
+
       ]
     },
     {
@@ -384,7 +380,7 @@
       "description": "贵州广播电视台旗下的卫星频道，以中国瀑乡，爽爽贵州为宣传口号，突出多彩的民族文化和山地旅游资源，播出新闻、综艺、电视剧等节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-贵州卫视.png,lfo-center,l-end,l-end/贵州卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=贵州卫视"
+
       ]
     },
     {
@@ -392,7 +388,7 @@
       "description": "新疆广播电视台旗下的卫星频道，是展示新疆形象、传播新疆声音的重要窗口，使用汉语播出，内容涵盖新闻、经济、文化、科教等方面。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-新疆卫视.png,lfo-center,l-end,l-end/新疆卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=新疆卫视"
+
       ]
     },
     {
@@ -400,7 +396,7 @@
       "description": "西藏广播电视台旗下的卫星频道，是宣传西藏的重要喉舌，使用藏语和汉语播出，介绍西藏的政治、经济、社会、文化发展情况。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-西藏卫视.png,lfo-center,l-end,l-end/西藏卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=西藏卫视"
+
       ]
     },
     {
@@ -408,8 +404,15 @@
       "description": "海南广播电视总台旗下的卫星频道，以立足海南，面向世界为宗旨，聚焦海南自贸港建设，向全球观众展示一个开放、绿色、现代的海南。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-海南卫视.png,lfo-center,l-end,l-end/海南卫视.png",
       "childItems": [
-        "http://nn.7x9d.cn/地方台8563/海南.php?id=hnws",
-        "http://qwt.zhibotv.top:2016/全网通.php?id=海南卫视"
+        "http://nn.7x9d.cn/地方台8563/海南.php?id=hnws"
+      ]
+    },
+    {
+      "name": "厦门卫视",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-海南卫视.png,lfo-center,l-end,l-end/海南卫视.png",
+      "childItems": [
+        "http://8.138.7.223/tv/fjtv1.php?id=xmws"
       ]
     },
     {
@@ -417,7 +420,7 @@
       "description": "内蒙古广播电视台旗下的卫星频道，是中国唯一用蒙古语和汉语两种语言播出的卫星频道，展示草原文化和内蒙古的独特魅力。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-内蒙古卫视.png,lfo-center,l-end,l-end/内蒙古卫视.png",
       "childItems": [
-        "http://qwt.zhibotv.top:2016/全网通.php?id=内蒙古卫视"
+
       ]
     },
     {
@@ -470,6 +473,70 @@
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江民生休闲.png,lfo-center,l-end,l-end/浙江民生休闲.png",
       "childItems": [
         "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
+      ]
+    },
+    {
+      "name": "浙江教科",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江教科影视.png,lfo-center,l-end,l-end/浙江教科影视.png",
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+      ]
+    },
+    {
+      "name": "浙江国际",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江国际.png,lfo-center,l-end,l-end/浙江国际.png",
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+      ]
+    },
+    {
+      "name": "河南新闻",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南新闻.png,lfo-center,l-end,l-end/河南新闻.png",
+      "childItems": [
+        "http://www.cdnstv.com:6398/hls/1114/index.m3u8"
+      ]
+    },
+    {
+      "name": "湖南爱晚",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_3.5,bg-848484,lfo-center,l-image,i-湖南爱晚.png,lfo-center,l-end,l-end/湖南爱晚.png",
+      "childItems": [
+        "http://p2.vzan.com/527645544/149039617847513156/live.m3u8"
+      ]
+    },
+    {
+      "name": "河南都市",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
+      "childItems": [
+        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
+      ]
+    },
+    {
+      "name": "福建旅游",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.6,h-bh_mul_4,bg-848484,lfo-center,l-image,i-福建旅游.png,lfo-center,l-end,l-end/福建旅游.png",
+      "childItems": [
+        "http://8.138.7.223/tv/fjtv1.php?id=fjly"
+      ]
+    },
+    {
+      "name": "福建经济",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.6,h-bh_mul_4,bg-848484,lfo-center,l-image,i-福建经济.png,lfo-center,l-end,l-end/福建经济.png",
+      "childItems": [
+        "http://8.138.7.223/tv/fjtv1.php?id=fjjj"
+      ]
+    },
+    {
+      "name": "福建文体",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.6,h-bh_mul_4,bg-848484,lfo-center,l-image,i-福建文体.png,lfo-center,l-end,l-end/福建文体.png",
+      "childItems": [
+        "http://8.138.7.223/tv/fjtv1.php?id=fjwt"
       ]
     }
   ]
