@@ -8,7 +8,7 @@ import logging
 import requests
 import time
 from urllib.parse import urlparse
-from typing import Tuple, Optional
+from typing import Tuple, Optional, Dict, Any
 
 # 配置日志 - 只保留控制台输出
 logging.basicConfig(
@@ -21,20 +21,22 @@ logger = logging.getLogger(__name__)
 class SourceChecker:
     def __init__(self):
         self.session = requests.Session()
+        # 固定User-Agent为AptvPlayer/1.4.10
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'AptvPlayer/1.4.10'
         })
         self.timeout = 30  # 全局超时设置
 
     def _vlc_check(self, url: str) -> Tuple[bool, str]:
         """用cvlc检测直播源（支持rtmp等），分析输出内容，只有包含关键字才判为可用。"""
         try:
-            # --intf dummy: 无界面
-            # --run-time=15: 最多加载15秒
-            # -vvv: 最高详细度日志
+            # 固定使用AptvPlayer/1.4.10作为User-Agent
             vlc_cmd = [
-                'cvlc', '--intf', 'dummy', '--run-time=15', '-vvv', url
+                'cvlc', '--intf', 'dummy', '--run-time=15', '-vvv',
+                '--http-user-agent=AptvPlayer/1.4.10',
+                url
             ]
+            
             result = subprocess.run(
                 vlc_cmd,
                 stdout=subprocess.PIPE,
