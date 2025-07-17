@@ -1,11 +1,12 @@
 {
-  "last_updated": "2025-07-17T01:04:46.538787",
+  "last_updated": "2025-07-17T06:21:05.562149",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
+        "http://8.138.7.223/tv/ptbtv.php?id=27",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
       ]
     },
@@ -152,9 +153,7 @@
       "name": "CCTV-17 农业农村",
       "description": "中国中央电视台农业农村频道，是面向三农领域的专业电视频道，报道农业政策、农村发展、农民生活等内容，服务乡村振兴战略，助力农业农村现代化。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV17.png,lfo-center,l-end,l-end/CCTV17.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv17"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 第一剧场",
