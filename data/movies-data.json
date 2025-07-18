@@ -1,6 +1,42 @@
 {
-  "last_updated": "2025-07-18T00:17:29.913+08:00",
+  "last_updated": "2025-07-19T00:18:27.940+08:00",
   "nowplaying": [
+    {
+      "id": 1382007,
+      "type": "tmdb",
+      "title": "你行！你上！",
+      "originalTitle": "你行！你上！",
+      "description": "这是一对父子的传奇历险，也是两个野心家的一拍即合。从沈阳到美国，从3岁到17岁，弹琴胜似取经，八十八键多过八十一难，父子心无杂念，只管埋头向前，两人赤手空拳让美国殿堂艺术精英们刮目相看。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1y9IwioPnBuQGmkDglNBLR0hUCE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6lk4gKnoujQAm9Mg4EnFfNWpoOw.jpg",
+      "releaseDate": "2025-07-17",
+      "rating": 10,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1356587,
+      "type": "tmdb",
+      "title": "长安的荔枝",
+      "originalTitle": "长安的荔枝",
+      "description": "唐天宝年间，人到中年的李善德（大鹏 饰）骂骂咧咧干了很多活，抠抠搜搜花了不少钱，到头来却还是个无名小吏。然而这一切随着一次召见似乎有了转机，某天有人安排给他一个“荔枝使”的肥差，只要办成，那就是荣华富贵人生逆袭，但要是办不成……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/S8XM9nknYxBHCp1AO1TNpqwRzo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mBa8hfCXiiMcguuOHojqotOH7IO.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1464818,
+      "type": "tmdb",
+      "title": "花漾少女杀人事件",
+      "originalTitle": "花漾少女杀人事件",
+      "description": "　　单亲家庭下长大的江宁（张子枫 饰）正为职业生涯的最后机会拼命训练，不料天才对手钟灵的横空出世，夺走了母亲/教练王霜（马伊琍 饰）的青睐，三人的关系开始变得扑朔迷离，一场“杀人”的致命意外正悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r7797stbGbTlCNNe0C1SyYTYixJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6AhO4G645SltMCaP2OnSVor7HDf.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 0,
+      "mediaType": "movie"
+    },
     {
       "id": 911430,
       "type": "tmdb",
@@ -10,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.643,
+      "rating": 7.641,
       "mediaType": "movie"
     },
     {
@@ -34,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.5,
+      "rating": 7.456,
       "mediaType": "movie"
     },
     {
@@ -46,19 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ohE4QR7JB9ATYR3Scv4qEjCEjHB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/m4pU5nwSsQhWEJFOwrvBWCbBuns.jpg",
       "releaseDate": "2025-06-27",
-      "rating": 6.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1234821,
-      "type": "tmdb",
-      "title": "侏罗纪世界：重生",
-      "originalTitle": "Jurassic World Rebirth",
-      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
-      "releaseDate": "2025-07-01",
-      "rating": 6.361,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -70,19 +94,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ovZasZ9EeZcp6UsrElkQ63hFCd.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 8.071,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
-      "id": 1401502,
+      "id": 1234821,
       "type": "tmdb",
-      "title": "无名之辈：否极泰来",
-      "originalTitle": "无名之辈：否极泰来",
-      "description": "　　在曼谷街头大闹分手的“渣男”陈三金（章宇 饰）与“狠女”薛芳梅（任素汐 饰），意外卷入了一场犯罪集团的绑架活动。二人不出意外的成为了人质中的“出头鸟”、绑匪的“眼中钉”，在面临生存还是毁灭的一系列极端选择之际，二人尽显“渣男”“狠女”本性。殊不知这场意外背后还暗藏着更大危机，极端情境下的二人将何去何从？异国人群中的无名之辈们又将如何反抗命运？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fuJWObGkdhAqAO34FgQx6sVHxtu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/diRS2bfX9KZG4ijX50G4FTNeQy9.jpg",
-      "releaseDate": "2025-06-26",
-      "rating": 7.5,
+      "title": "侏罗纪世界：重生",
+      "originalTitle": "Jurassic World Rebirth",
+      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
+      "releaseDate": "2025-07-01",
+      "rating": 6.365,
       "mediaType": "movie"
     },
     {
@@ -110,15 +134,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1022787,
+      "id": 936108,
       "type": "tmdb",
-      "title": "地球特派员",
-      "originalTitle": "Elio",
-      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
-      "releaseDate": "2025-06-18",
-      "rating": 6.8,
+      "title": "魔法蓝精灵",
+      "originalTitle": "Smurfs",
+      "description": "　　蓝精灵村庄每日载歌载舞一片欢乐，直到蓝爸爸（约翰·古德曼 John Goodman 配音）被格格巫绑架打破了平静，蓝妹妹（蕾哈娜 Rihanna 配音）带领蓝精灵勇闯现实世界，用魔法和智慧开启冒险。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5Pj35TQUXTCus8WHnTLXE6cFs3M.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nZFgO3BDxpLzTpDXhYbdXBGdUVm.jpg",
+      "releaseDate": "2025-06-30",
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -184,18 +208,6 @@
   ],
   "coming": [
     {
-      "id": 1342341,
-      "type": "tmdb",
-      "title": "疯狂海盗团2",
-      "originalTitle": "Kaptein Sabeltann og Grevinnen av Gral",
-      "description": "挚友雷文和粉红公主在令人闻风丧胆的海盗、七海之王剑齿虎船长的麾下服役。狡猾的格罗尔伯爵夫人西比拉袭击了他们的船，偷走了珍贵的船首像并绑架了粉红公主—这一切都是她精心策划的，旨在诱捕剑齿虎船长，征服海盗的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9XkvyKYoOEUGTaEXSNtH84I8OXd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eL8fgEK8mgDcJZRHzuxbLwevCcr.jpg",
-      "releaseDate": "2025-02-07",
-      "rating": 6.8,
-      "mediaType": "movie"
-    },
-    {
       "id": 962,
       "type": "tmdb",
       "title": "淘金记",
@@ -204,7 +216,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bBKC6yWby1eI9JlCj5HqKm0YzuD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hZHeDPQGNKN9NN9GuW7qVbM2tDx.jpg",
       "releaseDate": "1925-07-13",
-      "rating": 7.985,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -216,7 +228,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
       "releaseDate": "2025-07-23",
-      "rating": 0,
+      "rating": 9.7,
       "mediaType": "movie"
     },
     {
@@ -484,6 +496,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1129573,
+      "type": "tmdb",
+      "title": "三滴血",
+      "originalTitle": "三滴血",
+      "description": "　　三，是家的最小单位。血脉，是维系家庭的纽带。然而，三个素不相识的人却被命运交织在一起！\r 　　善恶难辨的男人“驯鹿”，身怀六甲的女人李棋，哑巴男孩冰棍，三人假扮成一家人，游走于猎物与猎人之间，暗流已至，生死一瞬，一个关于家族式人口贩卖的黑暗链条逐渐浮出水面！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3EA0Jvtxf03rfS6updOImhkdIb2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/v3OqD7yqeDwA2S2iKdIYdfOmWNJ.jpg",
+      "releaseDate": "2025-11-15",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1357301,
       "type": "tmdb",
       "title": "无名之辈：意义非凡",
@@ -506,7 +530,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aKeJgTDAiBe5hFgFgI3V3ChOLmh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.59,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -554,7 +578,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.7,
+      "rating": 6.698,
       "mediaType": "movie"
     },
     {
