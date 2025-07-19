@@ -79,7 +79,8 @@
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
       "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv7"
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv7",
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
       ]
     },
     {
@@ -129,7 +130,8 @@
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
       "childItems": [
         "rtmp://weishi.hyuui.top/weishi/1234_cctv13",
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
+        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8",
+        "http://39.164.160.249:9901/tsfile/live/0013_1.m3u8"
       ]
     },
     {
@@ -209,7 +211,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
     {
@@ -227,7 +230,7 @@
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
       "childItems": [
-
+        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8" 
       ]
     },
     {
@@ -300,7 +303,15 @@
       "description": "陕西广播电视台旗下的卫星电视频道，以传承中华文明、展示陕西形象为宗旨，突出历史文化特色，提供新闻、文化、旅游等多元化节目内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-陕西卫视.png,lfo-center,l-end,l-end/陕西卫视.png",
       "childItems": [
-
+      
+      ]
+    },
+    {
+      "name": "安徽卫视",
+      "description": "",
+      "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
       ]
     },
     {
@@ -356,7 +367,9 @@
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_jiangsu"
+        "rtmp://weishi.hyuui.top/weishi/1234_jiangsu",
+        "http://39.164.160.249:9901/tsfile/live/0127_1.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
       ]
     },
     {
@@ -372,7 +385,7 @@
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
       "childItems": [
-
+        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
       ]
     },
     {
