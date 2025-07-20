@@ -1,11 +1,13 @@
 {
-  "last_updated": "2025-07-20T01:11:39.050738",
+  "last_updated": "2025-07-20T06:18:42.547490",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
+      ]
     },
     {
       "name": "CCTV-2 财经",
@@ -63,9 +65,7 @@
       "name": "CCTV-6 电影",
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-7 国防军事",
@@ -87,7 +87,9 @@
       "name": "CCTV-9 纪录",
       "description": "中国中央电视台纪录频道，是中国首个全国性专业纪录片频道，以全球视野、中国视角为定位，播出国内外优秀纪录片作品，涵盖自然、历史、科技、人文等多个领域。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV9.png,lfo-center,l-end,l-end/CCTV9.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv9"
+      ]
     },
     {
       "name": "CCTV-10 科教",
@@ -217,7 +219,9 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
+      ]
     },
     {
       "name": "重庆卫视",
@@ -314,6 +318,7 @@
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
+        "http://39.164.160.249:9901/tsfile/live/0127_1.m3u8",
         "rtmp://weishi.hyuui.top/weishi/1234_jiangsu"
       ]
     },
@@ -391,8 +396,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
       ]
     },
     {
