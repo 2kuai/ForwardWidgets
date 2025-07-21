@@ -1,21 +1,17 @@
 {
-  "last_updated": "2025-07-20T18:18:03.562573",
+  "last_updated": "2025-07-21T01:09:24.033971",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-2 财经",
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV2.png,lfo-center,l-end,l-end/CCTV2.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv2"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-3 综艺",
@@ -74,7 +70,6 @@
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
       "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000127.m3u8",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv7"
       ]
     },
@@ -123,7 +118,6 @@
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
       "childItems": [
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv13"
       ]
     },
@@ -235,7 +229,9 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
+      ]
     },
     {
       "name": "重庆卫视",
