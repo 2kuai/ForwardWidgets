@@ -1,47 +1,64 @@
 name: IPTV Source Checker
-
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次
-  workflow_dispatch:       # 允许手动触发
+    - cron: "0 */6 * * *"  # 每6小时运行一次
+  workflow_dispatch:  # 支持手动触发
+
+env:
+  INPUT_FILE: "iptv_sources.json"
+  OUTPUT_FILE: "data/iptv-data.json"
+  MAX_WORKERS: 10
 
 jobs:
   check-sources:
     runs-on: ubuntu-latest
-    timeout-minutes: 30    # 设置超时限制
-    
+    timeout-minutes: 60  # 设置全局超时时间
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y curl  # 只添加curl工具
-        sudo apt-get install -y \
-          ffmpeg \
-          rtmpdump \
-          libavcodec-extra \
-          vlc  # 新增cvlc依赖
-        
-    - name: Install Python dependencies
-      run: pip install requests
-    
-    - name: Run optimized checker
-      run: |
-        python scripts/check_iptv.py \
-          -i iptv_sources.json \
-          -o data/iptv-data.json \
-          -w 20
-        
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add data/iptv-data.json
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M') [skip ci]"
-        git push
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Cache Python Dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Source Checker
+        run: |
+          python source_checker.py \
+            --input ${INPUT_FILE} \
+            --output ${OUTPUT_FILE} \
+            --workers ${MAX_WORKERS}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions@example.com"
+          git config --local user.name "GitHub Actions"
+          git add ${OUTPUT_FILE}
+          git commit -m "Update IPTV source results [ci-skip]"
+          git push origin main
+
+      - name: Notify on Failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const body = `IPTV source check failed: see workflow run ${{ github.runId }}`;
+            github.rest.repos.createDispatchEvent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              event_type: "alert",
+              client_payload: { message: body }
+            });
