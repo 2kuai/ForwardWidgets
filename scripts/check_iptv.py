@@ -5,6 +5,7 @@ import subprocess
 import concurrent.futures
 from datetime import datetime
 import logging
+import requests
 import time
 from urllib.parse import urlparse
 from typing import Tuple, Optional
@@ -19,16 +20,20 @@ logger = logging.getLogger(__name__)
 
 class SourceChecker:
     def __init__(self):
+        self.session = requests.Session()
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
         self.timeout = 30  # 全局超时设置
 
     def _vlc_check(self, url: str) -> Tuple[bool, str]:
         """用cvlc检测直播源（支持rtmp等），分析输出内容，只有包含关键字才判为可用。"""
         try:
             # --intf dummy: 无界面
-            # --run-time=5: 最多加载5秒
-            # --quiet: 减少日志输出
+            # --run-time=15: 最多加载15秒
+            # -vvv: 最高详细度日志
             vlc_cmd = [
-                'cvlc', '--intf', 'dummy', '--run-time=5', '--quiet', url
+                'cvlc', '--intf', 'dummy', '--run-time=15', '-vvv', url
             ]
             result = subprocess.run(
                 vlc_cmd,
