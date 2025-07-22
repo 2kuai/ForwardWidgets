@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-22T12:26:46.789986",
+  "last_updated": "2025-07-22T18:19:38.490680",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -13,7 +13,9 @@
       "name": "CCTV-2 财经",
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV2.png,lfo-center,l-end,l-end/CCTV2.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv2"
+      ]
     },
     {
       "name": "CCTV-3 综艺",
@@ -47,7 +49,9 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
+      ]
     },
     {
       "name": "CCTV-5+ 体育赛事",
@@ -83,13 +87,17 @@
       "name": "CCTV-9 纪录",
       "description": "中国中央电视台纪录频道，是中国首个全国性专业纪录片频道，以全球视野、中国视角为定位，播出国内外优秀纪录片作品，涵盖自然、历史、科技、人文等多个领域。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV9.png,lfo-center,l-end,l-end/CCTV9.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv9"
+      ]
     },
     {
       "name": "CCTV-10 科教",
       "description": "中国中央电视台科教频道，是以传播科学知识、推广教育理念为宗旨的专业电视频道，节目内容涵盖科技前沿、教育动态、历史文化等多个领域，寓教于乐。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV10.png,lfo-center,l-end,l-end/CCTV10.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv10"
+      ]
     },
     {
       "name": "CCTV-11 戏曲",
@@ -128,7 +136,9 @@
       "name": "CCTV-15 音乐",
       "description": "中国中央电视台音乐频道，是中国唯一的国家级专业音乐电视频道，涵盖古典音乐、民族音乐、流行音乐等多种音乐类型，致力于推广高雅艺术，普及音乐知识。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV15.png,lfo-center,l-end,l-end/CCTV15.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_cctv15"
+      ]
     },
     {
       "name": "CCTV-16 奥林匹克",
@@ -148,7 +158,9 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
+      ]
     },
     {
       "name": "CCTV 央视台球",
@@ -220,9 +232,7 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
-      ]
+      "childItems": []
     },
     {
       "name": "重庆卫视",
@@ -396,8 +406,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
       ]
     },
     {
