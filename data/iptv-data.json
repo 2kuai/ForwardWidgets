@@ -1,11 +1,12 @@
 {
-  "last_updated": "2025-07-23T18:19:54.475352",
+  "last_updated": "2025-07-24T01:04:46.661153",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
+        "http://8.138.7.223/tv/ptbtv.php?id=27",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
       ]
     },
@@ -219,7 +220,9 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
+      ]
     },
     {
       "name": "浙江卫视",
@@ -234,7 +237,9 @@
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
+      ]
     },
     {
       "name": "重庆卫视",
@@ -308,9 +313,7 @@
       "name": "湖南卫视",
       "description": "湖南广播电视台旗下的卫星频道，以快乐中国为口号，是中国最具影响力的娱乐频道之一，以创新的综艺节目和热门电视剧闻名。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-湖南卫视.png,lfo-center,l-end,l-end/湖南卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_hunan"
-      ]
+      "childItems": []
     },
     {
       "name": "河南卫视",
