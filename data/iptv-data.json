@@ -1,12 +1,11 @@
 {
-  "last_updated": "2025-07-24T01:04:46.661153",
+  "last_updated": "2025-07-24T06:21:14.586963",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
       "childItems": [
-        "http://8.138.7.223/tv/ptbtv.php?id=27",
         "rtmp://weishi.hyuui.top/weishi/1234_cctv1A"
       ]
     },
@@ -14,9 +13,7 @@
       "name": "CCTV-2 财经",
       "description": "中国中央电视台财经频道，是中国中央电视台拥有的一条以普通话广播为主的频道，也是中国大陆第一个彩色电视频道。该频道以专业财经信息为核心内容，以生活服务和消费时尚为辅助内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV2.png,lfo-center,l-end,l-end/CCTV2.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv2"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-3 综艺",
@@ -30,9 +27,7 @@
       "name": "CCTV-4 中文国际",
       "description": "中国中央电视台中文国际频道，是中国中央电视台旗下一条以海外华人、华侨和台湾、香港、澳门观众为主要收视对象的电视频道，于1992年10月1日18时57分正式开播，主要使用汉语普通话对外广播，在中国内地也有相当规模的收视人群。中文国际频道开播当时仅有一个频道，2007年起分为三个频道，分别面向亚洲、欧洲、美洲播出。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV4.png,lfo-center,l-end,l-end/CCTV4.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv4"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-4 美洲",
@@ -50,9 +45,7 @@
       "name": "CCTV-5 体育",
       "description": "中国中央电视台体育频道，是中国最权威的专业体育电视频道，提供国内外重大体育赛事直播、体育新闻和专题节目，涵盖足球、篮球、排球、乒乓球等多种体育项目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV5.png,lfo-center,l-end,l-end/CCTV5.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv5"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-5+ 体育赛事",
@@ -66,9 +59,7 @@
       "name": "CCTV-6 电影",
       "description": "中国中央电视台电影频道，是中国大陆唯一的国家级专业电影频道，每天24小时不间断播出中外优秀电影作品，包括经典老片、新片首播和电影资讯等内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV6.png,lfo-center,l-end,l-end/CCTV6.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv6"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-7 国防军事",
@@ -82,9 +73,7 @@
       "name": "CCTV-8 电视剧",
       "description": "中国中央电视台电视剧频道，是中国最专业的电视剧播出平台，24小时不间断播出各类优秀电视剧作品，包括国产精品剧、经典老剧和海外引进剧等。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV8.png,lfo-center,l-end,l-end/CCTV8.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_cctv8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-9 纪录",
@@ -220,26 +209,21 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江卫视",
       "description": "浙江广播电视集团旗下的综合卫星频道，以中国蓝为品牌，播出新闻、综艺、电视剧等多元化节目，是中国最具影响力的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
       "childItems": [
-        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
-        "rtmp://weishi.hyuui.top/weishi/1234_zhejiang"
+        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
       ]
     },
     {
       "name": "东方卫视",
       "description": "上海广播电视台旗下的卫星频道，以梦想的力量为口号，提供新闻、财经、时尚、娱乐等多元化内容，是具有国际影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-东方卫视.png,lfo-center,l-end,l-end/东方卫视.png",
-      "childItems": [
-        "rtmp://weishi.hyuui.top/weishi/1234_dongfang"
-      ]
+      "childItems": []
     },
     {
       "name": "重庆卫视",
@@ -313,7 +297,9 @@
       "name": "湖南卫视",
       "description": "湖南广播电视台旗下的卫星频道，以快乐中国为口号，是中国最具影响力的娱乐频道之一，以创新的综艺节目和热门电视剧闻名。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-湖南卫视.png,lfo-center,l-end,l-end/湖南卫视.png",
-      "childItems": []
+      "childItems": [
+        "rtmp://weishi.hyuui.top/weishi/1234_hunan"
+      ]
     },
     {
       "name": "河南卫视",
