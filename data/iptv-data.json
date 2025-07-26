@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-26T01:03:33.530055",
+  "last_updated": "2025-07-26T06:18:51.289660",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -95,7 +95,9 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": []
+      "childItems": [
+        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
+      ]
     },
     {
       "name": "CCTV-14 少儿",
@@ -359,8 +361,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
       ]
     },
     {
