@@ -1,18 +1,7 @@
 {
-  "last_updated": "2025-07-26T14:14:38.166+08:00",
+  "last_updated": "2025-07-26T20:18:25.525+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 292575,
-        "type": "tmdb",
-        "title": "扫毒风暴",
-        "description": "1995年，走私商卢少骅一夜间倾家荡产，却也因此意识到一种新型毒品——冰毒，所能带来的巨大利润，他心生邪念，成为一名制毒师。彼时，缉毒警林强峰结束卧底生涯，为追查毒品线索调任西港市缉毒支队。数年间，林强峰带队投身于这场扫毒风暴，而卢少骅则辗转国内外，结识了一众毒枭，野心不断膨胀……最终，以林强峰为代表的缉毒警不辱使命，力破卢少骅诡诈的毒网阴谋。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1573FCIqFn46QjSNqiQxnJSUiYS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aZB8p8mM90tGCIozwVwS7w3KC4A.jpg",
-        "releaseDate": "2025-07-12",
-        "rating": 7.5,
-        "mediaType": "tv"
-      },
       {
         "id": 261128,
         "type": "tmdb",
@@ -22,6 +11,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/o0Grq4cdBwI5iYgg0JfeUDeAOaV.jpg",
         "releaseDate": "2025-07-14",
         "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 292575,
+        "type": "tmdb",
+        "title": "扫毒风暴",
+        "description": "1995年，走私商卢少骅一夜间倾家荡产，却也因此意识到一种新型毒品——冰毒，所能带来的巨大利润，他心生邪念，成为一名制毒师。彼时，缉毒警林强峰结束卧底生涯，为追查毒品线索调任西港市缉毒支队。数年间，林强峰带队投身于这场扫毒风暴，而卢少骅则辗转国内外，结识了一众毒枭，野心不断膨胀……最终，以林强峰为代表的缉毒警不辱使命，力破卢少骅诡诈的毒网阴谋。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1573FCIqFn46QjSNqiQxnJSUiYS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/aZB8p8mM90tGCIozwVwS7w3KC4A.jpg",
+        "releaseDate": "2025-07-12",
+        "rating": 5.3,
         "mediaType": "tv"
       },
       {
@@ -47,6 +47,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 235351,
+        "type": "tmdb",
+        "title": "金庸武侠世界",
+        "description": "南宋末年，金兵入侵，朝廷奸臣当道。平民义士郭啸天、杨铁心两家指腹为婚，后为金兵所害。全真教道士丘处机与江南七怪定下赌约：分别寻找杨、郭后人并传授他们武功，于十八年后在醉仙楼比试高低。郭靖、杨康分别在江南七怪与丘处机的教养下长大成人。 18年后，郭靖奉师命南下，与“东邪”黄药师之女黄蓉一见如故，彼此倾心，但两人的情感却一波三折。“西毒”欧阳锋为侄儿欧阳克求娶黄蓉，郭靖历经三番比试最终获胜，奈何五位师父被害于桃花岛，引得二人误会分离。 另一边，杨康贪恋富贵，认金人作父。一场无心的比武招亲，令他与杨铁心义女穆念慈有情相恋，却执迷不悟，三番四次加害郭靖、黄蓉等江湖义士，助金人夺取《武穆遗书》，最终难逃惨死嘉兴铁枪庙中的命运。 郭靖随黄蓉行万里路，遍识天下武林高人，武功日见提升，终于得报杀父深仇，消师门积怨，夺《武穆遗书》，率大军西征，承亡母之教，上华山论剑，救襄阳国难。 一代天骄终陨落，昔日纯朴憨厚、木讷愚钝的挽弓少年也长成顶天立地的男儿，毅然扛起破碎山河……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rrdw2G3uBHPzbEcL0sRIhk6LWPO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sbCiZJJEsXEZ7kcZ7oVgQySuRJa.jpg",
+        "releaseDate": "2024-06-17",
+        "rating": 7.6,
+        "mediaType": "tv"
+      },
+      {
         "id": 253193,
         "type": "tmdb",
         "title": "书卷一梦",
@@ -55,17 +66,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
         "releaseDate": "2025-06-26",
         "rating": 9.1,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252320,
-        "type": "tmdb",
-        "title": "临江仙",
-        "description": "四灵仙尊花如月与大成玄尊白九思本是同源共生的一对仙侣，却因误会反目成仇，经过决裂、丧子、被虐杀后，花如月与白九思在爱恨中苦苦挣扎，却发现自己其实早已卷入了另一场更大的阴谋之中。大难临头，两人放下个人恩怨，并肩作战，共同拯救苍生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8N32r6LzLIPjKv8Y8cxNB11qQG4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/MFYRXUdr1BiGxT7LU26j7jMEaD.jpg",
-        "releaseDate": "2025-06-06",
-        "rating": 8.3,
         "mediaType": "tv"
       },
       {
@@ -80,25 +80,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 243083,
+        "id": 273120,
         "type": "tmdb",
-        "title": "国色芳华",
-        "description": "商户之女何惟芳与雅冠长安的蒋长扬相识后，两人组成了匠人与投资人的组合。凭借培育稀世牡丹的高超技能和过人的经商头脑，何惟芳带领一众命运坎坷的女性共同经营花坊，过关斩将，在女子本弱的偏执沉疴中博得一席天地。随着何惟芳与蒋长扬的渐渐相熟，她发现这位一身骂名的“天下第一贪官”实则是外浪内纯、心怀天下的国之利刃。在亲历底层之苦、另悟牡丹之用后，何惟芳决心转型利民实业。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/poRm6RBlog6I6KUEtEJaSpzf05K.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dtB11OMUt3IT8cZArUdCSwf1Uzh.jpg",
-        "releaseDate": "2025-01-07",
-        "rating": 7.6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252640,
-        "type": "tmdb",
-        "title": "藏海传",
-        "description": "原是大雍国钦天监监正蒯铎之子稚奴，一夜之间身负血海之仇。十年隐忍和学习之后，稚奴化名藏海（肖战 饰）回到京城，凭借营造技艺和纵横之术，在朝堂上步步高升。他将当年灭门真相公之于众、一雪冤屈，也在逐渐成长中，看到了朝堂的陋习。最终，为了国家安定和百姓安居乐业，藏海协助大雍消弭了战争。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rgeUIb99tQXn3jNn1S6rwFMcBYv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
-        "releaseDate": "2025-05-18",
-        "rating": 7.8,
+        "title": "她的生存之道",
+        "description": "刘盐，一个失业的退役拳手，重新出发，凭借她不服输、不妥协、抗争到底的精神，和陆天驰的支持与守护，在“拳击”和“餐饮”这两个男人主导的领域中都打出自己的天地，完成了人生的逆袭。剧中美食主题贯穿始终，展现多道菜品，并在北京、澳门、珠海等多地取景，展开一场别开生面的饕餮之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zjPQFycU4dckS5YJ00KjkcLl4AE.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uh96jA2d5tmox9RKV0UDmnMrVey.jpg",
+        "releaseDate": "2025-07-21",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -110,6 +99,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bikpAFEsTyyl918QJ9r00fmwxPS.jpg",
         "releaseDate": "2025-05-13",
         "rating": 8.6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 243083,
+        "type": "tmdb",
+        "title": "国色芳华",
+        "description": "商户之女何惟芳与雅冠长安的蒋长扬相识后，两人组成了匠人与投资人的组合。凭借培育稀世牡丹的高超技能和过人的经商头脑，何惟芳带领一众命运坎坷的女性共同经营花坊，过关斩将，在女子本弱的偏执沉疴中博得一席天地。随着何惟芳与蒋长扬的渐渐相熟，她发现这位一身骂名的“天下第一贪官”实则是外浪内纯、心怀天下的国之利刃。在亲历底层之苦、另悟牡丹之用后，何惟芳决心转型利民实业。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/poRm6RBlog6I6KUEtEJaSpzf05K.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dtB11OMUt3IT8cZArUdCSwf1Uzh.jpg",
+        "releaseDate": "2025-01-07",
+        "rating": 7.6,
         "mediaType": "tv"
       }
     ],
@@ -126,17 +126,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 252640,
-        "type": "tmdb",
-        "title": "藏海传",
-        "description": "原是大雍国钦天监监正蒯铎之子稚奴，一夜之间身负血海之仇。十年隐忍和学习之后，稚奴化名藏海（肖战 饰）回到京城，凭借营造技艺和纵横之术，在朝堂上步步高升。他将当年灭门真相公之于众、一雪冤屈，也在逐渐成长中，看到了朝堂的陋习。最终，为了国家安定和百姓安居乐业，藏海协助大雍消弭了战争。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rgeUIb99tQXn3jNn1S6rwFMcBYv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
-        "releaseDate": "2025-05-18",
-        "rating": 7.8,
-        "mediaType": "tv"
-      },
-      {
         "id": 272937,
         "type": "tmdb",
         "title": "以法之名",
@@ -145,6 +134,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/aPh1sDbWRq7WiZM78rPsCe9HvSe.jpg",
         "releaseDate": "2025-06-24",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 252640,
+        "type": "tmdb",
+        "title": "藏海传",
+        "description": "原是大雍国钦天监监正蒯铎之子稚奴，一夜之间身负血海之仇。十年隐忍和学习之后，稚奴化名藏海（肖战 饰）回到京城，凭借营造技艺和纵横之术，在朝堂上步步高升。他将当年灭门真相公之于众、一雪冤屈，也在逐渐成长中，看到了朝堂的陋习。最终，为了国家安定和百姓安居乐业，藏海协助大雍消弭了战争。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rgeUIb99tQXn3jNn1S6rwFMcBYv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
+        "releaseDate": "2025-05-18",
+        "rating": 7.8,
         "mediaType": "tv"
       },
       {
@@ -249,17 +249,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 252320,
-        "type": "tmdb",
-        "title": "临江仙",
-        "description": "四灵仙尊花如月与大成玄尊白九思本是同源共生的一对仙侣，却因误会反目成仇，经过决裂、丧子、被虐杀后，花如月与白九思在爱恨中苦苦挣扎，却发现自己其实早已卷入了另一场更大的阴谋之中。大难临头，两人放下个人恩怨，并肩作战，共同拯救苍生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8N32r6LzLIPjKv8Y8cxNB11qQG4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/MFYRXUdr1BiGxT7LU26j7jMEaD.jpg",
-        "releaseDate": "2025-06-06",
-        "rating": 8.3,
-        "mediaType": "tv"
-      },
-      {
         "id": 273120,
         "type": "tmdb",
         "title": "她的生存之道",
@@ -268,6 +257,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/uh96jA2d5tmox9RKV0UDmnMrVey.jpg",
         "releaseDate": "2025-07-21",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 252320,
+        "type": "tmdb",
+        "title": "临江仙",
+        "description": "四灵仙尊花如月与大成玄尊白九思本是同源共生的一对仙侣，却因误会反目成仇，经过决裂、丧子、被虐杀后，花如月与白九思在爱恨中苦苦挣扎，却发现自己其实早已卷入了另一场更大的阴谋之中。大难临头，两人放下个人恩怨，并肩作战，共同拯救苍生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8N32r6LzLIPjKv8Y8cxNB11qQG4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/MFYRXUdr1BiGxT7LU26j7jMEaD.jpg",
+        "releaseDate": "2025-06-06",
+        "rating": 8.3,
         "mediaType": "tv"
       },
       {
@@ -282,17 +282,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 282891,
-        "type": "tmdb",
-        "title": "爱上海军蓝",
-        "description": "自称女汉子的独立女性唐歆是个工作狂人，从不认为结婚是人生必须的事情，但其内心深处却渴慕真正的英雄。她遇到的相亲对象伍肆，是名优秀的军官，个人生活极其单调，按部就班地一路考学、入伍、婚恋，将人生规划得严丝合缝。两个在外人看来般配的青年，却从一开始就互相嫌弃，在经历了啼笑皆非的曲折故事之后终成为恋人。与工作狂唐歆截然不同的是刚从医学院毕业的蓝洋洋，她对帅气军官宗卿一见钟情，并勇敢闪婚。职业的差异、价值观的相左、琐碎生活的磨合，甚至是恋人职业特殊性导致的隐忍和付出，让两个年轻女孩一度犹豫。但在真正深入了解军嫂群体后，她们打心眼里理解了这种更崇高、更强大的坚韧情感。体验了青春的忧愁和欢笑，两对年轻人坚定不移地携手余下的人生，军营里的爱情在继续。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rhNTAsX6AS9ZNyzdlq6uboMiG5Y.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nklyx83ncrlWfFrSut8afBCdR9F.jpg",
-        "releaseDate": "2025-07-02",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 233969,
         "type": "tmdb",
         "title": "淬火年代",
@@ -300,6 +289,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
         "releaseDate": "2025-06-18",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 282891,
+        "type": "tmdb",
+        "title": "爱上海军蓝",
+        "description": "自称女汉子的独立女性唐歆是个工作狂人，从不认为结婚是人生必须的事情，但其内心深处却渴慕真正的英雄。她遇到的相亲对象伍肆，是名优秀的军官，个人生活极其单调，按部就班地一路考学、入伍、婚恋，将人生规划得严丝合缝。两个在外人看来般配的青年，却从一开始就互相嫌弃，在经历了啼笑皆非的曲折故事之后终成为恋人。与工作狂唐歆截然不同的是刚从医学院毕业的蓝洋洋，她对帅气军官宗卿一见钟情，并勇敢闪婚。职业的差异、价值观的相左、琐碎生活的磨合，甚至是恋人职业特殊性导致的隐忍和付出，让两个年轻女孩一度犹豫。但在真正深入了解军嫂群体后，她们打心眼里理解了这种更崇高、更强大的坚韧情感。体验了青春的忧愁和欢笑，两对年轻人坚定不移地携手余下的人生，军营里的爱情在继续。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rhNTAsX6AS9ZNyzdlq6uboMiG5Y.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nklyx83ncrlWfFrSut8afBCdR9F.jpg",
+        "releaseDate": "2025-07-02",
         "rating": 9,
         "mediaType": "tv"
       },
@@ -315,17 +315,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 240462,
-        "type": "tmdb",
-        "title": "明媒善娶",
-        "description": "改编自梦三生同名小说\n\n　　官媒世家的娇宠千金施伐柯遇上了下山来寻“小妹妹”的匪气十足的全能“匪二代”陆池，她一心重夺“天下第一媒”的荣耀，陆池只得化身“护妻号”踏上“追妻火葬场”之路。两人历经种种坎坷，合力解决了多起婚恋难题。最终，施伐柯续写了家族荣耀，而陆池也协助皇帝守护了天下太平。被皇帝封为“天下第一媒”的施伐柯和她的“小哥哥”陆池喜结连理，共享太平盛世。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pgcNoV2duomhjW0leL5XXfvqo8m.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6ozJJVz4O4VHJ8uQdfXZQImydy.jpg",
-        "releaseDate": "2025-07-24",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 282589,
         "type": "tmdb",
         "title": "浴血荣光",
@@ -333,6 +322,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/7Wnf66DWU5sFjKoTjDLFztwmyh4.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
         "releaseDate": "2025-07-15",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 240462,
+        "type": "tmdb",
+        "title": "明媒善娶",
+        "description": "改编自梦三生同名小说\n\n　　官媒世家的娇宠千金施伐柯遇上了下山来寻“小妹妹”的匪气十足的全能“匪二代”陆池，她一心重夺“天下第一媒”的荣耀，陆池只得化身“护妻号”踏上“追妻火葬场”之路。两人历经种种坎坷，合力解决了多起婚恋难题。最终，施伐柯续写了家族荣耀，而陆池也协助皇帝守护了天下太平。被皇帝封为“天下第一媒”的施伐柯和她的“小哥哥”陆池喜结连理，共享太平盛世。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pgcNoV2duomhjW0leL5XXfvqo8m.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/6ozJJVz4O4VHJ8uQdfXZQImydy.jpg",
+        "releaseDate": "2025-07-24",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -346,7 +346,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/1573FCIqFn46QjSNqiQxnJSUiYS.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/aZB8p8mM90tGCIozwVwS7w3KC4A.jpg",
         "releaseDate": "2025-07-12",
-        "rating": 7.5,
+        "rating": 5.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 235351,
+        "type": "tmdb",
+        "title": "金庸武侠世界",
+        "description": "南宋末年，金兵入侵，朝廷奸臣当道。平民义士郭啸天、杨铁心两家指腹为婚，后为金兵所害。全真教道士丘处机与江南七怪定下赌约：分别寻找杨、郭后人并传授他们武功，于十八年后在醉仙楼比试高低。郭靖、杨康分别在江南七怪与丘处机的教养下长大成人。 18年后，郭靖奉师命南下，与“东邪”黄药师之女黄蓉一见如故，彼此倾心，但两人的情感却一波三折。“西毒”欧阳锋为侄儿欧阳克求娶黄蓉，郭靖历经三番比试最终获胜，奈何五位师父被害于桃花岛，引得二人误会分离。 另一边，杨康贪恋富贵，认金人作父。一场无心的比武招亲，令他与杨铁心义女穆念慈有情相恋，却执迷不悟，三番四次加害郭靖、黄蓉等江湖义士，助金人夺取《武穆遗书》，最终难逃惨死嘉兴铁枪庙中的命运。 郭靖随黄蓉行万里路，遍识天下武林高人，武功日见提升，终于得报杀父深仇，消师门积怨，夺《武穆遗书》，率大军西征，承亡母之教，上华山论剑，救襄阳国难。 一代天骄终陨落，昔日纯朴憨厚、木讷愚钝的挽弓少年也长成顶天立地的男儿，毅然扛起破碎山河……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rrdw2G3uBHPzbEcL0sRIhk6LWPO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sbCiZJJEsXEZ7kcZ7oVgQySuRJa.jpg",
+        "releaseDate": "2024-06-17",
+        "rating": 7.6,
         "mediaType": "tv"
       },
       {
@@ -361,17 +372,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 220269,
-        "type": "tmdb",
-        "title": "折腰",
-        "description": "聪慧机敏系家国的乔家女郎小乔（宋祖儿 饰），与有勇有谋心纯善的魏家主公魏劭（刘宇宁 饰）联姻，起初二人因祖辈恩怨有所隔阂，过着相互试探与攻守的婚后日常，夫妻俩的多番较量中有笑也有泪；在历经诸多危机后，小乔和魏劭逐渐被对方的才智谋略与豁达胸襟所吸引，回过神时早已水滴石穿，心系彼此。二人凭借夫妻默契化解了家族矛盾，携手还百姓和平与安宁。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AZdlvg8Rij2bBkV0V9vJxsejZ1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bikpAFEsTyyl918QJ9r00fmwxPS.jpg",
-        "releaseDate": "2025-05-13",
-        "rating": 8.6,
-        "mediaType": "tv"
-      },
-      {
         "id": 273120,
         "type": "tmdb",
         "title": "她的生存之道",
@@ -380,6 +380,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/uh96jA2d5tmox9RKV0UDmnMrVey.jpg",
         "releaseDate": "2025-07-21",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 220269,
+        "type": "tmdb",
+        "title": "折腰",
+        "description": "聪慧机敏系家国的乔家女郎小乔（宋祖儿 饰），与有勇有谋心纯善的魏家主公魏劭（刘宇宁 饰）联姻，起初二人因祖辈恩怨有所隔阂，过着相互试探与攻守的婚后日常，夫妻俩的多番较量中有笑也有泪；在历经诸多危机后，小乔和魏劭逐渐被对方的才智谋略与豁达胸襟所吸引，回过神时早已水滴石穿，心系彼此。二人凭借夫妻默契化解了家族矛盾，携手还百姓和平与安宁。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AZdlvg8Rij2bBkV0V9vJxsejZ1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bikpAFEsTyyl918QJ9r00fmwxPS.jpg",
+        "releaseDate": "2025-05-13",
+        "rating": 8.6,
         "mediaType": "tv"
       },
       {
@@ -394,14 +405,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 255483,
+        "id": 233969,
         "type": "tmdb",
-        "title": "焕羽",
-        "description": "2007年，十六岁的少女乔青羽一家因姐姐乔贝羽的死因饱受流言折磨，不得已举家从小县城顺云搬迁到省会寰州。为了尽快恢复一家人的正常生活，青羽在同学明盛的帮助下，寻找姐姐去世的真实原因。随着真相逐渐显露，青羽惊诧于白羽承受的不公，决心帮她讨回公道。青羽在表哥婚礼上大闹，她的行为并没有让事情变好，反而让爷爷憎恶她，也让母亲情绪越发崩溃。在青羽最无助的时候，明盛默默地陪伴着她，坚定不移地相信她，鼓励她要坚持做自己想做的事情，学姐王沐沐用舞蹈帮助她重新振作。青羽主动缓和与家人之间的关系，学习和生活都在逐渐好起来，最终考上了自己心仪的大学。四年后，大学毕业的青羽与明盛收获了甜蜜的爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yC6mru4KDYpkgbGYWABzVowDgKI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ovDLFtHal2NolbX7jO9l1r9cQiI.jpg",
-        "releaseDate": "2025-06-19",
-        "rating": 8.3,
+        "title": "淬火年代",
+        "description": "上世纪九十年代末，留学德国的柳钧回到家乡东海，他顺应时代发展，立志将父亲的老机械制造厂改造成科技领先的现代化制造厂。民企在技术、资金、人脉等各方面都遇到重重困难，举步维艰，但好友钱宏明的进出口贸易、房地产等事业却搞得风生水起，二人互相帮助互相提醒。柳钧因技术结识了杨巡，后又因为技术与杨巡闹翻，结下冤仇，好在当地东海集团负责人宋运辉对他青睐有加，在腾飞厂的发展中给予了有力支持。柳钧脚踏实地，一面适应、融入国内环境，探索经营管理之道，一面攻破技术壁垒，最终凭借过硬的技术和一腔理想主义，渡过生存难关，完成了腾飞厂一次又一次的转型升级。柳钧实现了自己的价值，腾飞厂也在中国制造业的洪流中奋勇争先，占据了一席之地。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
+        "releaseDate": "2025-06-18",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -416,14 +427,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 233969,
+        "id": 255483,
         "type": "tmdb",
-        "title": "淬火年代",
-        "description": "上世纪九十年代末，留学德国的柳钧回到家乡东海，他顺应时代发展，立志将父亲的老机械制造厂改造成科技领先的现代化制造厂。民企在技术、资金、人脉等各方面都遇到重重困难，举步维艰，但好友钱宏明的进出口贸易、房地产等事业却搞得风生水起，二人互相帮助互相提醒。柳钧因技术结识了杨巡，后又因为技术与杨巡闹翻，结下冤仇，好在当地东海集团负责人宋运辉对他青睐有加，在腾飞厂的发展中给予了有力支持。柳钧脚踏实地，一面适应、融入国内环境，探索经营管理之道，一面攻破技术壁垒，最终凭借过硬的技术和一腔理想主义，渡过生存难关，完成了腾飞厂一次又一次的转型升级。柳钧实现了自己的价值，腾飞厂也在中国制造业的洪流中奋勇争先，占据了一席之地。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
-        "releaseDate": "2025-06-18",
-        "rating": 9,
+        "title": "焕羽",
+        "description": "2007年，十六岁的少女乔青羽一家因姐姐乔贝羽的死因饱受流言折磨，不得已举家从小县城顺云搬迁到省会寰州。为了尽快恢复一家人的正常生活，青羽在同学明盛的帮助下，寻找姐姐去世的真实原因。随着真相逐渐显露，青羽惊诧于白羽承受的不公，决心帮她讨回公道。青羽在表哥婚礼上大闹，她的行为并没有让事情变好，反而让爷爷憎恶她，也让母亲情绪越发崩溃。在青羽最无助的时候，明盛默默地陪伴着她，坚定不移地相信她，鼓励她要坚持做自己想做的事情，学姐王沐沐用舞蹈帮助她重新振作。青羽主动缓和与家人之间的关系，学习和生活都在逐渐好起来，最终考上了自己心仪的大学。四年后，大学毕业的青羽与明盛收获了甜蜜的爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yC6mru4KDYpkgbGYWABzVowDgKI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ovDLFtHal2NolbX7jO9l1r9cQiI.jpg",
+        "releaseDate": "2025-06-19",
+        "rating": 8.3,
         "mediaType": "tv"
       },
       {
@@ -435,17 +446,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/coFwkdHtIxbcu9cnP1QU9eXg1LX.jpg",
         "releaseDate": "2018-07-13",
         "rating": 10,
-        "mediaType": "tv"
-      },
-      {
-        "id": 259857,
-        "type": "tmdb",
-        "title": "陷入我们的热恋",
-        "description": "蝉鸣不止的盛夏，南方多雨的庆宜市，“睿军黑马”徐栀结识了“裸分状元”陈路周，因为一场误会，拽姐“栀总”和“陈大诗人”的热恋故事就此拉开序幕……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aJeLlOvBzi2QTmKbJfiyasqsBAv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/reKaaMHb1b6LC3ehppR3nIafKNs.jpg",
-        "releaseDate": "2025-05-28",
-        "rating": 9.111,
         "mediaType": "tv"
       }
     ],
@@ -596,6 +596,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 290191,
+        "type": "tmdb",
+        "title": "假面迷情",
+        "description": "尤尤童年家破人亡，幕后是安国轩所害。复仇失败后被安国轩私生子齐东抛入大海，幸被救并远赴海外。五年后她化名归来，借合作接近齐东，实为复仇，却发现齐东同样立誓复仇。两人携手扳倒安国轩，却惊觉更强敌已现。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ogFnqsKxtA9sfqL3cqwSxId5nKn.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pQ5mQJRkEhrWLNAXu28mkVjE4VK.jpg",
+        "releaseDate": "2025-05-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 81185,
         "type": "tmdb",
         "title": "开封府",
@@ -660,17 +671,6 @@
         "releaseDate": "2007-09-24",
         "rating": 7.912,
         "mediaType": "tv"
-      },
-      {
-        "id": 60059,
-        "type": "tmdb",
-        "title": "风骚律师",
-        "description": "这部获得艾美奖提名的剧集是电视连续剧《绝命毒师》的前传，讲的是名不见经传的律师吉米·麦吉尔转变成备受道德谴责的大律师索尔·古德曼的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/5rtWTNpkejLc17kDUyxBWTBxBxL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
-        "releaseDate": "2015-02-08",
-        "rating": 8.7,
-        "mediaType": "tv"
       }
     ],
     "PPTV": [
@@ -708,17 +708,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 136052,
-        "type": "tmdb",
-        "title": "霞光",
-        "description": "一九四五年，解放战争打响，中国大地战火纷飞。此时的大连得到苏 联的援助，维持了表面的和平。但在一派祥和下实则暗流涌动，国民党反动派蠢蠢欲动，伺机破坏我党与苏联红军的接洽。这一背景下，当年因为参加“抗日放火团”而被敌人追捕的女英雄高大霞受组织委派回到大连执行任务，意外邂逅了中共干部金舟。脾性大相径庭的他们在一次次危机中逐渐成为可靠的战友，也生发了感情，在与国民党的较量中，取得了“夺城之战”的胜利。高大霞屡受冤屈，仍坚定信仰，不忘初心，她胆大心细，识破敌人的阴谋，带领广大人民群众完成了“从草屋到天堂”的“搬家运动”。高大霞和金舟等革命战士们以坚定的共产主义信仰同心同力，最终彻底铲除了国民党的残兵顽将。经历了一次次险象环生的磨难，高大霞和金舟终成眷属，收获了爱情的果实。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ncLvFP7FykolmHIK3GOrjcvW6Zc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rnZ6rbxZ3ldr3N3WCcF75jPJAXK.jpg",
-        "releaseDate": "2021-10-08",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 138077,
         "type": "tmdb",
         "title": "春天里的人们",
@@ -727,6 +716,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/gP9GJxrAFAx48vF6nVlcQOO39Hx.jpg",
         "releaseDate": "2021-11-06",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 136052,
+        "type": "tmdb",
+        "title": "霞光",
+        "description": "一九四五年，解放战争打响，中国大地战火纷飞。此时的大连得到苏 联的援助，维持了表面的和平。但在一派祥和下实则暗流涌动，国民党反动派蠢蠢欲动，伺机破坏我党与苏联红军的接洽。这一背景下，当年因为参加“抗日放火团”而被敌人追捕的女英雄高大霞受组织委派回到大连执行任务，意外邂逅了中共干部金舟。脾性大相径庭的他们在一次次危机中逐渐成为可靠的战友，也生发了感情，在与国民党的较量中，取得了“夺城之战”的胜利。高大霞屡受冤屈，仍坚定信仰，不忘初心，她胆大心细，识破敌人的阴谋，带领广大人民群众完成了“从草屋到天堂”的“搬家运动”。高大霞和金舟等革命战士们以坚定的共产主义信仰同心同力，最终彻底铲除了国民党的残兵顽将。经历了一次次险象环生的磨难，高大霞和金舟终成眷属，收获了爱情的果实。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ncLvFP7FykolmHIK3GOrjcvW6Zc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rnZ6rbxZ3ldr3N3WCcF75jPJAXK.jpg",
+        "releaseDate": "2021-10-08",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -853,6 +853,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 284851,
+        "type": "tmdb",
+        "title": "橘祥如意",
+        "description": "少女秀橘家境贫寒，母亲卧病在床，兄嫂百般欺压。心灵手巧的她每天清晨来到学堂附近，一边兜售小物什为母亲赚取药钱，一边偷听课程。她结识了率性真诚的沈家六爷沈晏洲，并与之生出情愫。然而，秀橘为救母也为报恩，被迫嫁给沈家大爷沈晏清，她陷入沈家兄弟的情感漩涡中......",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2zgkvmKoI8BGxZNKPT1wtrW5LjJ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/6SLsnrAGZMHj20d4Fc00BlGiqA3.jpg",
+        "releaseDate": "2025-06-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 97043,
         "type": "tmdb",
         "title": "家有儿女初长成",
@@ -873,33 +884,11 @@
         "releaseDate": "2025-03-02",
         "rating": 6,
         "mediaType": "tv"
-      },
-      {
-        "id": 284851,
-        "type": "tmdb",
-        "title": "橘祥如意",
-        "description": "少女秀橘家境贫寒，母亲卧病在床，兄嫂百般欺压。心灵手巧的她每天清晨来到学堂附近，一边兜售小物什为母亲赚取药钱，一边偷听课程。她结识了率性真诚的沈家六爷沈晏洲，并与之生出情愫。然而，秀橘为救母也为报恩，被迫嫁给沈家大爷沈晏清，她陷入沈家兄弟的情感漩涡中......",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2zgkvmKoI8BGxZNKPT1wtrW5LjJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6SLsnrAGZMHj20d4Fc00BlGiqA3.jpg",
-        "releaseDate": "2025-06-25",
-        "rating": 0,
-        "mediaType": "tv"
       }
     ]
   },
   "show": {
     "全网": [
-      {
-        "id": 296217,
-        "type": "tmdb",
-        "title": "一饭封神",
-        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
-        "releaseDate": "2025-07-17",
-        "rating": 10,
-        "mediaType": "tv"
-      },
       {
         "id": 261471,
         "type": "tmdb",
@@ -909,17 +898,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
         "releaseDate": "2024-08-20",
         "rating": 5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 155213,
-        "type": "tmdb",
-        "title": "麻花特开心",
-        "description": "《麻花特开心》是开心麻花首档团综。沈腾马丽带队出发，十二个奇妙的剧中世界，十二场沉浸式角色游戏，十二张热泪盈眶的笑脸。高能演技、爆笑反转、意外感动全线拉满。麻花全员，带你入戏！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/as6d7ok94aSH7dc8Sc4whjpCEgL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
-        "releaseDate": "2022-01-09",
-        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -934,6 +912,39 @@
         "mediaType": "tv"
       },
       {
+        "id": 296217,
+        "type": "tmdb",
+        "title": "一饭封神",
+        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
+        "releaseDate": "2025-07-17",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 155213,
+        "type": "tmdb",
+        "title": "麻花特开心",
+        "description": "《麻花特开心》是开心麻花首档团综。沈腾马丽带队出发，十二个奇妙的剧中世界，十二场沉浸式角色游戏，十二张热泪盈眶的笑脸。高能演技、爆笑反转、意外感动全线拉满。麻花全员，带你入戏！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/as6d7ok94aSH7dc8Sc4whjpCEgL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
+        "releaseDate": "2022-01-09",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 109793,
+        "type": "tmdb",
+        "title": "旭日背后",
+        "description": "　　内向的秀娟，坐车都不敢喊停，但是在一个出租车司机的帮助下，终于打破樊篱，敢于讲出自己心中所想...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/b0dduBvGEclRl66qrZsspp11LN9.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hmkp2IzmSsEztQcVYmZkeVGCRpq.jpg",
+        "releaseDate": "1988-03-07",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 98031,
         "type": "tmdb",
         "title": "奔跑吧兄弟",
@@ -945,6 +956,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 72294,
+        "type": "tmdb",
+        "title": "当家姐姐",
+        "description": "NHK的第94部晨间剧。小桥常子（高畑充希饰）是家中长女，凡事充满好奇心，大胆又富有行动力。她与爱家明理的父亲（西岛秀俊饰）、温柔贤淑的母亲（木村多江饰）以及两个妹妹，一家五口和乐融融、过着无忧无虑的生活。\n\n没想到在她11岁时，父亲突然因病去世，临终前交代常子要姊代父职。身为家中大姊，常子从此成为一家之主，担负起照顾母亲和两个妹妹的重任。为求三餐温饱，她们寄人篱下。常子更四处打工、吃尽苦头，全都为了守护这个家！在战后经济起飞的年代，她不但坚强撑起家庭的希望，更创办了知名女性杂志，成为新时代女性的典范。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/arbfcsAU908iyC9dzejKEw5SJur.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qMkH2jSiW1HSm4lkhBYhorDptPY.jpg",
+        "releaseDate": "2016-04-04",
+        "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 287103,
         "type": "tmdb",
         "title": "风驰赛车手",
@@ -953,17 +975,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/y1FXIywPxRi97nwI7JpKzso2bii.jpg",
         "releaseDate": "2025-05-29",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rAIPd03NOiMWHOejDkwwtYrOBpV.jpg",
-        "releaseDate": "2019-03-30",
-        "rating": 7.5,
         "mediaType": "tv"
       }
     ],
@@ -1024,17 +1035,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 258651,
-        "type": "tmdb",
-        "title": "闪光的夏天",
-        "description": "殿堂级音乐人担任音乐节策划人，带领一群想要发光的音乐少年们奔赴一场无与伦比又真实残酷的“闪光音乐节”，开启四地城市的闪光音乐之旅。从繁华都市到魅力古都，钢铁森林到蔚蓝海岸，在不同主题的音乐节舞台上展开由自由组合形成“夏日限定乐团”的热血竞技。他们是音乐的伙伴，更是舞台上舍我其谁的少年对手。在殿堂级音乐人一路支持和调教下，最终登上“巅峰音乐节”角逐这个夏天的“最热乐团”。在2024 年，共同点燃这个闪光的夏天！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/d4g9ciMYck8geveH7GD5QH6rRbL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8HPeq9ZNDdMXsQqmnKTxzGyFASK.jpg",
-        "releaseDate": "2024-07-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 116777,
         "type": "tmdb",
         "title": "天赐的声音",
@@ -1043,6 +1043,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/f6xIxps4FIfzrsU1vc5ClWhPIow.jpg",
         "releaseDate": "2020-02-15",
         "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 258651,
+        "type": "tmdb",
+        "title": "闪光的夏天",
+        "description": "殿堂级音乐人担任音乐节策划人，带领一群想要发光的音乐少年们奔赴一场无与伦比又真实残酷的“闪光音乐节”，开启四地城市的闪光音乐之旅。从繁华都市到魅力古都，钢铁森林到蔚蓝海岸，在不同主题的音乐节舞台上展开由自由组合形成“夏日限定乐团”的热血竞技。他们是音乐的伙伴，更是舞台上舍我其谁的少年对手。在殿堂级音乐人一路支持和调教下，最终登上“巅峰音乐节”角逐这个夏天的“最热乐团”。在2024 年，共同点燃这个闪光的夏天！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/d4g9ciMYck8geveH7GD5QH6rRbL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8HPeq9ZNDdMXsQqmnKTxzGyFASK.jpg",
+        "releaseDate": "2024-07-06",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1114,17 +1125,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 78986,
-        "type": "tmdb",
-        "title": "你好，旧时光",
-        "description": "　　余周周与妈妈相依为命。上小学的第一天，余周周因为一次跌倒结识了一个叫林杨的男孩。在林杨的帮助下，她度过了初期对学校的不适，两人也成为了好朋友。然而因为一些流言，林杨却被父母要求远离余周周。对于林杨的疏远，余周周学会了假装不在乎。初中，余周周逃离了林杨和曾经的同学，逐渐放开手脚如鱼得水，最终如愿考上省重点振华高中。与林杨在振华的重逢，不知道是悲是喜。因为林杨巧合的一个电话，余周周的命运再次被改变。林杨的愧疚、急于弥补以及说不清的感情，都让余周周不知如何应对。而对大哥哥陈桉的关怀，重点高中内部因为保送名额的激烈竞争、好朋友米乔的去世。余周周一直用一颗阳光善良、积极进取的心，面对身边的变故，快速成长。高中毕业，曲终人散，青春不朽。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pxTwQRcpa32fhaBALgzUxqVr2sM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/o6SrILT37q2q3BaWgjqPsQONDtp.jpg",
-        "releaseDate": "2017-11-08",
-        "rating": 9.1,
-        "mediaType": "tv"
-      },
-      {
         "id": 112732,
         "type": "tmdb",
         "title": "哈哈哈哈哈",
@@ -1133,6 +1133,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/l6a7YX0GlmWN2f3qDnoZD3R4x4G.jpg",
         "releaseDate": "2020-11-06",
         "rating": 7.167,
+        "mediaType": "tv"
+      },
+      {
+        "id": 78986,
+        "type": "tmdb",
+        "title": "你好，旧时光",
+        "description": "　　余周周与妈妈相依为命。上小学的第一天，余周周因为一次跌倒结识了一个叫林杨的男孩。在林杨的帮助下，她度过了初期对学校的不适，两人也成为了好朋友。然而因为一些流言，林杨却被父母要求远离余周周。对于林杨的疏远，余周周学会了假装不在乎。初中，余周周逃离了林杨和曾经的同学，逐渐放开手脚如鱼得水，最终如愿考上省重点振华高中。与林杨在振华的重逢，不知道是悲是喜。因为林杨巧合的一个电话，余周周的命运再次被改变。林杨的愧疚、急于弥补以及说不清的感情，都让余周周不知如何应对。而对大哥哥陈桉的关怀，重点高中内部因为保送名额的激烈竞争、好朋友米乔的去世。余周周一直用一颗阳光善良、积极进取的心，面对身边的变故，快速成长。高中毕业，曲终人散，青春不朽。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pxTwQRcpa32fhaBALgzUxqVr2sM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/o6SrILT37q2q3BaWgjqPsQONDtp.jpg",
+        "releaseDate": "2017-11-08",
+        "rating": 9.1,
         "mediaType": "tv"
       },
       {
@@ -1156,20 +1167,20 @@
         "releaseDate": "2025-05-29",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 116777,
+        "type": "tmdb",
+        "title": "天赐的声音",
+        "description": "《天赐的声音》是吴彤和孙竞团队推出的音乐类综艺。节目邀请四位“音乐合伙人”坐镇赛道，众多的优秀音乐作品的歌坛资深从业者，将在每一期以合作的方式，切磋音乐，打磨专业技艺。音乐合伙人也将与他们共同完成令人耳目一新的作品。《天赐的声音》将用真正值得被这个时代所 铭记的歌声，以及歌唱着人们美好生活的音乐作品，来向观众呈现，新时代下的好歌声和好音乐。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/xqVefZwWSe0Z0aLtzW1lAoC9WUU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/f6xIxps4FIfzrsU1vc5ClWhPIow.jpg",
+        "releaseDate": "2020-02-15",
+        "rating": 7,
+        "mediaType": "tv"
       }
     ],
     "腾讯视频": [
-      {
-        "id": 296217,
-        "type": "tmdb",
-        "title": "一饭封神",
-        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
-        "releaseDate": "2025-07-17",
-        "rating": 10,
-        "mediaType": "tv"
-      },
       {
         "id": 261471,
         "type": "tmdb",
@@ -1179,6 +1190,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
         "releaseDate": "2024-08-20",
         "rating": 5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 296217,
+        "type": "tmdb",
+        "title": "一饭封神",
+        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
+        "releaseDate": "2025-07-17",
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -1387,17 +1409,6 @@
     "PPTV": [],
     "芒果TV": [
       {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rAIPd03NOiMWHOejDkwwtYrOBpV.jpg",
-        "releaseDate": "2019-03-30",
-        "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 109793,
         "type": "tmdb",
         "title": "旭日背后",
@@ -1420,6 +1431,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rAIPd03NOiMWHOejDkwwtYrOBpV.jpg",
+        "releaseDate": "2019-03-30",
+        "rating": 7.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 296251,
         "type": "tmdb",
         "title": "旅行2+N",
@@ -1427,6 +1449,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/8Y771CCs9AmN3zibS1EGMQTQQNq.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/zfj2YsAJtF9NILGK3colHBw4cmp.jpg",
         "releaseDate": "2025-07-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 296441,
+        "type": "tmdb",
+        "title": "你就宠Ta吧",
+        "description": "首档关注人宠新型关系旅行微综，由敖子逸、余承恩、颜安、沙一汀四位嘉宾组成宠ta团，携带自己的宠物集结宠物友好城市，入住宠ta民宿。以“文旅推介官”身份前往深圳、长沙。创建专属账号，探寻时下热议的人宠话题，寻找有人味、有宠心、有干货的宠物友好路线，呈现当代人宠共融、共享、共乐的GAP之旅！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6LcHbjIZtXzzMPel3oVbSMXLKWV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uZkaGIJW4b3tnrPf5ZvYW2oLT2D.jpg",
+        "releaseDate": "2025-07-21",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1439,17 +1472,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/f9AEnKHApSKiJ6GAKFcgdCI6fZ.jpg",
         "releaseDate": "2019-04-01",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 296441,
-        "type": "tmdb",
-        "title": "你就宠Ta吧",
-        "description": "首档关注人宠新型关系旅行微综，由敖子逸、余承恩、颜安、沙一汀四位嘉宾组成宠ta团，携带自己的宠物集结宠物友好城市，入住宠ta民宿。以“文旅推介官”身份前往深圳、长沙。创建专属账号，探寻时下热议的人宠话题，寻找有人味、有宠心、有干货的宠物友好路线，呈现当代人宠共融、共享、共乐的GAP之旅！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6LcHbjIZtXzzMPel3oVbSMXLKWV.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uZkaGIJW4b3tnrPf5ZvYW2oLT2D.jpg",
-        "releaseDate": "2025-07-21",
-        "rating": 0,
         "mediaType": "tv"
       }
     ]
