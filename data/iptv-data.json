@@ -1,11 +1,13 @@
 {
-  "last_updated": "2025-07-26T18:19:46.279867",
+  "last_updated": "2025-07-27T01:11:27.340944",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
-      "childItems": []
+      "childItems": [
+        "http://8.138.7.223/tv/ptbtv.php?id=27"
+      ]
     },
     {
       "name": "CCTV-2 财经",
@@ -59,7 +61,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -83,7 +87,9 @@
       "name": "CCTV-11 戏曲",
       "description": "中国中央电视台戏曲频道，是中国唯一的国家级专业戏曲电视频道，致力于传承和弘扬中国传统戏曲艺术，播出京剧、越剧、豫剧、黄梅戏等各类戏曲节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV11.png,lfo-center,l-end,l-end/CCTV11.png",
-      "childItems": []
+      "childItems": [
+        "http://8.138.7.223/tv/ptbtv.php?id=28"
+      ]
     },
     {
       "name": "CCTV-12 社会与法",
@@ -248,9 +254,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
@@ -434,9 +438,7 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": [
-        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
-      ]
+      "childItems": []
     },
     {
       "name": "福建旅游",
