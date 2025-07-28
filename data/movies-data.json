@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-28T00:15:25.773+08:00",
+  "last_updated": "2025-07-29T00:18:12.038+08:00",
   "nowplaying": [
     {
       "id": 1500536,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lCRLLe8kiwb99JOlkTPAfchhqwk.jpg",
       "releaseDate": "2025-07-19",
-      "rating": 0,
+      "rating": 10,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wSFGtkoz8SW6yIgu1Xvxs584QQt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cfAGn86j4LYzRCKWSkXPnMxoru6.jpg",
       "releaseDate": "2025-07-12",
-      "rating": 8.6,
+      "rating": 8.7,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
       "releaseDate": "2025-07-23",
-      "rating": 7.349,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -62,6 +62,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 911430,
+      "type": "tmdb",
+      "title": "F1：狂飙飞车",
+      "originalTitle": "F1",
+      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lSbblLngbeZIn6G4WXDcyQ6SLhw.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 7.616,
+      "mediaType": "movie"
+    },
+    {
       "id": 1464818,
       "type": "tmdb",
       "title": "花漾少女杀人事件",
@@ -71,18 +83,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/6AhO4G645SltMCaP2OnSVor7HDf.jpg",
       "releaseDate": "2025-07-12",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 911430,
-      "type": "tmdb",
-      "title": "F1：狂飙飞车",
-      "originalTitle": "F1",
-      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lSbblLngbeZIn6G4WXDcyQ6SLhw.jpg",
-      "releaseDate": "2025-06-25",
-      "rating": 7.609,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.434,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -142,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 8.07,
+      "rating": 8.077,
       "mediaType": "movie"
     },
     {
@@ -166,7 +166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
       "releaseDate": "2025-04-18",
-      "rating": 7.2,
+      "rating": 7.133,
       "mediaType": "movie"
     },
     {
@@ -182,18 +182,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 37280,
-      "type": "tmdb",
-      "title": "蜡笔小新：大人王国的反击",
-      "originalTitle": "クレヨンしんちゃん 嵐を呼ぶモーレツ！オトナ帝国の逆襲",
-      "description": "这天在小新居住的春日部附近，突然新开了一家叫“20世纪博”的游乐园。游乐园里到处播放着从前20世纪的旧的电视节目和电影，这里，一切都是从前时光的回放。每一个到了这里的大人，都沉浸在过去的旧时光里，而对小孩子来说，这些的东西一点意思都没有。令小新万万想不到的是，进入了游乐园的爸爸妈妈都不在理会其他事情，只是一直沉醉在以往的时光里。城里的大人们都进去了，只剩下了小孩子！这到底是谁的阴谋，小新他们能否粉碎这阴谋？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AgU1NkeXlkizsIdg9atqyomO1P1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tMu1ceUmscHoOJFCkz3HmTRBAg3.jpg",
-      "releaseDate": "2001-04-21",
-      "rating": 8.204,
-      "mediaType": "movie"
-    },
-    {
       "id": 936108,
       "type": "tmdb",
       "title": "魔法蓝精灵",
@@ -202,7 +190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5Pj35TQUXTCus8WHnTLXE6cFs3M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
       "releaseDate": "2025-07-05",
-      "rating": 6.6,
+      "rating": 6.434,
       "mediaType": "movie"
     }
   ],
@@ -336,7 +324,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9CKzauWDhSgySsfP8SWarCmdAwB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 9,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -358,6 +346,18 @@
       "originalTitle": "非人哉：限时玩家",
       "description": "　　平平无奇的打工狐九月与神仙同伴敖烈、哪吒、哮天犬、玉兔，误打误撞进入了一个坑很多的游戏世界。热衷玩游戏的九月在冒险中踊跃表现，希望通过带领不擅长游戏的伙伴们通关来证明自己。然而这个计划因两位顶级游戏大佬的出现突生变数，与此同时，看似一片欢乐的游戏世界也悄然酝酿着一场威胁到所有玩家的剧变。小小的战五渣认真燃起斗志，试图以勇气编织命运！不出意外的话，应该要出意外了……",
       "posterPath": "https://image.tmdb.org/t/p/w500/PMldpuj3JIr1MMMqIEMjwo3jt5.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-08-16",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1520527,
+      "type": "tmdb",
+      "title": "夏雨来",
+      "originalTitle": "夏雨来",
+      "description": "　　清朝末年，从不败诉的潮汕第一鬼才状师夏雨来一生都在行侠仗义，但因其“夏狐狸”式的行事作风，屡屡与理想成为大清首位女状师的女儿夏来碧产生矛盾。  　　彼时外国资本势力强势入侵潮汕商业市场，在一连串啼笑皆非的民间案件和商战后，夏家父女逐渐发现到外国势力背后的可怕阴谋。此时，女儿却被污蔑为杀人放火的凶手，父亲为此站上公堂以唇枪舌剑对抗奸商恶官。最后，父女同心，团结潮汕百姓，展开了“胶己人”与外敌的殊死对决……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cVTjGOHMhqBQEUfDIA0xbSU9ed6.jpg",
       "backdropPath": null,
       "releaseDate": "2025-08-16",
       "rating": 0,
@@ -444,6 +444,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AbvtB25SNBnwZiRPH6TaeCBe3sS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wmAZx5AYxMi2wWh9Rq0qcLjt7lR.jpg",
       "releaseDate": "2023-07-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1409733,
+      "type": "tmdb",
+      "title": "轻于鸿毛",
+      "originalTitle": "轻于鸿毛",
+      "description": "男人跳海，牵出两任性格迥异的妻子李鱼（宋佳 饰）和沈飞鸿（佟丽娅 饰），一处悬而未决的房子让两人重新认识那个曾是老公的人，也从此踏上更壮阔的人生。这是一段解惑之旅，宛如变幻莫测的海浪。“他”可以轻于鸿毛，“她”可以重于泰山。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kuke9mHYLY7bjtbLlXAQMRnyO40.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fvEa3luQviRLM60kJt72pwTcxdF.jpg",
+      "releaseDate": "2025-09-13",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -590,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.78,
+      "rating": 7.781,
       "mediaType": "movie"
     },
     {
