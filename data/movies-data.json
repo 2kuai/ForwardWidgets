@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-30T00:17:11.550+08:00",
+  "last_updated": "2025-07-31T00:17:45.728+08:00",
   "nowplaying": [
     {
       "id": 1500536,
@@ -62,6 +62,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 617126,
+      "type": "tmdb",
+      "title": "神奇4侠：初露锋芒",
+      "originalTitle": "The Fantastic 4: First Steps",
+      "description": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+      "releaseDate": "2025-07-23",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
       "id": 911430,
       "type": "tmdb",
       "title": "F1：狂飙飞车",
@@ -70,7 +82,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lSbblLngbeZIn6G4WXDcyQ6SLhw.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.613,
+      "rating": 7.6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 962,
+      "type": "tmdb",
+      "title": "淘金记",
+      "originalTitle": "The Gold Rush",
+      "description": "卓别林的作品中浸透了小人物辛酸的微笑和无奈的自嘲。他们一方面身份卑微，穷困潦倒，令一方面又有着善良的意愿和小人物的狡猾。在历尽艰辛之后，最终得到了属于他们的幸福。  1898年，单身汉夏尔洛去阿拉斯加淘金，一场暴风雪，将他和另外一个采矿人吉姆卷进了逃犯拉森的小木屋。吉姆制服了拉森，与夏尔洛成为好友。 暴风雪停了之后，两人各奔东西，吉姆后来找到了金矿，却与拉森争斗起来，拉森打昏了吉姆，装满金块下山，途中遇到雪崩送了性命。夏尔洛独自来到蒙特卡罗舞场，爱上了舞女乔治亚。除夕之夜，夏尔洛设宴招待乔治亚，乔治亚却在舞厅忙于应付客人而失约。第二天夏尔洛去舞厅去找乔治亚，却遇到了失忆的吉姆。吉姆看到了夏尔洛后突然恢复了记忆，于是一起去找那个金矿。最终他们找到了金矿，成为了百万富翁。在回美国的轮船上，夏尔洛与乔治亚意外重逢，两人圆满结束。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bBKC6yWby1eI9JlCj5HqKm0YzuD.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hZHeDPQGNKN9NN9GuW7qVbM2tDx.jpg",
+      "releaseDate": "1925-07-13",
+      "rating": 7.986,
       "mediaType": "movie"
     },
     {
@@ -92,7 +116,7 @@
       "originalTitle": "Superman",
       "description": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
       "posterPath": "https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
       "releaseDate": "2025-07-09",
       "rating": 7.4,
       "mediaType": "movie"
@@ -104,9 +128,21 @@
       "originalTitle": "Jurassic World Rebirth",
       "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
       "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 6.335,
+      "rating": 6.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1087192,
+      "type": "tmdb",
+      "title": "新·驯龙高手",
+      "originalTitle": "How to Train Your Dragon",
+      "description": "小嗝嗝（梅森·泰晤士 Mason Thames 饰 ）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg",
+      "releaseDate": "2025-06-06",
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -122,18 +158,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1087192,
-      "type": "tmdb",
-      "title": "新·驯龙高手",
-      "originalTitle": "How to Train Your Dragon",
-      "description": "小嗝嗝（梅森·泰晤士 Mason Thames 饰 ）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4k0CHrBwyuhKeQfDZDH31863lTx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg",
-      "releaseDate": "2025-06-06",
-      "rating": 8.075,
-      "mediaType": "movie"
-    },
-    {
       "id": 1357295,
       "type": "tmdb",
       "title": "恶意",
@@ -146,15 +170,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1396965,
+      "id": 1401502,
       "type": "tmdb",
-      "title": "名侦探柯南：独眼的残像",
-      "originalTitle": "名探偵コナン 隻眼の残像（フラッシュバック）",
-      "description": "长野县八岳连峰未宝岳。长野县警大和敢助在雪山上追赶“某个男人”时，突然有什么人的影子出现在了敢助的视野中。回过神来的瞬间，“某个男人”射出的步枪子弹掠过了敢助的左眼，伴随着地面轰鸣发生了雪崩。敢助就这样被吞噬——  10个月后。接到野边山国立天文台的设施研究员被某人袭击的报警后，从雪崩中奇迹般生还的敢助，和上原由衣赶到了现场。正在了解情况的时候天文台的巨大抛物面天线启动了，敢助受伤了的左眼不知为何突然剧烈地疼痛起来……  那天晚上，毛利侦探事务所接到了小五郎警视厅时期关系很好的同事、被称作“鳄鱼”的刑警的电话。他正在未宝岳调查将敢助卷入的雪崩事故，据说案件文档中有小五郎的名字。  柯南也跟着约定和“鳄鱼”日后见面的小五郎同去，但在前往约好的地点的途中，突然响起了枪声。  没有实现的约定，与存在于独眼中的残像。  在冰雪肆虐的山岳之上，白茫茫的因缘（乳白天空谜案）之帷幕被拉开了——",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
-      "releaseDate": "2025-04-18",
-      "rating": 7.2,
+      "title": "无名之辈：否极泰来",
+      "originalTitle": "无名之辈：否极泰来",
+      "description": "　　在曼谷街头大闹分手的“渣男”陈三金（章宇 饰）与“狠女”薛芳梅（任素汐 饰），意外卷入了一场犯罪集团的绑架活动。二人不出意外的成为了人质中的“出头鸟”、绑匪的“眼中钉”，在面临生存还是毁灭的一系列极端选择之际，二人尽显“渣男”“狠女”本性。殊不知这场意外背后还暗藏着更大危机，极端情境下的二人将何去何从？异国人群中的无名之辈们又将如何反抗命运？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fuJWObGkdhAqAO34FgQx6sVHxtu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/diRS2bfX9KZG4ijX50G4FTNeQy9.jpg",
+      "releaseDate": "2025-06-26",
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -170,6 +194,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1396965,
+      "type": "tmdb",
+      "title": "名侦探柯南：独眼的残像",
+      "originalTitle": "名探偵コナン 隻眼の残像（フラッシュバック）",
+      "description": "长野县八岳连峰未宝岳。长野县警大和敢助在雪山上追赶“某个男人”时，突然有什么人的影子出现在了敢助的视野中。回过神来的瞬间，“某个男人”射出的步枪子弹掠过了敢助的左眼，伴随着地面轰鸣发生了雪崩。敢助就这样被吞噬——  10个月后。接到野边山国立天文台的设施研究员被某人袭击的报警后，从雪崩中奇迹般生还的敢助，和上原由衣赶到了现场。正在了解情况的时候天文台的巨大抛物面天线启动了，敢助受伤了的左眼不知为何突然剧烈地疼痛起来……  那天晚上，毛利侦探事务所接到了小五郎警视厅时期关系很好的同事、被称作“鳄鱼”的刑警的电话。他正在未宝岳调查将敢助卷入的雪崩事故，据说案件文档中有小五郎的名字。  柯南也跟着约定和“鳄鱼”日后见面的小五郎同去，但在前往约好的地点的途中，突然响起了枪声。  没有实现的约定，与存在于独眼中的残像。  在冰雪肆虐的山岳之上，白茫茫的因缘（乳白天空谜案）之帷幕被拉开了——",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bE10DMcePbEWa8LAWZQ16vQNrwT.jpg",
+      "releaseDate": "2025-04-18",
+      "rating": 7.25,
+      "mediaType": "movie"
+    },
+    {
       "id": 936108,
       "type": "tmdb",
       "title": "魔法蓝精灵",
@@ -178,7 +214,103 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5Pj35TQUXTCus8WHnTLXE6cFs3M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
       "releaseDate": "2025-07-05",
-      "rating": 6.3,
+      "rating": 6.131,
+      "mediaType": "movie"
+    },
+    {
+      "id": 37280,
+      "type": "tmdb",
+      "title": "蜡笔小新：大人王国的反击",
+      "originalTitle": "クレヨンしんちゃん 嵐を呼ぶモーレツ！オトナ帝国の逆襲",
+      "description": "这天在小新居住的春日部附近，突然新开了一家叫“20世纪博”的游乐园。游乐园里到处播放着从前20世纪的旧的电视节目和电影，这里，一切都是从前时光的回放。每一个到了这里的大人，都沉浸在过去的旧时光里，而对小孩子来说，这些的东西一点意思都没有。令小新万万想不到的是，进入了游乐园的爸爸妈妈都不在理会其他事情，只是一直沉醉在以往的时光里。城里的大人们都进去了，只剩下了小孩子！这到底是谁的阴谋，小新他们能否粉碎这阴谋？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AgU1NkeXlkizsIdg9atqyomO1P1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tMu1ceUmscHoOJFCkz3HmTRBAg3.jpg",
+      "releaseDate": "2001-04-21",
+      "rating": 8.204,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1114777,
+      "type": "tmdb",
+      "title": "小白船",
+      "originalTitle": "小白船",
+      "description": "刘娴十五岁的夏天， 是最孤单寂寞的夏天。母亲远赴非洲，把她丢给了已离婚多年的父亲。刘娴感觉自己成为了一个弃儿，直到朝鲜族姑娘金明美出现，她像是一束光照亮刘娴孤寂的生活。明美肆意张扬的青春活力吸引着刘娴， 刘娴的生活也随之有了全新的色彩......躁动不安的夏日， 青春的懵懂与冲动，为刘娴的一生留下了刻骨铭心的特殊印记。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4H608JNo2xek6igNM96IlZWF2jG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pGDTK7tL7mZdPRI08W7Zuhxt8UW.jpg",
+      "releaseDate": "2024-03-20",
+      "rating": 6.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1022787,
+      "type": "tmdb",
+      "title": "地球特派员",
+      "originalTitle": "Elio",
+      "description": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+      "releaseDate": "2025-06-18",
+      "rating": 6.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1182247,
+      "type": "tmdb",
+      "title": "风起前的蒲公英",
+      "originalTitle": "风起前的蒲公英",
+      "description": "　蒲公英中学是北京市第一所专门为进城务工者的子女创办的中学。袁小燕老师已经在这所学校的合唱团工作了八年。每年新生入学的时候，她都要选一批热爱音乐、基础条件好的初一学生加入合唱团。随着北京大兴国际机场的建设，这座最初建立在废弃车间里的初中将搬到新建的现代校舍。在老校区的最后一年里，合唱团迎来了新一批孩子，而升入初二的团员们则需要和家人面对未来的选择。对于合唱团的孩子们来说，初中生涯终将会被升学的压力和离别的无奈所中止。在这段与音乐为伴的人生旅程中，他们一直品尝着属于青春岁月的苦乐悲喜，将它们深埋心底，转化为成长的养分。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jHH8FNCYc52yY92iQ94yXZS5T8p.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sUlqhJBtkrmAW5FrgUa0FWpjWj6.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 575265,
+      "type": "tmdb",
+      "title": "碟中谍8：最终清算",
+      "originalTitle": "Mission: Impossible - The Final Reckoning",
+      "description": "超级人工智能“智体”即将引爆全球核弹危机，把世界推向毁灭边缘。而伊森·亨特和他的IMF小队在上次行动中遭遇重创，团队濒临分崩离析。虽然伊森已获得关闭“智体”的钥匙，但要彻底消灭“智体”，完成这一拯救全人类的终极任务，仍需要IMF小队齐心协力突破重重困难。他们不仅要面对全知全能又无影无形的“智体”与其手下盖布瑞尔的百般阻拦，还要解决来自过去的种种恩怨。每个抉择都关乎信念与命运，等待伊森和IMF小队的，究竟是怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
+      "releaseDate": "2025-05-17",
+      "rating": 7.166,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359994,
+      "type": "tmdb",
+      "title": "分手清单",
+      "originalTitle": "分手清单",
+      "description": "一次偶然的机会，马天泽与夏沫因为吃火锅成为朋友，转而进阶为恋人。相恋三年后，两人没有走进婚姻的殿堂，反而是要在朋友们的见证下，执行完成当初定下的一系列稀奇古怪的“分手清单”内容。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dJbUTZOLIHeAOblk4fts9jy5KWA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4F8hAOFbm6Bm3P957jatWFosS9j.jpg",
+      "releaseDate": "2025-06-14",
+      "rating": 10,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1427727,
+      "type": "tmdb",
+      "title": "午夜游戏",
+      "originalTitle": "午夜游戏",
+      "description": "A young woman joins a midnight séance, unknowingly unleashing a vengeful spirit and a deadly curse. As eerie events unfold, is it a crime of passion or a long-buried grudge seeking revenge? With no way to escape, the terrifying truth lurks in the shadows; will she survive the wrath of the ghost?",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jfmM6ZStGLiy1V5h25oEjinWKty.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-03-21",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 10191,
+      "type": "tmdb",
+      "title": "驯龙高手",
+      "originalTitle": "How to Train Your Dragon",
+      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/okfQuNee1htOHTwst96H7swPco6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
+      "releaseDate": "2010-03-18",
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -191,6 +323,174 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/eL8fgEK8mgDcJZRHzuxbLwevCcr.jpg",
       "releaseDate": "2025-02-07",
       "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 128,
+      "type": "tmdb",
+      "title": "幽灵公主",
+      "originalTitle": "もののけ姫",
+      "description": "室町时代时期的虾夷族少年阿席达卡，某日遇到被称为“邪魔神”攻击他所居住村落的怪物。在阿席达卡为了保护村落与邪魔神对战时，过程当中遭受邪魔神的攻击而留下创伤与诅咒。击败了邪魔神之后，阿席达卡发现对方是由一头愤怒的山猪神所变化而成，并在祂的体内发现一颗铁弹。之后村里的女巫便劝他以铁弹为线索，来离开村落前往西方，查找邪魔神产生的来源和解除诅咒方法。  于阿席达卡的旅途中，他拯救了两名来自于炼铁据地“达达拉城”的住民。在协助对方返回到达达拉城之后，阿席达卡得知邪魔神身上的铁弹，便是遭到由达达拉城所打造的火枪所伤，其中达达拉城的统治者黑帽大人因为炼铁缘故从森林中砍伐许多木头资源，便与森林中的神祇交恶发生冲突。起初阿席达卡对于黑帽大人夺取资源、伤害森林神祇的行为感到愤怒，但之后目睹到众多穷人以及被社会隔离的痳疯患者在达达拉城有着生存机会而动摇。  后续他知晓森林里住着一位由犬神所养大，憎恨黑帽大人一心想取下对方性命，有着“幽灵公主”名号的人类少女小桑。在阿席达卡来到达达拉城的当日夜晚里，小桑突然现身于达达拉城内想找寻机会突击黑帽大人。当她们俩人展开打斗时，阿席达卡试图想调停双方之间的斗争，但在阻止的过程中阿席达卡意外遭旁人用石火枪给误射打伤。而小桑之后则将阿席达卡带回自己居住的森林里疗养。  在伤口撤销后，阿席达卡得知小桑打算与其祂山猪神同盟向人类一决死战，并发现到黑帽大人要与朝廷一方势力联手，来夺取名为“山兽神”的森林神祇之首级，以获得对方长生不死能力的事情。之后阿席达卡便试着想在混乱的局势中，找寻可解决冲突的方式。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mgxuL4rDqAHdcZvO3fXRhrcifpv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
+      "releaseDate": "1997-07-12",
+      "rating": 8.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 309809,
+      "type": "tmdb",
+      "title": "小王子",
+      "originalTitle": "The Little Prince",
+      "description": "灰蒙蒙的都市丛林，美丽的小女孩眼神中没有渴望和雀跃，她跟随妈妈穿梭钢筋水泥的光影之间，按照社会既定法则亦步亦趋。她的未来似乎早被注定和规划，即使生日礼物也找不到些许惊奇。为了进入好学校，母女俩搬到郊外一幢独栋房子里，旁边则是一间与周遭格格不入的破房子。某天，一个飞机螺旋桨突然破墙而入，从而建立起女孩和隔壁那个怪爷爷的友谊。老人自称曾是一名飞行员，年轻时他迫降沙漠，在那里认识了有着纯真心灵的小王子。女孩听老人讲述着有着童话般瑰丽色彩的往事，不知不觉间心驰神往……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gwbxrlFrlYMcgUGmDrrKgoboe06.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mA7cELWJKHJsQMbwhUgvD4UHoCT.jpg",
+      "releaseDate": "2015-07-29",
+      "rating": 7.608,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1372489,
+      "type": "tmdb",
+      "title": "哆啦A梦：大雄的绘画奇遇记",
+      "originalTitle": "映画ドラえもん のび太の絵世界物語",
+      "description": "本作的舞台设定在一个如画般宏伟的中世纪欧洲世界。哆啦A梦和大雄等人进入了绘画的世界，围绕着幻之宝石展开冒险，并与强大的敌人对抗。这是一个原创故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/q6vkFtxPJftMyKUnKgEFQkfHTqO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vncMpsAUDnL1JOb73e5q48gX32S.jpg",
+      "releaseDate": "2025-03-07",
+      "rating": 6.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 10227,
+      "type": "tmdb",
+      "title": "玩乐时间",
+      "originalTitle": "PlayTime",
+      "description": "来到巴黎办事的于勒先生（雅克·塔蒂 Jacques Tati饰）初入巴黎就被超级现代化的世界博览会大楼所震惊。于勒先生很快就迷失在这座叹为观止的高科技大楼中，精妙绝伦的最新先进设备、流光溢彩的博览会景观以及来自世界各地的游客和顾客，都让于勒先生大开眼界。当于勒先生终于想起要去找办事的人时，天已渐黑。谈完公事，于勒先生来到了刚刚装修好的夜总会。午夜魅影，恍如白昼，里面的男男女女兴致正高。自然，于勒先生也加入了他们的狂欢队伍。于勒先生更一时兴起，把刚刚装修好的屋顶装饰弄了下来，屋内一片狼藉。怎知客人们非但没有觉得扫兴，反而玩得更加疯狂。旦夕之间已是清晨，狂欢一夜后的巴黎别有一番韵味。 由法国著名喜剧导演雅克·塔蒂自编自导自演的喜剧影片《玩乐时间》，用一种接近单色的色调和70毫米的巨大画卷，将钢筋玻璃世界的冷酷转化成格格不入的超现实影像。本片几乎没有对白，但巧妙的运用了音效，加上演员肢体动作的表现，有着较为浓厚的早期默片风格。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fIHzoEOr9o7EfQUe3USKuy2M3f9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1J7JNYwrVVAbsDtZ7NejZT7JMw3.jpg",
+      "releaseDate": "1967-12-13",
+      "rating": 7.758,
+      "mediaType": "movie"
+    },
+    {
+      "id": 38684,
+      "type": "tmdb",
+      "title": "简爱",
+      "originalTitle": "Jane Eyre",
+      "description": "简爱从小失去父母，寄住在舅妈家，不平等的待遇让她饱受欺凌，小小年纪就承受了别人无法想象的委屈和痛苦。成年后，她成了桑菲尔德贵族庄园的家庭教师，她以真挚的情感和高尚的品德赢得了主人的尊敬和爱恋，谁料命运对她如此残忍，她为这段婚姻又付出了难以计算的代价，但自始至终她都一直坚持着自己的信念，执着自己的理想与追求。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xIW4RRUHnnMAyvOmHHY7kFRQuah.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/am9WwUTZuUDuinVcyST4OxJ8vFs.jpg",
+      "releaseDate": "2011-03-11",
+      "rating": 7.204,
+      "mediaType": "movie"
+    },
+    {
+      "id": 346923,
+      "type": "tmdb",
+      "title": "哈姆雷特",
+      "originalTitle": "Hamlet",
+      "description": "改编自英国著名剧作家莎士比亚的同名悲剧。由女演员玛克辛·皮克翻船出演的“女版哈姆雷特”，2015年英国国家剧院在“永恒的莎士比亚”纪念活动中推出的“莎士比亚现场”系列电影中的一部。备受好评",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1TQhhHoEg45Zx6QyNjKp5zXundU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pwS4GzIEXzMVWUlq9q3DVNVxz5t.jpg",
+      "releaseDate": "2015-03-23",
+      "rating": 8.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1038263,
+      "type": "tmdb",
+      "title": "玛丽亚·卡拉斯",
+      "originalTitle": "Maria",
+      "description": "奥斯卡金像奖得主安吉丽娜·朱莉在著名导演帕布罗·拉雷恩的这部歌剧电影中饰演玛丽亚·卡拉斯 — 20 世纪最具代表性的歌唱家之一。故事聚焦于这位美籍希腊女高音在结束了耀眼而曲折的职业生涯后，远离公众视野，退居巴黎的生活。电影重新演绎这位传奇天后生前的最后时光，呈现她如何重新审视自己的身份与人生。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8qUExRx1XrbE7n3kHF7KfaHrtza.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9iw4a6AQkxUO3EuRn59Vgrqf0zO.jpg",
+      "releaseDate": "2024-11-27",
+      "rating": 6.457,
+      "mediaType": "movie"
+    },
+    {
+      "id": 9662,
+      "type": "tmdb",
+      "title": "疯狂约会美丽都",
+      "originalTitle": "Les Triplettes de Belleville",
+      "description": "　　查宾是一个孤独的孩子，从小失去双亲的他每天跟苏沙婆婆相依为命。男孩有点自闭，喜欢跟小狗布鲁诺说话，喜欢独自骑单车。美丽都三姊妹的歌声陪伴他们过着平静日子。终于，婆婆看出了查宾单车方面的天分，要把他培养成才，于是风雨不改的陪孩子训练。查宾终于可以参加环法自行车大赛了。然而却因为黑手党要控制赛果而出了意外，查宾和其他两个选手被歹徒挟持到了美丽都。婆婆奋不顾身，带着布鲁诺坐上颠簸的小船，前往搭救她的孙子。在流落他乡的街头，婆婆遇上了美丽都三姐妹，她们一起投入到拯救小查宾的队伍当中。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/s1A9CKeoKglWDdQFRl9aC8wa3Zj.jpg",
+      "releaseDate": "2003-06-11",
+      "rating": 7.392,
+      "mediaType": "movie"
+    },
+    {
+      "id": 41201,
+      "type": "tmdb",
+      "title": "魔术师",
+      "originalTitle": "L'Illusionniste",
+      "description": "　　20世纪50年代末期，曾经风靡一时的剧场风云变幻，人们迷恋电视、迷恋摇滚，对于曾经伴随他们长大的各种杂耍则不再关注。他是一个经验丰富的魔术师，舞台上得体从容，现实中却不得不为了可怜的生活费而流转于各个表演场所，上至华贵的音乐厅，下至破落偏僻的小酒馆，不变的是他对魔术的执着。在苏格兰某个乡间逗留时，魔术师结识了一个小女孩，她感叹于那些神奇的魔法，于是偷偷离开故乡，转而追随魔术师的脚步。他们辗转来至爱丁堡，生活变得愈加艰辛，而为了满足女孩对魔法的信任和对繁华世界的向往，魔术师不得不想各种办法去赚钱…… 　　本片荣获2010年欧洲电影节最佳动画片奖、2010年纽约影评人协会最佳动画片奖。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/Ac2tNYW9sRaOhmtMJQuhf2mvo00.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9Ocq5X0MNHsTpSONcaRvNDWPiz6.jpg",
+      "releaseDate": "2010-06-16",
+      "rating": 7.233,
+      "mediaType": "movie"
+    },
+    {
+      "id": 22501,
+      "type": "tmdb",
+      "title": "时间之主",
+      "originalTitle": "Les maîtres du temps",
+      "description": "在珀尔代德星球上，一群大黄蜂的袭击把小男孩皮尔和他垂死的父亲单独留在了一辆失事的汽车里。求救信息到达了他们的朋友贾法尔，一个穿越太空的冒险家。贾法尔的穿梭机上有叛变的马顿王子，他的未婚妻，以及熟悉珀尔代德星球的西尔巴德。为了拯救皮尔，一场不可思议的太空竞赛就此展开。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2brFFdhCSdcSzBbTOWg9VQra6QI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eOgq3wNremNJ5V3hxapQop7JXvP.jpg",
+      "releaseDate": "1982-03-24",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 599606,
+      "type": "tmdb",
+      "title": "音乐剧-安娜·卡列尼娜",
+      "originalTitle": "Анна Каренина. Мюзикл",
+      "description": "爱情之于生命，是鲜活的热血自由奔腾，还是海市蜃楼无异饮鸩止渴？列夫•托尔斯泰家喻户晓的文学巨著《安娜•卡列尼娜》在一次完美的音乐剧改编中，再度燃起观众的热情。有着92年历史的莫斯科轻歌剧院（The Moscow Operetta Theatre）以一部大胆的《安娜•卡列尼娜》站到了俄罗斯音乐剧的最前线，重写俄罗斯音乐剧票房历史。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rsFkMLQrkUFCerz83rSmnq25TGP.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/v51Z4tQnmPNDam5J80JwPGmg7nm.jpg",
+      "releaseDate": "2018-06-29",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 22504,
+      "type": "tmdb",
+      "title": "国王与小鸟",
+      "originalTitle": "Le Roi et l'Oiseau",
+      "description": "　　塔基卡迪国建立在一片荒漠中。现在正值第三加第五等于第八加八等于第十六代夏尔国王掌权。夏尔国王不喜欢人民，人民也不喜欢他。国王住在200多层城堡的最高处，而人民则被强迫住在不见阳光的地下，做着苦活。城堡里四处都是国王的雕像，画像和眼线。掌握集权和他人生死的国王也有自己的烦心事，他爱上了迷人的牧羊姑娘。但姑娘却追随着扫烟囱的少年，想要逃离这座城堡。二人的出走得到了小鸟的支持。虽然小鸟极尽帮助，但牧羊姑娘还是被国王逮住，而扫烟囱的少年和小鸟则被关进了狮群。暗无天日的环境让狮子们丧失了斗志，但在小鸟一番煽动下，终于恢复了往日的雄风。于是狮群和小鸟们向着国王的婚礼进发。最终扫烟囱的少年能否救回牧羊姑娘，夏尔国王的集权世界又能否被打破。国王与小鸟，压迫与自由的故事就此上演。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yDbfVUrb9b0Dkm1TptWtzkujXBk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pSL75Sg1APD4OHpQs4VyFb8pIFv.jpg",
+      "releaseDate": "1980-03-19",
+      "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 19026,
+      "type": "tmdb",
+      "title": "阿祖尔和阿斯马尔",
+      "originalTitle": "Azur et Asmar",
+      "description": "很久以前，有一个奶妈同时照顾着两个孩子。Azur 是金发、碧眼的贵族子弟，而 Asmar 则是深色皮肤、深色眼睛的奶妈之子。奶妈给他们讲述一个关于精灵仙子等待一位英勇的王子将她救离她的宫殿的故事。两人在一起长大，情同手足，直到一天 Azur 的父亲残酷的分开他们，将奶妈与 Asmar 赶出了他们家，并把 Azur 送到寄宿学校。几年后，Azur 仍然被传奇的精灵仙子的故事所着迷，并独自旅行到奶妈的家乡寻找精灵仙子。当他们团聚的时候，奶妈已经成为了成功的商人，而 Asmar 则成为了皇家卫兵的一员。然而，Asmar 也渴望找到精灵仙子，他们两人中只有一个可以成功完成任务。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ezkzULav0JxvLS5JOnQcjbUmfWO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tykN4mGZha873vSln1zLU7NBHb3.jpg",
+      "releaseDate": "2006-10-25",
+      "rating": 7.698,
+      "mediaType": "movie"
+    },
+    {
+      "id": 37949,
+      "type": "tmdb",
+      "title": "猴子传奇",
+      "originalTitle": "Le château des singes",
+      "description": "Kom is from a tribe of monkeys who live in a canopy. He rejects elders' authority as well as the superstition that the lower world would be inhabited by demons. But he accidentally falls from the trees…",
+      "posterPath": "https://image.tmdb.org/t/p/w500/s4pYSLnGHXUyiTs0HNmpUJMYVKv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oG24VU7BdJnw8YeXYvp0bcQzzjU.jpg",
+      "releaseDate": "1999-06-02",
+      "rating": 6.4,
       "mediaType": "movie"
     }
   ],
@@ -244,6 +544,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 269149,
+      "type": "tmdb",
+      "title": "疯狂动物城",
+      "originalTitle": "Zootopia",
+      "description": "疯狂动物城是一座独一无二的现代动物都市。每种动物在这里都有自己的居所，比如富丽堂皇的撒哈拉广场，或者常年严寒的冰川镇。它就像一座大熔炉，动物们在这里和平共处——无论是大象还是小老鼠，只要你努力，都能在此闯出一番名堂。不过乐观的警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）却发现，作为史上第一任兔子警官，要和一群强硬的大块头动物警察合作可不是件容易事。为了证明自己，她决心侦破一桩神秘案件；追寻真相的路上她被迫与口若悬河、谎技高超的狐尼克（杰森·贝特曼 Jason Bateman 配音）联手，却发现这桩案件背后隐藏着一个意欲颠覆动物城的巨大阴谋……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6L0nYQqqEYPaSMjmsWH8dr8I4Sk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
+      "releaseDate": "2016-02-11",
+      "rating": 7.7,
+      "mediaType": "movie"
+    },
+    {
       "id": 1305653,
       "type": "tmdb",
       "title": "东极岛",
@@ -264,6 +576,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edDMKFhgOLF73RosfRhwkTzUaNU.jpg",
       "backdropPath": null,
       "releaseDate": "2025-08-08",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 540045,
+      "type": "tmdb",
+      "title": "绑架毛乎乎",
+      "originalTitle": "绑架毛乎乎",
+      "description": "　　二十年前，任胜利和同村的石俊霞谈恋爱，被石的妈妈诬告强奸，被判入狱二十年。故事从任出狱开始。他找到了在北京做保姆的石，对质当年的事，头脑简单的他却再次被石吸引，并被石说动和石一起绑架主人家的傻孩子毛乎乎。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AbvtB25SNBnwZiRPH6TaeCBe3sS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wmAZx5AYxMi2wWh9Rq0qcLjt7lR.jpg",
+      "releaseDate": "2025-08-11",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -312,7 +636,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9CKzauWDhSgySsfP8SWarCmdAwB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 8.4,
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -364,6 +688,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 39915,
+      "type": "tmdb",
+      "title": "青蛇",
+      "originalTitle": "青蛇",
+      "description": "南宋是一个人妖难分的时期，法海和尚（赵文卓 饰）到处收服妖精，也扰乱了在西湖底修炼的白青二蛇。青（张曼玉 饰）曾获白（王祖贤 饰）相救，二者便以姐妹相称。姐妹俩受惑佯装成人生活在民间，白更嫁于老实书生许仙，青也同时看上了许仙，便常常以媚态勾引许仙，无奈许仙只深爱白一个。白开设了药店，以为可以自此过上安定的生活，可许仙却受不了青的百般挑逗，更发现了青白二蛇的真实身份，可他却不舍得离开家中的天姿国色。法海得知了青白二蛇的下落，更抓走了许仙。原来白为了爱情放弃修成正果，更怀有了身孕。为了救回丈夫，二蛇与法海展开了搏斗……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4PIXqxN9BIYhhNIRwACgkrwPvH7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sofHRGQgG6LvKYJWpaxQRFKe4or.jpg",
+      "releaseDate": "1993-11-04",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1063857,
       "type": "tmdb",
       "title": "赎梦",
@@ -372,7 +708,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/A3vTaRW5X3CY1cYX03GKWT3V2I0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8qCO07RAU2qpTHHOJoASQ0EBLH7.jpg",
       "releaseDate": "2025-03-27",
-      "rating": 3,
+      "rating": 4.5,
       "mediaType": "movie"
     },
     {
@@ -420,30 +756,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jK51u5OGqivM48HvlnnzDFcqvkD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9HVtiXXyUkBIY7b2hbIh3SSRdS4.jpg",
       "releaseDate": "2025-08-29",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 39915,
-      "type": "tmdb",
-      "title": "青蛇",
-      "originalTitle": "青蛇",
-      "description": "南宋是一个人妖难分的时期，法海和尚（赵文卓 饰）到处收服妖精，也扰乱了在西湖底修炼的白青二蛇。青（张曼玉 饰）曾获白（王祖贤 饰）相救，二者便以姐妹相称。姐妹俩受惑佯装成人生活在民间，白更嫁于老实书生许仙，青也同时看上了许仙，便常常以媚态勾引许仙，无奈许仙只深爱白一个。白开设了药店，以为可以自此过上安定的生活，可许仙却受不了青的百般挑逗，更发现了青白二蛇的真实身份，可他却不舍得离开家中的天姿国色。法海得知了青白二蛇的下落，更抓走了许仙。原来白为了爱情放弃修成正果，更怀有了身孕。为了救回丈夫，二蛇与法海展开了搏斗……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4PIXqxN9BIYhhNIRwACgkrwPvH7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sofHRGQgG6LvKYJWpaxQRFKe4or.jpg",
-      "releaseDate": "1993-11-04",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 540045,
-      "type": "tmdb",
-      "title": "绑架毛乎乎",
-      "originalTitle": "绑架毛乎乎",
-      "description": "　　二十年前，任胜利和同村的石俊霞谈恋爱，被石的妈妈诬告强奸，被判入狱二十年。故事从任出狱开始。他找到了在北京做保姆的石，对质当年的事，头脑简单的他却再次被石吸引，并被石说动和石一起绑架主人家的傻孩子毛乎乎。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AbvtB25SNBnwZiRPH6TaeCBe3sS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wmAZx5AYxMi2wWh9Rq0qcLjt7lR.jpg",
-      "releaseDate": "2023-07-25",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -530,7 +842,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aKeJgTDAiBe5hFgFgI3V3ChOLmh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.591,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -554,7 +866,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sCzcYW9h55WcesOqA12cgEr9Exw.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.905,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -602,7 +914,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.781,
+      "rating": 7.782,
       "mediaType": "movie"
     },
     {
@@ -614,7 +926,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mbYTRO33LJAgpCMrIn9ibiWHbMH.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.971,
+      "rating": 6.97,
       "mediaType": "movie"
     },
     {
