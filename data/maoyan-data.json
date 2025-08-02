@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-02T02:15:32.481+08:00",
+  "last_updated": "2025-08-02T08:52:53.095+08:00",
   "tv": {
     "全网": [
       {
@@ -10,7 +10,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/lneYe6sht5buak19V2Js0OPRLbm.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/tOpyQG9MAnFN4YiDgyk5NnCGa7X.jpg",
         "releaseDate": "2025-07-27",
-        "rating": 6,
+        "rating": 6.364,
+        "mediaType": "tv"
+      },
+      {
+        "id": 232149,
+        "type": "tmdb",
+        "title": "定风波",
+        "description": "纪录片《定风波》是由浙江省文化产业投资集团有限公司出品，邓武执导的纪录片，于2023年7月31日在央视纪录频道播出。\n\n本片以苏轼的人生经历为主线，体现了他“穷则独善其身，达则兼济天下”的儒者情怀，突出了他为官一任、造福一方的从政业绩，也展示了他在诗词文赋、书法绘画等领域卓越的建树，以独特视角带领观众走近这位千古名家，抒其天下之志，品其诗与远方。\n\n本纪录片共五集，分别为第一集《出川记》、第二集《湖山记》、第三集《摩羯记》、第四集《悬壶记》及第五集《结庐记》，每集约50分钟。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4c6wdH8kX4dpQgAx2xgaxfdPCYI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nYShFNrJpJeTG48LCyEvLFyLUwf.jpg",
+        "releaseDate": "2023-07-31",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -22,6 +33,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/dcddW7YDWCOcNyJKciEP5zAryNs.jpg",
         "releaseDate": "2025-07-28",
         "rating": 9.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 240445,
+        "type": "tmdb",
+        "title": "朝雪录",
+        "description": "大理寺卿沈毅因卷入晋王案，全家惨遭灭门，其女沈莞借用秦府九娘子秦莞的身份逃到荆州。原本柔弱可欺的秦莞“性情大变”，不仅会治病救人，还能剖尸探案，顺带将秦府的伯母庶妹姨娘刁奴治得服服帖帖。探案期间秦莞结识了睿王世子燕迟，燕迟一心为晋王翻案，与秦莞为父昭雪的目标不谋而合，二人一起回京，途中联手破获了各式诡谲大案。回京后，一具意外发现的骸骨让晋王案得以重提，燕迟和秦莞一起慢慢接近了案件的真相，发现了皇宫里深藏的惊天秘密。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u2eP0EswokvB2qZnU6Oy1Jz1Uva.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/trAzKgcmDMkNBFXSr9ucZcfzxgm.jpg",
+        "releaseDate": "2025-07-13",
+        "rating": 8.7,
         "mediaType": "tv"
       },
       {
@@ -47,25 +69,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 240445,
+        "id": 253193,
         "type": "tmdb",
-        "title": "朝雪录",
-        "description": "大理寺卿沈毅因卷入晋王案，全家惨遭灭门，其女沈莞借用秦府九娘子秦莞的身份逃到荆州。原本柔弱可欺的秦莞“性情大变”，不仅会治病救人，还能剖尸探案，顺带将秦府的伯母庶妹姨娘刁奴治得服服帖帖。探案期间秦莞结识了睿王世子燕迟，燕迟一心为晋王翻案，与秦莞为父昭雪的目标不谋而合，二人一起回京，途中联手破获了各式诡谲大案。回京后，一具意外发现的骸骨让晋王案得以重提，燕迟和秦莞一起慢慢接近了案件的真相，发现了皇宫里深藏的惊天秘密。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/u2eP0EswokvB2qZnU6Oy1Jz1Uva.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/trAzKgcmDMkNBFXSr9ucZcfzxgm.jpg",
-        "releaseDate": "2025-07-13",
-        "rating": 8.7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 232149,
-        "type": "tmdb",
-        "title": "定风波",
-        "description": "纪录片《定风波》是由浙江省文化产业投资集团有限公司出品，邓武执导的纪录片，于2023年7月31日在央视纪录频道播出。\n\n本片以苏轼的人生经历为主线，体现了他“穷则独善其身，达则兼济天下”的儒者情怀，突出了他为官一任、造福一方的从政业绩，也展示了他在诗词文赋、书法绘画等领域卓越的建树，以独特视角带领观众走近这位千古名家，抒其天下之志，品其诗与远方。\n\n本纪录片共五集，分别为第一集《出川记》、第二集《湖山记》、第三集《摩羯记》、第四集《悬壶记》及第五集《结庐记》，每集约50分钟。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4c6wdH8kX4dpQgAx2xgaxfdPCYI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nYShFNrJpJeTG48LCyEvLFyLUwf.jpg",
-        "releaseDate": "2023-07-31",
-        "rating": 0,
+        "title": "书卷一梦",
+        "description": "当意外穿越进剧本世界，成为被反派男主用完即弃、凌虐致死的女主角应该怎么办？宋小鱼想都不用想，当然是能跑多远跑多远啊。然而无论如何努力，“剧情”始终都会将她推往男主南珩身边，上演一个又一个剧本名场面。而在这个纸片世界里，亦有无数个早就被“设定”好的人物角色。有人被困深宫重院，有人囿于高门家宅，有人为雌竞所累，有人因权势奔走。有人渴望爱与自由，却只能戴着镣铐惶惶起舞，有人做着扶摇直上的大鹏之梦，却在日复一日的束缚与平庸中被消磨着激情。这不仅是人怂怕死的躺平咸鱼宋小鱼和心狠手辣的夺命卷王南珩间的鏖战，更是每个“小我”纸片人与既定命运的战斗。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
+        "releaseDate": "2025-06-26",
+        "rating": 9.2,
         "mediaType": "tv"
       },
       {
@@ -80,25 +91,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 253193,
+        "id": 235351,
         "type": "tmdb",
-        "title": "书卷一梦",
-        "description": "当意外穿越进剧本世界，成为被反派男主用完即弃、凌虐致死的女主角应该怎么办？宋小鱼想都不用想，当然是能跑多远跑多远啊。然而无论如何努力，“剧情”始终都会将她推往男主南珩身边，上演一个又一个剧本名场面。而在这个纸片世界里，亦有无数个早就被“设定”好的人物角色。有人被困深宫重院，有人囿于高门家宅，有人为雌竞所累，有人因权势奔走。有人渴望爱与自由，却只能戴着镣铐惶惶起舞，有人做着扶摇直上的大鹏之梦，却在日复一日的束缚与平庸中被消磨着激情。这不仅是人怂怕死的躺平咸鱼宋小鱼和心狠手辣的夺命卷王南珩间的鏖战，更是每个“小我”纸片人与既定命运的战斗。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
-        "releaseDate": "2025-06-26",
-        "rating": 9.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252568,
-        "type": "tmdb",
-        "title": "暗潮缉凶",
-        "description": "曾经的国营大厂旭日厂内，一具断足女尸在废弃污水池中被意外发现，死者是职工子女沈小舟。外丧内热的中年刑警连海平和毛躁热血的菜鸟警察石强锋意外成为搭档，虽互有嫌隙但须联手寻找真凶。随着一个个嫌疑人进入调查视野，二人发现，原来在外表白衣胜雪的大学生受害者背后，竟触及到了许多出人意料的社会层面。与此同时，一桩与两人牵绊至深的陈年旧案也逐渐浮出水面，连海平与石强锋的关系因“一桩旧案”、“一段往事”变得扑朔迷离。案件悬而未决之际，断足女尸案接连发生，给往日充满了烟火气的旭日厂蒙上了一层阴影。连海平也警觉地发现有一股势力在刻意引导着警方的调查方向，迷雾似见光明，暗潮早已涌动。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8rWLq4ri7j0Z86ALmlZz74XgEmo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aFBgDwXLxdbkb1ULUG2FZiuqtj1.jpg",
-        "releaseDate": "2025-07-31",
-        "rating": 0,
+        "title": "金庸武侠世界",
+        "description": "南宋末年，金兵入侵，朝廷奸臣当道。平民义士郭啸天、杨铁心两家指腹为婚，后为金兵所害。全真教道士丘处机与江南七怪定下赌约：分别寻找杨、郭后人并传授他们武功，于十八年后在醉仙楼比试高低。郭靖、杨康分别在江南七怪与丘处机的教养下长大成人。 18年后，郭靖奉师命南下，与“东邪”黄药师之女黄蓉一见如故，彼此倾心，但两人的情感却一波三折。“西毒”欧阳锋为侄儿欧阳克求娶黄蓉，郭靖历经三番比试最终获胜，奈何五位师父被害于桃花岛，引得二人误会分离。 另一边，杨康贪恋富贵，认金人作父。一场无心的比武招亲，令他与杨铁心义女穆念慈有情相恋，却执迷不悟，三番四次加害郭靖、黄蓉等江湖义士，助金人夺取《武穆遗书》，最终难逃惨死嘉兴铁枪庙中的命运。 郭靖随黄蓉行万里路，遍识天下武林高人，武功日见提升，终于得报杀父深仇，消师门积怨，夺《武穆遗书》，率大军西征，承亡母之教，上华山论剑，救襄阳国难。 一代天骄终陨落，昔日纯朴憨厚、木讷愚钝的挽弓少年也长成顶天立地的男儿，毅然扛起破碎山河……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rrdw2G3uBHPzbEcL0sRIhk6LWPO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sbCiZJJEsXEZ7kcZ7oVgQySuRJa.jpg",
+        "releaseDate": "2024-06-17",
+        "rating": 7.3,
         "mediaType": "tv"
       },
       {
@@ -122,7 +122,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/lneYe6sht5buak19V2Js0OPRLbm.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/tOpyQG9MAnFN4YiDgyk5NnCGa7X.jpg",
         "releaseDate": "2025-07-27",
-        "rating": 6,
+        "rating": 6.364,
         "mediaType": "tv"
       },
       {
@@ -192,17 +192,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 196615,
-        "type": "tmdb",
-        "title": "我叫赵甲第",
-        "description": "　　故事讲述北方经济巨鳄“金海实业”的继承人赵甲第，南下海城开始自己的大学生活。自小父亲的种种劣迹，让赵甲第不能认同，一直关系僵化不接受父亲的钱，过着贫穷的生活。在海城，这个非典型的“逆富二代”，经历了大学生活，经历了爱情，也在经历了种种之后完成了男人的成长。与此同时，豪门家族的权利斗争逐渐白热化，一系列暗潮涌动让赵甲第陷入了旋涡中心。在秉承“人要有所执，方能有所成”的信念下，年轻的赵甲第原谅了父亲。在这个角斗场中，赵甲第只为了自己曾渴求的平凡家庭，单枪匹马进行救赎。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mD6Gh8dDgPonm4N37cAm8Bv5ndm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nwzDYUeykEpcjvWnX17KTIaf9rQ.jpg",
-        "releaseDate": "2022-03-31",
-        "rating": 4.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 283770,
         "type": "tmdb",
         "title": "执法者们",
@@ -211,6 +200,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8cFhxuTh57c0bapveV0LdpuQIIU.jpg",
         "releaseDate": "2025-05-07",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 196615,
+        "type": "tmdb",
+        "title": "我叫赵甲第",
+        "description": "　　故事讲述北方经济巨鳄“金海实业”的继承人赵甲第，南下海城开始自己的大学生活。自小父亲的种种劣迹，让赵甲第不能认同，一直关系僵化不接受父亲的钱，过着贫穷的生活。在海城，这个非典型的“逆富二代”，经历了大学生活，经历了爱情，也在经历了种种之后完成了男人的成长。与此同时，豪门家族的权利斗争逐渐白热化，一系列暗潮涌动让赵甲第陷入了旋涡中心。在秉承“人要有所执，方能有所成”的信念下，年轻的赵甲第原谅了父亲。在这个角斗场中，赵甲第只为了自己曾渴求的平凡家庭，单枪匹马进行救赎。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mD6Gh8dDgPonm4N37cAm8Bv5ndm.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nwzDYUeykEpcjvWnX17KTIaf9rQ.jpg",
+        "releaseDate": "2022-03-31",
+        "rating": 4.5,
         "mediaType": "tv"
       },
       {
@@ -226,6 +226,17 @@
       }
     ],
     "爱奇艺": [
+      {
+        "id": 232149,
+        "type": "tmdb",
+        "title": "定风波",
+        "description": "纪录片《定风波》是由浙江省文化产业投资集团有限公司出品，邓武执导的纪录片，于2023年7月31日在央视纪录频道播出。\n\n本片以苏轼的人生经历为主线，体现了他“穷则独善其身，达则兼济天下”的儒者情怀，突出了他为官一任、造福一方的从政业绩，也展示了他在诗词文赋、书法绘画等领域卓越的建树，以独特视角带领观众走近这位千古名家，抒其天下之志，品其诗与远方。\n\n本纪录片共五集，分别为第一集《出川记》、第二集《湖山记》、第三集《摩羯记》、第四集《悬壶记》及第五集《结庐记》，每集约50分钟。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4c6wdH8kX4dpQgAx2xgaxfdPCYI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nYShFNrJpJeTG48LCyEvLFyLUwf.jpg",
+        "releaseDate": "2023-07-31",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 257787,
         "type": "tmdb",
@@ -246,17 +257,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/trAzKgcmDMkNBFXSr9ucZcfzxgm.jpg",
         "releaseDate": "2025-07-13",
         "rating": 8.7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 232149,
-        "type": "tmdb",
-        "title": "定风波",
-        "description": "纪录片《定风波》是由浙江省文化产业投资集团有限公司出品，邓武执导的纪录片，于2023年7月31日在央视纪录频道播出。\n\n本片以苏轼的人生经历为主线，体现了他“穷则独善其身，达则兼济天下”的儒者情怀，突出了他为官一任、造福一方的从政业绩，也展示了他在诗词文赋、书法绘画等领域卓越的建树，以独特视角带领观众走近这位千古名家，抒其天下之志，品其诗与远方。\n\n本纪录片共五集，分别为第一集《出川记》、第二集《湖山记》、第三集《摩羯记》、第四集《悬壶记》及第五集《结庐记》，每集约50分钟。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4c6wdH8kX4dpQgAx2xgaxfdPCYI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nYShFNrJpJeTG48LCyEvLFyLUwf.jpg",
-        "releaseDate": "2023-07-31",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -304,14 +304,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 233969,
+        "id": 282589,
         "type": "tmdb",
-        "title": "淬火年代",
-        "description": "上世纪九十年代末，留学德国的柳钧回到家乡东海，他顺应时代发展，立志将父亲的老机械制造厂改造成科技领先的现代化制造厂。民企在技术、资金、人脉等各方面都遇到重重困难，举步维艰，但好友钱宏明的进出口贸易、房地产等事业却搞得风生水起，二人互相帮助互相提醒。柳钧因技术结识了杨巡，后又因为技术与杨巡闹翻，结下冤仇，好在当地东海集团负责人宋运辉对他青睐有加，在腾飞厂的发展中给予了有力支持。柳钧脚踏实地，一面适应、融入国内环境，探索经营管理之道，一面攻破技术壁垒，最终凭借过硬的技术和一腔理想主义，渡过生存难关，完成了腾飞厂一次又一次的转型升级。柳钧实现了自己的价值，腾飞厂也在中国制造业的洪流中奋勇争先，占据了一席之地。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
-        "releaseDate": "2025-06-18",
-        "rating": 9,
+        "title": "浴血荣光",
+        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7Wnf66DWU5sFjKoTjDLFztwmyh4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
+        "releaseDate": "2025-07-15",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -326,14 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 282589,
+        "id": 82762,
         "type": "tmdb",
-        "title": "浴血荣光",
-        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7Wnf66DWU5sFjKoTjDLFztwmyh4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
-        "releaseDate": "2025-07-15",
-        "rating": 0,
+        "title": "最亲爱的你",
+        "description": "该剧讲述五个性格、想法以及恋爱风格都大不相同的女大学生，在share house里一起生活的所发生的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/alaTmtIQTWWKy7S0t3DqAfAlIqv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/coFwkdHtIxbcu9cnP1QU9eXg1LX.jpg",
+        "releaseDate": "2018-07-13",
+        "rating": 10,
         "mediaType": "tv"
       }
     ],
@@ -372,17 +372,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 220269,
-        "type": "tmdb",
-        "title": "折腰",
-        "description": "聪慧机敏系家国的乔家女郎小乔（宋祖儿 饰），与有勇有谋心纯善的魏家主公魏劭（刘宇宁 饰）联姻，起初二人因祖辈恩怨有所隔阂，过着相互试探与攻守的婚后日常，夫妻俩的多番较量中有笑也有泪；在历经诸多危机后，小乔和魏劭逐渐被对方的才智谋略与豁达胸襟所吸引，回过神时早已水滴石穿，心系彼此。二人凭借夫妻默契化解了家族矛盾，携手还百姓和平与安宁。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AZdlvg8Rij2bBkV0V9vJxsejZ1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bikpAFEsTyyl918QJ9r00fmwxPS.jpg",
-        "releaseDate": "2025-05-13",
-        "rating": 8.63,
-        "mediaType": "tv"
-      },
-      {
         "id": 235351,
         "type": "tmdb",
         "title": "金庸武侠世界",
@@ -391,6 +380,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/sbCiZJJEsXEZ7kcZ7oVgQySuRJa.jpg",
         "releaseDate": "2024-06-17",
         "rating": 7.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 220269,
+        "type": "tmdb",
+        "title": "折腰",
+        "description": "聪慧机敏系家国的乔家女郎小乔（宋祖儿 饰），与有勇有谋心纯善的魏家主公魏劭（刘宇宁 饰）联姻，起初二人因祖辈恩怨有所隔阂，过着相互试探与攻守的婚后日常，夫妻俩的多番较量中有笑也有泪；在历经诸多危机后，小乔和魏劭逐渐被对方的才智谋略与豁达胸襟所吸引，回过神时早已水滴石穿，心系彼此。二人凭借夫妻默契化解了家族矛盾，携手还百姓和平与安宁。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AZdlvg8Rij2bBkV0V9vJxsejZ1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bikpAFEsTyyl918QJ9r00fmwxPS.jpg",
+        "releaseDate": "2025-05-13",
+        "rating": 8.63,
         "mediaType": "tv"
       },
       {
@@ -427,6 +427,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 282589,
+        "type": "tmdb",
+        "title": "浴血荣光",
+        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7Wnf66DWU5sFjKoTjDLFztwmyh4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
+        "releaseDate": "2025-07-15",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 296993,
         "type": "tmdb",
         "title": "无相之城",
@@ -435,17 +446,6 @@
         "backdropPath": null,
         "releaseDate": "2025-07-31",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 233969,
-        "type": "tmdb",
-        "title": "淬火年代",
-        "description": "上世纪九十年代末，留学德国的柳钧回到家乡东海，他顺应时代发展，立志将父亲的老机械制造厂改造成科技领先的现代化制造厂。民企在技术、资金、人脉等各方面都遇到重重困难，举步维艰，但好友钱宏明的进出口贸易、房地产等事业却搞得风生水起，二人互相帮助互相提醒。柳钧因技术结识了杨巡，后又因为技术与杨巡闹翻，结下冤仇，好在当地东海集团负责人宋运辉对他青睐有加，在腾飞厂的发展中给予了有力支持。柳钧脚踏实地，一面适应、融入国内环境，探索经营管理之道，一面攻破技术壁垒，最终凭借过硬的技术和一腔理想主义，渡过生存难关，完成了腾飞厂一次又一次的转型升级。柳钧实现了自己的价值，腾飞厂也在中国制造业的洪流中奋勇争先，占据了一席之地。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
-        "releaseDate": "2025-06-18",
-        "rating": 9,
         "mediaType": "tv"
       }
     ],
@@ -484,17 +484,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 231781,
-        "type": "tmdb",
-        "title": "少林寺传奇之东归英雄",
-        "description": "《少林寺传奇之火烧少林》则是在《少林寺传奇》三部曲之后的又一力作，讲述的是清朝康熙年间，和尚们历经千辛万苦收复反叛势力“西鲁天会”，并保护着反叛领袖万寿山和冰玉公主，回京复命。却不料万寿山诏安为假，实际上是利用和尚们进入紫禁城，趁机杀掉康熙；私欲膨胀的太子和索额图，为了得到西鲁天会的宝藏，布下层层陷阱，一路截杀和尚，欲斩草除根；处于各派势力之争中的和尚们危机四伏，险象环生，更不料引起无故祸端，致少林寺毁于一场大火。面对遥远的归京之路，为了寻找渺茫的生存希望，和尚们被迫与命运抗争，一场血雨腥风的生死大战即将展开......",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yS9M22b2GI6fLOF0u6urSq0KFdK.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kZRJkfOFkAM4T8i9u5Yaz6C8A50.jpg",
-        "releaseDate": "2017-03-30",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 250475,
         "type": "tmdb",
         "title": "川流",
@@ -517,13 +506,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 124844,
+        "id": 231781,
         "type": "tmdb",
-        "title": "温州三家人",
-        "description": "本剧通过企业家向成晖、林一山、杨步真及他们后代的竞争和发展，反映了他们在新常态的背景下继续走在改革开放前列。在新基地的选址问题上他们起了冲突又和平解决，当年清华“本科女孩”张露来到温州考察，知道向成晖和林一山45都在“走出去”和新能源产业有了突破，大为赞赏，自己最终也嫁给了林一山。杨步真的时尚城项目在互联网上做文章，虽然做明星的夫人与自己打起冷战，他仍乐此不疲。向成晖儿子向向、潘小勇和爱尔兰三人创办电商“品上谷”。杨天真和林丹凤创办“红酒堡”，历经波折。他们办的互联网慈善项目吸引者众，感情生活也是有声有色。三位企业家创办民营银行风浪迭起。他们的后代向向等恰好遇上中央对互联网全力支持的政策，正是抓住这一机遇，向向他们再次抢占了先机，温州新一代人又走向时代的最前沿。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6PF2KmP7aToxzZW1iINt8P58R0l.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/oY510ZxyvupKyDmkpji6pkxlzLL.jpg",
-        "releaseDate": "2021-05-03",
+        "title": "少林寺传奇之东归英雄",
+        "description": "《少林寺传奇之火烧少林》则是在《少林寺传奇》三部曲之后的又一力作，讲述的是清朝康熙年间，和尚们历经千辛万苦收复反叛势力“西鲁天会”，并保护着反叛领袖万寿山和冰玉公主，回京复命。却不料万寿山诏安为假，实际上是利用和尚们进入紫禁城，趁机杀掉康熙；私欲膨胀的太子和索额图，为了得到西鲁天会的宝藏，布下层层陷阱，一路截杀和尚，欲斩草除根；处于各派势力之争中的和尚们危机四伏，险象环生，更不料引起无故祸端，致少林寺毁于一场大火。面对遥远的归京之路，为了寻找渺茫的生存希望，和尚们被迫与命运抗争，一场血雨腥风的生死大战即将展开......",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yS9M22b2GI6fLOF0u6urSq0KFdK.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kZRJkfOFkAM4T8i9u5Yaz6C8A50.jpg",
+        "releaseDate": "2017-03-30",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -536,6 +525,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
         "releaseDate": "2024-02-21",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 124844,
+        "type": "tmdb",
+        "title": "温州三家人",
+        "description": "本剧通过企业家向成晖、林一山、杨步真及他们后代的竞争和发展，反映了他们在新常态的背景下继续走在改革开放前列。在新基地的选址问题上他们起了冲突又和平解决，当年清华“本科女孩”张露来到温州考察，知道向成晖和林一山45都在“走出去”和新能源产业有了突破，大为赞赏，自己最终也嫁给了林一山。杨步真的时尚城项目在互联网上做文章，虽然做明星的夫人与自己打起冷战，他仍乐此不疲。向成晖儿子向向、潘小勇和爱尔兰三人创办电商“品上谷”。杨天真和林丹凤创办“红酒堡”，历经波折。他们办的互联网慈善项目吸引者众，感情生活也是有声有色。三位企业家创办民营银行风浪迭起。他们的后代向向等恰好遇上中央对互联网全力支持的政策，正是抓住这一机遇，向向他们再次抢占了先机，温州新一代人又走向时代的最前沿。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6PF2KmP7aToxzZW1iINt8P58R0l.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/oY510ZxyvupKyDmkpji6pkxlzLL.jpg",
+        "releaseDate": "2021-05-03",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -697,17 +697,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 113187,
-        "type": "tmdb",
-        "title": "兄弟营",
-        "description": "北伐战争期间，国民革命军驻扎在县城整装，准备摸清直系军阀在武昌的守军兵力部署和武器装备情报后，发动攻打武昌的战役。石一利用特殊身份，不顾个人安危，在刑场成功营救了欲被直系军阀杀害的诸多革命党，致使身份暴露不幸受伤。石一被护卫队救出，为了保护他，组织建议他启用化名赵石磊。 养伤期间赵石磊与护理员互生情愫，伤好后他与营长梅山海在组织的见证下举行了集体婚礼。婚礼上，赵石磊与梅山海却收到消息营部有女叛徒。他俩决定查清真相，与政治部主任崔光明一起巧妙设计布局。最后抽丝剥茧，发现此乃武昌守城司令袁玉郞使用的一个离间计谋。赵石磊与梅山海以其人之道，利用叛徒向袁玉郞发出诱敌情报，最终与北伐军一起粉碎敌人阴谋，为全歼敌人扫清了障碍。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9OTD38BpCP41lVJJIo9UeDV9waO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kA53Uqqj5rRdxXvQHts1udc9ze0.jpg",
-        "releaseDate": "2018-05-31",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 156647,
         "type": "tmdb",
         "title": "问天",
@@ -741,6 +730,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 113187,
+        "type": "tmdb",
+        "title": "兄弟营",
+        "description": "北伐战争期间，国民革命军驻扎在县城整装，准备摸清直系军阀在武昌的守军兵力部署和武器装备情报后，发动攻打武昌的战役。石一利用特殊身份，不顾个人安危，在刑场成功营救了欲被直系军阀杀害的诸多革命党，致使身份暴露不幸受伤。石一被护卫队救出，为了保护他，组织建议他启用化名赵石磊。 养伤期间赵石磊与护理员互生情愫，伤好后他与营长梅山海在组织的见证下举行了集体婚礼。婚礼上，赵石磊与梅山海却收到消息营部有女叛徒。他俩决定查清真相，与政治部主任崔光明一起巧妙设计布局。最后抽丝剥茧，发现此乃武昌守城司令袁玉郞使用的一个离间计谋。赵石磊与梅山海以其人之道，利用叛徒向袁玉郞发出诱敌情报，最终与北伐军一起粉碎敌人阴谋，为全歼敌人扫清了障碍。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9OTD38BpCP41lVJJIo9UeDV9waO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kA53Uqqj5rRdxXvQHts1udc9ze0.jpg",
+        "releaseDate": "2018-05-31",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 157931,
         "type": "tmdb",
         "title": "黑河风云",
@@ -759,6 +759,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/3CW9npksQarS5QlgFEg2kN6fJ7R.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/nn1RnxImlIo6rvOvC9d7jDwdVax.jpg",
         "releaseDate": "2021-10-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 129635,
+        "type": "tmdb",
+        "title": "青春向前冲",
+        "description": "唐可儿大学毕业后进入一家知名网购公司上班。总经理霍彬喜欢上她，他和可儿一起完成签约三个女星，作为公司产品的形象代言人。在签约三个女星的过程中，他们历经磨难，也萌生了爱意。陆翔公开向弟弟挑战，他也喜欢可儿。同时，公司的内部进行了股权的争斗，可儿被她的闺蜜陷害，到公司底层做工。在可儿遭受误解和打击，陆翔认为霍彬会动摇，却没有想到兄弟俩彼此都陷入爱的漩涡。可儿的闺蜜李媚对她下了黑手，车祸让她受到伤害。唐可儿在爱情的两难中难以抉择。陆翔病倒了，他的遗传病不可能有爱情和婚姻，他做的一切都是为了让弟弟更好的珍惜事业和爱情。可儿为了爱情和公司的发展，主动担当公司产品的形象代言人，几经曲折，获得了成功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4Vh7IuuzvqTWI0TzyMVu0C5Z67M.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/WKIoVgMepB55AT6lc7mBRsHjhe.jpg",
+        "releaseDate": "2021-07-21",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -787,17 +798,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 243083,
-        "type": "tmdb",
-        "title": "国色芳华",
-        "description": "商户之女何惟芳与雅冠长安的蒋长扬相识后，两人组成了匠人与投资人的组合。凭借培育稀世牡丹的高超技能和过人的经商头脑，何惟芳带领一众命运坎坷的女性共同经营花坊，过关斩将，在女子本弱的偏执沉疴中博得一席天地。随着何惟芳与蒋长扬的渐渐相熟，她发现这位一身骂名的“天下第一贪官”实则是外浪内纯、心怀天下的国之利刃。在亲历底层之苦、另悟牡丹之用后，何惟芳决心转型利民实业。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/poRm6RBlog6I6KUEtEJaSpzf05K.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dtB11OMUt3IT8cZArUdCSwf1Uzh.jpg",
-        "releaseDate": "2025-01-07",
-        "rating": 7.6,
-        "mediaType": "tv"
-      },
-      {
         "id": 282589,
         "type": "tmdb",
         "title": "浴血荣光",
@@ -806,6 +806,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
         "releaseDate": "2025-07-15",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 243083,
+        "type": "tmdb",
+        "title": "国色芳华",
+        "description": "商户之女何惟芳与雅冠长安的蒋长扬相识后，两人组成了匠人与投资人的组合。凭借培育稀世牡丹的高超技能和过人的经商头脑，何惟芳带领一众命运坎坷的女性共同经营花坊，过关斩将，在女子本弱的偏执沉疴中博得一席天地。随着何惟芳与蒋长扬的渐渐相熟，她发现这位一身骂名的“天下第一贪官”实则是外浪内纯、心怀天下的国之利刃。在亲历底层之苦、另悟牡丹之用后，何惟芳决心转型利民实业。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/poRm6RBlog6I6KUEtEJaSpzf05K.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dtB11OMUt3IT8cZArUdCSwf1Uzh.jpg",
+        "releaseDate": "2025-01-07",
+        "rating": 7.6,
         "mediaType": "tv"
       },
       {
@@ -853,17 +864,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 276548,
-        "type": "tmdb",
-        "title": "仁心俱乐部",
-        "description": "该剧讲述了飒爽的神外医生刘梓懿在与男友准备结婚之际，发现男友因特殊原因被送到自己工作的医院，备受打击却要体面地结束这段关系；乐观的心外医生秦文彬看似玩世不恭，实则心里有数，工作上一帆风顺，婚姻却亮起红灯，不知何去何从。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7gUlJJUcVBsZZtqeGHfQF4SA3jC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9SxPnCtZaWR81n4m0hA5VlEFlQq.jpg",
-        "releaseDate": "2025-03-02",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 97043,
         "type": "tmdb",
         "title": "家有儿女初长成",
@@ -872,6 +872,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/4qgKC43hN4o0GuSFHyneJ8gWLWf.jpg",
         "releaseDate": "2018-05-29",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 276548,
+        "type": "tmdb",
+        "title": "仁心俱乐部",
+        "description": "该剧讲述了飒爽的神外医生刘梓懿在与男友准备结婚之际，发现男友因特殊原因被送到自己工作的医院，备受打击却要体面地结束这段关系；乐观的心外医生秦文彬看似玩世不恭，实则心里有数，工作上一帆风顺，婚姻却亮起红灯，不知何去何从。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7gUlJJUcVBsZZtqeGHfQF4SA3jC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9SxPnCtZaWR81n4m0hA5VlEFlQq.jpg",
+        "releaseDate": "2025-03-02",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -901,17 +912,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7xWwBsC9myQWqANb1NOF5nlsmsT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
-        "releaseDate": "2024-08-20",
-        "rating": 5,
-        "mediaType": "tv"
-      },
-      {
         "id": 296217,
         "type": "tmdb",
         "title": "一饭封神",
@@ -920,6 +920,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
         "releaseDate": "2025-07-17",
         "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7xWwBsC9myQWqANb1NOF5nlsmsT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
+        "releaseDate": "2024-08-20",
+        "rating": 5,
         "mediaType": "tv"
       },
       {
@@ -956,14 +967,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 294253,
+        "id": 72294,
         "type": "tmdb",
-        "title": "我们的宿舍",
-        "description": "全新好友下班合宿欢聚朋综，节目将以“朋友下班后聚会”的形式呈现，每一期聚会将由一位“宿舍管家”负责策划独特的聚会主题，邀请好友共同享受一场“充电式”的“下班后派对”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fujnoKdxgHa4mjpqvRAt9Yv9Dkq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7W6byklTyR1eYBxqRkruJLv64fc.jpg",
-        "releaseDate": "2025-06-24",
-        "rating": 0,
+        "title": "当家姐姐",
+        "description": "NHK的第94部晨间剧。小桥常子（高畑充希饰）是家中长女，凡事充满好奇心，大胆又富有行动力。她与爱家明理的父亲（西岛秀俊饰）、温柔贤淑的母亲（木村多江饰）以及两个妹妹，一家五口和乐融融、过着无忧无虑的生活。\n\n没想到在她11岁时，父亲突然因病去世，临终前交代常子要姊代父职。身为家中大姊，常子从此成为一家之主，担负起照顾母亲和两个妹妹的重任。为求三餐温饱，她们寄人篱下。常子更四处打工、吃尽苦头，全都为了守护这个家！在战后经济起飞的年代，她不但坚强撑起家庭的希望，更创办了知名女性杂志，成为新时代女性的典范。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/arbfcsAU908iyC9dzejKEw5SJur.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qMkH2jSiW1HSm4lkhBYhorDptPY.jpg",
+        "releaseDate": "2016-04-04",
+        "rating": 8.5,
         "mediaType": "tv"
       }
     ],
@@ -1035,17 +1046,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 294181,
-        "type": "tmdb",
-        "title": "神奇的朋友",
-        "description": "《神奇的朋友》是一档明星好友探访社交类真人秀。三位大众熟知的明星艺人化身\"闲置猎人\"，手持能窥探时光的放大镜，开启了一场颠覆想象的寻宝狂潮！节目以老物件为媒介打听江湖八卦畅聊人生往事，打开新鲜有趣小众圈层的新世界大门，展示现代多元社会的花花世界。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/duTJK6Dq2L5iIrymTuFKZ0ZCEZW.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-06-19",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 116777,
         "type": "tmdb",
         "title": "天赐的声音",
@@ -1054,6 +1054,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/f6xIxps4FIfzrsU1vc5ClWhPIow.jpg",
         "releaseDate": "2020-02-15",
         "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 294181,
+        "type": "tmdb",
+        "title": "神奇的朋友",
+        "description": "《神奇的朋友》是一档明星好友探访社交类真人秀。三位大众熟知的明星艺人化身\"闲置猎人\"，手持能窥探时光的放大镜，开启了一场颠覆想象的寻宝狂潮！节目以老物件为媒介打听江湖八卦畅聊人生往事，打开新鲜有趣小众圈层的新世界大门，展示现代多元社会的花花世界。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/duTJK6Dq2L5iIrymTuFKZ0ZCEZW.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-06-19",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1114,17 +1125,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 296785,
-        "type": "tmdb",
-        "title": "打歌2025",
-        "description": "全国首档直播打歌综艺《打歌2025》重磅钜献！多元风格碰撞出彩，实力唱将火热开麦！7月25日起每周五21:20同步直播，LIVE视听盛宴，一起相约《打歌2025》，让好的舞台被看见，让好的歌声被听见！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wXhC3m3C15yMOD4hwWBOvOpRBWQ.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-07-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 292697,
         "type": "tmdb",
         "title": "微笑一号店",
@@ -1158,6 +1158,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 296785,
+        "type": "tmdb",
+        "title": "打歌2025",
+        "description": "全国首档直播打歌综艺《打歌2025》重磅钜献！多元风格碰撞出彩，实力唱将火热开麦！7月25日起每周五21:20同步直播，LIVE视听盛宴，一起相约《打歌2025》，让好的舞台被看见，让好的歌声被听见！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/wXhC3m3C15yMOD4hwWBOvOpRBWQ.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-07-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 292197,
         "type": "tmdb",
         "title": "亚洲新声",
@@ -1182,17 +1193,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7xWwBsC9myQWqANb1NOF5nlsmsT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
-        "releaseDate": "2024-08-20",
-        "rating": 5,
-        "mediaType": "tv"
-      },
-      {
         "id": 296217,
         "type": "tmdb",
         "title": "一饭封神",
@@ -1201,6 +1201,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
         "releaseDate": "2025-07-17",
         "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7xWwBsC9myQWqANb1NOF5nlsmsT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
+        "releaseDate": "2024-08-20",
+        "rating": 5,
         "mediaType": "tv"
       },
       {
@@ -1237,17 +1248,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 112732,
-        "type": "tmdb",
-        "title": "哈哈哈哈哈",
-        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/l6a7YX0GlmWN2f3qDnoZD3R4x4G.jpg",
-        "releaseDate": "2020-11-06",
-        "rating": 7.167,
-        "mediaType": "tv"
-      },
-      {
         "id": 228667,
         "type": "tmdb",
         "title": "朋友请吃饭",
@@ -1259,14 +1259,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 289210,
+        "id": 112732,
         "type": "tmdb",
-        "title": "一见你就笑",
-        "description": "由李诞、杨迪、徐志胜与其他MC团组成新一届的“超开心见笑生”，每期飞行嘉宾根据嘉宾属性以不同身份进入节目，如插班生、隔壁校友、代课老师等。通过TALKING、主题游戏互动、盲盒舞台等综艺环节来进行单期相关剧宣主题的内容呈现。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dLidSaIRBqKwu5mBBWla0noPmU4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7pocRZp6wDgJtYzxgztEN8UYdmn.jpg",
-        "releaseDate": "2025-04-18",
-        "rating": 0,
+        "title": "哈哈哈哈哈",
+        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/l6a7YX0GlmWN2f3qDnoZD3R4x4G.jpg",
+        "releaseDate": "2020-11-06",
+        "rating": 7.167,
         "mediaType": "tv"
       },
       {
@@ -1277,6 +1277,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/uSPjPv4kGke4mJt67lhwYGHoakf.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/wRttx0DjWoR6URRUWask9jgcwHp.jpg",
         "releaseDate": "2022-06-11",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 289210,
+        "type": "tmdb",
+        "title": "一见你就笑",
+        "description": "由李诞、杨迪、徐志胜与其他MC团组成新一届的“超开心见笑生”，每期飞行嘉宾根据嘉宾属性以不同身份进入节目，如插班生、隔壁校友、代课老师等。通过TALKING、主题游戏互动、盲盒舞台等综艺环节来进行单期相关剧宣主题的内容呈现。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dLidSaIRBqKwu5mBBWla0noPmU4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7pocRZp6wDgJtYzxgztEN8UYdmn.jpg",
+        "releaseDate": "2025-04-18",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1431,28 +1442,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 274658,
-        "type": "tmdb",
-        "title": "国医少年志",
-        "description": "全国首档中医文化明星体验真人秀，由徐璐、夏之光、王勉、敖子逸、王艺瑾作为节目嘉宾。娱乐圈五子拜师当代名医，一路研学旅行开启养生自救局，直观领略中医药文化的深厚底蕴，从而激发年轻人对中医药的兴趣和热爱，让更多的年轻人爱上中医药。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cOYStvQ2UJFG6JTrR7Ks3pfBFtq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hOEHveJisVORbxJO25HqslTwNgs.jpg",
-        "releaseDate": "2024-10-18",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 109096,
-        "type": "tmdb",
-        "title": "密室大逃脱大神版",
-        "description": "芒果TV超大型密室逃脱真人秀《密室大逃脱》的官方定制衍生节目。节目邀请大神玩家进入全封闭的未知密室，根据线索进行推理解密，开启全新空间，还原故事背景，直至全员逃脱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hAMORqnXSHNzQbnJ6gykTddW2gQ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/f9AEnKHApSKiJ6GAKFcgdCI6fZ.jpg",
-        "releaseDate": "2019-04-01",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 296251,
         "type": "tmdb",
         "title": "旅行2+N",
@@ -1464,14 +1453,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 246475,
+        "id": 109096,
         "type": "tmdb",
-        "title": "再次心动",
-        "description": "离婚男女8人入住爱情公社，通过大数据分析匹配第一次约会对象；通过设计一系列问题以及相对应的互动设计，为嘉宾寻找人群当中最有可能彼此欣赏的异性伙伴。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/n7PdQ3edibWNQMrMUyA6oX6Cw9u.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lo0sBn8ojlj9OwLNtVYvHS9CXpV.jpg",
-        "releaseDate": "2024-02-04",
-        "rating": 0,
+        "title": "密室大逃脱大神版",
+        "description": "芒果TV超大型密室逃脱真人秀《密室大逃脱》的官方定制衍生节目。节目邀请大神玩家进入全封闭的未知密室，根据线索进行推理解密，开启全新空间，还原故事背景，直至全员逃脱。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hAMORqnXSHNzQbnJ6gykTddW2gQ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/f9AEnKHApSKiJ6GAKFcgdCI6fZ.jpg",
+        "releaseDate": "2019-04-01",
+        "rating": 8,
         "mediaType": "tv"
       }
     ]
