@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-05T01:09:06.599940",
+  "last_updated": "2025-08-05T06:23:12.244313",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -61,7 +61,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -131,9 +133,7 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视台球",
@@ -299,7 +299,7 @@
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0127_1.m3u8"
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
       ]
     },
     {
@@ -336,7 +336,9 @@
       "name": "海南卫视",
       "description": "海南广播电视总台旗下的卫星频道，以立足海南，面向世界为宗旨，聚焦海南自贸港建设，向全球观众展示一个开放、绿色、现代的海南。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-海南卫视.png,lfo-center,l-end,l-end/海南卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://nn.7x9d.cn/地方台8563/海南.php?id=hnws"
+      ]
     },
     {
       "name": "厦门卫视",
@@ -438,7 +440,9 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
+      ]
     },
     {
       "name": "福建旅游",
