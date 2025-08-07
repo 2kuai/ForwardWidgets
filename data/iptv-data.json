@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-06T18:21:15.522751",
+  "last_updated": "2025-08-07T01:06:36.999930",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -101,9 +101,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -174,8 +172,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
     {
@@ -365,8 +363,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
@@ -374,8 +372,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
     {
@@ -430,9 +428,7 @@
       "name": "湖南爱晚",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_3.5,bg-848484,lfo-center,l-image,i-湖南爱晚.png,lfo-center,l-end,l-end/湖南爱晚.png",
-      "childItems": [
-        "http://p2.vzan.com/527645544/149039617847513156/live.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "河南都市",
