@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-09T12:23:23.751872",
+  "last_updated": "2025-08-09T18:19:55.873408",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -99,9 +99,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0013_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -365,8 +363,7 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
       ]
     },
     {
@@ -382,9 +379,7 @@
       "name": "浙江经济",
       "description": "浙江经济频道是浙江广播电视集团旗下的专业财经频道，聚焦浙江经济发展动态，提供权威财经资讯、市场分析和商业报道，助力企业和投资者把握经济趋势。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江经济生活.png,lfo-center,l-end,l-end/浙江经济生活.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江少儿",
@@ -430,7 +425,9 @@
       "name": "湖南爱晚",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_3.5,bg-848484,lfo-center,l-image,i-湖南爱晚.png,lfo-center,l-end,l-end/湖南爱晚.png",
-      "childItems": []
+      "childItems": [
+        "http://p2.vzan.com/527645544/149039617847513156/live.m3u8"
+      ]
     },
     {
       "name": "河南都市",
