@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-12T12:25:30.440619",
+  "last_updated": "2025-08-12T18:20:46.237130",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -294,9 +294,7 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "东南卫视",
@@ -308,9 +306,7 @@
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "贵州卫视",
@@ -398,17 +394,13 @@
       "name": "浙江民生",
       "description": "浙江广播电视集团旗下的地面电视频道，以服务百姓生活为宗旨，关注民生热点，提供实用资讯，搭建政府与群众沟通的桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江民生休闲.png,lfo-center,l-end,l-end/浙江民生休闲.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江教科",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江教科影视.png,lfo-center,l-end,l-end/浙江教科影视.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江国际",
