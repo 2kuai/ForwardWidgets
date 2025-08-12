@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-12T14:16:36.237+08:00",
+  "last_updated": "2025-08-12T20:20:01.076+08:00",
   "tv": {
     "全网": [
       {
@@ -65,7 +65,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
         "releaseDate": "2025-06-26",
-        "rating": 8.75,
+        "rating": 8.8,
         "mediaType": "tv"
       },
       {
@@ -80,25 +80,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 278870,
+        "id": 270432,
         "type": "tmdb",
-        "title": "你的降临",
-        "description": "高中女生安真真意外通过手机与来自2024年的未来少年“老江”取得联系，在“老江”的指引下接近转校生江陵，试图改变命运。在现实与未来交错的危机中，安真真和江陵的命运紧密相连，她在绝望边缘中寻找扭转结局的希望。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rCJZ6aMr8tu8O1lksi0FQc7rLNQ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/psL0Qm1hDqMJZiR3aJoBLlVm0kb.jpg",
-        "releaseDate": "2025-08-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252320,
-        "type": "tmdb",
-        "title": "临江仙",
-        "description": "四灵仙尊花如月与大成玄尊白九思本是同源共生的一对仙侣，却因误会反目成仇，经过决裂、丧子、被虐杀后，花如月与白九思在爱恨中苦苦挣扎，却发现自己其实早已卷入了另一场更大的阴谋之中。大难临头，两人放下个人恩怨，并肩作战，共同拯救苍生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8N32r6LzLIPjKv8Y8cxNB11qQG4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jHbPcwrjJzX74Hrkuy5LWxEER1E.jpg",
-        "releaseDate": "2025-06-06",
-        "rating": 8.3,
+        "title": "我在顶峰等你",
+        "description": "上一世，顾雪茭曾因恋爱脑而高考失利，职场打拼多年，归来仍是底层外包人员，还首当其冲地成为了“黑心老板”蔺之华的裁员目标。顾雪茭找蔺之华理论，意外重生回到高三那年。有机会重新开局，顾雪茭吸取前世教训，痛定思痛，将学习作为人生第一要务，由恋爱脑扭转为事业脑，在爆改人生的同时，还共同成就一段双向奔赴、互为变量的甜美爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tSUKkKWgHpxJr73GOJC9BfKtd0D.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2wBDMJjSdDo49WnNERpAQdr6zRP.jpg",
+        "releaseDate": "2025-08-07",
+        "rating": 9.5,
         "mediaType": "tv"
       },
       {
@@ -110,6 +99,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/lrqnXtsC6pSgsz3F4ejsqqLZlyS.jpg",
         "releaseDate": "2025-07-31",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278870,
+        "type": "tmdb",
+        "title": "你的降临",
+        "description": "高中女生安真真意外通过手机与来自2024年的未来少年“老江”取得联系，在“老江”的指引下接近转校生江陵，试图改变命运。在现实与未来交错的危机中，安真真和江陵的命运紧密相连，她在绝望边缘中寻找扭转结局的希望。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rCJZ6aMr8tu8O1lksi0FQc7rLNQ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/psL0Qm1hDqMJZiR3aJoBLlVm0kb.jpg",
+        "releaseDate": "2025-08-08",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -126,6 +126,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 270432,
+        "type": "tmdb",
+        "title": "我在顶峰等你",
+        "description": "上一世，顾雪茭曾因恋爱脑而高考失利，职场打拼多年，归来仍是底层外包人员，还首当其冲地成为了“黑心老板”蔺之华的裁员目标。顾雪茭找蔺之华理论，意外重生回到高三那年。有机会重新开局，顾雪茭吸取前世教训，痛定思痛，将学习作为人生第一要务，由恋爱脑扭转为事业脑，在爆改人生的同时，还共同成就一段双向奔赴、互为变量的甜美爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tSUKkKWgHpxJr73GOJC9BfKtd0D.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2wBDMJjSdDo49WnNERpAQdr6zRP.jpg",
+        "releaseDate": "2025-08-07",
+        "rating": 9.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 252640,
         "type": "tmdb",
         "title": "藏海传",
@@ -134,17 +145,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
         "releaseDate": "2025-05-18",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 270432,
-        "type": "tmdb",
-        "title": "我在顶峰等你",
-        "description": "上一世，顾雪茭曾因恋爱脑而高考失利，职场打拼多年，归来仍是底层外包人员，还首当其冲地成为了“黑心老板”蔺之华的裁员目标。顾雪茭找蔺之华理论，意外重生回到高三那年。有机会重新开局，顾雪茭吸取前世教训，痛定思痛，将学习作为人生第一要务，由恋爱脑扭转为事业脑，在爆改人生的同时，还共同成就一段双向奔赴、互为变量的甜美爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tSUKkKWgHpxJr73GOJC9BfKtd0D.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/u0sBF5ZMMExLYcrxB5MyarDVnRf.jpg",
-        "releaseDate": "2025-08-07",
-        "rating": 9.5,
         "mediaType": "tv"
       },
       {
@@ -267,7 +267,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
         "releaseDate": "2025-06-26",
-        "rating": 8.75,
+        "rating": 8.8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 252568,
+        "type": "tmdb",
+        "title": "暗潮缉凶",
+        "description": "曾经的国营大厂旭日厂内，一具断足女尸在废弃污水池中被意外发现，死者是职工子女沈小舟。外丧内热的中年刑警连海平和毛躁热血的菜鸟警察石强锋意外成为搭档，虽互有嫌隙但须联手寻找真凶。随着一个个嫌疑人进入调查视野，二人发现，原来在外表白衣胜雪的大学生受害者背后，竟触及到了许多出人意料的社会层面。与此同时，一桩与两人牵绊至深的陈年旧案也逐渐浮出水面，连海平与石强锋的关系因“一桩旧案”、“一段往事”变得扑朔迷离。案件悬而未决之际，断足女尸案接连发生，给往日充满了烟火气的旭日厂蒙上了一层阴影。连海平也警觉地发现有一股势力在刻意引导着警方的调查方向，迷雾似见光明，暗潮早已涌动。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8rWLq4ri7j0Z86ALmlZz74XgEmo.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lrqnXtsC6pSgsz3F4ejsqqLZlyS.jpg",
+        "releaseDate": "2025-07-31",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -293,17 +304,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 252568,
-        "type": "tmdb",
-        "title": "暗潮缉凶",
-        "description": "曾经的国营大厂旭日厂内，一具断足女尸在废弃污水池中被意外发现，死者是职工子女沈小舟。外丧内热的中年刑警连海平和毛躁热血的菜鸟警察石强锋意外成为搭档，虽互有嫌隙但须联手寻找真凶。随着一个个嫌疑人进入调查视野，二人发现，原来在外表白衣胜雪的大学生受害者背后，竟触及到了许多出人意料的社会层面。与此同时，一桩与两人牵绊至深的陈年旧案也逐渐浮出水面，连海平与石强锋的关系因“一桩旧案”、“一段往事”变得扑朔迷离。案件悬而未决之际，断足女尸案接连发生，给往日充满了烟火气的旭日厂蒙上了一层阴影。连海平也警觉地发现有一股势力在刻意引导着警方的调查方向，迷雾似见光明，暗潮早已涌动。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8rWLq4ri7j0Z86ALmlZz74XgEmo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lrqnXtsC6pSgsz3F4ejsqqLZlyS.jpg",
-        "releaseDate": "2025-07-31",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 282589,
         "type": "tmdb",
         "title": "浴血荣光",
@@ -326,14 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 82762,
+        "id": 252579,
         "type": "tmdb",
-        "title": "最亲爱的你",
-        "description": "该剧讲述五个性格、想法以及恋爱风格都大不相同的女大学生，在share house里一起生活的所发生的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/alaTmtIQTWWKy7S0t3DqAfAlIqv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/coFwkdHtIxbcu9cnP1QU9eXg1LX.jpg",
-        "releaseDate": "2018-07-13",
-        "rating": 10,
+        "title": "正当防卫",
+        "description": "市检察院资深检察官段鸿山在办理“被家暴女性杀夫”案件时，省检察院青年检察官方灵渊被任派协助办案。两人办案过程中，发现案件与十四年前段鸿山办理的李沐风、梅筝、江婷经历的“校园防卫过当案”息息相关，二人以事实为根据，以法律为准绳，综合考量“天理、人情、国法”，最终给予案件准确定性的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aN5zvCICkWb8YaC8Se4db3ULN4n.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8gs6DdpOVVs8v4zWUdnI6mGJERQ.jpg",
+        "releaseDate": "2025-07-09",
+        "rating": 5.5,
         "mediaType": "tv"
       }
     ],
@@ -394,17 +394,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 257010,
-        "type": "tmdb",
-        "title": "桃花映江山",
-        "description": "“当朝左相”沈在野因他人计谋被迫迎娶和亲公主姜桃花，沈在野表面上是一个奸佞丞相，实则一心为国为民为天下；姜桃花为保小命绝境求生，两人互斗过，合作过，在一次次的危机中暗生情愫……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cQkTe3Qq0JKQKp8yEZCvNmzkJZi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7wOhqnvObBKj13dQnOD5J4tkkvK.jpg",
-        "releaseDate": "2025-06-25",
-        "rating": 7.7,
-        "mediaType": "tv"
-      },
-      {
         "id": 220269,
         "type": "tmdb",
         "title": "折腰",
@@ -416,14 +405,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 296834,
+        "id": 257010,
         "type": "tmdb",
-        "title": "华山论剑",
-        "description": "以金庸先生经典著作及其蕴含的侠义精神为根基，以创新形式谱写金庸江湖的恢弘篇章。以经典为原点延续五绝前史，于原著留白处补写江湖往事。该剧分为《九阴真经》《东邪西毒》《南帝北丐》《五绝争锋》四个单元。《九阴真经》单元讲述了海商之女梅若华，少时遭奸人灭门，自此背负血海深仇。她因缘际会拜师桃花岛，从此改名梅超风，并与师兄陈玄风暗生情愫。梅超风一心想修习绝世武功复仇，误以为黄药师私藏《九阴真经》不愿传授，梅陈二人情根深种，定情盟誓，决定携手盗取经书，叛逃出岛。二人练成九阴白骨爪，黑风双煞，一战成名，却注定无法长相厮守。《东邪西毒》单元讲述了黄药师、欧阳锋，两个初涉江湖之怪人，一个逍遥近似仙，一个天真如孩童，亦敌亦友，亦正亦邪，他们用自己的规则打破江湖秩序，掀起一场云谲波诡的乱世纷争。《南帝北丐》单元讲述了逃婚出宫的大理世子段智兴与丐帮弟子洪七一见如故，乌蛮女子依火误将洪七当作和亲对象，一场乌龙成就命定缘分。洪七因缘际会习得神功，成为丐帮帮主，昔日父辈深仇却引兄弟反目，“一阳指”对上“降龙十八掌”，石破天惊 ！《五绝争锋》单元讲述了绝世武功秘籍《九阴真经》重现，引江湖厮杀，少女葭兰意外成为寻经“活地图”，遭各路人马穷追不舍，更结识黄药师、欧阳锋、段智兴与洪七等当世高手。众人约定华山论剑，天下第一者得《九阴真经》，最终全真教王重阳力压群雄。此时幕后黑手现身，一场捍卫武林正义的决战就此引发。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3Ja34PSTGolQdZnyAp7R2odiwe7.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9q7uryMCmAun2bGXoP3Liw24mpz.jpg",
-        "releaseDate": "2025-07-26",
-        "rating": 6.875,
+        "title": "桃花映江山",
+        "description": "“当朝左相”沈在野因他人计谋被迫迎娶和亲公主姜桃花，沈在野表面上是一个奸佞丞相，实则一心为国为民为天下；姜桃花为保小命绝境求生，两人互斗过，合作过，在一次次的危机中暗生情愫……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/cQkTe3Qq0JKQKp8yEZCvNmzkJZi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7wOhqnvObBKj13dQnOD5J4tkkvK.jpg",
+        "releaseDate": "2025-06-25",
+        "rating": 7.7,
         "mediaType": "tv"
       },
       {
@@ -438,14 +427,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 296834,
+        "id": 282589,
         "type": "tmdb",
-        "title": "华山论剑",
-        "description": "以金庸先生经典著作及其蕴含的侠义精神为根基，以创新形式谱写金庸江湖的恢弘篇章。以经典为原点延续五绝前史，于原著留白处补写江湖往事。该剧分为《九阴真经》《东邪西毒》《南帝北丐》《五绝争锋》四个单元。《九阴真经》单元讲述了海商之女梅若华，少时遭奸人灭门，自此背负血海深仇。她因缘际会拜师桃花岛，从此改名梅超风，并与师兄陈玄风暗生情愫。梅超风一心想修习绝世武功复仇，误以为黄药师私藏《九阴真经》不愿传授，梅陈二人情根深种，定情盟誓，决定携手盗取经书，叛逃出岛。二人练成九阴白骨爪，黑风双煞，一战成名，却注定无法长相厮守。《东邪西毒》单元讲述了黄药师、欧阳锋，两个初涉江湖之怪人，一个逍遥近似仙，一个天真如孩童，亦敌亦友，亦正亦邪，他们用自己的规则打破江湖秩序，掀起一场云谲波诡的乱世纷争。《南帝北丐》单元讲述了逃婚出宫的大理世子段智兴与丐帮弟子洪七一见如故，乌蛮女子依火误将洪七当作和亲对象，一场乌龙成就命定缘分。洪七因缘际会习得神功，成为丐帮帮主，昔日父辈深仇却引兄弟反目，“一阳指”对上“降龙十八掌”，石破天惊 ！《五绝争锋》单元讲述了绝世武功秘籍《九阴真经》重现，引江湖厮杀，少女葭兰意外成为寻经“活地图”，遭各路人马穷追不舍，更结识黄药师、欧阳锋、段智兴与洪七等当世高手。众人约定华山论剑，天下第一者得《九阴真经》，最终全真教王重阳力压群雄。此时幕后黑手现身，一场捍卫武林正义的决战就此引发。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3Ja34PSTGolQdZnyAp7R2odiwe7.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9q7uryMCmAun2bGXoP3Liw24mpz.jpg",
-        "releaseDate": "2025-07-26",
-        "rating": 6.875,
+        "title": "浴血荣光",
+        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7Wnf66DWU5sFjKoTjDLFztwmyh4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1NsOC9Pfi775tvAONCwsDkLVB20.jpg",
+        "releaseDate": "2025-07-15",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 273120,
+        "type": "tmdb",
+        "title": "她的生存之道",
+        "description": "刘盐，一个失业的退役拳手，重新出发，凭借她不服输、不妥协、抗争到底的精神，和陆天驰的支持与守护，在“拳击”和“餐饮”这两个男人主导的领域中都打出自己的天地，完成了人生的逆袭。剧中美食主题贯穿始终，展现多道菜品，并在北京、澳门、珠海等多地取景，展开一场别开生面的饕餮之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zjPQFycU4dckS5YJ00KjkcLl4AE.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uh96jA2d5tmox9RKV0UDmnMrVey.jpg",
+        "releaseDate": "2025-07-21",
+        "rating": 8,
         "mediaType": "tv"
       }
     ],
@@ -614,7 +614,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/5rtWTNpkejLc17kDUyxBWTBxBxL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
         "releaseDate": "2015-02-08",
-        "rating": 8.696,
+        "rating": 8.7,
         "mediaType": "tv"
       },
       {
@@ -875,14 +875,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 283161,
+        "id": 97043,
         "type": "tmdb",
-        "title": "千秋令",
-        "description": "正魔争斗千年。正道领袖风月剑尊、魔教星主凤行天生死决战。两人的后辈沈少游、凤离雪却因机缘巧合结成好友。为保护师父，沈少游失手将离雪推下悬崖。离雪被魔教第一高手重华救起带走。两人的命运从此改写。离雪将成为魔教教主。而沈少游却将成为正道的盟主，注定了要相遇相杀。历经磨难后，两人感受到彼此的真心，最终再度携手。无论出身正邪，无论成长于仙境魔域，只有一件事始终不变：心中的正义与爱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3sqcLBXvO6RidRuRtvZPATgIYQm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qJEnaoiX1AN6RuptbyVKBPPK8Bt.jpg",
-        "releaseDate": "2025-04-08",
-        "rating": 7,
+        "title": "家有儿女初长成",
+        "description": "25岁的姐姐江南（张晔子 饰）和22岁的弟弟江北（张一山 饰）长大成人，他们的父母却离婚了，楼上楼下两套公寓一分为二，江南跟着母亲吴琼（王琳 饰）住到了楼上的公寓，江北跟着父亲江国立（周小斌 饰）住在了楼下的公寓。很快，50岁的江国立娶了35岁的健身教练戴玲玲（宋宁 饰）为妻，还带来了一个8岁的孩子童童（彭艺博 饰）。49岁的吴琼则嫁给了年轻时就崇拜的演员杜伟（高亚麟 饰），杜伟也有一个12岁的女儿阳阳（郭芯如 饰）。四个孩子没少让父母操心。而在孩子眼里，父母也对他们过多管制，给他们增添了很多烦恼。剧情围绕着这两个重组家庭展开，极具代表性的父母，四个性情迥异的子女，本来完全没有关联的几组人，重新组成了大家庭，家长与孩子，孩子与孩子，烦恼困扰与矛盾层出，而这个四分五裂的家庭也在处理这些烦恼困扰与矛盾的过程中慢慢走向融合，演绎着一段段复杂而有趣的日常生活和情感世界的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1hBvraVjdRf2FszyDW6flrbACV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4qgKC43hN4o0GuSFHyneJ8gWLWf.jpg",
+        "releaseDate": "2018-05-29",
+        "rating": 0,
         "mediaType": "tv"
       }
     ]
@@ -934,17 +934,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 293196,
-        "type": "tmdb",
-        "title": "我赞红人",
-        "description": "跨平台自媒体创作者竞技真人秀节目《我赞红人》，全网顶尖红人首度齐聚，共同迎接六大赛段考验，层层筛选，层层晋级，比拼红人综合实力，展现新时代生活风貌。最终，将有一位最具优质创作力和正向影响力的红人脱颖而出，成为“年度红人”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 155213,
         "type": "tmdb",
         "title": "麻花特开心",
@@ -953,6 +942,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
         "releaseDate": "2022-01-09",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 293196,
+        "type": "tmdb",
+        "title": "我赞红人",
+        "description": "跨平台自媒体创作者竞技真人秀节目《我赞红人》，全网顶尖红人首度齐聚，共同迎接六大赛段考验，层层筛选，层层晋级，比拼红人综合实力，展现新时代生活风貌。最终，将有一位最具优质创作力和正向影响力的红人脱颖而出，成为“年度红人”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
+        "releaseDate": "",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -967,29 +967,18 @@
         "mediaType": "tv"
       },
       {
-        "id": 296217,
+        "id": 261471,
         "type": "tmdb",
-        "title": "一饭封神",
-        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
-        "releaseDate": "2025-07-17",
-        "rating": 10,
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7xWwBsC9myQWqANb1NOF5nlsmsT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
+        "releaseDate": "2024-08-20",
+        "rating": 4.75,
         "mediaType": "tv"
       }
     ],
     "优酷": [
-      {
-        "id": 293196,
-        "type": "tmdb",
-        "title": "我赞红人",
-        "description": "跨平台自媒体创作者竞技真人秀节目《我赞红人》，全网顶尖红人首度齐聚，共同迎接六大赛段考验，层层筛选，层层晋级，比拼红人综合实力，展现新时代生活风貌。最终，将有一位最具优质创作力和正向影响力的红人脱颖而出，成为“年度红人”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
       {
         "id": 155213,
         "type": "tmdb",
@@ -999,6 +988,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
         "releaseDate": "2022-01-09",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 293196,
+        "type": "tmdb",
+        "title": "我赞红人",
+        "description": "跨平台自媒体创作者竞技真人秀节目《我赞红人》，全网顶尖红人首度齐聚，共同迎接六大赛段考验，层层筛选，层层晋级，比拼红人综合实力，展现新时代生活风貌。最终，将有一位最具优质创作力和正向影响力的红人脱颖而出，成为“年度红人”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
+        "releaseDate": "",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1103,17 +1103,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 98031,
-        "type": "tmdb",
-        "title": "奔跑吧兄弟",
-        "description": "《奔跑吧兄弟》是中国浙江卫视引进韩国SBS电视台制作的真人实境秀节目，从2014年10月开始播出，原版为韩国SBS电视台的《Running Man》。\n\n《奔跑吧兄弟》的游戏设定为成员与嘉宾前往各个任务地点进行前期任务，由胜出的队伍或个人获得对最终任务有利之提示或权力，最后在最终任务地点完成最终任务。最终任务游戏沿用《Running Man》的“撕名牌”环节。\n\n第五季开始，因禁韩令影响，节目更名为《奔跑吧》（Keep Running），赛制亦稍作少量修改。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jOl12DTFiMcp9ga2KaEKwt5H8oo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/17rOo5OX6uDazY7sL4S9Xmp51A2.jpg",
-        "releaseDate": "2014-10-10",
-        "rating": 5.8,
-        "mediaType": "tv"
-      },
-      {
         "id": 78986,
         "type": "tmdb",
         "title": "你好，旧时光",
@@ -1122,6 +1111,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/o6SrILT37q2q3BaWgjqPsQONDtp.jpg",
         "releaseDate": "2017-11-08",
         "rating": 9.1,
+        "mediaType": "tv"
+      },
+      {
+        "id": 98031,
+        "type": "tmdb",
+        "title": "奔跑吧兄弟",
+        "description": "《奔跑吧兄弟》是中国浙江卫视引进韩国SBS电视台制作的真人实境秀节目，从2014年10月开始播出，原版为韩国SBS电视台的《Running Man》。\n\n《奔跑吧兄弟》的游戏设定为成员与嘉宾前往各个任务地点进行前期任务，由胜出的队伍或个人获得对最终任务有利之提示或权力，最后在最终任务地点完成最终任务。最终任务游戏沿用《Running Man》的“撕名牌”环节。\n\n第五季开始，因禁韩令影响，节目更名为《奔跑吧》（Keep Running），赛制亦稍作少量修改。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jOl12DTFiMcp9ga2KaEKwt5H8oo.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/17rOo5OX6uDazY7sL4S9Xmp51A2.jpg",
+        "releaseDate": "2014-10-10",
+        "rating": 5.8,
         "mediaType": "tv"
       },
       {
@@ -1204,17 +1204,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 296217,
-        "type": "tmdb",
-        "title": "一饭封神",
-        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
-        "releaseDate": "2025-07-17",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -1223,6 +1212,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8pIkVoa4iBiDOuSDe9QjQIdSTUB.jpg",
         "releaseDate": "2024-08-20",
         "rating": 4.75,
+        "mediaType": "tv"
+      },
+      {
+        "id": 296217,
+        "type": "tmdb",
+        "title": "一饭封神",
+        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
+        "releaseDate": "2025-07-17",
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -1398,13 +1398,13 @@
     "PPTV": [],
     "芒果TV": [
       {
-        "id": 109793,
+        "id": 297796,
         "type": "tmdb",
-        "title": "旭日背后",
-        "description": "　　内向的秀娟，坐车都不敢喊停，但是在一个出租车司机的帮助下，终于打破樊篱，敢于讲出自己心中所想...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/b0dduBvGEclRl66qrZsspp11LN9.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hmkp2IzmSsEztQcVYmZkeVGCRpq.jpg",
-        "releaseDate": "1988-03-07",
+        "title": "花儿与少年·同心季",
+        "description": "全方位记录花少团在共建“一带一路”合作项目、中外民间交流、中企海外发展等多维场景下的真实体验，生动诠释“同舟共济·同心协力”的时代主题，呈现中国与世界共建共享、命运与共的青春故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eC7L4Os8B8vCFPj68D60Jxh85Pp.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-08-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1420,6 +1420,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 109793,
+        "type": "tmdb",
+        "title": "旭日背后",
+        "description": "　　内向的秀娟，坐车都不敢喊停，但是在一个出租车司机的帮助下，终于打破樊篱，敢于讲出自己心中所想...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/b0dduBvGEclRl66qrZsspp11LN9.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hmkp2IzmSsEztQcVYmZkeVGCRpq.jpg",
+        "releaseDate": "1988-03-07",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 89861,
         "type": "tmdb",
         "title": "密室大逃脱",
@@ -1431,25 +1442,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 296441,
+        "id": 109096,
         "type": "tmdb",
-        "title": "你就宠Ta吧",
-        "description": "首档关注人宠新型关系旅行微综，由敖子逸、余承恩、颜安、沙一汀四位嘉宾组成宠ta团，携带自己的宠物集结宠物友好城市，入住宠ta民宿。以“文旅推介官”身份前往深圳、长沙。创建专属账号，探寻时下热议的人宠话题，寻找有人味、有宠心、有干货的宠物友好路线，呈现当代人宠共融、共享、共乐的GAP之旅！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6LcHbjIZtXzzMPel3oVbSMXLKWV.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uZkaGIJW4b3tnrPf5ZvYW2oLT2D.jpg",
-        "releaseDate": "2025-07-21",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 297796,
-        "type": "tmdb",
-        "title": "花儿与少年·同心季",
-        "description": "全方位记录花少团在共建“一带一路”合作项目、中外民间交流、中企海外发展等多维场景下的真实体验，生动诠释“同舟共济·同心协力”的时代主题，呈现中国与世界共建共享、命运与共的青春故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eC7L4Os8B8vCFPj68D60Jxh85Pp.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-08-09",
-        "rating": 0,
+        "title": "密室大逃脱大神版",
+        "description": "芒果TV超大型密室逃脱真人秀《密室大逃脱》的官方定制衍生节目。节目邀请大神玩家进入全封闭的未知密室，根据线索进行推理解密，开启全新空间，还原故事背景，直至全员逃脱。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hAMORqnXSHNzQbnJ6gykTddW2gQ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/f9AEnKHApSKiJ6GAKFcgdCI6fZ.jpg",
+        "releaseDate": "2019-04-01",
+        "rating": 8,
         "mediaType": "tv"
       }
     ]
