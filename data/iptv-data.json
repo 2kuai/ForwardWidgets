@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-12T18:20:46.237130",
+  "last_updated": "2025-08-13T01:01:59.163136",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -394,13 +394,17 @@
       "name": "浙江民生",
       "description": "浙江广播电视集团旗下的地面电视频道，以服务百姓生活为宗旨，关注民生热点，提供实用资讯，搭建政府与群众沟通的桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江民生休闲.png,lfo-center,l-end,l-end/浙江民生休闲.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江教科",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江教科影视.png,lfo-center,l-end,l-end/浙江教科影视.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江国际",
