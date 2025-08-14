@@ -1,13 +1,11 @@
 {
-  "last_updated": "2025-08-14T12:27:39.857484",
+  "last_updated": "2025-08-14T18:20:07.702444",
   "cctv": [
     {
       "name": "CCTV-1 综合",
       "description": "中国中央电视台综合频道，是中央广播电视总台拥有的一条以普通话广播为主的综合节目频道，中国中央电视台的主频道，为中国大陆发展最早、覆盖最广、影响力最大的电视频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV1.png,lfo-center,l-end,l-end/CCTV1.png",
-      "childItems": [
-        "http://8.138.7.223/tv/ptbtv.php?id=27"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-2 财经",
@@ -85,9 +83,7 @@
       "name": "CCTV-11 戏曲",
       "description": "中国中央电视台戏曲频道，是中国唯一的国家级专业戏曲电视频道，致力于传承和弘扬中国传统戏曲艺术，播出京剧、越剧、豫剧、黄梅戏等各类戏曲节目。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV11.png,lfo-center,l-end,l-end/CCTV11.png",
-      "childItems": [
-        "http://8.138.7.223/tv/ptbtv.php?id=28"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-12 社会与法",
@@ -372,8 +368,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
       ]
     },
     {
