@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-16T12:23:02.370309",
+  "last_updated": "2025-08-16T18:16:43.110257",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,7 +59,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -125,19 +127,25 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
+      ]
     },
     {
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
+      ]
     },
     {
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.2,h-bh_mul_3.7,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
+      ]
     },
     {
       "name": "CCTV 世界地理",
@@ -286,7 +294,9 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
+      ]
     },
     {
       "name": "东南卫视",
@@ -298,7 +308,9 @@
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+      ]
     },
     {
       "name": "贵州卫视",
@@ -353,7 +365,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
@@ -369,7 +382,9 @@
       "name": "浙江经济",
       "description": "浙江经济频道是浙江广播电视集团旗下的专业财经频道，聚焦浙江经济发展动态，提供权威财经资讯、市场分析和商业报道，助力企业和投资者把握经济趋势。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江经济生活.png,lfo-center,l-end,l-end/浙江经济生活.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江少儿",
