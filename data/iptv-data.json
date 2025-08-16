@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-16T00:59:15.226744",
+  "last_updated": "2025-08-16T06:18:42.509598",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,9 +59,7 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-8 电视剧",
@@ -97,9 +95,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -250,9 +246,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
@@ -297,7 +291,8 @@
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
       "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8",
+        "http://39.164.160.249:9901/tsfile/live/0127_1.m3u8"
       ]
     },
     {
