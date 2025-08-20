@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-20T20:19:17.361+08:00",
+  "last_updated": "2025-08-21T02:14:37.108+08:00",
   "tv": {
     "全网": [
       {
@@ -14,17 +14,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 240686,
-        "type": "tmdb",
-        "title": "锦月如歌",
-        "description": "该剧改编自人气小说《重生之女将星》，为保家族爵位，何家长女何晏被迫戴上面具，扮做何家嫡长子“何如非”。少年时何晏于贤昌馆初识天之骄子肖珏，后为摆脱家族命运，毅然离开学馆，奔赴沙场。多年后何晏荣归故里，却因兄长何如非回归被家族设计，何晏大难不死后转换身份，化身城门校尉女儿禾晏，女扮男装前往掖州投军，立志拿回属于自己的一切。禾晏结交了温润如玉的楚昭，更是与肖珏再次重逢。可肖珏怀疑禾晏是奸细，处处针对，反复试探，禾晏死抱肖珏大腿，并以掖州卫第一的成绩向肖珏证明了自己的能力。二人历经孙家事件、季阳王女事件、润都守城之战，几经生死，互通心意。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/zHy4pWFdJLzR4AkKcelpr20R3tN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jUxQ7Whost5Z6TkXjCKNs5dsOfa.jpg",
-        "releaseDate": "2025-08-06",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
         "id": 272485,
         "type": "tmdb",
         "title": "生万物",
@@ -32,6 +21,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/tj74qN7hRxIWTtypkqXPfmAvpop.jpg",
         "releaseDate": "2025-08-13",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 240686,
+        "type": "tmdb",
+        "title": "锦月如歌",
+        "description": "该剧改编自人气小说《重生之女将星》，为保家族爵位，何家长女何晏被迫戴上面具，扮做何家嫡长子“何如非”。少年时何晏于贤昌馆初识天之骄子肖珏，后为摆脱家族命运，毅然离开学馆，奔赴沙场。多年后何晏荣归故里，却因兄长何如非回归被家族设计，何晏大难不死后转换身份，化身城门校尉女儿禾晏，女扮男装前往掖州投军，立志拿回属于自己的一切。禾晏结交了温润如玉的楚昭，更是与肖珏再次重逢。可肖珏怀疑禾晏是奸细，处处针对，反复试探，禾晏死抱肖珏大腿，并以掖州卫第一的成绩向肖珏证明了自己的能力。二人历经孙家事件、季阳王女事件、润都守城之战，几经生死，互通心意。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zHy4pWFdJLzR4AkKcelpr20R3tN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jUxQ7Whost5Z6TkXjCKNs5dsOfa.jpg",
+        "releaseDate": "2025-08-06",
         "rating": 10,
         "mediaType": "tv"
       },
@@ -80,17 +80,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 240445,
-        "type": "tmdb",
-        "title": "朝雪录",
-        "description": "大理寺卿沈毅因卷入晋王案，全家惨遭灭门，其女沈莞借用秦府九娘子秦莞的身份逃到荆州。原本柔弱可欺的秦莞“性情大变”，不仅会治病救人，还能剖尸探案，顺带将秦府的伯母庶妹姨娘刁奴治得服服帖帖。探案期间秦莞结识了睿王世子燕迟，燕迟一心为晋王翻案，与秦莞为父昭雪的目标不谋而合，二人一起回京，途中联手破获了各式诡谲大案。回京后，一具意外发现的骸骨让晋王案得以重提，燕迟和秦莞一起慢慢接近了案件的真相，发现了皇宫里深藏的惊天秘密。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/u2eP0EswokvB2qZnU6Oy1Jz1Uva.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/trAzKgcmDMkNBFXSr9ucZcfzxgm.jpg",
-        "releaseDate": "2025-07-13",
-        "rating": 8.667,
-        "mediaType": "tv"
-      },
-      {
         "id": 292575,
         "type": "tmdb",
         "title": "扫毒风暴",
@@ -102,14 +91,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 48885,
+        "id": 240445,
         "type": "tmdb",
-        "title": "海上繁花",
-        "description": "杜晓苏是一名记者，采访中邂逅了医生邵振嵘，两人在接触之中相爱，但遭到邵振嵘母亲的强烈反对。邵振嵘失落之际随医疗队到山区义诊途中遭遇泥石流。杜晓苏为了从痛苦中解脱而拼命工作，最终体力不支住进医院。这一切被邵振嵘生前的发小雷宇峥看在眼里，他被杜晓苏的善良与执着感动着，默默地在暗中帮助她。这引起了富家女蒋繁绿的不满，她用各种理由在工作上刁难杜晓苏。林向远为了自己能够出人头地，联合宇天对手想方设法陷害雷宇峥，致使宇天集团险些破产。杜晓苏用计戳穿林向远的阴谋。在杜晓苏的帮助和鼓励下，雷宇铮重新振兴宇天，将林向远的阴谋一一化解，在这个过程中，杜晓苏和雷宇铮破除了两人之间的误会与偏见。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yxzNzexSVPXRRfY2LpB9jq2gOEs.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/m46wbyWFS9M3Lix7aMwWCm8sPyv.jpg",
-        "releaseDate": "2021-06-23",
-        "rating": 7.8,
+        "title": "朝雪录",
+        "description": "大理寺卿沈毅因卷入晋王案，全家惨遭灭门，其女沈莞借用秦府九娘子秦莞的身份逃到荆州。原本柔弱可欺的秦莞“性情大变”，不仅会治病救人，还能剖尸探案，顺带将秦府的伯母庶妹姨娘刁奴治得服服帖帖。探案期间秦莞结识了睿王世子燕迟，燕迟一心为晋王翻案，与秦莞为父昭雪的目标不谋而合，二人一起回京，途中联手破获了各式诡谲大案。回京后，一具意外发现的骸骨让晋王案得以重提，燕迟和秦莞一起慢慢接近了案件的真相，发现了皇宫里深藏的惊天秘密。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u2eP0EswokvB2qZnU6Oy1Jz1Uva.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/trAzKgcmDMkNBFXSr9ucZcfzxgm.jpg",
+        "releaseDate": "2025-07-13",
+        "rating": 8.667,
+        "mediaType": "tv"
+      },
+      {
+        "id": 253193,
+        "type": "tmdb",
+        "title": "书卷一梦",
+        "description": "当意外穿越进剧本世界，成为被反派男主用完即弃、凌虐致死的女主角应该怎么办？宋小鱼想都不用想，当然是能跑多远跑多远啊。然而无论如何努力，“剧情”始终都会将她推往男主南珩身边，上演一个又一个剧本名场面。而在这个纸片世界里，亦有无数个早就被“设定”好的人物角色。有人被困深宫重院，有人囿于高门家宅，有人为雌竞所累，有人因权势奔走。有人渴望爱与自由，却只能戴着镣铐惶惶起舞，有人做着扶摇直上的大鹏之梦，却在日复一日的束缚与平庸中被消磨着激情。这不仅是人怂怕死的躺平咸鱼宋小鱼和心狠手辣的夺命卷王南珩间的鏖战，更是每个“小我”纸片人与既定命运的战斗。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
+        "releaseDate": "2025-06-26",
+        "rating": 8.846,
         "mediaType": "tv"
       }
     ],
@@ -148,17 +148,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 270432,
-        "type": "tmdb",
-        "title": "我在顶峰等你",
-        "description": "上一世，顾雪茭曾因恋爱脑而高考失利，职场打拼多年，归来仍是底层外包人员，还首当其冲地成为了“黑心老板”蔺之华的裁员目标。顾雪茭找蔺之华理论，意外重生回到高三那年。有机会重新开局，顾雪茭吸取前世教训，痛定思痛，将学习作为人生第一要务，由恋爱脑扭转为事业脑，在爆改人生的同时，还共同成就一段双向奔赴、互为变量的甜美爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tSUKkKWgHpxJr73GOJC9BfKtd0D.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2wBDMJjSdDo49WnNERpAQdr6zRP.jpg",
-        "releaseDate": "2025-08-07",
-        "rating": 9.7,
-        "mediaType": "tv"
-      },
-      {
         "id": 261128,
         "type": "tmdb",
         "title": "樱桃琥珀",
@@ -170,14 +159,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 272937,
+        "id": 270432,
         "type": "tmdb",
-        "title": "以法之名",
-        "description": "本剧讲述了海东省检察院检察官洪亮、郑雅萍等人在复查东平市“万海黑社会性质组织案”过程中发现司法人员在案件中的徇私枉法。他们以举报线索为突破口，彻底打掉了背后的黑恶势力，同时查办司法工作人员的职务犯罪。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yXf1VPIHJFxuR4dvovjz3oaFwNm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aPh1sDbWRq7WiZM78rPsCe9HvSe.jpg",
-        "releaseDate": "2025-06-24",
-        "rating": 8,
+        "title": "我在顶峰等你",
+        "description": "上一世，顾雪茭曾因恋爱脑而高考失利，职场打拼多年，归来仍是底层外包人员，还首当其冲地成为了“黑心老板”蔺之华的裁员目标。顾雪茭找蔺之华理论，意外重生回到高三那年。有机会重新开局，顾雪茭吸取前世教训，痛定思痛，将学习作为人生第一要务，由恋爱脑扭转为事业脑，在爆改人生的同时，还共同成就一段双向奔赴、互为变量的甜美爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tSUKkKWgHpxJr73GOJC9BfKtd0D.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2wBDMJjSdDo49WnNERpAQdr6zRP.jpg",
+        "releaseDate": "2025-08-07",
+        "rating": 9.7,
         "mediaType": "tv"
       },
       {
@@ -189,6 +178,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/rXWd3WKDfyjU0sPEa2MjLNJwEsT.jpg",
         "releaseDate": "2025-06-08",
         "rating": 8.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 272937,
+        "type": "tmdb",
+        "title": "以法之名",
+        "description": "本剧讲述了海东省检察院检察官洪亮、郑雅萍等人在复查东平市“万海黑社会性质组织案”过程中发现司法人员在案件中的徇私枉法。他们以举报线索为突破口，彻底打掉了背后的黑恶势力，同时查办司法工作人员的职务犯罪。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yXf1VPIHJFxuR4dvovjz3oaFwNm.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/aPh1sDbWRq7WiZM78rPsCe9HvSe.jpg",
+        "releaseDate": "2025-06-24",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -221,7 +221,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/7KFlApfTLNMNh0y5Zp1ufsgfN0J.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/tWb81lXOBUQoyavNzXrp11ss6GS.jpg",
         "releaseDate": "2024-11-17",
-        "rating": 7.4,
+        "rating": 7.38,
         "mediaType": "tv"
       }
     ],
@@ -304,14 +304,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 252568,
+        "id": 233969,
         "type": "tmdb",
-        "title": "暗潮缉凶",
-        "description": "曾经的国营大厂旭日厂内，一具断足女尸在废弃污水池中被意外发现，死者是职工子女沈小舟。外丧内热的中年刑警连海平和毛躁热血的菜鸟警察石强锋意外成为搭档，虽互有嫌隙但须联手寻找真凶。随着一个个嫌疑人进入调查视野，二人发现，原来在外表白衣胜雪的大学生受害者背后，竟触及到了许多出人意料的社会层面。与此同时，一桩与两人牵绊至深的陈年旧案也逐渐浮出水面，连海平与石强锋的关系因“一桩旧案”、“一段往事”变得扑朔迷离。案件悬而未决之际，断足女尸案接连发生，给往日充满了烟火气的旭日厂蒙上了一层阴影。连海平也警觉地发现有一股势力在刻意引导着警方的调查方向，迷雾似见光明，暗潮早已涌动。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8rWLq4ri7j0Z86ALmlZz74XgEmo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lrqnXtsC6pSgsz3F4ejsqqLZlyS.jpg",
-        "releaseDate": "2025-07-31",
-        "rating": 7,
+        "title": "淬火年代",
+        "description": "上世纪九十年代末，留学德国的柳钧回到家乡东海，他顺应时代发展，立志将父亲的老机械制造厂改造成科技领先的现代化制造厂。民企在技术、资金、人脉等各方面都遇到重重困难，举步维艰，但好友钱宏明的进出口贸易、房地产等事业却搞得风生水起，二人互相帮助互相提醒。柳钧因技术结识了杨巡，后又因为技术与杨巡闹翻，结下冤仇，好在当地东海集团负责人宋运辉对他青睐有加，在腾飞厂的发展中给予了有力支持。柳钧脚踏实地，一面适应、融入国内环境，探索经营管理之道，一面攻破技术壁垒，最终凭借过硬的技术和一腔理想主义，渡过生存难关，完成了腾飞厂一次又一次的转型升级。柳钧实现了自己的价值，腾飞厂也在中国制造业的洪流中奋勇争先，占据了一席之地。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6UBQRdfsXmygtAn4l9NC93bVrN6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/57aCh7b1m5w1TvYRmGHW22xsUz8.jpg",
+        "releaseDate": "2025-06-18",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -416,17 +416,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 203367,
-        "type": "tmdb",
-        "title": "长安的荔枝",
-        "description": "大唐年间，李善德（雷佳音 饰）在同僚的欺瞒之下从监事变身“荔枝使”，被迫接下一道为贺贵妃生辰、需从岭南运送新鲜荔枝到长安的“死亡”任务，荔枝“一日色变，两日香变，三日味变”，而岭南距长安五千余里，山水迢迢，这是个不可能完成的任务。为保女儿李袖儿余生安稳，李善德无奈启程前往岭南；与此同时，替左相寻找扳倒右相敛财罪证的郑平安（岳云鹏 饰）已先一步抵达岭南。各自身负重任的郎舅二人在他乡偶遇，意外结识胡商商会会长阿弥塔(那尔那茜 饰)、空浪坊坊主云清(安沺 饰)、胡商苏谅(吕凉 饰)、峒女阿僮(周美君 饰)、峒人阿俊（王沐霖 饰）等人，还遭遇岭南刺史何有光(冯嘉怡 饰)和掌书记赵辛民(公磊 饰)的重重阻拦。双线纠缠之下任务难度飙升，他们将如何打破死局、寻觅一线生机？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gE2qL2xa7UIK1MA8Jwlw541t3Ui.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-        "releaseDate": "2025-06-07",
-        "rating": 7.389,
-        "mediaType": "tv"
-      },
-      {
         "id": 257010,
         "type": "tmdb",
         "title": "桃花映江山",
@@ -435,6 +424,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7wOhqnvObBKj13dQnOD5J4tkkvK.jpg",
         "releaseDate": "2025-06-25",
         "rating": 7.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 203367,
+        "type": "tmdb",
+        "title": "长安的荔枝",
+        "description": "大唐年间，李善德（雷佳音 饰）在同僚的欺瞒之下从监事变身“荔枝使”，被迫接下一道为贺贵妃生辰、需从岭南运送新鲜荔枝到长安的“死亡”任务，荔枝“一日色变，两日香变，三日味变”，而岭南距长安五千余里，山水迢迢，这是个不可能完成的任务。为保女儿李袖儿余生安稳，李善德无奈启程前往岭南；与此同时，替左相寻找扳倒右相敛财罪证的郑平安（岳云鹏 饰）已先一步抵达岭南。各自身负重任的郎舅二人在他乡偶遇，意外结识胡商商会会长阿弥塔(那尔那茜 饰)、空浪坊坊主云清(安沺 饰)、胡商苏谅(吕凉 饰)、峒女阿僮(周美君 饰)、峒人阿俊（王沐霖 饰）等人，还遭遇岭南刺史何有光(冯嘉怡 饰)和掌书记赵辛民(公磊 饰)的重重阻拦。双线纠缠之下任务难度飙升，他们将如何打破死局、寻觅一线生机？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gE2qL2xa7UIK1MA8Jwlw541t3Ui.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
+        "releaseDate": "2025-06-07",
+        "rating": 7.389,
         "mediaType": "tv"
       },
       {
@@ -506,6 +506,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 278579,
+        "type": "tmdb",
+        "title": "天下同心",
+        "description": "1948年，面对蒋介石国民党反动派的假民主、真独裁，中共中央邀请民主人士前往解放区召开和平建国的政治协商会议，以毛泽东为核心的第一代党的领导集体，以政治、军事、经济、民生方方面面一切“为人民服务”的实际行动，最终让以李济深、沈钧儒、张澜、宋庆龄、黄炎培、梁思成等为代表的各民主党派、各阶层、各阵营，甚至包括傅作义等国民党起义高级将领、张治中等国共和谈代表都看到了中国共产党为中华民族带来的全新希望，他们从此自觉选择并真心拥护中国共产党的领导，团结合作、肝胆相照、荣辱与共，携手建立独立、民主、和平、统一的新中国，华夏大地万水朝东、天下同心，迈向伟大的民族复兴新征程 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7heT6xS5OGQrK32p6f8YknbJMXi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
+        "releaseDate": "2024-12-02",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
         "id": 216989,
         "type": "tmdb",
         "title": "沸腾的群山",
@@ -539,17 +550,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278579,
-        "type": "tmdb",
-        "title": "天下同心",
-        "description": "1948年，面对蒋介石国民党反动派的假民主、真独裁，中共中央邀请民主人士前往解放区召开和平建国的政治协商会议，以毛泽东为核心的第一代党的领导集体，以政治、军事、经济、民生方方面面一切“为人民服务”的实际行动，最终让以李济深、沈钧儒、张澜、宋庆龄、黄炎培、梁思成等为代表的各民主党派、各阶层、各阵营，甚至包括傅作义等国民党起义高级将领、张治中等国共和谈代表都看到了中国共产党为中华民族带来的全新希望，他们从此自觉选择并真心拥护中国共产党的领导，团结合作、肝胆相照、荣辱与共，携手建立独立、民主、和平、统一的新中国，华夏大地万水朝东、天下同心，迈向伟大的民族复兴新征程 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7heT6xS5OGQrK32p6f8YknbJMXi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
-        "releaseDate": "2024-12-02",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 231781,
         "type": "tmdb",
         "title": "少林寺传奇之东归英雄",
@@ -570,7 +570,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/7KFlApfTLNMNh0y5Zp1ufsgfN0J.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/tWb81lXOBUQoyavNzXrp11ss6GS.jpg",
         "releaseDate": "2024-11-17",
-        "rating": 7.4,
+        "rating": 7.38,
         "mediaType": "tv"
       },
       {
@@ -651,17 +651,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 1418,
-        "type": "tmdb",
-        "title": "生活大爆炸",
-        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
-        "releaseDate": "2007-09-24",
-        "rating": 7.912,
-        "mediaType": "tv"
-      },
-      {
         "id": 216435,
         "type": "tmdb",
         "title": "护卫者",
@@ -670,6 +659,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/voec6hKXk5P0Uy25mDeOH7cRRvF.jpg",
         "releaseDate": "2022-12-16",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 1418,
+        "type": "tmdb",
+        "title": "生活大爆炸",
+        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
+        "releaseDate": "2007-09-24",
+        "rating": 7.912,
         "mediaType": "tv"
       }
     ],
@@ -697,13 +697,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 136648,
+        "id": 113187,
         "type": "tmdb",
-        "title": "红旗渠",
-        "description": "　　该剧是建党百年献礼剧献礼剧，1959年夏秋，一场大旱无情吞噬林县，河塘、水库干涸，庄稼大面积枯死，人畜用水陷入极端困境。林县县委一班人在县委书记杨桂带领下，决心彻底改变林县祖辈缺水困境。经过缜密实地调查，县委决定修建引漳入林工程红旗渠，重新安排林县河山，彻底改变林县人民自古缺水困局。杨桂和县委一班人带领林县人民，克服自然灾害带来的重重困难，顶住部分人冷嘲热讽，千军万马、战天斗地修建“引漳入林工程”，历时十年，终于在太行山腰修成了人工天河红旗渠。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3CW9npksQarS5QlgFEg2kN6fJ7R.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nn1RnxImlIo6rvOvC9d7jDwdVax.jpg",
-        "releaseDate": "2021-10-17",
+        "title": "兄弟营",
+        "description": "北伐战争期间，国民革命军驻扎在县城整装，准备摸清直系军阀在武昌的守军兵力部署和武器装备情报后，发动攻打武昌的战役。石一利用特殊身份，不顾个人安危，在刑场成功营救了欲被直系军阀杀害的诸多革命党，致使身份暴露不幸受伤。石一被护卫队救出，为了保护他，组织建议他启用化名赵石磊。 养伤期间赵石磊与护理员互生情愫，伤好后他与营长梅山海在组织的见证下举行了集体婚礼。婚礼上，赵石磊与梅山海却收到消息营部有女叛徒。他俩决定查清真相，与政治部主任崔光明一起巧妙设计布局。最后抽丝剥茧，发现此乃武昌守城司令袁玉郞使用的一个离间计谋。赵石磊与梅山海以其人之道，利用叛徒向袁玉郞发出诱敌情报，最终与北伐军一起粉碎敌人阴谋，为全歼敌人扫清了障碍。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9OTD38BpCP41lVJJIo9UeDV9waO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kA53Uqqj5rRdxXvQHts1udc9ze0.jpg",
+        "releaseDate": "2018-05-31",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -719,28 +719,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 156647,
-        "type": "tmdb",
-        "title": "问天",
-        "description": "讲述中国航天跨越三十多年的事业发展与人物命运相互交织，通过写实与艺术的有机融合，生动呈现了中国神舟载人飞船上天、北斗成功上轨、嫦娥四号登月、北斗全球组网覆盖、建设中国航天空间站以及深空探测等重大航天事件，通过谱写一个个深沉、激昂、感人肺腑的航天故事，激励奋进在建设航天强国和世界科技强国道路上的新时代航天人，不断谱写中国航天事业发展新篇章。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rQPBt0IDONzI8u6RiIrTUDC7DyD.jpg",
-        "backdropPath": null,
-        "releaseDate": "2021-12-17",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 138077,
-        "type": "tmdb",
-        "title": "春天里的人们",
-        "description": "　　该剧讲述了宁州大学博士教师徐盈盈来到春天里社区调研，意外被推选成为社区主任，在繁杂的社区治理工作中不断思考探索，从一个基层工作新人，成长为一个优秀的社区干部，在社区民警田立杰、社工同事和众多社区居民的共同努力下，将老厂区改造成为居民们向往的特色中心街区。以此向观众呈现出社工群体以及社区工作的整体风貌，让观众更加了解基层工作的艰辛 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3vD5I2wUUKw5zel5nFijn5nVx93.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gP9GJxrAFAx48vF6nVlcQOO39Hx.jpg",
-        "releaseDate": "2021-11-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 129635,
         "type": "tmdb",
         "title": "青春向前冲",
@@ -752,13 +730,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 113187,
+        "id": 156647,
         "type": "tmdb",
-        "title": "兄弟营",
-        "description": "北伐战争期间，国民革命军驻扎在县城整装，准备摸清直系军阀在武昌的守军兵力部署和武器装备情报后，发动攻打武昌的战役。石一利用特殊身份，不顾个人安危，在刑场成功营救了欲被直系军阀杀害的诸多革命党，致使身份暴露不幸受伤。石一被护卫队救出，为了保护他，组织建议他启用化名赵石磊。 养伤期间赵石磊与护理员互生情愫，伤好后他与营长梅山海在组织的见证下举行了集体婚礼。婚礼上，赵石磊与梅山海却收到消息营部有女叛徒。他俩决定查清真相，与政治部主任崔光明一起巧妙设计布局。最后抽丝剥茧，发现此乃武昌守城司令袁玉郞使用的一个离间计谋。赵石磊与梅山海以其人之道，利用叛徒向袁玉郞发出诱敌情报，最终与北伐军一起粉碎敌人阴谋，为全歼敌人扫清了障碍。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9OTD38BpCP41lVJJIo9UeDV9waO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kA53Uqqj5rRdxXvQHts1udc9ze0.jpg",
-        "releaseDate": "2018-05-31",
+        "title": "问天",
+        "description": "讲述中国航天跨越三十多年的事业发展与人物命运相互交织，通过写实与艺术的有机融合，生动呈现了中国神舟载人飞船上天、北斗成功上轨、嫦娥四号登月、北斗全球组网覆盖、建设中国航天空间站以及深空探测等重大航天事件，通过谱写一个个深沉、激昂、感人肺腑的航天故事，激励奋进在建设航天强国和世界科技强国道路上的新时代航天人，不断谱写中国航天事业发展新篇章。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rQPBt0IDONzI8u6RiIrTUDC7DyD.jpg",
+        "backdropPath": null,
+        "releaseDate": "2021-12-17",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -774,14 +752,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 136052,
+        "id": 136648,
         "type": "tmdb",
-        "title": "霞光",
-        "description": "一九四五年，解放战争打响，中国大地战火纷飞。此时的大连得到苏 联的援助，维持了表面的和平。但在一派祥和下实则暗流涌动，国民党反动派蠢蠢欲动，伺机破坏我党与苏联红军的接洽。这一背景下，当年因为参加“抗日放火团”而被敌人追捕的女英雄高大霞受组织委派回到大连执行任务，意外邂逅了中共干部金舟。脾性大相径庭的他们在一次次危机中逐渐成为可靠的战友，也生发了感情，在与国民党的较量中，取得了“夺城之战”的胜利。高大霞屡受冤屈，仍坚定信仰，不忘初心，她胆大心细，识破敌人的阴谋，带领广大人民群众完成了“从草屋到天堂”的“搬家运动”。高大霞和金舟等革命战士们以坚定的共产主义信仰同心同力，最终彻底铲除了国民党的残兵顽将。经历了一次次险象环生的磨难，高大霞和金舟终成眷属，收获了爱情的果实。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ncLvFP7FykolmHIK3GOrjcvW6Zc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rnZ6rbxZ3ldr3N3WCcF75jPJAXK.jpg",
-        "releaseDate": "2021-10-08",
-        "rating": 6,
+        "title": "红旗渠",
+        "description": "　　该剧是建党百年献礼剧献礼剧，1959年夏秋，一场大旱无情吞噬林县，河塘、水库干涸，庄稼大面积枯死，人畜用水陷入极端困境。林县县委一班人在县委书记杨桂带领下，决心彻底改变林县祖辈缺水困境。经过缜密实地调查，县委决定修建引漳入林工程红旗渠，重新安排林县河山，彻底改变林县人民自古缺水困局。杨桂和县委一班人带领林县人民，克服自然灾害带来的重重困难，顶住部分人冷嘲热讽，千军万马、战天斗地修建“引漳入林工程”，历时十年，终于在太行山腰修成了人工天河红旗渠。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3CW9npksQarS5QlgFEg2kN6fJ7R.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nn1RnxImlIo6rvOvC9d7jDwdVax.jpg",
+        "releaseDate": "2021-10-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 138077,
+        "type": "tmdb",
+        "title": "春天里的人们",
+        "description": "　　该剧讲述了宁州大学博士教师徐盈盈来到春天里社区调研，意外被推选成为社区主任，在繁杂的社区治理工作中不断思考探索，从一个基层工作新人，成长为一个优秀的社区干部，在社区民警田立杰、社工同事和众多社区居民的共同努力下，将老厂区改造成为居民们向往的特色中心街区。以此向观众呈现出社工群体以及社区工作的整体风貌，让观众更加了解基层工作的艰辛 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3vD5I2wUUKw5zel5nFijn5nVx93.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/gP9GJxrAFAx48vF6nVlcQOO39Hx.jpg",
+        "releaseDate": "2021-11-06",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -875,17 +864,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 284851,
-        "type": "tmdb",
-        "title": "橘祥如意",
-        "description": "少女秀橘家境贫寒，母亲卧病在床，兄嫂百般欺压。心灵手巧的她每天清晨来到学堂附近，一边兜售小物什为母亲赚取药钱，一边偷听课程。她结识了率性真诚的沈家六爷沈晏洲，并与之生出情愫。然而，秀橘为救母也为报恩，被迫嫁给沈家大爷沈晏清，她陷入沈家兄弟的情感漩涡中......",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2zgkvmKoI8BGxZNKPT1wtrW5LjJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6SLsnrAGZMHj20d4Fc00BlGiqA3.jpg",
-        "releaseDate": "2025-06-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 276548,
         "type": "tmdb",
         "title": "仁心俱乐部",
@@ -894,6 +872,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9SxPnCtZaWR81n4m0hA5VlEFlQq.jpg",
         "releaseDate": "2025-03-02",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 97043,
+        "type": "tmdb",
+        "title": "家有儿女初长成",
+        "description": "25岁的姐姐江南（张晔子 饰）和22岁的弟弟江北（张一山 饰）长大成人，他们的父母却离婚了，楼上楼下两套公寓一分为二，江南跟着母亲吴琼（王琳 饰）住到了楼上的公寓，江北跟着父亲江国立（周小斌 饰）住在了楼下的公寓。很快，50岁的江国立娶了35岁的健身教练戴玲玲（宋宁 饰）为妻，还带来了一个8岁的孩子童童（彭艺博 饰）。49岁的吴琼则嫁给了年轻时就崇拜的演员杜伟（高亚麟 饰），杜伟也有一个12岁的女儿阳阳（郭芯如 饰）。四个孩子没少让父母操心。而在孩子眼里，父母也对他们过多管制，给他们增添了很多烦恼。剧情围绕着这两个重组家庭展开，极具代表性的父母，四个性情迥异的子女，本来完全没有关联的几组人，重新组成了大家庭，家长与孩子，孩子与孩子，烦恼困扰与矛盾层出，而这个四分五裂的家庭也在处理这些烦恼困扰与矛盾的过程中慢慢走向融合，演绎着一段段复杂而有趣的日常生活和情感世界的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1hBvraVjdRf2FszyDW6flrbACV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4qgKC43hN4o0GuSFHyneJ8gWLWf.jpg",
+        "releaseDate": "2018-05-29",
+        "rating": 0,
         "mediaType": "tv"
       }
     ]
@@ -978,13 +967,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 295028,
+        "id": 294253,
         "type": "tmdb",
-        "title": "姐姐妹妹抓娃娃",
-        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ugYckll8qCUqsKpJ3t2Iug2jKcq.jpg",
-        "releaseDate": "2025-08-19",
+        "title": "我们的宿舍",
+        "description": "全新好友下班合宿欢聚朋综，节目将以“朋友下班后聚会”的形式呈现，每一期聚会将由一位“宿舍管家”负责策划独特的聚会主题，邀请好友共同享受一场“充电式”的“下班后派对”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fujnoKdxgHa4mjpqvRAt9Yv9Dkq.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7W6byklTyR1eYBxqRkruJLv64fc.jpg",
+        "releaseDate": "2025-06-24",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1147,17 +1136,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 78986,
-        "type": "tmdb",
-        "title": "你好，旧时光",
-        "description": "　　余周周与妈妈相依为命。上小学的第一天，余周周因为一次跌倒结识了一个叫林杨的男孩。在林杨的帮助下，她度过了初期对学校的不适，两人也成为了好朋友。然而因为一些流言，林杨却被父母要求远离余周周。对于林杨的疏远，余周周学会了假装不在乎。初中，余周周逃离了林杨和曾经的同学，逐渐放开手脚如鱼得水，最终如愿考上省重点振华高中。与林杨在振华的重逢，不知道是悲是喜。因为林杨巧合的一个电话，余周周的命运再次被改变。林杨的愧疚、急于弥补以及说不清的感情，都让余周周不知如何应对。而对大哥哥陈桉的关怀，重点高中内部因为保送名额的激烈竞争、好朋友米乔的去世。余周周一直用一颗阳光善良、积极进取的心，面对身边的变故，快速成长。高中毕业，曲终人散，青春不朽。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pxTwQRcpa32fhaBALgzUxqVr2sM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/o6SrILT37q2q3BaWgjqPsQONDtp.jpg",
-        "releaseDate": "2017-11-08",
-        "rating": 9.1,
-        "mediaType": "tv"
-      },
-      {
         "id": 292697,
         "type": "tmdb",
         "title": "微笑一号店",
@@ -1166,6 +1144,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9LbbU96A09sIfwaXfTCtpF8xCLj.jpg",
         "releaseDate": "2025-05-29",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 78986,
+        "type": "tmdb",
+        "title": "你好，旧时光",
+        "description": "　　余周周与妈妈相依为命。上小学的第一天，余周周因为一次跌倒结识了一个叫林杨的男孩。在林杨的帮助下，她度过了初期对学校的不适，两人也成为了好朋友。然而因为一些流言，林杨却被父母要求远离余周周。对于林杨的疏远，余周周学会了假装不在乎。初中，余周周逃离了林杨和曾经的同学，逐渐放开手脚如鱼得水，最终如愿考上省重点振华高中。与林杨在振华的重逢，不知道是悲是喜。因为林杨巧合的一个电话，余周周的命运再次被改变。林杨的愧疚、急于弥补以及说不清的感情，都让余周周不知如何应对。而对大哥哥陈桉的关怀，重点高中内部因为保送名额的激烈竞争、好朋友米乔的去世。余周周一直用一颗阳光善良、积极进取的心，面对身边的变故，快速成长。高中毕业，曲终人散，青春不朽。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pxTwQRcpa32fhaBALgzUxqVr2sM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/o6SrILT37q2q3BaWgjqPsQONDtp.jpg",
+        "releaseDate": "2017-11-08",
+        "rating": 9.1,
         "mediaType": "tv"
       },
       {
@@ -1281,14 +1270,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 289210,
+        "id": 228667,
         "type": "tmdb",
-        "title": "一见你就笑",
-        "description": "由李诞、杨迪、徐志胜与其他MC团组成新一届的“超开心见笑生”，每期飞行嘉宾根据嘉宾属性以不同身份进入节目，如插班生、隔壁校友、代课老师等。通过TALKING、主题游戏互动、盲盒舞台等综艺环节来进行单期相关剧宣主题的内容呈现。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dLidSaIRBqKwu5mBBWla0noPmU4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7pocRZp6wDgJtYzxgztEN8UYdmn.jpg",
-        "releaseDate": "2025-04-18",
-        "rating": 0,
+        "title": "朋友请吃饭",
+        "description": "《朋友请吃饭》是由腾讯视频出品、天晴工作室主创的一档美食探索综艺。由杨迪、陈卓璇作为主mc，前往六座城市与土著好友一起，进行两天一夜的美食探索之旅，寻找地道美食。在两天一夜的定制旅程中，与当地的土著好友分享彼此的美食故事，体验充满未知的当地美食，感受地道烟火气城市生活，探讨情感共鸣向美食记忆。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ejLDGoMpma3VUv7wN3lCfowvbd2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/n79mTAQdn1a5pZ7taFdaOlupToK.jpg",
+        "releaseDate": "2023-06-13",
+        "rating": 6,
         "mediaType": "tv"
       }
     ],
@@ -1420,13 +1409,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 295028,
+        "id": 294253,
         "type": "tmdb",
-        "title": "姐姐妹妹抓娃娃",
-        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ugYckll8qCUqsKpJ3t2Iug2jKcq.jpg",
-        "releaseDate": "2025-08-19",
+        "title": "我们的宿舍",
+        "description": "全新好友下班合宿欢聚朋综，节目将以“朋友下班后聚会”的形式呈现，每一期聚会将由一位“宿舍管家”负责策划独特的聚会主题，邀请好友共同享受一场“充电式”的“下班后派对”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fujnoKdxgHa4mjpqvRAt9Yv9Dkq.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7W6byklTyR1eYBxqRkruJLv64fc.jpg",
+        "releaseDate": "2025-06-24",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1442,17 +1431,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 294253,
-        "type": "tmdb",
-        "title": "我们的宿舍",
-        "description": "全新好友下班合宿欢聚朋综，节目将以“朋友下班后聚会”的形式呈现，每一期聚会将由一位“宿舍管家”负责策划独特的聚会主题，邀请好友共同享受一场“充电式”的“下班后派对”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fujnoKdxgHa4mjpqvRAt9Yv9Dkq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7W6byklTyR1eYBxqRkruJLv64fc.jpg",
-        "releaseDate": "2025-06-24",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 298185,
         "type": "tmdb",
         "title": "假期中的她们",
@@ -1461,6 +1439,28 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/shsqHDs8Y1qhElSmzsGO90weDod.jpg",
         "releaseDate": "2025-08-14",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295028,
+        "type": "tmdb",
+        "title": "姐姐妹妹抓娃娃",
+        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ugYckll8qCUqsKpJ3t2Iug2jKcq.jpg",
+        "releaseDate": "2025-08-19",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 109096,
+        "type": "tmdb",
+        "title": "密室大逃脱大神版",
+        "description": "芒果TV超大型密室逃脱真人秀《密室大逃脱》的官方定制衍生节目。节目邀请大神玩家进入全封闭的未知密室，根据线索进行推理解密，开启全新空间，还原故事背景，直至全员逃脱。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hAMORqnXSHNzQbnJ6gykTddW2gQ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/f9AEnKHApSKiJ6GAKFcgdCI6fZ.jpg",
+        "releaseDate": "2019-04-01",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
