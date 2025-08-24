@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-24T12:23:09.080185",
+  "last_updated": "2025-08-24T18:16:38.453126",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -166,8 +166,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
     {
