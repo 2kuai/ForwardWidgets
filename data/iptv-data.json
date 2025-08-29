@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29T06:19:55.609675",
+  "last_updated": "2025-08-29T12:24:00.253024",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -95,9 +95,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -143,15 +141,15 @@
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.2,h-bh_mul_3.7,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
+      ]
     },
     {
       "name": "CCTV 兵器科技",
@@ -246,9 +244,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
@@ -292,7 +288,9 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
+      ]
     },
     {
       "name": "东南卫视",
@@ -304,7 +302,9 @@
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+      ]
     },
     {
       "name": "贵州卫视",
@@ -348,7 +348,9 @@
       "name": "兵团卫视",
       "description": "新疆生产建设兵团的官方卫星频道，以汉语为主，兼播维吾尔语、哈萨克语节目。聚焦兵团改革发展、现代农业、生态建设和民族团结，展现热爱祖国、无私奉献、艰苦创业、开拓进取的兵团精神。主要栏目包括《兵团新闻联播》《兵团记忆》《丝路绿洲》等，是全国了解兵团的重要窗口。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-兵团卫视.png,lfo-center,l-end,l-end/兵团卫视.png",
-      "childItems": []
+      "childItems": [
+        "https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8"
+      ]
     }
   ],
   "ltv": [
@@ -357,8 +359,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
