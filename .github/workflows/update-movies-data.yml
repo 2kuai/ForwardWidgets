@@ -25,26 +25,24 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies globally
+      - name: Install dependencies locally (no config files)
         run: |
-          npm install -g axios@1.6.7 cheerio@1.0.0-rc.12
-          echo "Dependencies installed globally"
+          # 创建临时 node_modules 但不生成任何配置文件
+          npm install --no-package-lock --no-save --ignore-scripts \
+            axios@1.6.7 \
+            cheerio@1.0.0-rc.12
+          echo "Dependencies installed in ./node_modules"
 
       - name: Setup data directory
         run: |
           mkdir -p data
           chmod 755 data
 
-      - name: Backup current data
-        run: |
-          if [ -f data/movies-data.json ]; then
-            cp -v data/movies-data.json data/movies-data.backup.json
-            chmod 644 data/movies-data.backup.json
-          fi
-
       - name: Update Movies data
         id: update
         run: |
+          # 临时修改 NODE_PATH 确保能找到本地模块
+          export NODE_PATH=./node_modules
           node scripts/update-movies-data.js
           chmod 644 data/movies-data.json
         continue-on-error: true
@@ -66,4 +64,5 @@ jobs:
 
       - name: Cleanup
         run: |
+          rm -rf node_modules  # 清除临时依赖
           rm -f data/movies-data.backup.json
