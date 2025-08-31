@@ -19,15 +19,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # 获取完整历史记录
+          persist-credentials: false  # 更安全的凭证处理
       
-      - name: Set up Node.js
+      - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'  # 明确指定 Node.js 20
+          cache: 'npm'  # 启用 npm 缓存加速构建
+          check-latest: true  # 确保获取最新补丁版本
           
       - name: Install dependencies
         run: |
-          npm install axios cheerio
+          npm install --no-audit --no-fund --ignore-scripts \
+            axios@latest \
+            cheerio@latest
+          # 禁用非必要脚本提高安全性
           
       - name: Setup data directory
         run: |
@@ -37,59 +43,75 @@ jobs:
       - name: Backup current data
         run: |
           if [ -f data/movies-data.json ]; then
-            cp data/movies-data.json data/movies-data.backup.json
+            cp -v data/movies-data.json data/movies-data.backup.json
             chmod 644 data/movies-data.backup.json
+            echo "Backup created at data/movies-data.backup.json"
+          else
+            echo "No existing data file to backup"
           fi
           
       - name: Update Movies data
         id: update
         run: |
+          echo "Running data update script with Node.js $(node -v)"
           node scripts/update-movies-data.js
           chmod 644 data/movies-data.json
+          echo "Data update completed at $(date '+%Y-%m-%d %H:%M:%S')"
         continue-on-error: true
         
-      - name: Debug data directory and git status
+      - name: Verify updated data
         run: |
-          ls -l data
-          git status
+          if [ -f data/movies-data.json ]; then
+            echo "Data file exists with $(wc -l < data/movies-data.json) lines"
+            jq empty data/movies-data.json  # 验证 JSON 格式
+          else
+            echo "::error::No data file generated!"
+            exit 1
+          fi
           
       - name: Check for changes
         id: git-check
         run: |
-          git diff --quiet data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --exit-code data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
+          echo "Change detection completed"
           
-      - name: Commit and push if changed (including new files)
+      - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           git add data/movies-data.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Movies data"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          git commit -m "Auto-update: Movies data $(date '+%Y-%m-%d %H:%M:%S')"
+          git pull --rebase  # 避免推送冲突
+          git push
+          echo "Changes committed and pushed"
           
       - name: Restore backup on failure
         if: failure() && steps.update.outcome == 'failure'
         run: |
           if [ -f data/movies-data.backup.json ]; then
-            cp data/movies-data.backup.json data/movies-data.json
-            chmod 644 data/movies-data.json
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
+            echo "Restoring backup due to failure..."
+            cp -v data/movies-data.backup.json data/movies-data.json
             git add data/movies-data.json
-            git commit -m "Restore Movies data after failed update [skip ci]"
+            git commit -m "Emergency restore: Movies data [skip ci]"
             git push
+            echo "::warning::Data restored from backup"
+          else
+            echo "::error::No backup available to restore!"
           fi
           
-      - name: Send notification on failure
-        if: failure()
+      - name: Post-success cleanup
+        if: always()
         run: |
-          echo "::warning::Failed to update movies data. Check the workflow run for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          rm -f data/movies-data.backup.json
+          echo "Cleanup completed"
           
-      - name: Send notification on success
-        if: success() && steps.git-check.outputs.changes == 'true'
+      - name: Notification
         run: |
-          echo "::notice::Movies data has been updated successfully. Changes have been committed and pushed." 
+          if success() && steps.git-check.outputs.changes == 'true'; then
+            echo "::notice::Movies data updated successfully"
+          elif success(); then
+            echo "::notice::No changes in movies data"
+          else
+            echo "::error::Failed to update movies data. See logs for details."
+          fi
