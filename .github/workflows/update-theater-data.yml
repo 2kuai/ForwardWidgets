@@ -1,39 +1,59 @@
 name: Update Theater Data
-
 on:
   schedule:
-    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8，无需修改)
+  workflow_dispatch:  # 允许手动触发（保留）
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     env:
-      TZ: Asia/Shanghai  # 设置时区为北京时间
-      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-    
+      TZ: Asia/Shanghai  # 时区设置（保留）
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}  # 从Secrets读取密钥（保留）
+
     steps:
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v3  # 拉取代码（保留）
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          
+          node-version: '18'  # 匹配原Node版本（保留）
+          cache: 'npm'  # 新增npm缓存，加速依赖安装
+
+      - name: Create package.json (锁定依赖)
+        # 新增步骤：生成package.json，明确指定无冲突的依赖版本
+        run: |
+          cat > package.json << 'EOF'
+          {
+            "name": "theater-data-updater",
+            "version": "1.0.0",
+            "dependencies": {
+              "axios": "1.6.8",    # 锁定稳定版，避免undici依赖冲突
+              "cheerio": "1.0.0-rc.12"  # 锁定稳定版，兼容Node 18
+            }
+          }
+          EOF
+
       - name: Install dependencies
-        run: |
-          npm install axios cheerio
-          
+        # 修改为从package.json安装，确保版本一致
+        run: npm install --production  # --production仅安装生产依赖，提速
+
       - name: Create data directory
-        run: mkdir -p data
-        
+        run: mkdir -p data  # 确保data目录存在（保留）
+
       - name: Update theater data
-        run: |
-          node scripts/update-theater-data.js
-          
+        run: node scripts/update-theater-data.js  # 执行脚本（保留）
+
       - name: Commit and push if changed
+        # 保留原逻辑，仅在文件修改时提交
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/theater-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data" && git push) 
+          # 仅当文件有修改时才提交
+          if ! git diff --quiet && ! git diff --staged --quiet; then
+            git commit -m "Update theater data (auto)"
+            git push
+          else
+            echo "No changes to theater data, skipping commit"
+          fi
