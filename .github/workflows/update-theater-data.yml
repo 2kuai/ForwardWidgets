@@ -9,7 +9,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     env:
-      TZ: Asia/Shanghai  # 设置时区为北京时间
+      TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
@@ -19,14 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          # 移除 cache: 'npm' 因为不再使用 package-lock.json
           
-      - name: Install dependencies globally (no package.json)
+      - name: Install dependencies
         run: |
-          npm install --global --no-package-lock --no-save axios cheerio
-          # --global: 全局安装
-          # --no-package-lock: 不生成 package-lock.json
-          # --no-save: 不更新 package.json
+          npm install --no-package-lock --no-save axios cheerio
+          # 临时安装到 node_modules 但不创建配置文件
           
       - name: Create data directory
         run: mkdir -p data
