@@ -13,18 +13,20 @@ jobs:
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
-      - uses: actions/checkout@v4  # 更新到最新版本
+      - uses: actions/checkout@v4
       
       - name: Set up Node.js
-        uses: actions/setup-node@v4  # 更新到最新版本
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'  # 更新到最新的LTS版本
-          cache: 'npm'  # 添加npm缓存
+          node-version: '20'
+          # 移除 cache: 'npm' 因为不再使用 package-lock.json
           
-      - name: Install dependencies
+      - name: Install dependencies globally (no package.json)
         run: |
-          npm install axios@latest cheerio@latest
-          npm install --save-dev @types/node @types/axios  # 添加类型定义
+          npm install --global --no-package-lock --no-save axios cheerio
+          # --global: 全局安装
+          # --no-package-lock: 不生成 package-lock.json
+          # --no-save: 不更新 package.json
           
       - name: Create data directory
         run: mkdir -p data
