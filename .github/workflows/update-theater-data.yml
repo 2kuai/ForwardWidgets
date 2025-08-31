@@ -13,16 +13,18 @@ jobs:
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4  # 更新到最新版本
       
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # 更新到最新版本
         with:
-          node-version: '18'
+          node-version: '20'  # 更新到最新的LTS版本
+          cache: 'npm'  # 添加npm缓存
           
       - name: Install dependencies
         run: |
-          npm install axios cheerio
+          npm install axios@latest cheerio@latest
+          npm install --save-dev @types/node @types/axios  # 添加类型定义
           
       - name: Create data directory
         run: mkdir -p data
@@ -36,4 +38,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/theater-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data" && git push) 
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data [skip ci]" && git push)
