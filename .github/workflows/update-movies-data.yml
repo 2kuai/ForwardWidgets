@@ -3,115 +3,67 @@ name: Update Movies Data
 on:
   schedule:
     - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     env:
-      TZ: Asia/Shanghai  # 设置时区为北京时间
+      TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     permissions:
-      contents: write  # 允许推送代码
-    
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史记录
-          persist-credentials: false  # 更安全的凭证处理
-      
+          fetch-depth: 0
+
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: '20'  # 明确指定 Node.js 20
-          cache: 'npm'  # 启用 npm 缓存加速构建
-          check-latest: true  # 确保获取最新补丁版本
-          
-      - name: Install dependencies
+          node-version: '20'
+
+      - name: Install dependencies globally
         run: |
-          npm install --no-audit --no-fund --ignore-scripts \
-            axios@latest \
-            cheerio@latest
-          # 禁用非必要脚本提高安全性
-          
+          npm install -g axios@1.6.7 cheerio@1.0.0-rc.12
+          echo "Dependencies installed globally"
+
       - name: Setup data directory
         run: |
           mkdir -p data
           chmod 755 data
-          
+
       - name: Backup current data
         run: |
           if [ -f data/movies-data.json ]; then
             cp -v data/movies-data.json data/movies-data.backup.json
             chmod 644 data/movies-data.backup.json
-            echo "Backup created at data/movies-data.backup.json"
-          else
-            echo "No existing data file to backup"
           fi
-          
+
       - name: Update Movies data
         id: update
         run: |
-          echo "Running data update script with Node.js $(node -v)"
           node scripts/update-movies-data.js
           chmod 644 data/movies-data.json
-          echo "Data update completed at $(date '+%Y-%m-%d %H:%M:%S')"
         continue-on-error: true
-        
-      - name: Verify updated data
-        run: |
-          if [ -f data/movies-data.json ]; then
-            echo "Data file exists with $(wc -l < data/movies-data.json) lines"
-            jq empty data/movies-data.json  # 验证 JSON 格式
-          else
-            echo "::error::No data file generated!"
-            exit 1
-          fi
-          
+
       - name: Check for changes
         id: git-check
         run: |
           git diff --exit-code data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
-          echo "Change detection completed"
-          
+
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add data/movies-data.json
-          git commit -m "Auto-update: Movies data $(date '+%Y-%m-%d %H:%M:%S')"
-          git pull --rebase  # 避免推送冲突
+          git commit -m "Auto-update: Movies data $(date +'%Y-%m-%d')"
+          git pull --rebase
           git push
-          echo "Changes committed and pushed"
-          
-      - name: Restore backup on failure
-        if: failure() && steps.update.outcome == 'failure'
-        run: |
-          if [ -f data/movies-data.backup.json ]; then
-            echo "Restoring backup due to failure..."
-            cp -v data/movies-data.backup.json data/movies-data.json
-            git add data/movies-data.json
-            git commit -m "Emergency restore: Movies data [skip ci]"
-            git push
-            echo "::warning::Data restored from backup"
-          else
-            echo "::error::No backup available to restore!"
-          fi
-          
-      - name: Post-success cleanup
-        if: always()
+
+      - name: Cleanup
         run: |
           rm -f data/movies-data.backup.json
-          echo "Cleanup completed"
-          
-      - name: Notification
-        run: |
-          if success() && steps.git-check.outputs.changes == 'true'; then
-            echo "::notice::Movies data updated successfully"
-          elif success(); then
-            echo "::notice::No changes in movies data"
-          else
-            echo "::error::Failed to update movies data. See logs for details."
-          fi
