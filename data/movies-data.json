@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-02T00:14:59.067+08:00",
+  "last_updated": "2025-09-03T00:15:47.031+08:00",
   "nowplaying": [
     {
       "id": 1419406,
@@ -58,19 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
       "releaseDate": "2025-04-03",
-      "rating": 6.99,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1175942,
-      "type": "tmdb",
-      "title": "坏蛋联盟2",
-      "originalTitle": "The Bad Guys 2",
-      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
-      "releaseDate": "2025-07-24",
-      "rating": 7.821,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -83,6 +71,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/5Jn2wgZ6EGu7ii9oPXgneSth5nR.jpg",
       "releaseDate": "2025-07-19",
       "rating": 8.524,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1175942,
+      "type": "tmdb",
+      "title": "坏蛋联盟2",
+      "originalTitle": "The Bad Guys 2",
+      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
+      "releaseDate": "2025-07-24",
+      "rating": 7.787,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 658224,
-      "type": "tmdb",
-      "title": "翡翠城巫师",
-      "originalTitle": "Волшебник Изумрудного Города. Дорога из Жёлтого Кирпича",
-      "description": "　　艾莉住在一个遥远的城市。有一天，邪恶的女巫 Gingema 召唤了一场飓风，将 Elli 和她的狗 Totoshka 带到了 Munchkins 的国家。为了回家，艾莉和她的朋友斯特拉希拉、热列兹尼·德罗沃塞克和特鲁斯利维·列夫将沿着黄砖路出发前往翡翠城，寻找能够实现他们珍视愿望的巫师。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eTByoHW6JqPo2tsrBkTJk8dMLp7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/q41offRbAHn8r4EeuTqs61JGp61.jpg",
-      "releaseDate": "2025-01-01",
-      "rating": 7.4,
-      "mediaType": "movie"
-    },
-    {
       "id": 1497279,
       "type": "tmdb",
       "title": "非人哉：限时玩家",
@@ -158,6 +146,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 658224,
+      "type": "tmdb",
+      "title": "翡翠城巫师",
+      "originalTitle": "Волшебник Изумрудного Города. Дорога из Жёлтого Кирпича",
+      "description": "　　艾莉住在一个遥远的城市。有一天，邪恶的女巫 Gingema 召唤了一场飓风，将 Elli 和她的狗 Totoshka 带到了 Munchkins 的国家。为了回家，艾莉和她的朋友斯特拉希拉、热列兹尼·德罗沃塞克和特鲁斯利维·列夫将沿着黄砖路出发前往翡翠城，寻找能够实现他们珍视愿望的巫师。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/eTByoHW6JqPo2tsrBkTJk8dMLp7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/q41offRbAHn8r4EeuTqs61JGp61.jpg",
+      "releaseDate": "2025-01-01",
+      "rating": 7.4,
+      "mediaType": "movie"
+    },
+    {
       "id": 1071646,
       "type": "tmdb",
       "title": "无名指",
@@ -167,18 +167,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/qZDpegCZVNu6SVTBtW35z2j8p0.jpg",
       "releaseDate": "2025-08-22",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1234821,
-      "type": "tmdb",
-      "title": "侏罗纪世界：重生",
-      "originalTitle": "Jurassic World Rebirth",
-      "description": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
-      "releaseDate": "2025-07-01",
-      "rating": 6.379,
       "mediaType": "movie"
     },
     {
@@ -220,42 +208,6 @@
   ],
   "coming": [
     {
-      "id": 1012837,
-      "type": "tmdb",
-      "title": "长空之王",
-      "originalTitle": "长空之王",
-      "description": "雷宇（王一博 饰）等优秀飞行员经过严苛选拔，正式成为了我国新一代试飞员——一款战斗机的正式列装，背后不仅有无数科研人员的努力，也需要试飞员们一次次对飞机的安全边界和极限状态进行测试。他们将在队长张挺（胡军 饰）的带领下，参与到最新式、最尖端战斗机的试飞工作，在不断挑战战机和自我极限的过程中，一个个危机接踵而来……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jqJe5jn3cKlspBpOpS8kR1Wfc36.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/54iIQChulnjG0gM4X7kFihOY7Ey.jpg",
-      "releaseDate": "2023-04-28",
-      "rating": 6.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1530356,
-      "type": "tmdb",
-      "title": "生还",
-      "originalTitle": "生还",
-      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1523345,
-      "type": "tmdb",
-      "title": "营救飞虎",
-      "originalTitle": "营救飞虎",
-      "description": "援华美军飞虎队飞行员詹姆斯（Mitchell Hoog 饰），在执行任务时被日军击落。东江纵队游击队长单刀（伍允龙 饰）、沙胆仔（陈永胜 饰）、三家姐（王丹妮 饰）及虾米（韩陌 饰）前往营救，一句“我们带你回家”尽显勇敢与担当。与此同时，我党潜伏人员欢少（韩庚 饰）在机缘巧合下与救援队伍达成合作。6个人，48小时，他们将如何扭转战局？又能否创造营救奇迹？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vRB4nmb7h8HB82XKIWf79q75V6u.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1312157,
       "type": "tmdb",
       "title": "关于约会的一切",
@@ -264,7 +216,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pPa1BCiVQUv6sJnvxGmhukJklFs.jpg",
       "releaseDate": "2025-02-20",
-      "rating": 7.239,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -322,7 +274,7 @@
       "originalTitle": "甜蜜恰好也三十",
       "description": "　　金领孟夏貌美强悍，精明神勇，却因未婚夫出轨而崩溃；SPA技师汤玲柔弱呆萌，娇甜黏人，一再对吃软饭的男友无力自拔。一场葬礼让两个被同一个男人伤害的隐秘情敌变成了磕磕绊绊的塑料花，日常斗嘴吐槽，情谊却不断升级。年轻阳光摄影师金哲的出现撩拨得二女春心萌动，同时陷入疯狂的境地。几番争斗下来，男神岿然无动。两女身心俱疲，感受到作为女人的无奈与悲凉，同时从这段荒唐的雌竞中幡然醒悟，对爱情和女性的尊严、价值生发出全新的体悟。金哲究竟情嘱何方？两个大龄女最终爱归何处？假闺蜜如何炼就真友谊？",
       "posterPath": "https://image.tmdb.org/t/p/w500/lwCaFIMdVOsoW8VW5c0K9cEGFxA.jpg",
-      "backdropPath": null,
+      "backdropPath": "https://image.tmdb.org/t/p/w500/p3S21x1F1tfKm41rQwfsrN9BDoK.jpg",
       "releaseDate": "2025-09-05",
       "rating": 0,
       "mediaType": "movie"
@@ -360,7 +312,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
       "releaseDate": "2025-07-11",
-      "rating": 6,
+      "rating": 5.895,
       "mediaType": "movie"
     },
     {
@@ -373,6 +325,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/lH1FDMWWb1t3KneoRQ6O5r8q9do.jpg",
       "releaseDate": "2025-02-20",
       "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1540027,
+      "type": "tmdb",
+      "title": "我们终将要和世界握手言和",
+      "originalTitle": "我们终将要和世界握手言和",
+      "description": "　　人到中年的男主角在高强度的工作和生活压力下，逐渐变得厌倦并迷失自我，一次偶然的际遇让他找到了另类的宣泄方式，那就是无论有多重要的事情都先放下，每天用六十分钟时间彻底的放飞自我，在这段时间里他所遇到的人和事总有种似曾相识的感觉，看似偶然和偶遇的每件事和每个人似乎都和他的过去有关，最终男主角终于找回了“自己”，同时也完成了精神和心灵上的自我治愈。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7n0X7w2UKh4Buht74UhzzWe7NMj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yAMg2ODr2RcFz2nxu2glO4fstEM.jpg",
+      "releaseDate": "2025-09-10",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -392,7 +356,7 @@
       "type": "tmdb",
       "title": "逃离抢钱镇",
       "originalTitle": "Greedy People",
-      "description": "　　菜鸟警察威尔（希米什·帕特尔饰）和他的流氓搭档特里（约瑟夫·高登-莱维特饰）在一个犯罪现场（由他们自己制造的）意外发现一百万美元，从而颠覆了他们生活的这个小镇。  　　在这二人不明智地决定盗取钱财之后，社区中的居民都被吸引参与争夺这笔巨款，从怀孕的妈妈（莉莉·詹姆斯饰）到理疗师（西蒙·雷克斯饰）到虾公司老板（蒂姆·布雷克·尼尔森 饰），每个人都了解到，他们为了这笔钱到底牺牲了多少。",
+      "description": "　　刚来到小镇上的警察威尔（希米什·帕特尔 饰）和流氓搭档泰利（约瑟夫·高登-莱维特 饰）在一宗被误认为是入室抢劫的案件中意外发现了一百万美元。殊不知这笔不义之财背后藏着巨大的阴谋，在包括威尔老婆、按摩师、海鲜公司老板等多方周旋下，小镇的生活被彻底颠覆。最终谁才能从这场贪念的迷局中逃离？",
       "posterPath": "https://image.tmdb.org/t/p/w500/ridNXZWUnzcSfcHcajHVB3lXxo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5s2VqyV8AlFMZJrUIYKlzg7TNQN.jpg",
       "releaseDate": "2024-08-23",
@@ -566,7 +530,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aKeJgTDAiBe5hFgFgI3V3ChOLmh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.593,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -602,7 +566,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zxi6WQPVc0uQAG5TtLsKvxYHApC.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.03,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -614,7 +578,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.699,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -638,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.794,
+      "rating": 7.795,
       "mediaType": "movie"
     },
     {
@@ -650,7 +614,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mbYTRO33LJAgpCMrIn9ibiWHbMH.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.963,
+      "rating": 6.962,
       "mediaType": "movie"
     },
     {
