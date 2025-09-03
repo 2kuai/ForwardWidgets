@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03T00:54:39.112493",
+  "last_updated": "2025-09-03T06:18:22.646017",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -95,7 +95,9 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": []
+      "childItems": [
+        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
+      ]
     },
     {
       "name": "CCTV-14 少儿",
@@ -125,13 +127,17 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
+      ]
     },
     {
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
+      ]
     },
     {
       "name": "CCTV 央视高网",
@@ -145,7 +151,9 @@
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
+      ]
     },
     {
       "name": "CCTV 兵器科技",
@@ -160,8 +168,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
     {
@@ -240,7 +248,9 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
+      ]
     },
     {
       "name": "山东卫视",
@@ -408,7 +418,9 @@
       "name": "河南新闻",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南新闻.png,lfo-center,l-end,l-end/河南新闻.png",
-      "childItems": []
+      "childItems": [
+        "http://www.cdnstv.com:6398/hls/1114/index.m3u8"
+      ]
     },
     {
       "name": "湖南爱晚",
