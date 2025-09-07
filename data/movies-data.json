@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-07T00:13:03.812+08:00",
+  "last_updated": "2025-09-08T00:13:13.533+08:00",
   "nowplaying": [
     {
       "id": 1064486,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kM0gfnanT6Sc2H5r8Bm113M3T50.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
       "releaseDate": "2024-10-17",
-      "rating": 8.1,
+      "rating": 8.054,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,43 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pPa1BCiVQUv6sJnvxGmhukJklFs.jpg",
       "releaseDate": "2025-02-20",
-      "rating": 7.235,
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1049942,
+      "type": "tmdb",
+      "title": "小鹿斑比：清算",
+      "originalTitle": "Bambi: The Reckoning",
+      "description": "该片将继续“毁童年”，改编自同名迪士尼动画的原作——澳大利亚童书《小鹿斑比》，由《恶魔整容》编剧Scott Jeffrey执导，Rhys Frake-Waterfield等制作。导演Jeffrey透露：“该片将会把我们所熟知和喜爱的1928年故事做一个极其暗黑的新编，设计灵感来自网飞的《黑森灵》，斑比会是隐藏在荒野中的残暴的杀戮机器，准备好迎接发狂的斑比吧！”",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
+      "releaseDate": "2025-07-11",
+      "rating": 6.091,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1211726,
+      "type": "tmdb",
+      "title": "红丝绸",
+      "originalTitle": "Красный шелк",
+      "description": "1927年，一列横跨西伯利亚的特快列车正秘密运送着关乎苏联与中国命运的重要文件。在这趟列车上，看似普通的乘客中暗藏杀机——外国间谍与亡命之徒为夺取文件不择手段。当危机降临，一位年轻的红军战士不得不与曾经的沙皇密探联手，在飞驰的钢铁牢笼中揪出幕后黑手。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yveeiLDhI1fsA1zfLNLyX1pmao1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lH1FDMWWb1t3KneoRQ6O5r8q9do.jpg",
+      "releaseDate": "2025-02-20",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1304434,
+      "type": "tmdb",
+      "title": "浪浪山小妖怪",
+      "originalTitle": "浪浪山小妖怪",
+      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
+      "releaseDate": "2025-07-26",
+      "rating": 8.063,
       "mediaType": "movie"
     },
     {
@@ -62,27 +98,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1304434,
+      "id": 1500536,
       "type": "tmdb",
-      "title": "浪浪山小妖怪",
-      "originalTitle": "浪浪山小妖怪",
-      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
-      "releaseDate": "2025-07-26",
-      "rating": 8.063,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1279823,
-      "type": "tmdb",
-      "title": "有朵云像你",
-      "originalTitle": "有朵云像你",
-      "description": "　　“逝去的人会变成云，只要你足够思念，TA就会变成雨，穿过云层回来看你。”  　　随着雨季的临近，逝去的爱人秦天（屈楚萧 饰）竟然真的如约回到了妻子萧凡（王子文 饰）身边，而且是8年前相爱时年轻的样子！但秦天的记忆却被清零，忘记了与萧凡共度的时光。然而，在雨滴的见证下，两人在日复一日的相处中，曾经紧密相连的心也再度同频。这场奇迹似乎给了他们一次重新书写爱情的机会，倘若可以的话，真希望时间定格，雨不要停……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jK51u5OGqivM48HvlnnzDFcqvkD.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9HVtiXXyUkBIY7b2hbIh3SSRdS4.jpg",
-      "releaseDate": "2025-08-29",
-      "rating": 0,
+      "title": "南京照相馆",
+      "originalTitle": "南京照相馆",
+      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/5Jn2wgZ6EGu7ii9oPXgneSth5nR.jpg",
+      "releaseDate": "2025-07-19",
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -98,39 +122,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1500536,
+      "id": 1279823,
       "type": "tmdb",
-      "title": "南京照相馆",
-      "originalTitle": "南京照相馆",
-      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5Jn2wgZ6EGu7ii9oPXgneSth5nR.jpg",
-      "releaseDate": "2025-07-19",
-      "rating": 8.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1049942,
-      "type": "tmdb",
-      "title": "小鹿斑比：清算",
-      "originalTitle": "Bambi: The Reckoning",
-      "description": "该片将继续“毁童年”，改编自同名迪士尼动画的原作——澳大利亚童书《小鹿斑比》，由《恶魔整容》编剧Scott Jeffrey执导，Rhys Frake-Waterfield等制作。导演Jeffrey透露：“该片将会把我们所熟知和喜爱的1928年故事做一个极其暗黑的新编，设计灵感来自网飞的《黑森灵》，斑比会是隐藏在荒野中的残暴的杀戮机器，准备好迎接发狂的斑比吧！”",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
-      "releaseDate": "2025-07-11",
-      "rating": 5.933,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1211726,
-      "type": "tmdb",
-      "title": "红丝绸",
-      "originalTitle": "Красный шелк",
-      "description": "1927年，一列横跨西伯利亚的特快列车正秘密运送着关乎苏联与中国命运的重要文件。在这趟列车上，看似普通的乘客中暗藏杀机——外国间谍与亡命之徒为夺取文件不择手段。当危机降临，一位年轻的红军战士不得不与曾经的沙皇密探联手，在飞驰的钢铁牢笼中揪出幕后黑手。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yveeiLDhI1fsA1zfLNLyX1pmao1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lH1FDMWWb1t3KneoRQ6O5r8q9do.jpg",
-      "releaseDate": "2025-02-20",
-      "rating": 7.3,
+      "title": "有朵云像你",
+      "originalTitle": "有朵云像你",
+      "description": "　　“逝去的人会变成云，只要你足够思念，TA就会变成雨，穿过云层回来看你。”  　　随着雨季的临近，逝去的爱人秦天（屈楚萧 饰）竟然真的如约回到了妻子萧凡（王子文 饰）身边，而且是8年前相爱时年轻的样子！但秦天的记忆却被清零，忘记了与萧凡共度的时光。然而，在雨滴的见证下，两人在日复一日的相处中，曾经紧密相连的心也再度同频。这场奇迹似乎给了他们一次重新书写爱情的机会，倘若可以的话，真希望时间定格，雨不要停……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jK51u5OGqivM48HvlnnzDFcqvkD.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9HVtiXXyUkBIY7b2hbIh3SSRdS4.jpg",
+      "releaseDate": "2025-08-29",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -142,19 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1523345,
-      "type": "tmdb",
-      "title": "营救飞虎",
-      "originalTitle": "营救飞虎",
-      "description": "援华美军飞虎队飞行员詹姆斯（Mitchell Hoog 饰），在执行任务时被日军击落。东江纵队游击队长单刀（伍允龙 饰）、沙胆仔（陈永胜 饰）、三家姐（王丹妮 饰）及虾米（韩陌 饰）前往营救，一句“我们带你回家”尽显勇敢与担当。与此同时，我党潜伏人员欢少（韩庚 饰）在机缘巧合下与救援队伍达成合作。6个人，48小时，他们将如何扭转战局？又能否创造营救奇迹？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cQ5UMPwnWn7g1zsbwrrKiZMb403.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 0,
+      "rating": 7.788,
       "mediaType": "movie"
     },
     {
@@ -167,6 +155,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/Pp4jLt5O13jioz7NHlgNWGMLzN.jpg",
       "releaseDate": "2025-08-08",
       "rating": 10,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1523345,
+      "type": "tmdb",
+      "title": "营救飞虎",
+      "originalTitle": "营救飞虎",
+      "description": "援华美军飞虎队飞行员詹姆斯（Mitchell Hoog 饰），在执行任务时被日军击落。东江纵队游击队长单刀（伍允龙 饰）、沙胆仔（陈永胜 饰）、三家姐（王丹妮 饰）及虾米（韩陌 饰）前往营救，一句“我们带你回家”尽显勇敢与担当。与此同时，我党潜伏人员欢少（韩庚 饰）在机缘巧合下与救援队伍达成合作。6个人，48小时，他们将如何扭转战局？又能否创造营救奇迹？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cQ5UMPwnWn7g1zsbwrrKiZMb403.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
+      "releaseDate": "2025-09-03",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -292,6 +292,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1324187,
+      "type": "tmdb",
+      "title": "只此青绿",
+      "originalTitle": "只此青绿",
+      "description": "　　一位现代文物研究员在《千里江山图》即将展出之际潜心钻研，穿越九百余年时空走入北宋少年画家希孟的内心，目睹了希孟呕心沥血忘我创作，与无数劳动者携手，历尽千辛万苦创作出传世画卷的历程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2U32CZU2qKY4VrQQ5AC1dXAzTHU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bxoTtN40SPujsogRkeeHkvJ3Ttz.jpg",
+      "releaseDate": "2024-09-15",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
       "id": 1321624,
       "type": "tmdb",
       "title": "731",
@@ -384,7 +396,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/t6MdHYhGjQXtx7B4j86NdqNPckg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.978,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -482,7 +494,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.612,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -494,7 +506,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.906,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -506,7 +518,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zxi6WQPVc0uQAG5TtLsKvxYHApC.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.026,
+      "rating": 8.055,
       "mediaType": "movie"
     },
     {
@@ -542,7 +554,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.796,
+      "rating": 7.797,
       "mediaType": "movie"
     },
     {
