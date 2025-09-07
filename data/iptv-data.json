@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-07T12:22:18.531125",
+  "last_updated": "2025-09-07T18:15:00.754357",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -125,17 +125,13 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视高网",
@@ -147,9 +143,7 @@
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 兵器科技",
@@ -171,9 +165,7 @@
       "name": "CCTV 风云音乐",
       "description": "CCTV 风云音乐是央视旗下专业音乐频道，汇聚全球流行、古典、摇滚等多元音乐风格，提供演唱会、MV、音乐盛典及独家专访。24小时不间断放送高品质音乐内容，为乐迷打造沉浸式视听享受，传递音乐魅力与艺术之美。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云音乐.png,lfo-center,l-end,l-end/风云音乐.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.87:5140"
-      ]
+      "childItems": []
     }
   ],
   "stv": [
@@ -243,7 +235,9 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
+      ]
     },
     {
       "name": "山东卫视",
@@ -363,6 +357,7 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
         "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
@@ -410,9 +405,7 @@
       "name": "河南新闻",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南新闻.png,lfo-center,l-end,l-end/河南新闻.png",
-      "childItems": [
-        "http://www.cdnstv.com:6398/hls/1114/index.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "湖南爱晚",
