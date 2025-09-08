@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-08T01:06:02.198229",
+  "last_updated": "2025-09-08T06:23:14.289410",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,7 +59,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -96,7 +98,7 @@
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
       "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0013_1.m3u8"
+        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
       ]
     },
     {
@@ -127,15 +129,15 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
+      ]
     },
     {
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视高网",
@@ -167,9 +169,7 @@
       "name": "CCTV 风云音乐",
       "description": "CCTV 风云音乐是央视旗下专业音乐频道，汇聚全球流行、古典、摇滚等多元音乐风格，提供演唱会、MV、音乐盛典及独家专访。24小时不间断放送高品质音乐内容，为乐迷打造沉浸式视听享受，传递音乐魅力与艺术之美。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云音乐.png,lfo-center,l-end,l-end/风云音乐.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.87:5140"
-      ]
+      "childItems": []
     }
   ],
   "stv": [
@@ -361,8 +361,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
     {
