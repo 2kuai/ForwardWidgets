@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-08T00:13:13.533+08:00",
+  "last_updated": "2025-09-09T00:14:53.223+08:00",
   "nowplaying": [
     {
       "id": 1064486,
@@ -14,18 +14,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1419406,
-      "type": "tmdb",
-      "title": "捕风追影",
-      "originalTitle": "捕风追影",
-      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4vnfOgB9m4RHUOvLt67AmDzc42K.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-      "releaseDate": "2025-08-16",
-      "rating": 7.5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1312157,
       "type": "tmdb",
       "title": "关于约会的一切",
@@ -34,7 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pPa1BCiVQUv6sJnvxGmhukJklFs.jpg",
       "releaseDate": "2025-02-20",
-      "rating": 7.2,
+      "rating": 7.233,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1419406,
+      "type": "tmdb",
+      "title": "捕风追影",
+      "originalTitle": "捕风追影",
+      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+      "releaseDate": "2025-08-16",
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -46,19 +46,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
       "releaseDate": "2025-07-11",
-      "rating": 6.091,
+      "rating": 6.229,
       "mediaType": "movie"
     },
     {
-      "id": 1211726,
+      "id": 1305653,
       "type": "tmdb",
-      "title": "红丝绸",
-      "originalTitle": "Красный шелк",
-      "description": "1927年，一列横跨西伯利亚的特快列车正秘密运送着关乎苏联与中国命运的重要文件。在这趟列车上，看似普通的乘客中暗藏杀机——外国间谍与亡命之徒为夺取文件不择手段。当危机降临，一位年轻的红军战士不得不与曾经的沙皇密探联手，在飞驰的钢铁牢笼中揪出幕后黑手。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yveeiLDhI1fsA1zfLNLyX1pmao1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lH1FDMWWb1t3KneoRQ6O5r8q9do.jpg",
-      "releaseDate": "2025-02-20",
-      "rating": 7.3,
+      "title": "东极岛",
+      "originalTitle": "东极岛",
+      "description": "二战期间，中国舟山附近海域，一艘载满英军战俘的日本货轮被击沉，上千名英军战俘被日军封锁于船舱内。绝境之时，东极岛上的一群渔民毅然前来。他们凭借骨子里的善良、野性与血性，在惊涛骇浪中，为落难的战俘打开一条生路。\r 取材自中国渔民营救英军战俘的真实事件。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/srqflGIWm1qRHsBQSjdIHWF4E4N.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIawpKlAVKBWH9Sc8PpA8TefWW2.jpg",
+      "releaseDate": "2025-08-08",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1539351,
+      "type": "tmdb",
+      "title": "窗外是蓝星",
+      "originalTitle": "窗外是蓝星",
+      "description": "　　该片是中国首部在太空拍摄的实景电影，由航天员翟志刚、王亚平、叶光富在中国空间站使用8K超高清摄影机创作拍摄，影片将带领观众沉浸式体验中国人的太空旅程，感受壮美奇景、空间站生活与航天员真实的内心世界。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d73Je9cSAYtloC1S7AMgXDU8PgJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/j8NRd9KUOQbSFTO8V2rdsbQaKrc.jpg",
+      "releaseDate": "2025-09-05",
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -74,18 +86,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1539351,
-      "type": "tmdb",
-      "title": "窗外是蓝星",
-      "originalTitle": "窗外是蓝星",
-      "description": "　　该片是中国首部在太空拍摄的实景电影，由航天员翟志刚、王亚平、叶光富在中国空间站使用8K超高清摄影机创作拍摄，影片将带领观众沉浸式体验中国人的太空旅程，感受壮美奇景、空间站生活与航天员真实的内心世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d73Je9cSAYtloC1S7AMgXDU8PgJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/j8NRd9KUOQbSFTO8V2rdsbQaKrc.jpg",
-      "releaseDate": "2025-09-05",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1409966,
       "type": "tmdb",
       "title": "7天",
@@ -94,6 +94,30 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9KD52peH9pNLmdFDDlLhxiz2dOv.jpg",
       "releaseDate": "2025-08-29",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 574475,
+      "type": "tmdb",
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cokPs0Qy2QdJxRL9StDVXMSGCaf.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.139,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1530356,
+      "type": "tmdb",
+      "title": "生还",
+      "originalTitle": "生还",
+      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
+      "releaseDate": "2025-09-03",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -122,6 +146,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1175942,
+      "type": "tmdb",
+      "title": "坏蛋联盟2",
+      "originalTitle": "The Bad Guys 2",
+      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
+      "releaseDate": "2025-07-24",
+      "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
       "id": 1279823,
       "type": "tmdb",
       "title": "有朵云像你",
@@ -131,18 +167,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/9HVtiXXyUkBIY7b2hbIh3SSRdS4.jpg",
       "releaseDate": "2025-08-29",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1175942,
-      "type": "tmdb",
-      "title": "坏蛋联盟2",
-      "originalTitle": "The Bad Guys 2",
-      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
-      "releaseDate": "2025-07-24",
-      "rating": 7.788,
       "mediaType": "movie"
     },
     {
@@ -158,6 +182,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1406607,
+      "type": "tmdb",
+      "title": "戏台",
+      "originalTitle": "戏台",
+      "description": "民国年间，战乱频发。五庆班班主侯喜亭（陈佩斯 饰）带着一众名角儿来到德祥大戏院演出，谁成想首演压轴登场的却是包子铺的伙计大嗓儿（黄渤 饰）？全场观众都在翘首以盼名角儿金啸天（尹正 饰）亮相，可刚攻城称王的洪大帅（姜武 饰）却偏偏指名让大嗓儿唱这出《霸王别姬》！眼看戏班的招牌就要砸了，前台戏迷退票砸场让戏院吴经理（杨皓宇 饰）苦不堪言，后台洪大帅持枪闹事更是让人吓破了胆！台前台后都乱了套，男旦凤小桐（余少群 饰）、教化处处长徐明礼（陈大愚 饰）、怀有异心的六姨太（徐卓儿 饰）等人也被卷入这场令人啼笑皆非的闹剧之中……台上霸王声声唱，台下荒唐众生相，既要保住戏班饭碗，又要哄好台下观众，大幕拉开之后，这场戏到底要怎么唱？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wSFGtkoz8SW6yIgu1Xvxs584QQt.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cfAGn86j4LYzRCKWSkXPnMxoru6.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 8.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1523345,
       "type": "tmdb",
       "title": "营救飞虎",
@@ -170,51 +206,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1493663,
+      "id": 1530298,
       "type": "tmdb",
-      "title": "脱缰者也",
-      "originalTitle": "脱缰者也",
-      "description": "世纪之交，背井离乡的马飞（郭麒麟 饰）重返天津，在种种不尽如意的遭遇下“拐走”外甥李嘉文（胡朗荃 饰），舅甥就此踏上一段“离经叛道”之旅。事态脱缰失控，抽象不断升级，一切荒唐随之而来……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/l7bvyEiVeaBwY8W8UaYLT0Ml1RA.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9Ms8BpNezAt3O4qsl3VUfM9el7k.jpg",
-      "releaseDate": "2025-08-23",
+      "title": "后羿之箭神",
+      "originalTitle": "后羿之箭神",
+      "description": "　　唐尧时代，黄河河神强娶少女，常闹水患，个别部落长期叛乱扰民，企图分裂唐尧，天上10日并出，地上妖魔横行，生灵涂炭，苍生危难，一代少年箭神后羿，获赠太阳神神弓风弛，平叛军，斩妖魔，射九日，力挽狂澜，扭转乾坤，实现了他“安天下，福万民”的理想抱负，成为千秋传颂的英雄。但因叛徒逢蒙趁后羿出征期间，到后羿家抢夺仙丹，嫦娥情急之下吞了仙丹，成仙奔入月宫，从此，嫦娥与后羿天人永隔。留下一段美丽动人的神话。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4DX2pbVca9FpziF8uTUODs2pBWb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kire0Mh6fCXXP8DZx6PiDWoMWaY.jpg",
+      "releaseDate": "2025-08-19",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1356587,
-      "type": "tmdb",
-      "title": "长安的荔枝",
-      "originalTitle": "长安的荔枝",
-      "description": "唐天宝年间，人到中年的李善德（大鹏 饰）骂骂咧咧干了很多活，抠抠搜搜花了不少钱，到头来却还是个无名小吏。然而这一切随着一次召见似乎有了转机，某天有人安排给他一个“荔枝使”的肥差，只要办成，那就是荣华富贵人生逆袭，但要是办不成……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/S8XM9nknYxBHCp1AO1TNpqwRzo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mBa8hfCXiiMcguuOHojqotOH7IO.jpg",
-      "releaseDate": "2025-07-12",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1139695,
-      "type": "tmdb",
-      "title": "酱园弄·悬案",
-      "originalTitle": "酱园弄·悬案",
-      "description": "影片根据民国四大奇案之一改编，女子杀夫碎尸最终竟无罪释放？1945年，上海酱园弄发生一起骇人血案，一石激起千层浪。詹周氏（章子怡 饰）为何杀夫？又如何凭一己之力完成碎尸？随着时代变迁，她的命运又将如何改写？大时代下鲜活的众生群像又将如何展开？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dwZ8ovST9NTuCteWJQERut2KvQM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/busvJ951z67XMmGbAWgFHhXwdSf.jpg",
-      "releaseDate": "2025-06-14",
-      "rating": 4.571,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1481390,
-      "type": "tmdb",
-      "title": "聊斋：兰若寺",
-      "originalTitle": "聊斋：兰若寺",
-      "description": "年青书生蒲松龄行路遇险，不得已夜宿兰若寺，却被一蛤蟆一乌龟抓到了一口奇异的古井底，两只精怪比赛讲故事并逼迫蒲松龄评判故事的好坏……最终，被逼无奈的蒲松龄也讲出了自己的奇妙故事。\r 本片为篇章式结构，分为一条主线《井下故事》以及五个经典聊斋故事改编的《崂山道士》《莲花公主》《聂小倩》《画皮》《鲁公女》，共六个篇章。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/paZseaaIQBDfNnXrld7ml4ZW3RF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uOpTbfagHI1Ug3f4RYSGhC8CHqk.jpg",
-      "releaseDate": "2025-07-12",
-      "rating": 7.7,
       "mediaType": "movie"
     }
   ],
@@ -308,9 +308,9 @@
       "type": "tmdb",
       "title": "731",
       "originalTitle": "731",
-      "description": "影片以侵华日军731部队在中国东北进行的细菌实验为背景，通过一个小人物的曲折命运，揭露731部队的罪行。",
+      "description": "1945年抗战胜利前夕，侵华日军第七三一部队在哈尔滨平房区以“给水防疫”为名，秘密进行惨无人道的细菌战研究，大肆抓捕平民进行活体实验，妄图以此扭转败局。小贩王永章等人被强行抓入“特设监狱”，日军以“配合健康检查与防疫研究即可换取自由”的虚伪承诺，欺骗他们遭受冻伤实验、毒气实验、活体解剖等极端折磨……",
       "posterPath": "https://image.tmdb.org/t/p/w500/e53iGvxG7ebdJP6GE3x1JI1744z.jpg",
-      "backdropPath": null,
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wxpMBqiKfrZv4Vetm1YDuiNyYPb.jpg",
       "releaseDate": "2025-09-18",
       "rating": 0,
       "mediaType": "movie"
@@ -324,6 +324,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/x3ovG0A9kGWgn4jUAMFjyW7Jhnw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tF8tYeUrhCj7Fek5ITggTpk56sK.jpg",
       "releaseDate": "2025-09-19",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1543134,
+      "type": "tmdb",
+      "title": "志愿军：浴血和平",
+      "originalTitle": "志愿军：浴血和平",
+      "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-09-30",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -388,6 +400,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 533533,
+      "type": "tmdb",
+      "title": "创：战神",
+      "originalTitle": "TRON: Ares",
+      "description": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4EbNoBhD6JvQqYrRdmMNENUP47T.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/g3lCbTn3HYHTiFrfusxKGXMdyUW.jpg",
+      "releaseDate": "2025-10-08",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1245993,
       "type": "tmdb",
       "title": "偷天盗日",
@@ -396,7 +420,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/t6MdHYhGjQXtx7B4j86NdqNPckg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 7,
+      "rating": 6.967,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1024332,
+      "type": "tmdb",
+      "title": "小山河",
+      "originalTitle": "小山河",
+      "description": "二十五岁的青禾从深圳回到了许久未归的故乡。眼前家乡全新的面貌，让她萌生了回乡创业的想法。在与外婆一起生活的日子里，青禾在寻常的一粥一饭间，回忆起了在这栋老屋里发生的点点滴滴。她仿佛看到了早逝的父亲，最终原谅了改嫁的母亲。而且，她在和同村好友美素、小龙的交往相处中，得到了心灵的慰藉，也收获了别样的成长。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/91O5Val6iIUiPEfpu3apd7IhNU1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kspiNIXMV6Yg8MTLJ8QNgTLayZy.jpg",
+      "releaseDate": "2022-09-20",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -494,7 +530,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.6,
+      "rating": 7.612,
       "mediaType": "movie"
     },
     {
@@ -506,7 +542,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.9,
+      "rating": 7.906,
       "mediaType": "movie"
     },
     {
@@ -518,7 +554,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zxi6WQPVc0uQAG5TtLsKvxYHApC.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.055,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -530,7 +566,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.699,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -554,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.797,
+      "rating": 7.798,
       "mediaType": "movie"
     },
     {
@@ -566,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
       "releaseDate": "2023-06-18",
-      "rating": 6.96,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
