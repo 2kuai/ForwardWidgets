@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-09T12:26:51.326393",
+  "last_updated": "2025-09-09T18:15:10.703175",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -408,7 +408,9 @@
       "name": "浙江国际",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江国际.png,lfo-center,l-end,l-end/浙江国际.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+      ]
     },
     {
       "name": "河南新闻",
