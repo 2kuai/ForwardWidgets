@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-08T18:18:15.221290",
+  "last_updated": "2025-09-09T00:56:29.282897",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -95,9 +95,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://tencentplaygsm.gztv.com/live/jingsai.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
@@ -127,9 +125,7 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视台球",
@@ -168,8 +164,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
       ]
     },
     {
