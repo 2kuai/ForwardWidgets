@@ -1,18 +1,6 @@
 {
-  "last_updated": "2025-09-09T00:14:53.223+08:00",
+  "last_updated": "2025-09-10T00:15:35.550+08:00",
   "nowplaying": [
-    {
-      "id": 1064486,
-      "type": "tmdb",
-      "title": "蜗牛回忆录",
-      "originalTitle": "Memoir of a Snail",
-      "description": "喜欢收集蜗牛的女孩格蕾丝（莎拉·斯努克 Sarah Snook 配音）在被迫与双胞胎吉尔伯特（柯蒂·斯密特-麦菲 Kodi Smit-McPhee 配音）分开后，结识了古怪的老奶奶萍奇（杰基·韦佛 Jacki Weaver 配音），逐渐找到新的希望和快乐。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kM0gfnanT6Sc2H5r8Bm113M3T50.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
-      "releaseDate": "2024-10-17",
-      "rating": 8.054,
-      "mediaType": "movie"
-    },
     {
       "id": 1312157,
       "type": "tmdb",
@@ -46,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
       "releaseDate": "2025-07-11",
-      "rating": 6.229,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -74,18 +62,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1304434,
-      "type": "tmdb",
-      "title": "浪浪山小妖怪",
-      "originalTitle": "浪浪山小妖怪",
-      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
-      "releaseDate": "2025-07-26",
-      "rating": 8.063,
-      "mediaType": "movie"
-    },
-    {
       "id": 1409966,
       "type": "tmdb",
       "title": "7天",
@@ -98,39 +74,27 @@
       "mediaType": "movie"
     },
     {
+      "id": 1304434,
+      "type": "tmdb",
+      "title": "浪浪山小妖怪",
+      "originalTitle": "浪浪山小妖怪",
+      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
+      "releaseDate": "2025-07-26",
+      "rating": 8.063,
+      "mediaType": "movie"
+    },
+    {
       "id": 574475,
       "type": "tmdb",
       "title": "死神来了：血脉诅咒",
       "originalTitle": "Final Destination Bloodlines",
       "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cokPs0Qy2QdJxRL9StDVXMSGCaf.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
       "releaseDate": "2025-05-14",
-      "rating": 7.139,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1530356,
-      "type": "tmdb",
-      "title": "生还",
-      "originalTitle": "生还",
-      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1500536,
-      "type": "tmdb",
-      "title": "南京照相馆",
-      "originalTitle": "南京照相馆",
-      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5Jn2wgZ6EGu7ii9oPXgneSth5nR.jpg",
-      "releaseDate": "2025-07-19",
-      "rating": 8.5,
+      "rating": 7.138,
       "mediaType": "movie"
     },
     {
@@ -146,15 +110,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1175942,
+      "id": 1500536,
       "type": "tmdb",
-      "title": "坏蛋联盟2",
-      "originalTitle": "The Bad Guys 2",
-      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
-      "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "title": "南京照相馆",
+      "originalTitle": "南京照相馆",
+      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/5Jn2wgZ6EGu7ii9oPXgneSth5nR.jpg",
+      "releaseDate": "2025-07-19",
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -170,6 +134,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1530356,
+      "type": "tmdb",
+      "title": "生还",
+      "originalTitle": "生还",
+      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
+      "releaseDate": "2025-09-03",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1175942,
+      "type": "tmdb",
+      "title": "坏蛋联盟2",
+      "originalTitle": "The Bad Guys 2",
+      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
+      "releaseDate": "2025-07-24",
+      "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
       "id": 1399515,
       "type": "tmdb",
       "title": "奇遇",
@@ -182,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1406607,
-      "type": "tmdb",
-      "title": "戏台",
-      "originalTitle": "戏台",
-      "description": "民国年间，战乱频发。五庆班班主侯喜亭（陈佩斯 饰）带着一众名角儿来到德祥大戏院演出，谁成想首演压轴登场的却是包子铺的伙计大嗓儿（黄渤 饰）？全场观众都在翘首以盼名角儿金啸天（尹正 饰）亮相，可刚攻城称王的洪大帅（姜武 饰）却偏偏指名让大嗓儿唱这出《霸王别姬》！眼看戏班的招牌就要砸了，前台戏迷退票砸场让戏院吴经理（杨皓宇 饰）苦不堪言，后台洪大帅持枪闹事更是让人吓破了胆！台前台后都乱了套，男旦凤小桐（余少群 饰）、教化处处长徐明礼（陈大愚 饰）、怀有异心的六姨太（徐卓儿 饰）等人也被卷入这场令人啼笑皆非的闹剧之中……台上霸王声声唱，台下荒唐众生相，既要保住戏班饭碗，又要哄好台下观众，大幕拉开之后，这场戏到底要怎么唱？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wSFGtkoz8SW6yIgu1Xvxs584QQt.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cfAGn86j4LYzRCKWSkXPnMxoru6.jpg",
-      "releaseDate": "2025-07-12",
-      "rating": 8.2,
-      "mediaType": "movie"
-    },
-    {
       "id": 1523345,
       "type": "tmdb",
       "title": "营救飞虎",
@@ -203,6 +179,30 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
       "releaseDate": "2025-09-03",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1406607,
+      "type": "tmdb",
+      "title": "戏台",
+      "originalTitle": "戏台",
+      "description": "民国年间，战乱频发。五庆班班主侯喜亭（陈佩斯 饰）带着一众名角儿来到德祥大戏院演出，谁成想首演压轴登场的却是包子铺的伙计大嗓儿（黄渤 饰）？全场观众都在翘首以盼名角儿金啸天（尹正 饰）亮相，可刚攻城称王的洪大帅（姜武 饰）却偏偏指名让大嗓儿唱这出《霸王别姬》！眼看戏班的招牌就要砸了，前台戏迷退票砸场让戏院吴经理（杨皓宇 饰）苦不堪言，后台洪大帅持枪闹事更是让人吓破了胆！台前台后都乱了套，男旦凤小桐（余少群 饰）、教化处处长徐明礼（陈大愚 饰）、怀有异心的六姨太（徐卓儿 饰）等人也被卷入这场令人啼笑皆非的闹剧之中……台上霸王声声唱，台下荒唐众生相，既要保住戏班饭碗，又要哄好台下观众，大幕拉开之后，这场戏到底要怎么唱？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wSFGtkoz8SW6yIgu1Xvxs584QQt.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6ggN6nRgJskoRIEVYmvY1hyRvBv.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 8.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1490320,
+      "type": "tmdb",
+      "title": "喜羊羊与灰太狼之异国破晓",
+      "originalTitle": "喜羊羊与灰太狼之异国破晓",
+      "description": "羊村守护者收到“光之大陆”的紧急求救，毅然踏上危机四伏的营救之路，面对未知的阴谋与强敌。羊狼们是否能拨开迷雾重见光明，光之大陆的命运又将何去何从……光明与黑暗的决战一触即发。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tvooHfa3uBh89NNpJKb96ntNoRl.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wWF3i7ZbCo9Q3xqEzh2KczMRJ0o.jpg",
+      "releaseDate": "2025-07-26",
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -220,14 +220,14 @@
   ],
   "coming": [
     {
-      "id": 1540027,
+      "id": 1541690,
       "type": "tmdb",
-      "title": "我们终将要和世界握手言和",
-      "originalTitle": "我们终将要和世界握手言和",
-      "description": "　　人到中年的男主角在高强度的工作和生活压力下，逐渐变得厌倦并迷失自我，一次偶然的际遇让他找到了另类的宣泄方式，那就是无论有多重要的事情都先放下，每天用六十分钟时间彻底的放飞自我，在这段时间里他所遇到的人和事总有种似曾相识的感觉，看似偶然和偶遇的每件事和每个人似乎都和他的过去有关，最终男主角终于找回了“自己”，同时也完成了精神和心灵上的自我治愈。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7n0X7w2UKh4Buht74UhzzWe7NMj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yAMg2ODr2RcFz2nxu2glO4fstEM.jpg",
-      "releaseDate": "2025-09-10",
+      "title": "洛桑的家事",
+      "originalTitle": "洛桑的家事",
+      "description": "洛桑的三岁孙女央金被酒后驾驶拖拉机的豆拉伽撞成了高位截瘫，由此引发了三个家庭的矛盾，最后和解，实现了信仰与法律的相辅相成。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/eN8kUWQUviYul9288ANI9Rl5Cha.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lD8z6PLIjCyNXksv5mMkZrYaisb.jpg",
+      "releaseDate": "2025-09-11",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -316,6 +316,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1242011,
+      "type": "tmdb",
+      "title": "同甘共苦",
+      "originalTitle": "Together",
+      "description": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fBlzTwgtbDYkDKlhnPu69jHfVGy.jpg",
+      "releaseDate": "2025-07-23",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1305276,
       "type": "tmdb",
       "title": "这周五的游乐场",
@@ -325,6 +337,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/tF8tYeUrhCj7Fek5ITggTpk56sK.jpg",
       "releaseDate": "2025-09-19",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 258313,
+      "type": "tmdb",
+      "title": "当男人恋爱时",
+      "originalTitle": "남자가 사랑할 때",
+      "description": "太逸（黄政民 饰）是一名帮高利贷讨债的小混混，人到中年的他不仅没有份正经的工作，甚至连个住的地方都没有，寄宿在开美发店的哥哥英逸（郭道元 饰）家。太逸有着自己的人生哲学，那就是借出去的钱一定得要回来。大大咧咧的他完全不懂得如何尊重女性，亦和浪漫的爱情故事无缘。\r 　　某日，在去讨债的途中，太逸邂逅了名为周皓婷（韩惠珍 饰）的美丽女子，那一瞬间，太逸懂得了什么叫一见钟情。然而，太逸并不能给予周皓婷她所想要的生活，第一次，太逸决定为了自己之外的人做出改变。然而，面对两人之间巨大的悬殊，太逸能够坚持他的感情吗？与此同时，接二连三发生的意外亦让太逸的生活陷入了麻烦之中。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9VH7ewz9BgVBvZYiVrlgPgJKtWT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/adcByN7UcAikklMMtvsbE601Gle.jpg",
+      "releaseDate": "2014-01-22",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -394,7 +418,7 @@
       "originalTitle": "One Battle After Another",
       "description": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oPILHSxZ0mFHjKwEfGKtbNjdaxV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wZYjrOQSJXbIil6Ij07badqJWdE.jpg",
       "releaseDate": "2025-09-24",
       "rating": 0,
       "mediaType": "movie"
@@ -406,7 +430,7 @@
       "originalTitle": "TRON: Ares",
       "description": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
       "posterPath": "https://image.tmdb.org/t/p/w500/4EbNoBhD6JvQqYrRdmMNENUP47T.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/g3lCbTn3HYHTiFrfusxKGXMdyUW.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fg1PmKyd6kB0iAbXc7pPY7KqVaK.jpg",
       "releaseDate": "2025-10-08",
       "rating": 0,
       "mediaType": "movie"
@@ -420,7 +444,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/t6MdHYhGjQXtx7B4j86NdqNPckg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.967,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -432,6 +456,42 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/91O5Val6iIUiPEfpu3apd7IhNU1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kspiNIXMV6Yg8MTLJ8QNgTLayZy.jpg",
       "releaseDate": "2022-09-20",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1543686,
+      "type": "tmdb",
+      "title": "向光花盛开",
+      "originalTitle": "向光花盛开",
+      "description": "　　夏津生是个天津人，幽默风趣，生活幸福。然而，儿子夏阳突然自杀，令他陷入绝望。朋友们和妻子贾萍竭力帮助，但他依然痛苦。直到遇到问题少年陈晨，他和朋友们帮助陈晨走出困境，重燃生活希望。最终，两个人都重新找回生活的勇气，共同克服困难，开启新生活。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9w3XeQ2LEhEWEkVii6HPjmATMvz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/aJ8iy2Du2CkbjSPoYYQqtNyItmV.jpg",
+      "releaseDate": "2025-10-24",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1543694,
+      "type": "tmdb",
+      "title": "带你回家",
+      "originalTitle": "带你回家",
+      "description": "　　为了实现父亲的遗愿 ，从小跟着父亲生活在美国的张缘缘（王真儿 饰）带着女儿回国，恰逢被她认定为“抛弃了自己”的母亲（李萍 饰）被确诊为阿尔兹海默症，张缘缘与女儿一起经历了母亲逐渐失忆的过程。随着现实和记忆的拼凑，张缘缘的思绪去到了80年代，“遇到”了年轻时的母亲（赫林 饰）。年轻时的母亲不仅样貌出众，学习更是拔尖，而年轻时的父亲是那么不起眼，在刚恢复高考的那年，母亲本该走出一条更光明的人生，但一次意外，彻底改变了母亲、父亲以及张缘缘的人生轨迹。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hK6KM3i7EKlGqY3MRSUbqKldSQ1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yZIREQMT5WLs1x5RmxzuH2SWJ0r.jpg",
+      "releaseDate": "2025-10-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249421,
+      "type": "tmdb",
+      "title": "即兴谋杀",
+      "originalTitle": "即兴谋杀",
+      "description": "凶海危崖豪宅共筑致命陷阱，局中人命悬一线步步惊心！影片讲述了半瘫少女何思怡离家17年后，回到立于诡异孤岛的家中，迎接她的是美艳温柔的继母、风度翩翩的私人医生、年轻健硕的司机以及万般贴心的女佣，面具背后究竟藏着怎样万劫不复的深渊？一场蓄谋已久的复仇大戏渐渐拉开帷幕…",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ckz0MSMog9RClCL4DsMaEYtO3jO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cwp9pdOdIWAg6RkLXqGZ6bZCVVK.jpg",
+      "releaseDate": "2025-10-31",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -614,7 +674,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6u3aQmsLzyVJxI4T0OtPsMm2f4c.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
       "releaseDate": "2018-02-13",
-      "rating": 7.369,
+      "rating": 7.4,
       "mediaType": "movie"
     }
   ]
