@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "获取热门电视直播频道",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.1.5",
+  version: "1.1.6",
   requiredVersion: "0.0.1",
   modules: [
     {
@@ -36,6 +36,7 @@ var WidgetMetadata = {
           type: "input",
           description: "支持RGB颜色，如DCDCDC",
           placeholders: [
+            { title: "水泥灰", value: "848484" },
             { title: "雾霾灰", value: "90A4AE" },
             { title: "暖灰色", value: "424242" },
             { title: "深灰色", value: "1C1C1E" }
@@ -135,7 +136,40 @@ async function getLiveTv(params = {}) {
       throw new Error(`不支持的类型: ${params.sort_by}`);
     }
     
-    return modifiedData[params.sort_by]
+    // 获取当前日期，格式为YYYY-MM-DD
+    const today = new Date();
+    const dateString = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+    
+    // 获取频道列表
+    const channels = modifiedData[params.sort_by];
+    
+    // 为每个频道获取EPG信息
+    const channelsWithEPG = await Promise.all(channels.map(async (item) => {
+      try {
+        // 直接使用原始频道名称作为EPG查询参数
+        const epgResponse = await Widget.http.get(`https://epg.aptv.app/?ch=${item.name}&date=${dateString}`, {
+          headers: {
+            "user-agent": "APTV/9.4.12 (com.kimen.aptvpro; build:1; iOS 18.6.2) Alamofire/5.9.1"
+          }
+        });
+        
+        if (epgResponse?.data) {
+          // 解析EPG数据
+          const epgInfo = parseEPGData(epgResponse.data);
+          if (epgInfo) {
+            // 合并原始描述和EPG信息
+            const originalDesc = item.description || '';
+            const epgDesc = formatEPGDescription(epgInfo);
+            item.description = `${originalDesc}\n\n${epgDesc}`.trim();
+          }
+        }
+      } catch (epgError) {
+        console.error(`[EPG] 获取频道 ${item.name} 的EPG信息失败:`, epgError.message);
+      }
+      return item;
+    }));
+    
+    return channelsWithEPG
       .map(item => {
         const validUrls = (item.childItems || [])
           .filter(url => typeof url === 'string' && url.trim());
@@ -170,6 +204,99 @@ async function getLiveTv(params = {}) {
   }
 }
 
+// 解析EPG数据
+function parseEPGData(epgData) {
+  try {
+    if (!epgData || typeof epgData !== 'object' || !Array.isArray(epgData.epg_data)) {
+      return null;
+    }
+    
+    // 获取当前时间
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour * 100 + currentMinute;
+    
+    // 查找当前正在播放的节目
+    let currentProgram = null;
+    // 查找所有即将播放的节目
+    let upcomingPrograms = [];
+    
+    for (const program of epgData.epg_data) {
+      if (!program.start || !program.end || !program.title) continue;
+      
+      const [startHour, startMinute] = program.start.split(':').map(Number);
+      const [endHour, endMinute] = program.end.split(':').map(Number);
+      const startTime = startHour * 100 + startMinute;
+      const endTime = endHour * 100 + endMinute;
+      
+      if (currentTime >= startTime && currentTime < endTime) {
+        currentProgram = {
+          title: program.title,
+          start: program.start,
+          end: program.end,
+          desc: program.desc || ''
+        };
+      } else if (currentTime < startTime) {
+        upcomingPrograms.push({
+          title: program.title,
+          start: program.start,
+          end: program.end,
+          desc: program.desc || ''
+        });
+      }
+    }
+    
+    return {
+      current: currentProgram,
+      upcoming: upcomingPrograms,
+      date: epgData.date || '',
+      channelName: epgData.channel_name || ''
+    };
+  } catch (error) {
+    console.error("解析EPG数据失败:", error);
+    return null;
+  }
+}
+
+// 格式化EPG描述
+function formatEPGDescription(epgInfo) {
+  let desc = "【节目预告】\n";
+  
+  if (epgInfo.channelName) {
+    desc += `频道: ${epgInfo.channelName}\n`;
+  }
+  if (epgInfo.date) {
+    desc += `日期: ${epgInfo.date}\n`;
+  }
+  
+  if (epgInfo.current) {
+    desc += `正在播放: ${epgInfo.current.title} (${epgInfo.current.start}-${epgInfo.current.end})`;
+    if (epgInfo.current.desc) {
+      desc += `\n简介: ${epgInfo.current.desc}`;
+    }
+    desc += "\n";
+  } else {
+    desc += "当前无节目信息\n";
+  }
+  
+  if (epgInfo.upcoming && epgInfo.upcoming.length > 0) {
+    desc += "\n【即将播放】\n";
+    epgInfo.upcoming.forEach((program, index) => {
+      desc += `${index + 1}. ${program.title} (${program.start}-${program.end})`;
+      if (program.desc) {
+        desc += ` - ${program.desc}`;
+      }
+      desc += "\n";
+    });
+  } else {
+    desc += "暂无后续节目信息";
+  }
+  
+  return desc;
+}
+
+// 计算匹配分数
 function calculateMatchScore(userName, baseName) {
   const normalize = (name) => {
     return (name || '')
@@ -195,6 +322,7 @@ function calculateMatchScore(userName, baseName) {
   return calculateSimilarity(userNorm, baseNorm);
 }
 
+// 计算字符串相似度
 function calculateSimilarity(a, b) {
   const matrix = [];
   for (let i = 0; i <= a.length; i++) matrix[i] = [i];
@@ -213,6 +341,7 @@ function calculateSimilarity(a, b) {
   return 1 - matrix[a.length][b.length] / Math.max(a.length, b.length);
 }
 
+// 在数据中查找频道
 function findChannelInData(data, channelName) {
   for (const category in data) {
     if (Array.isArray(data[category])) {
@@ -223,6 +352,7 @@ function findChannelInData(data, channelName) {
   return null;
 }
 
+// 解析M3U格式
 function parseM3U(content) {
   const channels = [];
   let current = {};
