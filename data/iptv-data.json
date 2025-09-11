@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-10T18:17:29.294036",
+  "last_updated": "2025-09-11T00:56:04.192545",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -176,7 +176,9 @@
       "name": "CCTV 风云音乐",
       "description": "CCTV 风云音乐是央视旗下专业音乐频道，汇聚全球流行、古典、摇滚等多元音乐风格，提供演唱会、MV、音乐盛典及独家专访。24小时不间断放送高品质音乐内容，为乐迷打造沉浸式视听享受，传递音乐魅力与艺术之美。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云音乐.png,lfo-center,l-end,l-end/风云音乐.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.87:5140"
+      ]
     }
   ],
   "stv": [
@@ -368,8 +370,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
     {
