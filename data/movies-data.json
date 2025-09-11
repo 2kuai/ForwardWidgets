@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-11T00:15:33.586+08:00",
+  "last_updated": "2025-09-12T00:16:14.961+08:00",
   "nowplaying": [
     {
       "id": 1312157,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pPa1BCiVQUv6sJnvxGmhukJklFs.jpg",
       "releaseDate": "2025-02-20",
-      "rating": 7.233,
+      "rating": 7.232,
       "mediaType": "movie"
     },
     {
@@ -26,6 +26,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1539351,
+      "type": "tmdb",
+      "title": "窗外是蓝星",
+      "originalTitle": "窗外是蓝星",
+      "description": "　　该片是中国首部在太空拍摄的实景电影，由航天员翟志刚、王亚平、叶光富在中国空间站使用8K超高清摄影机创作拍摄，影片将带领观众沉浸式体验中国人的太空旅程，感受壮美奇景、空间站生活与航天员真实的内心世界。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d73Je9cSAYtloC1S7AMgXDU8PgJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/j8NRd9KUOQbSFTO8V2rdsbQaKrc.jpg",
+      "releaseDate": "2025-09-05",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
       "id": 1049942,
       "type": "tmdb",
       "title": "小鹿斑比：清算",
@@ -34,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
       "releaseDate": "2025-07-11",
-      "rating": 6.397,
+      "rating": 6.39,
       "mediaType": "movie"
     },
     {
@@ -50,15 +62,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1539351,
+      "id": 574475,
       "type": "tmdb",
-      "title": "窗外是蓝星",
-      "originalTitle": "窗外是蓝星",
-      "description": "　　该片是中国首部在太空拍摄的实景电影，由航天员翟志刚、王亚平、叶光富在中国空间站使用8K超高清摄影机创作拍摄，影片将带领观众沉浸式体验中国人的太空旅程，感受壮美奇景、空间站生活与航天员真实的内心世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d73Je9cSAYtloC1S7AMgXDU8PgJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/j8NRd9KUOQbSFTO8V2rdsbQaKrc.jpg",
-      "releaseDate": "2025-09-05",
-      "rating": 8,
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -74,18 +86,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 574475,
-      "type": "tmdb",
-      "title": "死神来了：血脉诅咒",
-      "originalTitle": "Final Destination Bloodlines",
-      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
-      "releaseDate": "2025-05-14",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1409966,
       "type": "tmdb",
       "title": "7天",
@@ -95,18 +95,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/9KD52peH9pNLmdFDDlLhxiz2dOv.jpg",
       "releaseDate": "2025-08-29",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1082900,
-      "type": "tmdb",
-      "title": "爱的暂停键",
-      "originalTitle": "Elskling",
-      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bYGmqBI3kINvevvrSkRk4k4JsLy.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
-      "releaseDate": "2024-09-19",
-      "rating": 7.55,
       "mediaType": "movie"
     },
     {
@@ -142,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "rating": 7.832,
       "mediaType": "movie"
     },
     {
@@ -220,30 +208,6 @@
   ],
   "coming": [
     {
-      "id": 1135176,
-      "type": "tmdb",
-      "title": "家庭简史",
-      "originalTitle": "家庭简史",
-      "description": "影片讲述了操场上的一次伤人事故让沉默寡言但善于观察的严硕和热情直率却有些任性的涂伟成为了朋友。随着友谊的深化，严硕认识了涂伟的父母，他们对严硕这个失去了母亲并遭酗酒父亲虐待的孩子由同情变成喜爱。严硕成为了涂伟家的常客，而他的父亲对他的控制也更加紧密。某天深夜，涂伟一家收到严硕父亲意外死亡的消息，他们如何应对？严父的死又是否像严所说的只是个意外。四个人的命运交织了起来。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7MjB0A7ciykouc2s5iHejUyz48D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gJDGWlJbFO4KqB47ng3d0skA6zq.jpg",
-      "releaseDate": "2024-10-15",
-      "rating": 6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1541695,
-      "type": "tmdb",
-      "title": "地球脉动：万物有道",
-      "originalTitle": "Planet Earth: Forces of Nature",
-      "description": "　　作为BBC Earth博思星球纪录片《地球脉动》系列的又一力作，对地球众多独特的生态环境进行了深入探索。该片旨在呈现自然界最为壮观、最为引人入胜的景象，同时揭示野生动物在极端环境中展现出的非凡生存能力与传奇故事，以及大自然发生的惊人变化与深远影响使观众能战深刻感受到自然与生命的伟大力量。通过生动详实的画面与深入浅出的解说，影片不仅展现了自然界中生物生存法则的严酷与生态平衡的重要性，更引发了人们对人类与自然关系的深刻思考。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d4Wgk3xpkHlCRh4w5UzAgTA8z8D.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-09-12",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 974250,
       "type": "tmdb",
       "title": "逃离抢钱镇",
@@ -312,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uBB1aMga5ngZxsUQL5k36zeW3pB.jpg",
       "releaseDate": "2025-07-23",
-      "rating": 7.158,
+      "rating": 7.168,
       "mediaType": "movie"
     },
     {
@@ -337,6 +301,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/adcByN7UcAikklMMtvsbE601Gle.jpg",
       "releaseDate": "2014-01-22",
       "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 684498,
+      "type": "tmdb",
+      "title": "旁观者",
+      "originalTitle": "관전녀",
+      "description": "男主跟女主的性生活总是多彩多样，甚至某一天，男主竟然带了自己的朋友，来窥探和女友的爱爱，这让女主深感不适，同时，罪恶的羞耻感又让她感受到另类的刺激，爱爱被人旁观到底是怎样一样体验呢，这部影片不容错过....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yEWmVkONsonEVjKElRGF2EMISC5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eqHExGMGAabQOEQO7fSlbX1ag5u.jpg",
+      "releaseDate": "2019-10-10",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -406,7 +382,7 @@
       "originalTitle": "One Battle After Another",
       "description": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wZYjrOQSJXbIil6Ij07badqJWdE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/si68lkhkMfIospVeLEBtl7HWKDh.jpg",
       "releaseDate": "2025-09-24",
       "rating": 0,
       "mediaType": "movie"
@@ -417,7 +393,7 @@
       "title": "创：战神",
       "originalTitle": "TRON: Ares",
       "description": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4EbNoBhD6JvQqYrRdmMNENUP47T.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fg1PmKyd6kB0iAbXc7pPY7KqVaK.jpg",
       "releaseDate": "2025-10-08",
       "rating": 0,
@@ -444,7 +420,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 7,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -602,7 +578,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gi2X1IQHOzm53xUKCm8r1N7zvm8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.9,
+      "rating": 7.906,
       "mediaType": "movie"
     },
     {
@@ -626,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.699,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -661,8 +637,8 @@
       "description": "在芭比乐园里，各种各样的芭比和肯每天都过着童话般100%完美的生活。但是某一天，芭比（玛格特·罗比 Margot Robbie 饰）发现自己的生活开始有了变化——比如她的一天不再一帆风顺，她开始思考死亡的意义，甚至她的双脚也不再是完美的高跟鞋形——她竟然脚掌落地了！接连出现的不完美打破了芭比乐园的平静，意识到存在感危机的芭比被迫前往真实世界探寻真相，肯（瑞恩·高斯林 Ryan Gosling 饰）也一路同行，一场大冒险就此开启。",
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
-      "releaseDate": "2023-06-18",
-      "rating": 6.959,
+      "releaseDate": "2023-07-19",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
