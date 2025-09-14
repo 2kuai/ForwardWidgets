@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-14T06:16:47.292275",
+  "last_updated": "2025-09-14T12:20:35.160074",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -131,25 +131,19 @@
       "name": "CCTV 央视台球",
       "description": "CCTV 央视台球频道，专注于播出台球赛事、相关资讯和精彩赛事回放，是台球爱好者的专业频道。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-央视台球.png,lfo-center,l-end,l-end/央视台球.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.80:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.2,h-bh_mul_3.7,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 世界地理",
       "description": "CCTV 世界地理频道，聚焦全球地理、人文和自然探索，为观众带来丰富的地理知识和纪录片内容。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-世界地理.png,lfo-center,l-end,l-end/世界地理.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.93:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 兵器科技",
@@ -162,6 +156,7 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
         "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
@@ -169,7 +164,9 @@
       "name": "CCTV 风云音乐",
       "description": "CCTV 风云音乐是央视旗下专业音乐频道，汇聚全球流行、古典、摇滚等多元音乐风格，提供演唱会、MV、音乐盛典及独家专访。24小时不间断放送高品质音乐内容，为乐迷打造沉浸式视听享受，传递音乐魅力与艺术之美。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云音乐.png,lfo-center,l-end,l-end/风云音乐.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lizhinas.top:1009/rtp/239.252.219.87:5140"
+      ]
     }
   ],
   "stv": [
@@ -177,7 +174,9 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
+      ]
     },
     {
       "name": "浙江卫视",
@@ -285,7 +284,9 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
+      ]
     },
     {
       "name": "东南卫视",
