@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-18T08:44:04.039+08:00",
+  "last_updated": "2025-09-18T14:14:58.405+08:00",
   "tv": {
     "全网": [
       {
@@ -14,6 +14,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 279322,
+        "type": "tmdb",
+        "title": "不眠日",
+        "description": "华澳市警署有一位睿智骁勇、屡破奇案的“神探”，警署内传言称没有他破不了的案件。然而，看似完美的杀人案接二连三地降临，挑战着这位“神探”的极限。案件中，凶手如同幽灵般无迹可寻，没有留下任何线索，仿佛从未来过。华澳市风云变幻，暗流涌动，每一个角落都可能隐藏着致命的危机。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sTtZV6qfAmrTRNnR3crivqIeAJt.jpg",
+        "releaseDate": "2025-09-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 254488,
         "type": "tmdb",
         "title": "灼灼韶华",
@@ -25,13 +36,46 @@
         "mediaType": "tv"
       },
       {
-        "id": 279322,
+        "id": 242762,
         "type": "tmdb",
-        "title": "不眠日",
-        "description": "华澳市警署有一位睿智骁勇、屡破奇案的“神探”，警署内传言称没有他破不了的案件。然而，看似完美的杀人案接二连三地降临，挑战着这位“神探”的极限。案件中，凶手如同幽灵般无迹可寻，没有留下任何线索，仿佛从未来过。华澳市风云变幻，暗流涌动，每一个角落都可能隐藏着致命的危机。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wfu7ojhMko3jUxlwfdquwhIw2aX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2PXt4bfBvsszibaZp2HrT30xKnh.jpg",
-        "releaseDate": "2025-09-17",
+        "title": "子夜归",
+        "description": "长安之下，别有邪魅，隐秘儿女，子夜方归。纨绔贵女与孤傲郎君纵享双面人生，白日爱侣欢乐，夜里殊死相搏，只为护一方太平，佑海晏河清。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/taOaIYF4MrhZq6uLXMJz7oGxFqv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/l7xM9pfny2lPV9fRBLBHx93EvMQ.jpg",
+        "releaseDate": "2025-08-18",
+        "rating": 8.4,
+        "mediaType": "tv"
+      },
+      {
+        "id": 300176,
+        "type": "tmdb",
+        "title": "欢乐家长群2",
+        "description": "2024年新的开学季，鬼马家庭的父母和孩子又开始新一轮快乐成长。没有老人帮忙，刘向上和戴静只好忙完工作忙管娃，果宁为竞选班长绞尽脑汁使出浑身解数，果宝又太佛系让父母恨铁不成钢，刘向上为支持戴静工作既要应付家长群又要应付各类托管群、业主群、兴趣班群，导致一度严令家里不许提“群”这个字。景婷婷生三胎，杨明彪担子更重了，一边管理初一学习，另一边照顾三宝，又因十五初中毕业想去国外上学父子俩产生矛盾。唐晓薇在马英杰的保证下决定创业，马英杰又得寸进尺想复婚还想要二胎，晓薇对马英杰的躺平状态望而却步。三组家庭每天都在发生着新的事件，在磕磕绊绊中，家长们找到了工作家庭的平衡点。果宁顺利毕业升入初中，十五和杨明彪化解了父子矛盾，顺利出国读书，马英杰找到工作变得忙碌起来，孩子们也在不知不觉中都长大了。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1olN6Tvs2NQjvRfpLVbZTyw46K2.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 272485,
+        "type": "tmdb",
+        "title": "生万物",
+        "description": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/tj74qN7hRxIWTtypkqXPfmAvpop.jpg",
+        "releaseDate": "2025-08-13",
+        "rating": 8.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 273655,
+        "type": "tmdb",
+        "title": "足迹",
+        "description": "上个世纪上海法租界一所西式洋房里，最初住着一户姓林的人家。30年代初，林家败落，房子被有心人买下，改建成一所妇产医院，在这所医院里，发生了许多故事。50年代初，新中国成立，这座洋房又成为工厂车间，工作和来往着工人、技术人员等。90年代初，这所老洋房成为商住两用房，来来往往的人们又发生了新的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3iqrhUYfGdbL0yp1kM426P4aZTz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5D1xXcQAFXHuKc7MrMhTE7S5HKd.jpg",
+        "releaseDate": "2025-09-04",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -47,69 +91,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 272485,
+        "id": 253093,
         "type": "tmdb",
-        "title": "生万物",
-        "description": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/tj74qN7hRxIWTtypkqXPfmAvpop.jpg",
-        "releaseDate": "2025-08-13",
-        "rating": 8.3,
+        "title": "与晋长安",
+        "description": "太晋女将军黎霜骁勇善战，她受命在一个月之内找出隐藏的奸细。某日，黎霜偶然间救下身负重伤记忆全失的男子，将其带回军营。男子恳求黎霜收留并跟随她征战。黎霜为其赐名晋安，寓意太晋长治久安。二人合力揪出奸细，却接连遭遇新任监军的蓄意为难和邻国大姚的屡屡犯境，晋安凭借自己过人的智谋与黎霜一起克服困难与险境，二人暗生情愫。晋安逐渐想起自己的真实身份竟是大姚的镇世王，而彼时战事一触即发，二人不得已刀兵相见，本就厌倦战争的二人决定联手化解家国危机，帮助百姓安居乐业。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pjoIBOqCxIZNMhvXySYMmc9mcH.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8jppViW8aKsaLyj8tLFEYJdc7Sa.jpg",
+        "releaseDate": "2025-08-24",
+        "rating": 8.2,
         "mediaType": "tv"
       },
       {
-        "id": 300176,
+        "id": 300521,
         "type": "tmdb",
-        "title": "欢乐家长群2",
-        "description": "2024年新的开学季，鬼马家庭的父母和孩子又开始新一轮快乐成长。没有老人帮忙，刘向上和戴静只好忙完工作忙管娃，果宁为竞选班长绞尽脑汁使出浑身解数，果宝又太佛系让父母恨铁不成钢，刘向上为支持戴静工作既要应付家长群又要应付各类托管群、业主群、兴趣班群，导致一度严令家里不许提“群”这个字。景婷婷生三胎，杨明彪担子更重了，一边管理初一学习，另一边照顾三宝，又因十五初中毕业想去国外上学父子俩产生矛盾。唐晓薇在马英杰的保证下决定创业，马英杰又得寸进尺想复婚还想要二胎，晓薇对马英杰的躺平状态望而却步。三组家庭每天都在发生着新的事件，在磕磕绊绊中，家长们找到了工作家庭的平衡点。果宁顺利毕业升入初中，十五和杨明彪化解了父子矛盾，顺利出国读书，马英杰找到工作变得忙碌起来，孩子们也在不知不觉中都长大了。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1olN6Tvs2NQjvRfpLVbZTyw46K2.jpg",
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
-        "id": 242762,
-        "type": "tmdb",
-        "title": "子夜归",
-        "description": "长安之下，别有邪魅，隐秘儿女，子夜方归。纨绔贵女与孤傲郎君纵享双面人生，白日爱侣欢乐，夜里殊死相搏，只为护一方太平，佑海晏河清。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/taOaIYF4MrhZq6uLXMJz7oGxFqv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/l7xM9pfny2lPV9fRBLBHx93EvMQ.jpg",
-        "releaseDate": "2025-08-18",
-        "rating": 8.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 273655,
-        "type": "tmdb",
-        "title": "足迹",
-        "description": "上个世纪上海法租界一所西式洋房里，最初住着一户姓林的人家。30年代初，林家败落，房子被有心人买下，改建成一所妇产医院，在这所医院里，发生了许多故事。50年代初，新中国成立，这座洋房又成为工厂车间，工作和来往着工人、技术人员等。90年代初，这所老洋房成为商住两用房，来来往往的人们又发生了新的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3iqrhUYfGdbL0yp1kM426P4aZTz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5D1xXcQAFXHuKc7MrMhTE7S5HKd.jpg",
-        "releaseDate": "2025-09-04",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 106449,
-        "type": "tmdb",
-        "title": "凡人修仙传",
-        "description": "平凡少年韩立出生贫困，为了让家人过上更好的生活，自愿前去七玄门参加入门考核，最终被墨大夫收入门下。墨大夫一开始对韩立悉心培养、传授医术，让韩立对他非常感激，但随着一同入门的弟子张铁失踪，韩立才发现了墨大夫的真面目。墨大夫试图夺舍韩立，最终却被韩立反杀。通过墨大夫的遗书韩立得知了一个全新世界：修仙界的存在。在帮助七玄门抵御外敌之后，韩立离开了七玄门，前去墨大夫的家中寻找暖阳宝玉解毒，并帮助墨家人打败了敌人。通过墨大夫之女墨彩环的口中得知太南小会地址，韩立为追寻修仙人的足迹决定前往太南小会，拜别家人后，韩立来到太南谷，结识了一众修仙人士，正式展开了自己的修仙之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3m1UaMLgmpj6krNaQwTpftYFsnz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kWByUrGgS4mYyvQ2mG95gzblBOj.jpg",
-        "releaseDate": "2020-07-25",
+        "title": "阵地",
+        "description": "该剧讲述1938年至1944年期间，日本侵华、山河破碎，在中国共产党的领导和推动下，郭沫若、夏衍、田汉、巴金、柳亚子、陶行知、徐悲鸿、茅盾、欧阳予倩等一大批爱国进步文化人士云集桂林，与以李克农为代表的桂林“八办”一起，在绝美的山水间，以笔为枪，以舞台做战场，通过新闻、文学、戏剧、音乐、美术等一系列文化运动，宣传抗日民族统一战线，将流亡与复兴、时艰与责任、生存与死亡、个人情感与民族情怀等都转化为抵御外来侵略的民族文化长城，进行一场没有硝烟的“文化抗战”的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2nH7zQ7YyqP4XkRUoNxfO1wNcrO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/tISW1rbaKxhvLjpiBogfGXBiJEY.jpg",
+        "releaseDate": "2025-09-16",
         "rating": 8.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 254476,
-        "type": "tmdb",
-        "title": "献鱼",
-        "description": "在庚辰仙府闭关修炼五百年的师祖司马焦与意外来到修仙界的廖停雁相遇，傲娇孤寂的师祖与无欲无求的“咸鱼”相互救赎，彼此保护，在仙府、魔域和人间展开了一段跨越三世的爱恨纠葛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yzZOdLIZje5nMemv0f7eZccoBmb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iMhTgoRJiGXWxHY0DuyA1W66ZRe.jpg",
-        "releaseDate": "2025-08-16",
-        "rating": 8.714,
         "mediaType": "tv"
       }
     ],
@@ -144,18 +144,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/yzZOdLIZje5nMemv0f7eZccoBmb.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/iMhTgoRJiGXWxHY0DuyA1W66ZRe.jpg",
         "releaseDate": "2025-08-16",
-        "rating": 8.714,
-        "mediaType": "tv"
-      },
-      {
-        "id": 290886,
-        "type": "tmdb",
-        "title": "黑白局",
-        "description": "展鹏的父亲是一名铁路警察，多年前因公被追评为烈士。展鹏一直希望能够回到父亲曾经工作过的地方任职铁路警察。然而，当他真正来到下桐并开始工作时，却发现这里的情况比他想象的要复杂得多。初见涂洪江，他并不相信这个老警察。涂洪江在处理一起贩毒案件时表现得非常可疑，这让展鹏对他产生了戒备。然而，随着时间的推移，涂洪江用自己的行动证明了自己的清白。后在携手办案的过程中，展鹏逐渐对涂洪江产生敬意，两人最终联手将幕后主使缉拿归案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xS9zZtYREbrPw2A5vN9Nfbe8qlD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yXWsnju6tPVTHCwDYNHqanSKpfl.jpg",
-        "releaseDate": "2025-09-05",
-        "rating": 8,
+        "rating": 8.375,
         "mediaType": "tv"
       },
       {
@@ -181,6 +170,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 290886,
+        "type": "tmdb",
+        "title": "黑白局",
+        "description": "展鹏的父亲是一名铁路警察，多年前因公被追评为烈士。展鹏一直希望能够回到父亲曾经工作过的地方任职铁路警察。然而，当他真正来到下桐并开始工作时，却发现这里的情况比他想象的要复杂得多。初见涂洪江，他并不相信这个老警察。涂洪江在处理一起贩毒案件时表现得非常可疑，这让展鹏对他产生了戒备。然而，随着时间的推移，涂洪江用自己的行动证明了自己的清白。后在携手办案的过程中，展鹏逐渐对涂洪江产生敬意，两人最终联手将幕后主使缉拿归案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/xS9zZtYREbrPw2A5vN9Nfbe8qlD.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yXWsnju6tPVTHCwDYNHqanSKpfl.jpg",
+        "releaseDate": "2025-09-05",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
         "id": 272937,
         "type": "tmdb",
         "title": "以法之名",
@@ -192,17 +192,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 261128,
-        "type": "tmdb",
-        "title": "樱桃琥珀",
-        "description": "林其乐和蒋峤西相逢于少时，结下了真挚的情谊却不得不匆匆离别。在因为一封信产生误会后，重逢于高中的二人品尝到了青春的甘苦，与同学少年们一起经历成长，走向更广阔的的天地。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sPYeUqXFK1pMLzUoEv1kwfeXUim.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8yfPXapjvJhFnpSEXrGN8cqV1fD.jpg",
-        "releaseDate": "2025-07-14",
-        "rating": 8.4,
-        "mediaType": "tv"
-      },
-      {
         "id": 270845,
         "type": "tmdb",
         "title": "二龙湖·“村”暖花开",
@@ -211,6 +200,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/rQV0mazXT4LBwdEApIJIT1fqNil.jpg",
         "releaseDate": "2024-10-11",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 261128,
+        "type": "tmdb",
+        "title": "樱桃琥珀",
+        "description": "林其乐和蒋峤西相逢于少时，结下了真挚的情谊却不得不匆匆离别。在因为一封信产生误会后，重逢于高中的二人品尝到了青春的甘苦，与同学少年们一起经历成长，走向更广阔的的天地。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sPYeUqXFK1pMLzUoEv1kwfeXUim.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8yfPXapjvJhFnpSEXrGN8cqV1fD.jpg",
+        "releaseDate": "2025-07-14",
+        "rating": 8.4,
         "mediaType": "tv"
       },
       {
@@ -242,8 +242,8 @@
         "type": "tmdb",
         "title": "不眠日",
         "description": "华澳市警署有一位睿智骁勇、屡破奇案的“神探”，警署内传言称没有他破不了的案件。然而，看似完美的杀人案接二连三地降临，挑战着这位“神探”的极限。案件中，凶手如同幽灵般无迹可寻，没有留下任何线索，仿佛从未来过。华澳市风云变幻，暗流涌动，每一个角落都可能隐藏着致命的危机。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wfu7ojhMko3jUxlwfdquwhIw2aX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2PXt4bfBvsszibaZp2HrT30xKnh.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sTtZV6qfAmrTRNnR3crivqIeAJt.jpg",
         "releaseDate": "2025-09-17",
         "rating": 0,
         "mediaType": "tv"
@@ -271,6 +271,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 253093,
+        "type": "tmdb",
+        "title": "与晋长安",
+        "description": "太晋女将军黎霜骁勇善战，她受命在一个月之内找出隐藏的奸细。某日，黎霜偶然间救下身负重伤记忆全失的男子，将其带回军营。男子恳求黎霜收留并跟随她征战。黎霜为其赐名晋安，寓意太晋长治久安。二人合力揪出奸细，却接连遭遇新任监军的蓄意为难和邻国大姚的屡屡犯境，晋安凭借自己过人的智谋与黎霜一起克服困难与险境，二人暗生情愫。晋安逐渐想起自己的真实身份竟是大姚的镇世王，而彼时战事一触即发，二人不得已刀兵相见，本就厌倦战争的二人决定联手化解家国危机，帮助百姓安居乐业。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pjoIBOqCxIZNMhvXySYMmc9mcH.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8jppViW8aKsaLyj8tLFEYJdc7Sa.jpg",
+        "releaseDate": "2025-08-24",
+        "rating": 8.2,
+        "mediaType": "tv"
+      },
+      {
         "id": 300521,
         "type": "tmdb",
         "title": "阵地",
@@ -282,14 +293,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 253093,
+        "id": 297519,
         "type": "tmdb",
-        "title": "与晋长安",
-        "description": "太晋女将军黎霜骁勇善战，她受命在一个月之内找出隐藏的奸细。某日，黎霜偶然间救下身负重伤记忆全失的男子，将其带回军营。男子恳求黎霜收留并跟随她征战。黎霜为其赐名晋安，寓意太晋长治久安。二人合力揪出奸细，却接连遭遇新任监军的蓄意为难和邻国大姚的屡屡犯境，晋安凭借自己过人的智谋与黎霜一起克服困难与险境，二人暗生情愫。晋安逐渐想起自己的真实身份竟是大姚的镇世王，而彼时战事一触即发，二人不得已刀兵相见，本就厌倦战争的二人决定联手化解家国危机，帮助百姓安居乐业。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pjoIBOqCxIZNMhvXySYMmc9mcH.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8jppViW8aKsaLyj8tLFEYJdc7Sa.jpg",
-        "releaseDate": "2025-08-24",
-        "rating": 8.2,
+        "title": "以她之名",
+        "description": "豪门富贵花叶海梦一场婚约坠入仇恨地狱，一边是仇人之弟路司宇妄想将“嫂嫂”拖出深渊，一边是亲手将她推入家破人亡深渊的幕后棋手路司南，爱是谎言，恨是枷锁，这场背德痴恋能否灼尽一切罪恶？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jgjKWiIKv2INTsbaUnYhH9IUxtQ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9LtEpxHCjKvnyNQPHhqgN8CceeG.jpg",
+        "releaseDate": "2025-09-16",
+        "rating": 4,
         "mediaType": "tv"
       },
       {
@@ -304,17 +315,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 253193,
-        "type": "tmdb",
-        "title": "书卷一梦",
-        "description": "当意外穿越进剧本世界，成为被反派男主用完即弃、凌虐致死的女主角应该怎么办？宋小鱼想都不用想，当然是能跑多远跑多远啊。然而无论如何努力，“剧情”始终都会将她推往男主南珩身边，上演一个又一个剧本名场面。而在这个纸片世界里，亦有无数个早就被“设定”好的人物角色。有人被困深宫重院，有人囿于高门家宅，有人为雌竞所累，有人因权势奔走。有人渴望爱与自由，却只能戴着镣铐惶惶起舞，有人做着扶摇直上的大鹏之梦，却在日复一日的束缚与平庸中被消磨着激情。这不仅是人怂怕死的躺平咸鱼宋小鱼和心狠手辣的夺命卷王南珩间的鏖战，更是每个“小我”纸片人与既定命运的战斗。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
-        "releaseDate": "2025-06-26",
-        "rating": 8.9,
-        "mediaType": "tv"
-      },
-      {
         "id": 280063,
         "type": "tmdb",
         "title": "目之所及",
@@ -326,14 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 297519,
+        "id": 253193,
         "type": "tmdb",
-        "title": "以她之名",
-        "description": "豪门富贵花叶海梦一场婚约坠入仇恨地狱，一边是仇人之弟路司宇妄想将“嫂嫂”拖出深渊，一边是亲手将她推入家破人亡深渊的幕后棋手路司南，爱是谎言，恨是枷锁，这场背德痴恋能否灼尽一切罪恶？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jgjKWiIKv2INTsbaUnYhH9IUxtQ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9LtEpxHCjKvnyNQPHhqgN8CceeG.jpg",
-        "releaseDate": "2025-09-16",
-        "rating": 4,
+        "title": "书卷一梦",
+        "description": "当意外穿越进剧本世界，成为被反派男主用完即弃、凌虐致死的女主角应该怎么办？宋小鱼想都不用想，当然是能跑多远跑多远啊。然而无论如何努力，“剧情”始终都会将她推往男主南珩身边，上演一个又一个剧本名场面。而在这个纸片世界里，亦有无数个早就被“设定”好的人物角色。有人被困深宫重院，有人囿于高门家宅，有人为雌竞所累，有人因权势奔走。有人渴望爱与自由，却只能戴着镣铐惶惶起舞，有人做着扶摇直上的大鹏之梦，却在日复一日的束缚与平庸中被消磨着激情。这不仅是人怂怕死的躺平咸鱼宋小鱼和心狠手辣的夺命卷王南珩间的鏖战，更是每个“小我”纸片人与既定命运的战斗。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/e2vANOfJOrbejmlHyNFUs175p0C.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1gU4lg4jef5ftV4wJDAOm7p5WmN.jpg",
+        "releaseDate": "2025-06-26",
+        "rating": 8.9,
         "mediaType": "tv"
       }
     ],
@@ -347,17 +347,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7dH63uoQDQu6pfYJLNKQYLXJ38m.jpg",
         "releaseDate": "2025-09-11",
         "rating": 6.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 273271,
-        "type": "tmdb",
-        "title": "归队",
-        "description": "以东北抗联十四年艰苦抗战历程为背景，讲述了一支抗联小队历经惨烈战役与大部队、党组织失联，在日军层层围追堵截下致队员纷纷失散，历经艰难险阻、生死考验重新集结，重返东北战场，为中国抗战、乃至世界反法西斯战争胜利贡献热血和生命的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jmN519EOWeXpNB3XSHeTyN9C5KH.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3KXfYrUN4TYL3L0t4v8AaPBOZap.jpg",
-        "releaseDate": "2025-08-25",
-        "rating": 9.3,
         "mediaType": "tv"
       },
       {
@@ -383,6 +372,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 273271,
+        "type": "tmdb",
+        "title": "归队",
+        "description": "以东北抗联十四年艰苦抗战历程为背景，讲述了一支抗联小队历经惨烈战役与大部队、党组织失联，在日军层层围追堵截下致队员纷纷失散，历经艰难险阻、生死考验重新集结，重返东北战场，为中国抗战、乃至世界反法西斯战争胜利贡献热血和生命的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jmN519EOWeXpNB3XSHeTyN9C5KH.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3KXfYrUN4TYL3L0t4v8AaPBOZap.jpg",
+        "releaseDate": "2025-08-25",
+        "rating": 9.3,
+        "mediaType": "tv"
+      },
+      {
         "id": 300521,
         "type": "tmdb",
         "title": "阵地",
@@ -391,17 +391,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/tISW1rbaKxhvLjpiBogfGXBiJEY.jpg",
         "releaseDate": "2025-09-16",
         "rating": 8.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 257787,
-        "type": "tmdb",
-        "title": "利剑·玫瑰",
-        "description": "一心想要进入禁毒支队、查找缉毒警察男友死亡真相的女警花邓妍，在一次解救婴儿人质的意外行动中大放异彩，因此被天海市公安局党委调到打拐办任代理主任。为了破获拐卖儿童案、拐卖外地少女强迫卖淫案，邓妍通过缜密的推理、精准的判断力以及奋不顾身的行动，不仅让原本持怀疑态度的同事变为钦佩和坚定支持，还一步步揭开了隐藏在一个个拐卖案件背后的惊天黑幕。面对罪犯的狡猾和凶残，邓妍与打拐办的同事们共同努力，剥茧抽丝，经过大量的调查、抓捕、解救等行动，化解了线索中断、诬告停职、买凶暗杀等层层阻力，终于将包括自己表嫂在内的拐卖妇女儿童犯罪团伙的一个个犯罪嫌疑人绳之以法。与此同时，男友被害的真相也渐渐浮出水面。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/obPcu3bCSDuHdoF5eblpeuUThKc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dcddW7YDWCOcNyJKciEP5zAryNs.jpg",
-        "releaseDate": "2025-07-28",
-        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -416,14 +405,36 @@
         "mediaType": "tv"
       },
       {
-        "id": 292575,
+        "id": 275846,
         "type": "tmdb",
-        "title": "扫毒风暴",
-        "description": "1995年，走私商卢少骅一夜间倾家荡产，却也因此意识到一种新型毒品——冰毒，所能带来的巨大利润，他心生邪念，成为一名制毒师。彼时，缉毒警林强峰结束卧底生涯，为追查毒品线索调任西港市缉毒支队。数年间，林强峰带队投身于这场扫毒风暴，而卢少骅则辗转国内外，结识了一众毒枭，野心不断膨胀……最终，以林强峰为代表的缉毒警不辱使命，力破卢少骅诡诈的毒网阴谋。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1573FCIqFn46QjSNqiQxnJSUiYS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aZB8p8mM90tGCIozwVwS7w3KC4A.jpg",
-        "releaseDate": "2025-07-12",
-        "rating": 6.5,
+        "title": "金式森林",
+        "description": "方仰天作为家族第三代掌舵人，将家族珠宝公司推上高峰。然而，一场交通意外打破了平静。在生死关头，三个儿子却只顾尔虞我诈，导致公司股价急泻。幸好，仰天及时苏醒过来。仰天康复后，竟然牵着一个名叫林澄的女人回家，并宣布了三件大事：一、他要迎娶这个比自己小三十岁的嫩妻；二、将家族资产成立信托，自己名下的遗产归零；三、负责管理这份信托的是一家联合家族办公室，执行人名叫高深。方家上下群起反对，阻挠林澄成为方家的女主人。三个儿子甚至怂恿祖母上法庭，试图推翻信托。仰天宁愿与母亲打官司，与儿子撕破脸，也不肯就范。他不仅要在仅余的日子里教好儿子，也要找出主使那场车祸、一直潜伏在家族内部的沉底鳄……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ekEfcrMamaT5j0zrHq0NzqbpArP.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iLW1z60kNwxNPYkrcgwbv92gwoV.jpg",
+        "releaseDate": "2025-09-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 240686,
+        "type": "tmdb",
+        "title": "锦月如歌",
+        "description": "该剧改编自人气小说《重生之女将星》，为保家族爵位，何家长女何晏被迫戴上面具，扮做何家嫡长子“何如非”。少年时何晏于贤昌馆初识天之骄子肖珏，后为摆脱家族命运，毅然离开学馆，奔赴沙场。多年后何晏荣归故里，却因兄长何如非回归被家族设计，何晏大难不死后转换身份，化身城门校尉女儿禾晏，女扮男装前往掖州投军，立志拿回属于自己的一切。禾晏结交了温润如玉的楚昭，更是与肖珏再次重逢。可肖珏怀疑禾晏是奸细，处处针对，反复试探，禾晏死抱肖珏大腿，并以掖州卫第一的成绩向肖珏证明了自己的能力。二人历经孙家事件、季阳王女事件、润都守城之战，几经生死，互通心意。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zHy4pWFdJLzR4AkKcelpr20R3tN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/khubsaD2dRS2M3rIfLDgU7d7YYH.jpg",
+        "releaseDate": "2025-08-06",
+        "rating": 8.6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 257787,
+        "type": "tmdb",
+        "title": "利剑·玫瑰",
+        "description": "一心想要进入禁毒支队、查找缉毒警察男友死亡真相的女警花邓妍，在一次解救婴儿人质的意外行动中大放异彩，因此被天海市公安局党委调到打拐办任代理主任。为了破获拐卖儿童案、拐卖外地少女强迫卖淫案，邓妍通过缜密的推理、精准的判断力以及奋不顾身的行动，不仅让原本持怀疑态度的同事变为钦佩和坚定支持，还一步步揭开了隐藏在一个个拐卖案件背后的惊天黑幕。面对罪犯的狡猾和凶残，邓妍与打拐办的同事们共同努力，剥茧抽丝，经过大量的调查、抓捕、解救等行动，化解了线索中断、诬告停职、买凶暗杀等层层阻力，终于将包括自己表嫂在内的拐卖妇女儿童犯罪团伙的一个个犯罪嫌疑人绳之以法。与此同时，男友被害的真相也渐渐浮出水面。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/obPcu3bCSDuHdoF5eblpeuUThKc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dcddW7YDWCOcNyJKciEP5zAryNs.jpg",
+        "releaseDate": "2025-07-28",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -434,17 +445,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/e6ipoRPRuGuc3MuQ2Q208dpncrI.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/wca1pv05Hciu7LE6sVBMboHcFU7.jpg",
         "releaseDate": "2025-09-14",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 275846,
-        "type": "tmdb",
-        "title": "金式森林",
-        "description": "方仰天作为家族第三代掌舵人，将家族珠宝公司推上高峰。然而，一场交通意外打破了平静。在生死关头，三个儿子却只顾尔虞我诈，导致公司股价急泻。幸好，仰天及时苏醒过来。仰天康复后，竟然牵着一个名叫林澄的女人回家，并宣布了三件大事：一、他要迎娶这个比自己小三十岁的嫩妻；二、将家族资产成立信托，自己名下的遗产归零；三、负责管理这份信托的是一家联合家族办公室，执行人名叫高深。方家上下群起反对，阻挠林澄成为方家的女主人。三个儿子甚至怂恿祖母上法庭，试图推翻信托。仰天宁愿与母亲打官司，与儿子撕破脸，也不肯就范。他不仅要在仅余的日子里教好儿子，也要找出主使那场车祸、一直潜伏在家族内部的沉底鳄……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ekEfcrMamaT5j0zrHq0NzqbpArP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iLW1z60kNwxNPYkrcgwbv92gwoV.jpg",
-        "releaseDate": "2025-09-17",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -528,28 +528,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 86617,
-        "type": "tmdb",
-        "title": "大话西游之爱你一万年",
-        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
-        "releaseDate": "2017-09-28",
-        "rating": 4.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 218959,
-        "type": "tmdb",
-        "title": "微笑妈妈",
-        "description": "女工兰香和丈夫白新年、女儿白天原本生活美满。白新年却在劝架副厂长王友谊和摊主沈凤妹时，和王友谊被沈凤妹失手推向卡车而双双身亡。沈凤妹病亡，临终求兰香收养她叛逆的女儿水月。事后，兰香数次为王友谊托其收养的花海寻亲，花海生母华娟娟巧妙躲过后伺机栽赃。肇事司机黄大河因车祸丢公职并被郑亚琴离婚。兰香发小卫峰和郝丽君因性格不合离婚，郝丽君归罪兰香，矛盾不断。黄大河想弥补兰香遭拒后仍陪伴左右，华娟娟则嫁富有港商。水月认为兰香逼死母亲而报复，白天变的叛逆，花海对自己的身世耿耿于怀，兰香和黄大河共同解决种种事端，感情升温。郑亚琴、水月父亲再次出现，华娟娟因不孕决定认亲，平静生活再次被打乱。兰香逐一应对，三姐妹最终感悟，回到兰香身边，兰香和黄大河的爱情也迎来春天",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mTChFgT7SWCh98kPIaC6Qag0I2y.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/BYBvUgZp0UBniBgVuWi0NZn1yz.jpg",
-        "releaseDate": "2022-01-12",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 246981,
         "type": "tmdb",
         "title": "创想季",
@@ -558,6 +536,28 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
         "releaseDate": "2024-02-21",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 216989,
+        "type": "tmdb",
+        "title": "沸腾的群山",
+        "description": "该剧讲述1948年秋冬，辽沈战役决胜之后，东北野战军营长李龙岗和师政治部主任孙兴国等带部队进驻辽西南红石岭矿区。红石岭煤炭资源丰富，八一五光复后，国民党官员贪腐成性，肆意胡乱开采；他们在溃败撤离前，勾结土匪恶霸，破坏矿山，盗运设备器材，屠杀护矿群众。为保护即将回到人民手中的工厂、矿山，尽快恢复解放区生产建设、支援全国解放战争，李龙岗等人团结矿工、民众，与国民党残余部队、敌特分子和被他们收买的土匪恶霸等，进行了一场错综复杂、惊心动魄的斗争。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/opsEPYcyzwjkDia7xhGVaGW3JzI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ZrpoT5WWhN9yTtqEvvXa618yAr.jpg",
+        "releaseDate": "2017-04-24",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 225958,
+        "type": "tmdb",
+        "title": "雪莲花盛开的地方",
+        "description": "该剧讲述了在国家援藏政策的指引和“老西藏精神”的召唤下，来自全国各地的大学生与藏族同胞一起，用二十多年的时间，把贫困而又美丽的朗嘎县强嘎村，建设成为一个国际旅游度假村，引领全县走上了一条以保护生态、发展旅游经济为主导产业的全面小康之路。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/psougJ6IQfxH951Ykdt8IFfYAMK.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/oDdn6Wae6fhsDYdh18hLaaU0NqX.jpg",
+        "releaseDate": "2023-05-05",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -596,17 +596,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 131078,
-        "type": "tmdb",
-        "title": "远方的山楂树",
-        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
-        "releaseDate": "2019-12-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 126763,
         "type": "tmdb",
         "title": "我哥我嫂",
@@ -614,6 +603,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9qf9wzsVUx9uzjCJHDOqH1pCqe1.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/m1KgW9IBj9PRsp4SW3j43jCPxA2.jpg",
         "releaseDate": "2019-12-08",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 131078,
+        "type": "tmdb",
+        "title": "远方的山楂树",
+        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
+        "releaseDate": "2019-12-27",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -647,7 +647,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/5rtWTNpkejLc17kDUyxBWTBxBxL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
         "releaseDate": "2015-02-08",
-        "rating": 8.7,
+        "rating": 8.693,
         "mediaType": "tv"
       },
       {
@@ -741,17 +741,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 138077,
-        "type": "tmdb",
-        "title": "春天里的人们",
-        "description": "　　该剧讲述了宁州大学博士教师徐盈盈来到春天里社区调研，意外被推选成为社区主任，在繁杂的社区治理工作中不断思考探索，从一个基层工作新人，成长为一个优秀的社区干部，在社区民警田立杰、社工同事和众多社区居民的共同努力下，将老厂区改造成为居民们向往的特色中心街区。以此向观众呈现出社工群体以及社区工作的整体风貌，让观众更加了解基层工作的艰辛 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3vD5I2wUUKw5zel5nFijn5nVx93.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gP9GJxrAFAx48vF6nVlcQOO39Hx.jpg",
-        "releaseDate": "2021-11-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 156647,
         "type": "tmdb",
         "title": "问天",
@@ -771,6 +760,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/rnZ6rbxZ3ldr3N3WCcF75jPJAXK.jpg",
         "releaseDate": "2021-10-08",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 157931,
+        "type": "tmdb",
+        "title": "黑河风云",
+        "description": "1918年，旅俄华侨戴志远与父亲安排的俄国姑娘莉莉娅举行订婚仪式，遭日本军袭击，只身逃回黑河。顾淑媛爱上了他，他却心仪青梅竹马的同学林茵。林茵为掩护革命青年赴俄， 重伤落江。日本人占领黑河，戴志远奋起...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u84IHJItbyCvKiThk5wqnMYPmg7.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/eAnJC9r9nVQCaUpNqBUta9WO4Vh.jpg",
+        "releaseDate": "2020-03-08",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -809,17 +809,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 261602,
-        "type": "tmdb",
-        "title": "潜渊",
-        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
-        "releaseDate": "2025-06-09",
-        "rating": 9.3,
-        "mediaType": "tv"
-      },
-      {
         "id": 298885,
         "type": "tmdb",
         "title": "锦绣芳华",
@@ -831,14 +820,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 282589,
+        "id": 261602,
         "type": "tmdb",
-        "title": "浴血荣光",
-        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3ywnMqp2JgLYSRJbUlsOKaD3LYn.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lk7T2GSFWAGaoStQWxjDHMd31l0.jpg",
-        "releaseDate": "2025-07-15",
-        "rating": 9.5,
+        "title": "潜渊",
+        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
+        "releaseDate": "2025-06-09",
+        "rating": 9.3,
         "mediaType": "tv"
       },
       {
@@ -853,14 +842,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 284851,
+        "id": 282589,
         "type": "tmdb",
-        "title": "橘祥如意",
-        "description": "少女秀橘家境贫寒，母亲卧病在床，兄嫂百般欺压。心灵手巧的她每天清晨来到学堂附近，一边兜售小物什为母亲赚取药钱，一边偷听课程。她结识了率性真诚的沈家六爷沈晏洲，并与之生出情愫。然而，秀橘为救母也为报恩，被迫嫁给沈家大爷沈晏清，她陷入沈家兄弟的情感漩涡中......",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2zgkvmKoI8BGxZNKPT1wtrW5LjJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6SLsnrAGZMHj20d4Fc00BlGiqA3.jpg",
-        "releaseDate": "2025-06-25",
-        "rating": 0,
+        "title": "浴血荣光",
+        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3ywnMqp2JgLYSRJbUlsOKaD3LYn.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lk7T2GSFWAGaoStQWxjDHMd31l0.jpg",
+        "releaseDate": "2025-07-15",
+        "rating": 9.5,
         "mediaType": "tv"
       },
       {
@@ -872,6 +861,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/tLewxYU1m43DS2Man8GRtHYQExI.jpg",
         "releaseDate": "2025-05-19",
         "rating": 9.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 284851,
+        "type": "tmdb",
+        "title": "橘祥如意",
+        "description": "少女秀橘家境贫寒，母亲卧病在床，兄嫂百般欺压。心灵手巧的她每天清晨来到学堂附近，一边兜售小物什为母亲赚取药钱，一边偷听课程。她结识了率性真诚的沈家六爷沈晏洲，并与之生出情愫。然而，秀橘为救母也为报恩，被迫嫁给沈家大爷沈晏清，她陷入沈家兄弟的情感漩涡中......",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2zgkvmKoI8BGxZNKPT1wtrW5LjJ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/6SLsnrAGZMHj20d4Fc00BlGiqA3.jpg",
+        "releaseDate": "2025-06-25",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -901,17 +901,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 88580,
-        "type": "tmdb",
-        "title": "王牌对王牌",
-        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
-        "releaseDate": "2016-01-29",
-        "rating": 6.3,
-        "mediaType": "tv"
-      },
-      {
         "id": 204253,
         "type": "tmdb",
         "title": "战至巅峰",
@@ -920,17 +909,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/aCY9tBsZnRhTq2306gVo40H7JNW.jpg",
         "releaseDate": "2022-06-11",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 155213,
-        "type": "tmdb",
-        "title": "麻花特开心",
-        "description": "《麻花特开心》是开心麻花首档团综。沈腾马丽带队出发，十二个奇妙的剧中世界，十二场沉浸式角色游戏，十二张热泪盈眶的笑脸。高能演技、爆笑反转、意外感动全线拉满。麻花全员，带你入戏！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/as6d7ok94aSH7dc8Sc4whjpCEgL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
-        "releaseDate": "2022-01-09",
-        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -945,25 +923,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 106621,
+        "id": 88580,
         "type": "tmdb",
-        "title": "令人心动的offer",
-        "description": "《令人心动的offer》是由腾讯视频出品，国内首档律政职场观察类真人秀，离开校园，步入职场，来到中国顶级律师事务所的实习之旅，青春与梦想的勇敢绽放。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jt0mIHdH5G6emIPG95HU38LTjNU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ndZBPyMZyVQTP8gMg0V4g4Q4PIE.jpg",
-        "releaseDate": "2019-10-30",
-        "rating": 7.5,
+        "title": "王牌对王牌",
+        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
+        "releaseDate": "2016-01-29",
+        "rating": 6.3,
         "mediaType": "tv"
       },
       {
-        "id": 296215,
+        "id": 297796,
         "type": "tmdb",
-        "title": "姐姐当家",
-        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wioBS4QkmoHO0C35zlz00JlsrDd.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nulErU5gD6Zfg02cuFMgRczwz7M.jpg",
-        "releaseDate": "2025-07-26",
-        "rating": 0,
+        "title": "花儿与少年·同心季",
+        "description": "全方位记录花少团在共建“一带一路”合作项目、中外民间交流、中企海外发展等多维场景下的真实体验，生动诠释“同舟共济·同心协力”的时代主题，呈现中国与世界共建共享、命运与共的青春故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eC7L4Os8B8vCFPj68D60Jxh85Pp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ssiLMs4yTfsfZHWrh55oud55PQa.jpg",
+        "releaseDate": "2025-08-09",
+        "rating": 7,
         "mediaType": "tv"
       },
       {
@@ -978,14 +956,47 @@
         "mediaType": "tv"
       },
       {
-        "id": 202350,
+        "id": 155213,
         "type": "tmdb",
-        "title": "圆桌什锦派",
-        "description": "经过五季、百余集的播出沉淀，《圆桌派》已经是一档互联网知名文化栏目。无论是观点的输出，还是海阔天空的漫谈，越来越多观众已经把《圆桌派》作为生活中的一部分，陪伴在茶余饭后。目前，第六季已经开始筹备，播出之前，我们决定把过往的精彩内容整合成集，按相关话题重新梳理，把不同季、不同集的内容剪辑精编，让参与圆桌的嘉宾从四人扩展至多人、让隐藏在只言片语里的观点更加熠熠生辉，给您不一样的精彩纷呈。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qjGd6YwcvQ4SEbDJ1RvNvsx6pQh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/62qx83PP4mJ2gYjyMM7kHWNJb78.jpg",
-        "releaseDate": "2022-05-16",
-        "rating": 8,
+        "title": "麻花特开心",
+        "description": "《麻花特开心》是开心麻花首档团综。沈腾马丽带队出发，十二个奇妙的剧中世界，十二场沉浸式角色游戏，十二张热泪盈眶的笑脸。高能演技、爆笑反转、意外感动全线拉满。麻花全员，带你入戏！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/as6d7ok94aSH7dc8Sc4whjpCEgL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
+        "releaseDate": "2022-01-09",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 106621,
+        "type": "tmdb",
+        "title": "令人心动的offer",
+        "description": "《令人心动的offer》是由腾讯视频出品，国内首档律政职场观察类真人秀，离开校园，步入职场，来到中国顶级律师事务所的实习之旅，青春与梦想的勇敢绽放。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jt0mIHdH5G6emIPG95HU38LTjNU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ndZBPyMZyVQTP8gMg0V4g4Q4PIE.jpg",
+        "releaseDate": "2019-10-30",
+        "rating": 7.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 296217,
+        "type": "tmdb",
+        "title": "一饭封神",
+        "description": "《一饭封神》是一档大型美食竞技综艺。100位优秀厨师带着对中华美食的尊重与热爱，借助炉台灶火，利用手中厨刀锅具，通过在节目中不同形式的比拼和挑战，开启一场中国美食界的巅峰对决，看最终谁能问鼎“厨神”之位，一饭封神！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9dyojjMqquQX30ombDixuZsBISl.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
+        "releaseDate": "2025-07-17",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "炙热游戏：百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
+        "releaseDate": "2025-08-27",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1013,6 +1024,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "炙热游戏：百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
+        "releaseDate": "2025-08-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 202350,
         "type": "tmdb",
         "title": "圆桌什锦派",
@@ -1031,17 +1053,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
         "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 297509,
-        "type": "tmdb",
-        "title": "炙热游戏：百厨大战",
-        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
-        "releaseDate": "2025-08-27",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1088,6 +1099,17 @@
         "releaseDate": "2025-06-19",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 116777,
+        "type": "tmdb",
+        "title": "天赐的声音",
+        "description": "《天赐的声音》是吴彤和孙竞团队推出的音乐类综艺。节目邀请四位“音乐合伙人”坐镇赛道，众多的优秀音乐作品的歌坛资深从业者，将在每一期以合作的方式，切磋音乐，打磨专业技艺。音乐合伙人也将与他们共同完成令人耳目一新的作品。《天赐的声音》将用真正值得被这个时代所 铭记的歌声，以及歌唱着人们美好生活的音乐作品，来向观众呈现，新时代下的好歌声和好音乐。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/xqVefZwWSe0Z0aLtzW1lAoC9WUU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/f6xIxps4FIfzrsU1vc5ClWhPIow.jpg",
+        "releaseDate": "2020-02-15",
+        "rating": 7,
+        "mediaType": "tv"
       }
     ],
     "爱奇艺": [
@@ -1114,17 +1136,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 299224,
-        "type": "tmdb",
-        "title": "天声一对",
-        "description": "《天声一对》是由爱奇艺精心制作并倾力打造的音乐真人秀类综艺，节目预计2025年Q3播出。节目以一群因爱结缘的明星夫妻合宿生活，向极致舞台发起桃战，看哪对夫妻既是生活中的“天生一对”，又是舞台上的“天声一对”!看每对夫妻如何在生活与事业间切换身份，磨合相处之道，创造“舞台中心”和“彼此心中”的高光时刻!",
-        "posterPath": "https://image.tmdb.org/t/p/w500/oNOTOC4JMxTVahuL7uwHsjd6qaU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c3SPliPLSrbVOnlaMVQKFb2cIBk.jpg",
-        "releaseDate": "2025-09-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 298626,
         "type": "tmdb",
         "title": "灿烂的市集",
@@ -1132,6 +1143,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4cqsuBZoMqxqHokIURmxncMAdke.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/fzkPupInzW6t2826WX3Om6j4hid.jpg",
         "releaseDate": "2025-08-20",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 299224,
+        "type": "tmdb",
+        "title": "天声一对",
+        "description": "《天声一对》是由爱奇艺精心制作并倾力打造的音乐真人秀类综艺，节目预计2025年Q3播出。节目以一群因爱结缘的明星夫妻合宿生活，向极致舞台发起桃战，看哪对夫妻既是生活中的“天生一对”，又是舞台上的“天声一对”!看每对夫妻如何在生活与事业间切换身份，磨合相处之道，创造“舞台中心”和“彼此心中”的高光时刻!",
+        "posterPath": "https://image.tmdb.org/t/p/w500/oNOTOC4JMxTVahuL7uwHsjd6qaU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c3SPliPLSrbVOnlaMVQKFb2cIBk.jpg",
+        "releaseDate": "2025-09-06",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1169,13 +1191,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 87150,
+        "id": 196609,
         "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "releaseDate": "2014-07-30",
+        "title": "三个少年",
+        "description": "《三个少年》是一档互动演绎暖情访谈节目，由3位求知少年担任研究员，每期和几位“特邀专员”围绕时下热议话题，展开课题研究会，分享研究成果。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tP0PCDB6USLN27jpXpsBJTXMfmv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zNvYvOH3fze2qoOT02Ni8x4a9Wn.jpg",
+        "releaseDate": "2022-03-31",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1270,17 +1292,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 87150,
-        "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "releaseDate": "2014-07-30",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 126398,
         "type": "tmdb",
         "title": "五十公里桃花坞",
@@ -1289,6 +1300,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1hZdDDw914a1ADaEXZuyLznqPmi.jpg",
         "releaseDate": "2021-05-23",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 196609,
+        "type": "tmdb",
+        "title": "三个少年",
+        "description": "《三个少年》是一档互动演绎暖情访谈节目，由3位求知少年担任研究员，每期和几位“特邀专员”围绕时下热议话题，展开课题研究会，分享研究成果。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tP0PCDB6USLN27jpXpsBJTXMfmv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zNvYvOH3fze2qoOT02Ni8x4a9Wn.jpg",
+        "releaseDate": "2022-03-31",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1409,6 +1431,17 @@
     "PPTV": [],
     "芒果TV": [
       {
+        "id": 297796,
+        "type": "tmdb",
+        "title": "花儿与少年·同心季",
+        "description": "全方位记录花少团在共建“一带一路”合作项目、中外民间交流、中企海外发展等多维场景下的真实体验，生动诠释“同舟共济·同心协力”的时代主题，呈现中国与世界共建共享、命运与共的青春故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eC7L4Os8B8vCFPj68D60Jxh85Pp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ssiLMs4yTfsfZHWrh55oud55PQa.jpg",
+        "releaseDate": "2025-08-09",
+        "rating": 7,
+        "mediaType": "tv"
+      },
+      {
         "id": 89861,
         "type": "tmdb",
         "title": "密室大逃脱",
@@ -1431,17 +1464,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 297796,
-        "type": "tmdb",
-        "title": "花儿与少年·同心季",
-        "description": "全方位记录花少团在共建“一带一路”合作项目、中外民间交流、中企海外发展等多维场景下的真实体验，生动诠释“同舟共济·同心协力”的时代主题，呈现中国与世界共建共享、命运与共的青春故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eC7L4Os8B8vCFPj68D60Jxh85Pp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ssiLMs4yTfsfZHWrh55oud55PQa.jpg",
-        "releaseDate": "2025-08-09",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "id": 300823,
         "type": "tmdb",
         "title": "恋爱特别邀请",
@@ -1449,6 +1471,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/hy4918W15jY3Kyi01IP8c9VZyeo.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/z41fnvungaBf8JwGo5kMZoHhjan.jpg",
         "releaseDate": "2025-09-16",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 235912,
+        "type": "tmdb",
+        "title": "去“湘”当有味的地方",
+        "description": "湖南卫视、芒果TV美食文旅探访节目《去“湘”当有味的地方》定档，于9月4日起，每周一到周四晚19:30播出。节目每期时长30分钟，汪涵、沈梦辰、吴泽林组成有味探访三人组，网罗湖南全省14个市州的独特美食。一道道美食、一个个美食背后的故事，组成一幅幅湖南各地乡情烟火气的美丽画卷。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3cPb0J3UFElfjVKpYOmmTZLAw4x.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8ZdT2Wufb6zLPp4kvaEeod5uZ4k.jpg",
+        "releaseDate": "2023-09-04",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1464,24 +1497,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 300604,
+        "id": 296441,
         "type": "tmdb",
-        "title": "我家那闺女2025",
-        "description": "以当代女性真实生活为核心的成长纪实观察真人秀。节目将对不同年龄、不同人生阶段女性的生活记录，展现她们在事业、家庭和情感维度的多元面貌，刻画在当下2025年的新时代女性群像。\n\n　　节目采用棚内观察和访谈相结合的形式，与年轻人们共同探索女性成长的真谛，展现女性力量，探讨职场、婚恋等现实议题。",
-        "posterPath": null,
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 296251,
-        "type": "tmdb",
-        "title": "旅行2+N",
-        "description": "节目每期邀请两位嘉宾持专属“City Crush 邀请函”深入一座都市，通过协作解谜地图、推理线索，逐步解锁邀请函上的体验邀约。在N位旅行达人及当地朋友的协助下，嘉宾将深度体验城市文化，在一个个场景中发掘城市故事，记录心动时刻，完成一场基于独家记忆的浪漫城市探索。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8Y771CCs9AmN3zibS1EGMQTQQNq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zfj2YsAJtF9NILGK3colHBw4cmp.jpg",
-        "releaseDate": "2025-07-18",
+        "title": "你就宠ta吧",
+        "description": "首档关注人宠新型关系旅行微综，由敖子逸、余承恩、颜安、沙一汀四位嘉宾组成宠ta团，携带自己的宠物集结宠物友好城市，入住宠ta民宿。以“文旅推介官”身份前往深圳、长沙。创建专属账号，探寻时下热议的人宠话题，寻找有人味、有宠心、有干货的宠物友好路线，呈现当代人宠共融、共享、共乐的GAP之旅！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/6LcHbjIZtXzzMPel3oVbSMXLKWV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uZkaGIJW4b3tnrPf5ZvYW2oLT2D.jpg",
+        "releaseDate": "2025-07-21",
         "rating": 0,
         "mediaType": "tv"
       }
