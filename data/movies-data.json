@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-19T00:15:14.081+08:00",
+  "last_updated": "2025-09-20T00:15:05.117+08:00",
   "nowplaying": [
     {
       "id": 1321624,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/e53iGvxG7ebdJP6GE3x1JI1744z.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg",
       "releaseDate": "2025-09-18",
-      "rating": 0,
+      "rating": 5.5,
       "mediaType": "movie"
     },
     {
@@ -62,6 +62,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1500536,
+      "type": "tmdb",
+      "title": "南京照相馆",
+      "originalTitle": "南京照相馆",
+      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kCwq6aINmOahhirXHlu2I8yOsUI.jpg",
+      "releaseDate": "2025-07-19",
+      "rating": 8.37,
+      "mediaType": "movie"
+    },
+    {
       "id": 574475,
       "type": "tmdb",
       "title": "死神来了：血脉诅咒",
@@ -70,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nMUAHKfJg1eqKC4t8LCP8GFKG5I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
       "releaseDate": "2025-05-14",
-      "rating": 7.13,
+      "rating": 7.126,
       "mediaType": "movie"
     },
     {
@@ -86,15 +98,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1500536,
+      "id": 1376146,
       "type": "tmdb",
-      "title": "南京照相馆",
-      "originalTitle": "南京照相馆",
-      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kCwq6aINmOahhirXHlu2I8yOsUI.jpg",
-      "releaseDate": "2025-07-19",
-      "rating": 8.64,
+      "title": "临时决斗",
+      "originalTitle": "臨時決鬥",
+      "description": "　　曾经的传奇拳王钟磊（古天乐 饰）创立拳馆“钟磊舍”，如今却生意冷清，濒临倒闭。风光一时的大明星莫嘉莉（梁咏琪 饰）息影多年，如今试图复出，却面临“中年困境”。广告界女精英林雪（王丹妮 饰）发现男友劈腿女拳王孙雅云（周秀娜 饰），她狠下战书，誓要与孙雅云决一胜负。落魄拳王与老旧拳馆的命运将何去何从？复出女星的重启人生能否如愿？职场女王的跨界复仇又能否取胜?面对生活的重拳出击，一场“临时决斗”就此打响……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hmN8y6J7sKBahXzEvJIQlt5vfAa.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/c6tqdW0MK7NnYKAh9tBuAHhB5Wj.jpg",
+      "releaseDate": "2025-01-28",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -118,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jn34hFgnZ5SzDNMhaY2I63UIfw2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "rating": 7.778,
       "mediaType": "movie"
     },
     {
@@ -146,18 +158,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1242011,
-      "type": "tmdb",
-      "title": "同甘共苦",
-      "originalTitle": "Together",
-      "description": "多年情侣蒂姆（戴夫·弗兰科 Dave Franco 饰）和米莉（爱丽森·布里 Alison Brie 饰）来到感情脆弱的关口，开始思考爱是……为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村展开全新二人世界。然而新生活未如理想，更卷入了当地一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……电锯是否还给大家自由的唯一解救方法？但染血的爱又那可修补，莫问爱是分离！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6OlWLe4ohPQYrLFIFBPwD8BtO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uBB1aMga5ngZxsUQL5k36zeW3pB.jpg",
-      "releaseDate": "2025-07-28",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1523345,
       "type": "tmdb",
       "title": "营救飞虎",
@@ -180,33 +180,9 @@
       "releaseDate": "2025-09-12",
       "rating": 0,
       "mediaType": "movie"
-    },
-    {
-      "id": 1012837,
-      "type": "tmdb",
-      "title": "长空之王",
-      "originalTitle": "长空之王",
-      "description": "雷宇（王一博 饰）等优秀飞行员经过严苛选拔，正式成为了我国新一代试飞员——一款战斗机的正式列装，背后不仅有无数科研人员的努力，也需要试飞员们一次次对飞机的安全边界和极限状态进行测试。他们将在队长张挺（胡军 饰）的带领下，参与到最新式、最尖端战斗机的试飞工作，在不断挑战战机和自我极限的过程中，一个个危机接踵而来……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jqJe5jn3cKlspBpOpS8kR1Wfc36.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/54iIQChulnjG0gM4X7kFihOY7Ey.jpg",
-      "releaseDate": "2023-04-28",
-      "rating": 6.5,
-      "mediaType": "movie"
     }
   ],
   "coming": [
-    {
-      "id": 797787,
-      "type": "tmdb",
-      "title": "当男人恋爱时",
-      "originalTitle": "當男人戀愛時",
-      "description": "当男人恋爱时会是什么样子？以讨债为生的小混混阿成（邱泽 饰）看似凶狠却本性善良，遇到了欠债人的女儿浩婷（许玮甯 饰）后，对浩婷一见钟情的阿成开始变得温柔又幼稚，笨拙地为浩婷打点一切。就在浩婷终于卸下防备接受追求的时候，他们之间却遭遇了接二连三的变故，阿成默默承受着一切。阿成最终也没有忘记告诉浩婷那句藏在心底的表白：第一次见到你，我就喜欢你了。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ikNpBMj6rlcFeyNuLjnNKm13QB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nKNAWa7ATTHUP90lEMA00h7L26P.jpg",
-      "releaseDate": "2021-04-01",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
     {
       "id": 1543134,
       "type": "tmdb",
@@ -215,6 +191,18 @@
       "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
       "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
+      "releaseDate": "2025-09-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1516436,
+      "type": "tmdb",
+      "title": "浪浪人生",
+      "originalTitle": "浪浪人生",
+      "description": "　　小镇少年心目中的“江湖大哥”黄荣发（黄渤 饰）重回故乡，与儿子黑狗达（范丞丞 饰）以及全家人踏浪前行，与生活交手！他们能否在风雨中乘风破局，再赢一次？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qyFwsfnk8HxhYsgrZ831moVFuT1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dMExpyJ7bGXbDplv9LJqIIy6r7z.jpg",
       "releaseDate": "2025-09-30",
       "rating": 0,
       "mediaType": "movie"
@@ -244,6 +232,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1402481,
+      "type": "tmdb",
+      "title": "毕正明的证明",
+      "originalTitle": "毕正明的证明",
+      "description": "　　从小立志成为警察的毕正明（王安宇 饰）在报到第一天便被意外致残，沦为“一日刑警”。渴望证明自己的他怀揣一腔孤勇独闯暗潮涌动的盗贼团伙，但纵然少年再气盛也还是因为莽撞错失了良机。毕正明痛定思过，在刑警副队大周的指点下继续修炼，警方计划在小偷大会上将团伙一锅端。热血少年是否能保持初心，自证清白？\r 　　当浮尘散去，江湖渐显，氤氲情义和温良本心，哪个才是少年最好的“证明”？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hjyY5ysvIzRJclpzU7K7eTw92Dp.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-10-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1305672,
       "type": "tmdb",
       "title": "抓特务",
@@ -268,18 +268,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1516436,
-      "type": "tmdb",
-      "title": "浪浪人生",
-      "originalTitle": "浪浪人生",
-      "description": "　　小镇少年心目中的“江湖大哥”黄荣发（黄渤 饰）重回故乡，与儿子黑狗达（范丞丞 饰）以及全家人踏浪前行，与生活交手！他们能否在风雨中乘风破局，再赢一次？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8aY60lwKeFzCMdsO2sBRwipBAXq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/dMExpyJ7bGXbDplv9LJqIIy6r7z.jpg",
-      "releaseDate": "2025-10-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划2",
@@ -298,8 +286,20 @@
       "originalTitle": "猪猪侠·一只老猪的逆袭",
       "description": "曾经陪伴大家成长的GG Bond已经淡出观众视线，过气后的他渴望再次成为主角。一心想要咸鱼翻身的他调动了浑身五花肉，却总是阴差阳错，bug频出，GG Bond最终能否逆袭成功呢？",
       "posterPath": "https://image.tmdb.org/t/p/w500/aHQQzRQr7ivDv44F2RcGpSafK3a.jpg",
-      "backdropPath": null,
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fHJd0YtbUZgNOPIsyGRaRCUbbdd.jpg",
       "releaseDate": "2025-10-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1466319,
+      "type": "tmdb",
+      "title": "震耳欲聋",
+      "originalTitle": "震耳欲聋",
+      "description": "灰度律师李淇因欲望被卷入一场聋人反诈案中，他出身聋人家庭，却为名利放弃聋人，一场道德和良知的审判由此展开。\r 本片部分取材自手语律师张琪真实从业经历。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/u2xjnRWoPr6IXOAvGUrTRCwdwK.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-10-04",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -322,9 +322,9 @@
       "originalTitle": "One Battle After Another",
       "description": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/si68lkhkMfIospVeLEBtl7HWKDh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wZYjrOQSJXbIil6Ij07badqJWdE.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 0,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -358,9 +358,9 @@
       "originalTitle": "A Big Bold Beautiful Journey",
       "description": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
       "posterPath": "https://image.tmdb.org/t/p/w500/ngSoyUk0eO9oEvjGdFEs2lP7GbL.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/geqQxNU74Sp095DRsxZxWUsdpH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.333,
+      "rating": 5.889,
       "mediaType": "movie"
     },
     {
@@ -372,7 +372,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.968,
+      "rating": 6.952,
       "mediaType": "movie"
     },
     {
@@ -388,6 +388,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1548736,
+      "type": "tmdb",
+      "title": "父辈的天空",
+      "originalTitle": "父辈的天空",
+      "description": "　　影片以独特视角聚焦二战时期被称为“死亡航线”的悲壮奇迹，通过参与飞行的亲历者及其子女、家人的口述，展开时空对话，记录了这条二战期间开辟的物资空运生命线上的故事，讲述一段关乎中国航空从业者们勇气与奉献的天空传奇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/54XNFVcbDcPsb9uB6HmqcpfjXc2.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-10-18",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1543686,
       "type": "tmdb",
       "title": "向光花盛开",
@@ -396,18 +408,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9w3XeQ2LEhEWEkVii6HPjmATMvz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aJ8iy2Du2CkbjSPoYYQqtNyItmV.jpg",
       "releaseDate": "2025-10-24",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 684498,
-      "type": "tmdb",
-      "title": "旁观者",
-      "originalTitle": "관전녀",
-      "description": "男主跟女主的性生活总是多彩多样，甚至某一天，男主竟然带了自己的朋友，来窥探和女友的爱爱，这让女主深感不适，同时，罪恶的羞耻感又让她感受到另类的刺激，爱爱被人旁观到底是怎样一样体验呢，这部影片不容错过....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yEWmVkONsonEVjKElRGF2EMISC5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eqHExGMGAabQOEQO7fSlbX1ag5u.jpg",
-      "releaseDate": "2019-10-10",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -444,7 +444,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qkzjjMJnzkIHDCL1rfqzfExyubP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eNSUknQqzTXWE5EeT8ZnVccEPR0.jpg",
       "releaseDate": "2025-06-05",
-      "rating": 6.5,
+      "rating": 6.467,
       "mediaType": "movie"
     },
     {
@@ -530,7 +530,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n5uGQgDtXV0EHp1REIrh0d0OdvS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
-      "rating": 7.612,
+      "rating": 7.611,
       "mediaType": "movie"
     },
     {
@@ -578,7 +578,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eFtJyNhv339OHknjFNq76bkxPlw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
       "releaseDate": "1994-06-15",
-      "rating": 8.3,
+      "rating": 8.256,
       "mediaType": "movie"
     },
     {
@@ -590,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.804,
+      "rating": 7.805,
       "mediaType": "movie"
     },
     {
