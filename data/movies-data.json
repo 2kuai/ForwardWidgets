@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-23T00:15:45.108+08:00",
+  "last_updated": "2025-09-24T00:15:54.506+08:00",
   "nowplaying": [
     {
       "id": 1321624,
@@ -34,19 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
       "releaseDate": "2025-08-16",
-      "rating": 7.321,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1409733,
-      "type": "tmdb",
-      "title": "轻于鸿毛",
-      "originalTitle": "轻于鸿毛",
-      "description": "男人跳海，牵出两任性格迥异的妻子李鱼（宋佳 饰）和沈飞鸿（佟丽娅 饰），一处悬而未决的房子让两人重新认识那个曾是老公的人，也从此踏上更壮阔的人生。这是一段解惑之旅，宛如变幻莫测的海浪。“他”可以轻于鸿毛，“她”可以重于泰山。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uRafpfNVZ7F7LhcuS8zfE8iiIzJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rXKYeqcV2YsJhQCYUXsTDeM8s8V.jpg",
-      "releaseDate": "2025-08-29",
-      "rating": 0,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -62,6 +50,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1409733,
+      "type": "tmdb",
+      "title": "轻于鸿毛",
+      "originalTitle": "轻于鸿毛",
+      "description": "男人跳海，牵出两任性格迥异的妻子李鱼（宋佳 饰）和沈飞鸿（佟丽娅 饰），一处悬而未决的房子让两人重新认识那个曾是老公的人，也从此踏上更壮阔的人生。这是一段解惑之旅，宛如变幻莫测的海浪。“他”可以轻于鸿毛，“她”可以重于泰山。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uRafpfNVZ7F7LhcuS8zfE8iiIzJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rXKYeqcV2YsJhQCYUXsTDeM8s8V.jpg",
+      "releaseDate": "2025-08-29",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 574475,
       "type": "tmdb",
       "title": "死神来了：血脉诅咒",
@@ -70,19 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nMUAHKfJg1eqKC4t8LCP8GFKG5I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
       "releaseDate": "2025-05-14",
-      "rating": 7.122,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1304434,
-      "type": "tmdb",
-      "title": "浪浪山小妖怪",
-      "originalTitle": "浪浪山小妖怪",
-      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
-      "releaseDate": "2025-07-26",
-      "rating": 8.1,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -95,6 +83,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/c6tqdW0MK7NnYKAh9tBuAHhB5Wj.jpg",
       "releaseDate": "2025-01-28",
       "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1304434,
+      "type": "tmdb",
+      "title": "浪浪山小妖怪",
+      "originalTitle": "浪浪山小妖怪",
+      "description": "没有通天本领也能踏上取经路？小猪妖决定离开浪浪山，和蛤蟆精、黄鼠狼精、猩猩怪组团取经。西行路上，小妖怪们将遇到怎样的考验？最终他们又能否实现心愿，活成自己喜欢的样子？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/apsSI17p3x5xbinfvo5SpJlaqNQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
+      "releaseDate": "2025-07-26",
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jn34hFgnZ5SzDNMhaY2I63UIfw2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "rating": 7.789,
       "mediaType": "movie"
     },
     {
@@ -146,6 +146,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1523345,
+      "type": "tmdb",
+      "title": "营救飞虎",
+      "originalTitle": "营救飞虎",
+      "description": "援华美军飞虎队飞行员詹姆斯（Mitchell Hoog 饰），在执行任务时被日军击落。东江纵队游击队长单刀（伍允龙 饰）、沙胆仔（陈永胜 饰）、三家姐（王丹妮 饰）及虾米（韩陌 饰）前往营救，一句“我们带你回家”尽显勇敢与担当。与此同时，我党潜伏人员欢少（韩庚 饰）在机缘巧合下与救援队伍达成合作。6个人，48小时，他们将如何扭转战局？又能否创造营救奇迹？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cQ5UMPwnWn7g1zsbwrrKiZMb403.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
+      "releaseDate": "2025-09-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1530356,
+      "type": "tmdb",
+      "title": "生还",
+      "originalTitle": "生还",
+      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
+      "releaseDate": "2025-09-03",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
       "id": 1541695,
       "type": "tmdb",
       "title": "地球脉动：万物有道",
@@ -170,27 +194,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1523345,
+      "id": 1490320,
       "type": "tmdb",
-      "title": "营救飞虎",
-      "originalTitle": "营救飞虎",
-      "description": "援华美军飞虎队飞行员詹姆斯（Mitchell Hoog 饰），在执行任务时被日军击落。东江纵队游击队长单刀（伍允龙 饰）、沙胆仔（陈永胜 饰）、三家姐（王丹妮 饰）及虾米（韩陌 饰）前往营救，一句“我们带你回家”尽显勇敢与担当。与此同时，我党潜伏人员欢少（韩庚 饰）在机缘巧合下与救援队伍达成合作。6个人，48小时，他们将如何扭转战局？又能否创造营救奇迹？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cQ5UMPwnWn7g1zsbwrrKiZMb403.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cgWjxtLd2wKHUKmi0Fmr5K9NN0x.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1530356,
-      "type": "tmdb",
-      "title": "生还",
-      "originalTitle": "生还",
-      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
-      "releaseDate": "2025-09-03",
-      "rating": 7,
+      "title": "喜羊羊与灰太狼之异国破晓",
+      "originalTitle": "喜羊羊与灰太狼之异国破晓",
+      "description": "羊村守护者收到“光之大陆”的紧急求救，毅然踏上危机四伏的营救之路，面对未知的阴谋与强敌。羊狼们是否能拨开迷雾重见光明，光之大陆的命运又将何去何从……光明与黑暗的决战一触即发。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tvooHfa3uBh89NNpJKb96ntNoRl.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wWF3i7ZbCo9Q3xqEzh2KczMRJ0o.jpg",
+      "releaseDate": "2025-07-26",
+      "rating": 8.5,
       "mediaType": "movie"
     }
   ],
@@ -248,9 +260,9 @@
       "type": "tmdb",
       "title": "毕正明的证明",
       "originalTitle": "毕正明的证明",
-      "description": "　　从小立志成为警察的毕正明（王安宇 饰）在报到第一天便被意外致残，沦为“一日刑警”。渴望证明自己的他怀揣一腔孤勇独闯暗潮涌动的盗贼团伙，但纵然少年再气盛也还是因为莽撞错失了良机。毕正明痛定思过，在刑警副队大周的指点下继续修炼，警方计划在小偷大会上将团伙一锅端。热血少年是否能保持初心，自证清白？\r 　　当浮尘散去，江湖渐显，氤氲情义和温良本心，哪个才是少年最好的“证明”？",
+      "description": "　　从小立志成为警察的毕正明（王安宇 饰）在报到第一天便被意外致残，沦为“一日刑警”。渴望证明自己的他怀揣一腔孤勇独闯暗潮涌动的盗贼团伙，但纵然少年再气盛也还是因为莽撞错失了良机。毕正明痛定思过，在刑警副队大周的指点下继续修炼，警方计划在小偷大会上将团伙一锅端。热血少年是否能保持初心，自证清白？  　　当浮尘散去，江湖渐显，氤氲情义和温良本心，哪个才是少年最好的“证明”？",
       "posterPath": "https://image.tmdb.org/t/p/w500/hjyY5ysvIzRJclpzU7K7eTw92Dp.jpg",
-      "backdropPath": null,
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bAwvaWYaFpQZ5dCUIkVLdZDBoYT.jpg",
       "releaseDate": "2025-10-01",
       "rating": 0,
       "mediaType": "movie"
@@ -284,7 +296,7 @@
       "type": "tmdb",
       "title": "震耳欲聋",
       "originalTitle": "震耳欲聋",
-      "description": "灰度律师李淇因欲望被卷入一场聋人反诈案中，他出身聋人家庭，却为名利放弃聋人，一场道德和良知的审判由此展开。\r 本片部分取材自手语律师张琪真实从业经历。",
+      "description": "灰度律师李淇因欲望被卷入一场聋人反诈案中，他出身聋人家庭，却为名利放弃聋人，一场道德和良知的审判由此展开。  本片部分取材自手语律师张琪真实从业经历。",
       "posterPath": "https://image.tmdb.org/t/p/w500/u2xjnRWoPr6IXOAvGUrTRCwdwK.jpg",
       "backdropPath": null,
       "releaseDate": "2025-10-04",
@@ -308,9 +320,9 @@
       "type": "tmdb",
       "title": "一战再战",
       "originalTitle": "One Battle After Another",
-      "description": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
+      "description": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9rujCRTqgZD2rRRQytcne009Zi3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pRWmekqHIcYkd1ueCJWsAWdhQfI.jpg",
       "releaseDate": "2025-09-23",
       "rating": 9.2,
       "mediaType": "movie"
@@ -348,7 +360,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ngSoyUk0eO9oEvjGdFEs2lP7GbL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.6,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -360,7 +372,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9ZhhlJbtLmzjvdbxbNzHZEBFdIZ.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.943,
+      "rating": 6.941,
       "mediaType": "movie"
     },
     {
@@ -400,6 +412,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1301454,
+      "type": "tmdb",
+      "title": "下一个台风",
+      "originalTitle": "下一个台风",
+      "description": "台风刚过的海岛之上，一只眼受伤的城市女生林沫沫（张子枫 饰），与岛上土生土长的失语女孩阿汐（张伟丽 饰）猝然相遇。当无情的风暴逐渐撕开两人隐秘哀伤的过往，两个看似另类但炽热的青春，相互慰藉，彼此支撑，用友情的力量对抗人生的台风。随着青蚵嫂（李心洁 饰）临终透露的惊天秘密和陈淑楠（姚晨 饰）的突然闯入，席卷沫沫与阿汐的下一个台风突如其来，风眼之下，望风而逃还是迎风而上？她们必须做出抉择。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dbSvLlBSakvNBeorfKrTMOobyUx.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/iDYYgt04YzCL7xPru3iJO94LRlk.jpg",
+      "releaseDate": "2025-03-24",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1543694,
       "type": "tmdb",
       "title": "带你回家",
@@ -432,7 +456,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qkzjjMJnzkIHDCL1rfqzfExyubP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eNSUknQqzTXWE5EeT8ZnVccEPR0.jpg",
       "releaseDate": "2025-06-05",
-      "rating": 6.5,
+      "rating": 6.472,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1991,
+      "type": "tmdb",
+      "title": "金刚不坏",
+      "originalTitle": "Death Proof",
+      "description": "　　迈克（库尔特•拉塞尔饰）是一个经常与死神打交道的特技演员，久经刺激之后，他俨然成为一个变态杀人狂。一天，他穿上行头，照样开着那印有骷髅图案的汽车上路寻找猎物。在午夜酒吧，他接近了一些年轻女人（罗莎里奥•道森、范妮莎•费丽托、乔丹•莱德、罗丝•麦高恩等饰）。在喋喋不休的她们离开酒吧后，迈克展开了行动，那辆诡异的汽车，便是他的致命凶器。  　　一段时间后，李（玛丽•伊丽莎白•文斯蒂德饰）和她的朋友们（佐伊•贝尔等饰）结伴开车兜风，一路上有完没完地闲聊。此时脸上有疤，目露凶光的迈克又在暗处盯上了她们并一路跟踪，他还能继续可怕的疯狂杀戮吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/elnpVWdB2WwMhScK7OD95ZklgBI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hrNQWwQU6WuOKDpgFtdcDd90UnA.jpg",
+      "releaseDate": "2007-05-22",
+      "rating": 6.834,
       "mediaType": "movie"
     },
     {
@@ -445,6 +481,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/4O1ANZcFWs9MSZ86eQuSuPyyTGN.jpg",
       "releaseDate": "1963-01-01",
       "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1329673,
+      "type": "tmdb",
+      "title": "日掛中天",
+      "originalTitle": "日掛中天",
+      "description": "昔日的恋人，数年后相逢。疏离又羁绊的日常，揭开唏嘘的过往。爱与牺牲，忏悔和偿还。沉重的包袱，背负的不只是她还有他。终于再一次诀别，痛彻心扉却又幡然梦醒，迷途的两人终于相拥而泣。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2jOa1BbHNBYykiOIfddXmA2vtsu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qqgb4eaTmNHo05VOimJAk4RX1W0.jpg",
+      "releaseDate": "2025-09-05",
+      "rating": 4,
       "mediaType": "movie"
     },
     {
@@ -506,7 +554,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aKeJgTDAiBe5hFgFgI3V3ChOLmh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.594,
+      "rating": 7.593,
       "mediaType": "movie"
     },
     {
@@ -542,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zxi6WQPVc0uQAG5TtLsKvxYHApC.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.049,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -554,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.7,
+      "rating": 6.699,
       "mediaType": "movie"
     },
     {
@@ -578,7 +626,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xCOFfuGNCLPmYkoKvtHQuKhQlXE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.807,
+      "rating": 7.808,
       "mediaType": "movie"
     },
     {
