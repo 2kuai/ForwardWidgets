@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-27T06:16:40.338825",
+  "last_updated": "2025-09-27T12:22:57.793205",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -184,9 +184,7 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江卫视",
@@ -248,9 +246,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
