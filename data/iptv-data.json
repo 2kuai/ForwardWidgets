@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-28T18:14:58.435140",
+  "last_updated": "2025-09-29T00:59:48.273030",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -95,9 +95,7 @@
       "name": "CCTV-13 新闻",
       "description": "中国中央电视台新闻频道，是中国首个24小时全天候播出的专业新闻频道，提供国内外重大新闻事件的即时报道、深度分析和权威解读，是中国最具影响力的新闻媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV13.png,lfo-center,l-end,l-end/CCTV13.png",
-      "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0013_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-14 少儿",
