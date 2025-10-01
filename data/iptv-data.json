@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-01T01:03:47.679636",
+  "last_updated": "2025-10-01T06:19:36.415114",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -127,9 +127,7 @@
       "name": "CCTV 第一剧场",
       "description": "CCTV 第一剧场频道，专注于播出各类戏剧、影视剧和文艺演出，为观众带来丰富多彩的戏剧文化体验。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-第一剧场.png,lfo-center,l-end,l-end/第一剧场.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.86:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 央视台球",
@@ -143,9 +141,7 @@
       "name": "CCTV 央视高网",
       "description": "CCTV 央视高网频道，致力于播出高水平网球赛事和相关体育内容，服务广大网球爱好者。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.2,h-bh_mul_3.7,bg-848484,lfo-center,l-image,i-央视高网.png,lfo-center,l-end,l-end/央视高网.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.95:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 世界地理",
@@ -168,8 +164,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
       ]
     },
     {
@@ -248,9 +244,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
