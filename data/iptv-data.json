@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-02T12:24:10.895763",
+  "last_updated": "2025-10-02T18:19:16.711706",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -166,8 +166,8 @@
       "description": "CCTV 风云足球是央视旗下专业足球频道，全天候呈现国内外顶级赛事、经典回顾、专题节目及深度解析。涵盖欧冠、五大联赛、中超等精彩内容，为球迷打造纯正的足球盛宴，传递激情与荣耀。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-风云足球.png,lfo-center,l-end,l-end/风云足球.png",
       "childItems": [
-        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8",
-        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140"
+        "http://www.lizhinas.top:1009/rtp/239.252.219.96:5140",
+        "https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8"
       ]
     },
     {
@@ -190,7 +190,9 @@
       "name": "浙江卫视",
       "description": "浙江广播电视集团旗下的综合卫星频道，以中国蓝为品牌，播出新闻、综艺、电视剧等多元化节目，是中国最具影响力的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+      ]
     },
     {
       "name": "东方卫视",
@@ -357,44 +359,58 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
       ]
     },
     {
       "name": "浙江新闻",
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
-      "childItems": []
+      "childItems": [
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江经济",
       "description": "浙江经济频道是浙江广播电视集团旗下的专业财经频道，聚焦浙江经济发展动态，提供权威财经资讯、市场分析和商业报道，助力企业和投资者把握经济趋势。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江经济生活.png,lfo-center,l-end,l-end/浙江经济生活.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江少儿",
       "description": "浙江广播电视集团旗下的专业少儿频道，面向青少年儿童提供教育、娱乐、动画等节目内容，注重素质教育，促进少年儿童健康成长。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江少儿.png,lfo-center,l-end,l-end/浙江少儿.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江民生",
       "description": "浙江广播电视集团旗下的地面电视频道，以服务百姓生活为宗旨，关注民生热点，提供实用资讯，搭建政府与群众沟通的桥梁。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江民生休闲.png,lfo-center,l-end,l-end/浙江民生休闲.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江教科",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2.3,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江教科影视.png,lfo-center,l-end,l-end/浙江教科影视.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+      ]
     },
     {
       "name": "浙江国际",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江国际.png,lfo-center,l-end,l-end/浙江国际.png",
-      "childItems": []
+      "childItems": [
+        "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+      ]
     },
     {
       "name": "河南新闻",
