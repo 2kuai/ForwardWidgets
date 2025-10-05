@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-04T18:17:38.884600",
+  "last_updated": "2025-10-05T01:00:33.912951",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -292,9 +292,7 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "东南卫视",
@@ -370,8 +368,8 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
     {
