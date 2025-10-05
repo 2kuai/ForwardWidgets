@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-05T01:00:33.912951",
+  "last_updated": "2025-10-05T06:17:03.677181",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -157,9 +157,7 @@
       "name": "CCTV 兵器科技",
       "description": "CCTV 兵器科技频道，专注于播出兵器、军事科技及相关专题节目，展示前沿科技与国防力量。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.1,h-bh_mul_2.8,bg-848484,lfo-center,l-image,i-兵器科技.png,lfo-center,l-end,l-end/兵器科技.png",
-      "childItems": [
-        "http://www.lizhinas.top:1009/rtp/239.252.219.98:5140"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV 风云足球",
