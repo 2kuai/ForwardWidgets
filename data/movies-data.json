@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-06T00:13:21.365+08:00",
+  "last_updated": "2025-10-07T00:15:29.485+08:00",
   "nowplaying": [
     {
       "id": 1466319,
@@ -98,6 +98,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1419406,
+      "type": "tmdb",
+      "title": "捕风追影",
+      "originalTitle": "捕风追影",
+      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+      "releaseDate": "2025-08-16",
+      "rating": 7.344,
+      "mediaType": "movie"
+    },
+    {
       "id": 1475405,
       "type": "tmdb",
       "title": "猪猪侠·一只老猪的逆袭",
@@ -107,18 +119,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/fHJd0YtbUZgNOPIsyGRaRCUbbdd.jpg",
       "releaseDate": "2025-10-01",
       "rating": 5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1419406,
-      "type": "tmdb",
-      "title": "捕风追影",
-      "originalTitle": "捕风追影",
-      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-      "releaseDate": "2025-08-16",
-      "rating": 7.387,
       "mediaType": "movie"
     },
     {
@@ -142,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7axsosBhfnQCbr5LvDZ2hbYi1Ka.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8OPxY4gmVLoURJcz1BbR2a4Hi5q.jpg",
       "releaseDate": "2025-07-12",
-      "rating": 7.438,
+      "rating": 7.278,
       "mediaType": "movie"
     },
     {
@@ -155,6 +155,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/tOwffsVVkPWaQGmWDoZxKhGmrNi.jpg",
       "releaseDate": "2025-02-20",
       "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1545250,
+      "type": "tmdb",
+      "title": "疯狂电脑城",
+      "originalTitle": "疯狂电脑城",
+      "description": "　　扎普相信自己成为了这座城市最伟大的保护者，他过度沉迷成功所带来的“崇拜”，而忽视了身边的一切。当一种超级人工智能操作系统降临到数字世界，并威胁导数字世界和人类世界秩序时，扎普深刻感悟到正邪、好坏並非绝对；不能为私利而影响社会发展；人类及数字世界的未来，是需要大家互相协作，和谐共处来维系的。扎普也改变了自己不可一世的性挌，成为这场保卫战群体中的一员，与其他程序及人类互助互利。扎普最终成长为守护数字世界安全的真正英雄。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8RD5cE34HguMjG1v6i7f202zjfo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nmmdnGu5n1sk5GyHGbt6jcT8RvB.jpg",
+      "releaseDate": "2025-10-06",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -182,30 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 574475,
-      "type": "tmdb",
-      "title": "死神来了：血脉诅咒",
-      "originalTitle": "Final Destination Bloodlines",
-      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
-      "releaseDate": "2025-05-14",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1082900,
-      "type": "tmdb",
-      "title": "爱的暂停键",
-      "originalTitle": "Elskling",
-      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yizLm0CjPg79GWRgbycQVe5XKb7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
-      "releaseDate": "2024-09-19",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 1304434,
       "type": "tmdb",
       "title": "浪浪山小妖怪",
@@ -218,15 +206,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1409966,
+      "id": 574475,
       "type": "tmdb",
-      "title": "7天",
-      "originalTitle": "7天",
-      "description": "　　陈丑时（蒋奇明 饰）因为巧合在牙科诊所邂逅女孩温倩（张艺凡 饰），两人开始了一段奇妙的爱情，而当感情进一步发展时，陈丑时向温倩坦诚了一个关于自己的秘密，他从小就能在女孩头顶看到一串数字，那是他们之间的恋爱时长，而他和温倩只有七天……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/j0oj5uZZmATt4I67roAQ7Y1hehG.jpg",
-      "releaseDate": "2025-08-29",
-      "rating": 0,
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.118,
       "mediaType": "movie"
     },
     {
@@ -238,7 +226,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.8,
+      "rating": 7.829,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1082900,
+      "type": "tmdb",
+      "title": "爱的暂停键",
+      "originalTitle": "Elskling",
+      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yizLm0CjPg79GWRgbycQVe5XKb7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
+      "releaseDate": "2024-09-19",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -266,18 +266,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1042834,
-      "type": "tmdb",
-      "title": "伊甸",
-      "originalTitle": "Eden",
-      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
-      "releaseDate": "2025-04-03",
-      "rating": 6.909,
-      "mediaType": "movie"
-    },
-    {
       "id": 1064486,
       "type": "tmdb",
       "title": "蜗牛回忆录",
@@ -287,6 +275,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
       "releaseDate": "2024-10-17",
       "rating": 8.075,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1042834,
+      "type": "tmdb",
+      "title": "伊甸",
+      "originalTitle": "Eden",
+      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
+      "releaseDate": "2025-04-03",
+      "rating": 6.888,
       "mediaType": "movie"
     },
     {
@@ -311,18 +311,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/Pp4jLt5O13jioz7NHlgNWGMLzN.jpg",
       "releaseDate": "2025-08-08",
       "rating": 10,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1049942,
-      "type": "tmdb",
-      "title": "小鹿斑比：清算",
-      "originalTitle": "Bambi: The Reckoning",
-      "description": "该片将继续“毁童年”，改编自同名迪士尼动画的原作——澳大利亚童书《小鹿斑比》，由《恶魔整容》编剧Scott Jeffrey执导，Rhys Frake-Waterfield等制作。导演Jeffrey透露：“该片将会把我们所熟知和喜爱的1928年故事做一个极其暗黑的新编，设计灵感来自网飞的《黑森灵》，斑比会是隐藏在荒野中的残暴的杀戮机器，准备好迎接发狂的斑比吧！”",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2FkLROv4uFGzmS9hVDVit8aV2L2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sprWRhhekKlJevk1fnzqi9t7rKm.jpg",
-      "releaseDate": "2025-07-11",
-      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -370,31 +358,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eGX66zonvc4bXg3rM08RUxdYSDx.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 24238,
-      "type": "tmdb",
-      "title": "玛丽和麦克斯",
-      "originalTitle": "Mary and Max",
-      "description": "1976年，8岁的玛丽·黛西·丁格尔（贝丝妮·惠特摩尔 Bethany Whitmore 配音）是澳大利亚墨尔本的一个小女孩，喜欢动画片“诺布利特”、甜炼乳和巧克力。玛丽的妈妈是个酒鬼，而在茶叶包装厂工作的父亲平日只喜欢制作鸟标本。孤独的玛丽没有朋友，某一天心血来潮给美国纽约市的马克思·杰瑞·霍罗威茨（菲利普·塞默·霍夫曼 Philip Seymour Hoffman 配音）写了一封信询问美国小孩从哪里来，并附上一根樱桃巧克力棒。44岁的马克思患有自闭症及肥胖，碰巧也喜欢看“诺布利特”动画片及吃巧克力。二人的笔友关系从1976年维持到1994年，期间各自经历了许多人生起伏，直到成年的玛丽（托妮·科莱特 Toni Collette 配音）终于来到纽约看望马克思……本片获2009年法国昂锡国际动画影展最佳动画长片奖，柏林国际电影节水晶熊奖及渥太华国际动画电影节最高奖。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dsWOucd7A2keJQYhyv827ir2zLy.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pW1sEV4R2GL99OoUq73Pvf7r7Ce.jpg",
-      "releaseDate": "2009-04-09",
-      "rating": 7.877,
-      "mediaType": "movie"
-    },
-    {
-      "id": 10191,
-      "type": "tmdb",
-      "title": "驯龙高手",
-      "originalTitle": "How to Train Your Dragon",
-      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
-      "releaseDate": "2010-03-18",
-      "rating": 7.853,
+      "rating": 7.459,
       "mediaType": "movie"
     },
     {
@@ -410,6 +374,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 10191,
+      "type": "tmdb",
+      "title": "驯龙高手",
+      "originalTitle": "How to Train Your Dragon",
+      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
+      "releaseDate": "2010-03-18",
+      "rating": 7.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 24238,
+      "type": "tmdb",
+      "title": "玛丽和麦克斯",
+      "originalTitle": "Mary and Max",
+      "description": "1976年，8岁的玛丽·黛西·丁格尔（贝丝妮·惠特摩尔 Bethany Whitmore 配音）是澳大利亚墨尔本的一个小女孩，喜欢动画片“诺布利特”、甜炼乳和巧克力。玛丽的妈妈是个酒鬼，而在茶叶包装厂工作的父亲平日只喜欢制作鸟标本。孤独的玛丽没有朋友，某一天心血来潮给美国纽约市的马克思·杰瑞·霍罗威茨（菲利普·塞默·霍夫曼 Philip Seymour Hoffman 配音）写了一封信询问美国小孩从哪里来，并附上一根樱桃巧克力棒。44岁的马克思患有自闭症及肥胖，碰巧也喜欢看“诺布利特”动画片及吃巧克力。二人的笔友关系从1976年维持到1994年，期间各自经历了许多人生起伏，直到成年的玛丽（托妮·科莱特 Toni Collette 配音）终于来到纽约看望马克思……本片获2009年法国昂锡国际动画影展最佳动画长片奖，柏林国际电影节水晶熊奖及渥太华国际动画电影节最高奖。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dsWOucd7A2keJQYhyv827ir2zLy.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pW1sEV4R2GL99OoUq73Pvf7r7Ce.jpg",
+      "releaseDate": "2009-04-09",
+      "rating": 7.877,
+      "mediaType": "movie"
+    },
+    {
       "id": 1268179,
       "type": "tmdb",
       "title": "熊孩子·探险熊兵",
@@ -418,6 +406,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9UlpsEd5P6uUI5SDjSsemEQ68XC.jpg",
       "backdropPath": null,
       "releaseDate": "2025-09-13",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1509525,
+      "type": "tmdb",
+      "title": "山河为证",
+      "originalTitle": "山河为证",
+      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
+      "releaseDate": "2025-08-15",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -432,18 +432,6 @@
       "releaseDate": "2025-07-26",
       "rating": 8.5,
       "mediaType": "movie"
-    },
-    {
-      "id": 1509525,
-      "type": "tmdb",
-      "title": "山河为证",
-      "originalTitle": "山河为证",
-      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
-      "releaseDate": "2025-08-15",
-      "rating": 0,
-      "mediaType": "movie"
     }
   ],
   "coming": [
@@ -456,7 +444,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.761,
+      "rating": 7.769,
       "mediaType": "movie"
     },
     {
@@ -480,7 +468,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.283,
+      "rating": 6.415,
       "mediaType": "movie"
     },
     {
@@ -552,7 +540,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/41043LV7mfluH8iXEUPVseCDAv5.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 7.018,
+      "rating": 6.995,
       "mediaType": "movie"
     },
     {
@@ -632,7 +620,7 @@
       "type": "tmdb",
       "title": "日掛中天",
       "originalTitle": "日掛中天",
-      "description": "　　昔日的恋人，数年后意外重逢。疏离又羁绊的日常，揭开唏嘘的过往。爱与牺牲，忏悔和偿还。沉重的包袱，背负的不只是她还有他。终于再一次诀别，痛彻心扉却又幡然梦醒，迷途的两人用情偿债是否能两不相欠？",
+      "description": "　　昔日的恋人，数年后意外重逢。疏离又羁绊的日常，揭开唏嘘的过往。爱与牺牲，忏悔和偿还。沉重的包袱，背负的不只是她还有他。迷途的两人用情偿债是否能两不相欠？终于再一次诀别，痛彻心扉却又幡然梦醒。",
       "posterPath": "https://image.tmdb.org/t/p/w500/2jOa1BbHNBYykiOIfddXmA2vtsu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tmkQPmWGzq6Tt2K22mD5qltR0gL.jpg",
       "releaseDate": "2025-11-07",
@@ -794,7 +782,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.7,
+      "rating": 6.699,
       "mediaType": "movie"
     },
     {
@@ -806,7 +794,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eFtJyNhv339OHknjFNq76bkxPlw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
       "releaseDate": "1994-06-15",
-      "rating": 8.3,
+      "rating": 8.256,
       "mediaType": "movie"
     },
     {
@@ -818,7 +806,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oZHqIjWOu8zKFtBfv4s9iEHoZjU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.816,
+      "rating": 7.817,
       "mediaType": "movie"
     },
     {
@@ -830,7 +818,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 7,
+      "rating": 6.955,
       "mediaType": "movie"
     },
     {
