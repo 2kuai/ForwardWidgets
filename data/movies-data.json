@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-09T00:15:44.390+08:00",
+  "last_updated": "2025-10-10T00:17:30.164+08:00",
   "nowplaying": [
     {
       "id": 1466319,
@@ -62,18 +62,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1543134,
-      "type": "tmdb",
-      "title": "志愿军：浴血和平",
-      "originalTitle": "志愿军：浴血和平",
-      "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
-      "releaseDate": "2025-09-30",
-      "rating": 10,
-      "mediaType": "movie"
-    },
-    {
       "id": 1321624,
       "type": "tmdb",
       "title": "731",
@@ -83,6 +71,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg",
       "releaseDate": "2025-09-18",
       "rating": 3.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1543134,
+      "type": "tmdb",
+      "title": "志愿军：浴血和平",
+      "originalTitle": "志愿军：浴血和平",
+      "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
+      "releaseDate": "2025-09-30",
+      "rating": 10,
       "mediaType": "movie"
     },
     {
@@ -122,6 +122,42 @@
       "mediaType": "movie"
     },
     {
+      "id": 1409966,
+      "type": "tmdb",
+      "title": "7天",
+      "originalTitle": "7天",
+      "description": "　　陈丑时（蒋奇明 饰）因为巧合在牙科诊所邂逅女孩温倩（张艺凡 饰），两人开始了一段奇妙的爱情，而当感情进一步发展时，陈丑时向温倩坦诚了一个关于自己的秘密，他从小就能在女孩头顶看到一串数字，那是他们之间的恋爱时长，而他和温倩只有七天……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/j0oj5uZZmATt4I67roAQ7Y1hehG.jpg",
+      "releaseDate": "2025-08-29",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1356587,
+      "type": "tmdb",
+      "title": "长安的荔枝",
+      "originalTitle": "长安的荔枝",
+      "description": "唐天宝年间，人到中年的李善德（大鹏 饰）骂骂咧咧干了很多活，抠抠搜搜花了不少钱，到头来却还是个无名小吏。然而这一切随着一次召见似乎有了转机，某天有人安排给他一个“荔枝使”的肥差，只要办成，那就是荣华富贵人生逆袭，但要是办不成……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7axsosBhfnQCbr5LvDZ2hbYi1Ka.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8OPxY4gmVLoURJcz1BbR2a4Hi5q.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 7.053,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1312157,
+      "type": "tmdb",
+      "title": "关于约会的一切",
+      "originalTitle": "FolleMente",
+      "description": "当我们约会时，我们都在想些什么？当内心的无数个“我”在争夺话语权，灵魂又会做出何种选择？\r 　　罗马某个寻常夜晚，Lara（皮拉尔·福格莉亚蒂 Pilar Fogliati 饰）与Piero（爱德华多·莱奥 Edoardo Leo 饰）一次偶然的约会。初见的局促被渐渐打破，暧昧在试探中发酵蔓延，气氛升温。\r 　　然而，两人似乎都有某种犹豫：心动的信号，究竟源自灵魂的真实共振，还是夜色与氛围施予的幻觉？默契轻松的对话下，蛰伏着两人心中的汹涌暗流。欲望与理性相互博弈，身体中不同的“我”在意识深渊中反复角力。\r 　　当午夜降临，这场约会是否该走向终点？Lara和Piero的关系又将会如何走向？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tOwffsVVkPWaQGmWDoZxKhGmrNi.jpg",
+      "releaseDate": "2025-02-20",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1545250,
       "type": "tmdb",
       "title": "疯狂电脑城",
@@ -131,6 +167,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nmmdnGu5n1sk5GyHGbt6jcT8RvB.jpg",
       "releaseDate": "2025-10-06",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1305653,
+      "type": "tmdb",
+      "title": "东极岛",
+      "originalTitle": "东极岛",
+      "description": "二战期间，中国舟山附近海域，一艘载满英军战俘的日本货轮被击沉，上千名英军战俘被日军封锁于船舱内。绝境之时，东极岛上的一群渔民毅然前来。他们凭借骨子里的善良、野性与血性，在惊涛骇浪中，为落难的战俘打开一条生路。\r 取材自中国渔民营救英军战俘的真实事件。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/srqflGIWm1qRHsBQSjdIHWF4E4N.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIawpKlAVKBWH9Sc8PpA8TefWW2.jpg",
+      "releaseDate": "2025-08-08",
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -158,6 +206,42 @@
       "mediaType": "movie"
     },
     {
+      "id": 911430,
+      "type": "tmdb",
+      "title": "F1：狂飙飞车",
+      "originalTitle": "F1",
+      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 7.832,
+      "mediaType": "movie"
+    },
+    {
+      "id": 574475,
+      "type": "tmdb",
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.118,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1082900,
+      "type": "tmdb",
+      "title": "爱的暂停键",
+      "originalTitle": "Elskling",
+      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yizLm0CjPg79GWRgbycQVe5XKb7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
+      "releaseDate": "2024-09-19",
+      "rating": 7.286,
+      "mediaType": "movie"
+    },
+    {
       "id": 1500536,
       "type": "tmdb",
       "title": "南京照相馆",
@@ -170,6 +254,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 974250,
+      "type": "tmdb",
+      "title": "逃离抢钱镇",
+      "originalTitle": "Greedy People",
+      "description": "　　刚来到小镇上的警察威尔（希米什·帕特尔 饰）和流氓搭档泰利（约瑟夫·高登-莱维特 饰）在一宗被误认为是入室抢劫的案件中意外发现了一百万美元。殊不知这笔不义之财背后藏着巨大的阴谋，在包括威尔老婆、按摩师、海鲜公司老板等多方周旋下，小镇的生活被彻底颠覆。最终谁才能从这场贪念的迷局中逃离？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ridNXZWUnzcSfcHcajHVB3lXxo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6mR2gTOqLLLZvJCAMKPJw7TGQfM.jpg",
+      "releaseDate": "2024-08-23",
+      "rating": 6.3,
+      "mediaType": "movie"
+    },
+    {
       "id": 1175942,
       "type": "tmdb",
       "title": "坏蛋联盟2",
@@ -178,7 +274,55 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lB96EMr5A7Og81UhyldJvvy35r.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "rating": 7.815,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1409733,
+      "type": "tmdb",
+      "title": "轻于鸿毛",
+      "originalTitle": "轻于鸿毛",
+      "description": "男人跳海，牵出两任性格迥异的妻子李鱼（宋佳 饰）和沈飞鸿（佟丽娅 饰），一处悬而未决的房子让两人重新认识那个曾是老公的人，也从此踏上更壮阔的人生。这是一段解惑之旅，宛如变幻莫测的海浪。“他”可以轻于鸿毛，“她”可以重于泰山。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uRafpfNVZ7F7LhcuS8zfE8iiIzJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rXKYeqcV2YsJhQCYUXsTDeM8s8V.jpg",
+      "releaseDate": "2025-08-29",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1064486,
+      "type": "tmdb",
+      "title": "蜗牛回忆录",
+      "originalTitle": "Memoir of a Snail",
+      "description": "喜欢收集蜗牛的女孩格蕾丝（莎拉·斯努克 Sarah Snook 配音）在被迫与双胞胎吉尔伯特（柯蒂·斯密特-麦菲 Kodi Smit-McPhee 配音）分开后，结识了古怪的老奶奶萍奇（杰基·韦佛 Jacki Weaver 配音），逐渐找到新的希望和快乐。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9Z3yzf2UgUKiDYpj6v6kWXsAISV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
+      "releaseDate": "2024-10-17",
+      "rating": 8.077,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1042834,
+      "type": "tmdb",
+      "title": "伊甸",
+      "originalTitle": "Eden",
+      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
+      "releaseDate": "2025-04-03",
+      "rating": 6.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 76600,
+      "type": "tmdb",
+      "title": "阿凡达：水之道",
+      "originalTitle": "Avatar: The Way of Water",
+      "description": "十多年过去了，曾经截瘫的前海军士兵杰克·萨利（萨姆·沃辛顿饰）永久变身为拥有地球人基因和纳威人基因的“阿凡达”，并与奥马蒂卡亚部落的族长之女奈蒂莉（佐伊·索尔达娜饰）结为夫妇。杰克已经完全适应了他的新身体和族长的身份，并和奈蒂莉有了三个孩子，还收养了格蕾丝留下的女儿琪莉（西格妮·韦弗饰）。四个孩子里，老大纳特亚姆（杰米·福雷特斯饰）最为懂事听话，也很会照顾弟弟妹妹；老二琪莉（西格妮·韦弗 饰）因为不知道自己的父亲是谁，有些敏感；老三洛克（布里坦·道尔顿 饰）酷爱冒险，是家里的闯祸精；最小的妹妹图克（特里尼蒂·布利斯 饰）总是黏着哥哥姐姐们。四人跟人类留下的孤儿“蜘蛛”（杰克·尚皮永饰）是形影不离的好朋友。 原本，将地球人赶走后，杰克一家与族人过上了田园牧歌般的生活。然而，原本死去的迈尔斯·夸里奇上校（史蒂芬·朗饰）化身阿凡达重新归来，一心要找杰克和奈蒂莉复仇。为了族人的安危，也为了保护孩子，杰克决定带着家人离开，前往不易被找到的由罗娜尔（凯特·温斯莱特饰）和特诺瓦里（克利夫·柯蒂斯饰）领导的海洋部落，展开全新的生活。正当一家人经过重重磨合，终于适应以水构筑的新家园时，新的危机也在慢慢靠近。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jKJDgraW7rsMDSTJ6H8UmhkIUpS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
+      "releaseDate": "2022-12-14",
+      "rating": 7.611,
       "mediaType": "movie"
     },
     {
@@ -191,6 +335,90 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/Pp4jLt5O13jioz7NHlgNWGMLzN.jpg",
       "releaseDate": "2025-08-08",
       "rating": 10,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1530356,
+      "type": "tmdb",
+      "title": "生还",
+      "originalTitle": "生还",
+      "description": "　　本片以纪实风格再现了1938年到1945年抗日联军第六军被服厂女兵，伤兵医院伤兵组成的留守团在主力部队西征后坚持在老游击区牵制敌人主力，于重重围剿中突围，进入苏联整训，整编为抗联第88教导旅打回东北的真实故事。  　　影片透过12岁女战士李童的视角，塑造了耿团长、裴大姐、白连长、金玉希、李亦奇等一批普通抗联男女战士在突围中拼死互相保护，牺牲、被俘、最终生还的残酷历程。  　　本片改编自最后一个离世的抗联女战士李敏撰写的回忆录。  　　这是第一次用电影方式讲述了抗联后期从突围到整编为教导旅再到打回东北的全过程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6exPHCZWoJRP8jomAGdAWskMk9o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jcVdFM6KTRLMFSKFsXkfkqxdLDc.jpg",
+      "releaseDate": "2025-09-03",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1376146,
+      "type": "tmdb",
+      "title": "临时决斗",
+      "originalTitle": "臨時決鬥",
+      "description": "　　曾经的传奇拳王钟磊（古天乐 饰）创立拳馆“钟磊舍”，如今却生意冷清，濒临倒闭。风光一时的大明星莫嘉莉（梁咏琪 饰）息影多年，如今试图复出，却面临“中年困境”。广告界女精英林雪（王丹妮 饰）发现男友劈腿女拳王孙雅云（周秀娜 饰），她狠下战书，誓要与孙雅云决一胜负。落魄拳王与老旧拳馆的命运将何去何从？复出女星的重启人生能否如愿？职场女王的跨界复仇又能否取胜?面对生活的重拳出击，一场“临时决斗”就此打响……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/b6m0K6DIjx82u2bb4zkXSAzHRul.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/c6tqdW0MK7NnYKAh9tBuAHhB5Wj.jpg",
+      "releaseDate": "2025-01-28",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1541695,
+      "type": "tmdb",
+      "title": "地球脉动：万物有道",
+      "originalTitle": "Planet Earth: Forces of Nature",
+      "description": "　　作为BBC Earth博思星球纪录片《地球脉动》系列的又一力作，对地球众多独特的生态环境进行了深入探索。该片旨在呈现自然界最为壮观、最为引人入胜的景象，同时揭示野生动物在极端环境中展现出的非凡生存能力与传奇故事，以及大自然发生的惊人变化与深远影响使观众能战深刻感受到自然与生命的伟大力量。通过生动详实的画面与深入浅出的解说，影片不仅展现了自然界中生物生存法则的严酷与生态平衡的重要性，更引发了人们对人类与自然关系的深刻思考。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/g4fXs3vcdbvQRdSb05gQQH5vbtR.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rLP9pAPds2gXeo96tmz8GtviB5N.jpg",
+      "releaseDate": "2025-09-12",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 10191,
+      "type": "tmdb",
+      "title": "驯龙高手",
+      "originalTitle": "How to Train Your Dragon",
+      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
+      "releaseDate": "2010-03-18",
+      "rating": 7.852,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1481390,
+      "type": "tmdb",
+      "title": "聊斋：兰若寺",
+      "originalTitle": "聊斋：兰若寺",
+      "description": "年青书生蒲松龄行路遇险，不得已夜宿兰若寺，却被一蛤蟆一乌龟抓到了一口奇异的古井底，两只精怪比赛讲故事并逼迫蒲松龄评判故事的好坏……最终，被逼无奈的蒲松龄也讲出了自己的奇妙故事。\r 本片为篇章式结构，分为一条主线《井下故事》以及五个经典聊斋故事改编的《崂山道士》《莲花公主》《聂小倩》《画皮》《鲁公女》，共六个篇章。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/paZseaaIQBDfNnXrld7ml4ZW3RF.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uOpTbfagHI1Ug3f4RYSGhC8CHqk.jpg",
+      "releaseDate": "2025-07-12",
+      "rating": 7.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1268179,
+      "type": "tmdb",
+      "title": "熊孩子·探险熊兵",
+      "originalTitle": "熊孩子·探险熊兵",
+      "description": "探险就现在，冒险才刺激！谁说熊孩子不能拯救世界，一群活跃的小小冒险家们随时准备出发！展开全新的探险之旅",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9UlpsEd5P6uUI5SDjSsemEQ68XC.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-09-13",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1509525,
+      "type": "tmdb",
+      "title": "山河为证",
+      "originalTitle": "山河为证",
+      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
+      "releaseDate": "2025-08-15",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -216,7 +444,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.783,
+      "rating": 7.797,
       "mediaType": "movie"
     },
     {
@@ -226,9 +454,9 @@
       "originalTitle": "TRON: Ares",
       "description": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
       "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/np0dsehLDdbfyHFRtqCiL1GR0TQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2OvpmWYrsv8eMyV3AAqhoMnzMF.jpg",
       "releaseDate": "2025-10-08",
-      "rating": 7.8,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -240,7 +468,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.414,
+      "rating": 6.41,
       "mediaType": "movie"
     },
     {
@@ -272,10 +500,10 @@
       "type": "tmdb",
       "title": "醉刀客",
       "originalTitle": "醉刀客",
-      "description": "",
+      "description": "　　影片讲述威震江湖的“冷血刀客”寒月刃（李炳渊 饰），因一饭之恩重返枹罕镇，而此时的枹罕镇正遭受强权恶霸的欺凌压迫，寒月刃决定出手相助，却惊觉人性中的软弱与恐惧远比暴力更加可怕……  　　而他与曼陀罗（孙艺燃 饰）的纠缠如毒刃绞心，在心动与背叛间撕裂挣扎。  　　当强权无德，弱者无公，必将有一把刀，劈开跪着的时代。",
       "posterPath": "https://image.tmdb.org/t/p/w500/20gASI08Abllffs1ZuRutwuvJgA.jpg",
       "backdropPath": null,
-      "releaseDate": "",
+      "releaseDate": "2025-10-18",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -310,9 +538,9 @@
       "originalTitle": "Caught Stealing",
       "description": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/41043LV7mfluH8iXEUPVseCDAv5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/zWO3B2CTDguZqCrVQ2u5Xnp9VRS.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 7,
+      "rating": 7.004,
       "mediaType": "movie"
     },
     {
@@ -436,6 +664,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 83533,
+      "type": "tmdb",
+      "title": "阿凡达：火与烬",
+      "originalTitle": "Avatar: Fire and Ash",
+      "description": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pN3eaCl3sqwrerU8UNdp40F2mK0.jpg",
+      "releaseDate": "2025-12-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1357301,
       "type": "tmdb",
       "title": "无名之辈：意义非凡",
@@ -542,7 +782,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.049,
+      "rating": 8.043,
       "mediaType": "movie"
     },
     {
@@ -578,7 +818,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oZHqIjWOu8zKFtBfv4s9iEHoZjU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.818,
+      "rating": 7.819,
       "mediaType": "movie"
     },
     {
@@ -590,7 +830,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7dK4kaCB0KuHWQwFrw5w5OgYOnW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 6.955,
+      "rating": 6.954,
       "mediaType": "movie"
     },
     {
@@ -602,7 +842,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6u3aQmsLzyVJxI4T0OtPsMm2f4c.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
       "releaseDate": "2018-02-13",
-      "rating": 7.369,
+      "rating": 7.368,
       "mediaType": "movie"
     }
   ]
