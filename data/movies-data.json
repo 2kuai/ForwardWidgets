@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-10T00:17:30.164+08:00",
+  "last_updated": "2025-10-11T00:15:54.813+08:00",
   "nowplaying": [
     {
       "id": 1466319,
@@ -26,18 +26,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1547397,
-      "type": "tmdb",
-      "title": "三国的星空第一部",
-      "originalTitle": "三国的星空第一部",
-      "description": "",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1QG0bRQUHLRX983ZX9Z61SfMs1I.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-10-01",
-      "rating": 5,
-      "mediaType": "movie"
-    },
-    {
       "id": 478798,
       "type": "tmdb",
       "title": "风林火山",
@@ -50,15 +38,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 945801,
+      "id": 1547397,
       "type": "tmdb",
-      "title": "刺杀小说家2",
-      "originalTitle": "刺杀小说家2",
-      "description": "陷人生低谷的小说家路空文（董子健 饰）被巨大的诱惑牵引，导致他自己和书中的角色都陷入了不可逆转的危机。最终小说家找回了信念，与书中人一起拯救了双世界危机。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hvIALincAccO4TstIoIW5XK1vVI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1mHTEDRSZ9PersHOTKfYBRXZw89.jpg",
+      "title": "三国的星空第一部",
+      "originalTitle": "三国的星空第一部",
+      "description": "",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1QG0bRQUHLRX983ZX9Z61SfMs1I.jpg",
+      "backdropPath": null,
       "releaseDate": "2025-10-01",
-      "rating": 0,
+      "rating": 5,
       "mediaType": "movie"
     },
     {
@@ -70,7 +58,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5nyVi8shfulwK4h1n9MyHUz0WT0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg",
       "releaseDate": "2025-09-18",
-      "rating": 3.8,
+      "rating": 4.833,
+      "mediaType": "movie"
+    },
+    {
+      "id": 945801,
+      "type": "tmdb",
+      "title": "刺杀小说家2",
+      "originalTitle": "刺杀小说家2",
+      "description": "陷人生低谷的小说家路空文（董子健 饰）被巨大的诱惑牵引，导致他自己和书中的角色都陷入了不可逆转的危机。最终小说家找回了信念，与书中人一起拯救了双世界危机。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hvIALincAccO4TstIoIW5XK1vVI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1mHTEDRSZ9PersHOTKfYBRXZw89.jpg",
+      "releaseDate": "2025-10-01",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -110,18 +110,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1419406,
-      "type": "tmdb",
-      "title": "捕风追影",
-      "originalTitle": "捕风追影",
-      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-      "releaseDate": "2025-08-16",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 1409966,
       "type": "tmdb",
       "title": "7天",
@@ -131,6 +119,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/j0oj5uZZmATt4I67roAQ7Y1hehG.jpg",
       "releaseDate": "2025-08-29",
       "rating": 8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1419406,
+      "type": "tmdb",
+      "title": "捕风追影",
+      "originalTitle": "捕风追影",
+      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+      "releaseDate": "2025-08-16",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -158,6 +158,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1305653,
+      "type": "tmdb",
+      "title": "东极岛",
+      "originalTitle": "东极岛",
+      "description": "二战期间，中国舟山附近海域，一艘载满英军战俘的日本货轮被击沉，上千名英军战俘被日军封锁于船舱内。绝境之时，东极岛上的一群渔民毅然前来。他们凭借骨子里的善良、野性与血性，在惊涛骇浪中，为落难的战俘打开一条生路。\r 取材自中国渔民营救英军战俘的真实事件。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/srqflGIWm1qRHsBQSjdIHWF4E4N.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIawpKlAVKBWH9Sc8PpA8TefWW2.jpg",
+      "releaseDate": "2025-08-08",
+      "rating": 7.333,
+      "mediaType": "movie"
+    },
+    {
       "id": 1545250,
       "type": "tmdb",
       "title": "疯狂电脑城",
@@ -167,18 +179,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nmmdnGu5n1sk5GyHGbt6jcT8RvB.jpg",
       "releaseDate": "2025-10-06",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1305653,
-      "type": "tmdb",
-      "title": "东极岛",
-      "originalTitle": "东极岛",
-      "description": "二战期间，中国舟山附近海域，一艘载满英军战俘的日本货轮被击沉，上千名英军战俘被日军封锁于船舱内。绝境之时，东极岛上的一群渔民毅然前来。他们凭借骨子里的善良、野性与血性，在惊涛骇浪中，为落难的战俘打开一条生路。\r 取材自中国渔民营救英军战俘的真实事件。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/srqflGIWm1qRHsBQSjdIHWF4E4N.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uIawpKlAVKBWH9Sc8PpA8TefWW2.jpg",
-      "releaseDate": "2025-08-08",
-      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -194,6 +194,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1500536,
+      "type": "tmdb",
+      "title": "南京照相馆",
+      "originalTitle": "南京照相馆",
+      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kCwq6aINmOahhirXHlu2I8yOsUI.jpg",
+      "releaseDate": "2025-07-19",
+      "rating": 8.4,
+      "mediaType": "movie"
+    },
+    {
       "id": 1304434,
       "type": "tmdb",
       "title": "浪浪山小妖怪",
@@ -203,30 +215,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/mqFFznn4r3JFEKOL3g6OqqP3Zo6.jpg",
       "releaseDate": "2025-07-26",
       "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 911430,
-      "type": "tmdb",
-      "title": "F1：狂飙飞车",
-      "originalTitle": "F1",
-      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
-      "releaseDate": "2025-06-25",
-      "rating": 7.832,
-      "mediaType": "movie"
-    },
-    {
-      "id": 574475,
-      "type": "tmdb",
-      "title": "死神来了：血脉诅咒",
-      "originalTitle": "Final Destination Bloodlines",
-      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
-      "releaseDate": "2025-05-14",
-      "rating": 7.118,
       "mediaType": "movie"
     },
     {
@@ -242,42 +230,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1500536,
-      "type": "tmdb",
-      "title": "南京照相馆",
-      "originalTitle": "南京照相馆",
-      "description": "影片故事取材于南京大屠杀期间日军真实罪证影像。一群生活在南京的百姓躲在吉祥照相馆中避难，为了尽可能的多活一日，他们被迫帮助日军摄影师冲洗底片，却意外冲印出了能证明日军屠城的罪证照片。他们原本只想在大屠杀中保命活下去，面对日军在南京城内的暴行，他们决定让这些底片留存下去……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kCwq6aINmOahhirXHlu2I8yOsUI.jpg",
-      "releaseDate": "2025-07-19",
-      "rating": 8.448,
-      "mediaType": "movie"
-    },
-    {
-      "id": 974250,
-      "type": "tmdb",
-      "title": "逃离抢钱镇",
-      "originalTitle": "Greedy People",
-      "description": "　　刚来到小镇上的警察威尔（希米什·帕特尔 饰）和流氓搭档泰利（约瑟夫·高登-莱维特 饰）在一宗被误认为是入室抢劫的案件中意外发现了一百万美元。殊不知这笔不义之财背后藏着巨大的阴谋，在包括威尔老婆、按摩师、海鲜公司老板等多方周旋下，小镇的生活被彻底颠覆。最终谁才能从这场贪念的迷局中逃离？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ridNXZWUnzcSfcHcajHVB3lXxo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6mR2gTOqLLLZvJCAMKPJw7TGQfM.jpg",
-      "releaseDate": "2024-08-23",
-      "rating": 6.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1175942,
-      "type": "tmdb",
-      "title": "坏蛋联盟2",
-      "originalTitle": "The Bad Guys 2",
-      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lB96EMr5A7Og81UhyldJvvy35r.jpg",
-      "releaseDate": "2025-07-24",
-      "rating": 7.815,
-      "mediaType": "movie"
-    },
-    {
       "id": 1409733,
       "type": "tmdb",
       "title": "轻于鸿毛",
@@ -290,27 +242,39 @@
       "mediaType": "movie"
     },
     {
-      "id": 1064486,
+      "id": 911430,
       "type": "tmdb",
-      "title": "蜗牛回忆录",
-      "originalTitle": "Memoir of a Snail",
-      "description": "喜欢收集蜗牛的女孩格蕾丝（莎拉·斯努克 Sarah Snook 配音）在被迫与双胞胎吉尔伯特（柯蒂·斯密特-麦菲 Kodi Smit-McPhee 配音）分开后，结识了古怪的老奶奶萍奇（杰基·韦佛 Jacki Weaver 配音），逐渐找到新的希望和快乐。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9Z3yzf2UgUKiDYpj6v6kWXsAISV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
-      "releaseDate": "2024-10-17",
-      "rating": 8.077,
+      "title": "F1：狂飙飞车",
+      "originalTitle": "F1",
+      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 7.829,
       "mediaType": "movie"
     },
     {
-      "id": 1042834,
+      "id": 574475,
       "type": "tmdb",
-      "title": "伊甸",
-      "originalTitle": "Eden",
-      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
-      "releaseDate": "2025-04-03",
-      "rating": 6.9,
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.117,
+      "mediaType": "movie"
+    },
+    {
+      "id": 974250,
+      "type": "tmdb",
+      "title": "逃离抢钱镇",
+      "originalTitle": "Greedy People",
+      "description": "　　刚来到小镇上的警察威尔（希米什·帕特尔 饰）和流氓搭档泰利（约瑟夫·高登-莱维特 饰）在一宗被误认为是入室抢劫的案件中意外发现了一百万美元。殊不知这笔不义之财背后藏着巨大的阴谋，在包括威尔老婆、按摩师、海鲜公司老板等多方周旋下，小镇的生活被彻底颠覆。最终谁才能从这场贪念的迷局中逃离？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ridNXZWUnzcSfcHcajHVB3lXxo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6mR2gTOqLLLZvJCAMKPJw7TGQfM.jpg",
+      "releaseDate": "2024-08-23",
+      "rating": 6.351,
       "mediaType": "movie"
     },
     {
@@ -323,6 +287,54 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
       "releaseDate": "2022-12-14",
       "rating": 7.611,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1064486,
+      "type": "tmdb",
+      "title": "蜗牛回忆录",
+      "originalTitle": "Memoir of a Snail",
+      "description": "喜欢收集蜗牛的女孩格蕾丝（莎拉·斯努克 Sarah Snook 配音）在被迫与双胞胎吉尔伯特（柯蒂·斯密特-麦菲 Kodi Smit-McPhee 配音）分开后，结识了古怪的老奶奶萍奇（杰基·韦佛 Jacki Weaver 配音），逐渐找到新的希望和快乐。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9Z3yzf2UgUKiDYpj6v6kWXsAISV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
+      "releaseDate": "2024-10-17",
+      "rating": 8.073,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1175942,
+      "type": "tmdb",
+      "title": "坏蛋联盟2",
+      "originalTitle": "The Bad Guys 2",
+      "description": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lB96EMr5A7Og81UhyldJvvy35r.jpg",
+      "releaseDate": "2025-07-24",
+      "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1042834,
+      "type": "tmdb",
+      "title": "伊甸",
+      "originalTitle": "Eden",
+      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
+      "releaseDate": "2025-04-03",
+      "rating": 6.864,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1376146,
+      "type": "tmdb",
+      "title": "临时决斗",
+      "originalTitle": "臨時決鬥",
+      "description": "　　曾经的传奇拳王钟磊（古天乐 饰）创立拳馆“钟磊舍”，如今却生意冷清，濒临倒闭。风光一时的大明星莫嘉莉（梁咏琪 饰）息影多年，如今试图复出，却面临“中年困境”。广告界女精英林雪（王丹妮 饰）发现男友劈腿女拳王孙雅云（周秀娜 饰），她狠下战书，誓要与孙雅云决一胜负。落魄拳王与老旧拳馆的命运将何去何从？复出女星的重启人生能否如愿？职场女王的跨界复仇又能否取胜?面对生活的重拳出击，一场“临时决斗”就此打响……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/b6m0K6DIjx82u2bb4zkXSAzHRul.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/c6tqdW0MK7NnYKAh9tBuAHhB5Wj.jpg",
+      "releaseDate": "2025-01-28",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -350,18 +362,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1376146,
-      "type": "tmdb",
-      "title": "临时决斗",
-      "originalTitle": "臨時決鬥",
-      "description": "　　曾经的传奇拳王钟磊（古天乐 饰）创立拳馆“钟磊舍”，如今却生意冷清，濒临倒闭。风光一时的大明星莫嘉莉（梁咏琪 饰）息影多年，如今试图复出，却面临“中年困境”。广告界女精英林雪（王丹妮 饰）发现男友劈腿女拳王孙雅云（周秀娜 饰），她狠下战书，誓要与孙雅云决一胜负。落魄拳王与老旧拳馆的命运将何去何从？复出女星的重启人生能否如愿？职场女王的跨界复仇又能否取胜?面对生活的重拳出击，一场“临时决斗”就此打响……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/b6m0K6DIjx82u2bb4zkXSAzHRul.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/c6tqdW0MK7NnYKAh9tBuAHhB5Wj.jpg",
-      "releaseDate": "2025-01-28",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 1541695,
       "type": "tmdb",
       "title": "地球脉动：万物有道",
@@ -386,15 +386,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 1481390,
+      "id": 1509525,
       "type": "tmdb",
-      "title": "聊斋：兰若寺",
-      "originalTitle": "聊斋：兰若寺",
-      "description": "年青书生蒲松龄行路遇险，不得已夜宿兰若寺，却被一蛤蟆一乌龟抓到了一口奇异的古井底，两只精怪比赛讲故事并逼迫蒲松龄评判故事的好坏……最终，被逼无奈的蒲松龄也讲出了自己的奇妙故事。\r 本片为篇章式结构，分为一条主线《井下故事》以及五个经典聊斋故事改编的《崂山道士》《莲花公主》《聂小倩》《画皮》《鲁公女》，共六个篇章。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/paZseaaIQBDfNnXrld7ml4ZW3RF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uOpTbfagHI1Ug3f4RYSGhC8CHqk.jpg",
-      "releaseDate": "2025-07-12",
-      "rating": 7.7,
+      "title": "山河为证",
+      "originalTitle": "山河为证",
+      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
+      "releaseDate": "2025-08-15",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 135397,
+      "type": "tmdb",
+      "title": "侏罗纪世界",
+      "originalTitle": "Jurassic World",
+      "description": "21世纪，曾经诞生过第一只恐龙的努布拉岛，在经历了一系列的惨剧之后迎来新的时代，如今这里经马斯拉尼公司之手建成了规模宏大的主题公园“侏罗纪世界”，数量繁多的远古生物每天都吸引数以万计的游客前来一饱眼福。为了吸引更多的游客，公司授意创意实验室采用不同动物的基因创造了集力量、速度和智慧于一体的暴虐霸王龙。作为负责人的克莱尔原打算请专门负责迅猛龙的欧文·格雷迪评估暴虐霸王龙的防护设施，谁知这头可怕的怪物竟然骗过了精密仪器的监视和人类的眼睛，以迅雷不及掩耳的速度逃到了外面，随后对所见的一切生物展开了无差别的血腥屠杀。原本快乐祥和的公园乱作一团，克莱尔必须深入危险之地救出两个被困的外甥，而欧文则不可避免地带着他的迅猛龙猎人团队迎战史无前例的的可怕对手……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
+      "releaseDate": "2015-06-06",
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -410,18 +422,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1509525,
-      "type": "tmdb",
-      "title": "山河为证",
-      "originalTitle": "山河为证",
-      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
-      "releaseDate": "2025-08-15",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1490320,
       "type": "tmdb",
       "title": "喜羊羊与灰太狼之异国破晓",
@@ -431,6 +431,42 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/wWF3i7ZbCo9Q3xqEzh2KczMRJ0o.jpg",
       "releaseDate": "2025-07-26",
       "rating": 8.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 507086,
+      "type": "tmdb",
+      "title": "侏罗纪世界3",
+      "originalTitle": "Jurassic World Dominion",
+      "description": "在洛克伍德庄园事件的四年后，那些巨兽不仅开始大量繁衍，而且正逐步走向世界各个角落，融入了人类的世界。而两个完全不同的物种，围绕有限的生存空间展开了竞争。在此期间，欧文·格雷迪却隐居深山老林，悉心传授梅西·洛克伍德各种生存技巧以及和恐龙的相处之道。谁知，一伙不速之客掳走了梅西以及迅猛龙小蓝的孩子。愤怒的欧文只得踏上追索之路。另一方面，史前巨型蝗虫的出现引起艾丽·塞特勒博士的注意，她也因此与好友艾伦·格兰特博士等人重逢。一切阴谋都指向了位于意大利的一处恐龙保护地……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/p4m05RX6xjisJEv1fGyPuc5BiK5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/698FjyzLdpgXmUSr63LaRwblTmx.jpg",
+      "releaseDate": "2022-06-01",
+      "rating": 6.633,
+      "mediaType": "movie"
+    },
+    {
+      "id": 351286,
+      "type": "tmdb",
+      "title": "侏罗纪世界2",
+      "originalTitle": "Jurassic World: Fallen Kingdom",
+      "description": "自侏罗纪世界的骚乱以来，种类繁多的恐龙在努布拉岛度过了三年无拘无束的时光。然而该岛火山活动频繁，随时有喷发的危险。致力于恐龙保护的克莱尔受到本杰明·洛克伍德的邀请。本杰明及其下属伊莱·米尔斯希望她和相关技术人员前往努布拉岛拯救那里的恐龙，并将它们安置在新的栖息地。受到感染的克莱尔设法找来欧文一同前往，欧文则希望救出他亲手驯养的迅猛龙小蓝。当他们踏足这座隔绝之岛时，却发现事情没那么简单。火山蠢蠢欲动，随时爆发，而混乱之中丑恶的阴谋悄然酝酿。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jVUgMrvroBDlBFlcj4Z08D8glIA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6WA9stUMbIkEPxn3D5SWlA8FIi7.jpg",
+      "releaseDate": "2018-06-06",
+      "rating": 6.539,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1484752,
+      "type": "tmdb",
+      "title": "坪石先生",
+      "originalTitle": "坪石先生",
+      "description": "　　1944年冬，日军南北夹击，粤北坪石镇已成危巢，在坪石的国立中山大学迁校势在必行，何去何从成为所有师生都要面对的问题。数天系主任黄际遇年届花甲，平静外表下亦有彷徨。同时，他更加优心学生的安全。偶遇天才考生邱扬，黄际遇珍惜爱护，多方启迪。国难当头，邱扬热血入伍被骗，黄际遇竭力营救。邱扬明志，为中华之崛起而读书，而学校被迫迁徙流亡，坪石论陷。七个月后，日本投降，黄际遇为女儿举行婚礼，家国同庆。师生结伴返校途中，舟次清远，黄际遇不幸堕水罹难。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9efQfQT4KRBq1zUM9smlBJLC8zI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7182lebPfucTnRRIlsxihGJFgQb.jpg",
+      "releaseDate": "2025-08-15",
+      "rating": 10,
       "mediaType": "movie"
     }
   ],
@@ -444,7 +480,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.797,
+      "rating": 7.798,
       "mediaType": "movie"
     },
     {
@@ -454,9 +490,9 @@
       "originalTitle": "TRON: Ares",
       "description": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
       "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2OvpmWYrsv8eMyV3AAqhoMnzMF.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jUplF2dluebAYdHa901mhPVOZYU.jpg",
       "releaseDate": "2025-10-08",
-      "rating": 6.5,
+      "rating": 6.667,
       "mediaType": "movie"
     },
     {
@@ -468,7 +504,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.41,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -540,7 +576,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWO3B2CTDguZqCrVQ2u5Xnp9VRS.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 7.004,
+      "rating": 6.988,
       "mediaType": "movie"
     },
     {
@@ -563,6 +599,18 @@
       "description": "台风刚过的海岛之上，一只眼受伤的城市女生林沫沫（张子枫 饰），与岛上土生土长的失语女孩阿汐（张伟丽 饰）猝然相遇。当无情的风暴逐渐撕开两人隐秘哀伤的过往，两个看似另类但炽热的青春，相互慰藉，彼此支撑，用友情的力量对抗人生的台风。随着青蚵嫂（李心洁 饰）临终透露的惊天秘密和陈淑楠（姚晨 饰）的突然闯入，席卷沫沫与阿汐的下一个台风突如其来，风眼之下，望风而逃还是迎风而上？她们必须做出抉择。",
       "posterPath": "https://image.tmdb.org/t/p/w500/dbSvLlBSakvNBeorfKrTMOobyUx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iDYYgt04YzCL7xPru3iJO94LRlk.jpg",
+      "releaseDate": "2025-10-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1297238,
+      "type": "tmdb",
+      "title": "阳光俱乐部",
+      "originalTitle": "阳光俱乐部",
+      "description": "吴优（黄晓明 饰）虽已到不惑之年，但智商认知水平仍停留在孩童时期。他人如其名，像孩子那般无忧无虑，对世界抱有好奇。至今单身的吴优平日里与乐观开朗的母亲沈丽萍（陆小芬 饰）生活在一起。他在加入了一个叫“阳光俱乐部”的成功学组织后成为了高级合伙人，这时母亲却突患重病。哥哥吴迪（祖峰 饰）作为医生想尽办法为母亲治病，但吴优却选择了截然不同的救母之路。他坚信只要让阳光照进内心，生命总会有奇迹……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kD0ltzX6tUpgrwfc9G2vqqVsxyr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eepNYgL2tHDtFXvsVuOnPJS7Fua.jpg",
       "releaseDate": "2025-10-25",
       "rating": 0,
       "mediaType": "movie"
@@ -782,7 +830,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.043,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -794,7 +842,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
       "releaseDate": "2015-06-06",
-      "rating": 6.699,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -818,7 +866,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oZHqIjWOu8zKFtBfv4s9iEHoZjU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "releaseDate": "2012-04-25",
-      "rating": 7.819,
+      "rating": 7.82,
       "mediaType": "movie"
     },
     {
