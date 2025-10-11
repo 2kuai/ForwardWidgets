@@ -19,65 +19,142 @@ const config = {
 // 延迟函数
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// 从TMDB获取电影详情
-async function getTmdbDetails(title) {
-  try {
-    // 提取年份（格式：电影名（2021））
-    const yearMatch = title.match(/（(\d{4})）$/);
-    const year = yearMatch ? yearMatch[1] : "";
-    // 清除标题中的年份部分
-    const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
-    
-    // 调用TMDB搜索API
-    const response = await axios.get(`${config.tmdbBaseUrl}/search/movie`, {
-      params: {
-        query: cleanTitle,  // 查询标题
-        language: 'zh-CN',  // 中文结果
-        year: year          // 年份筛选
-      },
-      headers: {
-        'Authorization': `Bearer ${config.tmdbApiKey}`,
-        'Accept': 'application/json'
-      },
-      timeout: 10000  // 10秒超时
-    });
+// 带重试机制的请求函数
+async function requestWithRetry(url, options, maxRetries = 3, baseDelay = 1000) {
+  let lastError;
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await axios(url, options);
+      return response;
+    } catch (error) {
+      lastError = error;
+      
+      if (error.response?.status === 429) {
+        // 429错误，需要等待更长时间
+        const retryAfter = error.response.headers['retry-after'];
+        const waitTime = retryAfter ? parseInt(retryAfter) * 1000 : baseDelay * Math.pow(2, attempt);
+        
+        console.log(`[TMDB] 请求被限制，等待 ${waitTime/1000} 秒后重试 (${attempt}/${maxRetries})`);
+        await delay(waitTime);
+      } else if (error.response?.status >= 500) {
+        // 服务器错误，重试
+        const waitTime = baseDelay * Math.pow(2, attempt);
+        console.log(`[TMDB] 服务器错误，等待 ${waitTime/1000} 秒后重试 (${attempt}/${maxRetries})`);
+        await delay(waitTime);
+      } else if (error.code === 'ECONNRESET' || error.code === 'ETIMEDOUT') {
+        // 网络错误，重试
+        const waitTime = baseDelay * Math.pow(2, attempt);
+        console.log(`[TMDB] 网络错误 ${error.code}，等待 ${waitTime/1000} 秒后重试 (${attempt}/${maxRetries})`);
+        await delay(waitTime);
+      } else {
+        // 其他错误，不重试
+        throw error;
+      }
+    }
+  }
+  
+  throw lastError;
+}
 
-    // 如果没有结果
-    if (!response?.data?.results?.length) {
-      console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
-      return null;
+// 从TMDB获取电影详情（带重试机制）
+async function getTmdbDetails(title, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      // 提取年份（支持多种格式：电影名（1998）、电影名（1998美国）、电影名（1998(罗马尼亚)）等）
+      const yearMatch = title.match(/（(\d{4})(?:\(.*?\))?）$/); // 匹配年份，可能后面跟着括号内的国家信息
+      const year = yearMatch ? yearMatch[1] : "";
+      
+      // 清除标题中的年份和国家信息部分
+      const cleanTitle = title.replace(/（\d{4}(?:\(.*?\))?）$/, '').trim();
+      
+      console.log(`[TMDB] 查询电影: "${cleanTitle}" (${year || '无年份'}) [尝试 ${attempt}/${maxRetries}]`);
+      
+      // 调用TMDB搜索API（使用带重试的请求）
+      const response = await requestWithRetry(`${config.tmdbBaseUrl}/search/movie`, {
+        params: {
+          query: cleanTitle,  // 查询标题
+          language: 'zh-CN',  // 中文结果
+          year: year          // 年份筛选
+        },
+        headers: {
+          'Authorization': `Bearer ${config.tmdbApiKey}`,
+          'Accept': 'application/json'
+        },
+        timeout: 10000  // 10秒超时
+      }, 2, 1000); // 内部请求重试2次，基础延迟1秒
+
+      // 如果没有结果
+      if (!response?.data?.results?.length) {
+        console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
+        return null;
+      }
+      
+      // 调试：打印所有搜索结果
+      console.log(`[TMDB] 找到 ${response.data.results.length} 个结果:`);
+      response.data.results.forEach((item, index) => {
+        console.log(`  ${index + 1}. ${item.title} (${item.original_title}) - ${item.release_date}`);
+      });
+      
+      // 寻找匹配的条目（中文名或原名）
+      let movie = response.data.results.find(
+        item => 
+          (item.title === cleanTitle || item.original_title === cleanTitle)
+      );
+      
+      // 如果没有完全匹配，尝试模糊匹配（包含关系）
+      if (!movie) {
+        movie = response.data.results.find(
+          item => 
+            item.title.includes(cleanTitle) || 
+            item.original_title.includes(cleanTitle) ||
+            cleanTitle.includes(item.title) ||
+            cleanTitle.includes(item.original_title)
+        );
+      }
+      
+      // 如果还是没有匹配，使用第一个结果
+      if (!movie) {
+        console.log(`[TMDB] 未找到完全匹配的电影: ${cleanTitle}，使用第一个结果`);
+        movie = response.data.results[0];
+      }
+      
+      // 返回格式化后的电影信息
+      return {
+        id: movie.id,
+        type: "tmdb",
+        title: movie.title,
+        originalTitle: movie.original_title,
+        description: movie.overview,
+        posterPath: movie.poster_path 
+          ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` 
+          : null,
+        backdropPath: movie.backdrop_path 
+          ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` 
+          : null,
+        releaseDate: movie.release_date,
+        rating: movie.vote_average,
+        mediaType: "movie"
+      };
+      
+    } catch (error) {
+      if (attempt === maxRetries) {
+        console.error(`[TMDB] 获取电影详情失败 (${maxRetries}次尝试后): ${error.message}`);
+        return null;
+      }
+      
+      if (error.response?.status === 429) {
+        // 429错误，等待更长时间
+        const waitTime = 5000 * attempt; // 逐渐增加等待时间
+        console.log(`[TMDB] 请求频率限制，等待 ${waitTime/1000} 秒后重试`);
+        await delay(waitTime);
+      } else {
+        // 其他错误，等待较短时间后重试
+        const waitTime = 2000 * attempt;
+        console.log(`[TMDB] 请求失败，等待 ${waitTime/1000} 秒后重试`);
+        await delay(waitTime);
+      }
     }
-    
-    // 寻找完全匹配的条目（中文名或原名）
-    const movie = response.data.results.find(
-      item => 
-        (item.title === cleanTitle || item.original_title === cleanTitle)
-    );
-    if (!movie) {
-      console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
-      return null;
-    }
-    // 返回格式化后的电影信息
-    return {
-      id: movie.id,
-      type: "tmdb",
-      title: movie.title,
-      originalTitle: movie.original_title,
-      description: movie.overview,
-      posterPath: movie.poster_path 
-        ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` 
-        : null,
-      backdropPath: movie.backdrop_path 
-        ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` 
-        : null,
-      releaseDate: movie.release_date,
-      rating: movie.vote_average,
-      mediaType: "movie"
-    };
-    
-  } catch (error) {
-    console.error(`[TMDB] 获取电影详情失败: ${error.message}`);
-    return null;
   }
 }
 
@@ -130,13 +207,15 @@ async function getMovies(params = {}) {
         }
         
         console.log(`从豆瓣获取${movies.length}部${type === "coming" ? "即将" : "正在"}上映的电影`);
-        console.log(movies);
+        
         const results = [];
         for (const movie of movies) {
             try {
                 const details = await getTmdbDetails(movie);
                 if (details) results.push(details);
-                await delay(250);
+                
+                // 在电影之间添加更长的延迟，避免触发频率限制
+                await delay(1000 + Math.random() * 2000); // 1-3秒随机延迟
             } catch (error) {
                 console.error(`处理电影失败: ${movie}`, error);
             }
@@ -179,19 +258,22 @@ async function getClassicRank() {
     
     console.log('经典影片列表:', movies);
     
-    // 调用TMDB API获取详细信息
-    const tmdbResults = await Promise.all(
-      movies.map(async movie => {
-        try {
-          const result = await getTmdbDetails(movie);
-          if (!result) console.log(`TMDB未匹配到: ${movie}`);
-          return result;
-        } catch (error) {
-          console.error(`获取电影详情失败: ${movie}`, error);
-          return null;
+    const tmdbResults = [];
+    for (const movie of movies) {
+      try {
+        const result = await getTmdbDetails(movie);
+        if (result) {
+          tmdbResults.push(result);
+        } else {
+          console.log(`TMDB未匹配到: ${movie}`);
         }
-      })
-    ).then(results => results.filter(Boolean));
+        
+        // 在电影之间添加更长的延迟
+        await delay(1000 + Math.random() * 2000); // 1-3秒随机延迟
+      } catch (error) {
+        console.error(`获取电影详情失败: ${movie}`, error);
+      }
+    }
     
     return tmdbResults;
   } catch (error) {
