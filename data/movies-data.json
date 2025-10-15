@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-15T00:19:28.661+08:00",
+  "last_updated": "2025-10-16T00:16:48.063+08:00",
   "nowplaying": [
     {
       "id": 1466319,
@@ -26,18 +26,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 478798,
-      "type": "tmdb",
-      "title": "风林火山",
-      "originalTitle": "風林火山",
-      "description": "一场突然而来的爆炸事件令香港富商殒命，牵引出贩毒者与反毒者之间的角力。贩毒集团继承人不惜一切制造社会混乱，为的竟是一个至善的理由﹖一个没有毒品的世界，原来竟比想象中更可怕、更混乱……谁来拨乱反正？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hXRaWnvvUId6cE20QyTHpgQUtcd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/buB346BA3BlPd8rDlrXBeuNl1Gq.jpg",
-      "releaseDate": "2025-10-01",
-      "rating": 5.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 1321624,
       "type": "tmdb",
       "title": "731",
@@ -47,6 +35,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg",
       "releaseDate": "2025-09-18",
       "rating": 4.833,
+      "mediaType": "movie"
+    },
+    {
+      "id": 478798,
+      "type": "tmdb",
+      "title": "风林火山",
+      "originalTitle": "風林火山",
+      "description": "一场突然而来的爆炸事件令香港富商殒命，牵引出贩毒者与反毒者之间的角力。贩毒集团继承人不惜一切制造社会混乱，为的竟是一个至善的理由﹖一个没有毒品的世界，原来竟比想象中更可怕、更混乱……谁来拨乱反正？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hXRaWnvvUId6cE20QyTHpgQUtcd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/buB346BA3BlPd8rDlrXBeuNl1Gq.jpg",
+      "releaseDate": "2025-10-01",
+      "rating": 5.3,
       "mediaType": "movie"
     },
     {
@@ -130,19 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
       "releaseDate": "2025-08-16",
-      "rating": 7.176,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1269108,
-      "type": "tmdb",
-      "title": "通灵巫古咒",
-      "originalTitle": "Santet Segoro Pitu",
-      "description": "在发现一个奇怪的包裹后，Sucipto和他的家人怀疑是一个可怕的诅咒导致了一连串的不幸接管了他们的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fDJvnjtG7HWpq8U4J1NHYd8Iwr5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AorubnsLNfPEx136uxxFQAqrF0g.jpg",
-      "releaseDate": "2024-11-07",
-      "rating": 6.1,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -155,6 +143,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/j8NRd9KUOQbSFTO8V2rdsbQaKrc.jpg",
       "releaseDate": "2025-09-05",
       "rating": 8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1269108,
+      "type": "tmdb",
+      "title": "通灵巫古咒",
+      "originalTitle": "Santet Segoro Pitu",
+      "description": "在发现一个奇怪的包裹后，Sucipto和他的家人怀疑是一个可怕的诅咒导致了一连串的不幸接管了他们的生活。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fDJvnjtG7HWpq8U4J1NHYd8Iwr5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AorubnsLNfPEx136uxxFQAqrF0g.jpg",
+      "releaseDate": "2024-11-07",
+      "rating": 6.1,
       "mediaType": "movie"
     },
     {
@@ -202,7 +202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lB96EMr5A7Og81UhyldJvvy35r.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.797,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -240,7 +240,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.801,
+      "rating": 7.798,
       "mediaType": "movie"
     },
     {
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2OvpmWYrsv8eMyV3AAqhoMnzMF.jpg",
       "releaseDate": "2025-10-08",
-      "rating": 6.527,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -274,9 +274,9 @@
       "originalTitle": "A Big Bold Beautiful Journey",
       "description": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
       "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/geqQxNU74Sp095DRsxZxWUsdpH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
       "releaseDate": "2025-09-17",
-      "rating": 6.4,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -316,18 +316,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1548736,
-      "type": "tmdb",
-      "title": "父辈的天空",
-      "originalTitle": "父辈的天空",
-      "description": "　　影片以独特视角聚焦二战时期被称为“死亡航线”的悲壮奇迹，通过参与飞行的亲历者及其子女、家人的口述，展开时空对话，记录了这条二战期间开辟的物资空运生命线上的故事，讲述一段关乎中国航空从业者们勇气与奉献的天空传奇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/54XNFVcbDcPsb9uB6HmqcpfjXc2.jpg",
-      "backdropPath": null,
-      "releaseDate": "2025-10-18",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1551366,
       "type": "tmdb",
       "title": "成为大师",
@@ -335,6 +323,18 @@
       "description": "　　2020年疫情发生，生活在深圳大芬村的几位原创艺术家的生存环境遭到了前所未有的影响，而这并未让他们停下创造美的脚步。曾经主人公一凡坚定他的追求，努力成为大师，得到更多人的认可，但是在大芬村的痛苦经历慢慢使他更加明白自由、希望和理想的意义。疫情过后的现在，对于这几位独特的艺术家，成不成为大师显得并不那么重要。",
       "posterPath": "https://image.tmdb.org/t/p/w500/xG3SKpBSc0yTeyVz78LI36nogKR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/k733qrSCyEDDnBAsrO1d43BTltW.jpg",
+      "releaseDate": "2025-10-18",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1548736,
+      "type": "tmdb",
+      "title": "父辈的天空",
+      "originalTitle": "父辈的天空",
+      "description": "　　影片以独特视角聚焦二战时期被称为“死亡航线”的悲壮奇迹，通过参与飞行的亲历者及其子女、家人的口述，展开时空对话，记录了这条二战期间开辟的物资空运生命线上的故事，讲述一段关乎中国航空从业者们勇气与奉献的天空传奇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/54XNFVcbDcPsb9uB6HmqcpfjXc2.jpg",
+      "backdropPath": null,
       "releaseDate": "2025-10-18",
       "rating": 0,
       "mediaType": "movie"
@@ -360,7 +360,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWO3B2CTDguZqCrVQ2u5Xnp9VRS.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.987,
+      "rating": 6.97,
       "mediaType": "movie"
     },
     {
@@ -568,6 +568,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1325866,
+      "type": "tmdb",
+      "title": "用武之地",
+      "originalTitle": "用武之地",
+      "description": "驻外记者马笑（肖央 饰）和志愿医生潘文佳（齐溪 饰）夫妇，陪同工程师苗峰（郑恺 饰）赴郊区修理基站的途中，当地局势突变，三人被极端组织绑架，并在狱中结识了华侨商人周伟杰（任达华 饰）。为求得一线生机，他们在荒蛮战乱中踏上了逃生之路……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5JVZUfTjEQySa5kgIItybfoeB6U.jpg",
+      "backdropPath": null,
+      "releaseDate": "2025-12-31",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1530787,
       "type": "tmdb",
       "title": "匿杀",
@@ -626,7 +638,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5YBgcdKcxGJJOULqsFWlU03vm3V.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
       "releaseDate": "1994-09-23",
-      "rating": 8.713,
+      "rating": 8.712,
       "mediaType": "movie"
     },
     {
@@ -722,7 +734,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7ojgNNaZCDvp7IchH0uehUGJ0dH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.9,
+      "rating": 7.905,
       "mediaType": "movie"
     },
     {
@@ -758,7 +770,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yiWWUa1mB55dfd0QpGHsFsge67I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
       "releaseDate": "1994-06-23",
-      "rating": 8.5,
+      "rating": 8.465,
       "mediaType": "movie"
     },
     {
@@ -782,7 +794,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b0c3TgnAqCfDLqzaAG2IoVxw3c4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ukfI9QkU1aIhOhKXYWE9n3z1mFR.jpg",
       "releaseDate": "2001-07-20",
-      "rating": 8.5,
+      "rating": 8.536,
       "mediaType": "movie"
     },
     {
@@ -818,7 +830,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vtgPOrShQFkDm1PWY3TKrPmlS5i.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wSJHuSD7ojzoXifWjOAjxV7UpEL.jpg",
       "releaseDate": "2017-10-27",
-      "rating": 8.2,
+      "rating": 8.202,
       "mediaType": "movie"
     },
     {
@@ -902,7 +914,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mElBV2f9cpgVeuQLDFH3HS5u1gY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Eo6FPq6A4aMeOe4tTmNKwUZRvM.jpg",
       "releaseDate": "2009-06-08",
-      "rating": 8.012,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -914,7 +926,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3cAkm3Gg5aiP7sd2dEMWHspfYy1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hpzQHv8cA7j2Dn2CphOFYmllXzj.jpg",
       "releaseDate": "1989-06-02",
-      "rating": 8.301,
+      "rating": 8.3,
       "mediaType": "movie"
     },
     {
@@ -962,7 +974,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6LAT5zqpZbDWV87pchCN6RAGdAo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1ZSWFzAP4AZuFCigZZoib2RdcUO.jpg",
       "releaseDate": "2017-01-06",
-      "rating": 8.084,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -986,7 +998,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
       "releaseDate": "2016-08-26",
-      "rating": 8.479,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -1070,7 +1082,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wslKTtycuNZt66we6quBK2pFbUi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fa03pD2qYmms4ZMgAv7PMqfFiGO.jpg",
       "releaseDate": "1992-12-23",
-      "rating": 7.8,
+      "rating": 7.78,
       "mediaType": "movie"
     },
     {
@@ -1130,7 +1142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yhyY94umEO1XkaxJAZJSMJk9hgt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rQaHA74pevnGsxcKGaoZVGWe9TC.jpg",
       "releaseDate": "2020-12-25",
-      "rating": 8.104,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -1154,7 +1166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ai2FicMUxLCurVkjtYdSvVDWRmS.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.1,
+      "rating": 8.102,
       "mediaType": "movie"
     },
     {
@@ -1250,7 +1262,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ft8WRF2xqEwwGWa59naDUybKTAx.jpg",
       "releaseDate": "1939-12-15",
-      "rating": 7.925,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -1262,7 +1274,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mYvSMWFsZnKYLWomUIbbVSoKsL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uPYa165sraN2c8gZBM9C47g3JoU.jpg",
       "releaseDate": "1984-05-23",
-      "rating": 8.403,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1334,7 +1346,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bwKhj6tHlm8hiw9QjhpooJjQWgG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.6,
+      "rating": 7.594,
       "mediaType": "movie"
     },
     {
@@ -1346,7 +1358,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/79R2HaSUTYBmxIrjDNouEtxjMQc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
       "releaseDate": "2009-05-28",
-      "rating": 8,
+      "rating": 7.959,
       "mediaType": "movie"
     },
     {
@@ -1394,7 +1406,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/szxBVXajhvjvOC4tbH6hygdumcs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fzZmcKQv7ZTGIiPvocPhNs3wUyK.jpg",
       "releaseDate": "2013-09-04",
-      "rating": 7.913,
+      "rating": 7.912,
       "mediaType": "movie"
     },
     {
@@ -1418,7 +1430,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
       "releaseDate": "2004-09-09",
-      "rating": 8.4,
+      "rating": 8.395,
       "mediaType": "movie"
     },
     {
@@ -1454,7 +1466,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gFxATIulWtZze6oOjPfyglDqsW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLsts7ct0NVkdYpx5rZg10MG6zh.jpg",
       "releaseDate": "1997-12-05",
-      "rating": 8.157,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -1526,7 +1538,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/Ag6qhzsJd3k1NKuNrG9RmhZDMh7.jpg",
       "releaseDate": "2002-12-16",
-      "rating": 8,
+      "rating": 7.979,
       "mediaType": "movie"
     },
     {
@@ -1562,7 +1574,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a31aMXYw3u2rfmzq4RDGvRtIMr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
       "releaseDate": "2016-07-20",
-      "rating": 7.752,
+      "rating": 7.751,
       "mediaType": "movie"
     },
     {
@@ -1718,7 +1730,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8.1,
+      "rating": 8.05,
       "mediaType": "movie"
     },
     {
