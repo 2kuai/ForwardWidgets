@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-20T01:02:36.676006",
+  "last_updated": "2025-10-20T06:20:19.606027",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -401,7 +401,9 @@
       "name": "河南新闻",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南新闻.png,lfo-center,l-end,l-end/河南新闻.png",
-      "childItems": []
+      "childItems": [
+        "http://www.cdnstv.com:6398/hls/1114/index.m3u8"
+      ]
     },
     {
       "name": "湖南爱晚",
