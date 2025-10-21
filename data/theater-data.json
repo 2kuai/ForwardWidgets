@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T00:28:49.715+08:00",
+  "last_updated": "2025-10-22T00:28:38.597+08:00",
   "迷雾剧场": {
     "aired": [
       {
@@ -135,6 +135,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 136440,
+        "type": "tmdb",
+        "title": "平原上的摩西",
+        "description": "该剧改编自双雪涛同名小说，讲述了由一起出租车司机被杀案揭开的陈年往事。曾经的叛逆少年庄树（董子健 饰）成为刑警后负责侦查7年前的旧案，疑犯却逐渐指向了儿时留给自己美好记忆的邻家父女。随着调查的深入，一颗烟头让案情拨云见日，刑警悲哀的发现，自己可能也是当年那场惨案的参与者。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aRByCc2xes5JvojMrPcrZRLVW77.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uKSogupwzPowCxpWknoPcf4G6St.jpg",
+        "releaseDate": "2023-01-16",
+        "rating": 7.8,
+        "mediaType": "tv"
+      },
+      {
         "id": 136444,
         "type": "tmdb",
         "title": "回来的女儿",
@@ -179,6 +190,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 125460,
+        "type": "tmdb",
+        "title": "八角亭谜雾",
+        "description": "十七年前，玄家小妹玄珍离奇被杀，案件搁置多年，不知真凶是何人。玄珍的双胞胎姐姐玄珠远走他乡。十七年后，小镇的又一宗凶杀案与玄家扯上关系，玄珍的哥哥玄梁成了嫌疑人对象，玄母命悬一线，四分五裂的家人在故乡重聚。 随着旧案真相渐渐浮出水面，备受煎熬的兄妹多年矛盾也终于再次爆发。一家四口将何去何从？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/oZZT377nQBkyJj7a963PrAlVUoX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8rpZkWvBPaX9anEqQh2nYk9okJl.jpg",
+        "releaseDate": "2021-10-13",
+        "rating": 5.6,
+        "mediaType": "tv"
+      },
+      {
         "id": 133988,
         "type": "tmdb",
         "title": "再见那一天",
@@ -187,6 +209,39 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9Skh84vXgOIm3BomtEsVhOaL0R.jpg",
         "releaseDate": "2021-09-21",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 105053,
+        "type": "tmdb",
+        "title": "沉默的真相",
+        "description": "一起看似简单的自杀案，背后隐藏着一个不可告人的巨大秘密；为了揭开这个秘密， 一群人历经七载，付出无数代价，甚至赌上性命…一个曾有大好前途，四平八稳的检察官江阳，但因受贿贪污，坐牢三年，再次出现在公众视野里竟是他出现在行李箱里的蜷缩的尸体；运送他尸体的当地著名律师张超。此案引发全市关注，刑警严良介入负责此案，与张超正面交锋。张超承认犯罪，却在接受法院宣判时当场翻供，并拿出不在场证据，案件陷入死局。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4AdoaxyYZHG4L3mrPXPjk0wfeB8.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/vwLyVDzS5frW3aVKmQf9GxAlZaQ.jpg",
+        "releaseDate": "2020-09-16",
+        "rating": 8.6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 105054,
+        "type": "tmdb",
+        "title": "在劫难逃",
+        "description": "曾是刑警队长的张海峰，由于独生女朵朵在两年前意外死亡，家庭随之破碎，他浑噩度日。没想到在城市里发生的一起连环杀人案似乎与朵朵的意外相关，张海峰也意外卷入其中。可他没想到，迎接他的不仅是复杂莫测的凶案真相，还有层层叠叠的时光陷阱……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/b1DNvoML4aBrE0MyM1buWwvOnbS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/tjhlLwvsl80OPC5M3xbxEkcZm31.jpg",
+        "releaseDate": "2020-09-02",
+        "rating": 5.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 107650,
+        "type": "tmdb",
+        "title": "非常目击",
+        "description": "一桩20年未破解的少女谋杀谜案在20年后同样案件再度发生，它唤起了似乎已经平静的小城人们的记忆，曾经年少的山峰（宋洋饰演）成长为警察回到小城。因无法抹去的痛苦记忆让山峰再度追凶，在他寻求真相的过程中发现不仅仅自己，所有当年牵涉其中的人都因这桩20年前的谜案产生了翻天覆地的变化。江边小城夜色如水，雾气弥漫的追凶路上，一次次人性的拷问，一场场预想不到的危机与答案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qugCmk90fSN4iuYn40BmoPChHb0.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/44iXFa25gH81YaeweRUr8H1rPwg.jpg",
+        "releaseDate": "2020-08-18",
+        "rating": 7.7,
         "mediaType": "tv"
       },
       {
