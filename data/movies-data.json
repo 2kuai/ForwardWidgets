@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T00:20:11.920+08:00",
+  "last_updated": "2025-10-23T00:20:44.904+08:00",
   "nowplaying": [
     {
       "id": 1054867,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.768,
+      "rating": 7.75,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vP2tCUDhvgqTShBNdtfuGtqJH9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oYFbhQhTkXxKBuPpwcZZsImPYEn.jpg",
       "releaseDate": "2025-10-01",
-      "rating": 8,
+      "rating": 7.143,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/np0dsehLDdbfyHFRtqCiL1GR0TQ.jpg",
       "releaseDate": "2025-10-08",
-      "rating": 6.445,
+      "rating": 6.446,
       "mediaType": "movie"
     },
     {
@@ -62,6 +62,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 478798,
+      "type": "tmdb",
+      "title": "风林火山",
+      "originalTitle": "風林火山",
+      "description": "一场突然而来的爆炸事件令香港富商殒命，牵引出贩毒者与反毒者之间的角力。贩毒集团继承人不惜一切制造社会混乱，为的竟是一个至善的理由﹖一个没有毒品的世界，原来竟比想象中更可怕、更混乱……谁来拨乱反正？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hXRaWnvvUId6cE20QyTHpgQUtcd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/buB346BA3BlPd8rDlrXBeuNl1Gq.jpg",
+      "releaseDate": "2025-10-01",
+      "rating": 5.5,
+      "mediaType": "movie"
+    },
+    {
       "id": 1024332,
       "type": "tmdb",
       "title": "小山河",
@@ -83,18 +95,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/fvUWuX1S9CPd3ojPj2TvY371ln9.jpg",
       "releaseDate": "2023-10-26",
       "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 478798,
-      "type": "tmdb",
-      "title": "风林火山",
-      "originalTitle": "風林火山",
-      "description": "一场突然而来的爆炸事件令香港富商殒命，牵引出贩毒者与反毒者之间的角力。贩毒集团继承人不惜一切制造社会混乱，为的竟是一个至善的理由﹖一个没有毒品的世界，原来竟比想象中更可怕、更混乱……谁来拨乱反正？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hXRaWnvvUId6cE20QyTHpgQUtcd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/buB346BA3BlPd8rDlrXBeuNl1Gq.jpg",
-      "releaseDate": "2025-10-01",
-      "rating": 5.5,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1241921,
-      "type": "tmdb",
-      "title": "绮梦之旅",
-      "originalTitle": "A Big Bold Beautiful Journey",
-      "description": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
-      "releaseDate": "2025-09-17",
-      "rating": 6.35,
-      "mediaType": "movie"
-    },
-    {
       "id": 945801,
       "type": "tmdb",
       "title": "刺杀小说家2",
@@ -155,6 +143,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/1mHTEDRSZ9PersHOTKfYBRXZw89.jpg",
       "releaseDate": "2025-10-01",
       "rating": 6.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1241921,
+      "type": "tmdb",
+      "title": "绮梦之旅",
+      "originalTitle": "A Big Bold Beautiful Journey",
+      "description": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2ha0wAOqrUcLScStWQcgeOOXapQ.jpg",
+      "releaseDate": "2025-09-17",
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -194,18 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1082900,
-      "type": "tmdb",
-      "title": "爱的暂停键",
-      "originalTitle": "Elskling",
-      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yizLm0CjPg79GWRgbycQVe5XKb7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
-      "releaseDate": "2024-09-19",
-      "rating": 7.278,
-      "mediaType": "movie"
-    },
-    {
       "id": 1419406,
       "type": "tmdb",
       "title": "捕风追影",
@@ -215,18 +203,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
       "releaseDate": "2025-08-16",
       "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1409966,
-      "type": "tmdb",
-      "title": "7天",
-      "originalTitle": "7天",
-      "description": "　　陈丑时（蒋奇明 饰）因为巧合在牙科诊所邂逅女孩温倩（张艺凡 饰），两人开始了一段奇妙的爱情，而当感情进一步发展时，陈丑时向温倩坦诚了一个关于自己的秘密，他从小就能在女孩头顶看到一串数字，那是他们之间的恋爱时长，而他和温倩只有七天……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/j0oj5uZZmATt4I67roAQ7Y1hehG.jpg",
-      "releaseDate": "2025-08-29",
-      "rating": 4.5,
       "mediaType": "movie"
     },
     {
@@ -254,6 +230,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1082900,
+      "type": "tmdb",
+      "title": "爱的暂停键",
+      "originalTitle": "Elskling",
+      "description": "　　回忆起他们的相识，前一段关系结束，新的相遇开始。玛利亚在聚会里遇见心仪对象迅速坠入情网，却在结婚七年后，突然迎来丈夫的离婚宣告。面对爱情悄然逝去，不甘放手的她，强拉着丈夫进行婚姻谘商，试图修复彼此之间的裂痕。当过去相处点滴被逐一摊开、放大检视，这个关于情感的练习题，却比她想像中还要难解复杂。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yizLm0CjPg79GWRgbycQVe5XKb7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sY44GAYod3VSUEVJYSgJiHvIQvE.jpg",
+      "releaseDate": "2024-09-19",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1409966,
+      "type": "tmdb",
+      "title": "7天",
+      "originalTitle": "7天",
+      "description": "　　陈丑时（蒋奇明 饰）因为巧合在牙科诊所邂逅女孩温倩（张艺凡 饰），两人开始了一段奇妙的爱情，而当感情进一步发展时，陈丑时向温倩坦诚了一个关于自己的秘密，他从小就能在女孩头顶看到一串数字，那是他们之间的恋爱时长，而他和温倩只有七天……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/j0oj5uZZmATt4I67roAQ7Y1hehG.jpg",
+      "releaseDate": "2025-08-29",
+      "rating": 4.5,
+      "mediaType": "movie"
+    },
+    {
       "id": 1545250,
       "type": "tmdb",
       "title": "疯狂电脑城",
@@ -266,27 +266,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1425725,
+      "id": 911430,
       "type": "tmdb",
-      "title": "汉斯·季默与朋友们：沙漠之钻音乐会",
-      "originalTitle": "Hans Zimmer & Friends: Diamond in the Desert",
-      "description": "记录了汉斯·季默在迪拜的演出，包括《沙丘》《角斗士》《星际穿越》《狮子王》等众多经典电影配乐。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jpLToC9PNzL8xK3axTjIdtpbfAE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fYN7UVruGPJxA3c7yGHQ4R9OHF0.jpg",
-      "releaseDate": "2025-02-19",
-      "rating": 8.265,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1551366,
-      "type": "tmdb",
-      "title": "成为大师",
-      "originalTitle": "成为大师",
-      "description": "　　2020年疫情发生，生活在深圳大芬村的几位原创艺术家的生存环境遭到了前所未有的影响，而这并未让他们停下创造美的脚步。曾经主人公一凡坚定他的追求，努力成为大师，得到更多人的认可，但是在大芬村的痛苦经历慢慢使他更加明白自由、希望和理想的意义。疫情过后的现在，对于这几位独特的艺术家，成不成为大师显得并不那么重要。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xG3SKpBSc0yTeyVz78LI36nogKR.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/k733qrSCyEDDnBAsrO1d43BTltW.jpg",
-      "releaseDate": "2025-10-18",
-      "rating": 0,
+      "title": "F1：狂飙飞车",
+      "originalTitle": "F1",
+      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
+      "releaseDate": "2025-06-25",
+      "rating": 7.836,
       "mediaType": "movie"
     },
     {
@@ -302,15 +290,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 911430,
+      "id": 1425725,
       "type": "tmdb",
-      "title": "F1：狂飙飞车",
-      "originalTitle": "F1",
-      "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
-      "releaseDate": "2025-06-25",
-      "rating": 7.833,
+      "title": "汉斯·季默与朋友们：沙漠之钻音乐会",
+      "originalTitle": "Hans Zimmer & Friends: Diamond in the Desert",
+      "description": "记录了汉斯·季默在迪拜的演出，包括《沙丘》《角斗士》《星际穿越》《狮子王》等众多经典电影配乐。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jpLToC9PNzL8xK3axTjIdtpbfAE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fYN7UVruGPJxA3c7yGHQ4R9OHF0.jpg",
+      "releaseDate": "2025-02-19",
+      "rating": 8.3,
       "mediaType": "movie"
     },
     {
@@ -323,6 +311,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/qiu0u5fa5OnHtGTOmzOffw5FpkW.jpg",
       "releaseDate": "2025-07-19",
       "rating": 8.4,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1551366,
+      "type": "tmdb",
+      "title": "成为大师",
+      "originalTitle": "成为大师",
+      "description": "　　2020年疫情发生，生活在深圳大芬村的几位原创艺术家的生存环境遭到了前所未有的影响，而这并未让他们停下创造美的脚步。曾经主人公一凡坚定他的追求，努力成为大师，得到更多人的认可，但是在大芬村的痛苦经历慢慢使他更加明白自由、希望和理想的意义。疫情过后的现在，对于这几位独特的艺术家，成不成为大师显得并不那么重要。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xG3SKpBSc0yTeyVz78LI36nogKR.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/k733qrSCyEDDnBAsrO1d43BTltW.jpg",
+      "releaseDate": "2025-10-18",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -358,19 +358,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9Z3yzf2UgUKiDYpj6v6kWXsAISV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
       "releaseDate": "2024-10-17",
-      "rating": 8.068,
-      "mediaType": "movie"
-    },
-    {
-      "id": 574475,
-      "type": "tmdb",
-      "title": "死神来了：血脉诅咒",
-      "originalTitle": "Final Destination Bloodlines",
-      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
-      "releaseDate": "2025-05-14",
-      "rating": 7.105,
+      "rating": 8.069,
       "mediaType": "movie"
     },
     {
@@ -382,19 +370,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lB96EMr5A7Og81UhyldJvvy35r.jpg",
       "releaseDate": "2025-07-24",
-      "rating": 7.8,
+      "rating": 7.775,
       "mediaType": "movie"
     },
     {
-      "id": 1042834,
+      "id": 1399515,
       "type": "tmdb",
-      "title": "伊甸",
-      "originalTitle": "Eden",
-      "description": "　　一座资源紧缺的无人岛，三组各怀心思的求生者，毒害、背叛、爆头... 荒岛硬核大逃杀，残酷社达动物园！当粮食枯竭、水源污染、信任崩盘，生存成了唯一的目标。为了活下去，人性被兽性替代，欲望滋生出邪恶，而谁又将成功活到最后……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nJ3ZvkedqkYHWZQbOnuheiEhytE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rz8NcfTRczvn94vpnmMx42zt6EC.jpg",
-      "releaseDate": "2025-04-03",
-      "rating": 6.817,
+      "title": "奇遇",
+      "originalTitle": "奇遇",
+      "description": "中年黄遇奇重生了，重生在了18岁那一年，这次他要拿回属于自己的一切！ 培养爹当富一代，哄老婆提前安排，死对头现在闪开……什么，不是重生是穿越，还是双时空互穿版！青春版黄遇奇已在2025年上线，整顿职场只是他反向投胎的第一步。小小穿越，轻松拿捏，看两个自己如何统统逆袭！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/edDMKFhgOLF73RosfRhwkTzUaNU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/Pp4jLt5O13jioz7NHlgNWGMLzN.jpg",
+      "releaseDate": "2025-08-08",
+      "rating": 10,
+      "mediaType": "movie"
+    },
+    {
+      "id": 574475,
+      "type": "tmdb",
+      "title": "死神来了：血脉诅咒",
+      "originalTitle": "Final Destination Bloodlines",
+      "description": "　大学生斯蒂芬妮（凯特琳·桑塔·胡安娜 Kaitlyn Santa Juana 饰）长期被噩梦困扰，她决定返回家乡寻找噩梦起源，却意外发现曾发生在外婆艾莉丝身上的离奇旧事，并牵连出流淌在整个家族血脉中的秘密：死神诅咒。当她试图破解诅咒密码，却发现死神的镰刀早已垂下…… 随着身边亲人一个个离奇惨死，斯蒂芬妮还能带领幸存者逃脱死神的宿命猎杀吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "releaseDate": "2025-05-14",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -422,18 +422,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 135397,
-      "type": "tmdb",
-      "title": "侏罗纪世界",
-      "originalTitle": "Jurassic World",
-      "description": "21世纪，曾经诞生过第一只恐龙的努布拉岛，在经历了一系列的惨剧之后迎来新的时代，如今这里经马斯拉尼公司之手建成了规模宏大的主题公园“侏罗纪世界”，数量繁多的远古生物每天都吸引数以万计的游客前来一饱眼福。为了吸引更多的游客，公司授意创意实验室采用不同动物的基因创造了集力量、速度和智慧于一体的暴虐霸王龙。作为负责人的克莱尔原打算请专门负责迅猛龙的欧文·格雷迪评估暴虐霸王龙的防护设施，谁知这头可怕的怪物竟然骗过了精密仪器的监视和人类的眼睛，以迅雷不及掩耳的速度逃到了外面，随后对所见的一切生物展开了无差别的血腥屠杀。原本快乐祥和的公园乱作一团，克莱尔必须深入危险之地救出两个被困的外甥，而欧文则不可避免地带着他的迅猛龙猎人团队迎战史无前例的的可怕对手……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
-      "releaseDate": "2015-06-06",
-      "rating": 6.699,
-      "mediaType": "movie"
-    },
-    {
       "id": 1249622,
       "type": "tmdb",
       "title": "别把作文当回事儿",
@@ -443,6 +431,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/jMtCnIpG0IjmMmOL4W9C2H1k9XX.jpg",
       "releaseDate": "2025-09-12",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 135397,
+      "type": "tmdb",
+      "title": "侏罗纪世界",
+      "originalTitle": "Jurassic World",
+      "description": "21世纪，曾经诞生过第一只恐龙的努布拉岛，在经历了一系列的惨剧之后迎来新的时代，如今这里经马斯拉尼公司之手建成了规模宏大的主题公园“侏罗纪世界”，数量繁多的远古生物每天都吸引数以万计的游客前来一饱眼福。为了吸引更多的游客，公司授意创意实验室采用不同动物的基因创造了集力量、速度和智慧于一体的暴虐霸王龙。作为负责人的克莱尔原打算请专门负责迅猛龙的欧文·格雷迪评估暴虐霸王龙的防护设施，谁知这头可怕的怪物竟然骗过了精密仪器的监视和人类的眼睛，以迅雷不及掩耳的速度逃到了外面，随后对所见的一切生物展开了无差别的血腥屠杀。原本快乐祥和的公园乱作一团，克莱尔必须深入危险之地救出两个被困的外甥，而欧文则不可避免地带着他的迅猛龙猎人团队迎战史无前例的的可怕对手……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dF6FjTZzRTENfB4R17HDN20jLT2.jpg",
+      "releaseDate": "2015-06-06",
+      "rating": 6.699,
       "mediaType": "movie"
     },
     {
@@ -482,18 +482,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1509525,
-      "type": "tmdb",
-      "title": "山河为证",
-      "originalTitle": "山河为证",
-      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
-      "releaseDate": "2025-08-15",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1268179,
       "type": "tmdb",
       "title": "熊孩子·探险熊兵",
@@ -504,21 +492,21 @@
       "releaseDate": "2025-09-13",
       "rating": 0,
       "mediaType": "movie"
+    },
+    {
+      "id": 1509525,
+      "type": "tmdb",
+      "title": "山河为证",
+      "originalTitle": "山河为证",
+      "description": "讲述了第二次世界大战期间，中国作为东方主战场，中华儿女血祭轩辕、死生契阔、奋勇抗击日本帝国主义侵略者的伟大史诗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sqEqt1XzlyuubKAL1VdZNAEf9X5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pcLQuwaUxkcJBxV2wXWR93705LQ.jpg",
+      "releaseDate": "2025-08-15",
+      "rating": 0,
+      "mediaType": "movie"
     }
   ],
   "coming": [
-    {
-      "id": 1234564,
-      "type": "tmdb",
-      "title": "胡阿姨的花园",
-      "originalTitle": "胡阿姨的花园",
-      "description": "潘志琪执导的以小人物为主角的《24号大街》曾入围阿姆斯特丹国际纪录片电影节主竞赛单元以及提名金马奖最佳纪录片，导演的这部新作继续关注小人物苦乐参半的生活：重庆胡阿姨靠经营价格极其低廉的小旅馆为生，日子虽然清贫但她有时还会替住客解围，她还用废弃垃圾建造了一个缤纷花园，以这个诗意空间实现自我救赎并抚慰患病儿子。片中影像内容跨越9年，真实反映了一对母子的精神世界和生活韧性。本片在本届上海国际电影节为世界首",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6JJHpgS9aRn0rNXcgR8YJgXtKTM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eYcdvhPP7Ul5Nj1nWEkweBv5RtC.jpg",
-      "releaseDate": "2025-10-23",
-      "rating": 0,
-      "mediaType": "movie"
-    },
     {
       "id": 1245993,
       "type": "tmdb",
@@ -528,7 +516,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWO3B2CTDguZqCrVQ2u5Xnp9VRS.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.949,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -618,7 +606,7 @@
     {
       "id": 283566,
       "type": "tmdb",
-      "title": "天鹰战士：最后的冲击",
+      "title": "新世纪福音战士新剧场版：终",
       "originalTitle": "シン・エヴァンゲリオン劇場版:||",
       "description": "葛城美里和她的反“NERV”组织WILLE到达因为地球核心化而呈赤红色的巴黎。船员从旗舰奇迹号上降落到一个密闭塔，他们只有720秒的时间来复原城市。此时多架“NERV”组织的福音战士出现，真希波驾驶福音战士8号机·改加以拦截。同时，碇真嗣、明日香和绫波零在日本附近徘徊。",
       "posterPath": "https://image.tmdb.org/t/p/w500/2Gkxnn2kHLNnMJBvHEl05LU60vY.jpg",
@@ -724,6 +712,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 425274,
+      "type": "tmdb",
+      "title": "惊天魔盗团3",
+      "originalTitle": "Now You See Me: Now You Don't",
+      "description": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
+      "releaseDate": "2025-11-12",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1129573,
       "type": "tmdb",
       "title": "三滴血",
@@ -755,7 +755,7 @@
       "description": "在一个人类已经不再做梦的世界里，有一个怪物依然整日沉迷于梦的幻觉中，他迷失了。而一个女人可以看清幻觉，于是她潜入了他的梦中去寻找……",
       "posterPath": "https://image.tmdb.org/t/p/w500/8mOJCEONLTnvTRytBgKt5psrUoC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rsKnezLAdnbi5ivcV6cOu8HMTLI.jpg",
-      "releaseDate": "2025-11-22",
+      "releaseDate": "2025-10-24",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -780,7 +780,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4d3ZLJvxxK7fpqNW50bKEGpQgoi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hrNQWwQU6WuOKDpgFtdcDd90UnA.jpg",
       "releaseDate": "2007-05-22",
-      "rating": 6.8,
+      "rating": 6.834,
       "mediaType": "movie"
     },
     {
@@ -856,6 +856,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 457332,
+      "type": "tmdb",
+      "title": "狂怒沙暴",
+      "originalTitle": "Hidden Strike",
+      "description": "成龙饰演一名中国私人保安承包商，当中国在中东的一家炼油厂遭到袭击时，该承包商被召来营救当地的石油工人，随后他意识到攻击者的真正计划是窃取石油财富，他与 一位前海军陆战队队员(塞纳)合作阻止他们。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bPFZapzCpsEuUNzYT8ibmSBpN44.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eLqQ6RleEKUBbqsxQvfJK2iOuVy.jpg",
+      "releaseDate": "2023-07-06",
+      "rating": 6.9,
+      "mediaType": "movie"
+    },
+    {
       "id": 1420457,
       "type": "tmdb",
       "title": "千金不换",
@@ -888,7 +900,7 @@
       "originalTitle": "The Shawshank Redemption",
       "description": "1947年，小有成就的青年银行家安迪因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德，请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟络，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步。",
       "posterPath": "https://image.tmdb.org/t/p/w500/5YBgcdKcxGJJOULqsFWlU03vm3V.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
       "releaseDate": "1994-09-23",
       "rating": 8.713,
       "mediaType": "movie"
@@ -974,7 +986,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lQEjWasu07JbQHdfFI5VnEUfId2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
       "releaseDate": "2010-07-15",
-      "rating": 8.37,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -998,7 +1010,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9W9tsHcaK77r4xGmPjzPnjv12nw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBSwwkAYl9h8QVG2OxNpSaSgJwr.jpg",
       "releaseDate": "2010-08-06",
-      "rating": 8.015,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1058,7 +1070,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/k1pJslKr4aDayw9kWwWnlC3MIP3.jpg",
       "releaseDate": "2019-07-26",
-      "rating": 7.89,
+      "rating": 7.891,
       "mediaType": "movie"
     },
     {
@@ -1070,7 +1082,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vtgPOrShQFkDm1PWY3TKrPmlS5i.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wSJHuSD7ojzoXifWjOAjxV7UpEL.jpg",
       "releaseDate": "2017-10-27",
-      "rating": 8.202,
+      "rating": 8.201,
       "mediaType": "movie"
     },
     {
@@ -1226,7 +1238,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6LAT5zqpZbDWV87pchCN6RAGdAo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1ZSWFzAP4AZuFCigZZoib2RdcUO.jpg",
       "releaseDate": "2017-01-06",
-      "rating": 8.1,
+      "rating": 8.085,
       "mediaType": "movie"
     },
     {
@@ -1250,7 +1262,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
       "releaseDate": "2016-08-26",
-      "rating": 8.5,
+      "rating": 8.479,
       "mediaType": "movie"
     },
     {
@@ -1262,7 +1274,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jdHsptJbtalEuVhCV5i7kSC3g0x.jpg",
       "releaseDate": "1972-03-14",
-      "rating": 8.686,
+      "rating": 8.7,
       "mediaType": "movie"
     },
     {
@@ -1370,7 +1382,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/f1gDRukoKvHwitvF0HvrBiX2V58.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mTw4n5MYQMftHuGsSmBrgMu7C1H.jpg",
       "releaseDate": "1987-10-04",
-      "rating": 7.589,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -1382,7 +1394,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aU6Mj8yFZhOnTpXjobqcwrB4KPP.jpg",
       "releaseDate": "2011-04-24",
-      "rating": 7.6,
+      "rating": 7.621,
       "mediaType": "movie"
     },
     {
@@ -1418,7 +1430,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zuP5Iir0ip4cbpke8vKLmWdqJ6k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ai2FicMUxLCurVkjtYdSvVDWRmS.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.103,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -1442,7 +1454,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fQzCvF2R4P9YkPQK7gO9LNLcnlD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
       "releaseDate": "2017-12-01",
-      "rating": 8.062,
+      "rating": 8.063,
       "mediaType": "movie"
     },
     {
@@ -1454,7 +1466,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tZ3cAEoLRJp4ebVzIef7y8xzHlx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg",
       "releaseDate": "2016-11-17",
-      "rating": 7.545,
+      "rating": 7.546,
       "mediaType": "movie"
     },
     {
@@ -1514,7 +1526,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ft8WRF2xqEwwGWa59naDUybKTAx.jpg",
       "releaseDate": "1939-12-15",
-      "rating": 7.926,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -1574,7 +1586,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rJBDuMN2FkGpFSVNSK3yPt5DLlV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
       "releaseDate": "1999-10-15",
-      "rating": 8.4,
+      "rating": 8.438,
       "mediaType": "movie"
     },
     {
@@ -1586,7 +1598,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nGIlXS9xcnXXE5wInqK7Yc3mAlY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
       "releaseDate": "1994-09-10",
-      "rating": 8.487,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -1610,7 +1622,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/79R2HaSUTYBmxIrjDNouEtxjMQc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
       "releaseDate": "2009-05-28",
-      "rating": 7.959,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1646,7 +1658,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l5ELzamAq9aCBJ2CSvW5OMBeQMR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
       "releaseDate": "2006-03-23",
-      "rating": 8.04,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1658,7 +1670,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/szxBVXajhvjvOC4tbH6hygdumcs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fzZmcKQv7ZTGIiPvocPhNs3wUyK.jpg",
       "releaseDate": "2013-09-04",
-      "rating": 7.912,
+      "rating": 7.913,
       "mediaType": "movie"
     },
     {
@@ -1682,7 +1694,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
       "releaseDate": "2004-09-09",
-      "rating": 8.4,
+      "rating": 8.394,
       "mediaType": "movie"
     },
     {
@@ -1718,7 +1730,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gFxATIulWtZze6oOjPfyglDqsW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLsts7ct0NVkdYpx5rZg10MG6zh.jpg",
       "releaseDate": "1997-12-05",
-      "rating": 8.2,
+      "rating": 8.157,
       "mediaType": "movie"
     },
     {
@@ -1826,7 +1838,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a31aMXYw3u2rfmzq4RDGvRtIMr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
       "releaseDate": "2016-07-20",
-      "rating": 7.75,
+      "rating": 7.751,
       "mediaType": "movie"
     },
     {
@@ -1898,7 +1910,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1ocL6mgNkFlIARhDQcA9bgxS0L1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uNLIMPxknsV4n3IAEDpS1iqF5dm.jpg",
       "releaseDate": "1990-12-07",
-      "rating": 7.719,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -1970,7 +1982,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2RD0e28s7IFPbxWkBUaPfvwcdWB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/x4OYcZVHggyZHOrvkCo2HH9kLkF.jpg",
       "releaseDate": "2005-09-16",
-      "rating": 8.061,
+      "rating": 8.06,
       "mediaType": "movie"
     },
     {
@@ -1994,7 +2006,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8gLc3LKww5j2wxhWcrzhdKGvcGU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bLqUd0tBvKezDr9MEla7k34i3rp.jpg",
       "releaseDate": "2003-12-25",
-      "rating": 7.755,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -2018,7 +2030,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5DMDkeRfgISRqwxgrX9McAYwu6A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yCnJT53HMXAK87xzPAdjdYhZ3JE.jpg",
       "releaseDate": "2006-10-17",
-      "rating": 8.203,
+      "rating": 8.204,
       "mediaType": "movie"
     },
     {
