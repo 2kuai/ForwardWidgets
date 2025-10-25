@@ -1,7 +1,18 @@
 {
-  "last_updated": "2025-10-25T14:13:55.825+08:00",
+  "last_updated": "2025-10-25T20:16:43.945+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 252414,
+        "type": "tmdb",
+        "title": "水龙吟",
+        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
+        "releaseDate": "2025-10-24",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 261663,
         "type": "tmdb",
@@ -14,14 +25,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 252414,
+        "id": 262928,
         "type": "tmdb",
-        "title": "水龙吟",
-        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
-        "releaseDate": "2025-10-24",
-        "rating": 0,
+        "title": "入青云",
+        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/krZyxxsbjqWYuNFAQsGaq9KLA9g.jpg",
+        "releaseDate": "2025-10-08",
+        "rating": 9.5,
         "mediaType": "tv"
       },
       {
@@ -36,13 +47,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 262928,
+        "id": 273125,
         "type": "tmdb",
-        "title": "入青云",
-        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/krZyxxsbjqWYuNFAQsGaq9KLA9g.jpg",
-        "releaseDate": "2025-10-08",
+        "title": "余生有涯",
+        "description": "叶思北对重男轻女的父母隐忍、妥协和逃避，让深爱着她又怒其不争的丈夫秦南无法忍耐，提出离婚。叶思北却在此时遭遇侵害，万念俱灰。得知事件真相后，秦南坚定地陪在她身边，鼓励她用法律手段伸张正义。在司法部门的介入下，罪犯入狱，真相大白。叶思北和秦南相互扶持，并与家人解开心结，开启新的人生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gY0XlPTUxYyFC24nEp1VWX8S1Vz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/b8kQymfdJzbO1Gwh5EohjOCbg8z.jpg",
+        "releaseDate": "2025-10-16",
         "rating": 9.5,
         "mediaType": "tv"
       },
@@ -80,17 +91,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 273125,
-        "type": "tmdb",
-        "title": "余生有涯",
-        "description": "叶思北对重男轻女的父母隐忍、妥协和逃避，让深爱着她又怒其不争的丈夫秦南无法忍耐，提出离婚。叶思北却在此时遭遇侵害，万念俱灰。得知事件真相后，秦南坚定地陪在她身边，鼓励她用法律手段伸张正义。在司法部门的介入下，罪犯入狱，真相大白。叶思北和秦南相互扶持，并与家人解开心结，开启新的人生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gY0XlPTUxYyFC24nEp1VWX8S1Vz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/b8kQymfdJzbO1Gwh5EohjOCbg8z.jpg",
-        "releaseDate": "2025-10-16",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 302577,
         "type": "tmdb",
         "title": "猎豹",
@@ -98,18 +98,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
         "releaseDate": "2025-10-14",
-        "rating": 0,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
-        "id": 263034,
+        "id": 240442,
         "type": "tmdb",
-        "title": "赴山海",
-        "description": "一名酷爱武侠小说却被现实磨平棱角的咸鱼肖明明，以小说男主角萧秋水的视角游历了一次武林世界，从武力低微、热血冲动的少年剑客，最终成长为有情有义、守护家国的大侠。此后肖明明在工作之余也不忘创作，在小说中继续传递人心因义而聚的信念。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jOEKN1yCpbTwuVCN4RxLCVHEn8c.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7dH63uoQDQu6pfYJLNKQYLXJ38m.jpg",
-        "releaseDate": "2025-09-11",
-        "rating": 6.071,
+        "title": "天地剑心",
+        "description": "自幼被当作一气盟斩妖除魔的终极兵器培养的王权富贵，遇到了潜入王权山庄做间谍的蜘蛛精清瞳。清瞳的出现，越发激起富贵对妖怪看法的改变，也给富贵展示了更多外面的世界。富贵内心渴望自由、憧憬天下大同的信念被逐渐点燃，经历万剑穿心，带着清瞳离开王权山庄，走上了自己所悟之道。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sSUsKG6hKCWadKSeT825ullCL60.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kSx7TUpI5uJUqgPMtu5R7Q3VZRe.jpg",
+        "releaseDate": "2025-10-25",
+        "rating": 9,
         "mediaType": "tv"
       }
     ],
@@ -249,6 +249,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 240442,
+        "type": "tmdb",
+        "title": "天地剑心",
+        "description": "自幼被当作一气盟斩妖除魔的终极兵器培养的王权富贵，遇到了潜入王权山庄做间谍的蜘蛛精清瞳。清瞳的出现，越发激起富贵对妖怪看法的改变，也给富贵展示了更多外面的世界。富贵内心渴望自由、憧憬天下大同的信念被逐渐点燃，经历万剑穿心，带着清瞳离开王权山庄，走上了自己所悟之道。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sSUsKG6hKCWadKSeT825ullCL60.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kSx7TUpI5uJUqgPMtu5R7Q3VZRe.jpg",
+        "releaseDate": "2025-10-25",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 263034,
         "type": "tmdb",
         "title": "赴山海",
@@ -268,17 +279,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9adG5IL4ZaBu3m4DyVPDZJDIH41.jpg",
         "releaseDate": "2025-10-11",
         "rating": 8.8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 240442,
-        "type": "tmdb",
-        "title": "天地剑心",
-        "description": "自幼被当作一气盟斩妖除魔的终极兵器培养的王权富贵，遇到了潜入王权山庄做间谍的蜘蛛精清瞳。清瞳的出现，越发激起富贵对妖怪看法的改变，也给富贵展示了更多外面的世界。富贵内心渴望自由、憧憬天下大同的信念被逐渐点燃，经历万剑穿心，带着清瞳离开王权山庄，走上了自己所悟之道。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sSUsKG6hKCWadKSeT825ullCL60.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kSx7TUpI5uJUqgPMtu5R7Q3VZRe.jpg",
-        "releaseDate": "2025-10-25",
-        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -326,18 +326,29 @@
         "mediaType": "tv"
       },
       {
-        "id": 279322,
+        "id": 257787,
         "type": "tmdb",
-        "title": "不眠日",
-        "description": "华澳市警署有一位睿智骁勇、屡破奇案的“神探”，警署内传言称没有他破不了的案件。然而，看似完美的杀人案接二连三地降临，挑战着这位“神探”的极限。案件中，凶手如同幽灵般无迹可寻，没有留下任何线索，仿佛从未来过。华澳市风云变幻，暗流涌动，每一个角落都可能隐藏着致命的危机。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rjl2HwmSH4ZkTBQs3rUghY2uo23.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2PXt4bfBvsszibaZp2HrT30xKnh.jpg",
-        "releaseDate": "2025-09-17",
-        "rating": 7.583,
+        "title": "利剑·玫瑰",
+        "description": "一心想要进入禁毒支队、查找缉毒警察男友死亡真相的女警花邓妍，在一次解救婴儿人质的意外行动中大放异彩，因此被天海市公安局党委调到打拐办任代理主任。为了破获拐卖儿童案、拐卖外地少女强迫卖淫案，邓妍通过缜密的推理、精准的判断力以及奋不顾身的行动，不仅让原本持怀疑态度的同事变为钦佩和坚定支持，还一步步揭开了隐藏在一个个拐卖案件背后的惊天黑幕。面对罪犯的狡猾和凶残，邓妍与打拐办的同事们共同努力，剥茧抽丝，经过大量的调查、抓捕、解救等行动，化解了线索中断、诬告停职、买凶暗杀等层层阻力，终于将包括自己表嫂在内的拐卖妇女儿童犯罪团伙的一个个犯罪嫌疑人绳之以法。与此同时，男友被害的真相也渐渐浮出水面。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/obPcu3bCSDuHdoF5eblpeuUThKc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dcddW7YDWCOcNyJKciEP5zAryNs.jpg",
+        "releaseDate": "2025-07-28",
+        "rating": 9,
         "mediaType": "tv"
       }
     ],
     "腾讯视频": [
+      {
+        "id": 273125,
+        "type": "tmdb",
+        "title": "余生有涯",
+        "description": "叶思北对重男轻女的父母隐忍、妥协和逃避，让深爱着她又怒其不争的丈夫秦南无法忍耐，提出离婚。叶思北却在此时遭遇侵害，万念俱灰。得知事件真相后，秦南坚定地陪在她身边，鼓励她用法律手段伸张正义。在司法部门的介入下，罪犯入狱，真相大白。叶思北和秦南相互扶持，并与家人解开心结，开启新的人生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gY0XlPTUxYyFC24nEp1VWX8S1Vz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/b8kQymfdJzbO1Gwh5EohjOCbg8z.jpg",
+        "releaseDate": "2025-10-16",
+        "rating": 9.5,
+        "mediaType": "tv"
+      },
       {
         "id": 256920,
         "type": "tmdb",
@@ -361,17 +372,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 273125,
-        "type": "tmdb",
-        "title": "余生有涯",
-        "description": "叶思北对重男轻女的父母隐忍、妥协和逃避，让深爱着她又怒其不争的丈夫秦南无法忍耐，提出离婚。叶思北却在此时遭遇侵害，万念俱灰。得知事件真相后，秦南坚定地陪在她身边，鼓励她用法律手段伸张正义。在司法部门的介入下，罪犯入狱，真相大白。叶思北和秦南相互扶持，并与家人解开心结，开启新的人生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gY0XlPTUxYyFC24nEp1VWX8S1Vz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/b8kQymfdJzbO1Gwh5EohjOCbg8z.jpg",
-        "releaseDate": "2025-10-16",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 302577,
         "type": "tmdb",
         "title": "猎豹",
@@ -379,7 +379,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
         "releaseDate": "2025-10-14",
-        "rating": 0,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -416,17 +416,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 242762,
-        "type": "tmdb",
-        "title": "子夜归",
-        "description": "长安之下，别有邪魅，隐秘儿女，子夜方归。纨绔贵女与孤傲郎君纵享双面人生，白日爱侣欢乐，夜里殊死相搏，只为护一方太平，佑海晏河清。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/taOaIYF4MrhZq6uLXMJz7oGxFqv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/u4uUe0rnjx2UOegZFiwwKPlxDBX.jpg",
-        "releaseDate": "2025-08-18",
-        "rating": 8.7,
-        "mediaType": "tv"
-      },
-      {
         "id": 271017,
         "type": "tmdb",
         "title": "围猎",
@@ -446,6 +435,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/khubsaD2dRS2M3rIfLDgU7d7YYH.jpg",
         "releaseDate": "2025-08-06",
         "rating": 7.969,
+        "mediaType": "tv"
+      },
+      {
+        "id": 242762,
+        "type": "tmdb",
+        "title": "子夜归",
+        "description": "长安之下，别有邪魅，隐秘儿女，子夜方归。纨绔贵女与孤傲郎君纵享双面人生，白日爱侣欢乐，夜里殊死相搏，只为护一方太平，佑海晏河清。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/taOaIYF4MrhZq6uLXMJz7oGxFqv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/u4uUe0rnjx2UOegZFiwwKPlxDBX.jpg",
+        "releaseDate": "2025-08-18",
+        "rating": 8.7,
         "mediaType": "tv"
       }
     ],
@@ -794,7 +794,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
         "releaseDate": "2025-10-14",
-        "rating": 0,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -901,17 +901,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rLynvJLi5GffeN21U2Kwy5NQGIu.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -920,6 +909,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
         "releaseDate": "2024-06-28",
         "rating": 7.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rLynvJLi5GffeN21U2Kwy5NQGIu.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -945,6 +945,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 130099,
+        "type": "tmdb",
+        "title": "再见爱人",
+        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "releaseDate": "2021-07-28",
+        "rating": 8.1,
+        "mediaType": "tv"
+      },
+      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -964,17 +975,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/ndZBPyMZyVQTP8gMg0V4g4Q4PIE.jpg",
         "releaseDate": "2019-10-30",
         "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 130099,
-        "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
-        "releaseDate": "2021-07-28",
-        "rating": 8.1,
         "mediaType": "tv"
       }
     ],
@@ -1077,6 +1077,17 @@
         "releaseDate": "2025-08-07",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 98031,
+        "type": "tmdb",
+        "title": "奔跑吧！兄弟",
+        "description": "《奔跑吧兄弟》是中国浙江卫视引进韩国SBS电视台制作的真人实境秀节目，从2014年10月开始播出，原版为韩国SBS电视台的《Running Man》。\n\n《奔跑吧兄弟》的游戏设定为成员与嘉宾前往各个任务地点进行前期任务，由胜出的队伍或个人获得对最终任务有利之提示或权力，最后在最终任务地点完成最终任务。最终任务游戏沿用《Running Man》的“撕名牌”环节。\n\n第五季开始，因禁韩令影响，节目更名为《奔跑吧》（Keep Running），赛制亦稍作少量修改。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jOl12DTFiMcp9ga2KaEKwt5H8oo.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/17rOo5OX6uDazY7sL4S9Xmp51A2.jpg",
+        "releaseDate": "2014-10-10",
+        "rating": 5.727,
+        "mediaType": "tv"
       }
     ],
     "爱奇艺": [
@@ -1114,17 +1125,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 298626,
-        "type": "tmdb",
-        "title": "灿烂的市集",
-        "description": "几位期待“社交破圈”的年轻艺人，与市集策划师一起，组成“灿烂的市集策划组”。在2座城市，与明星摊主和素人摊主共同打造一场结合地方城市烟火与青春潮流的创意市集。聚焦当下青年人的兴趣生活圈层，感受松弛感和慢社交的治愈力 ，同时展现青年人的青春创意和鲜活面孔。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/veGJ7ue2K6DSkg6jbcdHtPcGhk2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fzkPupInzW6t2826WX3Om6j4hid.jpg",
-        "releaseDate": "2025-08-20",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 299224,
         "type": "tmdb",
         "title": "天声一对",
@@ -1132,6 +1132,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/oNOTOC4JMxTVahuL7uwHsjd6qaU.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c3SPliPLSrbVOnlaMVQKFb2cIBk.jpg",
         "releaseDate": "2025-09-06",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 298626,
+        "type": "tmdb",
+        "title": "灿烂的市集",
+        "description": "几位期待“社交破圈”的年轻艺人，与市集策划师一起，组成“灿烂的市集策划组”。在2座城市，与明星摊主和素人摊主共同打造一场结合地方城市烟火与青春潮流的创意市集。聚焦当下青年人的兴趣生活圈层，感受松弛感和慢社交的治愈力 ，同时展现青年人的青春创意和鲜活面孔。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/veGJ7ue2K6DSkg6jbcdHtPcGhk2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/fzkPupInzW6t2826WX3Om6j4hid.jpg",
+        "releaseDate": "2025-08-20",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1147,13 +1158,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 299000,
+        "id": 300268,
         "type": "tmdb",
-        "title": "听，谁在唱歌",
-        "description": "当草原化作大地的舞台，起伏的草浪皆为音乐沸腾；当歌声冲向天际，云朵就是最好的听众；当节目发起人于适，音乐合伙人胡海泉、莫西子诗集结采风，乐器碰撞便能产生即兴的火花。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pxJ8c4KlQOzdKrW1dBY3c01sVxO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mn7lrDzwSaYS42WEOGghgJYeMWJ.jpg",
-        "releaseDate": "2025-08-24",
+        "title": "中国唱将",
+        "description": "《中国唱将》以“国家级音乐人才集训营”为核心概念，集结各大国家院团、艺术院校的顶级歌唱家、音乐制作人、学术导师、行业专家等，以“国家级”师资力量全力托举、锻造新声，构建从专业遴选、进阶集训、观众点评到最终登上国家舞台的权威生态闭环。经过专业架构的“多维评价”体系，最终遴选出的优秀选手将组成“中国唱将团”，输送至总台文艺各大晚会和各大院团的重要创作，让新一代唱将屹立到国家舞台之上，擎文艺旗帜，引时代新风。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1OJaJW5kkCiF4lX4bqm3ty0Ske8.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/wy09JpYFRNwz1C6IuoqcuX9o6xn.jpg",
+        "releaseDate": "2025-10-24",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1226,17 +1237,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 196609,
-        "type": "tmdb",
-        "title": "三个少年",
-        "description": "《三个少年》是一档互动演绎暖情访谈节目，由3位求知少年担任研究员，每期和几位“特邀专员”围绕时下热议话题，展开课题研究会，分享研究成果。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tP0PCDB6USLN27jpXpsBJTXMfmv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zNvYvOH3fze2qoOT02Ni8x4a9Wn.jpg",
-        "releaseDate": "2022-03-31",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 212814,
         "type": "tmdb",
         "title": "桃花坞开放中",
@@ -1244,6 +1244,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/lNbhx2wRy9A9H2kuQzYZjnSJJyd.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/fqNdJmrhBvs2N0Td0ftTlvjj667.jpg",
         "releaseDate": "2022-09-10",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 196609,
+        "type": "tmdb",
+        "title": "三个少年",
+        "description": "《三个少年》是一档互动演绎暖情访谈节目，由3位求知少年担任研究员，每期和几位“特邀专员”围绕时下热议话题，展开课题研究会，分享研究成果。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tP0PCDB6USLN27jpXpsBJTXMfmv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zNvYvOH3fze2qoOT02Ni8x4a9Wn.jpg",
+        "releaseDate": "2022-03-31",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1256,17 +1267,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/jxChaoOfoEu29nRrasBH7R32YbS.jpg",
         "releaseDate": "2025-07-17",
         "rating": 10,
-        "mediaType": "tv"
-      },
-      {
-        "id": 87150,
-        "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "releaseDate": "2014-07-30",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1431,28 +1431,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 298320,
-        "type": "tmdb",
-        "title": "巴黎合伙人",
-        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/97fjCWYsThdVMcfpiJdCJmHqjIu.jpg",
-        "releaseDate": "2025-08-14",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 301805,
-        "type": "tmdb",
-        "title": "海角88号",
-        "description": "节目以“在海上重新开始”为核心设定，打造国内首档“漂浮海上民宿”，为观众提供一种既真实又充满想象力的生活提案。7位固定嘉宾将在为期10天的航程中，通过经营民宿、服务住客、设计活动、进行海上户外冒险、探索海南本土文化等，完成从生活者到经营者的角色转变，在真实场景中携手创业、探索生活、对话自我。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yciMYWWr9o0AwNrmUVtzWrABChO.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-09-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 274214,
         "type": "tmdb",
         "title": "开始跳舞吧",
@@ -1460,6 +1438,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/uAXSaH6nLuKtjKFldITMYZJ0oN5.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/7zMQTrvSRn9kkcPlOtPefhYXx9O.jpg",
         "releaseDate": "2023-10-14",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 298320,
+        "type": "tmdb",
+        "title": "巴黎合伙人",
+        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/97fjCWYsThdVMcfpiJdCJmHqjIu.jpg",
+        "releaseDate": "2025-08-14",
         "rating": 0,
         "mediaType": "tv"
       }
