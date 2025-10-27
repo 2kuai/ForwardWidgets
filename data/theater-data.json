@@ -1,7 +1,29 @@
 {
-  "last_updated": "2025-10-27T00:25:22.575+08:00",
+  "last_updated": "2025-10-27T19:49:20.811+08:00",
   "迷雾剧场": {
     "aired": [
+      {
+        "id": 277618,
+        "type": "tmdb",
+        "title": "命悬一生",
+        "description": "倪向东收到好友曹小军的请求，将一只木箱运送到荒山上的废弃小屋，却意外发现箱里装的竟是曹小军的尸体。曹小军的妻子吴细妹报警寻找失踪的丈夫，并暗指一切都和倪向东有关。可作为证人，吴细妹的供词前后矛盾，且夫妻二人的孩子并非曹小军亲生。在警方的连环追问下，吴细妹迫不得已讲述了三人的往事。三人曾是好友，吴细妹与倪向东是一对恋人，倪向东不愿为孩子负责，曹小军挺身而出带她远走高飞，一起抚养孩子。在追查过程中，警方进一步发现吴细妹的孩子和倪向东也没有血缘关系，大家对倪向东的评价还存在完全不同的两种声音：老家的人说倪向东无恶不作；工友却说他与人为善，还资助了一位姓徐的老人。老警员孟朝带着新人童浩，从北方海岸到南方密林，抽丝剥茧，揭开了吴细妹、曹小军、倪向东纠缠了十余年的连环杀局，让作恶之人得到了法律的制裁。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rDlV8qvLuN27ZqUdqNYj6YFK1Yi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9adG5IL4ZaBu3m4DyVPDZJDIH41.jpg",
+        "releaseDate": "2025-10-11",
+        "rating": 8.8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 280063,
+        "type": "tmdb",
+        "title": "目之所及",
+        "description": "世纪之交，因为水利工程的蓄水要求，一座江边小城即将被淹没，人们如火如荼地进行着新城的建设和人口的迁徙。2002年夏的东江市，暴雨如注。一桩离奇的杀人案闯入了警方的视野，死去的情人、消失又复生的丈夫，他们是“凶手”亦是“死者”。终于在警方锲而不舍的追查下，揭秘出一段尘封多年的往事。人性的复杂让许多人蒙蔽了双眼，但真相永远不会被淹没，目之所及皆是阳光。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hx9MV90H8RD5zp7C7d5vprWMNTO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rOBGCV4TR1QBl60Fz5nrW0sCUR5.jpg",
+        "releaseDate": "2025-08-28",
+        "rating": 7.5,
+        "mediaType": "tv"
+      },
       {
         "id": 252568,
         "type": "tmdb",
@@ -278,8 +300,21 @@
         "releaseDate": "",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/10yxjzsNO3OT9CCfd4VoyyHw1tl.jpg",
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
       }
-    ]
+    ],
+    "totalItems": 28,
+    "totalPages": 2
   },
   "白夜剧场": {
     "aired": [
@@ -461,7 +496,9 @@
         "rating": 0,
         "mediaType": "tv"
       }
-    ]
+    ],
+    "totalItems": 16,
+    "totalPages": 1
   },
   "季风剧场": {
     "aired": [
@@ -697,7 +734,9 @@
         "mediaType": "tv"
       }
     ],
-    "upcoming": []
+    "upcoming": [],
+    "totalItems": 21,
+    "totalPages": 1
   },
   "X剧场": {
     "aired": [
@@ -707,7 +746,7 @@
         "title": "重影",
         "description": "“一桩没有尸体的凶案，一场没有终点的逃亡……” 一年前，北方小城“晨苍”发生了一起仇杀案，凶手秦虹潜逃。 一年后，警方在南方“发现”秦虹时，秦虹已被男友抛尸大海，尸骨无存。 这是一起人证、物证俱全，凶手甚至已经交代犯罪事实的案件，可消失无踪的尸体让主管刑警刘望惴惴不安。 “秦虹真的死了吗？”",
         "posterPath": "https://image.tmdb.org/t/p/w500/x3uTTXkFDD6rAqB1HBTs0x51dG2.jpg",
-        "backdropPath": null,
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sMl0UupFFerS6dLwCnC2FBNJO2Y.jpg",
         "releaseDate": "2025-10-26",
         "rating": 0,
         "mediaType": "tv"
@@ -791,6 +830,8 @@
         "rating": 0,
         "mediaType": "tv"
       }
-    ]
+    ],
+    "totalItems": 9,
+    "totalPages": 1
   }
 }
