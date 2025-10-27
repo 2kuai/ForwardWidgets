@@ -28,8 +28,8 @@ function parseDoubanTitle(doubanTitle) {
     return { title: doubanTitle.trim(), year: null };
 }
 
-// 获取单个剧场数据并补充TMDB信息
-async function fetchTheaterTitles(theaterName, doulistId) {
+// 获取单个剧场的所有页面数据
+async function fetchTheaterAllPages(theaterName, doulistId) {
     const theaterData = {
         name: theaterName,
         url: `https://m.douban.com/doulist/${doulistId}/`,
@@ -37,31 +37,43 @@ async function fetchTheaterTitles(theaterName, doulistId) {
     };
 
     try {
-        console.log(`开始获取 ${theaterName} 剧场数据`, `URL: ${theaterData.url}`);
+        console.log(`开始获取 ${theaterName} 剧场数据`);
         
-        const response = await axios.get(theaterData.url, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
-            },
-            timeout: 10000
-        });
+        let allItems = [];
+        let start = 0;
+        const pageSize = 25;
+        let hasNextPage = true;
+        let pageCount = 0;
 
-        if (!response?.data) {
-            console.error(`${theaterName} 剧场数据获取失败`, "无返回数据");
-            return { [theaterName]: { aired: [], upcoming: [] } };
-        }
-        
-        console.log(`${theaterName} 剧场HTML获取成功`, "开始解析...");
-        const $ = cheerio.load(response.data);
-        
-        const items = $('ul.doulist-items > li');
-        console.log(`找到 ${items.length} 个剧集项目`);
-        
-        // 串行处理所有剧集并加入限流
-        const shows = [];
-        const itemElements = items.get();
-        for (const [index, element] of itemElements.entries()) {
-            try {
+        // 循环获取所有页面
+        while (hasNextPage) {
+            pageCount++;
+            const pageUrl = start === 0 ? 
+                theaterData.url : 
+                `${theaterData.url}?start=${start}`;
+            
+            console.log(`获取第 ${pageCount} 页`, `URL: ${pageUrl}`);
+            
+            const response = await axios.get(pageUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+                },
+                timeout: 10000
+            });
+
+            if (!response?.data) {
+                console.error(`${theaterName} 第 ${pageCount} 页数据获取失败`, "无返回数据");
+                break;
+            }
+            
+            console.log(`${theaterName} 第 ${pageCount} 页HTML获取成功`, "开始解析...");
+            const $ = cheerio.load(response.data);
+            
+            const items = $('ul.doulist-items > li');
+            console.log(`第 ${pageCount} 页找到 ${items.length} 个剧集项目`);
+            
+            // 将当前页的项目添加到总列表中
+            items.each((index, element) => {
                 const title = $(element).find('.info .title').text().trim();
                 const meta = $(element).find('.info .meta').text().trim();
                 
@@ -70,9 +82,28 @@ async function fetchTheaterTitles(theaterName, doulistId) {
                 const year = yearMatch?.[1] || '';
                 
                 const showTitle = year ? `${title}(${year})` : title;
-                
+                allItems.push({ element: $(element), title: showTitle });
+            });
+            
+            // 判断是否有下一页：如果当前页项目数量小于25，说明没有下一页
+            if (items.length < pageSize) {
+                hasNextPage = false;
+                console.log(`第 ${pageCount} 页项目数量 ${items.length} < ${pageSize}，没有下一页`);
+            } else {
+                start += pageSize;
+                // 添加页面间延迟，避免请求过快
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+        }
+        
+        console.log(`${theaterName} 剧场共获取 ${pageCount} 页，总计 ${allItems.length} 个项目`);
+        
+        // 串行处理所有剧集并加入限流
+        const shows = [];
+        for (const [index, item] of allItems.entries()) {
+            try {
                 // 解析豆瓣标题
-                const { title: cleanTitle, year: parsedYear } = parseDoubanTitle(showTitle);
+                const { title: cleanTitle, year: parsedYear } = parseDoubanTitle(item.title);
                 
                 // 获取TMDB数据
                 const tmdbData = await searchTMDB(cleanTitle, parsedYear);
@@ -82,13 +113,13 @@ async function fetchTheaterTitles(theaterName, doulistId) {
 
                 if (tmdbData) {
                     const showData = {
-                        doubanTitle: showTitle,
+                        doubanTitle: item.title,
                         tmdbData: tmdbData
                     };
-                    console.log(`处理成功: 第${index + 1}个项目`, showTitle);
+                    console.log(`处理成功: 第${index + 1}个项目`, item.title);
                     shows.push(showData);
                 } else {
-                    console.log(`处理失败，未找到TMDB数据: 第${index + 1}个项目`, showTitle);
+                    console.log(`处理失败，未找到TMDB数据: 第${index + 1}个项目`, item.title);
                 }
                 
             } catch (error) {
@@ -127,7 +158,9 @@ async function fetchTheaterTitles(theaterName, doulistId) {
         return { 
             [theaterName]: {
                 aired,
-                upcoming
+                upcoming,
+                totalItems: allItems.length,
+                totalPages: pageCount
             }
         };
         
@@ -140,7 +173,7 @@ async function fetchTheaterTitles(theaterName, doulistId) {
             console.error(`${theaterName} 剧场请求设置错误`, error.message);
         }
         
-        return { [theaterName]: { aired: [], upcoming: [] } };
+        return { [theaterName]: { aired: [], upcoming: [], totalItems: 0, totalPages: 0 } };
     }
 }
 
@@ -148,7 +181,7 @@ async function updateTheaterData() {
     try {
         const theaterResults = [];
         for (const theater of THEATERS) {
-            const result = await fetchTheaterTitles(theater.name, theater.id);
+            const result = await fetchTheaterAllPages(theater.name, theater.id);
             theaterResults.push(result);
         }
 
@@ -162,7 +195,9 @@ async function updateTheaterData() {
             data[theaterName] = result[theaterName];
             const airedCount = result[theaterName].aired.length;
             const upcomingCount = result[theaterName].upcoming.length;
-            console.log(`- ${theaterName}: ${airedCount} aired, ${upcomingCount} upcoming`);
+            const totalItems = result[theaterName].totalItems;
+            const totalPages = result[theaterName].totalPages;
+            console.log(`- ${theaterName}: ${totalPages}页 ${totalItems}个项目, ${airedCount}已播, ${upcomingCount}待播`);
         }
         
         const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
