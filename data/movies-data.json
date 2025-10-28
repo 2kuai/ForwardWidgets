@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-28T00:20:18.210+08:00",
+  "last_updated": "2025-10-29T00:20:45.427+08:00",
   "nowplaying": [
     {
       "id": 1054867,
@@ -38,18 +38,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1245993,
-      "type": "tmdb",
-      "title": "偷天盗日",
-      "originalTitle": "Caught Stealing",
-      "description": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/41043LV7mfluH8iXEUPVseCDAv5.jpg",
-      "releaseDate": "2025-08-26",
-      "rating": 6.946,
-      "mediaType": "movie"
-    },
-    {
       "id": 1402481,
       "type": "tmdb",
       "title": "毕正明的证明",
@@ -59,6 +47,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/j4u6f31uHpePtmbejx3d4JbI4v7.jpg",
       "releaseDate": "2025-10-01",
       "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1245993,
+      "type": "tmdb",
+      "title": "偷天盗日",
+      "originalTitle": "Caught Stealing",
+      "description": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/41043LV7mfluH8iXEUPVseCDAv5.jpg",
+      "releaseDate": "2025-08-26",
+      "rating": 6.947,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/F4AJdovZycduKPfyematVHhSpx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/np0dsehLDdbfyHFRtqCiL1GR0TQ.jpg",
       "releaseDate": "2025-10-08",
-      "rating": 6.387,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -122,6 +122,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1543134,
+      "type": "tmdb",
+      "title": "志愿军：浴血和平",
+      "originalTitle": "志愿军：浴血和平",
+      "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
+      "releaseDate": "2025-09-30",
+      "rating": 8.667,
+      "mediaType": "movie"
+    },
+    {
       "id": 945801,
       "type": "tmdb",
       "title": "刺杀小说家2",
@@ -131,18 +143,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/1mHTEDRSZ9PersHOTKfYBRXZw89.jpg",
       "releaseDate": "2025-10-01",
       "rating": 6.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1543134,
-      "type": "tmdb",
-      "title": "志愿军：浴血和平",
-      "originalTitle": "志愿军：浴血和平",
-      "description": "　　影片聚焦第五次战役后直至签署停战协议期间中国志愿军“边打边谈”的作战历程，战士们浴血奋战，终将敌军打上谈判桌。 谈，我们大门敞开！美军耀武扬威，不断施压，谈判屡屡陷入僵局，朝鲜停战谈判中方代表团见招拆招，用意志和智慧死守底线，历时747天，创下世界军事史最长停战谈判记录。 打，我们奉陪到底！前方战线炮火不断，美军发动“绞杀战”、细菌战一再挑衅，上甘岭战役、金城战役我军浴血激战，寸步不让，打出国威的同时，有力地配合了停战谈判。 一边是唇枪舌剑，一边是殊死搏杀，两个战场上，中华儿女用血肉打破了美军的不败神话！硝烟渐渐散尽，和平的号角声正徐徐响起……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qn6TMjRvCLwPSdavoakVvaBCSCx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
-      "releaseDate": "2025-09-30",
-      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -194,18 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1419406,
-      "type": "tmdb",
-      "title": "捕风追影",
-      "originalTitle": "捕风追影",
-      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-      "releaseDate": "2025-08-16",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
       "id": 1553949,
       "type": "tmdb",
       "title": "醉刀客",
@@ -215,6 +203,18 @@
       "backdropPath": null,
       "releaseDate": "2025-10-18",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1419406,
+      "type": "tmdb",
+      "title": "捕风追影",
+      "originalTitle": "捕风追影",
+      "description": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+      "releaseDate": "2025-08-16",
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ub5gohlbLts2fv9zjMsXvKfMlDd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pp5VyGrGnpHxuQEtb1JOpGDcRO3.jpg",
       "releaseDate": "2025-02-14",
-      "rating": 5.962,
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -301,6 +301,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/3r2CNASRlOvK2QqqpqVUsixN4aq.jpg",
       "releaseDate": "2025-10-31",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 58193,
+      "type": "tmdb",
+      "title": "旁观者",
+      "originalTitle": "La spettatrice",
+      "description": "　　26岁的瓦莱丽亚是个保守而孤独的女孩。她在都灵做翻译员，生活平淡，除了一个她暗恋的男子马西莫。马西莫搬去罗马后，她决心也跟着他离开都灵。一路上，她得知马西莫的女朋友弗拉维娅，而一次意外使得两个女孩变得亲近。很快，瓦莱丽亚了解到马西莫和弗拉维娅这对完美情侣的形象原来是虚假的。马西莫转而向她示爱，而她却婉拒好意，专心投入到自己的小说创作中，追寻另一段无疾而终的恋情……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/inCDrC7yThmnJYoxICE90r835q7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mlTtfXsbmZ6o3IjimJiFiXfHqhf.jpg",
+      "releaseDate": "2004-05-07",
+      "rating": 5.625,
       "mediaType": "movie"
     },
     {
@@ -578,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5YBgcdKcxGJJOULqsFWlU03vm3V.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
       "releaseDate": "1994-09-23",
-      "rating": 8.711,
+      "rating": 8.712,
       "mediaType": "movie"
     },
     {
@@ -662,7 +674,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lQEjWasu07JbQHdfFI5VnEUfId2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
       "releaseDate": "2010-07-15",
-      "rating": 8.4,
+      "rating": 8.37,
       "mediaType": "movie"
     },
     {
@@ -674,7 +686,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7ojgNNaZCDvp7IchH0uehUGJ0dH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.904,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -686,7 +698,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9W9tsHcaK77r4xGmPjzPnjv12nw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBSwwkAYl9h8QVG2OxNpSaSgJwr.jpg",
       "releaseDate": "2010-08-06",
-      "rating": 8.012,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -806,7 +818,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eDUzhpGbIjIcdzsstlbEksn1n7A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
       "releaseDate": "2012-11-20",
-      "rating": 7.406,
+      "rating": 7.407,
       "mediaType": "movie"
     },
     {
@@ -938,7 +950,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
       "releaseDate": "2016-08-26",
-      "rating": 8.479,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -978,18 +990,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 8392,
-      "type": "tmdb",
-      "title": "龙猫",
-      "originalTitle": "となりのトトロ",
-      "description": "小月的母亲生病住院了，父亲带着她与四岁的妹妹小梅到乡间的居住。她们对那里的环境都感到十分新奇，也发现了很多有趣的事情。她们遇到了很多小精灵，她们来到属于她们的环境中，看到了她们世界中很多的奇怪事物，更与一只大大胖胖的龙猫成为了朋友。龙猫与小精灵们利用他们的神奇力量，为小月与妹妹带来了很多神奇的景观，令她们大开眼界。\r 妹妹小梅常常挂念生病中的母亲，嚷着要姐姐带着她去看母亲，但小月拒绝了。小梅竟然自己前往，不料途中迷路了，小月只好寻找她的龙猫及小精灵朋友们帮助。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/95ozIP0A2fKaAXxwDxUEVn74Iux.jpg",
-      "releaseDate": "1988-04-16",
-      "rating": 8.069,
-      "mediaType": "movie"
-    },
-    {
       "id": 269149,
       "type": "tmdb",
       "title": "疯狂动物城",
@@ -999,6 +999,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
       "releaseDate": "2016-02-11",
       "rating": 7.751,
+      "mediaType": "movie"
+    },
+    {
+      "id": 8392,
+      "type": "tmdb",
+      "title": "龙猫",
+      "originalTitle": "となりのトトロ",
+      "description": "小月的母亲生病住院了，父亲带着她与四岁的妹妹小梅到乡间的居住。她们对那里的环境都感到十分新奇，也发现了很多有趣的事情。她们遇到了很多小精灵，她们来到属于她们的环境中，看到了她们世界中很多的奇怪事物，更与一只大大胖胖的龙猫成为了朋友。龙猫与小精灵们利用他们的神奇力量，为小月与妹妹带来了很多神奇的景观，令她们大开眼界。\r 妹妹小梅常常挂念生病中的母亲，嚷着要姐姐带着她去看母亲，但小月拒绝了。小梅竟然自己前往，不料途中迷路了，小月只好寻找她的龙猫及小精灵朋友们帮助。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/95ozIP0A2fKaAXxwDxUEVn74Iux.jpg",
+      "releaseDate": "1988-04-16",
+      "rating": 8.069,
       "mediaType": "movie"
     },
     {
@@ -1070,7 +1082,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aU6Mj8yFZhOnTpXjobqcwrB4KPP.jpg",
       "releaseDate": "2011-04-24",
-      "rating": 7.618,
+      "rating": 7.619,
       "mediaType": "movie"
     },
     {
@@ -1082,7 +1094,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yhyY94umEO1XkaxJAZJSMJk9hgt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rQaHA74pevnGsxcKGaoZVGWe9TC.jpg",
       "releaseDate": "2020-12-25",
-      "rating": 8.103,
+      "rating": 8.102,
       "mediaType": "movie"
     },
     {
@@ -1106,7 +1118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zuP5Iir0ip4cbpke8vKLmWdqJ6k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ai2FicMUxLCurVkjtYdSvVDWRmS.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.1,
+      "rating": 8.103,
       "mediaType": "movie"
     },
     {
@@ -1130,7 +1142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fQzCvF2R4P9YkPQK7gO9LNLcnlD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
       "releaseDate": "2017-12-01",
-      "rating": 8.062,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -1178,7 +1190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.037,
+      "rating": 8.039,
       "mediaType": "movie"
     },
     {
@@ -1202,7 +1214,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ft8WRF2xqEwwGWa59naDUybKTAx.jpg",
       "releaseDate": "1939-12-15",
-      "rating": 7.924,
+      "rating": 7.925,
       "mediaType": "movie"
     },
     {
@@ -1274,7 +1286,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nGIlXS9xcnXXE5wInqK7Yc3mAlY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
       "releaseDate": "1994-09-10",
-      "rating": 8.486,
+      "rating": 8.487,
       "mediaType": "movie"
     },
     {
@@ -1286,7 +1298,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bwKhj6tHlm8hiw9QjhpooJjQWgG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.594,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -1346,7 +1358,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/szxBVXajhvjvOC4tbH6hygdumcs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fzZmcKQv7ZTGIiPvocPhNs3wUyK.jpg",
       "releaseDate": "2013-09-04",
-      "rating": 7.911,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -1382,7 +1394,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nCpXBPravHiEzjv6cCGp2lt2E28.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/z6OZ2Q4FYELeGoBj9tVDWCvevkj.jpg",
       "releaseDate": "1986-08-02",
-      "rating": 7.97,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1418,7 +1430,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hvou87sesWG0CEqJE0opgLWUgWw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
       "releaseDate": "2001-04-25",
-      "rating": 7.9,
+      "rating": 7.913,
       "mediaType": "movie"
     },
     {
@@ -1430,7 +1442,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/efPM8aU1UxuWQcjzq7sGbzePEF5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.2,
+      "rating": 8.237,
       "mediaType": "movie"
     },
     {
@@ -1440,7 +1452,7 @@
       "originalTitle": "Se7en",
       "description": "“暴食”、“贪婪”、“懒惰”、“嫉妒”、“骄傲”、“淫欲”、“愤怒”，这是天主教教义所指的人性七宗罪。城市中发生的连坏杀人案，死者恰好都是犯有这些教义的人。凶手故弄玄虚的作案手法，令资深冷静的警员沙摩塞（摩根•弗里曼 Morgan Freeman 饰）和血气方刚的新扎警员米尔斯（布拉德•皮特 Brad Pitt 饰）都陷入了破案的谜团中。他们去图书馆研读但丁的《神曲》，企图从人间地狱的描绘中找到线索，最后从宗教文学哲学的世界中找到了凶手作案计划和手段的蛛丝马迹。凶手前来投案自首，这令众人都松了一口气，以为案件就此结束，怎料还是逃不出七宗罪的杀人逻辑，这次凶手瞄准的目标，是那个犯了“愤怒”罪的人……",
       "posterPath": "https://image.tmdb.org/t/p/w500/pgSLk5Q4dW2M7bYxcG7DKBT3hvb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/p1PLSI5Nw2krGxD7X4ulul1tDAk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/iwgl8zlrrfvfWp9k9Paj8lvFEvS.jpg",
       "releaseDate": "1995-09-22",
       "rating": 8.377,
       "mediaType": "movie"
@@ -1454,7 +1466,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dAyUTgO1BGuEZhF3f2G8V9d8sXM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Xkd3WeAx11cHxb4Lr3wnSNDWcd.jpg",
       "releaseDate": "1997-05-30",
-      "rating": 7.55,
+      "rating": 7.553,
+      "mediaType": "movie"
+    },
+    {
+      "id": 640,
+      "type": "tmdb",
+      "title": "猫鼠游戏",
+      "originalTitle": "Catch Me If You Can",
+      "description": "弗兰克（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）是FBI有史以来年龄最小的通缉犯。他的犯罪手段神通广大，伪装身份的能力超乎常人，全美各地几乎都留下他的犯罪足迹。乔装医生、律师、飞行员，统统都是他曾经的身份。当然，弗兰克凭着这个“本领”，骗取了高达几百万的金额。活得逍遥快乐的弗兰克这次又成功伪造了一份学历证明，去医院做起了大夫。弗兰克不但在这里认识了护士布雷达（艾米·亚当斯 Amy Adams饰），二人擦出爱火花，还通过布雷达的父亲得到了一份检察官助理的优差。然而，这只是暴风雨前夕——一双眼睛已经盯住了弗兰克，誓要把他绳之于法不可。这就是FBI探员卡尔（汤姆·汉克斯 Tom Hanks饰）。在研究追捕弗兰克的过程中，卡尔领教到这个犯罪天才的过人智商。他屡次被弗兰克这个黄毛小子捉弄，心里又恨又不得不佩服。每当弗兰克有惊无险地从他的精心布局中逃脱时，这个猫鼠游戏显得有趣起来……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/Ag6qhzsJd3k1NKuNrG9RmhZDMh7.jpg",
+      "releaseDate": "2002-12-16",
+      "rating": 7.978,
       "mediaType": "movie"
     },
     {
@@ -1467,18 +1491,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
       "releaseDate": "1994-07-14",
       "rating": 7.97,
-      "mediaType": "movie"
-    },
-    {
-      "id": 640,
-      "type": "tmdb",
-      "title": "猫鼠游戏",
-      "originalTitle": "Catch Me If You Can",
-      "description": "弗兰克（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）是FBI有史以来年龄最小的通缉犯。他的犯罪手段神通广大，伪装身份的能力超乎常人，全美各地几乎都留下他的犯罪足迹。乔装医生、律师、飞行员，统统都是他曾经的身份。当然，弗兰克凭着这个“本领”，骗取了高达几百万的金额。活得逍遥快乐的弗兰克这次又成功伪造了一份学历证明，去医院做起了大夫。弗兰克不但在这里认识了护士布雷达（艾米·亚当斯 Amy Adams饰），二人擦出爱火花，还通过布雷达的父亲得到了一份检察官助理的优差。然而，这只是暴风雨前夕——一双眼睛已经盯住了弗兰克，誓要把他绳之于法不可。这就是FBI探员卡尔（汤姆·汉克斯 Tom Hanks饰）。在研究追捕弗兰克的过程中，卡尔领教到这个犯罪天才的过人智商。他屡次被弗兰克这个黄毛小子捉弄，心里又恨又不得不佩服。每当弗兰克有惊无险地从他的精心布局中逃脱时，这个猫鼠游戏显得有趣起来……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/Ag6qhzsJd3k1NKuNrG9RmhZDMh7.jpg",
-      "releaseDate": "2002-12-16",
-      "rating": 7.979,
       "mediaType": "movie"
     },
     {
@@ -1514,7 +1526,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a31aMXYw3u2rfmzq4RDGvRtIMr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
       "releaseDate": "2016-07-20",
-      "rating": 7.751,
+      "rating": 7.75,
       "mediaType": "movie"
     },
     {
@@ -1670,7 +1682,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8.049,
+      "rating": 8.048,
       "mediaType": "movie"
     },
     {
