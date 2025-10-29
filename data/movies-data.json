@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-29T00:20:45.427+08:00",
+  "last_updated": "2025-10-30T00:20:16.683+08:00",
   "nowplaying": [
     {
       "id": 1054867,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nIX9kqNNe4ERx3wg3TuzRa2deAM.jpg",
       "releaseDate": "2025-09-23",
-      "rating": 7.7,
+      "rating": 7.741,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/41043LV7mfluH8iXEUPVseCDAv5.jpg",
       "releaseDate": "2025-08-26",
-      "rating": 6.947,
+      "rating": 6.95,
       "mediaType": "movie"
     },
     {
@@ -158,6 +158,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1563487,
+      "type": "tmdb",
+      "title": "陪你到清晨",
+      "originalTitle": "陪你到清晨",
+      "description": "　　这是首部用真实影像记录的非虚构电影，讲述了孩子在心理与精神困境中求救与自救的故事。  　　影片呈现了他们在学校、家庭和医院，与老师、父母和医生之间的真实经历。  　　作为资深媒体人的导演，历时五年深入学校、医疗机构和社会组织，与数百位孩子、家长、医生、老师对话，整理上万例数据，试图用纪录影像为抚养、成长与教育中的困境寻找答案。  　　孩子的心理健康是社会最重要的议题之一，它关乎国家和民族的未来与希望。  　　陪伴是孩子成长中最好的礼物。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/idSwALwO0qhO7gkYfx23TJXI6ZH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cbC36q0NllYbs8QJ3bEYu1HFz6a.jpg",
+      "releaseDate": "2025-10-24",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1543694,
       "type": "tmdb",
       "title": "带你回家",
@@ -166,18 +178,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hK6KM3i7EKlGqY3MRSUbqKldSQ1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yZIREQMT5WLs1x5RmxzuH2SWJ0r.jpg",
       "releaseDate": "2025-10-25",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1543686,
-      "type": "tmdb",
-      "title": "向光花盛开",
-      "originalTitle": "向光花盛开",
-      "description": "　　夏津生是个天津人，幽默风趣，生活幸福。然而，儿子夏阳突然自杀，令他陷入绝望。朋友们和妻子贾萍竭力帮助，但他依然痛苦。直到遇到问题少年陈晨，他和朋友们帮助陈晨走出困境，重燃生活希望。最终，两个人都重新找回生活的勇气，共同克服困难，开启新生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9w3XeQ2LEhEWEkVii6HPjmATMvz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/aJ8iy2Du2CkbjSPoYYQqtNyItmV.jpg",
-      "releaseDate": "2025-10-24",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ub5gohlbLts2fv9zjMsXvKfMlDd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pp5VyGrGnpHxuQEtb1JOpGDcRO3.jpg",
       "releaseDate": "2025-02-14",
-      "rating": 6,
+      "rating": 5.976,
       "mediaType": "movie"
     },
     {
@@ -420,6 +420,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8mOJCEONLTnvTRytBgKt5psrUoC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rsKnezLAdnbi5ivcV6cOu8HMTLI.jpg",
       "releaseDate": "2025-10-24",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1561921,
+      "type": "tmdb",
+      "title": "李子洲",
+      "originalTitle": "李子洲",
+      "description": "",
+      "posterPath": "https://image.tmdb.org/t/p/w500/l5kJuSIlCk9sfR6RyItCi2NJHCo.jpg",
+      "backdropPath": null,
+      "releaseDate": "",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -590,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5YBgcdKcxGJJOULqsFWlU03vm3V.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
       "releaseDate": "1994-09-23",
-      "rating": 8.712,
+      "rating": 8.711,
       "mediaType": "movie"
     },
     {
@@ -614,7 +626,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kjO6OdgVK9UimXupZcGIuQy2pbO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Xe9lISpwXKhvKiHttbFfVRERQX.jpg",
       "releaseDate": "2018-11-16",
-      "rating": 8.226,
+      "rating": 8.225,
       "mediaType": "movie"
     },
     {
@@ -662,7 +674,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zq8j3XRJDVqNhiRMensg2uTkYrd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
       "releaseDate": "2014-11-05",
-      "rating": 8.5,
+      "rating": 8.462,
       "mediaType": "movie"
     },
     {
@@ -686,7 +698,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7ojgNNaZCDvp7IchH0uehUGJ0dH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tupgjqhWx5oieQrdyesO3aclUX9.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.9,
+      "rating": 7.904,
       "mediaType": "movie"
     },
     {
@@ -734,7 +746,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nAnzFcqORitpwvRQPceIt4mcm8G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
       "releaseDate": "1998-06-04",
-      "rating": 8.148,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -758,7 +770,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/k1pJslKr4aDayw9kWwWnlC3MIP3.jpg",
       "releaseDate": "2019-07-26",
-      "rating": 7.891,
+      "rating": 7.893,
       "mediaType": "movie"
     },
     {
@@ -818,7 +830,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eDUzhpGbIjIcdzsstlbEksn1n7A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
       "releaseDate": "2012-11-20",
-      "rating": 7.407,
+      "rating": 7.406,
       "mediaType": "movie"
     },
     {
@@ -866,7 +878,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mElBV2f9cpgVeuQLDFH3HS5u1gY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Eo6FPq6A4aMeOe4tTmNKwUZRvM.jpg",
       "releaseDate": "2009-06-08",
-      "rating": 8.011,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -890,7 +902,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hHGbcQTUbVEFXmkDQPPcejFWY1c.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rlay2M5QYvi6igbGcFjq8jxeusY.jpg",
       "releaseDate": "2019-10-01",
-      "rating": 8.132,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -914,7 +926,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg",
       "releaseDate": "2009-12-23",
-      "rating": 8,
+      "rating": 7.998,
       "mediaType": "movie"
     },
     {
@@ -950,7 +962,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
       "releaseDate": "2016-08-26",
-      "rating": 8.5,
+      "rating": 8.48,
       "mediaType": "movie"
     },
     {
@@ -1010,7 +1022,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/95ozIP0A2fKaAXxwDxUEVn74Iux.jpg",
       "releaseDate": "1988-04-16",
-      "rating": 8.069,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -1022,7 +1034,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/546MvE18yfLXEBwWWsxE0f4xuMy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
       "releaseDate": "2018-03-28",
-      "rating": 7.584,
+      "rating": 7.585,
       "mediaType": "movie"
     },
     {
@@ -1058,7 +1070,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MoGJEkaVFEtcgc3HiB6VCrkAIW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/69D57G3XqQMVNCwK0Z2PCcYC4Da.jpg",
       "releaseDate": "2000-09-20",
-      "rating": 7.901,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -1142,7 +1154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fQzCvF2R4P9YkPQK7gO9LNLcnlD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
       "releaseDate": "2017-12-01",
-      "rating": 8.1,
+      "rating": 8.062,
       "mediaType": "movie"
     },
     {
@@ -1178,7 +1190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/eYayTYL971EyP23XEXzHZIsIBx2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xHDynIimfsgj0ZOs0j5ma8v1vmM.jpg",
       "releaseDate": "2014-02-26",
-      "rating": 8,
+      "rating": 8.034,
       "mediaType": "movie"
     },
     {
@@ -1190,7 +1202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.039,
+      "rating": 8.025,
       "mediaType": "movie"
     },
     {
@@ -1250,7 +1262,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fCKdh2Y5uYHlshpdkdIE7WxgZ5R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hCJFWTPghXCwwSpvPpAoIB8318Q.jpg",
       "releaseDate": "2001-12-14",
-      "rating": 7.855,
+      "rating": 7.854,
       "mediaType": "movie"
     },
     {
@@ -1274,7 +1286,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rJBDuMN2FkGpFSVNSK3yPt5DLlV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
       "releaseDate": "1999-10-15",
-      "rating": 8.438,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1286,7 +1298,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nGIlXS9xcnXXE5wInqK7Yc3mAlY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
       "releaseDate": "1994-09-10",
-      "rating": 8.487,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -1298,7 +1310,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bwKhj6tHlm8hiw9QjhpooJjQWgG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
       "releaseDate": "2009-12-15",
-      "rating": 7.6,
+      "rating": 7.594,
       "mediaType": "movie"
     },
     {
@@ -1358,7 +1370,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/szxBVXajhvjvOC4tbH6hygdumcs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fzZmcKQv7ZTGIiPvocPhNs3wUyK.jpg",
       "releaseDate": "2013-09-04",
-      "rating": 7.9,
+      "rating": 7.91,
       "mediaType": "movie"
     },
     {
@@ -1430,7 +1442,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hvou87sesWG0CEqJE0opgLWUgWw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
       "releaseDate": "2001-04-25",
-      "rating": 7.913,
+      "rating": 7.912,
       "mediaType": "movie"
     },
     {
@@ -1466,7 +1478,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dAyUTgO1BGuEZhF3f2G8V9d8sXM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Xkd3WeAx11cHxb4Lr3wnSNDWcd.jpg",
       "releaseDate": "1997-05-30",
-      "rating": 7.553,
+      "rating": 7.552,
       "mediaType": "movie"
     },
     {
@@ -1526,7 +1538,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a31aMXYw3u2rfmzq4RDGvRtIMr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
       "releaseDate": "2016-07-20",
-      "rating": 7.75,
+      "rating": 7.751,
       "mediaType": "movie"
     },
     {
@@ -1550,7 +1562,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dXmpWlgujEKvSnEQCV4eOTD4bpm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1XqIhsqnAozznGhxlGdI0GPcCro.jpg",
       "releaseDate": "2002-09-17",
-      "rating": 8.38,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1598,7 +1610,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1ocL6mgNkFlIARhDQcA9bgxS0L1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uNLIMPxknsV4n3IAEDpS1iqF5dm.jpg",
       "releaseDate": "1990-12-07",
-      "rating": 7.718,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -1682,7 +1694,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8.048,
+      "rating": 8.049,
       "mediaType": "movie"
     },
     {
