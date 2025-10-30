@@ -1,0 +1,85 @@
+name: Update Doulist Data
+
+on:
+  schedule:
+    # 每天UTC时间00:00运行（北京时间08:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/**'  # 当脚本文件变更时触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: |
+        cd scripts
+        npm init -y
+        npm install axios cheerio
+
+    - name: Run doulist update script
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: node scripts/update-doulist-data.js
+
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/doulist-data.json
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "chore: update doulist data [skip ci]"
+          git push
+          echo "Changes committed and pushed"
+        fi
+
+    - name: Create summary
+      run: |
+        echo "## Doulist Data Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ Data update completed successfully!" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Update Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # 显示统计信息
+        if [ -f "data/doulist-data.json" ]; then
+          echo "**Statistics:**" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          node -e "
+            try {
+              const fs = require('fs');
+              const data = JSON.parse(fs.readFileSync('./data/doulist-data.json', 'utf8'));
+              console.log('Total doulists: ' + (data.total_doulists || Object.keys(data).filter(k => k !== 'last_updated').length));
+              console.log('Last updated: ' + data.last_updated);
+              for (const [id, doulist] of Object.entries(data)) {
+                if (id !== 'last_updated' && id !== 'total_doulists' && typeof doulist === 'object') {
+                  const totalItems = doulist.totalItems || 0;
+                  const successfulMatches = doulist.successfulMatches || (doulist.shows ? doulist.shows.length : 0);
+                  console.log(doulist.name + ': ' + successfulMatches + '/' + totalItems + ' items matched');
+                }
+              }
+            } catch (e) {
+              console.log('Error reading data file:', e.message);
+            }
+          " >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ Data file not found" >> $GITHUB_STEP_SUMMARY
+        fi
