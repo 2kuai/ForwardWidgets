@@ -310,7 +310,7 @@ async function searchTMDB(title, year = null) {
                     backdropPath: exactMatch.backdrop_path ? `https://image.tmdb.org/t/p/w500${exactMatch.backdrop_path}` : null,
                     releaseDate: exactMatch.first_air_date,
                     rating: exactMatch.vote_average,
-                    mediaType: "tv"
+                    mediaType: exactMatch.first_air_date ? "tv" : "movie"
                 };
             }
         }
