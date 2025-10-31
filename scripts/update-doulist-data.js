@@ -11,10 +11,8 @@ const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3/search/tv';
 
 const DOULISTS = [
-    { name: "迷雾剧场", id: "128396349" },
-    { name: "白夜剧场", id: "158539495" },
-    { name: "季风剧场", id: "153511846" },
-    { name: "X剧场", id: "155026800" }
+    { name: "高分韩剧", id: "2942804" },
+    { name: "惊悚恐怖片", id: "526461" }
 ];
 
 // Rate limiting configuration
