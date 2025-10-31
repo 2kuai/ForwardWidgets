@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const CONFIG = {
     TMDB_API_KEY: process.env.TMDB_API_KEY,
     TMDB_BASE_URL: 'https://api.themoviedb.org/3/search/multi',
-    OUTPUT_FILE: path.join(__dirname, '..', 'data', 'douban-data.json'),
+    OUTPUT_FILE: path.join(__dirname, '..', 'data', 'doulist-data.json'),
     
     // 豆瓣请求配置
     DOUBAN: {
