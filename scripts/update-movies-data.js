@@ -282,23 +282,156 @@ async function getClassicRank() {
   }
 }
 
+// 新增：获取年度电影榜单（从豆瓣片单获取2025年度国内院线电影，支持翻页）
+async function getYearlyMovies() {
+  try {
+    console.log('开始获取2025年度国内院线电影榜单...');
+    
+    const doulistId = '168050181';
+    const baseUrl = `https://www.douban.com/doulist/${doulistId}/`;
+    let allMovies = [];
+    let start = 0;
+    const pageSize = 25;
+    let hasNextPage = true;
+    let pageCount = 0;
+
+    // 循环获取所有页面
+    while (hasNextPage) {
+      pageCount++;
+      const pageUrl = start === 0 ? baseUrl : `${baseUrl}?start=${start}`;
+      
+      console.log(`获取年度电影第 ${pageCount} 页`, `URL: ${pageUrl}`);
+      
+      try {
+        const response = await axios.get(pageUrl, {
+          headers: {
+            'User-Agent': config.USER_AGENT,
+            'referer': 'https://www.douban.com/'
+          },
+          timeout: 10000
+        });
+
+        if (!response?.data) {
+          console.error(`年度电影第 ${pageCount} 页数据获取失败`, "无返回数据");
+          break;
+        }
+        
+        console.log(`年度电影第 ${pageCount} 页HTML获取成功`, "开始解析...");
+        const $ = cheerio.load(response.data);
+        
+        // 提取当前页的电影项目
+        const movieItems = $('.doulist-item');
+        console.log(`第 ${pageCount} 页找到 ${movieItems.length} 个电影项目`);
+        
+        // 解析当前页的电影信息
+        const pageMovies = [];
+        movieItems.each((index, element) => {
+          const $el = $(element);
+          
+          // 提取电影标题
+          const titleLink = $el.find('.title a');
+          let title = titleLink.text().trim();
+          
+          // 提取年份信息
+          let year = '';
+          const yearMatch = title.match(/（(\d{4})）$/);
+          if (yearMatch) {
+            year = yearMatch[1];
+            title = title.replace(/（\d{4}）$/, '').trim();
+          }
+          
+          if (title) {
+            const movieData = {
+              doubanTitle: year ? `${title}（${year}）` : title,
+              title: title,
+              year: year
+            };
+            pageMovies.push(movieData);
+          }
+        });
+        
+        // 将当前页的电影添加到总列表
+        allMovies = allMovies.concat(pageMovies);
+        console.log(`第 ${pageCount} 页解析完成，共 ${pageMovies.length} 部电影`);
+        
+        // 判断是否有下一页：检查是否有下一页链接或当前页项目数量
+        const nextPageLink = $('.paginator .next a');
+        if (nextPageLink.length > 0) {
+          // 有明确的下一页链接
+          const nextStart = parseInt(nextPageLink.attr('href')?.match(/start=(\d+)/)?.[1]) || start + pageSize;
+          start = nextStart;
+          console.log(`发现下一页，跳转到 start=${start}`);
+        } else if (movieItems.length === pageSize) {
+          // 没有明确下一页链接但当前页满页，尝试继续
+          start += pageSize;
+          console.log(`当前页满 ${pageSize} 项，尝试下一页 start=${start}`);
+        } else {
+          // 没有下一页
+          hasNextPage = false;
+          console.log(`第 ${pageCount} 页项目数量 ${movieItems.length}，没有下一页`);
+        }
+        
+        // 添加页面间延迟，避免请求过快
+        await delay(1000);
+        
+      } catch (error) {
+        console.error(`获取年度电影第 ${pageCount} 页失败:`, error.message);
+        hasNextPage = false;
+        break;
+      }
+    }
+    
+    console.log(`年度电影榜单共获取 ${pageCount} 页，总计 ${allMovies.length} 部电影`);
+    
+    // 使用TMDB API获取详细信息
+    const tmdbResults = [];
+    for (const [index, movie] of allMovies.entries()) {
+      try {
+        console.log(`处理第 ${index + 1}/${allMovies.length} 部电影: ${movie.doubanTitle}`);
+        
+        const result = await getTmdbDetails(movie.doubanTitle);
+        if (result) {
+          tmdbResults.push(result);
+        } else {
+          console.log(`TMDB未匹配到: ${movie.doubanTitle}`);
+        }
+        
+        // 在电影之间添加延迟，避免触发频率限制
+        await delay(1500 + Math.random() * 1000);
+        
+      } catch (error) {
+        console.error(`获取电影详情失败: ${movie.doubanTitle}`, error);
+      }
+    }
+
+    console.log(`2025年度电影榜单获取完成，成功匹配 ${tmdbResults.length} 部电影`);
+    return tmdbResults;
+
+  } catch (error) {
+    console.error("获取年度电影榜单失败:", error);
+    return [];
+  }
+}
+
 // 主函数
 async function main() {
   try {
     await delay(2000);
     console.log("开始数据采集...");
 
-    const [nowplaying, coming, classics] = await Promise.all([
+    const [nowplaying, coming, classics, yearly] = await Promise.all([
       getMovies({ type: 'nowplaying' }),
       getMovies({ type: 'coming' }),
-      getClassicRank()
+      getClassicRank(),
+      getYearlyMovies() // 新增的年度电影榜单
     ]);
 
     const result = {
       last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
       nowplaying,
       coming,
-      classics
+      classics,
+      yearly // 新增的年度电影数据
     };
 
     // 确保目录存在
@@ -307,10 +440,11 @@ async function main() {
     
     console.log(`
 ✅ 数据采集完成！
-🎬🎬🎬🎬 正在热映: ${nowplaying.length}部
-🍿🍿🍿🍿 即将上映: ${coming.length}部
-📜📜📜📜 经典影片: ${classics.length}部
-🕒🕒🕒🕒🕒🕒🕒🕒🕒 更新时间: ${result.last_updated}
+🎬🎬🎬🎬🎬🎬🎬🎬 正在热映: ${nowplaying.length}部
+🍿🍿🍿🍿🍿🍿🍿🍿 即将上映: ${coming.length}部
+📜📜📜📜📜📜📜📜 经典影片: ${classics.length}部
+🎯🎯🎯🎯🎯🎯🎯🎯 年度电影: ${yearly.length}部
+🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒 更新时间: ${result.last_updated}
 数据已保存至: ${path.resolve(config.outputPath)}
 `);
   } catch (error) {
