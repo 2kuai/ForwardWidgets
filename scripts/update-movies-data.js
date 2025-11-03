@@ -285,7 +285,7 @@ async function getClassicRank() {
 // 获取年度电影榜单（从豆瓣片单获取2025年度国内院线电影，支持翻页和TMDB查询）
 async function getYearlyMovies() {
   const doulistId = '168050181';
-  const baseUrl = `https://www.douban.com/doulist/${doulistId}/`;
+  const baseUrl = `https://m.douban.com/doulist/${doulistId}/`;
   let allMovies = [];
   let start = 0;
   const pageSize = 25;
