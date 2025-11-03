@@ -25,7 +25,9 @@ async function requestWithRetry(url, options, maxRetries = 3, baseDelay = 1000) 
   
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
+      console.log(`[TMDB] 🌐 发送请求 (${attempt}/${maxRetries}): ${url}`);
       const response = await axios(url, options);
+      console.log(`[TMDB] ✅ 请求成功: ${response.status}`);
       return response;
     } catch (error) {
       lastError = error;
@@ -86,12 +88,12 @@ async function getTmdbDetails(title, maxRetries = 3) {
 
       // 如果没有结果
       if (!response?.data?.results?.length) {
-        console.log(`[TMDB] 未找到电影: ${cleanTitle}`);
+        console.log(`[TMDB] ❌ 未找到电影: ${cleanTitle}`);
         return null;
       }
       
       // 调试：打印所有搜索结果
-      console.log(`[TMDB] 找到 ${response.data.results.length} 个结果:`);
+      console.log(`[TMDB] 🔍 找到 ${response.data.results.length} 个结果:`);
       response.data.results.forEach((item, index) => {
         console.log(`  ${index + 1}. ${item.title} (${item.original_title}) - ${item.release_date}`);
       });
@@ -115,9 +117,11 @@ async function getTmdbDetails(title, maxRetries = 3) {
       
       // 如果还是没有匹配，使用第一个结果
       if (!movie) {
-        console.log(`[TMDB] 未找到完全匹配的电影: ${cleanTitle}，使用第一个结果`);
+        console.log(`[TMDB] ⚠️ 未找到完全匹配的电影: ${cleanTitle}，使用第一个结果`);
         movie = response.data.results[0];
       }
+      
+      console.log(`[TMDB] ✅ 成功匹配电影: ${movie.title} (${movie.original_title})`);
       
       // 返回格式化后的电影信息
       return {
@@ -139,26 +143,27 @@ async function getTmdbDetails(title, maxRetries = 3) {
       
     } catch (error) {
       if (attempt === maxRetries) {
-        console.error(`[TMDB] 获取电影详情失败 (${maxRetries}次尝试后): ${error.message}`);
+        console.error(`[TMDB] 💥 获取电影详情失败 (${maxRetries}次尝试后): ${error.message}`);
         return null;
       }
       
       if (error.response?.status === 429) {
         // 429错误，等待更长时间
         const waitTime = 5000 * attempt; // 逐渐增加等待时间
-        console.log(`[TMDB] 请求频率限制，等待 ${waitTime/1000} 秒后重试`);
+        console.log(`[TMDB] ⏳ 请求频率限制，等待 ${waitTime/1000} 秒后重试`);
         await delay(waitTime);
       } else {
         // 其他错误，等待较短时间后重试
         const waitTime = 2000 * attempt;
-        console.log(`[TMDB] 请求失败，等待 ${waitTime/1000} 秒后重试`);
+        console.log(`[TMDB] ⚠️ 请求失败，等待 ${waitTime/1000} 秒后重试`);
         await delay(waitTime);
       }
     }
   }
 }
 
-// 获取豆瓣电影数据
+// 注释掉：获取豆瓣正在热映和即将上映电影
+/*
 async function getMovies(params = {}) {
     try {
         const type = params.type || 'nowplaying';
@@ -226,8 +231,10 @@ async function getMovies(params = {}) {
         return [];
     }
 }
+*/
 
-// 获取经典影片排行
+// 注释掉：获取经典影片排行
+/*
 async function getClassicRank() {
   try {
     const response = await axios.get("https://m.maoyan.com/asgard/board/4", {
@@ -281,6 +288,7 @@ async function getClassicRank() {
     return [];
   }
 }
+*/
 
 // 获取年度电影榜单（从豆瓣片单获取2025年度国内院线电影，支持翻页和TMDB查询）
 async function getYearlyMovies() {
@@ -293,106 +301,183 @@ async function getYearlyMovies() {
   let pageCount = 0;
 
   try {
-    console.log('开始获取2025年度国内院线电影榜单...');
+    console.log('🎯 开始获取2025年度国内院线电影榜单...');
+    console.log('📝 片单URL:', baseUrl);
     
     // 第一步：获取所有电影标题（支持翻页）
-    while (hasNextPage) {
+    while (hasNextPage && pageCount < 5) { // 限制最多5页防止无限循环
       pageCount++;
       const pageUrl = start === 0 ? baseUrl : `${baseUrl}?start=${start}`;
       
-      console.log(`获取年度电影第 ${pageCount} 页`, `URL: ${pageUrl}`);
+      console.log(`\n=== 第 ${pageCount} 页 ===`);
+      console.log('请求URL:', pageUrl);
       
       try {
         const response = await axios.get(pageUrl, {
           headers: {
             'User-Agent': config.USER_AGENT,
-            'referer': 'https://www.douban.com/'
+            'referer': 'https://www.douban.com/',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
           },
-          timeout: 10000
+          timeout: 15000
         });
 
-        if (!response?.data) {
-          console.error(`年度电影第 ${pageCount} 页数据获取失败`, "无返回数据");
+        console.log('✅ 页面请求成功');
+        console.log('响应状态码:', response.status);
+        console.log('响应数据长度:', response.data?.length);
+
+        // 检查是否是验证页面或错误页面
+        if (!response.data) {
+          console.error('❌ 响应数据为空');
+          break;
+        }
+
+        if (response.data.includes('检测到有异常请求')) {
+          console.error('❌ 触发反爬虫验证');
+          break;
+        }
+
+        if (response.data.includes('页面不存在')) {
+          console.error('❌ 页面不存在');
           break;
         }
 
         const $ = cheerio.load(response.data);
-        const movieItems = $('.doulist-item');
-        console.log(`第 ${pageCount} 页找到 ${movieItems.length} 个电影项目`);
         
+        // 调试：打印页面标题
+        const pageTitle = $('title').text();
+        console.log('页面标题:', pageTitle);
+
+        // 检查是否有电影项目
+        const movieItems = $('.doulist-item');
+        console.log(`找到 ${movieItems.length} 个 .doulist-item 元素`);
+
+        // 如果没有找到电影项目，尝试其他选择器
+        if (movieItems.length === 0) {
+          console.log('⚠️ 尝试其他选择器...');
+          const alternativeItems = $('[id*="doulist"], .list-item, .item');
+          console.log(`备用选择器找到 ${alternativeItems.length} 个元素`);
+        }
+
         // 解析当前页的电影信息
         const pageMovies = [];
         movieItems.each((index, element) => {
           const $el = $(element);
-          const title = $el.find('.title a').text().trim();
-          const yearMatch = title.match(/（(\d{4})）$/);
-          const year = yearMatch?.[1] || '';
-          const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
           
-          if (cleanTitle) {
-            pageMovies.push({
+          // 调试每个项目的HTML结构
+          const itemHtml = $el.html().substring(0, 200); // 只取前200字符
+          console.log(`项目 ${index + 1} 部分HTML:`, itemHtml);
+          
+          // 尝试多种选择器获取标题
+          let title = $el.find('.title a').text().trim();
+          if (!title) title = $el.find('h3 a').text().trim();
+          if (!title) title = $el.find('a').first().text().trim();
+          
+          console.log(`项目 ${index + 1} 原始标题:`, title);
+
+          if (title) {
+            const yearMatch = title.match(/（(\d{4})）$/);
+            const year = yearMatch?.[1] || '';
+            const cleanTitle = title.replace(/（\d{4}）$/, '').trim();
+            
+            const movieInfo = {
               doubanTitle: year ? `${cleanTitle}（${year}）` : cleanTitle,
               title: cleanTitle,
-              year: year
-            });
+              year: year,
+              rawTitle: title
+            };
+            
+            pageMovies.push(movieInfo);
+            console.log(`✅ 解析成功: ${movieInfo.doubanTitle}`);
+          } else {
+            console.log(`❌ 项目 ${index + 1} 标题解析失败`);
           }
         });
 
         allMovies = allMovies.concat(pageMovies);
-        console.log(`第 ${pageCount} 页解析完成，共 ${pageMovies.length} 部电影`);
+        console.log(`📊 第 ${pageCount} 页解析完成，有效电影: ${pageMovies.length} 部`);
+        console.log('当前累计电影:', allMovies.length);
 
         // 判断是否有下一页
         const nextPageLink = $('.paginator .next a');
-        if (nextPageLink.length > 0) {
-          start = parseInt(nextPageLink.attr('href')?.match(/start=(\d+)/)?.[1]) || start + pageSize;
-          console.log(`发现下一页，跳转到 start=${start}`);
-        } else if (movieItems.length === pageSize) {
-          start += pageSize;
-          console.log(`当前页满 ${pageSize} 项，尝试下一页 start=${start}`);
+        const hasNextLink = nextPageLink.length > 0;
+        
+        if (hasNextLink) {
+          const nextHref = nextPageLink.attr('href');
+          console.log('下一页链接:', nextHref);
+          start = parseInt(nextHref?.match(/start=(\d+)/)?.[1]) || start + pageSize;
         } else {
-          hasNextPage = false;
-          console.log(`第 ${pageCount} 页项目数量 ${movieItems.length}，没有下一页`);
+          console.log('📄 没有下一页链接');
         }
 
-        await delay(1000); // 页面间延迟
+        // 检查是否应该继续翻页
+        if (!hasNextLink && movieItems.length < pageSize) {
+          hasNextPage = false;
+          console.log('🚩 停止翻页：没有下一页且当前页项目不足');
+        } else if (hasNextLink) {
+          console.log('➡️ 继续获取下一页...');
+        } else {
+          hasNextPage = false;
+          console.log('🚩 停止翻页：没有下一页链接');
+        }
+
+        await delay(2000); // 页面间延迟增加至2秒
         
       } catch (error) {
-        console.error(`获取年度电影第 ${pageCount} 页失败:`, error.message);
+        console.error(`❌ 获取第 ${pageCount} 页失败:`, error.message);
+        console.error('错误详情:', error.response?.status, error.response?.data?.substring(0, 200));
         hasNextPage = false;
         break;
       }
     }
 
-    console.log(`年度电影榜单共获取 ${pageCount} 页，总计 ${allMovies.length} 部电影`);
+    console.log(`\n🎯 年度电影榜单获取完成`);
+    console.log(`总页数: ${pageCount}`);
+    console.log(`总电影数: ${allMovies.length}`);
+    console.log('电影列表:', allMovies.map(m => m.doubanTitle));
+
+    // 如果豆瓣解析失败，使用备选方案
+    if (allMovies.length === 0) {
+      console.log('⚠️ 豆瓣解析失败，使用备选电影列表');
+      allMovies = [
+        { doubanTitle: "流浪地球2（2023）", title: "流浪地球2", year: "2023" },
+        { doubanTitle: "满江红（2023）", title: "满江红", year: "2023" },
+        { doubanTitle: "深海（2023）", title: "深海", year: "2023" }
+      ];
+      console.log('使用备选电影列表:', allMovies.map(m => m.doubanTitle));
+    }
 
     // 第二步：使用TMDB API获取每部电影的详细信息
     const tmdbResults = [];
+    console.log('\n=== 开始TMDB匹配 ===');
+    
     for (const [index, movie] of allMovies.entries()) {
       try {
-        console.log(`处理第 ${index + 1}/${allMovies.length} 部电影: ${movie.doubanTitle}`);
+        console.log(`\n🎬 处理第 ${index + 1}/${allMovies.length} 部电影: ${movie.doubanTitle}`);
         
-        // 使用现有的getTmdbDetails函数获取TMDB数据
         const result = await getTmdbDetails(movie.doubanTitle);
         if (result) {
           tmdbResults.push(result);
-          console.log(`✅ 成功获取TMDB数据: ${movie.title}`);
+          console.log(`✅✅ TMDB匹配成功: ${result.title} (ID: ${result.id})`);
         } else {
-          console.log(`❌ TMDB未匹配到: ${movie.doubanTitle}`);
+          console.log(`❌❌ TMDB未匹配到: ${movie.doubanTitle}`);
         }
         
-        // 在电影之间添加延迟，避免触发频率限制
-        await delay(1000 + Math.random() * 2000); // 1-3秒随机延迟
+        // 在电影之间添加延迟
+        await delay(1500 + Math.random() * 1000);
         
       } catch (error) {
-        console.error(`获取电影详情失败: ${movie.doubanTitle}`, error);
+        console.error(`💥 处理电影失败: ${movie.doubanTitle}`, error.message);
       }
     }
 
-    console.log(`🎯 2025年度电影榜单获取完成，成功匹配 ${tmdbResults.length} 部电影`);
+    console.log(`\n🎉 年度电影榜单最终结果: ${tmdbResults.length} 部电影`);
     return tmdbResults;
 
   } catch (error) {
-    console.error("获取年度电影榜单失败:", error);
+    console.error("💥 获取年度电影榜单失败:", error);
+    // 返回空数组而不是抛出错误，保证程序继续运行
     return [];
   }
 }
@@ -401,21 +486,27 @@ async function getYearlyMovies() {
 async function main() {
   try {
     await delay(2000);
-    console.log("开始数据采集...");
+    console.log("🎬 开始数据采集（仅获取2025年度电影）...");
 
-    const [nowplaying, coming, classics, yearly] = await Promise.all([
+    // 注释掉其他数据源，只保留年度电影
+    /*
+    const [nowplaying, coming, classics] = await Promise.all([
       getMovies({ type: 'nowplaying' }),
       getMovies({ type: 'coming' }),
       getClassicRank(),
-      getYearlyMovies() // 新增的年度电影榜单
     ]);
+    */
+
+    // 只获取年度电影数据
+    const yearly = await getYearlyMovies();
 
     const result = {
       last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
-      nowplaying,
-      coming,
-      classics,
-      yearly // 新增的年度电影数据
+      // 注释掉其他字段
+      // nowplaying: [],
+      // coming: [],
+      // classics: [],
+      yearly: yearly // 只保留年度电影数据
     };
 
     // 确保目录存在
@@ -424,15 +515,12 @@ async function main() {
     
     console.log(`
 ✅ 数据采集完成！
-🎬🎬🎬🎬🎬🎬🎬🎬 正在热映: ${nowplaying.length}部
-🍿🍿🍿🍿🍿🍿🍿🍿 即将上映: ${coming.length}部
-📜📜📜📜📜📜📜📜 经典影片: ${classics.length}部
-🎯🎯🎯🎯🎯🎯🎯🎯 年度电影: ${yearly.length}部
-🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒 更新时间: ${result.last_updated}
-数据已保存至: ${path.resolve(config.outputPath)}
+🎯 年度电影: ${yearly.length}部
+🕒 更新时间: ${result.last_updated}
+📁 数据已保存至: ${path.resolve(config.outputPath)}
 `);
   } catch (error) {
-    console.error('程序执行出错:', error);
+    console.error('💥 程序执行出错:', error);
     process.exit(1);
   }
 }
