@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-08T14:13:54.489+08:00",
+  "last_updated": "2025-11-08T20:17:20.152+08:00",
   "tv": {
     "全网": [
       {
@@ -36,17 +36,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 252414,
-        "type": "tmdb",
-        "title": "水龙吟",
-        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
-        "releaseDate": "2025-10-24",
-        "rating": 8.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 261663,
         "type": "tmdb",
         "title": "暗河传",
@@ -65,7 +54,29 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/A5J7tb53fqls1pTIHbDgusEVcJf.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
         "releaseDate": "2025-11-01",
-        "rating": 9,
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 252414,
+        "type": "tmdb",
+        "title": "水龙吟",
+        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
+        "releaseDate": "2025-10-24",
+        "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 304935,
+        "type": "tmdb",
+        "title": "唐朝诡事录之长安",
+        "description": "　　先天二年夏秋之际，长安局势波谲云诡。虽天子已登基，然大长公主势力更为强盛。卢凌风与苏无名领命，带着裴喜君、费鸡师等人组成的探案小队，借护送康国所献金桃之名重返长安。卢凌风复任雍州司法参军，苏无名获授特殊官职。二人推行新政，开启环城探案模式，深入长安各坊。他们历经康国金桃、成佛寺哭声等多起疑案，最终风云聚焦于事关朝堂的盛世马球案。在此过程中，他们直面命运，付出沉重代价，但护佑百姓的初心从未动摇，于长安城中坚守正义。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/oWagjIKCQLpakuAB8Az2C0IRGmt.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2025-11-08",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -87,18 +98,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/xRjbtolMzeGfDOQ1iQcQodbujOl.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/vNqDJzm7AR95NpLzDn85dEL84vv.jpg",
         "releaseDate": "2025-09-26",
-        "rating": 8.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 304935,
-        "type": "tmdb",
-        "title": "唐朝诡事录之长安",
-        "description": "　　先天二年夏秋之际，长安局势波谲云诡。虽天子已登基，然大长公主势力更为强盛。卢凌风与苏无名领命，带着裴喜君、费鸡师等人组成的探案小队，借护送康国所献金桃之名重返长安。卢凌风复任雍州司法参军，苏无名获授特殊官职。二人推行新政，开启环城探案模式，深入长安各坊。他们历经康国金桃、成佛寺哭声等多起疑案，最终风云聚焦于事关朝堂的盛世马球案。在此过程中，他们直面命运，付出沉重代价，但护佑百姓的初心从未动摇，于长安城中坚守正义。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xlwzsUkSUfPUizfdExZkZcP9tsv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dna6YVg2xeuE1OYd4AsM6Pih8Ny.jpg",
-        "releaseDate": "2025-11-08",
-        "rating": 0,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -170,28 +170,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 254476,
-        "type": "tmdb",
-        "title": "献鱼",
-        "description": "在庚辰仙府闭关修炼五百年的师祖司马焦与意外来到修仙界的廖停雁相遇，傲娇孤寂的师祖与无欲无求的“咸鱼”相互救赎，彼此保护，在仙府、魔域和人间展开了一段跨越三世的爱恨纠葛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yzZOdLIZje5nMemv0f7eZccoBmb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7VxcQrVD2POXg29q5wIFOGD7AY7.jpg",
-        "releaseDate": "2025-08-16",
-        "rating": 8.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 281705,
-        "type": "tmdb",
-        "title": "绝命法官",
-        "description": "九十年代初的濠港暗流涌动，法官秦誉曾联手高级督察唐萱将社团头目韩奎龙定罪，却在爱子撞伤韩家长子后陷入两难。护子心切的秦誉伪造证据嫁祸偷车少年，堕入谎言的深渊。唐萱则坚守正义，穷追真相。这场博弈背后，官商勾结、警界腐败与陈年旧案相互纠缠。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sp9yddjWtZAKlGm06vn2hExxkst.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bALBQNgpxBBeFENsA0UwE8GeFDG.jpg",
-        "releaseDate": "2025-09-28",
-        "rating": 9.3,
-        "mediaType": "tv"
-      },
-      {
         "id": 106449,
         "type": "tmdb",
         "title": "凡人修仙传",
@@ -203,6 +181,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 254476,
+        "type": "tmdb",
+        "title": "献鱼",
+        "description": "在庚辰仙府闭关修炼五百年的师祖司马焦与意外来到修仙界的廖停雁相遇，傲娇孤寂的师祖与无欲无求的“咸鱼”相互救赎，彼此保护，在仙府、魔域和人间展开了一段跨越三世的爱恨纠葛。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yzZOdLIZje5nMemv0f7eZccoBmb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7VxcQrVD2POXg29q5wIFOGD7AY7.jpg",
+        "releaseDate": "2025-08-16",
+        "rating": 8.2,
+        "mediaType": "tv"
+      },
+      {
         "id": 254488,
         "type": "tmdb",
         "title": "灼灼韶华",
@@ -211,6 +200,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/wG8MSuvOMfOEiRh6qZeWbKwXkXJ.jpg",
         "releaseDate": "2025-09-11",
         "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 281705,
+        "type": "tmdb",
+        "title": "绝命法官",
+        "description": "九十年代初的濠港暗流涌动，法官秦誉曾联手高级督察唐萱将社团头目韩奎龙定罪，却在爱子撞伤韩家长子后陷入两难。护子心切的秦誉伪造证据嫁祸偷车少年，堕入谎言的深渊。唐萱则坚守正义，穷追真相。这场博弈背后，官商勾结、警界腐败与陈年旧案相互纠缠。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sp9yddjWtZAKlGm06vn2hExxkst.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bALBQNgpxBBeFENsA0UwE8GeFDG.jpg",
+        "releaseDate": "2025-09-28",
+        "rating": 9.3,
         "mediaType": "tv"
       },
       {
@@ -245,7 +245,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/A5J7tb53fqls1pTIHbDgusEVcJf.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
         "releaseDate": "2025-11-01",
-        "rating": 9,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -253,10 +253,10 @@
         "type": "tmdb",
         "title": "唐朝诡事录之长安",
         "description": "　　先天二年夏秋之际，长安局势波谲云诡。虽天子已登基，然大长公主势力更为强盛。卢凌风与苏无名领命，带着裴喜君、费鸡师等人组成的探案小队，借护送康国所献金桃之名重返长安。卢凌风复任雍州司法参军，苏无名获授特殊官职。二人推行新政，开启环城探案模式，深入长安各坊。他们历经康国金桃、成佛寺哭声等多起疑案，最终风云聚焦于事关朝堂的盛世马球案。在此过程中，他们直面命运，付出沉重代价，但护佑百姓的初心从未动摇，于长安城中坚守正义。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xlwzsUkSUfPUizfdExZkZcP9tsv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dna6YVg2xeuE1OYd4AsM6Pih8Ny.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/oWagjIKCQLpakuAB8Az2C0IRGmt.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
         "releaseDate": "2025-11-08",
-        "rating": 0,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -293,17 +293,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302880,
-        "type": "tmdb",
-        "title": "依依向北风",
-        "description": "故事聚焦上世纪70年代中期至90年代中期，知识青年前乐山、盛雪竹等人在返城、高考及改革开放浪潮中拼搏奋斗的人生轨迹。通过描绘盛雪竹与前乐山十五年情感纠葛、商海沉浮等情节，展现个体在时代变革中的亲情、友情与爱情扶择。剧中既有乔正君迷失欲望的普示案例，也塑造了把握时代机遇的奋斗者群像，传递坚守初心、脚踏实地的价值导向。该剧描写盛雪竹和前乐山从互相厌恶到心心相印的曲折恋情，以及盛雪竹与暖暖的母女情、前乐山与郭红旗的友情、盛必捷父女混恩仇的亲情等多条情感线。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/l7iYhf74ICLNAzbShvMjr8uGfzb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9F4mwAnDA1ETOq2ghu1oEMv9YT.jpg",
-        "releaseDate": "2025-10-19",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 272485,
         "type": "tmdb",
         "title": "生万物",
@@ -315,14 +304,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 273655,
+        "id": 302880,
         "type": "tmdb",
-        "title": "足迹",
-        "description": "30年代初，林斯允（林允 饰）带着开设妇产医院的梦想，学成回国，刚到上海就面临父亲离世，哥哥负债，未婚夫背叛，黑帮律师程敖（丞磊 饰）上门催债的困难局面。在重重困局中，林斯允迎难而上，刚建立起一所优质妇产科医院，抗日战争却爆发。面对国仇家恨，林斯允与程敖成为共产党人的同路人，程敖与林斯允从误解到成为亲密战友，一起经历腥风血雨，携手共度新社会到来之前的黑暗时代。\n\n50年代初，这所医院转型为服装厂，林斯允的侄女易弋（童瑶 饰）虽梦想成为服装设计师，但因其国民党军官遗孀的身份，面临生存与职业的双重挑战。易弋有幸遇到了我党的优秀干部文朴（刘奕君 饰），在公私合营的背景下，易弋找到了新时期自己的职业定位，并与文朴谱写出了一段克制的浪漫爱情故事。\n\n90年代初，这座老洋房已化身为上海的知名宾馆，易弋的孙女叶希宁（王鹤润 饰）原本在此为闺蜜婚礼做准备，却意外卷入一场阴谋，她因此从机关单位失业。一无所有的她下海经商，并认识了同样因此遭受打击的向北川（杨玏 饰），两人选择投身于改革开放的浪潮，野蛮生长。\n\n在时代浪潮中，三代人各自留下了自己的足迹，老洋房见证了他们不屈的力量与勇气。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3iqrhUYfGdbL0yp1kM426P4aZTz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5D1xXcQAFXHuKc7MrMhTE7S5HKd.jpg",
-        "releaseDate": "2025-09-04",
-        "rating": 0,
+        "title": "依依向北风",
+        "description": "故事聚焦上世纪70年代中期至90年代中期，知识青年前乐山、盛雪竹等人在返城、高考及改革开放浪潮中拼搏奋斗的人生轨迹。通过描绘盛雪竹与前乐山十五年情感纠葛、商海沉浮等情节，展现个体在时代变革中的亲情、友情与爱情扶择。剧中既有乔正君迷失欲望的普示案例，也塑造了把握时代机遇的奋斗者群像，传递坚守初心、脚踏实地的价值导向。该剧描写盛雪竹和前乐山从互相厌恶到心心相印的曲折恋情，以及盛雪竹与暖暖的母女情、前乐山与郭红旗的友情、盛必捷父女混恩仇的亲情等多条情感线。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/l7iYhf74ICLNAzbShvMjr8uGfzb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9F4mwAnDA1ETOq2ghu1oEMv9YT.jpg",
+        "releaseDate": "2025-10-19",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 277618,
+        "type": "tmdb",
+        "title": "命悬一生",
+        "description": "倪向东收到好友曹小军的请求，将一只木箱运送到荒山上的废弃小屋，却意外发现箱里装的竟是曹小军的尸体。曹小军的妻子吴细妹报警寻找失踪的丈夫，并暗指一切都和倪向东有关。可作为证人，吴细妹的供词前后矛盾，且夫妻二人的孩子并非曹小军亲生。在警方的连环追问下，吴细妹迫不得已讲述了三人的往事。三人曾是好友，吴细妹与倪向东是一对恋人，倪向东不愿为孩子负责，曹小军挺身而出带她远走高飞，一起抚养孩子。在追查过程中，警方进一步发现吴细妹的孩子和倪向东也没有血缘关系，大家对倪向东的评价还存在完全不同的两种声音：老家的人说倪向东无恶不作；工友却说他与人为善，还资助了一位姓徐的老人。老警员孟朝带着新人童浩，从北方海岸到南方密林，抽丝剥茧，揭开了吴细妹、曹小军、倪向东纠缠了十余年的连环杀局，让作恶之人得到了法律的制裁。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rDlV8qvLuN27ZqUdqNYj6YFK1Yi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9adG5IL4ZaBu3m4DyVPDZJDIH41.jpg",
+        "releaseDate": "2025-10-11",
+        "rating": 8.75,
         "mediaType": "tv"
       },
       {
@@ -368,7 +368,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/xRjbtolMzeGfDOQ1iQcQodbujOl.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/vNqDJzm7AR95NpLzDn85dEL84vv.jpg",
         "releaseDate": "2025-09-26",
-        "rating": 8.4,
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -438,14 +438,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 273125,
+        "id": 302577,
         "type": "tmdb",
-        "title": "余生有涯",
-        "description": "叶思北对重男轻女的父母隐忍、妥协和逃避，让深爱着她又怒其不争的丈夫秦南无法忍耐，提出离婚。叶思北却在此时遭遇侵害，万念俱灰。得知事件真相后，秦南坚定地陪在她身边，鼓励她用法律手段伸张正义。在司法部门的介入下，罪犯入狱，真相大白。叶思北和秦南相互扶持，并与家人解开心结，开启新的人生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gY0XlPTUxYyFC24nEp1VWX8S1Vz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/b8kQymfdJzbO1Gwh5EohjOCbg8z.jpg",
-        "releaseDate": "2025-10-16",
-        "rating": 9.5,
+        "title": "猎豹",
+        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
+        "releaseDate": "2025-10-14",
+        "rating": 8,
         "mediaType": "tv"
       }
     ],
@@ -772,17 +772,6 @@
         "releaseDate": "2021-11-06",
         "rating": 0,
         "mediaType": "tv"
-      },
-      {
-        "id": 113187,
-        "type": "tmdb",
-        "title": "兄弟营",
-        "description": "北伐战争期间，国民革命军驻扎在县城整装，准备摸清直系军阀在武昌的守军兵力部署和武器装备情报后，发动攻打武昌的战役。石一利用特殊身份，不顾个人安危，在刑场成功营救了欲被直系军阀杀害的诸多革命党，致使身份暴露不幸受伤。石一被护卫队救出，为了保护他，组织建议他启用化名赵石磊。 养伤期间赵石磊与护理员互生情愫，伤好后他与营长梅山海在组织的见证下举行了集体婚礼。婚礼上，赵石磊与梅山海却收到消息营部有女叛徒。他俩决定查清真相，与政治部主任崔光明一起巧妙设计布局。最后抽丝剥茧，发现此乃武昌守城司令袁玉郞使用的一个离间计谋。赵石磊与梅山海以其人之道，利用叛徒向袁玉郞发出诱敌情报，最终与北伐军一起粉碎敌人阴谋，为全歼敌人扫清了障碍。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9OTD38BpCP41lVJJIo9UeDV9waO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kA53Uqqj5rRdxXvQHts1udc9ze0.jpg",
-        "releaseDate": "2018-05-31",
-        "rating": 0,
-        "mediaType": "tv"
       }
     ],
     "芒果TV": [
@@ -912,17 +901,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -934,6 +912,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
         "id": 301245,
         "type": "tmdb",
         "title": "快乐趣吹风",
@@ -941,17 +930,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
         "releaseDate": "2025-10-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 302997,
-        "type": "tmdb",
-        "title": "一起开麦吧",
-        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
-        "releaseDate": "2025-10-18",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -976,6 +954,28 @@
         "releaseDate": "2019-10-30",
         "rating": 7.5,
         "mediaType": "tv"
+      },
+      {
+        "id": 300172,
+        "type": "tmdb",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rDO187Hu0r4yuM1gxe91t3eoD2F.jpg",
+        "releaseDate": "2025-11-09",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 302997,
+        "type": "tmdb",
+        "title": "一起开麦吧",
+        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "releaseDate": "2025-10-18",
+        "rating": 0,
+        "mediaType": "tv"
       }
     ],
     "优酷": [
@@ -991,17 +991,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302997,
-        "type": "tmdb",
-        "title": "一起开麦吧",
-        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
-        "releaseDate": "2025-10-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 88580,
         "type": "tmdb",
         "title": "王牌对王牌",
@@ -1010,6 +999,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
         "releaseDate": "2016-01-29",
         "rating": 6.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 302997,
+        "type": "tmdb",
+        "title": "一起开麦吧",
+        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "releaseDate": "2025-10-18",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1068,13 +1068,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 293196,
+        "id": 304722,
         "type": "tmdb",
-        "title": "我赞红人",
-        "description": "跨平台自媒体创作者竞技真人秀节目《我赞红人》，全网顶尖红人首度齐聚，共同迎接六大赛段考验，层层筛选，层层晋级，比拼红人综合实力，展现新时代生活风貌。最终，将有一位最具优质创作力和正向影响力的红人脱颖而出，成为“年度红人”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/d7UgGgxNFl5VRCS5yfT2SZiBxyx.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4bgqUw762gqmB5jxFVPJpwHFZ2h.jpg",
-        "releaseDate": "",
+        "title": "“味”你而来",
+        "description": "大型美食社交搞笑下饭综艺，由央视文艺出品，将竞技游戏、地域文化、艺人反差融为一体，首播即被赞最强馋虫唤醒器。核心主题：挖掘无法异地复刻的地方特色美食，融合烟火气与人文故事。分德阳篇、焦作篇等等，观众可备好零食观看，谨防眼泪从嘴角流下！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7SdGU5COSr1Hm86ZPM5RxmGNXse.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4p7OKlof480K2jMU0YnbQSm0Fcy.jpg",
+        "releaseDate": "2025-10-25",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1387,6 +1387,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 291862,
+        "type": "tmdb",
+        "title": "背后",
+        "description": "《背后》是由郑方一主持、张泉灵担任对谈人的观察谈话类节目，在寻找背后故事的同时，也寻找答案和力量的观察谈话类节目。以“在路过的人生里照见背后的自己”为核心立意，聚焦当代社会对深度内容的渴求，在信息碎片化、情绪快餐化的当下，旨在通过“有温度的对谈”为观众提供一处心灵栖息地，唤醒人们对自我成长、精神力量的关注。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9GULN35kQ4K8LYofJqF1VEixzgK.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-05-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 130099,
         "type": "tmdb",
         "title": "再见爱人",
@@ -1398,13 +1409,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 291862,
+        "id": 301805,
         "type": "tmdb",
-        "title": "背后",
-        "description": "《背后》是由郑方一主持、张泉灵担任对谈人的观察谈话类节目，在寻找背后故事的同时，也寻找答案和力量的观察谈话类节目。以“在路过的人生里照见背后的自己”为核心立意，聚焦当代社会对深度内容的渴求，在信息碎片化、情绪快餐化的当下，旨在通过“有温度的对谈”为观众提供一处心灵栖息地，唤醒人们对自我成长、精神力量的关注。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9GULN35kQ4K8LYofJqF1VEixzgK.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-18",
+        "title": "海角88号",
+        "description": "节目以“在海上重新开始”为核心设定，打造国内首档“漂浮海上民宿”，为观众提供一种既真实又充满想象力的生活提案。7位固定嘉宾将在为期10天的航程中，通过经营民宿、服务住客、设计活动、进行海上户外冒险、探索海南本土文化等，完成从生活者到经营者的角色转变，在真实场景中携手创业、探索生活、对话自我。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yciMYWWr9o0AwNrmUVtzWrABChO.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/w9tuemMLXSKzYZ4cPhRL8oJwsPa.jpg",
+        "releaseDate": "2025-09-29",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1431,13 +1442,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 301805,
+        "id": 304080,
         "type": "tmdb",
-        "title": "海角88号",
-        "description": "节目以“在海上重新开始”为核心设定，打造国内首档“漂浮海上民宿”，为观众提供一种既真实又充满想象力的生活提案。7位固定嘉宾将在为期10天的航程中，通过经营民宿、服务住客、设计活动、进行海上户外冒险、探索海南本土文化等，完成从生活者到经营者的角色转变，在真实场景中携手创业、探索生活、对话自我。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yciMYWWr9o0AwNrmUVtzWrABChO.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w9tuemMLXSKzYZ4cPhRL8oJwsPa.jpg",
-        "releaseDate": "2025-09-29",
+        "title": "当家爸爸的聚会",
+        "description": "节目计划开启一年两季的寒暑假季番规划，每季10期。首季将由《爸爸当家·慢享季》中热度最高的王永鸿家庭作为“东道主”发起聚会邀请，邀约全职爸爸互助会中有时间聚会的几组家庭，开启一段以“来我家聚一聚”为主题的家乡团建和研学之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/12LyvRx6OHbwx5DTnjOKSwWJRZ2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zIxgzMsXIOBSxHlkpbsHiKuBCyO.jpg",
+        "releaseDate": "2025-10-15",
         "rating": 0,
         "mediaType": "tv"
       }
