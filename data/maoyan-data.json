@@ -1,7 +1,18 @@
 {
-  "last_updated": "2025-11-22T14:14:13.611+08:00",
+  "last_updated": "2025-11-22T20:16:59.985+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 249971,
+        "type": "tmdb",
+        "title": "枭起青壤",
+        "description": "作家聂夕因看了一场山海经主题的展览产生灵感，书写出一部极具东方色彩的都市奇幻小说。隐秘的民间异能组织“南山猎人”中疯刀聂九罗与阳光正直、忍辱负重多年的炎拓不打不相识，经历几次过命合作后，逐渐产生信任和好感，共同对抗地枭，守护爱与和平并终成眷属。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/wGAfm9rZ1Sm7KeNpDfkPHerMRL3.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 211089,
         "type": "tmdb",
@@ -36,17 +47,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 263044,
-        "type": "tmdb",
-        "title": "山河枕",
-        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-        "releaseDate": "2025-10-30",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 262997,
         "type": "tmdb",
         "title": "他为什么依然单身",
@@ -55,6 +55,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
         "releaseDate": "2025-11-16",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263044,
+        "type": "tmdb",
+        "title": "山河枕",
+        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
+        "releaseDate": "2025-10-30",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -99,17 +110,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/vNqDJzm7AR95NpLzDn85dEL84vv.jpg",
         "releaseDate": "2025-09-26",
         "rating": 8.143,
-        "mediaType": "tv"
-      },
-      {
-        "id": 240442,
-        "type": "tmdb",
-        "title": "天地剑心",
-        "description": "自幼被当作一气盟斩妖除魔的终极兵器培养的王权富贵，遇到了潜入王权山庄做间谍的蜘蛛精清瞳。清瞳的出现，越发激起富贵对妖怪看法的改变，也给富贵展示了更多外面的世界。富贵内心渴望自由、憧憬天下大同的信念被逐渐点燃，经历万剑穿心，带着清瞳离开王权山庄，走上了自己所悟之道。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sSUsKG6hKCWadKSeT825ullCL60.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kSx7TUpI5uJUqgPMtu5R7Q3VZRe.jpg",
-        "releaseDate": "2025-10-25",
-        "rating": 6.7,
         "mediaType": "tv"
       }
     ],
@@ -315,17 +315,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 271017,
-        "type": "tmdb",
-        "title": "围猎",
-        "description": "南州禁毒大队杨一鹏、之安等新老缉毒干警在“清剿行动”后继续围猎丰茂村在逃嫌犯牟森等人归案。2016年，杨一鹏紧盯落网后仍负隅顽抗的“清剿行动”首犯牟海东，一个神秘电话号码牵出三年前逃逸的制毒师牟森。警方逐步摸排出牟森重回南州的重要线索，阻止了其在海滩制毒的计划，打击了牟森团伙与香江买家的海上交易，取得阶段性胜利。倍受打击的牟森着手研制新型毒品“邮票”，隐蔽入市，危害年轻人群。杨一鹏化装侦察获重要线索，警方摧毁了远在湘南的制毒工厂。牟森不甘，收拢暗网大佬安迪，妄图在滇川重建毒品王国。杨一鹏与新警员之安感化牟森身边误入歧途的青年多仔成为线人，传递关键情报。杨一鹏与战友奔赴滇川，终将躲藏于暗网基地的牟森抓获，挫败其建立新毒品网络的企图。至此，三年多的围猎行动画上圆满句号。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xhzL2nvdfyhkDuQOS4ag1fv4Swg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xYFpCIrSzqoU49iW7sO3QOhb9IH.jpg",
-        "releaseDate": "2025-09-25",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 253093,
         "type": "tmdb",
         "title": "与晋长安",
@@ -335,18 +324,29 @@
         "releaseDate": "2025-08-24",
         "rating": 8.4,
         "mediaType": "tv"
+      },
+      {
+        "id": 271017,
+        "type": "tmdb",
+        "title": "围猎",
+        "description": "南州禁毒大队杨一鹏、之安等新老缉毒干警在“清剿行动”后继续围猎丰茂村在逃嫌犯牟森等人归案。2016年，杨一鹏紧盯落网后仍负隅顽抗的“清剿行动”首犯牟海东，一个神秘电话号码牵出三年前逃逸的制毒师牟森。警方逐步摸排出牟森重回南州的重要线索，阻止了其在海滩制毒的计划，打击了牟森团伙与香江买家的海上交易，取得阶段性胜利。倍受打击的牟森着手研制新型毒品“邮票”，隐蔽入市，危害年轻人群。杨一鹏化装侦察获重要线索，警方摧毁了远在湘南的制毒工厂。牟森不甘，收拢暗网大佬安迪，妄图在滇川重建毒品王国。杨一鹏与新警员之安感化牟森身边误入歧途的青年多仔成为线人，传递关键情报。杨一鹏与战友奔赴滇川，终将躲藏于暗网基地的牟森抓获，挫败其建立新毒品网络的企图。至此，三年多的围猎行动画上圆满句号。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/xhzL2nvdfyhkDuQOS4ag1fv4Swg.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/xYFpCIrSzqoU49iW7sO3QOhb9IH.jpg",
+        "releaseDate": "2025-09-25",
+        "rating": 8,
+        "mediaType": "tv"
       }
     ],
     "腾讯视频": [
       {
-        "id": 263044,
+        "id": 249971,
         "type": "tmdb",
-        "title": "山河枕",
-        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-        "releaseDate": "2025-10-30",
-        "rating": 9,
+        "title": "枭起青壤",
+        "description": "作家聂夕因看了一场山海经主题的展览产生灵感，书写出一部极具东方色彩的都市奇幻小说。隐秘的民间异能组织“南山猎人”中疯刀聂九罗与阳光正直、忍辱负重多年的炎拓不打不相识，经历几次过命合作后，逐渐产生信任和好感，共同对抗地枭，守护爱与和平并终成眷属。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/wGAfm9rZ1Sm7KeNpDfkPHerMRL3.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -358,6 +358,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
         "releaseDate": "2025-11-16",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263044,
+        "type": "tmdb",
+        "title": "山河枕",
+        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
+        "releaseDate": "2025-10-30",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -383,6 +394,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 302577,
+        "type": "tmdb",
+        "title": "猎豹",
+        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
+        "releaseDate": "2025-10-14",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263034,
+        "type": "tmdb",
+        "title": "赴山海",
+        "description": "一名酷爱武侠小说却被现实磨平棱角的咸鱼肖明明，以小说男主角萧秋水的视角游历了一次武林世界，从武力低微、热血冲动的少年剑客，最终成长为有情有义、守护家国的大侠。此后肖明明在工作之余也不忘创作，在小说中继续传递人心因义而聚的信念。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jOEKN1yCpbTwuVCN4RxLCVHEn8c.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7dH63uoQDQu6pfYJLNKQYLXJ38m.jpg",
+        "releaseDate": "2025-09-11",
+        "rating": 5.882,
+        "mediaType": "tv"
+      },
+      {
         "id": 252321,
         "type": "tmdb",
         "title": "勿扰飞升",
@@ -405,17 +438,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 263034,
-        "type": "tmdb",
-        "title": "赴山海",
-        "description": "一名酷爱武侠小说却被现实磨平棱角的咸鱼肖明明，以小说男主角萧秋水的视角游历了一次武林世界，从武力低微、热血冲动的少年剑客，最终成长为有情有义、守护家国的大侠。此后肖明明在工作之余也不忘创作，在小说中继续传递人心因义而聚的信念。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jOEKN1yCpbTwuVCN4RxLCVHEn8c.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7dH63uoQDQu6pfYJLNKQYLXJ38m.jpg",
-        "releaseDate": "2025-09-11",
-        "rating": 5.882,
-        "mediaType": "tv"
-      },
-      {
         "id": 85009,
         "type": "tmdb",
         "title": "锵锵三人行",
@@ -424,28 +446,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/otWvnsGRtLxbrtDrqxXZshWneeN.jpg",
         "releaseDate": "1998-04-01",
         "rating": 8.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 249971,
-        "type": "tmdb",
-        "title": "枭起青壤",
-        "description": "作家聂夕因看了一场山海经主题的展览产生灵感，书写出一部极具东方色彩的都市奇幻小说。隐秘的民间异能组织“南山猎人”中疯刀聂九罗与阳光正直、忍辱负重多年的炎拓不打不相识，经历几次过命合作后，逐渐产生信任和好感，共同对抗地枭，守护爱与和平并终成眷属。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/l9IyULt3kstNQibsRqYR02YeidL.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 282905,
-        "type": "tmdb",
-        "title": "重影",
-        "description": "“一桩没有尸体的凶案，一场没有终点的逃亡……” 一年前，北方小城“晨苍”发生了一起仇杀案，凶手秦虹潜逃。 一年后，警方在南方“发现”秦虹时，秦虹已被男友抛尸大海，尸骨无存。 这是一起人证、物证俱全，凶手甚至已经交代犯罪事实的案件，可消失无踪的尸体让主管刑警刘望惴惴不安。 “秦虹真的死了吗？”",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rut87Fztzg68R8h7KcD89O6wGe8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dY9YBWsskH9vMQRvtSTxfeemXsR.jpg",
-        "releaseDate": "2025-10-26",
-        "rating": 7,
         "mediaType": "tv"
       }
     ],
@@ -539,14 +539,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 222714,
+        "id": 278579,
         "type": "tmdb",
-        "title": "蝶影",
-        "description": "1937年11月，上海沦陷，落入日军之手，以魏大宏、林秋雁为首的我地下党组织转入地下工作。1941年，日军在上海启动绝密的“蝎美人计划”，意图利用“伪钞”扰乱我国金融市场，并借机大肆掠夺我国珍贵的文物古籍等。以魏大宏、林秋雁为首的我党行动小组，秘密行动，行动途中，结识了唐二十三，胖子，瘦猴等一群侠肝义胆的年轻人，后来，小组一举粉碎了敌人的秘密计划，夺回了被掠夺去的文物古籍。林秋雁的同胞妹妹林秋月，原本是军统的学员，在一次意外中与姐姐失散，相认以后，受到大姐林秋雁的感召，和军统教官周天昊一起脱离军统组织，加入了魏大宏和林秋雁的行动小组。在一次战斗过程中，林秋月不幸牺牲，林秋雁则在完成任务以后，带着妹妹林秋月的遗愿，和教官周天昊一起北上参加了新四军。若干年后，经历了战场炮火洗礼的林秋雁和周天昊两个人，成长为我新四军优秀的指挥员。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/andkS4ZitjzxZBOAMiOeWeA4Z2b.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
-        "releaseDate": "2023-03-21",
-        "rating": 5,
+        "title": "天下同心",
+        "description": "1948年，面对蒋介石国民党反动派的假民主、真独裁，中共中央邀请民主人士前往解放区召开和平建国的政治协商会议，以毛泽东为核心的第一代党的领导集体，以政治、军事、经济、民生方方面面一切“为人民服务”的实际行动，最终让以李济深、沈钧儒、张澜、宋庆龄、黄炎培、梁思成等为代表的各民主党派、各阶层、各阵营，甚至包括傅作义等国民党起义高级将领、张治中等国共和谈代表都看到了中国共产党为中华民族带来的全新希望，他们从此自觉选择并真心拥护中国共产党的领导，团结合作、肝胆相照、荣辱与共，携手建立独立、民主、和平、统一的新中国，华夏大地万水朝东、天下同心，迈向伟大的民族复兴新征程 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7heT6xS5OGQrK32p6f8YknbJMXi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
+        "releaseDate": "2024-12-02",
+        "rating": 6,
         "mediaType": "tv"
       }
     ],
@@ -647,7 +647,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/ceybevjR1WAC4wqiHEEAhrW1U9L.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg",
         "releaseDate": "2015-02-08",
-        "rating": 8.699,
+        "rating": 8.7,
         "mediaType": "tv"
       },
       {
@@ -658,7 +658,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/sccDflItNho4OiHkzpiDxB2fUFw.jpg",
         "releaseDate": "2007-09-24",
-        "rating": 7.911,
+        "rating": 7.912,
         "mediaType": "tv"
       }
     ],
@@ -732,17 +732,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "releaseDate": "2025-11-12",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 302577,
         "type": "tmdb",
         "title": "猎豹",
@@ -750,6 +739,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
         "releaseDate": "2025-10-14",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "releaseDate": "2025-11-12",
         "rating": 8,
         "mediaType": "tv"
       },
@@ -846,17 +846,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -865,6 +854,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -1310,17 +1310,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 300172,
-        "type": "tmdb",
-        "title": "声鸣远扬2025",
-        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rDO187Hu0r4yuM1gxe91t3eoD2F.jpg",
-        "releaseDate": "2025-11-09",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 291862,
         "type": "tmdb",
         "title": "背后",
@@ -1332,13 +1321,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 304850,
+        "id": 300172,
         "type": "tmdb",
-        "title": "在江湖团建的日子",
-        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
-        "releaseDate": "2025-11-06",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rDO187Hu0r4yuM1gxe91t3eoD2F.jpg",
+        "releaseDate": "2025-11-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1350,6 +1339,17 @@
         "posterPath": null,
         "backdropPath": null,
         "releaseDate": "2025-10-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 304850,
+        "type": "tmdb",
+        "title": "在江湖团建的日子",
+        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
+        "releaseDate": "2025-11-06",
         "rating": 0,
         "mediaType": "tv"
       },
