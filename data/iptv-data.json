@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-23T12:21:41.626674",
+  "last_updated": "2025-11-23T18:17:06.621410",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -171,9 +171,7 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": [
-        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江卫视",
@@ -417,9 +415,7 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": [
-        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
-      ]
+      "childItems": []
     },
     {
       "name": "福建旅游",
