@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-27T08:49:36.892+08:00",
+  "last_updated": "2025-11-27T14:17:12.372+08:00",
   "tv": {
     "全网": [
       {
@@ -10,6 +10,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/wGAfm9rZ1Sm7KeNpDfkPHerMRL3.jpg",
         "releaseDate": "2025-11-22",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263044,
+        "type": "tmdb",
+        "title": "山河枕",
+        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
+        "releaseDate": "2025-10-30",
         "rating": 9,
         "mediaType": "tv"
       },
@@ -25,25 +36,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 261663,
+        "id": 251994,
         "type": "tmdb",
-        "title": "暗河传",
-        "description": "暗河，江湖第一刺客组织，由苏、慕、谢三家组成在朝能杀皇亲国威,在野能灭豪门大派,是令所有江湖人都畏惧的第一杀手组织。暗河大家长在刺杀唐门二老爷任务过程中身中奇毒，三家蠢蠢欲动，意图夺得眠龙剑，成为暗河新的大家长。苏暮雨作为暗河蛛影团首领\"傀”带地支十二肖“卯兔”慕雨墨等人一路守护大家长。在医治路上，苏暮雨受到了昔日前辈苏喆、 好友苏吕河的阻拦,也因此结识了药王谷神医白鹤淮。经过重重对战,新一代暗河由苏昌河担任大家长，苏暮雨担任苏家家主。他们想要通过“彼岸计划”改变暗河，带来一个生活在光明之下而非阴影之中，不再是任何人手中刀的新暗河。为了这一目标，他们周旋于江湖各派与皇室之间，不断寻找新的出路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/r9xXATAuqybQtidyTYSNwVfLt5Q.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ftVwJEKXCgCKGCb75e3MXwEBWBV.jpg",
-        "releaseDate": "2025-10-20",
-        "rating": 7.7,
+        "title": "大生意人",
+        "description": "惨遭陷害被流放的读书人古平原以死谋生，在夹缝中借势谋局，以票号立足、以茶发家、以盐立业、以粮济万民，用他的玩法在商场中逆风翻盘，成为造福一方的“大生意人”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/htvcf2HU0gsRcvApvUNNMYKdI3k.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
+        "releaseDate": "2025-11-25",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
-        "id": 263044,
+        "id": 211089,
         "type": "tmdb",
-        "title": "山河枕",
-        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-        "releaseDate": "2025-10-30",
-        "rating": 9,
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.392,
         "mediaType": "tv"
       },
       {
@@ -58,25 +69,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 211089,
+        "id": 261663,
         "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.3,
-        "mediaType": "tv"
-      },
-      {
-        "id": 251994,
-        "type": "tmdb",
-        "title": "大生意人",
-        "description": "惨遭陷害被流放的读书人古平原以死谋生，在夹缝中借势谋局，以票号立足、以茶发家、以盐立业、以粮济万民，用他的玩法在商场中逆风翻盘，成为造福一方的“大生意人”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/htvcf2HU0gsRcvApvUNNMYKdI3k.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
-        "releaseDate": "2025-11-25",
-        "rating": 0,
+        "title": "暗河传",
+        "description": "暗河，江湖第一刺客组织，由苏、慕、谢三家组成在朝能杀皇亲国威,在野能灭豪门大派,是令所有江湖人都畏惧的第一杀手组织。暗河大家长在刺杀唐门二老爷任务过程中身中奇毒，三家蠢蠢欲动，意图夺得眠龙剑，成为暗河新的大家长。苏暮雨作为暗河蛛影团首领\"傀”带地支十二肖“卯兔”慕雨墨等人一路守护大家长。在医治路上，苏暮雨受到了昔日前辈苏喆、 好友苏吕河的阻拦,也因此结识了药王谷神医白鹤淮。经过重重对战,新一代暗河由苏昌河担任大家长，苏暮雨担任苏家家主。他们想要通过“彼岸计划”改变暗河，带来一个生活在光明之下而非阴影之中，不再是任何人手中刀的新暗河。为了这一目标，他们周旋于江湖各派与皇室之间，不断寻找新的出路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/r9xXATAuqybQtidyTYSNwVfLt5Q.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ftVwJEKXCgCKGCb75e3MXwEBWBV.jpg",
+        "releaseDate": "2025-10-20",
+        "rating": 7.7,
         "mediaType": "tv"
       },
       {
@@ -115,17 +115,6 @@
     ],
     "优酷": [
       {
-        "id": 261663,
-        "type": "tmdb",
-        "title": "暗河传",
-        "description": "暗河，江湖第一刺客组织，由苏、慕、谢三家组成在朝能杀皇亲国威,在野能灭豪门大派,是令所有江湖人都畏惧的第一杀手组织。暗河大家长在刺杀唐门二老爷任务过程中身中奇毒，三家蠢蠢欲动，意图夺得眠龙剑，成为暗河新的大家长。苏暮雨作为暗河蛛影团首领\"傀”带地支十二肖“卯兔”慕雨墨等人一路守护大家长。在医治路上，苏暮雨受到了昔日前辈苏喆、 好友苏吕河的阻拦,也因此结识了药王谷神医白鹤淮。经过重重对战,新一代暗河由苏昌河担任大家长，苏暮雨担任苏家家主。他们想要通过“彼岸计划”改变暗河，带来一个生活在光明之下而非阴影之中，不再是任何人手中刀的新暗河。为了这一目标，他们周旋于江湖各派与皇室之间，不断寻找新的出路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/r9xXATAuqybQtidyTYSNwVfLt5Q.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ftVwJEKXCgCKGCb75e3MXwEBWBV.jpg",
-        "releaseDate": "2025-10-20",
-        "rating": 7.7,
-        "mediaType": "tv"
-      },
-      {
         "id": 271015,
         "type": "tmdb",
         "title": "凤凰台上",
@@ -137,14 +126,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 262928,
+        "id": 261663,
         "type": "tmdb",
-        "title": "入青云",
-        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
-        "releaseDate": "2025-10-08",
-        "rating": 8.1,
+        "title": "暗河传",
+        "description": "暗河，江湖第一刺客组织，由苏、慕、谢三家组成在朝能杀皇亲国威,在野能灭豪门大派,是令所有江湖人都畏惧的第一杀手组织。暗河大家长在刺杀唐门二老爷任务过程中身中奇毒，三家蠢蠢欲动，意图夺得眠龙剑，成为暗河新的大家长。苏暮雨作为暗河蛛影团首领\"傀”带地支十二肖“卯兔”慕雨墨等人一路守护大家长。在医治路上，苏暮雨受到了昔日前辈苏喆、 好友苏吕河的阻拦,也因此结识了药王谷神医白鹤淮。经过重重对战,新一代暗河由苏昌河担任大家长，苏暮雨担任苏家家主。他们想要通过“彼岸计划”改变暗河，带来一个生活在光明之下而非阴影之中，不再是任何人手中刀的新暗河。为了这一目标，他们周旋于江湖各派与皇室之间，不断寻找新的出路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/r9xXATAuqybQtidyTYSNwVfLt5Q.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ftVwJEKXCgCKGCb75e3MXwEBWBV.jpg",
+        "releaseDate": "2025-10-20",
+        "rating": 7.7,
         "mediaType": "tv"
       },
       {
@@ -156,6 +145,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/VHiGsZVvdwoTY4QUozztsVsLVJ.jpg",
         "releaseDate": "2023-11-17",
         "rating": 8.133,
+        "mediaType": "tv"
+      },
+      {
+        "id": 262928,
+        "type": "tmdb",
+        "title": "入青云",
+        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
+        "releaseDate": "2025-10-08",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -214,29 +214,18 @@
         "mediaType": "tv"
       },
       {
-        "id": 271486,
+        "id": 281705,
         "type": "tmdb",
-        "title": "守护者们",
-        "description": "谋局开启，前路艰辛。敌友难辨，迷雾之下，如何守护暗夜星光！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aKtc4miqnV3Uq0WBkwKuPG3DON2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9pS3L3FHsG3GkRY8LRfL61xqHnR.jpg",
-        "releaseDate": "2025-09-23",
-        "rating": 8,
+        "title": "绝命法官",
+        "description": "九十年代初的濠港暗流涌动，法官秦誉曾联手高级督察唐萱将社团头目韩奎龙定罪，却在爱子撞伤韩家长子后陷入两难。护子心切的秦誉伪造证据嫁祸偷车少年，堕入谎言的深渊。唐萱则坚守正义，穷追真相。这场博弈背后，官商勾结、警界腐败与陈年旧案相互纠缠。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sp9yddjWtZAKlGm06vn2hExxkst.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bALBQNgpxBBeFENsA0UwE8GeFDG.jpg",
+        "releaseDate": "2025-09-28",
+        "rating": 9.3,
         "mediaType": "tv"
       }
     ],
     "爱奇艺": [
-      {
-        "id": 211089,
-        "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.3,
-        "mediaType": "tv"
-      },
       {
         "id": 251994,
         "type": "tmdb",
@@ -246,6 +235,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
         "releaseDate": "2025-11-25",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 211089,
+        "type": "tmdb",
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.392,
         "mediaType": "tv"
       },
       {
@@ -326,14 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 271017,
+        "id": 272485,
         "type": "tmdb",
-        "title": "围猎",
-        "description": "南州禁毒大队杨一鹏、之安等新老缉毒干警在“清剿行动”后继续围猎丰茂村在逃嫌犯牟森等人归案。2016年，杨一鹏紧盯落网后仍负隅顽抗的“清剿行动”首犯牟海东，一个神秘电话号码牵出三年前逃逸的制毒师牟森。警方逐步摸排出牟森重回南州的重要线索，阻止了其在海滩制毒的计划，打击了牟森团伙与香江买家的海上交易，取得阶段性胜利。倍受打击的牟森着手研制新型毒品“邮票”，隐蔽入市，危害年轻人群。杨一鹏化装侦察获重要线索，警方摧毁了远在湘南的制毒工厂。牟森不甘，收拢暗网大佬安迪，妄图在滇川重建毒品王国。杨一鹏与新警员之安感化牟森身边误入歧途的青年多仔成为线人，传递关键情报。杨一鹏与战友奔赴滇川，终将躲藏于暗网基地的牟森抓获，挫败其建立新毒品网络的企图。至此，三年多的围猎行动画上圆满句号。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/xhzL2nvdfyhkDuQOS4ag1fv4Swg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xYFpCIrSzqoU49iW7sO3QOhb9IH.jpg",
-        "releaseDate": "2025-09-25",
-        "rating": 8,
+        "title": "生万物",
+        "description": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uNhSwGzGICLfyQMWgWTpSvX1Eje.jpg",
+        "releaseDate": "2025-08-13",
+        "rating": 8.8,
         "mediaType": "tv"
       }
     ],
@@ -405,14 +405,36 @@
         "mediaType": "tv"
       },
       {
-        "id": 302577,
+        "id": 273135,
         "type": "tmdb",
-        "title": "猎豹",
-        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
-        "releaseDate": "2025-10-14",
-        "rating": 8,
+        "title": "毒舌家庭",
+        "description": "蔡晓莺和李莉黎是来自遥远的仙女座星系的母女。仙女座星人是没有感情的种族，虽然是千年的母女关系，但是两人摩擦不断，在地球上分道扬镳，好几年不通音信。而这段生分的母女情在李莉黎的人生新旅程开启之日被迫重启。 作为一个星际社畜，李莉黎的工作是调查地球的方方面面，而为了“深入调查”，她选择和地球男性小孟结婚。新婚燕尔之际，已经花光所有财富还要挨半年才能回仙女星老家的蔡晓莺找上了门，打算赖上半年白嫖一间房，顺便搞到路费。而小孟这边虽然有一个“真爹”老孟，但老孟的不靠谱程度比起蔡姨，可谓棋逢对手。各怀心思的小夫妻，毒舌互怼的母女，身份倒置的父子，加上不打不相识的亲家公亲家母，“毒舌家庭”就此成团。这个散装家庭将在接下来的生活里不断碰到各种笑料与挑战。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dyIO6Fqzgxq8FaS17visPf3YSlf.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-11-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 85009,
+        "type": "tmdb",
+        "title": "锵锵三人行",
+        "description": "锵锵三人行由主持人窦文涛与两岸三地传媒界之精英名嘴，一起针对每日热门新闻事件进行研究，并各抒己见，但却又不属于追求问题答案的「正论」，而是「俗人闲话」，一派「多少天下事，尽付笑谈中」的豪情，达至融汇信息传播，制造乐趣与辩析事理三大元素于一身的目的。看似“平衡一下”的“滑头话”，其实是窦文涛引导嘉宾发表具个人色彩的大胆言论，营造日常聊天的形态、谈笑风生的气氛，力求轻松、惹笑。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zvS0sib3PgjlyPol1iHbalujTCp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/otWvnsGRtLxbrtDrqxXZshWneeN.jpg",
+        "releaseDate": "1998-04-01",
+        "rating": 8.2,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306574,
+        "type": "tmdb",
+        "title": "月拢雁西归",
+        "description": "因先君上打压导致武将凋零，新帝面临内忧外患，将军之子南辰筱扮女避祸，燕霖特赐婚他与扮男入仕的芮祤以护二人，以谋新变数。危局之下，二人四处奔走历经生死，后坦白秘密、情愫暗生，共助燕霖成就盛世。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yVV7DA7sRVn8m3D33fD6NXBOGyP.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-11-27",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -424,28 +446,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/f3eqWrwdpUrF8K6byvRtVMfabJB.jpg",
         "releaseDate": "2025-11-05",
         "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 282905,
-        "type": "tmdb",
-        "title": "重影",
-        "description": "“一桩没有尸体的凶案，一场没有终点的逃亡……” 一年前，北方小城“晨苍”发生了一起仇杀案，凶手秦虹潜逃。 一年后，警方在南方“发现”秦虹时，秦虹已被男友抛尸大海，尸骨无存。 这是一起人证、物证俱全，凶手甚至已经交代犯罪事实的案件，可消失无踪的尸体让主管刑警刘望惴惴不安。 “秦虹真的死了吗？”",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rut87Fztzg68R8h7KcD89O6wGe8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/dY9YBWsskH9vMQRvtSTxfeemXsR.jpg",
-        "releaseDate": "2025-10-26",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252321,
-        "type": "tmdb",
-        "title": "勿扰飞升",
-        "description": "一位在凡尘界备受冷遇的亡国公主箜篌，因机缘巧合意外进入修仙世界，为磨练心智，主动下山闯荡，偶遇了病弱男子桓宗一起升级打怪闯荡修仙界并发展出深厚的感情的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vwGCMZgwwFbmrfv5qE2Sccf5e0P.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yNDMAmliC4BLNSCVDWKSOjtqsic.jpg",
-        "releaseDate": "2025-11-15",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -506,17 +506,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 216989,
-        "type": "tmdb",
-        "title": "沸腾的群山",
-        "description": "该剧讲述1948年秋冬，辽沈战役决胜之后，东北野战军营长李龙岗和师政治部主任孙兴国等带部队进驻辽西南红石岭矿区。红石岭煤炭资源丰富，八一五光复后，国民党官员贪腐成性，肆意胡乱开采；他们在溃败撤离前，勾结土匪恶霸，破坏矿山，盗运设备器材，屠杀护矿群众。为保护即将回到人民手中的工厂、矿山，尽快恢复解放区生产建设、支援全国解放战争，李龙岗等人团结矿工、民众，与国民党残余部队、敌特分子和被他们收买的土匪恶霸等，进行了一场错综复杂、惊心动魄的斗争。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/opsEPYcyzwjkDia7xhGVaGW3JzI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ZrpoT5WWhN9yTtqEvvXa618yAr.jpg",
-        "releaseDate": "2017-04-24",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 246981,
         "type": "tmdb",
         "title": "创想季",
@@ -525,6 +514,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
         "releaseDate": "2024-02-21",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 250475,
+        "type": "tmdb",
+        "title": "川流",
+        "description": "二十世纪四十年代，成都。大学生郑笑南是个血性青年，目睹无辜民众死于日机轰炸、在大学共产党员同学的影响下，弃笔从戎、投身疆场。与日军一次恶战中，川军小分队全军覆没，郑笑南被八路军搭救并成为其中一员。在这个大熔炉中，他磨练了意志、坚定了信仰，成长为一名共产党员。解放战争时期，郑笑南肩负党的使命重返川军回到成都，一场斗智斗勇的战斗由此展开。凭借抗日英雄的身份，他策动将领起义、保护进步人士，在紧要关头成功化解了危机，瓦解敌人阴谋，为成都的和平解放贡献出青春热血。黎明到来，解放军入城。郑笑南完成了使命，收获了爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/p3KXfFUm1Z9fJIZXk2HaHK38f6k.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/u0lNhBm4ishAcQXIP5ydhTzxQDB.jpg",
+        "releaseDate": "2024-04-01",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -539,14 +539,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 250475,
+        "id": 216989,
         "type": "tmdb",
-        "title": "川流",
-        "description": "二十世纪四十年代，成都。大学生郑笑南是个血性青年，目睹无辜民众死于日机轰炸、在大学共产党员同学的影响下，弃笔从戎、投身疆场。与日军一次恶战中，川军小分队全军覆没，郑笑南被八路军搭救并成为其中一员。在这个大熔炉中，他磨练了意志、坚定了信仰，成长为一名共产党员。解放战争时期，郑笑南肩负党的使命重返川军回到成都，一场斗智斗勇的战斗由此展开。凭借抗日英雄的身份，他策动将领起义、保护进步人士，在紧要关头成功化解了危机，瓦解敌人阴谋，为成都的和平解放贡献出青春热血。黎明到来，解放军入城。郑笑南完成了使命，收获了爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/p3KXfFUm1Z9fJIZXk2HaHK38f6k.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/u0lNhBm4ishAcQXIP5ydhTzxQDB.jpg",
-        "releaseDate": "2024-04-01",
-        "rating": 8,
+        "title": "沸腾的群山",
+        "description": "该剧讲述1948年秋冬，辽沈战役决胜之后，东北野战军营长李龙岗和师政治部主任孙兴国等带部队进驻辽西南红石岭矿区。红石岭煤炭资源丰富，八一五光复后，国民党官员贪腐成性，肆意胡乱开采；他们在溃败撤离前，勾结土匪恶霸，破坏矿山，盗运设备器材，屠杀护矿群众。为保护即将回到人民手中的工厂、矿山，尽快恢复解放区生产建设、支援全国解放战争，李龙岗等人团结矿工、民众，与国民党残余部队、敌特分子和被他们收买的土匪恶霸等，进行了一场错综复杂、惊心动魄的斗争。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/opsEPYcyzwjkDia7xhGVaGW3JzI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ZrpoT5WWhN9yTtqEvvXa618yAr.jpg",
+        "releaseDate": "2017-04-24",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -835,14 +835,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 306210,
+        "id": 257161,
         "type": "tmdb",
-        "title": "奔跑吧·天路篇​",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
+        "releaseDate": "2024-06-28",
+        "rating": 5.5,
         "mediaType": "tv"
       },
       {
@@ -857,47 +857,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 257161,
+        "id": 306210,
         "type": "tmdb",
-        "title": "喜人奇妙夜",
-        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
-        "releaseDate": "2024-06-28",
-        "rating": 5.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 88580,
-        "type": "tmdb",
-        "title": "王牌对王牌",
-        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
-        "releaseDate": "2016-01-29",
-        "rating": 6.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 295028,
-        "type": "tmdb",
-        "title": "姐姐妹妹抓娃娃",
-        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bDvWFF9nvawZrm7ZI1XoJOAaIKm.jpg",
-        "releaseDate": "2025-08-19",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
+        "title": "奔跑吧·天路篇​",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -910,20 +877,42 @@
         "releaseDate": "2023-10-26",
         "rating": 9,
         "mediaType": "tv"
+      },
+      {
+        "id": 88580,
+        "type": "tmdb",
+        "title": "王牌对王牌",
+        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
+        "releaseDate": "2016-01-29",
+        "rating": 6.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 95903,
+        "type": "tmdb",
+        "title": "圆桌派",
+        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
+        "releaseDate": "2016-10-28",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
+        "mediaType": "tv"
       }
     ],
     "优酷": [
-      {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇​",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
       {
         "id": 301245,
         "type": "tmdb",
@@ -932,6 +921,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
         "releaseDate": "2025-10-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇​",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -947,17 +947,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302997,
-        "type": "tmdb",
-        "title": "一起开麦吧",
-        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
-        "releaseDate": "2025-10-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 95903,
         "type": "tmdb",
         "title": "圆桌派",
@@ -966,6 +955,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
         "releaseDate": "2016-10-28",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 302997,
+        "type": "tmdb",
+        "title": "一起开麦吧",
+        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "releaseDate": "2025-10-18",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1000,6 +1000,17 @@
         "releaseDate": "2025-10-30",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 155213,
+        "type": "tmdb",
+        "title": "麻花特开心",
+        "description": "《麻花特开心》是开心麻花首档团综。沈腾马丽带队出发，十二个奇妙的剧中世界，十二场沉浸式角色游戏，十二张热泪盈眶的笑脸。高能演技、爆笑反转、意外感动全线拉满。麻花全员，带你入戏！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/as6d7ok94aSH7dc8Sc4whjpCEgL.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pf7iBEt2xBg0Oorer5ExedOlSxd.jpg",
+        "releaseDate": "2022-01-09",
+        "rating": 6,
+        "mediaType": "tv"
       }
     ],
     "爱奇艺": [
@@ -1012,6 +1023,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1034,17 +1056,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
         "releaseDate": "2025-01-11",
         "rating": 6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 238136,
-        "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
-        "releaseDate": "2023-10-26",
-        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1094,17 +1105,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇​",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -1113,6 +1113,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇​",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1138,6 +1149,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 263226,
+        "type": "tmdb",
+        "title": "探索新境",
+        "description": "《探索新境》由华纳兄弟探索集团旗下的Discovery探索频道国际团队倾力打造，是王一博参与的首档户外探索纪实节目。王一博跟随六位Discovery中国探索家，分别前往六个极致地理目的地，雪山、沙漠、海岛、热带雨林等，开启深入极境的户外探索之旅。 在六段奇妙且刺激的旅程中，王一博与中国顶尖的生存和户外专家一道，探索极致的自然环境及户外挑战：在茂密的热带雨林中寻找珍稀的海南长臂猿，在大海夜潜拍摄璀璨的荧光珊瑚，在广袤无垠的沙漠中独自生活……节目不仅呈现了王一博探索未知自然的“新境”，还在过程中探讨年轻人关于成长的话题，展现当代年轻人不断突破、勇于探索的“心境”。 《探索新境》节目将自2024年8月31日起，在腾讯视频独家播出。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iNExaEXANS3HMMQo0XpNSVbZLaJ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nDNdylDMn5IzOTpFHBktZM82n6I.jpg",
+        "releaseDate": "2024-08-31",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -1157,17 +1179,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/eUQmVd0oyidrA8idDFLM1jIsRKF.jpg",
         "releaseDate": "2018-08-26",
         "rating": 5.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263226,
-        "type": "tmdb",
-        "title": "探索新境",
-        "description": "《探索新境》由华纳兄弟探索集团旗下的Discovery探索频道国际团队倾力打造，是王一博参与的首档户外探索纪实节目。王一博跟随六位Discovery中国探索家，分别前往六个极致地理目的地，雪山、沙漠、海岛、热带雨林等，开启深入极境的户外探索之旅。 在六段奇妙且刺激的旅程中，王一博与中国顶尖的生存和户外专家一道，探索极致的自然环境及户外挑战：在茂密的热带雨林中寻找珍稀的海南长臂猿，在大海夜潜拍摄璀璨的荧光珊瑚，在广袤无垠的沙漠中独自生活……节目不仅呈现了王一博探索未知自然的“新境”，还在过程中探讨年轻人关于成长的话题，展现当代年轻人不断突破、勇于探索的“心境”。 《探索新境》节目将自2024年8月31日起，在腾讯视频独家播出。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iNExaEXANS3HMMQo0XpNSVbZLaJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nDNdylDMn5IzOTpFHBktZM82n6I.jpg",
-        "releaseDate": "2024-08-31",
-        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -1217,17 +1228,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 87150,
-        "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "releaseDate": "2014-07-30",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 230721,
         "type": "tmdb",
         "title": "求职高手",
@@ -1235,6 +1235,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/j7VID8cY1wFE7lG5ibZplRSyps5.jpg",
         "backdropPath": null,
         "releaseDate": "2019-08-04",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 87150,
+        "type": "tmdb",
+        "title": "梦想改造家",
+        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
+        "releaseDate": "2014-07-30",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1299,17 +1310,6 @@
     "PPTV": [],
     "芒果TV": [
       {
-        "id": 295028,
-        "type": "tmdb",
-        "title": "姐姐妹妹抓娃娃",
-        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bDvWFF9nvawZrm7ZI1XoJOAaIKm.jpg",
-        "releaseDate": "2025-08-19",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "id": 291862,
         "type": "tmdb",
         "title": "背后",
@@ -1343,14 +1343,36 @@
         "mediaType": "tv"
       },
       {
-        "id": 121876,
+        "id": 295028,
         "type": "tmdb",
-        "title": "花儿与少年",
-        "description": "《花儿与少年》是湖南卫视推出的一档明星姐弟自助远行真人秀节目。该节目由“花少姐弟团”在没有经纪人、不准带助理、每天生活费有限的限制下，前往人生地不熟，甚至语言都根本不通的国度，完成一段异域的背包奇妙之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/s4WOcsEQ1pLjdKWEy7dcFDlWfI4.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kIgzX0QdvK3vtaoHBpj9fUy7DP9.jpg",
-        "releaseDate": "2014-04-25",
-        "rating": 6.9,
+        "title": "姐姐妹妹抓娃娃",
+        "description": "《姐姐妹妹抓娃娃》作为一档新概念全女冒险真人秀，以“全女冒险+文化出海+真实成长”为核心理念，集结五位女推团成员戚薇、李一桐、李雪琴、田曦薇、张艺凡共同组成宇宙最强抓手团，前往奇幻国度-土耳其，开启一场融合极限挑战、文化探索与自我突破的冒险之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/hl7oUKaWbramVidIY1KmxI7kSs3.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bDvWFF9nvawZrm7ZI1XoJOAaIKm.jpg",
+        "releaseDate": "2025-08-19",
+        "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 305779,
+        "type": "tmdb",
+        "title": "劲勇飞侠",
+        "description": "《劲勇飞侠》是由湖南广播电视台金鹰卡通卫视2025年打造的全国青少年体能竞技障碍赛。旨在通过核心力、平衡力、抓握力、上肢耐力、下肢爆发力、心肺能力的考验，展现中国青少年体能运动风采。节目将在全国海搜72名S级运动少年，全面推广体能障碍跑项目，为国际现代五项、奥运级赛事储备体育人才。打造中国青少年第一体育赛事IP、打造中国青少年第一赛事运动平台。",
+        "posterPath": null,
+        "backdropPath": null,
+        "releaseDate": "2025-10-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 301487,
+        "type": "tmdb",
+        "title": "乱“室”英雄",
+        "description": "《乱“室”英雄》是一档家居整理生活服务类节目，打造“乱室英雄改造团”，以“空间整理+人生疗愈”双线模式，直击人们生活中的“乱室”现象，用科学的方式“整理生活”。从焕新空间到激活人生，开启崭新的正向循环。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/elu6v7sbbmKP4qasN03TBA6iVXG.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-09-24",
+        "rating": 0,
         "mediaType": "tv"
       }
     ]
