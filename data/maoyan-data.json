@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-27T14:17:12.372+08:00",
+  "last_updated": "2025-11-27T20:20:43.696+08:00",
   "tv": {
     "全网": [
       {
@@ -10,17 +10,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/wGAfm9rZ1Sm7KeNpDfkPHerMRL3.jpg",
         "releaseDate": "2025-11-22",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263044,
-        "type": "tmdb",
-        "title": "山河枕",
-        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-        "releaseDate": "2025-10-30",
         "rating": 9,
         "mediaType": "tv"
       },
@@ -36,6 +25,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 211089,
+        "type": "tmdb",
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.4,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263044,
+        "type": "tmdb",
+        "title": "山河枕",
+        "description": "楚瑜的父亲战死沙场，身负重伤的兄长向她透露此中之事绝不简单，她立誓定要将真相查明。卫家在一场战役中遭遇惨败，卫家仅小儿子卫韫一人存活。楚瑜嫁入卫家，以已逝大哥遗孀的身份展开调查，起初卫韫心怀戒备，在之后的相处中被楚瑜所打动。两人之间情愫渐起，然而伪造的“叔嫂”身份却成为了阻碍。他们历经生死考验，共同抵御外敌，深入调查真相，携手守护大好山河。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
+        "releaseDate": "2025-10-30",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 251994,
         "type": "tmdb",
         "title": "大生意人",
@@ -44,17 +55,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
         "releaseDate": "2025-11-25",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 211089,
-        "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.392,
         "mediaType": "tv"
       },
       {
@@ -80,17 +80,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 262997,
-        "type": "tmdb",
-        "title": "他为什么依然单身",
-        "description": "一个貌似怪咖、实则善良的人，最终被世界宽容的故事。通过塑造一个极致怪癖的男人，引发吐槽、笑料百出的同时，带来有关人与世界的思考。热爱生活的男人年至不惑，却宣称“不婚”，是众星拱月的男神，还是女人避之不及的直男？是“不想结婚”还是“不能结婚”？当一位独身怪癖大叔，终于遇到心目中的女神，他将如何应对，最终抱得美人归。食无定味，适口者珍！没有不结婚的男人，只是没有找到适配的那个人罢了。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
-        "releaseDate": "2025-11-16",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 256920,
         "type": "tmdb",
         "title": "许我耀眼",
@@ -102,14 +91,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 273131,
+        "id": 262997,
         "type": "tmdb",
-        "title": "四喜",
-        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
-        "releaseDate": "2025-11-07",
+        "title": "他为什么依然单身",
+        "description": "一个貌似怪咖、实则善良的人，最终被世界宽容的故事。通过塑造一个极致怪癖的男人，引发吐槽、笑料百出的同时，带来有关人与世界的思考。热爱生活的男人年至不惑，却宣称“不婚”，是众星拱月的男神，还是女人避之不及的直男？是“不想结婚”还是“不能结婚”？当一位独身怪癖大叔，终于遇到心目中的女神，他将如何应对，最终抱得美人归。食无定味，适口者珍！没有不结婚的男人，只是没有找到适配的那个人罢了。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
+        "releaseDate": "2025-11-16",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 273135,
+        "type": "tmdb",
+        "title": "毒舌家庭",
+        "description": "蔡晓莺和李莉黎是来自遥远的仙女座星系的母女。仙女座星人是没有感情的种族，虽然是千年的母女关系，但是两人摩擦不断，在地球上分道扬镳，好几年不通音信。而这段生分的母女情在李莉黎的人生新旅程开启之日被迫重启。 作为一个星际社畜，李莉黎的工作是调查地球的方方面面，而为了“深入调查”，她选择和地球男性小孟结婚。新婚燕尔之际，已经花光所有财富还要挨半年才能回仙女星老家的蔡晓莺找上了门，打算赖上半年白嫖一间房，顺便搞到路费。而小孟这边虽然有一个“真爹”老孟，但老孟的不靠谱程度比起蔡姨，可谓棋逢对手。各怀心思的小夫妻，毒舌互怼的母女，身份倒置的父子，加上不打不相识的亲家公亲家母，“毒舌家庭”就此成团。这个散装家庭将在接下来的生活里不断碰到各种笑料与挑战。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dyIO6Fqzgxq8FaS17visPf3YSlf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lmpqHkWpkpMG7p1ozB54uolU17N.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -137,6 +137,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 262928,
+        "type": "tmdb",
+        "title": "入青云",
+        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
+        "releaseDate": "2025-10-08",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
         "id": 226197,
         "type": "tmdb",
         "title": "新闻女王",
@@ -148,14 +159,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 262928,
+        "id": 263218,
         "type": "tmdb",
-        "title": "入青云",
-        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
-        "releaseDate": "2025-10-08",
-        "rating": 8,
+        "title": "亦舞之城",
+        "description": "芭蕾舞艺术家谭思婷退役归国，欲与当年被迫分开的恋人冯睿破镜重圆，但是过去的误会如同天堑一般隔断两人。如今的冯睿独自一个人带着孩子，生活如同深潭静水，谭思婷回来如同一颗石子搅乱了一切。而谭思婷身边也有一个默默爱了她十年的暗恋者，这次勇敢追爱对她不离不弃。冯睿和谭思婷彼此逃避对方，但是命运的漩涡却不断的将两人裹挟其中，令他们爱恨两难。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nCQJIhSTssXlmXSQn3c6qIJB8p4.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/xA1nqK1rHVRfBU0T1T12ldA5oFy.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -212,20 +223,20 @@
         "releaseDate": "2025-09-11",
         "rating": 10,
         "mediaType": "tv"
-      },
-      {
-        "id": 281705,
-        "type": "tmdb",
-        "title": "绝命法官",
-        "description": "九十年代初的濠港暗流涌动，法官秦誉曾联手高级督察唐萱将社团头目韩奎龙定罪，却在爱子撞伤韩家长子后陷入两难。护子心切的秦誉伪造证据嫁祸偷车少年，堕入谎言的深渊。唐萱则坚守正义，穷追真相。这场博弈背后，官商勾结、警界腐败与陈年旧案相互纠缠。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sp9yddjWtZAKlGm06vn2hExxkst.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bALBQNgpxBBeFENsA0UwE8GeFDG.jpg",
-        "releaseDate": "2025-09-28",
-        "rating": 9.3,
-        "mediaType": "tv"
       }
     ],
     "爱奇艺": [
+      {
+        "id": 211089,
+        "type": "tmdb",
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.4,
+        "mediaType": "tv"
+      },
       {
         "id": 251994,
         "type": "tmdb",
@@ -235,17 +246,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
         "releaseDate": "2025-11-25",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 211089,
-        "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.392,
         "mediaType": "tv"
       },
       {
@@ -304,6 +304,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 284143,
+        "type": "tmdb",
+        "title": "暗影侦探",
+        "description": "一九三〇年代初，一起女大学生宿舍离奇死亡案案发上海滩，中央巡捕房探长关岑因此结识热爱侦探小说的女大生陆以真，并由此牵扯出一起十七年前的女童绑架案。两年后，陆以真参加上海第一批女警招考，关岑成为她的直属上司。在案件迭出的巡捕房，二人联手，重启调查女童拐卖案，驱散了遮蔽在他们头顶的迷雾与噩梦。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1kT42LqVBH7TprjqkaNHq6uYRQB.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/vXutCa8wNb9LMmjfuvlWzZBrFZD.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 263151,
         "type": "tmdb",
         "title": "树影迷宫",
@@ -323,17 +334,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5D1xXcQAFXHuKc7MrMhTE7S5HKd.jpg",
         "releaseDate": "2025-09-04",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 272485,
-        "type": "tmdb",
-        "title": "生万物",
-        "description": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uNhSwGzGICLfyQMWgWTpSvX1Eje.jpg",
-        "releaseDate": "2025-08-13",
-        "rating": 8.8,
         "mediaType": "tv"
       }
     ],
@@ -361,17 +361,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 262997,
-        "type": "tmdb",
-        "title": "他为什么依然单身",
-        "description": "一个貌似怪咖、实则善良的人，最终被世界宽容的故事。通过塑造一个极致怪癖的男人，引发吐槽、笑料百出的同时，带来有关人与世界的思考。热爱生活的男人年至不惑，却宣称“不婚”，是众星拱月的男神，还是女人避之不及的直男？是“不想结婚”还是“不能结婚”？当一位独身怪癖大叔，终于遇到心目中的女神，他将如何应对，最终抱得美人归。食无定味，适口者珍！没有不结婚的男人，只是没有找到适配的那个人罢了。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
-        "releaseDate": "2025-11-16",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 256920,
         "type": "tmdb",
         "title": "许我耀眼",
@@ -383,14 +372,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 273131,
+        "id": 262997,
         "type": "tmdb",
-        "title": "四喜",
-        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
-        "releaseDate": "2025-11-07",
+        "title": "他为什么依然单身",
+        "description": "一个貌似怪咖、实则善良的人，最终被世界宽容的故事。通过塑造一个极致怪癖的男人，引发吐槽、笑料百出的同时，带来有关人与世界的思考。热爱生活的男人年至不惑，却宣称“不婚”，是众星拱月的男神，还是女人避之不及的直男？是“不想结婚”还是“不能结婚”？当一位独身怪癖大叔，终于遇到心目中的女神，他将如何应对，最终抱得美人归。食无定味，适口者珍！没有不结婚的男人，只是没有找到适配的那个人罢了。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5kX8NTtYE67eT5VE4dXspW1wtzi.jpg",
+        "releaseDate": "2025-11-16",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 273135,
+        "type": "tmdb",
+        "title": "毒舌家庭",
+        "description": "蔡晓莺和李莉黎是来自遥远的仙女座星系的母女。仙女座星人是没有感情的种族，虽然是千年的母女关系，但是两人摩擦不断，在地球上分道扬镳，好几年不通音信。而这段生分的母女情在李莉黎的人生新旅程开启之日被迫重启。 作为一个星际社畜，李莉黎的工作是调查地球的方方面面，而为了“深入调查”，她选择和地球男性小孟结婚。新婚燕尔之际，已经花光所有财富还要挨半年才能回仙女星老家的蔡晓莺找上了门，打算赖上半年白嫖一间房，顺便搞到路费。而小孟这边虽然有一个“真爹”老孟，但老孟的不靠谱程度比起蔡姨，可谓棋逢对手。各怀心思的小夫妻，毒舌互怼的母女，身份倒置的父子，加上不打不相识的亲家公亲家母，“毒舌家庭”就此成团。这个散装家庭将在接下来的生活里不断碰到各种笑料与挑战。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dyIO6Fqzgxq8FaS17visPf3YSlf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lmpqHkWpkpMG7p1ozB54uolU17N.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -405,12 +405,23 @@
         "mediaType": "tv"
       },
       {
-        "id": 273135,
+        "id": 273131,
         "type": "tmdb",
-        "title": "毒舌家庭",
-        "description": "蔡晓莺和李莉黎是来自遥远的仙女座星系的母女。仙女座星人是没有感情的种族，虽然是千年的母女关系，但是两人摩擦不断，在地球上分道扬镳，好几年不通音信。而这段生分的母女情在李莉黎的人生新旅程开启之日被迫重启。 作为一个星际社畜，李莉黎的工作是调查地球的方方面面，而为了“深入调查”，她选择和地球男性小孟结婚。新婚燕尔之际，已经花光所有财富还要挨半年才能回仙女星老家的蔡晓莺找上了门，打算赖上半年白嫖一间房，顺便搞到路费。而小孟这边虽然有一个“真爹”老孟，但老孟的不靠谱程度比起蔡姨，可谓棋逢对手。各怀心思的小夫妻，毒舌互怼的母女，身份倒置的父子，加上不打不相识的亲家公亲家母，“毒舌家庭”就此成团。这个散装家庭将在接下来的生活里不断碰到各种笑料与挑战。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dyIO6Fqzgxq8FaS17visPf3YSlf.jpg",
-        "backdropPath": null,
+        "title": "四喜",
+        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
+        "releaseDate": "2025-11-07",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306574,
+        "type": "tmdb",
+        "title": "月拢雁西归",
+        "description": "因先君上打压导致武将凋零，新帝面临内忧外患，将军之子南辰筱扮女避祸，燕霖特赐婚他与扮男入仕的芮祤以护二人，以谋新变数。危局之下，二人四处奔走历经生死，后坦白秘密、情愫暗生，共助燕霖成就盛世。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yVV7DA7sRVn8m3D33fD6NXBOGyP.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lBnFREduZ8M6Tt8Z4ixeyXiotTn.jpg",
         "releaseDate": "2025-11-27",
         "rating": 0,
         "mediaType": "tv"
@@ -427,24 +438,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 306574,
+        "id": 282905,
         "type": "tmdb",
-        "title": "月拢雁西归",
-        "description": "因先君上打压导致武将凋零，新帝面临内忧外患，将军之子南辰筱扮女避祸，燕霖特赐婚他与扮男入仕的芮祤以护二人，以谋新变数。危局之下，二人四处奔走历经生死，后坦白秘密、情愫暗生，共助燕霖成就盛世。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yVV7DA7sRVn8m3D33fD6NXBOGyP.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-11-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 270858,
-        "type": "tmdb",
-        "title": "棕眼之谜",
-        "description": "推理视频博主杨正辉发现前女友刘薇失踪许久，而这似乎与一位名叫曾杰的陶艺家有关。一年前曾杰工作室的火灾掩盖了关于刘薇的秘密，如今的曾杰竟又在谋划杀妻夺财。随着杨正辉的调查，“真相背后的逻辑”渐渐显现……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7pO7e8LtIk8KT68uRBqGV4w4iPF.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/f3eqWrwdpUrF8K6byvRtVMfabJB.jpg",
-        "releaseDate": "2025-11-05",
+        "title": "重影",
+        "description": "“一桩没有尸体的凶案，一场没有终点的逃亡……” 一年前，北方小城“晨苍”发生了一起仇杀案，凶手秦虹潜逃。 一年后，警方在南方“发现”秦虹时，秦虹已被男友抛尸大海，尸骨无存。 这是一起人证、物证俱全，凶手甚至已经交代犯罪事实的案件，可消失无踪的尸体让主管刑警刘望惴惴不安。 “秦虹真的死了吗？”",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rut87Fztzg68R8h7KcD89O6wGe8.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dY9YBWsskH9vMQRvtSTxfeemXsR.jpg",
+        "releaseDate": "2025-10-26",
         "rating": 7,
         "mediaType": "tv"
       }
@@ -857,17 +857,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇​",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -876,6 +865,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
         "releaseDate": "2023-10-26",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇​",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -890,25 +890,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 95903,
+        "id": 130099,
         "type": "tmdb",
-        "title": "圆桌派",
-        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
-        "releaseDate": "2016-10-28",
-        "rating": 9,
+        "title": "再见爱人",
+        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "releaseDate": "2021-07-28",
+        "rating": 8.1,
         "mediaType": "tv"
       },
       {
-        "id": 278324,
+        "id": 302997,
         "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
+        "title": "一起开麦吧",
+        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "releaseDate": "2025-10-18",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -929,7 +929,7 @@
         "type": "tmdb",
         "title": "奔跑吧·天路篇​",
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
         "rating": 0,
@@ -947,17 +947,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 95903,
-        "type": "tmdb",
-        "title": "圆桌派",
-        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
-        "releaseDate": "2016-10-28",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 302997,
         "type": "tmdb",
         "title": "一起开麦吧",
@@ -966,6 +955,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
         "releaseDate": "2025-10-18",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 95903,
+        "type": "tmdb",
+        "title": "圆桌派",
+        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
+        "releaseDate": "2016-10-28",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1015,17 +1015,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇​",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -1034,6 +1023,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
         "releaseDate": "2023-10-26",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇​",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1120,7 +1120,7 @@
         "type": "tmdb",
         "title": "奔跑吧·天路篇​",
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gFTLaaUgelvSLqBvN5PhfVzEHC6.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
         "rating": 0,
@@ -1182,13 +1182,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 204253,
+        "id": 87150,
         "type": "tmdb",
-        "title": "战至巅峰",
-        "description": "《战至巅峰》是一档以王者荣耀赛事为背景，传递电竞精神、团队力量的节目。节目将邀请来自体育圈、演艺圈、电竞圈等各领域优质榜样，带着对电子竞技运动的热爱与追求，一起感受电竞比赛体育魅力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uSPjPv4kGke4mJt67lhwYGHoakf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/aCY9tBsZnRhTq2306gVo40H7JNW.jpg",
-        "releaseDate": "2022-06-11",
+        "title": "梦想改造家",
+        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
+        "releaseDate": "2014-07-30",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1310,6 +1310,17 @@
     "PPTV": [],
     "芒果TV": [
       {
+        "id": 130099,
+        "type": "tmdb",
+        "title": "再见爱人",
+        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "releaseDate": "2021-07-28",
+        "rating": 8.1,
+        "mediaType": "tv"
+      },
+      {
         "id": 291862,
         "type": "tmdb",
         "title": "背后",
@@ -1332,14 +1343,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 130099,
+        "id": 301487,
         "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
-        "releaseDate": "2021-07-28",
-        "rating": 8.1,
+        "title": "乱“室”英雄",
+        "description": "《乱“室”英雄》是一档家居整理生活服务类节目，打造“乱室英雄改造团”，以“空间整理+人生疗愈”双线模式，直击人们生活中的“乱室”现象，用科学的方式“整理生活”。从焕新空间到激活人生，开启崭新的正向循环。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/elu6v7sbbmKP4qasN03TBA6iVXG.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-09-24",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1361,17 +1372,6 @@
         "posterPath": null,
         "backdropPath": null,
         "releaseDate": "2025-10-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 301487,
-        "type": "tmdb",
-        "title": "乱“室”英雄",
-        "description": "《乱“室”英雄》是一档家居整理生活服务类节目，打造“乱室英雄改造团”，以“空间整理+人生疗愈”双线模式，直击人们生活中的“乱室”现象，用科学的方式“整理生活”。从焕新空间到激活人生，开启崭新的正向循环。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/elu6v7sbbmKP4qasN03TBA6iVXG.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-09-24",
         "rating": 0,
         "mediaType": "tv"
       }
