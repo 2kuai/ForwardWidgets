@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T12:26:54.077841",
+  "last_updated": "2025-12-03T18:20:45.049966",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -353,17 +353,15 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
-        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8"
       ]
     },
     {
       "name": "浙江经济",
       "description": "浙江经济频道是浙江广播电视集团旗下的专业财经频道，聚焦浙江经济发展动态，提供权威财经资讯、市场分析和商业报道，助力企业和投资者把握经济趋势。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江经济生活.png,lfo-center,l-end,l-end/浙江经济生活.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "浙江少儿",
