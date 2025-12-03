@@ -37,7 +37,7 @@ WidgetMetadata = {
   id: "vod_sream",
   title: "VOD Stream",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.0.0",
+  version: "1.0.1",
   requiredVersion: "0.0.1",
   description: "聚合VOD资源",
   author: "两块",
@@ -91,7 +91,7 @@ async function loadResource(params) {
     const resources = [];
 
     // 需要过滤的播放源名称
-    const FILTERED_SOURCES = ['qq', 'youku', 'mgtv', 'bilibili', 'qiyi'];
+    const FILTERED_SOURCES = ['qq', 'youku', 'mgtv', 'bilibili', 'qiyi', 'jsyun'];
     
     // 处理每个接口的响应
     responses.forEach((result) => {
