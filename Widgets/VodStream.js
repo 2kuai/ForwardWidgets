@@ -1,11 +1,51 @@
 const RESOURCE_SITES = [
   {
-    title: "极速资源",
-    value: "https://jszyapi.com/api.php/provide/vod/",
+    title: "电影天堂",
+    value:"http://caiji.dyttzyapi.com/api.php/provide/vod/"
   },
   {
-    title: "虾米资源",
-    value: "https://gctf.tfdh.top/api.php/provide/vod/",
+    title: "卧龙资源",
+    value:"https://collect.wolongzy.cc/api.php/provide/vod/"
+  },
+  {
+    title: "非凡影视",
+    value:"http://ffzy4.tv/api.php/provide/vod/"
+  },
+  {
+    title: "艾蛋资源",
+    value:"https://www.lovedan.net/api.php/provide/vod/"
+  },
+  {
+    title: "爱奇艺采集",
+    value:"https://iqiyizyapi.com/api.php/provide/vod/"
+  },
+  {
+    title: "豆瓣资源",
+    value:"https://p2100.net/api.php/provide/vod/"
+  },
+  {
+    title: "360资源",
+    value:"https://360zy.com/api.php/provide/vod/"
+  },
+  {
+    title: "网易资源",
+    value:"https://www.wyvod.com/api.php/provide/vod/"
+  },
+  {
+    title: "猫眼资源",
+    value:"https://api.maoyanapi.top/api.php/provide/vod/"
+  },
+  {
+    title: "暴风资源",
+    value:"https://bfzyapi.com/api.php/provide/vod/"
+  },
+  {
+    title: "茅台资源",
+    value:"https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/"
+  },
+  {
+    title: "极速资源",
+    value: "https://jszyapi.com/api.php/provide/vod/",
   },
   {
     title: "无尽资源",
@@ -27,19 +67,18 @@ const RESOURCE_SITES = [
     title: "阿里资源",
     value: "https://alivod.com/api.php/provide/vod/",
   },
-  {
-    title: "先锋资源",
-    value: "http://60.204.225.89:1122/api.php/provide/vod/",
-  },
 ];
+
+// 需要过滤的播放源名称
+const FILTERED_SOURCES = new Set(['qq', 'youku', 'mgtv', 'bilibili', 'qiyi', 'jsyun', 'dytt']);
 
 WidgetMetadata = {
   id: "vod_sream",
   title: "VOD Stream",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.0.1",
+  version: "1.0.2",
   requiredVersion: "0.0.1",
-  description: "聚合VOD资源",
+  description: "获取聚合VOD影片资源",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
   modules: [
@@ -53,271 +92,223 @@ WidgetMetadata = {
   ],
 };
 
+/**
+ * 解析播放源名称
+ */
+function parseSourceNames(playFrom) {
+  if (!playFrom) return ['默认源'];
+  return playFrom.includes('$$$') ? playFrom.split('$$$') : [playFrom];
+}
+
+/**
+ * 处理电影资源
+ */
+function processMovieResource(item, siteTitle, cleanedVodName, resources, filteredSources) {
+  const playUrl = item.vod_play_url;
+  const playFrom = item.vod_play_from || '';
+  const sourceNames = parseSourceNames(playFrom);
+  
+  // 检查是否有多个播放源版本
+  if (playUrl.includes('$$$')) {
+    const playSources = playUrl.split('$$$');
+    
+    playSources.forEach((source, sourceIndex) => {
+      const sourceName = sourceNames[sourceIndex] || `版本${sourceIndex + 1}`;
+      
+      // 检查是否需要过滤此播放源
+      if (filteredSources.has(sourceName)) return;
+      
+      if (source && source.includes('$')) {
+        const parts = source.split('$');
+        if (parts.length >= 2) {
+          const qualityLabel = parts[0] || '';
+          const url = parts[1].trim();
+          
+          if (url) {
+            resources.push({
+              name: siteTitle,
+              description: `${cleanedVodName}${qualityLabel ? ` (${qualityLabel})` : ''} [${sourceName}]`,
+              url: url
+            });
+          }
+        }
+      } else if (source && source.trim()) {
+        resources.push({
+          name: siteTitle,
+          description: `${cleanedVodName} [${sourceName}]`,
+          url: source.trim()
+        });
+      }
+    });
+  } else {
+    // 单个播放源版本
+    const sourceName = sourceNames[0] || '默认版本';
+    
+    if (filteredSources.has(sourceName)) return;
+    
+    if (playUrl.includes('$')) {
+      const parts = playUrl.split('$');
+      if (parts.length >= 2) {
+        const qualityLabel = parts[0] || '';
+        const url = parts[1].trim();
+        
+        if (url) {
+          resources.push({
+            name: siteTitle,
+            description: `${cleanedVodName}${qualityLabel ? ` (${qualityLabel})` : ''} [${sourceName}]`,
+            url: url
+          });
+        }
+      }
+    } else if (playUrl.trim()) {
+      resources.push({
+        name: siteTitle,
+        description: `${cleanedVodName} [${sourceName}]`,
+        url: playUrl.trim()
+      });
+    }
+  }
+}
+
+/**
+ * 处理电视剧资源
+ */
+function processTVResource(item, siteTitle, cleanedVodName, targetEpisode, resources, filteredSources) {
+  const playUrl = item.vod_play_url;
+  const playFrom = item.vod_play_from || '';
+  const sourceNames = parseSourceNames(playFrom);
+  
+  // 分割不同的播放源
+  const playSources = playUrl.split('$$$');
+  
+  // 优先使用第二个播放源（m3u8格式）
+  let playSourceIndex = playSources.length >= 2 ? 1 : 0;
+  const playSource = playSources[playSourceIndex];
+  const sourceName = sourceNames[playSourceIndex] || `版本${playSourceIndex + 1}`;
+  
+  // 检查是否需要过滤此播放源
+  if (filteredSources.has(sourceName)) return;
+  
+  // 分割剧集
+  const episodes = playSource.split('#');
+  
+  // 如果没有指定具体集数，返回所有剧集
+  if (!targetEpisode) {
+    episodes.forEach((ep) => {
+      if (!ep || !ep.includes('$')) return;
+      
+      const [episodeTitle, episodeUrl] = ep.split('$');
+      const url = episodeUrl?.trim();
+      
+      if (url) {
+        resources.push({
+          name: siteTitle,
+          description: `${cleanedVodName} ${episodeTitle || ''} [${sourceName}]`,
+          url: url
+        });
+      }
+    });
+  } else {
+    // 如果指定了具体集数，只返回该集
+    const episodeStr = targetEpisode.toString().padStart(2, '0');
+    const episodePattern = `第${episodeStr}集`;
+    
+    episodes.forEach((ep) => {
+      if (!ep || !ep.includes('$')) return;
+      
+      const [episodeTitle, episodeUrl] = ep.split('$');
+      const url = episodeUrl?.trim();
+      
+      // 检查是否包含目标集数
+      if (url && episodeTitle && episodeTitle.includes(episodePattern)) {
+        resources.push({
+          name: siteTitle,
+          description: `${cleanedVodName} ${episodeTitle} [${sourceName}]`,
+          url: url
+        });
+      }
+    });
+  }
+}
+
 async function loadResource(params) {
   const { seriesName, episode, type } = params;
   
-  console.log(`开始搜索: ${seriesName}, 类型: ${type}, 集数: ${episode}`);
+  if (!seriesName) {
+    console.error("搜索词不能为空");
+    return [];
+  }
   
-  const queryParams = {
-    ac: "videolist",
-    wd: seriesName,
-    pg: 1
-  };
+  // 预处理搜索词（只执行一次）
+  const cleanedSeriesName = seriesName.trim();
+  console.log(`开始搜索: "${cleanedSeriesName}", 类型: ${type}, 集数: ${episode}`);
+  
+  // 预处理目标集数（只执行一次）
+  let targetEpisode = null;
+  if (episode) {
+    targetEpisode = typeof episode === 'string' && !isNaN(parseInt(episode)) 
+      ? parseInt(episode) 
+      : episode;
+  }
+  
+  const queryParams = { ac: "detail", wd: cleanedSeriesName };
   
   try {
-    // 并发所有接口
-    const responses = await Promise.all(
-      RESOURCE_SITES.map(async (site) => {
-        try {
-          const response = await Widget.http.get(site.value, { params: queryParams });
-          
-          if (response.data && response.data.code === 1 && response.data.list && response.data.list.length > 0) {
-            console.log(`${site.title} 返回数据成功，数量: ${response.data.list.length}`);
-            return { 
-              site: site.title, 
-              data: response.data.list
-            };
-          } else {
-            console.log(`${site.title} 无数据或请求失败`);
-          }
-          return null;
-        } catch (error) {
-          console.error(`请求 ${site.title} 失败:`, error);
-          return null;
+    // 并行请求所有接口，设置超时和错误处理
+    const sitePromises = RESOURCE_SITES.map(async (site) => {
+      try {
+        // 可以添加超时控制
+        const response = await Widget.http.get(site.value, { params: queryParams });
+        
+        if (response.data?.code === 1 && response.data.list?.length > 0) {
+          return { 
+            site: site.title, 
+            data: response.data.list
+          };
         }
-      })
-    );
+      } catch (error) {
+        // 静默处理错误，不中断其他请求
+      }
+      return null;
+    });
     
+    const responses = await Promise.all(sitePromises);
     const resources = [];
-
-    // 需要过滤的播放源名称
-    const FILTERED_SOURCES = ['qq', 'youku', 'mgtv', 'bilibili', 'qiyi', 'jsyun'];
     
-    // 处理每个接口的响应
-    responses.forEach((result) => {
+    // 并行处理每个站点的响应
+    const processingPromises = responses.map(async (result) => {
       if (!result || !result.data) return;
-
-      console.log(`处理 ${result.site} 的数据，数量: ${result.data.length}`);
-
-      // 遍历数据
-      result.data.forEach((item, index) => {
-        console.log(`[${index}] 检查项目: "${item.vod_name}"`);
+      
+      // 对每个资源进行并行处理
+      const resourcePromises = result.data.map(async (item) => {
+        // 快速检查必要字段
+        if (!item.vod_name || !item.vod_play_url) return;
         
-        // 检查名称是否匹配
-        if (!item.vod_name || !seriesName) {
-          console.log(`  -> 名称或搜索词为空`);
+        // 名称匹配检查
+        const cleanedVodName = item.vod_name.trim();
+        if (cleanedVodName !== cleanedSeriesName) return;
+        
+        // 类型匹配检查
+        const resourceType = item.type_id_1;
+        if ((type === 'movie' && resourceType != 1) || 
+            (type === 'tv' && resourceType != 2)) {
           return;
         }
         
-        // 类型判断逻辑
+        // 根据类型处理资源
         if (type === 'movie') {
-          // 电影：使用精确匹配
-          if (item.vod_name !== seriesName) {
-            console.log(`  -> 电影名称不匹配: "${item.vod_name}" !== "${seriesName}"`);
-            return;
-          }
-          console.log(`  -> 电影名称匹配成功`);
-        } else {
-          // 电视剧：使用宽松匹配
-          const isMatch = item.vod_name === seriesName || 
-                         item.vod_name.includes(seriesName) ||
-                         (seriesName && seriesName.includes(item.vod_name));
-          if (!isMatch) {
-            console.log(`  -> 电视剧名称不匹配: "${item.vod_name}" !== "${seriesName}"`);
-            return;
-          }
-          console.log(`  -> 电视剧名称匹配成功`);
-        }
-        
-        if (!item.vod_play_url) {
-          console.log(`  -> 没有播放地址`);
-          return;
-        }
-        
-        console.log(`  -> 播放地址: ${item.vod_play_url.substring(0, 50)}...`);
-        
-        if (type === 'movie') {
-          // 电影处理逻辑 - 返回所有版本播放地址
-          const playUrl = item.vod_play_url;
-          const playFrom = item.vod_play_from || '';
-          
-          console.log(`  -> vod_play_from: ${playFrom}`);
-          
-          // 获取播放源名称数组
-          let sourceNames = [];
-          if (playFrom && playFrom.includes('$$$')) {
-            sourceNames = playFrom.split('$$$');
-          } else if (playFrom) {
-            sourceNames = [playFrom];
-          } else {
-            sourceNames = ['默认源'];
-          }
-          
-          console.log(`  -> 源名称数组: ${JSON.stringify(sourceNames)}`);
-          
-          // 检查是否有多个播放源版本（用 $$$ 分隔）
-          if (playUrl.includes('$$$')) {
-            // 多个播放源版本的情况 - 处理每个版本
-            const playSources = playUrl.split('$$$');
-            console.log(`  -> 发现多个播放源: ${playSources.length} 个`);
-            
-            playSources.forEach((source, sourceIndex) => {
-              const sourceName = sourceNames[sourceIndex] || `版本${sourceIndex + 1}`;
-              
-              // 检查是否需要过滤此播放源
-              if (FILTERED_SOURCES.includes(sourceName)) {
-                console.log(`  -> 过滤播放源: ${sourceName}`);
-                return; // 跳过这个播放源
-              }
-              
-              if (source && source.includes('$')) {
-                // 格式：质量标识$URL
-                const parts = source.split('$');
-                if (parts.length >= 2) {
-                  const qualityLabel = parts[0] || ''; // HD中字、正片、HD等
-                  const url = parts[1];
-                  
-                  resources.push({
-                    name: result.site,
-                    description: `${item.vod_name}${qualityLabel ? ` (${qualityLabel})` : ''} [${sourceName}]`,
-                    url: url.trim()
-                  });
-                  console.log(`  -> 添加资源: ${qualityLabel} [${sourceName}]`);
-                } else {
-                  console.log(`  -> 播放源格式错误，parts长度: ${parts.length}`);
-                }
-              } else if (source && source.trim()) {
-                // 直接是URL
-                resources.push({
-                  name: result.site,
-                  description: `${item.vod_name} [${sourceName}]`,
-                  url: source.trim()
-                });
-                console.log(`  -> 添加资源: [${sourceName}]`);
-              }
-            });
-          } else {
-            // 单个播放源版本的情况
-            console.log(`  -> 单个播放源`);
-            const sourceName = sourceNames[0] || '默认版本';
-            
-            // 检查是否需要过滤此播放源
-            if (FILTERED_SOURCES.includes(sourceName)) {
-              console.log(`  -> 过滤播放源: ${sourceName}`);
-              return; // 跳过这个播放源
-            }
-            
-            if (playUrl.includes('$')) {
-              const parts = playUrl.split('$');
-              console.log(`  -> 分割结果 parts: ${JSON.stringify(parts)}`);
-              
-              if (parts.length >= 2) {
-                const qualityLabel = parts[0] || '';
-                const url = parts[1];
-                
-                resources.push({
-                  name: result.site,
-                  description: `${item.vod_name}${qualityLabel ? ` (${qualityLabel})` : ''} [${sourceName}]`,
-                  url: url.trim()
-                });
-                console.log(`  -> 添加单个资源: ${qualityLabel} [${sourceName}]`);
-              } else {
-                console.log(`  -> 单个播放源格式错误，parts长度: ${parts.length}`);
-              }
-            } else {
-              // 直接是URL
-              resources.push({
-                name: result.site,
-                description: `${item.vod_name} [${sourceName}]`,
-                url: playUrl.trim()
-              });
-              console.log(`  -> 添加单个资源(直接URL): [${sourceName}]`);
-            }
-          }
-        } else {
-          // 电视剧处理逻辑 - 统一命名方式
-          console.log(`  -> 处理电视剧资源`);
-          const playUrl = item.vod_play_url;
-          const playFrom = item.vod_play_from || '';
-          
-          // 获取播放源名称数组
-          let sourceNames = [];
-          if (playFrom && playFrom.includes('$$$')) {
-            sourceNames = playFrom.split('$$$');
-          } else if (playFrom) {
-            sourceNames = [playFrom];
-          } else {
-            sourceNames = ['默认源'];
-          }
-          
-          // 分割不同的播放源
-          const playSources = playUrl.split('$$$');
-          
-          // 优先使用第二个播放源（m3u8格式）
-          let playSourceIndex = 0;
-          if (playSources.length >= 2) {
-            playSourceIndex = 1;
-          }
-          
-          const playSource = playSources[playSourceIndex];
-          const sourceName = sourceNames[playSourceIndex] || `版本${playSourceIndex + 1}`;
-          
-          // 检查是否需要过滤此播放源
-          if (FILTERED_SOURCES.includes(sourceName)) {
-            console.log(`  -> 过滤播放源: ${sourceName}`);
-            return; // 跳过这个播放源
-          }
-          
-          // 分割剧集
-          const episodes = playSource.split('#');
-          
-          // 如果没有指定具体集数，返回所有剧集
-          if (!episode) {
-            episodes.forEach((ep, epIndex) => {
-              if (!ep || !ep.includes('$')) return;
-              
-              const [episodeTitle, episodeUrl] = ep.split('$');
-              if (episodeUrl) {
-                resources.push({
-                  name: result.site,
-                  description: `${item.vod_name} ${episodeTitle || ''} [${sourceName}]`,
-                  url: episodeUrl.trim()
-                });
-                console.log(`  -> 添加剧集: ${episodeTitle}`);
-              }
-            });
-          } 
-          // 如果指定了具体集数，只返回该集
-          else {
-            // 查找匹配的集数
-            let targetEpisode = episode;
-            if (typeof episode === 'string' && !isNaN(parseInt(episode))) {
-              targetEpisode = parseInt(episode);
-            }
-            
-            const episodeStr = targetEpisode.toString().padStart(2, '0');
-            const episodePattern = `第${episodeStr}集`;
-            
-            episodes.forEach((ep) => {
-              if (!ep || !ep.includes('$')) return;
-              
-              const [episodeTitle, episodeUrl] = ep.split('$');
-              
-              // 检查是否包含目标集数
-              if (episodeTitle && episodeUrl && episodeTitle.includes(episodePattern)) {
-                resources.push({
-                  name: result.site,
-                  description: `${item.vod_name} ${episodeTitle} [${sourceName}]`,
-                  url: episodeUrl.trim()
-                });
-                console.log(`  -> 找到匹配剧集: ${episodeTitle}`);
-              }
-            });
-          }
+          processMovieResource(item, result.site, cleanedVodName, resources, FILTERED_SOURCES);
+        } else if (type === 'tv') {
+          processTVResource(item, result.site, cleanedVodName, targetEpisode, resources, FILTERED_SOURCES);
         }
       });
+      
+      await Promise.all(resourcePromises);
     });
-
+    
+    await Promise.all(processingPromises);
+    
+    console.log(`搜索完成，找到 ${resources.length} 个资源`);
     return resources;
 
   } catch (error) {
