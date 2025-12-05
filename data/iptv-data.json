@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-04T18:21:16.872961",
+  "last_updated": "2025-12-05T01:01:22.258306",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -279,9 +279,7 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "东南卫视",
@@ -395,9 +393,7 @@
       "name": "浙江国际",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江国际.png,lfo-center,l-end,l-end/浙江国际.png",
-      "childItems": [
-        "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "河南新闻",
