@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-06T14:15:00.573+08:00",
+  "last_updated": "2025-12-06T20:18:15.744+08:00",
   "tv": {
     "全网": [
       {
@@ -36,17 +36,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 263218,
-        "type": "tmdb",
-        "title": "亦舞之城",
-        "description": "芭蕾舞艺术家谭思婷退役归国，欲与当年被迫分开的恋人冯睿破镜重圆，但是过去的误会如同天堑一般隔断两人。如今的冯睿独自一个人带着孩子，生活如同深潭静水，谭思婷回来如同一颗石子搅乱了一切。而谭思婷身边也有一个默默爱了她十年的暗恋者，这次勇敢追爱对她不离不弃。冯睿和谭思婷彼此逃避对方，但是命运的漩涡却不断的将两人裹挟其中，令他们爱恨两难。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eQhBiO0ELLjOsUPW47ZEwEs62KU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yB0WlkEWHk8MKVptutO5awGUM23.jpg",
-        "releaseDate": "2025-11-27",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 274760,
         "type": "tmdb",
         "title": "时差一万公里",
@@ -55,6 +44,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
         "releaseDate": "2025-12-01",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263218,
+        "type": "tmdb",
+        "title": "亦舞之城",
+        "description": "芭蕾舞艺术家谭思婷退役归国，欲与当年被迫分开的恋人冯睿破镜重圆，但是过去的误会如同天堑一般隔断两人。如今的冯睿独自一个人带着孩子，生活如同深潭静水，谭思婷回来如同一颗石子搅乱了一切。而谭思婷身边也有一个默默爱了她十年的暗恋者，这次勇敢追爱对她不离不弃。冯睿和谭思婷彼此逃避对方，但是命运的漩涡却不断的将两人裹挟其中，令他们爱恨两难。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eQhBiO0ELLjOsUPW47ZEwEs62KU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yB0WlkEWHk8MKVptutO5awGUM23.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -80,17 +80,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 211089,
-        "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.355,
-        "mediaType": "tv"
-      },
-      {
         "id": 271015,
         "type": "tmdb",
         "title": "凤凰台上",
@@ -99,6 +88,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zRKNr8tQkpUt5PaU7Fm5JfcZjqW.jpg",
         "releaseDate": "2025-11-14",
         "rating": 8.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 211089,
+        "type": "tmdb",
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.355,
         "mediaType": "tv"
       },
       {
@@ -159,17 +159,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 226197,
-        "type": "tmdb",
-        "title": "新闻女王",
-        "description": "收视最高的六点半新闻报道是主播的必争之地。在新闻电视部，资深主播文慧心和梁景仁分成两派、平分秋色，前者一番兴风作浪，终攀上管理层之位。黄金时段女主播的空缺，引发连场风暴。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9nrVW6P44OPw2pxkAgEI5fMfjl.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/VHiGsZVvdwoTY4QUozztsVsLVJ.jpg",
-        "releaseDate": "2023-11-17",
-        "rating": 8.1,
-        "mediaType": "tv"
-      },
-      {
         "id": 262928,
         "type": "tmdb",
         "title": "入青云",
@@ -178,6 +167,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
         "releaseDate": "2025-10-08",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 226197,
+        "type": "tmdb",
+        "title": "新闻女王",
+        "description": "收视最高的六点半新闻报道是主播的必争之地。在新闻电视部，资深主播文慧心和梁景仁分成两派、平分秋色，前者一番兴风作浪，终攀上管理层之位。黄金时段女主播的空缺，引发连场风暴。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9nrVW6P44OPw2pxkAgEI5fMfjl.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/VHiGsZVvdwoTY4QUozztsVsLVJ.jpg",
+        "releaseDate": "2023-11-17",
+        "rating": 8.1,
         "mediaType": "tv"
       },
       {
@@ -293,17 +293,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 263151,
-        "type": "tmdb",
-        "title": "树影迷宫",
-        "description": "当老民警冉曦（廖凡 饰）遇上公安大赵赶鹅（尹昉 饰），从“互不顺眼”到携手并肩。横跨18年的胡同悬案为何让师徒二人从联手破案到“反目成仇”？井底下的红色高跟鞋、抓不住的胡同杀手……小片警碰上大案子，他们能否成功破局？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2ilIbodMYijMA0XnyfH852mth10.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
-        "releaseDate": "2025-11-01",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 272484,
         "type": "tmdb",
         "title": "一笑随歌",
@@ -315,6 +304,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 263151,
+        "type": "tmdb",
+        "title": "树影迷宫",
+        "description": "当老民警冉曦（廖凡 饰）遇上公安大赵赶鹅（尹昉 饰），从“互不顺眼”到携手并肩。横跨18年的胡同悬案为何让师徒二人从联手破案到“反目成仇”？井底下的红色高跟鞋、抓不住的胡同杀手……小片警碰上大案子，他们能否成功破局？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2ilIbodMYijMA0XnyfH852mth10.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
+        "releaseDate": "2025-11-01",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
         "id": 302720,
         "type": "tmdb",
         "title": "它在掌心，呼啸而过",
@@ -322,7 +322,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/uwyWoTc5ZdMJVieY94sDV1UijtE.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/xvtrmMQRlqP90ZQeQFsSML3Xnzq.jpg",
         "releaseDate": "2025-12-04",
-        "rating": 0,
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -585,17 +585,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 123462,
-        "type": "tmdb",
-        "title": "聊斋先生",
-        "description": "该剧再现了蒲松龄坎坷曲折的人生轨迹与《聊斋志异》的创作过程。\n\n该剧以蒲松龄的苦乐人生为纵轴主线，以他的精神生活为横向铺垫，将家中贤妻刘五可与梦中情人傅雪倩交替其中，大千世界各色人等与鬼狐灵界一一摄入，百态神韵，个性鲜明。除蒲松龄之奇异神采之外，还有贤妻之贤，情人之美，红莲之艳，燕子之烈，女狐之情，华妖之媚，以及学台的清明，安察使的荒唐，县令的愚蠢，经承的狡诈，纷纷交织在蒲氏的坎坷命运之中。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kY0xIgSBTjo3bNlLkWn8wJC4TGi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
-        "releaseDate": "1998-01-01",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 126763,
         "type": "tmdb",
         "title": "我哥我嫂",
@@ -603,6 +592,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9qf9wzsVUx9uzjCJHDOqH1pCqe1.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/m1KgW9IBj9PRsp4SW3j43jCPxA2.jpg",
         "releaseDate": "2019-12-08",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 123462,
+        "type": "tmdb",
+        "title": "聊斋先生",
+        "description": "该剧再现了蒲松龄坎坷曲折的人生轨迹与《聊斋志异》的创作过程。\n\n该剧以蒲松龄的苦乐人生为纵轴主线，以他的精神生活为横向铺垫，将家中贤妻刘五可与梦中情人傅雪倩交替其中，大千世界各色人等与鬼狐灵界一一摄入，百态神韵，个性鲜明。除蒲松龄之奇异神采之外，还有贤妻之贤，情人之美，红莲之艳，燕子之烈，女狐之情，华妖之媚，以及学台的清明，安察使的荒唐，县令的愚蠢，经承的狡诈，纷纷交织在蒲氏的坎坷命运之中。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kY0xIgSBTjo3bNlLkWn8wJC4TGi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
+        "releaseDate": "1998-01-01",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -629,6 +629,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 110329,
+        "type": "tmdb",
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
         "id": 107674,
         "type": "tmdb",
         "title": "少年大钦差",
@@ -637,17 +648,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8reBT4mSUBOQfxF54khLNSOoiNT.jpg",
         "releaseDate": "2004-07-31",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 84693,
-        "type": "tmdb",
-        "title": "我爱男保姆",
-        "description": "家庭煮夫方原过了五年“女主外，男主内”的生活，终于被日益强势的老婆嫌弃。为了挽救婚姻，方原毅然决然的踏上了去大城市的闯荡之路，凭借自己的一技之长，开始了全能男保姆的工作。这年头客户的要求都高：洗衣洗碗洗车、擦地擦窗擦烟机、修房修草修家电、看护看门看孩子、做饭做菜做月子餐，这些都只是基本技能，代驾代谈判代分手、送花送货送口信也不算稀奇事。碰上高小姐这样的客户，方原要给人家孩子每周当一天的爹；碰上马舒儿这样的客户，方原除了干活还得兼职心理治疗师、职业规划师；而碰上陆晴这样的客户，任凭方原十项全能，都依旧被连累得背黑锅、丢彩票，赚不到钱不说还得倒贴钱。三个女人一台戏，客户还是不能得罪的上帝，方原这个男保姆努力发挥正能量，做出口碑做出成绩。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9FXo7X0XI7ufOg7shBaG8YxImnA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5ATCNi6P7zKRMIsRfYsagByIHwn.jpg",
-        "releaseDate": "2015-11-14",
-        "rating": 7.6,
         "mediaType": "tv"
       }
     ],
@@ -787,6 +787,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 261602,
+        "type": "tmdb",
+        "title": "潜渊",
+        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
+        "releaseDate": "2025-06-09",
+        "rating": 9.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 282589,
         "type": "tmdb",
         "title": "浴血荣光",
@@ -807,17 +818,6 @@
         "releaseDate": "2025-04-08",
         "rating": 7,
         "mediaType": "tv"
-      },
-      {
-        "id": 261602,
-        "type": "tmdb",
-        "title": "潜渊",
-        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
-        "releaseDate": "2025-06-09",
-        "rating": 9.5,
-        "mediaType": "tv"
       }
     ]
   },
@@ -832,17 +832,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qQvNWFYma3cSO30eMH4cpJ6IhfY.jpg",
         "releaseDate": "2023-08-13",
         "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 238136,
-        "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
-        "releaseDate": "2023-10-26",
-        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -879,6 +868,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇​",
@@ -886,6 +886,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -898,17 +909,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
         "releaseDate": "2021-07-28",
         "rating": 8.1,
-        "mediaType": "tv"
-      },
-      {
-        "id": 301355,
-        "type": "tmdb",
-        "title": "偏爱之恋",
-        "description": "青春洋溢的单身男女为爱而来，只身抵达远离都市的荒野之境，展开为期两周的偏爱之恋。当生存竞技撞上恋爱修罗场，淘汰危机和情感抉择之下，一场面包与玫瑰的较量即将展开，他们能否找到属于自己的爱与偏爱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/erSBOC0flymlwavzn1IztNtOiVZ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/94U8sYU6ZLqlo4LWH7aE1JbwKVM.jpg",
-        "releaseDate": "2025-09-23",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -936,17 +936,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 301355,
-        "type": "tmdb",
-        "title": "偏爱之恋",
-        "description": "青春洋溢的单身男女为爱而来，只身抵达远离都市的荒野之境，展开为期两周的偏爱之恋。当生存竞技撞上恋爱修罗场，淘汰危机和情感抉择之下，一场面包与玫瑰的较量即将展开，他们能否找到属于自己的爱与偏爱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/erSBOC0flymlwavzn1IztNtOiVZ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/94U8sYU6ZLqlo4LWH7aE1JbwKVM.jpg",
-        "releaseDate": "2025-09-23",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 302997,
         "type": "tmdb",
         "title": "一起开麦吧",
@@ -954,6 +943,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
         "releaseDate": "2025-10-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 301355,
+        "type": "tmdb",
+        "title": "偏爱之恋",
+        "description": "青春洋溢的单身男女为爱而来，只身抵达远离都市的荒野之境，展开为期两周的偏爱之恋。当生存竞技撞上恋爱修罗场，淘汰危机和情感抉择之下，一场面包与玫瑰的较量即将展开，他们能否找到属于自己的爱与偏爱。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/erSBOC0flymlwavzn1IztNtOiVZ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/94U8sYU6ZLqlo4LWH7aE1JbwKVM.jpg",
+        "releaseDate": "2025-09-23",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1004,17 +1004,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 238136,
-        "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
-        "releaseDate": "2023-10-26",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 278324,
         "type": "tmdb",
         "title": "一路繁花",
@@ -1023,6 +1012,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
         "releaseDate": "2025-01-11",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1310,6 +1310,17 @@
     "PPTV": [],
     "芒果TV": [
       {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 130099,
         "type": "tmdb",
         "title": "再见爱人",
@@ -1332,24 +1343,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 307202,
+        "id": 305779,
         "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 304850,
-        "type": "tmdb",
-        "title": "在江湖团建的日子",
-        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
-        "releaseDate": "2025-11-06",
+        "title": "劲勇飞侠",
+        "description": "《劲勇飞侠》是由湖南广播电视台金鹰卡通卫视2025年打造的全国青少年体能竞技障碍赛。旨在通过核心力、平衡力、抓握力、上肢耐力、下肢爆发力、心肺能力的考验，展现中国青少年体能运动风采。节目将在全国海搜72名S级运动少年，全面推广体能障碍跑项目，为国际现代五项、奥运级赛事储备体育人才。打造中国青少年第一体育赛事IP、打造中国青少年第一赛事运动平台。",
+        "posterPath": null,
+        "backdropPath": null,
+        "releaseDate": "2025-10-18",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1365,24 +1365,24 @@
         "mediaType": "tv"
       },
       {
-        "id": 305779,
+        "id": 304850,
         "type": "tmdb",
-        "title": "劲勇飞侠",
-        "description": "《劲勇飞侠》是由湖南广播电视台金鹰卡通卫视2025年打造的全国青少年体能竞技障碍赛。旨在通过核心力、平衡力、抓握力、上肢耐力、下肢爆发力、心肺能力的考验，展现中国青少年体能运动风采。节目将在全国海搜72名S级运动少年，全面推广体能障碍跑项目，为国际现代五项、奥运级赛事储备体育人才。打造中国青少年第一体育赛事IP、打造中国青少年第一赛事运动平台。",
-        "posterPath": null,
-        "backdropPath": null,
-        "releaseDate": "2025-10-18",
+        "title": "在江湖团建的日子",
+        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
+        "releaseDate": "2025-11-06",
         "rating": 0,
         "mediaType": "tv"
       },
       {
-        "id": 306823,
+        "id": 302975,
         "type": "tmdb",
-        "title": "在恋爱开始之前",
-        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
-        "releaseDate": "2025-11-25",
+        "title": "逃离朝九晚五的恋爱",
+        "description": "《逃离朝九晚五的恋爱》是一档专为城市打工人解决恋爱困境的真人秀。我们将召集10位北京的单身打工人，利用5天年假前往海边开启一场浪漫邂逅。年假过完回到现实生活后，我们会继续在5天通勤日中开展自主约会，补完邂逅的缘分。十天结束后，嘉宾会给出自己的最终恋爱选择！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/cWwjDBsKJvvqvYkq6S5xWceSb5e.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2ggIpQGG1suxxLDRHnVwROL2p0e.jpg",
+        "releaseDate": "2025-10-14",
         "rating": 0,
         "mediaType": "tv"
       }
