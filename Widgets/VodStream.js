@@ -10,11 +10,22 @@ WidgetMetadata = {
   id: "vod_stream",
   title: "VOD Stream",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.1.1",
+  version: "1.1.2",
   requiredVersion: "0.0.1",
   description: "获取聚合VOD影片资源",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
+  globalParams: [
+    {
+      name: "multiSource",
+      title: "是否启用聚合搜索",
+      type: "enumeration",
+      enumOptions: [
+        { title: "启用", value: "enabled" },
+        { title: "禁用", value: "disabled" }
+      ]
+    }
+  ],
   modules: [
     {
       id: "loadResource",
@@ -125,6 +136,9 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
     return [];
   }
 
+  // 获取剧集备注信息（如"已完结"、"更新中"等）
+  const vodRemarks = item.vod_remarks || '';
+  
   // 清理播放URL
   const playUrl = item.vod_play_url.replace(/#+$/, '');
   
@@ -148,14 +162,17 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
         const url = findEpisodeUrl(playSource, targetEpisode);
         
         if (url && isM3U8Url(url)) {
+          // 构建描述信息，包含剧集备注
+          let description = `${item.vod_name} - 第${targetEpisode}集`;
+          if (vodRemarks) {
+            description += ` - ${vodRemarks}`;
+          }
+          description += ` - [${sourceName}]`;
+          
           resources.push({
             name: siteTitle,
-            description: `${item.vod_name} • 第${targetEpisode}集 • ${sourceName}`,
-            url: url,
-            sourceName: sourceName,
-            isM3U8: true,
-            type: 'tv',
-            episode: targetEpisode
+            description: description,
+            url: url
           });
         }
       } else {
@@ -180,20 +197,23 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
           }
           
           if (firstM3U8Url) {
+            // 构建描述信息，包含剧集备注
+            let description = `${item.vod_name} - 电视剧 - 共${totalEpisodes}集`;
+            if (vodRemarks) {
+              description += ` - ${vodRemarks}`;
+            }
+            description += ` - [${sourceName}]`;
+            
             resources.push({
               name: siteTitle,
-              description: `${item.vod_name} • 电视剧 • 共${totalEpisodes}集 • ${sourceName}`,
-              url: firstM3U8Url,
-              sourceName: sourceName,
-              isM3U8: true,
-              type: 'tv',
-              totalEpisodes: totalEpisodes
+              description: description,
+              url: firstM3U8Url
             });
           }
         }
       }
     } else if (type === 'movie' && !isTVSeries) {
-      // 电影处理
+      // 电影处理 - 不显示备注信息
       const versions = playSource.split('#');
       
       for (const version of versions) {
@@ -215,14 +235,13 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
           const hasTC = hasTCQuality(qualityInfo);
           const qualityText = hasTC ? 'TC' : '正片';
           
+          // 构建描述信息 - 电影不显示备注信息
+          const description = `${item.vod_name} - ${qualityText} - [${sourceName}]`;
+          
           resources.push({
             name: siteTitle,
-            description: `${item.vod_name} • ${qualityText} • ${sourceName}`,
-            url: url,
-            sourceName: sourceName,
-            isM3U8: true,
-            type: 'movie',
-            quality: qualityText
+            description: description,
+            url: url
           });
           // 电影只取第一个M3U8版本
           break;
@@ -235,7 +254,11 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
 }
 
 async function loadResource(params) {
-  const { seriesName, type, season, episode } = params;
+  const { seriesName, type, season, episode,  multiSource } = params;
+  
+  if (params.multiSource != "enabled") {
+    return[]
+  }
   
   // 解析剧名，获取基础剧名和季数
   const seriesInfo = extractSeasonInfo(seriesName);
@@ -261,11 +284,9 @@ async function loadResource(params) {
             site: site.title,
             data: response.data.list
           };
-        } else {
-          console.log(`${site.title}: 未找到 "${searchTerm}" 相关资源`);
         }
       } catch (error) {
-        console.log(`${site.title}: 请求失败`, error);
+        // 静默处理请求错误
       }
       return null;
     });
@@ -285,18 +306,10 @@ async function loadResource(params) {
         const itemInfo = extractSeasonInfo(itemName);
         
         // 检查是否匹配：基础剧名相同且季数匹配
-        if (itemInfo.baseName !== baseName) {
-          console.log(`基础剧名不匹配: "${itemInfo.baseName}" !== "${baseName}"`);
-          continue;
-        }
-        
-        // 季数匹配：支持中文数字与阿拉伯数字的互认
-        if (itemInfo.seasonNumber !== targetSeason) {
-          console.log(`季数不匹配: "${itemName}" 是第${itemInfo.seasonNumber}季，期望第${targetSeason}季`);
+        if (itemInfo.baseName !== baseName || itemInfo.seasonNumber !== targetSeason) {
           continue;
         }
 
-        console.log(`找到匹配剧集: ${itemName}`);
         const items = extractPlayInfo(item, result.site, resourceType, targetSeason, targetEpisode);
         if (items.length > 0) {
           allResources.push(...items);
@@ -315,11 +328,9 @@ async function loadResource(params) {
       }
     }
     
-    console.log(`最终返回 ${uniqueResources.length} 个唯一资源`);
     return uniqueResources;
     
   } catch (error) {
-    console.error('加载资源时发生错误:', error);
     return [];
   }
 }
