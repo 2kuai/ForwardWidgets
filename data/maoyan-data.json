@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-07T02:13:48.546+08:00",
+  "last_updated": "2025-12-07T08:57:09.945+08:00",
   "tv": {
     "全网": [
       {
@@ -405,6 +405,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 306574,
+        "type": "tmdb",
+        "title": "月拢雁西归",
+        "description": "因先君上打压导致武将凋零，新帝面临内忧外患，将军之子南辰筱扮女避祸，燕霖特赐婚他与扮男入仕的芮祤以护二人，以谋新变数。危局之下，二人四处奔走历经生死，后坦白秘密、情愫暗生，共助燕霖成就盛世。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yVV7DA7sRVn8m3D33fD6NXBOGyP.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lBnFREduZ8M6Tt8Z4ixeyXiotTn.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 256920,
         "type": "tmdb",
         "title": "许我耀眼",
@@ -424,17 +435,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
         "releaseDate": "2025-10-30",
         "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 306574,
-        "type": "tmdb",
-        "title": "月拢雁西归",
-        "description": "因先君上打压导致武将凋零，新帝面临内忧外患，将军之子南辰筱扮女避祸，燕霖特赐婚他与扮男入仕的芮祤以护二人，以谋新变数。危局之下，二人四处奔走历经生死，后坦白秘密、情愫暗生，共助燕霖成就盛世。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yVV7DA7sRVn8m3D33fD6NXBOGyP.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lBnFREduZ8M6Tt8Z4ixeyXiotTn.jpg",
-        "releaseDate": "2025-11-27",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -462,17 +462,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302867,
-        "type": "tmdb",
-        "title": "三江潮",
-        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-10-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 292181,
         "type": "tmdb",
         "title": "修仙记之何仙姑传",
@@ -480,6 +469,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
         "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 302867,
+        "type": "tmdb",
+        "title": "三江潮",
+        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-10-10",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -574,6 +574,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 292181,
+        "type": "tmdb",
+        "title": "修仙记之何仙姑传",
+        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 131078,
         "type": "tmdb",
         "title": "远方的山楂树",
@@ -581,17 +592,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
         "releaseDate": "2019-12-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 123462,
-        "type": "tmdb",
-        "title": "聊斋先生",
-        "description": "该剧再现了蒲松龄坎坷曲折的人生轨迹与《聊斋志异》的创作过程。\n\n该剧以蒲松龄的苦乐人生为纵轴主线，以他的精神生活为横向铺垫，将家中贤妻刘五可与梦中情人傅雪倩交替其中，大千世界各色人等与鬼狐灵界一一摄入，百态神韵，个性鲜明。除蒲松龄之奇异神采之外，还有贤妻之贤，情人之美，红莲之艳，燕子之烈，女狐之情，华妖之媚，以及学台的清明，安察使的荒唐，县令的愚蠢，经承的狡诈，纷纷交织在蒲氏的坎坷命运之中。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kY0xIgSBTjo3bNlLkWn8wJC4TGi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
-        "releaseDate": "1998-01-01",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -607,13 +607,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 292181,
+        "id": 123462,
         "type": "tmdb",
-        "title": "修仙记之何仙姑传",
-        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-22",
+        "title": "聊斋先生",
+        "description": "该剧再现了蒲松龄坎坷曲折的人生轨迹与《聊斋志异》的创作过程。\n\n该剧以蒲松龄的苦乐人生为纵轴主线，以他的精神生活为横向铺垫，将家中贤妻刘五可与梦中情人傅雪倩交替其中，大千世界各色人等与鬼狐灵界一一摄入，百态神韵，个性鲜明。除蒲松龄之奇异神采之外，还有贤妻之贤，情人之美，红莲之艳，燕子之烈，女狐之情，华妖之媚，以及学台的清明，安察使的荒唐，县令的愚蠢，经承的狡诈，纷纷交织在蒲氏的坎坷命运之中。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kY0xIgSBTjo3bNlLkWn8wJC4TGi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
+        "releaseDate": "1998-01-01",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -629,17 +629,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 107674,
-        "type": "tmdb",
-        "title": "少年大钦差",
-        "description": "乾隆在前往荷花池的途中遭到了刺客徐莲的行刺，在激烈的打斗之中，乾隆遗失了极为重要的乾坤扇。陈文杰是名响京城的天才儿童，年仅九岁便已经身为御赐状元。和养父陈青云、好友心远小和尚一起，一行三人踏上了寻找乾坤扇，追捕行刺刺客的旅途。  　　\n\n途中，三人结识了刁蛮任性的千金公主十公主，徐莲亦乔装打扮隐姓埋名，潜伏到了三人的身边。他们一路上麻烦不断，波折连连，但陈文杰凭借着他的智慧将其一一化解。最终，陈文杰发现，乾隆深信不疑的心腹大臣和坤才是一切事件的幕后黑手。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dB0uJGZcwAHfbnuaGWGINaUso61.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8reBT4mSUBOQfxF54khLNSOoiNT.jpg",
-        "releaseDate": "2004-07-31",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 110329,
         "type": "tmdb",
         "title": "伟大的转折",
@@ -648,6 +637,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
         "releaseDate": "2019-08-26",
         "rating": 10,
+        "mediaType": "tv"
+      },
+      {
+        "id": 92567,
+        "type": "tmdb",
+        "title": "兰桐花开",
+        "description": "《兰桐花开》主要讲述了以王大翠以及复员军人陈新豫为首的新一代党的基层带头人，带领后牛村村民在党的富民政策指引下，科学利用家乡资源，如何尽快脱贫致富的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/bM2fD97yCyu0kvWZfPehDCb7O0g.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/fHyDawZ50nPg5WnGAyQT7yqv43S.jpg",
+        "releaseDate": "2019-08-01",
+        "rating": 8,
         "mediaType": "tv"
       }
     ],
@@ -686,17 +686,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 129635,
-        "type": "tmdb",
-        "title": "青春向前冲",
-        "description": "唐可儿大学毕业后进入一家知名网购公司上班。总经理霍彬喜欢上她，他和可儿一起完成签约三个女星，作为公司产品的形象代言人。在签约三个女星的过程中，他们历经磨难，也萌生了爱意。陆翔公开向弟弟挑战，他也喜欢可儿。同时，公司的内部进行了股权的争斗，可儿被她的闺蜜陷害，到公司底层做工。在可儿遭受误解和打击，陆翔认为霍彬会动摇，却没有想到兄弟俩彼此都陷入爱的漩涡。可儿的闺蜜李媚对她下了黑手，车祸让她受到伤害。唐可儿在爱情的两难中难以抉择。陆翔病倒了，他的遗传病不可能有爱情和婚姻，他做的一切都是为了让弟弟更好的珍惜事业和爱情。可儿为了爱情和公司的发展，主动担当公司产品的形象代言人，几经曲折，获得了成功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4Vh7IuuzvqTWI0TzyMVu0C5Z67M.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/WKIoVgMepB55AT6lc7mBRsHjhe.jpg",
-        "releaseDate": "2021-07-21",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 157596,
         "type": "tmdb",
         "title": "有个地方叫马兰",
@@ -704,6 +693,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/pzM8fDwdp9OlZEzG90Apzp1Ms4a.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/yaQEkRTWAhXEsZH7Dq5w6uizbvn.jpg",
         "releaseDate": "2019-03-10",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 129635,
+        "type": "tmdb",
+        "title": "青春向前冲",
+        "description": "唐可儿大学毕业后进入一家知名网购公司上班。总经理霍彬喜欢上她，他和可儿一起完成签约三个女星，作为公司产品的形象代言人。在签约三个女星的过程中，他们历经磨难，也萌生了爱意。陆翔公开向弟弟挑战，他也喜欢可儿。同时，公司的内部进行了股权的争斗，可儿被她的闺蜜陷害，到公司底层做工。在可儿遭受误解和打击，陆翔认为霍彬会动摇，却没有想到兄弟俩彼此都陷入爱的漩涡。可儿的闺蜜李媚对她下了黑手，车祸让她受到伤害。唐可儿在爱情的两难中难以抉择。陆翔病倒了，他的遗传病不可能有爱情和婚姻，他做的一切都是为了让弟弟更好的珍惜事业和爱情。可儿为了爱情和公司的发展，主动担当公司产品的形象代言人，几经曲折，获得了成功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4Vh7IuuzvqTWI0TzyMVu0C5Z67M.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/WKIoVgMepB55AT6lc7mBRsHjhe.jpg",
+        "releaseDate": "2021-07-21",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -798,17 +798,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 261602,
-        "type": "tmdb",
-        "title": "潜渊",
-        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
-        "releaseDate": "2025-06-09",
-        "rating": 9.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 283161,
         "type": "tmdb",
         "title": "千秋令",
@@ -817,6 +806,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qJEnaoiX1AN6RuptbyVKBPPK8Bt.jpg",
         "releaseDate": "2025-04-08",
         "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 261602,
+        "type": "tmdb",
+        "title": "潜渊",
+        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
+        "releaseDate": "2025-06-09",
+        "rating": 9.5,
         "mediaType": "tv"
       }
     ]
@@ -901,14 +901,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 307202,
+        "id": 130099,
         "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
+        "title": "再见爱人",
+        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "releaseDate": "2021-07-28",
+        "rating": 8.1,
         "mediaType": "tv"
       }
     ],
@@ -1070,17 +1070,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 299224,
-        "type": "tmdb",
-        "title": "天声一对",
-        "description": "国内首档真夫妻舞台竞演综艺，本节目将在风景秀丽的江南，打造一处“挚爱小院”，每个阶段将有6对处于不同人生阶段、拥有多元生活方式与职业背景的明星夫妻在此合宿生活，并向极致舞台发起挑战。《天声一对》突破传统夫妻综艺的“撒糖”模式，独创“舞台竞演+生活观察”双线叙事。节目中，夫妻需共同完成高难度唱跳表演，同时接受24小时生活跟拍，从排练争执到默契互动全部真实记录。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/oNOTOC4JMxTVahuL7uwHsjd6qaU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c3SPliPLSrbVOnlaMVQKFb2cIBk.jpg",
-        "releaseDate": "2025-09-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 306845,
         "type": "tmdb",
         "title": "笑有新生",
@@ -1088,6 +1077,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/mRd39FZDi4SkzYPsjaumRitYU6A.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 299224,
+        "type": "tmdb",
+        "title": "天声一对",
+        "description": "国内首档真夫妻舞台竞演综艺，本节目将在风景秀丽的江南，打造一处“挚爱小院”，每个阶段将有6对处于不同人生阶段、拥有多元生活方式与职业背景的明星夫妻在此合宿生活，并向极致舞台发起挑战。《天声一对》突破传统夫妻综艺的“撒糖”模式，独创“舞台竞演+生活观察”双线叙事。节目中，夫妻需共同完成高难度唱跳表演，同时接受24小时生活跟拍，从排练争执到默契互动全部真实记录。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/oNOTOC4JMxTVahuL7uwHsjd6qaU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c3SPliPLSrbVOnlaMVQKFb2cIBk.jpg",
+        "releaseDate": "2025-09-06",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1127,17 +1127,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 106621,
-        "type": "tmdb",
-        "title": "令人心动的offer",
-        "description": "《令人心动的offer》是由腾讯视频出品，国内首档律政职场观察类真人秀，离开校园，步入职场，来到中国顶级律师事务所的实习之旅，青春与梦想的勇敢绽放。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jt0mIHdH5G6emIPG95HU38LTjNU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ndZBPyMZyVQTP8gMg0V4g4Q4PIE.jpg",
-        "releaseDate": "2019-10-30",
-        "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 300172,
         "type": "tmdb",
         "title": "声鸣远扬2025",
@@ -1146,6 +1135,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/rDO187Hu0r4yuM1gxe91t3eoD2F.jpg",
         "releaseDate": "2025-11-09",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 106621,
+        "type": "tmdb",
+        "title": "令人心动的offer",
+        "description": "《令人心动的offer》是由腾讯视频出品，国内首档律政职场观察类真人秀，离开校园，步入职场，来到中国顶级律师事务所的实习之旅，青春与梦想的勇敢绽放。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jt0mIHdH5G6emIPG95HU38LTjNU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ndZBPyMZyVQTP8gMg0V4g4Q4PIE.jpg",
+        "releaseDate": "2019-10-30",
+        "rating": 7.5,
         "mediaType": "tv"
       },
       {
@@ -1193,13 +1193,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 87150,
+        "id": 204253,
         "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "releaseDate": "2014-07-30",
+        "title": "战至巅峰",
+        "description": "《战至巅峰》是一档以王者荣耀赛事为背景，传递电竞精神、团队力量的节目。节目将邀请来自体育圈、演艺圈、电竞圈等各领域优质榜样，带着对电子竞技运动的热爱与追求，一起感受电竞比赛体育魅力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uSPjPv4kGke4mJt67lhwYGHoakf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/aCY9tBsZnRhTq2306gVo40H7JNW.jpg",
+        "releaseDate": "2022-06-11",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1274,17 +1274,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 280763,
-        "type": "tmdb",
-        "title": "厨易社",
-        "description": "美食哲学双向对谈——两三好友，以不同风味美食呈现背后蕴藏的独特生活哲学。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bBX6ATvpoTaKp6RiXZdqA4G3XwU.jpg",
-        "backdropPath": null,
-        "releaseDate": "2022-09-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 230721,
         "type": "tmdb",
         "title": "求职高手",
@@ -1307,6 +1296,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 280763,
+        "type": "tmdb",
+        "title": "厨易社",
+        "description": "美食哲学双向对谈——两三好友，以不同风味美食呈现背后蕴藏的独特生活哲学。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/bBX6ATvpoTaKp6RiXZdqA4G3XwU.jpg",
+        "backdropPath": null,
+        "releaseDate": "2022-09-08",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 271142,
         "type": "tmdb",
         "title": "这样的你",
@@ -1321,17 +1321,6 @@
     "PPTV": [],
     "芒果TV": [
       {
-        "id": 307202,
-        "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 130099,
         "type": "tmdb",
         "title": "再见爱人",
@@ -1340,6 +1329,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
         "releaseDate": "2021-07-28",
         "rating": 8.1,
+        "mediaType": "tv"
+      },
+      {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
