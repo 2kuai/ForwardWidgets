@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T00:16:52.985+08:00",
+  "last_updated": "2025-12-09T00:20:38.014+08:00",
   "nowplaying": [
     {
       "id": 1356454,
@@ -10,7 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fhgkZwwNVi7bd13uiO67Yro1HbY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iwZORH6XiNCcWLF0lWLet5AC1Eb.jpg",
       "releaseDate": "2025-12-06",
-      "rating": 0,
+      "rating": 9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1084242,
+      "type": "tmdb",
+      "title": "疯狂动物城2",
+      "originalTitle": "Zootopia 2",
+      "description": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "releaseDate": "2025-11-26",
+      "rating": 7.715,
       "mediaType": "movie"
     },
     {
@@ -23,18 +35,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
       "releaseDate": "1957-12-17",
       "rating": 8.214,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1084242,
-      "type": "tmdb",
-      "title": "疯狂动物城2",
-      "originalTitle": "Zootopia 2",
-      "description": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
-      "releaseDate": "2025-11-26",
-      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -55,22 +55,10 @@
       "title": "猎杀游戏",
       "originalTitle": "The Running Man",
       "description": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gYTFq8qMd5B6M554BkfdOcEsA1c.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lX7uGD9QL00jrDCkfbIGKQtZG7A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/docDyCJrhPoFXAckB1aOiIv9Mz0.jpg",
       "releaseDate": "2025-11-11",
-      "rating": 6.752,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1329673,
-      "type": "tmdb",
-      "title": "日掛中天",
-      "originalTitle": "日掛中天",
-      "description": "困于七年前一桩意外的两人再度相遇，美云（辛芷蕾 饰）与葆树（张颂文 饰）开始了一段爱恨交织、扭曲而痛苦的共生关系。在美云试图借其峰（冯绍峰 饰）展望新的未来时，却发现自己仍深陷旧日漩涡。那些关于情与债的执念，再度将所有人推向命运的十字路口……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ppp5otWkF4RkadeGIuCx1I7mt2X.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kDRhvKxJ1lx7vmvfJ8D18MmItUb.jpg",
-      "releaseDate": "2025-11-07",
-      "rating": 0,
+      "rating": 6.751,
       "mediaType": "movie"
     },
     {
@@ -81,7 +69,7 @@
       "description": "在一个人类已经不再做梦的世界里，有一个怪物依然整日沉迷于梦的幻觉中，他迷失了。而一个女人可以看清幻觉，于是她潜入了他的梦中去寻找……",
       "posterPath": "https://image.tmdb.org/t/p/w500/8mOJCEONLTnvTRytBgKt5psrUoC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/e3kKf6FpWURM6RC5FB75zo6Rq5u.jpg",
-      "releaseDate": "2025-10-24",
+      "releaseDate": "2025-08-13",
       "rating": 7.6,
       "mediaType": "movie"
     },
@@ -106,7 +94,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
       "releaseDate": "2025-11-05",
-      "rating": 7.372,
+      "rating": 7.366,
+      "mediaType": "movie"
+    },
+    {
+      "id": 851531,
+      "type": "tmdb",
+      "title": "我最特别的朋友",
+      "originalTitle": "我最特别的朋友",
+      "description": "甘肃西部小城，中年男人老郑遭遇离婚失业，落入人生低谷。一次意外的发泄之举，却让他成为了当地的直播“网红”——“街道侠”。被嫌弃了大半生的老郑，初次尝到红了后被关注的甜头。机缘巧合下他与中学生亮亮结识。一个是孤独的中年男人一个是无家可去的少年人。两人一拍即合在小城里四处惩治不文明现象，很快便建立起如父如子般的另类友情。老郑从小到大被人欺负的命运似乎要迎来转机，可他越来越暴力的直播方式让他和亮亮的矛盾在暗处悄然滋生……陷在狂喜和自嗨中的老郑将再度面临人生的另一次崩塌……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jnMWbKhhCg9KSG4fVSB0tZD9t2k.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hqOJMq6cITPIxansUQTeBxh9wUI.jpg",
+      "releaseDate": "2025-12-05",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -118,19 +118,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
       "releaseDate": "2025-11-12",
-      "rating": 6.319,
+      "rating": 6.301,
       "mediaType": "movie"
     },
     {
-      "id": 1575593,
+      "id": 1129573,
       "type": "tmdb",
-      "title": "我的世界没有我",
-      "originalTitle": "我的世界没有我",
-      "description": "　　影片以独特的视角，温暖的人性，聚焦当代人在亲情羁绊、职场压力、健康隐忧、子女成长与爱情婚姻中的焦虑与挣扎……当生活里藏满“笑着说没事”的瞬间背后，当自我与生活的碎片散落一地，当你的故事正在我的世界上演……我们该如何逃离情绪的陷阱？又该如何在迷失中寻回重建的力量？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aAJCR3IHipwy9J3UE3Le3SFkzGO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/k8pwxWjiJlcuEIv2t72kH5nYTDM.jpg",
-      "releaseDate": "2025-11-27",
-      "rating": 1,
+      "title": "三滴血",
+      "originalTitle": "三滴血",
+      "description": "　　三，是家的最小单位。血脉，是维系家庭的纽带。然而，三个素不相识的人却被命运交织在一起！  　　善恶难辨的男人“驯鹿”，身怀六甲的女人李棋，哑巴男孩冰棍，三人假扮成一家人，游走于猎物与猎人之间，暗流已至，生死一瞬，一个关于家族式人口贩卖的黑暗链条逐渐浮出水面！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gpOVtRZ1Rrstx6gPABGdZUSDcPs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4hAL9idXa8punHe7EyBaymMPlkU.jpg",
+      "releaseDate": "2025-11-15",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -170,14 +170,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249421,
+      "id": 1570262,
       "type": "tmdb",
-      "title": "即兴谋杀",
-      "originalTitle": "即兴谋杀",
-      "description": "凶海危崖豪宅共筑致命陷阱，局中人命悬一线步步惊心！影片讲述了半瘫少女何思怡离家17年后，回到立于诡异孤岛的家中，迎接她的是美艳温柔的继母、风度翩翩的私人医生、年轻健硕的司机以及万般贴心的女佣，面具背后究竟藏着怎样万劫不复的深渊？一场蓄谋已久的复仇大戏渐渐拉开帷幕…",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ckz0MSMog9RClCL4DsMaEYtO3jO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cwp9pdOdIWAg6RkLXqGZ6bZCVVK.jpg",
-      "releaseDate": "2025-10-31",
+      "title": "开心岭",
+      "originalTitle": "开心岭",
+      "description": "　　该电影关注“云端天路”背后的无名英雄，首次将镜头对准海拔4200米的“开心岭”信号工区，揭秘铁路系统“神经末梢”的守护传奇。影片通过复员军人第五小军（卢祈炽 饰）与铁道兵出身的老信号工杨震山（巫刚 饰）的师徒羁绊，串联起暴风雪抢险、狼群夜袭、设备升级等真实事件，讲述雪域高原上两代铁路人坚守与传承的动人故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fjIW5dOdBMFefvhAWut4DfGRKPa.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ukRRlG3aXyrTVipc1irBkPj3IfM.jpg",
+      "releaseDate": "2025-11-21",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -190,18 +190,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rjmfkKJqNTopg8ugrSjs7bwf0BF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bDPKv7mkQfSr0V0jdmT85V8eqNM.jpg",
       "releaseDate": "2025-11-28",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1570262,
-      "type": "tmdb",
-      "title": "开心岭",
-      "originalTitle": "开心岭",
-      "description": "　　该电影关注“云端天路”背后的无名英雄，首次将镜头对准海拔4200米的“开心岭”信号工区，揭秘铁路系统“神经末梢”的守护传奇。影片通过复员军人第五小军（卢祈炽 饰）与铁道兵出身的老信号工杨震山（巫刚 饰）的师徒羁绊，串联起暴风雪抢险、狼群夜袭、设备升级等真实事件，讲述雪域高原上两代铁路人坚守与传承的动人故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fjIW5dOdBMFefvhAWut4DfGRKPa.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ukRRlG3aXyrTVipc1irBkPj3IfM.jpg",
-      "releaseDate": "2025-11-21",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -272,10 +260,10 @@
       "type": "tmdb",
       "title": "水草长生",
       "originalTitle": "水草长生",
-      "description": "",
+      "description": "　　南方农村，父母外出打工杳无音讯，广猪仔和爷爷留守十年，靠牛维持生计，十年前牛丢了，八岁的广猪仔四处寻找；十年后，牛再次丢失，生活无以为继。",
       "posterPath": "https://image.tmdb.org/t/p/w500/8oNA4XQLf5MCRn4yR9DE8LHhE2c.jpg",
-      "backdropPath": null,
-      "releaseDate": "2021-07-27",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3SYvLcp0czsTrOcZh3exsoKxdP9.jpg",
+      "releaseDate": "2025-12-12",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -360,7 +348,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l8pwO23MCvqYumzozpxynCNfck1.jpg",
       "releaseDate": "2025-11-19",
-      "rating": 6.775,
+      "rating": 6.787,
       "mediaType": "movie"
     },
     {
@@ -396,18 +384,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/iwp5S7JZTMXDCiVkvigYS1Bhghl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
       "releaseDate": "2025-12-31",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1305672,
-      "type": "tmdb",
-      "title": "抓特务",
-      "originalTitle": "抓特务",
-      "description": "1949年开国大典这天，刚入城改编成公安派出所所长的肖大力发现小学教员冯静波特嫌疑点重重。他本着军人的高度警惕和公安战士的责任感，硬是与冯搭做邻居，穷尽一生历尽磨难，进行了一场近四十年无怨无悔的追踪。影片根据张策同名小说改编。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xuLUtumvstPx00t3PBsLI7GTENA.jpg",
-      "backdropPath": null,
-      "releaseDate": "",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -455,7 +431,7 @@
       "description": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
       "posterPath": "https://image.tmdb.org/t/p/w500/9iOBIxOuy9IqsljsVUiboLrgEp6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
-      "releaseDate": "2025-12-18",
+      "releaseDate": "2025-12-16",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -590,7 +566,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/le7jQ6Sc3xEUvosHXJojDMR6EnE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
       "releaseDate": "1998-10-28",
-      "rating": 8.247,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -614,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vOEkLofQ8N1OdbGs5L87m7Plpw2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bBiZN1epQTu3F8iFLBuMhc4TRzr.jpg",
       "releaseDate": "1993-01-01",
-      "rating": 7.953,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -626,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p8CBiiF0Fhc9vxNUAx1G68qGSYI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
       "releaseDate": "1997-12-20",
-      "rating": 8.4,
+      "rating": 8.441,
       "mediaType": "movie"
     },
     {
@@ -662,7 +638,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7ojgNNaZCDvp7IchH0uehUGJ0dH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xnHVX37XZEp33hhCbYlQFq7ux1J.jpg",
       "releaseDate": "1997-11-18",
-      "rating": 7.903,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -674,7 +650,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lQEjWasu07JbQHdfFI5VnEUfId2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
       "releaseDate": "2010-07-15",
-      "rating": 8.37,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -782,7 +758,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dqPRhuTFkSNEg3oOmE1CVBNYRkA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/q6OGlZ1KMEb14AC8KbPCxyNOal6.jpg",
       "releaseDate": "2011-11-02",
-      "rating": 8.3,
+      "rating": 8.271,
       "mediaType": "movie"
     },
     {
@@ -794,7 +770,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7VR9AXYa3VYF20jDWfI7w9sSJ2D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
       "releaseDate": "1993-12-15",
-      "rating": 8.6,
+      "rating": 8.566,
       "mediaType": "movie"
     },
     {
@@ -890,7 +866,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vxj2k0168d7K3pih7Aw6kqvvLcN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5jhG1lTgV0MS6tDkBMQSSitttTT.jpg",
       "releaseDate": "2006-12-14",
-      "rating": 7.889,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -902,7 +878,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8gT3UKtglLVpu0YfccwbmXZ5Eis.jpg",
       "releaseDate": "2009-12-23",
-      "rating": 8,
+      "rating": 7.997,
       "mediaType": "movie"
     },
     {
@@ -948,7 +924,7 @@
       "originalTitle": "The Godfather",
       "description": "40年代的美国，“教父”维托·唐·柯里昂是黑手党柯里昂家族的首领，带领家族从事非法的勾当，但同时他也是许多弱小平民的保护神，深得人们爱戴。因为拒绝了毒枭索洛索的毒品交易要求，柯里昂家族和纽约其他几个黑手党家族的矛盾激化、圣诞前夕，索洛索劫持了“教父”的参谋汤姆，并派人暗杀“教父”；因为内奸的出卖，“教父”的大儿子逊尼被仇家杀害；小儿子麦克也被卷了进来，失去爱妻。黑手党家族之间的矛盾越来越白热化。年老的“教父”面对丧子之痛怎样统领全局？黑手党之间的仇杀如何落幕？谁是家族的内奸？谁又能够成为新一代的“教父”？血雨腥风和温情脉脉，在这部里程碑式的黑帮史诗巨片里真实上演。",
       "posterPath": "https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/39rtAdg3yx6IDxRg0ZLXefv0aPY.jpg",
       "releaseDate": "1972-03-14",
       "rating": 8.685,
       "mediaType": "movie"
@@ -983,10 +959,10 @@
       "title": "疯狂动物城",
       "originalTitle": "Zootopia",
       "description": "疯狂动物城是一座独一无二的现代动物都市。每种动物在这里都有自己的居所，比如富丽堂皇的撒哈拉广场，或者常年严寒的冰川镇。它就像一座大熔炉，动物们在这里和平共处——无论是大象还是小老鼠，只要你努力，都能在此闯出一番名堂。不过乐观的警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）却发现，作为史上第一任兔子警官，要和一群强硬的大块头动物警察合作可不是件容易事。为了证明自己，她决心侦破一桩神秘案件；追寻真相的路上她被迫与口若悬河、谎技高超的狐尼克（杰森·贝特曼 Jason Bateman 配音）联手，却发现这桩案件背后隐藏着一个意欲颠覆动物城的巨大阴谋……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fbXDtbHvSAUrnERMo1niysnh9cq.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6L0nYQqqEYPaSMjmsWH8dr8I4Sk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
       "releaseDate": "2016-02-11",
-      "rating": 7.8,
+      "rating": 7.755,
       "mediaType": "movie"
     },
     {
@@ -1106,7 +1082,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zuP5Iir0ip4cbpke8vKLmWdqJ6k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ai2FicMUxLCurVkjtYdSvVDWRmS.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.1,
+      "rating": 8.104,
       "mediaType": "movie"
     },
     {
@@ -1142,7 +1118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ir4quKlGux2qsghW7ltGRDn3mrJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2fswjyrY3GEzeoVn6mF8pNeNcgf.jpg",
       "releaseDate": "2008-12-25",
-      "rating": 7.6,
+      "rating": 7.595,
       "mediaType": "movie"
     },
     {
@@ -1154,7 +1130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tZ3cAEoLRJp4ebVzIef7y8xzHlx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg",
       "releaseDate": "2016-11-17",
-      "rating": 7.546,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -1190,7 +1166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.033,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1214,7 +1190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mYvSMWFsZnKYLWomUIbbVSoKsL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uPYa165sraN2c8gZBM9C47g3JoU.jpg",
       "releaseDate": "1984-05-23",
-      "rating": 8.397,
+      "rating": 8.396,
       "mediaType": "movie"
     },
     {
@@ -1226,7 +1202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p76Dknv5K7fsihuiQDui12RZaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
       "releaseDate": "1995-01-27",
-      "rating": 7.972,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1250,7 +1226,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rJBDuMN2FkGpFSVNSK3yPt5DLlV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
       "releaseDate": "1999-10-15",
-      "rating": 8.4,
+      "rating": 8.438,
       "mediaType": "movie"
     },
     {
@@ -1262,7 +1238,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rbs1LbLCIYhLyiTggRztnWFWfbp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iWak7wT0j6ycCc8lKr4NBz9c7n5.jpg",
       "releaseDate": "2014-10-01",
-      "rating": 7.889,
+      "rating": 7.89,
       "mediaType": "movie"
     },
     {
@@ -1274,7 +1250,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nGIlXS9xcnXXE5wInqK7Yc3mAlY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
       "releaseDate": "1994-09-10",
-      "rating": 8.488,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -1307,7 +1283,7 @@
       "title": "无间道",
       "originalTitle": "無間道",
       "description": "1991年，香港黑帮三合会会员刘健明（陈冠希 饰）听从老大韩琛（曾志伟 饰）的吩咐，加入警察部队成为黑帮卧底，韩琛许诺刘健明会帮其在七年后晋升为见习督察。1992年，警察训练学校优秀学员陈永仁（余文乐 饰）被上级黄志诚（黄秋生 饰）要求深入到三合会做卧底，终极目标是成为韩琛身边的红人。2002年，两人都不负重望，也都身背重压，高级警司刘健明（刘德华 饰）逐渐想成为一个真正的好人，帮派干部陈永仁（梁朝伟 饰）则盼着尽快回归警察身份。重案组从陈永仁手中获悉一批毒品交易情报，锁紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zT4HTxFygXuz6lOkOWQ898sji41.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5wozAiswdgBeWmRLyTQSDlHZNJ9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iiDGA97Kqt2dVU1deXQF06USBRu.jpg",
       "releaseDate": "2002-12-12",
       "rating": 7.8,
@@ -1322,7 +1298,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yriYPLqyFqPW0QXaegT1KmWXk9a.jpg",
       "releaseDate": "2004-01-17",
-      "rating": 7.57,
+      "rating": 7.571,
       "mediaType": "movie"
     },
     {
@@ -1334,7 +1310,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l5ELzamAq9aCBJ2CSvW5OMBeQMR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
       "releaseDate": "2006-03-23",
-      "rating": 8,
+      "rating": 8.038,
       "mediaType": "movie"
     },
     {
@@ -1356,9 +1332,9 @@
       "originalTitle": "ハウルの動く城",
       "description": "继母因无力负担生活，将苏菲和她的两个妹妹都送到了制帽店去当学徒。两个妹妹很快先后就离开了制帽店去追寻各自的梦想，只有苏菲坚持了下来。一天，小镇旁边来了一座移动堡垒，传说堡垒的主人哈尔专吸取年青姑娘的灵魂，所以小镇的姑娘都不敢靠近。一个恶毒的巫婆嫉妒苏菲的制帽技术，用巫术把她变成了一个80岁的老太婆，而且苏菲还不能对别人说出自己身中的巫术。无奈，苏菲决定独自一人逃离小镇。天黑了，虚弱的苏菲没走多远，来到了移动城堡。心想自己已经是老太婆了，苏菲壮着胆子走进了城堡。不想，遇到了和她遭遇相同的火焰魔。两人约定彼此帮助对方打破各自的咒语。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pjy0T63vIFYvxRSJ3ZtjB4tmWV4.jpg",
       "releaseDate": "2004-09-09",
-      "rating": 8.392,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1380,9 +1356,9 @@
       "originalTitle": "天空の城ラピュタ",
       "description": "古老帝国拉普达是一座漂浮在空中的巨大的机器岛，传说那里已经无人居住，蕴藏着巨大的财富。因此，无论军方还是海盗，都在找寻着这座传说中的飞行岛。矿工巴鲁这天偶遇拉普达继承人希达，两人一见如故。因为希达身上有找寻拉普达帝国的重要物件飞行石，军方和海盗两帮人马都在追杀希达。巴鲁带着希达一起逃亡，最终都没有逃出军方的手中，希达被军队掳走了。为救朋友，巴鲁只能选择与海盗合作。巴鲁与海盗成功救出了希达，同时，他们也发现了军方的邪恶计划。为了阻止军方邪恶计划的实施，他们和海盗一起踏上了寻找拉普达之旅。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nCpXBPravHiEzjv6cCGp2lt2E28.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/z6OZ2Q4FYELeGoBj9tVDWCvevkj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg",
       "releaseDate": "1986-08-02",
-      "rating": 7.965,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1430,7 +1406,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/efPM8aU1UxuWQcjzq7sGbzePEF5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9wXPKruA6bWYk2co5ix6fH59Qr8.jpg",
       "releaseDate": "2019-04-24",
-      "rating": 8.237,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -1442,7 +1418,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/pgSLk5Q4dW2M7bYxcG7DKBT3hvb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hkKTtlHjiVUW5XRfkQfl3FmJUfX.jpg",
       "releaseDate": "1995-09-22",
-      "rating": 8.4,
+      "rating": 8.378,
       "mediaType": "movie"
     },
     {
@@ -1452,7 +1428,7 @@
       "originalTitle": "Catch Me If You Can",
       "description": "弗兰克（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）是FBI有史以来年龄最小的通缉犯。他的犯罪手段神通广大，伪装身份的能力超乎常人，全美各地几乎都留下他的犯罪足迹。乔装医生、律师、飞行员，统统都是他曾经的身份。当然，弗兰克凭着这个“本领”，骗取了高达几百万的金额。活得逍遥快乐的弗兰克这次又成功伪造了一份学历证明，去医院做起了大夫。弗兰克不但在这里认识了护士布雷达（艾米·亚当斯 Amy Adams饰），二人擦出爱火花，还通过布雷达的父亲得到了一份检察官助理的优差。然而，这只是暴风雨前夕——一双眼睛已经盯住了弗兰克，誓要把他绳之于法不可。这就是FBI探员卡尔（汤姆·汉克斯 Tom Hanks饰）。在研究追捕弗兰克的过程中，卡尔领教到这个犯罪天才的过人智商。他屡次被弗兰克这个黄毛小子捉弄，心里又恨又不得不佩服。每当弗兰克有惊无险地从他的精心布局中逃脱时，这个猫鼠游戏显得有趣起来……",
       "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eS3xZQ1C8lt6mm4K5lTmjbYn2HE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ggC3Brchf4RqPitEh7cROFoeAWn.jpg",
       "releaseDate": "2002-12-16",
       "rating": 7.979,
       "mediaType": "movie"
@@ -1514,7 +1490,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a31aMXYw3u2rfmzq4RDGvRtIMr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
       "releaseDate": "2016-07-20",
-      "rating": 7.748,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -1586,7 +1562,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1ocL6mgNkFlIARhDQcA9bgxS0L1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uNLIMPxknsV4n3IAEDpS1iqF5dm.jpg",
       "releaseDate": "1990-12-07",
-      "rating": 7.719,
+      "rating": 7.72,
       "mediaType": "movie"
     },
     {
@@ -1622,7 +1598,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
       "releaseDate": "2008-07-16",
-      "rating": 8.525,
+      "rating": 8.524,
       "mediaType": "movie"
     },
     {
@@ -1670,7 +1646,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8.043,
+      "rating": 8.044,
       "mediaType": "movie"
     },
     {
@@ -1768,7 +1744,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yQ2Ul7PAbx7vJGpnrGgnnE3jtr3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
       "releaseDate": "2024-12-19",
-      "rating": 7.644,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -1816,7 +1792,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/irHDWF7HJYW6pIpuUcW3Q4OPuI1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3c59KMNs2MYqXUb2GZe8Yfwn4kb.jpg",
       "releaseDate": "2006-07-15",
-      "rating": 7.781,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -1924,7 +1900,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.033,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1936,7 +1912,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/f7LFuTZvLuUb5HfEJxDSvguB9n5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6ykQysq6kfZ6Yw5C4dkhcZRd5QI.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 6.294,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -1948,7 +1924,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hoVWVcFrVWarJIOwmmoLUwJ90gy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8eifdha9GQeZAkexgtD45546XKx.jpg",
       "releaseDate": "2025-02-12",
-      "rating": 6.004,
+      "rating": 6.006,
       "mediaType": "movie"
     },
     {
@@ -2032,7 +2008,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4XPNNt0zfZKBqxxVWaQALd57UHl.jpg",
       "releaseDate": "2024-08-29",
-      "rating": 8.124,
+      "rating": 8.123,
       "mediaType": "movie"
     },
     {
@@ -2056,7 +2032,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/d3i7412JqW8V81msHgZ2b0l9ph9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hGLywNhy1Fo1rNFHsNZsXGS69B8.jpg",
       "releaseDate": "2025-02-28",
-      "rating": 6.84,
+      "rating": 6.841,
       "mediaType": "movie"
     },
     {
@@ -2080,7 +2056,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qMOOPtE2SgFMxFePEOhQGyN3ru1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hwlyY7LJdEFbCPaGNXiskKKmJ5X.jpg",
       "releaseDate": "2025-01-22",
-      "rating": 5.983,
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -2162,9 +2138,9 @@
       "originalTitle": "John Wick: Chapter 4",
       "description": "高桌组织的首席执行官格拉蒙特（比尔·斯卡斯加德饰）不断提高对约翰·威克（基努·里维斯饰）的赏金，同时清理其在这个邪恶组织中的痕迹。巨额赏金的诱惑下，吸引来了潜在的赏金猎人对威克的追杀。被逐出高桌会的威克在与高桌会的对抗过程中找到了击败高桌会的方法，在朋友的帮助下，开始了自己的反击……",
       "posterPath": "https://image.tmdb.org/t/p/w500/dKtgSYi2AwlaHYo1Iqie8wlMsc5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i3OTGmLNOZIo4SRQLVfLjeWegB6.jpg",
       "releaseDate": "2023-03-22",
-      "rating": 7.717,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -2236,7 +2212,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wt1eqcRGcRRJhCoNY26I5f5Qlap.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
       "releaseDate": "2025-03-19",
-      "rating": 4.295,
+      "rating": 4.294,
       "mediaType": "movie"
     },
     {
@@ -2284,7 +2260,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tg1WGloZeutgQhlgSxKkdRhs0o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
       "releaseDate": "2025-03-26",
-      "rating": 6.707,
+      "rating": 6.708,
       "mediaType": "movie"
     },
     {
@@ -2320,7 +2296,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/otQo3B6uiUIlQ2OGsCgwG56tPA2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
       "releaseDate": "2025-03-31",
-      "rating": 6.346,
+      "rating": 6.341,
       "mediaType": "movie"
     },
     {
@@ -2392,7 +2368,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2LV7qOYoqtSXDlTrPT62a8KjKLG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aD7FXrm2GErTmzrIFBntPyhAqS9.jpg",
       "releaseDate": "2025-04-09",
-      "rating": 6.976,
+      "rating": 6.973,
       "mediaType": "movie"
     },
     {
@@ -2416,7 +2392,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/pJkdjrBbZd4C83JJDgB1tMqyWsu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ehzI1mVcnHqB58NqPyQwpMqcVoz.jpg",
       "releaseDate": "2015-04-01",
-      "rating": 7.2,
+      "rating": 7.223,
       "mediaType": "movie"
     },
     {
@@ -2536,7 +2512,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8eeU1008NQ9TmmZgJM3NcAfKJq3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wSdWEc1G3OUWg8HAzNLqOZ9Gd43.jpg",
       "releaseDate": "2025-04-30",
-      "rating": 7.312,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -2569,7 +2545,7 @@
       "title": "猎金·游戏",
       "originalTitle": "猎金·游戏",
       "description": "金融高材生高寒（欧豪 饰）品行正直，专业能力出类拔萃，一心想在金融领域有所作为。因为同窗好友楚峰的家族企业卓通正在进行上市筹备，高寒意外得到国际投行蓝石的实习机会。在众实习生全是世界名校毕业，要么家势显赫能带来业务，要么是内部高管推荐，高寒身在其中显得另类和寒酸，幸得首席分析师张托德（刘德华 饰）的赏识，得以参与投行IPO业务。高寒在张托德的引领下，快速适应高压力快节奏的日常，磨练出扎实的专业技能和谈判技巧，却不知业绩的获得并非只是能者得之。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kgjKj6LtLdGGAeUW4arHM2T7152.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4fQZV8jcqPIWZsBJYCi4rhPVneR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6PNj5JTtoPjhp5shvSlhGWmXTl9.jpg",
       "releaseDate": "2025-05-01",
       "rating": 5.6,
@@ -2644,7 +2620,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jRq6w5byyZARlCu9eNUmIIH8mXV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
       "releaseDate": "2025-04-23",
-      "rating": 7.121,
+      "rating": 7.123,
       "mediaType": "movie"
     },
     {
@@ -2656,7 +2632,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xudy9TKevYOFVJYIwOtkRKC4ZJb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/x0pkoGlwWdkzRxgQioD3cUG0awu.jpg",
       "releaseDate": "2024-09-19",
-      "rating": 7.9,
+      "rating": 7.944,
       "mediaType": "movie"
     },
     {
@@ -2713,10 +2689,10 @@
       "title": "星际宝贝史迪奇",
       "originalTitle": "Lilo & Stitch",
       "description": "来自外星的“实验品626”史迪奇（克里斯·桑德斯 配音）在一场太空追捕中意外降落在夏威夷海岛，与小女孩莉萝（玛雅·凯洛哈 饰）相遇，为了躲避追捕，史迪奇伪装成小狗进入了莉萝的生活，发生了一段极其风趣又不失感人的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kYi1kHZxheSKMTHZN7WhhjVRTtm.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dpEWJUvwpYAX1YFvoyzOfsikIGq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.248,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -2740,7 +2716,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/x5wNw81Rek3lyA4pPEMJheKh6Nb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.26,
+      "rating": 7.262,
       "mediaType": "movie"
     },
     {
@@ -2776,7 +2752,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5RuBsGKMmMwxsLkhdQ5CJdeBgar.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1yktYsxkmUtUFTUnCAUaqG6FEiz.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.32,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -2788,7 +2764,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
       "releaseDate": "2025-05-08",
-      "rating": 7.094,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -2932,7 +2908,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nD1sLRWaqrBJnkGPWW1dtiqfxLh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lx89oBeJIastndjbQxznnfSYpmR.jpg",
       "releaseDate": "2023-04-05",
-      "rating": 6.933,
+      "rating": 6.934,
       "mediaType": "movie"
     },
     {
@@ -2941,10 +2917,10 @@
       "title": "F1：狂飙飞车",
       "originalTitle": "F1",
       "description": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.807,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -2956,7 +2932,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bvATKuxz9Wu53caHUJ7SP38gFQ3.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.983,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -2968,7 +2944,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rDqNggjA9G6oK1RIwoVzEwTuanJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zjKsqMASzGLh21C2GT1fuaa9mDP.jpg",
       "releaseDate": "2025-04-18",
-      "rating": 7.5,
+      "rating": 7.513,
       "mediaType": "movie"
     },
     {
@@ -3016,7 +2992,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gl7kGqjM6wKkWemDeuHuBvNwYxv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tWVXGyDNQM7zRKp162PSdBSgCzb.jpg",
       "releaseDate": "2023-12-13",
-      "rating": 6.422,
+      "rating": 6.424,
       "mediaType": "movie"
     },
     {
@@ -3040,7 +3016,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hWXdgXm1hfnuSIOtWGinBe1GrdS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 6.382,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -3100,7 +3076,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.411,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -3160,7 +3136,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/d1yVZB5UYwtxk3d1LBFZupSN0Rs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uJEZaEM2hY3MG50CgZ3z9jeTwmp.jpg",
       "releaseDate": "2025-07-18",
-      "rating": 8.4,
+      "rating": 8.375,
       "mediaType": "movie"
     },
     {
@@ -3172,7 +3148,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kyuzrk7kaMQt6VBnKKsPIZFne8C.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
       "releaseDate": "2025-07-05",
-      "rating": 5.903,
+      "rating": 5.9,
       "mediaType": "movie"
     },
     {
@@ -3181,7 +3157,7 @@
       "title": "神奇4侠：初露锋芒",
       "originalTitle": "The Fantastic 4: First Steps",
       "description": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ubVDSN3jn8981Itp2gCrfQAzrYr.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hBvaanw3RfMEs1m1blY7xwRXzul.jpg",
       "releaseDate": "2025-07-23",
       "rating": 7.025,
@@ -3220,7 +3196,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qiu0u5fa5OnHtGTOmzOffw5FpkW.jpg",
       "releaseDate": "2025-07-19",
-      "rating": 8.4,
+      "rating": 8.294,
       "mediaType": "movie"
     }
   ]
