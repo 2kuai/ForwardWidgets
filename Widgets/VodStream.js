@@ -1,16 +1,16 @@
-const RESOURCE_SITES = `[
-  {"title": "电影天堂", "value": "http://caiji.dyttzyapi.com/api.php/provide/vod/"},
-  {"title": "非凡影视", "value": "http://ffzy4.tv/api.php/provide/vod/"},
-  {"title": "如意资源站", "value": "https://ryzy.tv/api.php/provide/vod/at/json/"},
-  {"title": "量子资源站", "value": "https://cj.lziapi.com/api.php/provide/vod/at/json/"},
-  {"title": "爱奇艺资源站", "value": "https://iqiyizyapi.com/api.php/provide/vod/"}
-]`;
+const RESOURCE_SITES = `
+电影天堂,http://caiji.dyttzyapi.com/api.php/provide/vod/
+非凡影视,http://ffzy4.tv/api.php/provide/vod/
+如意资源站,https://cj.rycjapi.com/api.php/provide/vod/at/json/
+量子资源站,https://cj.lziapi.com/api.php/provide/vod/at/json/
+爱奇艺资源站,https://iqiyizyapi.com/api.php/provide/vod/
+`;
 
 WidgetMetadata = {
   id: "vod_stream",
   title: "VOD Stream",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.1.3",
+  version: "1.1.4",
   requiredVersion: "0.0.1",
   description: "获取聚合VOD影片资源",
   author: "两块",
@@ -27,7 +27,7 @@ WidgetMetadata = {
     },
     {
       name: "VodData",
-      title: "请输入JSON 格式的苹果CMS链接",
+      title: "JSON或CSV格式的源配置",
       type: "input",
       value: RESOURCE_SITES
     }
@@ -260,15 +260,124 @@ function extractPlayInfo(item, siteTitle, type, targetSeason, targetEpisode) {
 }
 
 /**
- * 解析VodData参数，获取资源站点列表
+ * 改进的parseCSV函数（支持有/无标题行）
+ */
+function parseCSV(csvText) {
+  const lines = csvText.split('\n').filter(line => line.trim() !== '');
+  if (lines.length === 0) return [];
+  
+  // 检查第一行是否可能是标题行（不包含http）
+  const firstLine = lines[0].toLowerCase();
+  const hasTitleRow = !firstLine.includes('http://') && !firstLine.includes('https://');
+  
+  let startIndex = 0;
+  let headers = ['title', 'value']; // 默认标题
+  
+  if (hasTitleRow) {
+    headers = lines[0].split(',').map(header => header.trim());
+    startIndex = 1;
+  }
+  
+  const result = [];
+  
+  for (let i = startIndex; i < lines.length; i++) {
+    const line = lines[i];
+    const values = line.split(',').map(value => value.trim());
+    const item = {};
+    
+    for (let j = 0; j < headers.length && j < values.length; j++) {
+      const key = headers[j].toLowerCase();
+      item[key] = values[j];
+    }
+    
+    // 确保有必要的字段
+    if (item.title && item.value) {
+      // 确保URL以/结尾（很多苹果CMS API需要）
+      if (!item.value.endsWith('/')) {
+        item.value = item.value + '/';
+      }
+      result.push(item);
+    } else if (item.name && item.url) {
+      // 兼容其他字段名
+      result.push({
+        title: item.name,
+        value: item.url.endsWith('/') ? item.url : item.url + '/'
+      });
+    }
+  }
+  
+  return result;
+}
+
+/**
+ * 直接解析CSV格式（不依赖标题行）
+ */
+function parseCSVDirect(csvText) {
+  const lines = csvText.split('\n').filter(line => line.trim() !== '');
+  const result = [];
+  
+  for (const line of lines) {
+    const values = line.split(',').map(value => value.trim());
+    if (values.length >= 2) {
+      // 假设格式为：名称,URL
+      const title = values[0];
+      const url = values[1];
+      
+      // 验证URL格式
+      if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
+        result.push({
+          title: title,
+          value: url.endsWith('/') ? url : url + '/'
+        });
+      }
+    }
+  }
+  
+  return result;
+}
+
+/**
+ * 解析VodData参数，获取资源站点列表（支持JSON和CSV格式）
  */
 function parseResourceSites(VodData) {
   try {
-    // 尝试解析VodData参数
+    // 首先尝试解析JSON格式
     if (VodData && typeof VodData === 'string') {
-      const parsed = JSON.parse(VodData);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        return parsed;
+      // 检查是否是JSON格式（以[或{开头）
+      const trimmed = VodData.trim();
+      if (trimmed.startsWith('[') || trimmed.startsWith('{')) {
+        const parsed = JSON.parse(VodData);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          // 确保数据结构正确
+          return parsed.map(site => ({
+            title: site.title || site.name || '未知站点',
+            value: site.value || site.url || ''
+          })).filter(site => {
+            // 过滤无效站点
+            const hasTitle = site.title && site.title.trim() !== '';
+            const hasValidUrl = site.value && 
+              (site.value.startsWith('http://') || site.value.startsWith('https://'));
+            return hasTitle && hasValidUrl;
+          });
+        }
+      } else {
+        // 尝试解析CSV格式
+        const parsed = parseCSV(VodData);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          // 过滤无效站点
+          return parsed.filter(site => {
+            const hasTitle = site.title && site.title.trim() !== '';
+            const hasValidUrl = site.value && 
+              (site.value.startsWith('http://') || site.value.startsWith('https://'));
+            return hasTitle && hasValidUrl;
+          });
+        } else {
+          // 如果解析失败，尝试直接解析默认格式
+          const directParsed = parseCSVDirect(VodData);
+          if (Array.isArray(directParsed) && directParsed.length > 0) {
+            return directParsed;
+          }
+        }
       }
     }
   } catch (error) {
@@ -278,24 +387,44 @@ function parseResourceSites(VodData) {
   
   // 如果VodData无效或解析失败，使用默认资源
   try {
-    return JSON.parse(RESOURCE_SITES);
+    const defaultSites = parseCSVDirect(RESOURCE_SITES);
+    if (defaultSites.length > 0) {
+      console.log('使用默认资源站点');
+      return defaultSites;
+    }
   } catch (error) {
     console.log('默认资源解析失败:', error);
-    return [];
   }
+  
+  console.log('未找到任何有效资源站点');
+  return [];
 }
 
 async function loadResource(params) {
   const { seriesName, type, season, episode, multiSource, VodData } = params;
   
+  console.log('接收参数:', {
+    seriesName,
+    type,
+    season,
+    episode,
+    multiSource,
+    VodDataLength: VodData?.length || 0
+  });
+  
   if (multiSource !== "enabled") {
+    console.log('聚合搜索已禁用');
     return [];
   }
   
   // 从VodData参数解析资源站点
   const resourceSites = parseResourceSites(VodData);
   
+  console.log('解析到的资源站点数量:', resourceSites.length);
+  console.log('资源站点详情:', resourceSites.map(site => `${site.title}: ${site.value}`));
+  
   if (resourceSites.length === 0) {
+    console.log('未找到有效的资源站点');
     return [];
   }
   
@@ -304,9 +433,22 @@ async function loadResource(params) {
   const baseName = seriesInfo.baseName;
   const targetSeason = season ? parseInt(season) : seriesInfo.seasonNumber;
   
+  console.log('剧名解析结果:', {
+    originalName: seriesName,
+    baseName,
+    targetSeason,
+    seriesInfo
+  });
+  
   const searchTerm = baseName.trim();
   const resourceType = type || 'tv';
   const targetEpisode = episode ? parseInt(episode) : null;
+  
+  console.log('搜索参数:', {
+    searchTerm,
+    resourceType,
+    targetEpisode
+  });
   
   const allResources = [];
   
@@ -316,11 +458,28 @@ async function loadResource(params) {
       try {
         // 检查站点配置是否正确
         if (!site || !site.value) {
+          console.log(`跳过无效站点: ${site?.title || '未知站点'}`);
           return null;
         }
         
-        const response = await Widget.http.get(site.value, {
-          params: { ac: "detail", wd: searchTerm }
+        // 确保URL格式正确
+        let apiUrl = site.value;
+        if (!apiUrl.endsWith('/')) {
+          apiUrl += '/';
+        }
+        
+        console.log(`请求站点: ${site.title}, URL: ${apiUrl}`);
+        
+        const response = await Widget.http.get(apiUrl, {
+          params: { ac: "detail", wd: searchTerm },
+          timeout: 10000 // 10秒超时
+        });
+        
+        console.log(`站点 ${site.title} 响应状态:`, {
+          status: response.status,
+          hasData: !!response.data,
+          code: response.data?.code,
+          listLength: response.data?.list?.length || 0
         });
         
         if (response.data?.code === 1 && response.data.list?.length > 0) {
@@ -328,19 +487,28 @@ async function loadResource(params) {
             site: site.title || '未知站点',
             data: response.data.list
           };
+        } else {
+          console.log(`站点 ${site.title} 无搜索结果或响应异常`);
         }
       } catch (error) {
         // 静默处理请求错误
-        console.log(`请求站点失败: ${site?.title || '未知站点'}`, error);
+        console.log(`请求站点失败: ${site?.title || '未知站点'}`, {
+          error: error.message,
+          url: site.value
+        });
       }
       return null;
     });
     
     const results = await Promise.all(requests);
     
+    console.log('所有站点请求完成，有效结果数量:', results.filter(r => r !== null).length);
+    
     // 处理搜索结果
     for (const result of results) {
       if (!result?.data) continue;
+      
+      console.log(`处理站点 ${result.site} 的数据，数量: ${result.data.length}`);
       
       for (const item of result.data) {
         const itemName = item.vod_name?.trim();
@@ -350,17 +518,29 @@ async function loadResource(params) {
         // 提取当前剧集的季数信息
         const itemInfo = extractSeasonInfo(itemName);
         
+        console.log(`检查剧集: ${itemName}`, {
+          itemBaseName: itemInfo.baseName,
+          itemSeason: itemInfo.seasonNumber,
+          targetBaseName: baseName,
+          targetSeason: targetSeason,
+          match: itemInfo.baseName === baseName && itemInfo.seasonNumber === targetSeason
+        });
+        
         // 检查是否匹配：基础剧名相同且季数匹配
         if (itemInfo.baseName !== baseName || itemInfo.seasonNumber !== targetSeason) {
           continue;
         }
 
         const items = extractPlayInfo(item, result.site, resourceType, targetSeason, targetEpisode);
+        console.log(`剧集 ${itemName} 提取到播放信息数量:`, items.length);
+        
         if (items.length > 0) {
           allResources.push(...items);
         }
       }
     }
+    
+    console.log('所有资源提取完成，总数:', allResources.length);
     
     // 去重：根据URL去重，避免同一资源多次返回
     const uniqueResources = [];
@@ -372,6 +552,9 @@ async function loadResource(params) {
         uniqueResources.push(resource);
       }
     }
+    
+    console.log('去重后资源数量:', uniqueResources.length);
+    console.log('最终返回资源:', uniqueResources);
     
     return uniqueResources;
     
