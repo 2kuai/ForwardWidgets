@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T06:23:05.003103",
+  "last_updated": "2025-12-08T12:27:14.482747",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,9 +59,7 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "CCTV-8 电视剧",
@@ -173,7 +171,9 @@
       "name": "北京卫视",
       "description": "北京广播电视台旗下的综合性卫星电视频道，以新闻、文化、纪实和季播综艺为主要内容，致力于成为全国最具影响力的主流媒体之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-北京卫视.png,lfo-center,l-end,l-end/北京卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://39.164.160.249:9901/tsfile/live/0122_1.m3u8"
+      ]
     },
     {
       "name": "浙江卫视",
