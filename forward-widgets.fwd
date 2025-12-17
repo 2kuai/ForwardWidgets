@@ -29,6 +29,15 @@
       "version": "1.0.0",
       "author": "两块",
       "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/VodStream.js"
+    },
+    {
+      "id": "ystt.vod",
+      "title": "影视天堂",
+      "description": "影视天堂影片资源",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "两块",
+      "url": "https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Widgets/ystt.js"
     }
   ]
 }
