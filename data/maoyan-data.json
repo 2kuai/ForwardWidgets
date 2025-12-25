@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-25T08:53:05.806+08:00",
+  "last_updated": "2025-12-25T14:17:44.817+08:00",
   "tv": {
     "全网": [
       {
@@ -91,17 +91,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 273190,
-        "type": "tmdb",
-        "title": "哑舍",
-        "description": "热闹与喧嚣的摩登城市，时间在这里无声沉积。那些神话传说中亦真亦假的奇珍异宝，曾一度遗落在时间的长河里。然而，此刻，它们就在这里——名为“哑舍”的古董店。 古董店的老板甘毕之拥有可以倾听古物的力量，替他们寻找有缘人，完成夙愿。他结识了热心的医生苏北陆，二人成为了至交好友。只有老板知道，医生身上也有着不同寻常的东西……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/50SzYCgOiCFxBZJpEzmUD5vvUDC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qNUA93nlDiIUQR0DIO2OrRuRDh1.jpg",
-        "releaseDate": "2024-10-04",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "id": 211089,
         "type": "tmdb",
         "title": "唐朝诡事录",
@@ -110,6 +99,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
         "releaseDate": "2022-09-27",
         "rating": 8.272,
+        "mediaType": "tv"
+      },
+      {
+        "id": 273190,
+        "type": "tmdb",
+        "title": "哑舍",
+        "description": "热闹与喧嚣的摩登城市，时间在这里无声沉积。那些神话传说中亦真亦假的奇珍异宝，曾一度遗落在时间的长河里。然而，此刻，它们就在这里——名为“哑舍”的古董店。 古董店的老板甘毕之拥有可以倾听古物的力量，替他们寻找有缘人，完成夙愿。他结识了热心的医生苏北陆，二人成为了至交好友。只有老板知道，医生身上也有着不同寻常的东西……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/50SzYCgOiCFxBZJpEzmUD5vvUDC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qNUA93nlDiIUQR0DIO2OrRuRDh1.jpg",
+        "releaseDate": "2024-10-04",
+        "rating": 7,
         "mediaType": "tv"
       }
     ],
@@ -282,17 +282,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 281538,
-        "type": "tmdb",
-        "title": "沉默的荣耀",
-        "description": "讲述1949年解放前后，国民党企图阻止新中国完成祖国统一大业，我党情报工作人员吴石（于和伟 饰）将军不顾个人安危，与情报小组潜伏配合，数月内为组织传递绝密军事情报，却被叛徒出卖，最终慷慨赴义的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/c6RZawMw4WCMX9T2sepy4zMtOIh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3j0wdWGDa4p4lBKkdO7Vlg81Oab.jpg",
-        "releaseDate": "2025-09-30",
-        "rating": 7.167,
-        "mediaType": "tv"
-      },
-      {
         "id": 302726,
         "type": "tmdb",
         "title": "海市蜃楼",
@@ -301,6 +290,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/l0vi8Gc2vGQ5CiFULe0Mj6yhCE8.jpg",
         "releaseDate": "2025-12-19",
         "rating": 7.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 281538,
+        "type": "tmdb",
+        "title": "沉默的荣耀",
+        "description": "讲述1949年解放前后，国民党企图阻止新中国完成祖国统一大业，我党情报工作人员吴石（于和伟 饰）将军不顾个人安危，与情报小组潜伏配合，数月内为组织传递绝密军事情报，却被叛徒出卖，最终慷慨赴义的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/c6RZawMw4WCMX9T2sepy4zMtOIh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3j0wdWGDa4p4lBKkdO7Vlg81Oab.jpg",
+        "releaseDate": "2025-09-30",
+        "rating": 7.167,
         "mediaType": "tv"
       },
       {
@@ -326,14 +326,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 305315,
+        "id": 263034,
         "type": "tmdb",
-        "title": "隐锋",
-        "description": "在成都解放前夕，因战乱与组织失联的共产党员李亨成了一只断线的风筝。在遇到被严刑拷打的故人老周后，终于联系上了于同，成为与于同单线联系的我党潜伏人员。在此过程中，李亨斡旋于国共双方的地下组织，江湖袍哥的恩怨纷争、国民党内的派系斗争以及四川军团中的明争暗斗 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nQeMLoisiGmdIhXQ0iKnPbQ7bf7.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2UYBHPK4EIYXlMGcD4XsZDUj9VF.jpg",
-        "releaseDate": "2025-11-11",
-        "rating": 8,
+        "title": "赴山海",
+        "description": "一名酷爱武侠小说却被现实磨平棱角的咸鱼肖明明，以小说男主角萧秋水的视角游历了一次武林世界，从武力低微、热血冲动的少年剑客，最终成长为有情有义、守护家国的大侠。此后肖明明在工作之余也不忘创作，在小说中继续传递人心因义而聚的信念。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jOEKN1yCpbTwuVCN4RxLCVHEn8c.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7dH63uoQDQu6pfYJLNKQYLXJ38m.jpg",
+        "releaseDate": "2025-09-11",
+        "rating": 6,
         "mediaType": "tv"
       }
     ],
@@ -423,7 +423,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
         "releaseDate": "2025-11-07",
-        "rating": 8,
+        "rating": 7,
         "mediaType": "tv"
       },
       {
@@ -517,6 +517,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 86617,
+        "type": "tmdb",
+        "title": "大话西游之爱你一万年",
+        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
+        "releaseDate": "2017-09-28",
+        "rating": 4.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 222714,
         "type": "tmdb",
         "title": "蝶影",
@@ -536,17 +547,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/6UvZPs4JdjB65H7FjkiCeTaG2Ag.jpg",
         "releaseDate": "2024-02-26",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 86617,
-        "type": "tmdb",
-        "title": "大话西游之爱你一万年",
-        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
-        "releaseDate": "2017-09-28",
-        "rating": 4.5,
         "mediaType": "tv"
       },
       {
@@ -585,17 +585,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 131078,
-        "type": "tmdb",
-        "title": "远方的山楂树",
-        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
-        "releaseDate": "2019-12-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 126763,
         "type": "tmdb",
         "title": "我哥我嫂",
@@ -603,6 +592,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9qf9wzsVUx9uzjCJHDOqH1pCqe1.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/m1KgW9IBj9PRsp4SW3j43jCPxA2.jpg",
         "releaseDate": "2019-12-08",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 131078,
+        "type": "tmdb",
+        "title": "远方的山楂树",
+        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
+        "releaseDate": "2019-12-27",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -890,6 +890,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 278324,
         "type": "tmdb",
         "title": "一路繁花",
@@ -898,17 +909,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
         "releaseDate": "2025-01-11",
         "rating": 6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 308580,
-        "type": "tmdb",
-        "title": "泰甜啦",
-        "description": "双轨剧组主演携手共赴泰国甜蜜盛宴，突破剧情边界，满溢着自然默契、团魂升温与浪漫，期待与你一起解锁演员们真实状态互动，敬请期待吧！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
-        "releaseDate": "2025-12-17",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -923,14 +923,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 257161,
+        "id": 308580,
         "type": "tmdb",
-        "title": "喜人奇妙夜",
-        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
-        "releaseDate": "2024-06-28",
-        "rating": 5.5,
+        "title": "泰甜啦",
+        "description": "双轨剧组主演携手共赴泰国甜蜜盛宴，突破剧情边界，满溢着自然默契、团魂升温与浪漫，期待与你一起解锁演员们真实状态互动，敬请期待吧！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
+        "releaseDate": "2025-12-17",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1048,6 +1048,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 278324,
         "type": "tmdb",
         "title": "一路繁花",
@@ -1067,17 +1078,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
         "releaseDate": "2025-12-17",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 238136,
-        "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
-        "releaseDate": "2023-10-26",
-        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1416,28 +1416,6 @@
         "posterPath": null,
         "backdropPath": null,
         "releaseDate": "2025-10-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 291862,
-        "type": "tmdb",
-        "title": "背后",
-        "description": "《背后》是由郑方一主持、张泉灵担任对谈人的观察谈话类节目，在寻找背后故事的同时，也寻找答案和力量的观察谈话类节目。以“在路过的人生里照见背后的自己”为核心立意，聚焦当代社会对深度内容的渴求，在信息碎片化、情绪快餐化的当下，旨在通过“有温度的对谈”为观众提供一处心灵栖息地，唤醒人们对自我成长、精神力量的关注。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9GULN35kQ4K8LYofJqF1VEixzgK.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 302975,
-        "type": "tmdb",
-        "title": "逃离朝九晚五的恋爱",
-        "description": "《逃离朝九晚五的恋爱》是一档专为城市打工人解决恋爱困境的真人秀。我们将召集10位北京的单身打工人，利用5天年假前往海边开启一场浪漫邂逅。年假过完回到现实生活后，我们会继续在5天通勤日中开展自主约会，补完邂逅的缘分。十天结束后，嘉宾会给出自己的最终恋爱选择！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cWwjDBsKJvvqvYkq6S5xWceSb5e.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2ggIpQGG1suxxLDRHnVwROL2p0e.jpg",
-        "releaseDate": "2025-10-14",
         "rating": 0,
         "mediaType": "tv"
       }
