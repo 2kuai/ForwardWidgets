@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-26T14:17:42.797+08:00",
+  "last_updated": "2025-12-26T20:20:47.399+08:00",
   "tv": {
     "全网": [
       {
@@ -10,7 +10,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/zTLQDCepSscl38QfhMyenVtqFX6.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 0,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -22,6 +22,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
         "releaseDate": "2025-12-15",
         "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 296146,
+        "type": "tmdb",
+        "title": "罚罪2",
+        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
+        "releaseDate": "2025-12-25",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -44,17 +55,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/wCBgNbukU0eaTCdJrtX4wMpjfgx.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 296146,
-        "type": "tmdb",
-        "title": "罚罪2",
-        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-12-25",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -98,7 +98,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
         "releaseDate": "2022-09-27",
-        "rating": 8.3,
+        "rating": 8.309,
         "mediaType": "tv"
       },
       {
@@ -159,17 +159,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 263218,
-        "type": "tmdb",
-        "title": "亦舞之城",
-        "description": "芭蕾舞艺术家谭思婷退役归国，欲与当年被迫分开的恋人冯睿破镜重圆，但是过去的误会如同天堑一般隔断两人。如今的冯睿独自一个人带着孩子，生活如同深潭静水，谭思婷回来如同一颗石子搅乱了一切。而谭思婷身边也有一个默默爱了她十年的暗恋者，这次勇敢追爱对她不离不弃。冯睿和谭思婷彼此逃避对方，但是命运的漩涡却不断的将两人裹挟其中，令他们爱恨两难。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eQhBiO0ELLjOsUPW47ZEwEs62KU.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yB0WlkEWHk8MKVptutO5awGUM23.jpg",
-        "releaseDate": "2025-11-27",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 271015,
         "type": "tmdb",
         "title": "凤凰台上",
@@ -178,6 +167,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1ybpRrDgtejMdAP04Qhtd52QwWT.jpg",
         "releaseDate": "2025-11-14",
         "rating": 8.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 263218,
+        "type": "tmdb",
+        "title": "亦舞之城",
+        "description": "芭蕾舞艺术家谭思婷退役归国，欲与当年被迫分开的恋人冯睿破镜重圆，但是过去的误会如同天堑一般隔断两人。如今的冯睿独自一个人带着孩子，生活如同深潭静水，谭思婷回来如同一颗石子搅乱了一切。而谭思婷身边也有一个默默爱了她十年的暗恋者，这次勇敢追爱对她不离不弃。冯睿和谭思婷彼此逃避对方，但是命运的漩涡却不断的将两人裹挟其中，令他们爱恨两难。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eQhBiO0ELLjOsUPW47ZEwEs62KU.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yB0WlkEWHk8MKVptutO5awGUM23.jpg",
+        "releaseDate": "2025-11-27",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -238,6 +238,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 296146,
+        "type": "tmdb",
+        "title": "罚罪2",
+        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
+        "releaseDate": "2025-12-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 279041,
         "type": "tmdb",
         "title": "双轨",
@@ -246,17 +257,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/wCBgNbukU0eaTCdJrtX4wMpjfgx.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 296146,
-        "type": "tmdb",
-        "title": "罚罪2",
-        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-12-25",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -278,7 +278,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/8b5yXvmWSOl64Abk1wMYhzs4OnP.jpg",
         "releaseDate": "2022-09-27",
-        "rating": 8.3,
+        "rating": 8.309,
         "mediaType": "tv"
       },
       {
@@ -346,7 +346,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/zTLQDCepSscl38QfhMyenVtqFX6.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 0,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -405,17 +405,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 273131,
-        "type": "tmdb",
-        "title": "四喜",
-        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
-        "releaseDate": "2025-11-07",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "id": 262997,
         "type": "tmdb",
         "title": "他为什么依然单身",
@@ -438,14 +427,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 254166,
+        "id": 273131,
         "type": "tmdb",
-        "title": "即刻上场",
-        "description": "一群法律实习生的职场大逃杀（“顶级offer角逐赛”），却在激烈的丛林法则中找寻到各自人生中令人心动的offer。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/64E5c16WXzkFeBV76fYX0RpubKm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xGiiGyhBWFNc3pqLCIrEAsnB3lc.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 6.25,
+        "title": "四喜",
+        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
+        "releaseDate": "2025-11-07",
+        "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 308855,
+        "type": "tmdb",
+        "title": "机智的公主殿下",
+        "description": "三十六线演员安然探班时意外穿进剧本，为重返现代戏精安然“扮猪吃老虎”，却在拯救炮灰途中卷入宇文睿的复仇大计。两人表面是忠诚狗腿与腹黑首辅的塑料搭档，实则各怀心思。一场覆灭云弥国的阴谋正悄然展开……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u0TELrnG1mkqBAHeM3tmFq9VvpP.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/i4Xp1GEuYVWex3imHBBbDV6IG9M.jpg",
+        "releaseDate": "2025-12-24",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-07-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 308083,
         "type": "tmdb",
         "title": "大国船梦",
@@ -502,6 +491,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
         "backdropPath": null,
         "releaseDate": "2025-10-10",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -596,28 +596,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 131078,
-        "type": "tmdb",
-        "title": "远方的山楂树",
-        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
-        "releaseDate": "2019-12-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-07-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 308083,
         "type": "tmdb",
         "title": "大国船梦",
@@ -636,6 +614,28 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
         "backdropPath": null,
         "releaseDate": "2025-10-10",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 131078,
+        "type": "tmdb",
+        "title": "远方的山楂树",
+        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
+        "releaseDate": "2019-12-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -879,6 +879,28 @@
         "mediaType": "tv"
       },
       {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -898,28 +920,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
         "releaseDate": "2016-10-28",
         "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -958,17 +958,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 95903,
-        "type": "tmdb",
-        "title": "圆桌派",
-        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
-        "releaseDate": "2016-10-28",
-        "rating": 9,
-        "mediaType": "tv"
-      },
-      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇",
@@ -977,6 +966,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 95903,
+        "type": "tmdb",
+        "title": "圆桌派",
+        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
+        "releaseDate": "2016-10-28",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1013,17 +1013,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 297509,
-        "type": "tmdb",
-        "title": "炙热游戏：百厨大战",
-        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
-        "releaseDate": "2025-08-27",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 306845,
         "type": "tmdb",
         "title": "笑有新生",
@@ -1033,18 +1022,29 @@
         "releaseDate": "2025-12-06",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "炙热游戏：百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
+        "releaseDate": "2025-08-27",
+        "rating": 0,
+        "mediaType": "tv"
       }
     ],
     "爱奇艺": [
       {
-        "id": 238136,
+        "id": 278324,
         "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
-        "releaseDate": "2023-10-26",
-        "rating": 9,
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -1059,14 +1059,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
+        "id": 238136,
         "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "releaseDate": "2023-10-26",
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -1164,7 +1164,7 @@
         "type": "tmdb",
         "title": "日落时分说爱你",
         "description": "10位性格各异、魅力全开的熟龄男女带着一颗敢爱的心，从大理到泰国，在“日落时分”开启一段“爱情之旅”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/x69oxpKslVf7Adha5Mtgp0FVe5y.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
         "releaseDate": "2025-12-25",
         "rating": 0,
@@ -1409,13 +1409,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 307946,
+        "id": 280917,
         "type": "tmdb",
-        "title": "源来是你·青春季",
-        "description": "本节目是一档乡村文旅探索真人秀，以“文旅、美食、文创促进县域振兴”为主线。以广东省河源市东源县为拍摄地，聚焦在乡村挖掘当地宝藏特产、将地方特色农产品转化为潮流饮品、小吃。六位青年艺人受邀深入乡村，联合本地村民，以东源新产业“餐车”为载体，通过创意饮品开发、产品打样、文旅推广等手段，发展当地的村咖餐车产业、推广当地特产，通过体验农事劳作、入户走访、与村民共创产品、搭建销售平台，并在最后以“东源推介会”的形式向全国媒体推介东源特色农品，完成一次“青春版”的文创美食产品孵化全过程。该节目的所有行动路径和创业任务，皆以当地真实资源与条件为基础，联合当地政府、村民共同策划与执行，具有较强的纪实与可复制性。同时通过在东源展开的乡村之旅，挖掘乡村文旅的潜力、绘就乡村振兴的“诗画卷”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
-        "releaseDate": "2025-12-10",
+        "title": "姜姜好",
+        "description": "姜妍与美食搭子们将踏上一段美味与美食融化心灵的旅程。通过自驾“餐车”的方式，旅行打卡最受年轻人欢迎的3座城市，并解锁以城市为中心半径100公里周边区域，进行后备箱互动迁徙摆摊。旨在让“摆摊经济”重回大众视野，展现后备箱集市新型态，以美食为媒，聆听众生故事、探寻美好生活哲学。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yzmHQ4RF9i3MPyMQFGREotSVnaV.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cl35BlJxNNVWDM3ohgeiQGiDNIJ.jpg",
+        "releaseDate": "2025-01-07",
         "rating": 0,
         "mediaType": "tv"
       }
