@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-27T00:28:32.560+08:00",
+  "last_updated": "2025-12-28T00:28:36.553+08:00",
   "迷雾剧场": {
     "aired": [
       {
@@ -728,6 +728,17 @@
   },
   "X剧场": {
     "aired": [
+      {
+        "id": 258492,
+        "type": "tmdb",
+        "title": "人之初",
+        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3ReCUjHjX287h9Nte72xn3Lx4uo.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bWYxmZdCe6lTDEelQx8qwgZRnUk.jpg",
+        "releaseDate": "2025-12-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 282905,
         "type": "tmdb",
