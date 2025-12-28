@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-28T20:19:33.509+08:00",
+  "last_updated": "2025-12-29T02:15:29.573+08:00",
   "tv": {
     "全网": [
       {
@@ -25,17 +25,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 277052,
-        "type": "tmdb",
-        "title": "老舅",
-        "description": "老舅是外甥二胖最崇拜的人，老舅自幼学习优异，毕业于哈工大，对于任何新鲜事物，几乎都是天才式的无师自通。在中国经济全面转型的90年代，怀揣一身本领的老舅总有新的理想，所以他不停地创业。虽然老舅“折腾”的一生经历各种困难，但也在不停折腾中感受到了亲友陪伴的力量，最终在自己对生活的乐观态度里实现了梦想。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
-        "releaseDate": "2025-12-15",
-        "rating": 8.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 254482,
         "type": "tmdb",
         "title": "长安二十四计",
@@ -44,6 +33,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7.7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 277052,
+        "type": "tmdb",
+        "title": "老舅",
+        "description": "老舅是外甥二胖最崇拜的人，老舅自幼学习优异，毕业于哈工大，对于任何新鲜事物，几乎都是天才式的无师自通。在中国经济全面转型的90年代，怀揣一身本领的老舅总有新的理想，所以他不停地创业。虽然老舅“折腾”的一生经历各种困难，但也在不停折腾中感受到了亲友陪伴的力量，最终在自己对生活的乐观态度里实现了梦想。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
+        "releaseDate": "2025-12-15",
+        "rating": 8.5,
         "mediaType": "tv"
       },
       {
@@ -438,14 +438,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 282901,
+        "id": 254166,
         "type": "tmdb",
-        "title": "超感迷宫",
-        "description": "警校教授徐靖之回归一线调查一起离奇案件时，结识了已故弟弟的旧友庄明诚，并利用他捣毁了一个性质恶劣的犯罪团伙，进一步侦破了一起陈年旧案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7HwRRXaegCiO4GxEGcAt9MPjLxc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/XvtxaWSZGMRGYYL3OZkn4JP9L5.jpg",
-        "releaseDate": "2025-12-09",
-        "rating": 9,
+        "title": "即刻上场",
+        "description": "一群法律实习生的职场大逃杀（“顶级offer角逐赛”），却在激烈的丛林法则中找寻到各自人生中令人心动的offer。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/64E5c16WXzkFeBV76fYX0RpubKm.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/xGiiGyhBWFNc3pqLCIrEAsnB3lc.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 6.25,
         "mediaType": "tv"
       }
     ],
@@ -495,17 +495,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302867,
-        "type": "tmdb",
-        "title": "三江潮",
-        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-10-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 222714,
         "type": "tmdb",
         "title": "蝶影",
@@ -514,17 +503,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
         "releaseDate": "2023-03-21",
         "rating": 5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 86617,
-        "type": "tmdb",
-        "title": "大话西游之爱你一万年",
-        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
-        "releaseDate": "2017-09-28",
-        "rating": 4.5,
         "mediaType": "tv"
       },
       {
@@ -550,6 +528,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 302867,
+        "type": "tmdb",
+        "title": "三江潮",
+        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-10-10",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 278579,
         "type": "tmdb",
         "title": "天下同心",
@@ -558,6 +547,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
         "releaseDate": "2024-12-02",
         "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "id": 86617,
+        "type": "tmdb",
+        "title": "大话西游之爱你一万年",
+        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
+        "releaseDate": "2017-09-28",
+        "rating": 4.5,
         "mediaType": "tv"
       }
     ],
@@ -618,17 +618,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 302867,
-        "type": "tmdb",
-        "title": "三江潮",
-        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-10-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 131078,
         "type": "tmdb",
         "title": "远方的山楂树",
@@ -637,17 +626,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
         "releaseDate": "2019-12-27",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 110329,
-        "type": "tmdb",
-        "title": "伟大的转折",
-        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
-        "releaseDate": "2019-08-26",
-        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -662,6 +640,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 110329,
+        "type": "tmdb",
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
         "id": 107674,
         "type": "tmdb",
         "title": "少年大钦差",
@@ -670,6 +659,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8reBT4mSUBOQfxF54khLNSOoiNT.jpg",
         "releaseDate": "2004-07-31",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 84693,
+        "type": "tmdb",
+        "title": "我爱男保姆",
+        "description": "家庭煮夫方原过了五年“女主外，男主内”的生活，终于被日益强势的老婆嫌弃。为了挽救婚姻，方原毅然决然的踏上了去大城市的闯荡之路，凭借自己的一技之长，开始了全能男保姆的工作。这年头客户的要求都高：洗衣洗碗洗车、擦地擦窗擦烟机、修房修草修家电、看护看门看孩子、做饭做菜做月子餐，这些都只是基本技能，代驾代谈判代分手、送花送货送口信也不算稀奇事。碰上高小姐这样的客户，方原要给人家孩子每周当一天的爹；碰上马舒儿这样的客户，方原除了干活还得兼职心理治疗师、职业规划师；而碰上陆晴这样的客户，任凭方原十项全能，都依旧被连累得背黑锅、丢彩票，赚不到钱不说还得倒贴钱。三个女人一台戏，客户还是不能得罪的上帝，方原这个男保姆努力发挥正能量，做出口碑做出成绩。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9FXo7X0XI7ufOg7shBaG8YxImnA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5ATCNi6P7zKRMIsRfYsagByIHwn.jpg",
+        "releaseDate": "2015-11-14",
+        "rating": 7.6,
         "mediaType": "tv"
       }
     ],
@@ -708,17 +708,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 157596,
-        "type": "tmdb",
-        "title": "有个地方叫马兰",
-        "description": "本剧通过“马兰的孩子们”重走当年路，勾连上世纪60年代初原子弹试验期间发生在马兰的故事。我国马兰核实验基地，原子弹实验进入到关键阶段。为了解除实验部队的后顾之忧，大批科技、保障人员的家属、儿女从全国不...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pzM8fDwdp9OlZEzG90Apzp1Ms4a.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yaQEkRTWAhXEsZH7Dq5w6uizbvn.jpg",
-        "releaseDate": "2019-03-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 157931,
         "type": "tmdb",
         "title": "黑河风云",
@@ -726,6 +715,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/u84IHJItbyCvKiThk5wqnMYPmg7.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/eAnJC9r9nVQCaUpNqBUta9WO4Vh.jpg",
         "releaseDate": "2020-03-08",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 157596,
+        "type": "tmdb",
+        "title": "有个地方叫马兰",
+        "description": "本剧通过“马兰的孩子们”重走当年路，勾连上世纪60年代初原子弹试验期间发生在马兰的故事。我国马兰核实验基地，原子弹实验进入到关键阶段。为了解除实验部队的后顾之忧，大批科技、保障人员的家属、儿女从全国不...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pzM8fDwdp9OlZEzG90Apzp1Ms4a.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/yaQEkRTWAhXEsZH7Dq5w6uizbvn.jpg",
+        "releaseDate": "2019-03-10",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -798,17 +798,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 282589,
-        "type": "tmdb",
-        "title": "浴血荣光",
-        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3ywnMqp2JgLYSRJbUlsOKaD3LYn.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lk7T2GSFWAGaoStQWxjDHMd31l0.jpg",
-        "releaseDate": "2025-07-15",
-        "rating": 9.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 207668,
         "type": "tmdb",
         "title": "与凤行",
@@ -831,20 +820,42 @@
         "mediaType": "tv"
       },
       {
-        "id": 261602,
+        "id": 282589,
         "type": "tmdb",
-        "title": "潜渊",
-        "description": "1940年1月，头部受伤的我党地下工作者梁朔在深山暴雪中苏醒，他因伤失忆，根据线索来到上海寻找自己的身份却陷入日军围捕，因此怀疑自己是军统一员。汪伪76号的人也找到他，称他是行动处的处长。此时日汪政府联合举办的“和平共荣大会”即将召开，一批被日方严密囚禁的难民劳工也将在会后被推上战场，生命危在旦夕。我党制定“潜渊”计划，准备在大会召开之际解救同胞。在这关键时刻，执行计划的地下党员“清霜”却不知所踪。梁朔在日伪特务的重重陷阱下重新找回记忆，原来他就是“清霜”。梁朔坚持自己的红色信仰，以身涉险，重回76号寻找解救同胞们的机会。他获悉一份尘封了十余年的日谍名单也将在大会上被启用，为完成“潜渊”计划，他必须夺取名单。梁朔发动身边所有爱国力量，粉碎了日方阴谋，解救了千余名难民。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nTcvAxmywCekT3BzxBk7vd3c9MX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w4PyuWmribDsH2rXhon47iWylt7.jpg",
-        "releaseDate": "2025-06-09",
+        "title": "浴血荣光",
+        "description": "1927年国共两党合作破裂后，年轻的中国共产党组织了南昌起义、秋收起义，并在井冈山开辟了革命根据地，创建了人民军队。随后，转战闽西，历经血与火的考验和不断探索，终于在古田会议上确定了思想建党、政治建军的伟大原则。第五次反围剿失败后，红军开始了二万五千里长征。长征路上，红军历经艰难险阻，冲过四道封锁线，血战湘江，突破乌江。在中国革命面临生死存亡的紧要关头，毛泽东力挽狂澜，与周恩来、朱德、张闻天、王稼祥等老一辈无产阶级革命家一同于1935年1月15日召开了遵义会议，中国革命历经了伟大的转折，开创了中国革命胜利的伟大征程。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/3ywnMqp2JgLYSRJbUlsOKaD3LYn.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lk7T2GSFWAGaoStQWxjDHMd31l0.jpg",
+        "releaseDate": "2025-07-15",
         "rating": 9.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 274260,
+        "type": "tmdb",
+        "title": "小巷人家",
+        "description": "20世纪70年代末，苏州棉纺厂家属区一条小巷里住着庄、林两家人。正值高考恢复，身为教师的庄超英和妻子黄玲将儿女高考作为家庭头等大事，邻居林武峰和宋莹一家受其影响也开始关注儿子学业。庄超英、黄玲一家看似和谐体面，儿子庄图南刻苦好学，女儿庄筱婷乖巧懂事，但庄超英的懦弱愚孝让家人备受伤害。隔壁林武峰、宋莹一家看似我行我素，儿子林栋哲异常顽皮，实则夫妻间相互扶持，亲子间相互尊重，家庭热闹而完满。林武峰和宋莹顺应时代变迁，举家到广州寻找新的机遇，从小青梅竹马的庄筱婷与林栋哲分开后发现对彼此的心意，相约考入同一所大学，在毕业时面临家庭与现实的阻碍仍坚定地选择了对方，庄图南和李佳辗转多年后也终成眷属。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kKEGxNzMDkF09lniLvLSRh7Vuff.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/qo5DzqUV7J0fqeEPeZxLcfukTuu.jpg",
+        "releaseDate": "2024-10-28",
+        "rating": 8.857,
         "mediaType": "tv"
       }
     ]
   },
   "show": {
     "全网": [
+      {
+        "id": 309100,
+        "type": "tmdb",
+        "title": "宇宙闪烁请注意",
+        "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
+        "releaseDate": "2025-12-27",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 231620,
         "type": "tmdb",
@@ -854,17 +865,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/u4nbs5Q9dHKd3179O4q7tWUGmKF.jpg",
         "releaseDate": "2023-08-13",
         "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 309100,
-        "type": "tmdb",
-        "title": "宇宙闪烁请注意",
-        "description": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6GSMkDvsF2QVCCB8iaA7lj6R8Ni.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
-        "releaseDate": "2025-12-27",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -923,14 +923,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
+        "id": 300172,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/pIkPW3PYh4GiAbs5DyWOp027EET.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7.3,
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 308580,
+        "type": "tmdb",
+        "title": "泰甜啦",
+        "description": "双轨剧组主演携手共赴泰国甜蜜盛宴，突破剧情边界，满溢着自然默契、团魂升温与浪漫，期待与你一起解锁演员们真实状态互动，敬请期待吧！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
+        "releaseDate": "2025-12-17",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -991,17 +1002,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 301355,
-        "type": "tmdb",
-        "title": "偏爱之恋",
-        "description": "青春洋溢的单身男女为爱而来，只身抵达远离都市的荒野之境，展开为期两周的偏爱之恋。当生存竞技撞上恋爱修罗场，淘汰危机和情感抉择之下，一场面包与玫瑰的较量即将展开，他们能否找到属于自己的爱与偏爱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/erSBOC0flymlwavzn1IztNtOiVZ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/94U8sYU6ZLqlo4LWH7aE1JbwKVM.jpg",
-        "releaseDate": "2025-09-23",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 236473,
         "type": "tmdb",
         "title": "第一人称复数",
@@ -1010,6 +1010,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
         "releaseDate": "2023-09-20",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 301355,
+        "type": "tmdb",
+        "title": "偏爱之恋",
+        "description": "青春洋溢的单身男女为爱而来，只身抵达远离都市的荒野之境，展开为期两周的偏爱之恋。当生存竞技撞上恋爱修罗场，淘汰危机和情感抉择之下，一场面包与玫瑰的较量即将展开，他们能否找到属于自己的爱与偏爱。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/erSBOC0flymlwavzn1IztNtOiVZ.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/94U8sYU6ZLqlo4LWH7aE1JbwKVM.jpg",
+        "releaseDate": "2025-09-23",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -1040,9 +1051,9 @@
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
-        "description": "",
-        "posterPath": "https://image.tmdb.org/t/p/w500/6GSMkDvsF2QVCCB8iaA7lj6R8Ni.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
+        "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
         "releaseDate": "2025-12-27",
         "rating": 0,
         "mediaType": "tv"
@@ -1160,17 +1171,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 309015,
-        "type": "tmdb",
-        "title": "日落时分说爱你",
-        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
-        "releaseDate": "2025-12-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 300172,
         "type": "tmdb",
         "title": "声鸣远扬2025",
@@ -1178,6 +1178,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
         "releaseDate": "2025-11-09",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 309015,
+        "type": "tmdb",
+        "title": "日落时分说爱你",
+        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
+        "releaseDate": "2025-12-25",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1354,6 +1365,17 @@
     "PPTV": [],
     "芒果TV": [
       {
+        "id": 300172,
+        "type": "tmdb",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 114473,
         "type": "tmdb",
         "title": "名侦探学院",
@@ -1376,17 +1398,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 305779,
-        "type": "tmdb",
-        "title": "劲勇飞侠",
-        "description": "《劲勇飞侠》是由湖南广播电视台金鹰卡通卫视2025年打造的全国青少年体能竞技障碍赛。旨在通过核心力、平衡力、抓握力、上肢耐力、下肢爆发力、心肺能力的考验，展现中国青少年体能运动风采。节目将在全国海搜72名S级运动少年，全面推广体能障碍跑项目，为国际现代五项、奥运级赛事储备体育人才。打造中国青少年第一体育赛事IP、打造中国青少年第一赛事运动平台。",
-        "posterPath": null,
-        "backdropPath": null,
-        "releaseDate": "2025-10-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 281511,
         "type": "tmdb",
         "title": "有你的恋歌",
@@ -1394,28 +1405,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/Ri7z7mFfevY6YMOnecoX1zfLZw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/shJJIUuocAxe1FRS9V4jPsv201Z.jpg",
         "releaseDate": "2025-01-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 130099,
-        "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
-        "releaseDate": "2021-07-28",
-        "rating": 8.1,
-        "mediaType": "tv"
-      },
-      {
-        "id": 300172,
-        "type": "tmdb",
-        "title": "声鸣远扬2025",
-        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
-        "releaseDate": "2025-11-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1428,6 +1417,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
         "releaseDate": "2025-11-25",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 304850,
+        "type": "tmdb",
+        "title": "在江湖团建的日子",
+        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
+        "releaseDate": "2025-11-06",
+        "rating": 8.5,
         "mediaType": "tv"
       }
     ]
