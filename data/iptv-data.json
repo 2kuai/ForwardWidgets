@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-28T18:18:48.611254",
+  "last_updated": "2025-12-29T01:08:57.333634",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,7 +59,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -279,9 +281,7 @@
       "name": "江苏卫视",
       "description": "江苏省广播电视总台旗下的卫星频道，以情感世界，幸福中国为定位，凭借《非诚勿扰》等品牌栏目，成为中国最受欢迎的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-江苏卫视.png,lfo-center,l-end,l-end/江苏卫视.png",
-      "childItems": [
-        "http://120.76.248.139/live/bfgd/4200000085.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "东南卫视",
@@ -356,7 +356,6 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
-        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
         "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
