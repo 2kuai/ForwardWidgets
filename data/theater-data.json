@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T00:29:12.813+08:00",
+  "last_updated": "2025-12-30T00:30:11.047+08:00",
   "迷雾剧场": {
     "aired": [
       {
@@ -249,10 +249,10 @@
         "type": "tmdb",
         "title": "沉默的真相",
         "description": "一起看似简单的自杀案，背后隐藏着一个不可告人的巨大秘密；为了揭开这个秘密， 一群人历经七载，付出无数代价，甚至赌上性命…一个曾有大好前途，四平八稳的检察官江阳，但因受贿贪污，坐牢三年，再次出现在公众视野里竟是他出现在行李箱里的蜷缩的尸体；运送他尸体的当地著名律师张超。此案引发全市关注，刑警严良介入负责此案，与张超正面交锋。张超承认犯罪，却在接受法院宣判时当场翻供，并拿出不在场证据，案件陷入死局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4AdoaxyYZHG4L3mrPXPjk0wfeB8.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/wU5L7mZA0Yy764D1WPP2403d0MG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/vwLyVDzS5frW3aVKmQf9GxAlZaQ.jpg",
         "releaseDate": "2020-09-16",
-        "rating": 8.544,
+        "rating": 8.5,
         "mediaType": "tv"
       },
       {
@@ -306,6 +306,17 @@
   },
   "白夜剧场": {
     "aired": [
+      {
+        "id": 273112,
+        "type": "tmdb",
+        "title": "剥茧",
+        "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/gJiB4Ff7TnqpO0WYmg2esuGT1fN.jpg",
+        "releaseDate": "2025-12-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 281705,
         "type": "tmdb",
@@ -470,17 +481,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/kTnDQGqjDU4WTQ5Aax01FkR6xjw.jpg",
         "backdropPath": null,
         "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 273112,
-        "type": "tmdb",
-        "title": "剥茧",
-        "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gJiB4Ff7TnqpO0WYmg2esuGT1fN.jpg",
-        "releaseDate": "2025-12-29",
         "rating": 0,
         "mediaType": "tv"
       }
