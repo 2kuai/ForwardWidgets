@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T14:19:57.976+08:00",
+  "last_updated": "2025-12-29T20:22:42.576+08:00",
   "tv": {
     "全网": [
       {
@@ -21,7 +21,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/61TZcdbvOyo7yqELHkGIRAGRtsw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 9.7,
+        "rating": 7.5,
         "mediaType": "tv"
       },
       {
@@ -102,14 +102,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 274760,
+        "id": 286126,
         "type": "tmdb",
-        "title": "时差一万公里",
-        "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
-        "releaseDate": "2025-12-01",
-        "rating": 8,
+        "title": "风与潮",
+        "description": "该剧讲述澳门“风潮”时期，何若贤、冯柏川、沈氏兄弟等人携手在金融、谍报、物资运输等领域的抗战风云故事，也是第一次将镜头完全聚焦于“孤岛”澳门——这块未遭日本侵占，却仍然英勇抗击共赴国难的土地。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/eZ7jw8gavFcuLPh0FAT6LXMhWIW.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/113VPI8oYOr8s2b7NdatAYKs9nM.jpg",
+        "releaseDate": "2025-12-09",
+        "rating": 9.5,
         "mediaType": "tv"
       }
     ],
@@ -159,17 +159,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 262928,
-        "type": "tmdb",
-        "title": "入青云",
-        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
-        "releaseDate": "2025-10-08",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 273112,
         "type": "tmdb",
         "title": "剥茧",
@@ -178,6 +167,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/gJiB4Ff7TnqpO0WYmg2esuGT1fN.jpg",
         "releaseDate": "2025-12-29",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 262928,
+        "type": "tmdb",
+        "title": "入青云",
+        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/740EohtgbVDXsiaEoDJPc1k0tVX.jpg",
+        "releaseDate": "2025-10-08",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -346,7 +346,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/61TZcdbvOyo7yqELHkGIRAGRtsw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 9.7,
+        "rating": 7.5,
         "mediaType": "tv"
       },
       {
@@ -390,7 +390,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/50SzYCgOiCFxBZJpEzmUD5vvUDC.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/qNUA93nlDiIUQR0DIO2OrRuRDh1.jpg",
         "releaseDate": "2024-10-04",
-        "rating": 7,
+        "rating": 6.5,
         "mediaType": "tv"
       },
       {
@@ -438,14 +438,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 254166,
+        "id": 282901,
         "type": "tmdb",
-        "title": "即刻上场",
-        "description": "一群法律实习生的职场大逃杀（“顶级offer角逐赛”），却在激烈的丛林法则中找寻到各自人生中令人心动的offer。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/64E5c16WXzkFeBV76fYX0RpubKm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/xGiiGyhBWFNc3pqLCIrEAsnB3lc.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 6.25,
+        "title": "超感迷宫",
+        "description": "警校教授徐靖之回归一线调查一起离奇案件时，结识了已故弟弟的旧友庄明诚，并利用他捣毁了一个性质恶劣的犯罪团伙，进一步侦破了一起陈年旧案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/7HwRRXaegCiO4GxEGcAt9MPjLxc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/XvtxaWSZGMRGYYL3OZkn4JP9L5.jpg",
+        "releaseDate": "2025-12-09",
+        "rating": 9,
         "mediaType": "tv"
       }
     ],
@@ -901,17 +901,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 301245,
-        "type": "tmdb",
-        "title": "快乐趣吹风",
-        "description": "6个半熟男人组成吹风团奔赴海岛体验一场奇特的生活实验。在每天不同的“人生减法”冲击里，开启爆笑的成长与蜕变，丢掉生活里的桎梏，找到生活中的宝贵。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
-        "releaseDate": "2025-10-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 300172,
         "type": "tmdb",
         "title": "声鸣远扬2025",
@@ -931,6 +920,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 301245,
+        "type": "tmdb",
+        "title": "快乐趣吹风",
+        "description": "6个半熟男人组成吹风团奔赴海岛体验一场奇特的生活实验。在每天不同的“人生减法”冲击里，开启爆笑的成长与蜕变，丢掉生活里的桎梏，找到生活中的宝贵。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
+        "releaseDate": "2025-10-03",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1106,7 +1106,7 @@
         "id": 258532,
         "type": "tmdb",
         "title": "开播吧！短剧季",
-        "description": "《开播！短剧季》为国内首档“微短剧+综艺”创新真人秀。本季结合微短剧的生态特色，集结《杜拉拉升职记》《聊斋》《离婚律师》《终极一班》《重返 18 岁之我是宁静》《包拯与公孙策》六大经典爆款知名剧目 IP，首度开启“综艺+短剧”的全新形式。总监制宁静、监制张萌、监制苏可强势加盟，20 余位演员共同加入六大短剧 IP 孵化的激烈角逐之中，实现短剧全新选角、知名 IP 短剧孵化、综艺与短剧同步播出的首创模式，并打造以经典剧目 IP 为基础的品质化短剧上线播出。",
+        "description": "《开播吧！短剧季》为国内首档“微短剧+综艺”创新真人秀。本季结合微短剧的生态特色，集结《杜拉拉升职记》《聊斋》《离婚律师》《终极一班》《重返 18 岁之我是宁静》《包拯与公孙策》六大经典爆款知名剧目 IP，首度开启“综艺+短剧”的全新形式。总监制宁静、监制张萌、监制苏可强势加盟，20 余位演员共同加入六大短剧 IP 孵化的激烈角逐之中，实现短剧全新选角、知名 IP 短剧孵化、综艺与短剧同步播出的首创模式，并打造以经典剧目 IP 为基础的品质化短剧上线播出。",
         "posterPath": "https://image.tmdb.org/t/p/w500/mE4NeJcNCLmkUyRMHyJ7De6hOUQ.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/5DA4UAGN2Bb847tSoN9dfpECEP.jpg",
         "releaseDate": "2024-10-13",
@@ -1428,6 +1428,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
         "releaseDate": "2025-11-25",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 304850,
+        "type": "tmdb",
+        "title": "在江湖团建的日子",
+        "description": "《在江湖团建的日子》是电视剧《水龙吟》的会员专享真人秀节目，由罗云熙、肖顺尧、敖子逸、方逸伦、陈瑶、杨仕泽、吴泽林七位演员以剧中角色身份参与录制。节目以“论道休战，以窥天机”为主题，围绕剧中角色万窍斋斋主唐俪辞（罗云熙饰）邀请多位关键人物前往神秘之地，展开三天两夜的休战和谈之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/75ZTaN6yNkE7oUvHSX72A2xisHk.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/sx9KLGPFbrGFZ0ZmWuEVzxNharL.jpg",
+        "releaseDate": "2025-11-06",
+        "rating": 8.5,
         "mediaType": "tv"
       }
     ]
