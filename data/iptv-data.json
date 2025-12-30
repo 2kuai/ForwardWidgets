@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-30T01:03:13.697387",
+  "last_updated": "2025-12-30T06:21:48.895007",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -233,7 +233,9 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
+      ]
     },
     {
       "name": "山东卫视",
@@ -291,7 +293,9 @@
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+      ]
     },
     {
       "name": "贵州卫视",
@@ -352,6 +356,7 @@
       "description": "浙江广播电视集团旗下的专业新闻频道，24小时不间断提供浙江省内外新闻资讯，重点关注浙江经济社会发展动态和民生热点问题。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_2,h-bh_mul_3,bg-848484,lfo-center,l-image,i-浙江新闻.png,lfo-center,l-end,l-end/浙江新闻.png",
       "childItems": [
+        "https://stream1.freetv.fun/7fa07158e038a9bae3747a0cb9f8e8ff1aaba32669d28d99a498716f16569c1d.m3u8",
         "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
       ]
     },
@@ -411,7 +416,9 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
+      ]
     },
     {
       "name": "福建旅游",
