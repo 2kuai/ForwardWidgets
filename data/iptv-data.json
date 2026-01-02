@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-02T01:04:36.577504",
+  "last_updated": "2026-01-02T06:22:20.188221",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -59,7 +59,9 @@
       "name": "CCTV-7 国防军事",
       "description": "中国中央电视台国防军事频道，是中国唯一的国家级专业军事电视频道，报道国防和军队建设成就，普及国防知识，展示军人风采，增强全民国防观念。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-CCTV7.png,lfo-center,l-end,l-end/CCTV7.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      ]
     },
     {
       "name": "CCTV-8 电视剧",
@@ -231,9 +233,7 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": [
-        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
-      ]
+      "childItems": []
     },
     {
       "name": "山东卫视",
