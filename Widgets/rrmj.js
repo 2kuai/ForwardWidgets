@@ -1,8 +1,9 @@
+
 WidgetMetadata = {
   id: "rr_vod_full",
   title: "人人美剧",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.0.0",
+  version: "1.0.1",
   requiredVersion: "0.0.1",
   description: "获取人人美剧在线资源",
   author: "两块",
@@ -17,12 +18,7 @@ WidgetMetadata = {
       ]
     },
     {
-      name: "deviceId",
-      title: "设备 ID",
-      type: "input",
-      value: "FF34A75C-E93A-4C12-829C-A09679F68ABA" },
-    {
-      name: "vipToken",
+      name: "Token",
       title: "VIP Token",
       type: "input",
       value: "rrtv-05188573836c6a02cce84f931ad161282cf039b4"
@@ -42,9 +38,11 @@ WidgetMetadata = {
 const SITE_API = 'https://api.rrmj.plus';
 
 async function loadResource(params) {
-  const { seriesName, season, episode, type, deviceId, vipToken, multiSource} = params;
+  const { seriesName, season, episode, type, Token, multiSource} = params;
   if (multiSource !== "enabled" || !seriesName) return [];
   if (typeof CryptoJS === 'undefined') return [];
+  
+  const deviceId = getUUID();
 
   try {
     // --- 1. 搜索 ---
@@ -119,7 +117,7 @@ async function loadResource(params) {
         tria4k: 1 
     };
     
-    const plHeaders = buildSignedHeaders("GET", playUrl, plParams, deviceId, vipToken);
+    const plHeaders = buildSignedHeaders("GET", playUrl, plParams, deviceId, Token);
     const plRes = await Widget.http.get(`${playUrl}?${sortedQueryString(plParams)}`, { headers: plHeaders });
     const plData = JSON.parse(decrypt(plRes.data));
     
@@ -216,6 +214,27 @@ function sortedQueryString(params) {
     return `${encodeURIComponent(k)}=${encodeURIComponent(v)}`;
   }).join('&');
 }
+
+/**
+ * 获取UUID
+ */
+function getUUID() {
+  // 定义缓存key
+  const UUID_CACHE_KEY = 'RR_UUID';
+  // 优先读取缓存
+  const cachedUUID = Widget.storage.get(UUID_CACHE_KEY);
+  if (cachedUUID) {
+    return cachedUUID;
+  }
+  // 无缓存时生成新UUID
+  const newUUID = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (e) =>
+    ('x' === e ? (16 * Math.random()) | 0 : (Math.random() * 0x4 | 0x8)).toString(16)
+  ).toUpperCase();
+  // 存入缓存
+  Widget.storage.set(UUID_CACHE_KEY, newUUID);
+  return newUUID;
+}
+
 
 // ============================================================
 // CryptoJS 的完整代码 (crypto-js.min.js)
