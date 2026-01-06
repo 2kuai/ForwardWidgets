@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-05T18:21:45.041029",
+  "last_updated": "2026-01-06T01:04:25.735462",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -350,8 +350,8 @@
       "description": "浙江广播电视集团旗下的地面电视频道，以杭州及周边地区为主要覆盖范围，提供本地新闻、民生服务和娱乐节目等内容，贴近浙江百姓生活。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-钱江都市.png,lfo-center,l-end,l-end/钱江都市.png",
       "childItems": [
-        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv",
-        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+        "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
+        "https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv"
       ]
     },
     {
