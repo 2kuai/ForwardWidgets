@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-10T06:19:41.623079",
+  "last_updated": "2026-01-10T12:24:27.883714",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -293,7 +293,9 @@
       "name": "广西卫视",
       "description": "广西广播电视台旗下的卫星频道，以美丽广西，开放前沿为定位，面向东南亚，展示广西的民族风情、自然风光和发展成就。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-广西卫视.png,lfo-center,l-end,l-end/广西卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+      ]
     },
     {
       "name": "贵州卫视",
