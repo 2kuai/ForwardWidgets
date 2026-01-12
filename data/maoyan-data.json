@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-12T14:21:13.136+08:00",
+  "last_updated": "2026-01-12T20:23:58.179+08:00",
   "tv": {
     "全网": [
       {
@@ -10,7 +10,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/61TZcdbvOyo7yqELHkGIRAGRtsw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 7.429,
+        "rating": 7.286,
+        "mediaType": "tv"
+      },
+      {
+        "id": 279593,
+        "type": "tmdb",
+        "title": "小城大事",
+        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
+        "releaseDate": "2026-01-10",
+        "rating": 9.25,
         "mediaType": "tv"
       },
       {
@@ -25,17 +36,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 279593,
-        "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
-        "releaseDate": "2026-01-10",
-        "rating": 8.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 284512,
         "type": "tmdb",
         "title": "玉茗茶骨",
@@ -47,17 +47,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 258492,
-        "type": "tmdb",
-        "title": "人之初",
-        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gGQZfnrvtsV9TnYJFrWfQUtbfU8.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bWYxmZdCe6lTDEelQx8qwgZRnUk.jpg",
-        "releaseDate": "2025-12-27",
-        "rating": 7.7,
-        "mediaType": "tv"
-      },
-      {
         "id": 273112,
         "type": "tmdb",
         "title": "剥茧",
@@ -66,6 +55,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
         "releaseDate": "2025-12-29",
         "rating": 6.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 258492,
+        "type": "tmdb",
+        "title": "人之初",
+        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gGQZfnrvtsV9TnYJFrWfQUtbfU8.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bWYxmZdCe6lTDEelQx8qwgZRnUk.jpg",
+        "releaseDate": "2025-12-27",
+        "rating": 7.7,
         "mediaType": "tv"
       },
       {
@@ -192,17 +192,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 299927,
-        "type": "tmdb",
-        "title": "红腰鼓",
-        "description": "1940年，山西问水村民兵队队长窦三喜召集邻村的民兵骨干开会，商讨如何端掉伪军据点薛山寨事宜，但因奸细出卖，所有人壮烈牺牲，缺席会议的妇救会主任翠萍被人怀疑是奸细，为了证明自己的清白，翠萍利用自己的智慧联合了抗日义军首领岳五木拿下了据点，并在八路军连长罗青山的帮助下，不仅证明了自己的清白，还挖出了奸细。随后，罗青山带领翠萍等人重建队伍，发动民众填死水井、炸毁碾磨，巧夺战略物资，配合大部队对铁路线路轨、车站等进行破坏活动，与日军指挥官上衫勇频频对抗，气急败坏的上衫勇发动大规模围剿计划，身边战友们一个个牺牲，翠萍也从一个当初妇救会干事成长为一名合格的八路军战士，最终粉碎了上衫勇一系列的围剿计划，策应大部队反围剿运动。一个月后，翠萍奔赴天津，她带着战友的遗志和爱，投入到了新的战斗任务中。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/k55taC35LDVwfKWWnQWwPBULhEq.jpg",
-        "backdropPath": null,
-        "releaseDate": "2019-06-05",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 309232,
         "type": "tmdb",
         "title": "新闻女王2",
@@ -210,6 +199,17 @@
         "posterPath": null,
         "backdropPath": null,
         "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 299927,
+        "type": "tmdb",
+        "title": "红腰鼓",
+        "description": "1940年，山西问水村民兵队队长窦三喜召集邻村的民兵骨干开会，商讨如何端掉伪军据点薛山寨事宜，但因奸细出卖，所有人壮烈牺牲，缺席会议的妇救会主任翠萍被人怀疑是奸细，为了证明自己的清白，翠萍利用自己的智慧联合了抗日义军首领岳五木拿下了据点，并在八路军连长罗青山的帮助下，不仅证明了自己的清白，还挖出了奸细。随后，罗青山带领翠萍等人重建队伍，发动民众填死水井、炸毁碾磨，巧夺战略物资，配合大部队对铁路线路轨、车站等进行破坏活动，与日军指挥官上衫勇频频对抗，气急败坏的上衫勇发动大规模围剿计划，身边战友们一个个牺牲，翠萍也从一个当初妇救会干事成长为一名合格的八路军战士，最终粉碎了上衫勇一系列的围剿计划，策应大部队反围剿运动。一个月后，翠萍奔赴天津，她带着战友的遗志和爱，投入到了新的战斗任务中。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/k55taC35LDVwfKWWnQWwPBULhEq.jpg",
+        "backdropPath": null,
+        "releaseDate": "2019-06-05",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -289,7 +289,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
         "releaseDate": "2025-12-15",
-        "rating": 8.5,
+        "rating": 7.667,
         "mediaType": "tv"
       },
       {
@@ -346,7 +346,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/61TZcdbvOyo7yqELHkGIRAGRtsw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 7.429,
+        "rating": 7.286,
         "mediaType": "tv"
       },
       {
@@ -357,7 +357,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
         "releaseDate": "2026-01-10",
-        "rating": 8.5,
+        "rating": 9.25,
         "mediaType": "tv"
       },
       {
@@ -401,7 +401,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
         "releaseDate": "2025-12-15",
-        "rating": 8.5,
+        "rating": 7.667,
         "mediaType": "tv"
       },
       {
@@ -517,6 +517,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 261362,
+        "type": "tmdb",
+        "title": "爱在平凡",
+        "description": "从国家运动队退役回乡的曲小河在未婚夫万嘉明的厂区意外见到了一场严重的污染事故，从而卷入了与婆家万成集团的矛盾冲突中，婚姻受挫，紧接而来的童装博览会叫停、仿牌和黑心棉曝光、“三合一厂房”火灾等等突发事件，使她看清了潜藏在织女镇繁荣背后的危机，在凌化雨和夏正阳等人的支持下，她放弃个人利益，留在织女镇当上了负责基层治理的副镇长。在长达八年的艰难岁月中，她顶着镇长郑良器和“两面人”徐康设下的重重压力和一次次陷害，坚持扎根于基层社区，和王书文、齐美丽等一批志同道合者一起，从最平凡的小事做",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AhvMhX51pH3roKt8l2TmMLYPECo.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/grdrsTmtJUGxlpea3s7gDdwFCPD.jpg",
+        "releaseDate": "2024-08-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 278579,
         "type": "tmdb",
         "title": "天下同心",
@@ -536,17 +547,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
         "releaseDate": "2024-02-21",
         "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 261362,
-        "type": "tmdb",
-        "title": "爱在平凡",
-        "description": "从国家运动队退役回乡的曲小河在未婚夫万嘉明的厂区意外见到了一场严重的污染事故，从而卷入了与婆家万成集团的矛盾冲突中，婚姻受挫，紧接而来的童装博览会叫停、仿牌和黑心棉曝光、“三合一厂房”火灾等等突发事件，使她看清了潜藏在织女镇繁荣背后的危机，在凌化雨和夏正阳等人的支持下，她放弃个人利益，留在织女镇当上了负责基层治理的副镇长。在长达八年的艰难岁月中，她顶着镇长郑良器和“两面人”徐康设下的重重压力和一次次陷害，坚持扎根于基层社区，和王书文、齐美丽等一批志同道合者一起，从最平凡的小事做",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AhvMhX51pH3roKt8l2TmMLYPECo.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/grdrsTmtJUGxlpea3s7gDdwFCPD.jpg",
-        "releaseDate": "2024-08-17",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -570,7 +570,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/7KFlApfTLNMNh0y5Zp1ufsgfN0J.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/nEwmL7nCXUuf4rEbMHBPNka1jy7.jpg",
         "releaseDate": "2024-11-17",
-        "rating": 7.3,
+        "rating": 7.282,
         "mediaType": "tv"
       },
       {
@@ -809,17 +809,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "releaseDate": "2025-11-12",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 204160,
         "type": "tmdb",
         "title": "落花时节又逢君",
@@ -839,6 +828,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/4J8znHxVaZY3vKb05IWqWfzczXR.jpg",
         "releaseDate": "2024-03-18",
         "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "releaseDate": "2025-11-12",
+        "rating": 8,
         "mediaType": "tv"
       }
     ]
@@ -883,7 +883,7 @@
         "type": "tmdb",
         "title": "势均力敌的我们",
         "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cdJvouLncrDzEICrgzWZMnyuZT.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "releaseDate": "2024-05-14",
         "rating": 0,
@@ -931,6 +931,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 114473,
+        "type": "tmdb",
+        "title": "名侦探学院",
+        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "releaseDate": "2019-11-03",
+        "rating": 7.3,
         "mediaType": "tv"
       },
       {
@@ -1032,6 +1043,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
         "releaseDate": "2016-01-29",
         "rating": 6.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "炙热游戏：百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/y2h89ht7bSAGAk5DqHEmNNv2wXu.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
+        "releaseDate": "2025-08-27",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1142,7 +1164,7 @@
         "type": "tmdb",
         "title": "势均力敌的我们",
         "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cdJvouLncrDzEICrgzWZMnyuZT.jpg",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "releaseDate": "2024-05-14",
         "rating": 0,
