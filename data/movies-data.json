@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-12T00:17:58.307+08:00",
+  "last_updated": "2026-01-13T00:21:51.780+08:00",
   "nowplaying": [
     {
       "id": 1271895,
@@ -38,18 +38,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1234731,
-      "type": "tmdb",
-      "title": "新狂蟒之灾",
-      "originalTitle": "Anaconda",
-      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yo41R39airbREp0PYfG30Ofxtgt.jpg",
-      "releaseDate": "2025-12-24",
-      "rating": 5.907,
-      "mediaType": "movie"
-    },
-    {
       "id": 650524,
       "type": "tmdb",
       "title": "寻秦记",
@@ -59,6 +47,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
       "releaseDate": "2025-12-31",
       "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 83533,
+      "type": "tmdb",
+      "title": "阿凡达：火与烬",
+      "originalTitle": "Avatar: Fire and Ash",
+      "description": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vm4H1DivjQoNIm0Vs6i3CTzFxQ0.jpg",
+      "releaseDate": "2025-12-17",
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -74,15 +74,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 83533,
+      "id": 1234731,
       "type": "tmdb",
-      "title": "阿凡达：火与烬",
-      "originalTitle": "Avatar: Fire and Ash",
-      "description": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vm4H1DivjQoNIm0Vs6i3CTzFxQ0.jpg",
-      "releaseDate": "2025-12-17",
-      "rating": 7.356,
+      "title": "新狂蟒之灾",
+      "originalTitle": "Anaconda",
+      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yo41R39airbREp0PYfG30Ofxtgt.jpg",
+      "releaseDate": "2025-12-24",
+      "rating": 5.9,
       "mediaType": "movie"
     },
     {
@@ -130,19 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg",
       "releaseDate": "2025-11-26",
-      "rating": 7.581,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1259102,
-      "type": "tmdb",
-      "title": "永恒站",
-      "originalTitle": "Eternity",
-      "description": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-      "releaseDate": "2025-11-26",
-      "rating": 7.133,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -154,19 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9iOBIxOuy9IqsljsVUiboLrgEp6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
       "releaseDate": "2025-12-16",
-      "rating": 6.632,
-      "mediaType": "movie"
-    },
-    {
-      "id": 37257,
-      "type": "tmdb",
-      "title": "控方证人",
-      "originalTitle": "Witness for the Prosecution",
-      "description": "本片改编自阿加莎·克里斯蒂同名小说。  伦敦著名刑案辩护律师韦菲爵士接受了心脏病治疗，但是身体依旧虚弱，第一天回家休养，护士一直严厉监督他服药，并杜绝烟酒。管家为了便于上楼，还专门为他修了电梯。但是，种种关心照顾，对于这位桀骜不驯、牙尖嘴利的大律师根本不起作用，反倒是一纸诉状令他倍感兴奋。律师梅休和当事人沃尔登门拜访，请他出山打官司。原来，沃尔结识了富婆，两人相见甚欢，虽然仆人对他发明的打蛋器充满鄙夷，但是富婆却对他充满爱意，甚至为他修改了遗嘱，把8万英镑留给了他。然而，富婆却惨遭毒手。于是，沃尔成为警方的头号嫌疑犯。他的唯一证人是妻子克里斯汀，然而后者登门时的冷漠与淡定，令韦菲爵士怀疑这其中另有隐情。在扑朔迷离的案件背后，隐藏着一个个环环相扣、不可告人的秘密……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vLdTxA0MZw2L0qCcf9w4NUuOcSQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
-      "releaseDate": "1957-12-17",
-      "rating": 8.216,
+      "rating": 6.698,
       "mediaType": "movie"
     },
     {
@@ -182,30 +158,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1338704,
-      "type": "tmdb",
-      "title": "梵高：诗情画意",
-      "originalTitle": "Van Gogh: Poets & Lovers",
-      "description": "　　开幕200年后，在获得第一批梵高作品一个世纪后，国家美术馆正在举办英国有史以来最大的梵高展览。梵高不仅是有史以来最受喜爱的艺术家之一，也许也是被误解最多的艺术家之一。这部电影是重新审视和更好地了解这位标志性艺术家的机会。《梵高：诗人与恋人》专注于他独特的创作过程，探讨了这位艺术家在法国南部的岁月，在那里他彻底改变了自己的风格。梵高在他的艺术中充满了讲故事的热情，将他周围的世界变成了充满活力、理想化的空间和象征性人物。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/q0kCJhEfEajaew4huhWCgYl7Rub.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xV6S5UkSGc5t5jHZIXpcVUFuchO.jpg",
-      "releaseDate": "2024-11-06",
-      "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 967941,
-      "type": "tmdb",
-      "title": "魔法坏女巫2",
-      "originalTitle": "Wicked: For Good",
-      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/l8pwO23MCvqYumzozpxynCNfck1.jpg",
-      "releaseDate": "2025-11-19",
-      "rating": 6.7,
-      "mediaType": "movie"
-    },
-    {
       "id": 1537396,
       "type": "tmdb",
       "title": "情圣3",
@@ -218,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 878608,
-      "type": "tmdb",
-      "title": "狂野时代",
-      "originalTitle": "狂野时代",
-      "description": "在未来世界，人类以放弃梦境为代价换取永生。一名流亡者（易烊千玺 饰）在自己构建的迷醉世界中，寻觅幻觉、噩梦般的景象与美感。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eEviqb35JWvYSvHTtp31GGFCh7p.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2JcKTEP0L6EXk88ITGVGU4uo7hm.jpg",
-      "releaseDate": "2025-11-22",
-      "rating": 6.984,
-      "mediaType": "movie"
-    },
-    {
       "id": 838240,
       "type": "tmdb",
       "title": "机器人之梦",
@@ -238,7 +178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
       "releaseDate": "2023-12-06",
-      "rating": 8,
+      "rating": 7.997,
       "mediaType": "movie"
     },
     {
@@ -254,66 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1312157,
-      "type": "tmdb",
-      "title": "关于约会的一切",
-      "originalTitle": "FolleMente",
-      "description": "当我们约会时，我们都在想些什么？当内心的无数个“我”在争夺话语权，灵魂又会做出何种选择？\r 　　罗马某个寻常夜晚，Lara（皮拉尔·福格莉亚蒂 Pilar Fogliati 饰）与Piero（爱德华多·莱奥 Edoardo Leo 饰）一次偶然的约会。初见的局促被渐渐打破，暧昧在试探中发酵蔓延，气氛升温。\r 　　然而，两人似乎都有某种犹豫：心动的信号，究竟源自灵魂的真实共振，还是夜色与氛围施予的幻觉？默契轻松的对话下，蛰伏着两人心中的汹涌暗流。欲望与理性相互博弈，身体中不同的“我”在意识深渊中反复角力。\r 　　当午夜降临，这场约会是否该走向终点？Lara和Piero的关系又将会如何走向？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vNs9b8gNYJFM53QAGMhWjygyyP9.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tOwffsVVkPWaQGmWDoZxKhGmrNi.jpg",
-      "releaseDate": "2025-02-20",
-      "rating": 7.204,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1595386,
-      "type": "tmdb",
-      "title": "点到为止",
-      "originalTitle": "点到为止",
-      "description": "　　“象形拳”传人金毛（尹正 饰）因屡次逃赛被公众冠以假大师之名，却反而走红，也因此被资本选中，返乡打造功夫小镇。期间金毛和“忍术馆”馆长崇洋（黄才伦 饰）、“金武门”掌门传武（张一鸣 饰）三人爆笑出招，套路彼此。并通过一系列看似荒诞却颇有逻辑的操作使得功夫小镇大受好评。然而随着评选的日益临近，事情的真相却另有隐情……\r 　　影片改编自韩国电影《金馆长对金馆长对金馆长》。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oLPufSAGxCFbbKKVGEvjMqcLixh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/f0DOAa29nQKSF2Hn28C1eW0dIDF.jpg",
-      "releaseDate": "2025-12-27",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 98344,
-      "type": "tmdb",
-      "title": "赛德克·巴莱（上）",
-      "originalTitle": "賽德克‧巴萊：太陽旗",
-      "description": "　　本片根据雾社事件史实改编。  　　1895年，《马关条约》割让台湾之后，日本遂即武力接收台湾，宝岛各地纷纷被攻破。而台湾山区因道路不通，原住民生活尚暂未受影响，雾社地区的赛德克人之中，马赫坡年轻一代的莫那鲁道（游大庆 饰）英勇过人，率族群与甘卓万人争斗不休。日人垂涎雾社地区的 丰富资源，试图染指但遭到赛德克人强烈抵抗，伤亡惨重，然终于借原住民族群之间的互相仇杀侵入了雾社。莫那鲁道只得忍辱投降，但心中的火苗从未熄灭。时间推至1930年，日本对于雾社原住民的“文明改造”历经多年，日语等所谓文明并未给予原住民平等的生活，日人的欺压和繁重劳作侵蚀着赛德克人的传统和尊严，多年的愤怒累积，终于在这一年全面喷发！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mrdrts2XXkJHg24I0CqhUWNUh40.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ucoQdA7OTeGrhgVo0ii7rNEn2le.jpg",
-      "releaseDate": "2011-09-09",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 924114,
-      "type": "tmdb",
-      "title": "再团圆",
-      "originalTitle": "再团圆",
-      "description": "　　李振华与聂素珍两人早年丧偶，上世纪八十年代结为半路夫妻。前妻凤仙在老家山西的坟地面临拆迁，老李提出希望能和前妻及老聂三人合葬，这一想法打破了二人平静的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8RuuJWfRugWcLuhsfmmdyJC1sAM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/y5bi8tO5kDOf1gWlelk8Xnp79fw.jpg",
-      "releaseDate": "2025-12-23",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 991262,
-      "type": "tmdb",
-      "title": "内幕",
-      "originalTitle": "內幕",
-      "description": "著名慈善基金会“济拔堂”一年一度的慈善晚会，可谓高朋云集、花团锦簇。正当主席高盛文准备发表年度致辞时，基金会财务总监杨滔突然离奇吊死在舞台上！疑云笼罩之下，关于济拔堂内部有2亿善款不翼而飞的传言甚嚣尘上，引起全社会关注。重重谜团令大律师马迎风与警长柯定邦在机缘巧合下组成临时拍档，携手调查这起慈善案的幕后真相。他们能否揭开隐藏在慈善背后的层层黑幕，还社会以公义吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kB7o9D6X0itwwL0l9fDWRZdmCcB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gadbee46WGw74n8Ce6oomB0Ti7z.jpg",
-      "releaseDate": "2025-12-05",
-      "rating": 6,
-      "mediaType": "movie"
-    },
-    {
       "id": 425274,
       "type": "tmdb",
       "title": "惊天魔盗团3",
@@ -322,55 +202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg",
       "releaseDate": "2025-11-12",
-      "rating": 6.582,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1502119,
-      "type": "tmdb",
-      "title": "隐者山河",
-      "originalTitle": "隐者山河",
-      "description": "　　《隐者山河》记录了旅法华人作曲家陈其钢对艺术和人生的求索过程。这是一部音乐纪录电影，也是一次有现实意义的文化巡礼。作为一位在中法文化氛围中成长起来的音乐家，陈其钢以独特的视角，传递出耳目一新的观念。  　　影片以记录陈其钢在中国浙江·丽水的隐居生活和访谈为基点，跟随陈其钢近年来在全球不同国家上演的音乐作品和排演过程为主体内容，以近乎散文诗的方式，将陈其钢的人生经历和音乐作品耦合，分布成六个乐章——归隐、肖像、迁徙、创作、躬耕、如戏，观众既可以透过音乐和影像，感受陈其钢的音乐魅力，也可以身临其境体验音乐家诚实自由的思想表达，领会艺术的秘密所在。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fgYRdHm9rcl7Mphqkte074ggWD2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zFTJNWRqfhi4yTQOVnXsdjnl2DI.jpg",
-      "releaseDate": "2025-11-25",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1329673,
-      "type": "tmdb",
-      "title": "日掛中天",
-      "originalTitle": "日掛中天",
-      "description": "困于七年前一桩意外的两人再度相遇，美云（辛芷蕾 饰）与葆树（张颂文 饰）开始了一段爱恨交织、扭曲而痛苦的共生关系。在美云试图借其峰（冯绍峰 饰）展望新的未来时，却发现自己仍深陷旧日漩涡。那些关于情与债的执念，再度将所有人推向命运的十字路口……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ppp5otWkF4RkadeGIuCx1I7mt2X.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kDRhvKxJ1lx7vmvfJ8D18MmItUb.jpg",
-      "releaseDate": "2025-11-07",
-      "rating": 6.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 313230,
-      "type": "tmdb",
-      "title": "赛德克·巴莱（下）",
-      "originalTitle": "賽德克‧巴萊：彩虹橋",
-      "description": "　　莫那鲁道（林庆台 饰）率领族人在公学斩杀异族血祭祖灵后，拥有了通过彩虹桥的资格，剩下来的，就是在英勇战斗后从容赴死。在日本方面，雾社的消息很快传达各处，陆军少将镰田弥彦率军队与警察组成的联合部队，迅速发起讨伐。马赫坡等社分头行动，利用地形优势和灵活战术给予日军先头部队重大杀伤。山地警小岛（安藤政信 饰）利用个人威望和部族矛盾成功劝说铁木瓦力斯（马志翔 饰）连同部落加入日军阵营，协助围攻莫那鲁道。在开战初期，随部落向密林转移的妇孺为了不拖累战士们，纷纷自尽，在矛盾中痛苦的一郎亦选择了切腹。镰田弥彦对部队的缓慢推进大为光火，不惜使用糜烂性炸弹对付赛德克人。满山火光中，莫那鲁道迎来了最后决战的时刻……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pSFbOg75xXBkC3stjsiBI2QS7uW.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5YbJULkUKodLwtIVInhmiHCZlyt.jpg",
-      "releaseDate": "2011-09-30",
-      "rating": 8.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 314388,
-      "type": "tmdb",
-      "title": "山河故人",
-      "originalTitle": "山河故人",
-      "description": "1999年，山西汾阳县城，开朗雀跃的女孩沈涛徘徊在矿工梁子和煤矿老板张晋生两端。一女二男的三角恋，无法维持长久的平衡。梁子和晋生的友情破裂。涛儿结婚的时节，有人选择远方。\r 2014年，因长期在煤矿工作，梁子的健康已经到了不可挽回的地步。最后的时光，他带着妻儿回到故乡。此时沈涛和晋生已经离婚，晋生带着孩子到乐常住上海。人届中年，彼此都身不由己站在了生离死别的界限上。\r 2025年，只会说英文的到乐和父亲分外隔膜，但和中文老师米娅成为忘年交。他渴望脱离父亲的控制，渴望得到甚至都不知道什么意思的“自由”。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rETMCC1NdtgA04qgf9oF1PBnSKb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nE6sFxIB15GDiRVcoMUGtojd5ga.jpg",
-      "releaseDate": "2015-10-30",
-      "rating": 6.936,
+      "rating": 6.6,
       "mediaType": "movie"
     },
     {
@@ -386,210 +218,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 10376,
-      "type": "tmdb",
-      "title": "海上钢琴师",
-      "originalTitle": "La leggenda del pianista sull'oceano",
-      "description": "男主角1900（人名）是一个被人遗弃在蒸气船上的孤儿，被船上一位好心的烧炉工收养，然而好人不得好报，烧炉工在一次意外中死亡，只有8岁大的1900又再度成为了孤儿。过人的天赋使他无师自通成了一名钢琴大师，但宿命也令他天然地对红尘俗世深怀戒意，他从不敢离船上岸去，只因纽约无际的高楼和川流不息的人群令他迷失自我。纵使后来遇上了一位一见钟情的少女，他思量再三后，还是放弃了上岸寻找初恋情人的冲动...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/le7jQ6Sc3xEUvosHXJojDMR6EnE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
-      "releaseDate": "1998-10-28",
-      "rating": 8.246,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1406277,
-      "type": "tmdb",
-      "title": "菜肉馄饨",
-      "originalTitle": "菜肉馄饨",
-      "description": "　　上海的退休工程师老汪与儿子有一个约定，每周六小汪会回父母家一次，顺便吃碗老汪拿手的菜肉馄饨。为了让儿子早点结婚生子，老汪在爱人素娟的启发下，决定自己去公园相亲角为儿子物色一名婚恋对象。在相亲角，老汪结识了老金、美琴、阿芳等人，自己也无意中卷入了一场始料未及的情感漩涡之中。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fai7bq442EiZ2Vjd250LmypndV1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fDklLaIn20lB7jQ1OEpgbGuniuj.jpg",
-      "releaseDate": "2025-11-15",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 11645,
-      "type": "tmdb",
-      "title": "乱",
-      "originalTitle": "乱",
-      "description": "电影大师黑泽明将莎士比亚的《李尔王》重构为一部以十六世纪日本为背景的史诗巨作。这部气势恢宏的晚年杰作，以磅礴的叙事透视战争的虚妄，刻画了一个家族在背叛、贪婪与权力欲望重压之下逐渐崩毁的悲剧图景。[标准收藏公司]",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ursYxkScrgff2dafKCm6WNNz2E7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gfR3GEClL7WrNpQOg8mcPhM8fx6.jpg",
-      "releaseDate": "1985-06-01",
-      "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 25050,
-      "type": "tmdb",
-      "title": "步履不停",
-      "originalTitle": "歩いても 歩いても",
-      "description": "这部抒情而深切动人的影片是当代日本电影大师是枝裕和迄今为止最个人化的作品。影片为纪念其已故母亲而创作，描绘了横山家聚集举行纪念仪式的一天——其背后的深意随剧情推进才逐渐清晰。导演并未着力于强烈的戏剧冲突，而是通过细微的举止与家庭日常（尤其是烹饪）来勾勒一个家族的全部生活，其间贯穿着深藏的遗憾与平凡的欢欣。影片凭借鲜活而令人心碎的表演，以及回归导演早期纪录片风格的温柔自然主义笔触，非凡地刻画了那些将我们紧密相连的羁绊。[标准收藏公司]",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8M0PBJYX8s04u81XeZn3BXGj54U.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lvSB0bnLzuxwrfTlI2l13gctWRn.jpg",
-      "releaseDate": "2008-06-28",
-      "rating": 7.768,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1588137,
-      "type": "tmdb",
-      "title": "遥远的普若岗日",
-      "originalTitle": "遥远的普若岗日",
-      "description": "　　天湖县各族干部，在海拔5000米以上的“人类生存极限试验场”，为了1.3万名牧民群众，付出了巨大的牺牲，经过多年奋斗和尝试，在国家极高海拔生态扶贫搬迁的英明决策下，带着全县人民重返人间。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/f7c7vXhC9WPGTeCcTUnL4CtAA2g.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1lbiQoBm116qlMcjCHSOuOmvzdD.jpg",
-      "releaseDate": "2025-12-16",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 422,
-      "type": "tmdb",
-      "title": "八部半",
-      "originalTitle": "8½",
-      "description": "马斯楚安尼饰演的导演圭多·安塞尔米，其新片计划与个人生活同时陷入崩解之境。费德里科·费里尼的《八部半》将个体艺术危机转化为宏伟的电影史诗，堪称影史最杰出的\"关于电影的电影\"之一。影片早期暂定名《美丽的混乱》，恰如其分地概括了这部杰作的特质：它是一场流光溢彩的梦境、一次马戏狂欢、一出视觉魔术。[标准收藏公司]",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ja0uRnwFwnVFJlNMYL10orpjWtq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/y2FNZLHynsevBnVTocGW6c3pQpr.jpg",
-      "releaseDate": "1963-02-14",
-      "rating": 8.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1375774,
-      "type": "tmdb",
-      "title": "林冰交响之夜：好莱坞碗演唱会",
-      "originalTitle": "Laufey's A Night at the Symphony: Hollywood Bowl",
-      "description": "　　25岁的格莱美奖获奖者Laufey是一位冰岛-中国艺术家，她的歌曲灵感源自爵士乐巨匠和古典音乐大师，同时又展现出只有21世纪的二十多岁年轻人才有的独特视角。她那浪漫且开创性的风格吸引了全球观众，成功打造出一个“Lauvers”的全球社区，售罄了每一场巡演的演出。  　　Laufey的《好莱坞音乐厅之夜》在她收养的故乡洛杉矶拍摄。影片由Sam Wrench执导（《泰勒·斯威夫特：时代巡演》），Laufey带领观众在星空下进行一场令人陶醉的声音之旅，期间与传奇的洛杉矶爱乐乐团同台演出。作为Ella Fitzgerald等众多Laufey偶像曾经演出的标志性场馆，这部电影为观众呈现了这一重要演出的幕后花絮。正如Variety杂志所总结的那样：“Laufey仿佛天生就该在好莱坞音乐厅演出。”",
-      "posterPath": "https://image.tmdb.org/t/p/w500/iWPwAVoxdhA5XrOvQVNvUm0t2IX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/50WDKxESCe5EmJ4e4xil7smNoWd.jpg",
-      "releaseDate": "2024-12-06",
-      "rating": 10,
-      "mediaType": "movie"
-    },
-    {
-      "id": 147,
-      "type": "tmdb",
-      "title": "四百击",
-      "originalTitle": "Les Quatre Cents Coups",
-      "description": "　　特吕弗的半自传体作品，探讨了一个13岁男孩的生活和内心世界。安托万（让-皮埃尔•利奥德 Jean-Pierre Léaud 饰）处于成长的叛逆期，却没有得到良好的成长土壤。他面对着僵化保守的学校教育制度、四分五裂的家庭坏境和残酷冰冷的社会面相，无论如何都找不到出路。他逃课，见到母亲和他人偷情，跟老师谎称母亲去世，谎言被揭穿后，他离家出走，彻夜不归，并为了归还偷走的打印机而被警察当场抓住，带去了少管中心，但他还是在大家不留神的时候逃走了。安托万拼命往外跑，身后警笛鸣起，迷惘的安托万一直朝着大海奔跑……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nHZQrKd96pCytnuTCsFibhrRyIR.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cy7ymUaMEWRoig7LWXpfzaaw2vv.jpg",
-      "releaseDate": "1959-06-03",
-      "rating": 8.023,
-      "mediaType": "movie"
-    },
-    {
-      "id": 104,
-      "type": "tmdb",
-      "title": "罗拉快跑",
-      "originalTitle": "Lola rennt",
-      "description": "　　罗拉（弗兰卡•波滕特 饰）和曼尼（莫里兹•克雷多 饰）是一对年轻的恋人，其中曼尼是一个不务正业的小混混，而罗拉则是相信“天大的事情有爱情顶着”的爱情至上主义者。\r 　　一天，曼尼为老大完成一项钻石交易，带着装有10万马克的钱袋等候罗拉的接应，然而罗拉的自行车被人抢走，耽误了约定的接应时间，曼尼只好乘地铁回去。在地铁车厢里，曼尼扶起身边的乞丐，同时，看见两名警察向他走来。慌乱中，曼尼下了车，竟然把钱袋忘在了车厢里。显然，钱袋被乞丐拿走了。此时距离曼尼和老大约定见面交钱的时间只剩下20分钟，如果20分钟之内筹集不到10万马克，曼尼就会被老大杀死。走投无路的曼尼打电话向罗拉求救，如果罗拉20分钟之内不能赶到，曼尼只能铤而走险抢劫电话亭对面的超市。\r 　　考验罗拉爱情的时候到了，为了在20分钟内筹到10万马克，救出曼尼，她狂奔在向银行家父亲求助的路上。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/o7VM8ohqXK6JEAvglJ304xNzIaE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wRcm3iwi4BeMN59U4fjO7u3dOVI.jpg",
-      "releaseDate": "1998-08-20",
-      "rating": 7.298,
-      "mediaType": "movie"
-    },
-    {
-      "id": 68004,
-      "type": "tmdb",
-      "title": "阮玲玉",
-      "originalTitle": "阮玲玉",
-      "description": "十六岁入行的阮玲玉九年间出演了许多许多不同角色的影片。与此同时，她厌倦了幼稚的赌鬼男友张达民，倾心于成熟的已婚富商唐季珊。张达民起诉阮唐通奸，铺天的舆论压力令她在最光辉灿烂的二十五岁服毒自杀。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/s4pNZGARZnZfiEYgKKgyYN4KoMU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sZhMWwFYPpgnmhntFeg3jyL7nnR.jpg",
-      "releaseDate": "1991-11-29",
-      "rating": 7.232,
-      "mediaType": "movie"
-    },
-    {
-      "id": 10191,
-      "type": "tmdb",
-      "title": "驯龙高手",
-      "originalTitle": "How to Train Your Dragon",
-      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
-      "releaseDate": "2010-03-18",
-      "rating": 7.855,
-      "mediaType": "movie"
-    },
-    {
-      "id": 839803,
-      "type": "tmdb",
-      "title": "雄狮少年",
-      "originalTitle": "雄狮少年",
-      "description": "阿娟（大昕 配音）的父母在大城市打工养家，他留守在故乡，因为孱弱的体格和怯懦的性格常常遭到旁人的欺负。一次偶然中，阿娟邂逅了和自己同名的舞狮少女（秋木 配音），少女飒爽的英姿和如雷贯耳的话语激起了阿娟对舞狮这项传统活动的兴趣，他打算参加舞狮大赛来证明自己的能力，很快，阿娟的好友阿猫（大雄 配音）和阿狗（郭浩 配音）也加入了这个计划之中。\r 　　可是，舞狮哪有这么容易学，为了拜师，阿娟一行人找到了开鱼铺的咸鱼强（李盟 配音）。咸鱼强虽然现在活得窝囊，但曾经却是舞狮比赛的冠军，三个少年蓬勃的朝气和真挚的眼神打动了咸鱼强，重新唤醒了他对于舞狮的热爱。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gGz3wZ5xj2WM03l06NaNa0utWyd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9O5XXzZiXuuog4KLHhBefzJ70HO.jpg",
-      "releaseDate": "2021-12-11",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 176628,
-      "type": "tmdb",
-      "title": "哀乐中年",
-      "originalTitle": "哀樂中年",
-      "description": "1920或30年代的上海。创办小学多年并自任校长的陈绍常（石挥）早年丧妻，独自抚养两子建中、建平和一女建英。与他一起生活的大姐劝他续弦，他虽也有心，却因目睹挚友的爱女刘敏华备受后母虐待，断了念头。不久，挚友亡故，敏华辞别他后随后母迁居外地，一别十年。两人再见面时，敏华（朱嘉琛）已成长为独立自强却不失贤淑的新女性，因不愿再受后母摆布，她拜托绍常介绍一份工作。随后，她成为绍常的同事。成年的建中（韩非）如愿以偿成为某家银行的职员，因得经理赏识，他结识其女冯丽君（李浣青），很快变作其乘龙快婿，社会地位日益提高。建中夫妇认为绍常卑微的小学校长身份丢了他们的脸，劝他退休在家做老太爷，绍常虽一百个不情愿，却也乖乖听命。敏华接下他的工作。只是赋闲在家的日子不好过，每日时间都似他那块坏掉了的老怀表般静止不动。而将无聊心情讲给家人听时，家人或怨他有福不懂享、或自忙自事无暇顾他，他的失落一日多过一日，与建中夫妇的矛盾亦越来越多。又到一年清明时，拜祭亡妻时，绍常遇见前来祭母的敏华，感慨人到老年只能等死，敏华却认为人在中年的他正处于事业的黄金期，劝他再回学校教书。而听从敏华建议偷偷瞒着建中再回学校教书一事漏泄后，建中对他的态度更加冷淡，但他已铁了心。“天意怜幽草，人间爱晚晴”，其后，他无意间发现自己与敏华早已两情相悦，决定与她结婚，此事更令建中夫妇大为恼火。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aEPaP3PAiewRPVz1mUZ7EP1OLz8.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/obMYAXlMBGCitxrduWFpKuqP52Z.jpg",
-      "releaseDate": "1949-01-03",
-      "rating": 8.286,
-      "mediaType": "movie"
-    },
-    {
-      "id": 109,
-      "type": "tmdb",
-      "title": "蓝白红三部曲之白",
-      "originalTitle": "Trois couleurs : Blanc",
-      "description": "基耶斯洛夫斯基《三色》系列中最具游戏精神而又最为粗粝的一部作品，讲述了寄居法国的波兰移民卡洛·卡洛的荒诞际遇。这位倒霉的理发师在妻子以婚姻未圆房为由诉请离婚、并纵火烧毁自家发廊后诬陷他的情况下，决定离开巴黎重返故乡华沙。影片随后徐徐展开卡洛·卡洛精心策划的复仇图谋，既成一部关于东欧与西欧经济失衡的刺痒黑色喜剧，亦是对扭曲爱恋的沉静冥思。[标准收藏]",
-      "posterPath": "https://image.tmdb.org/t/p/w500/abxrKqKkmGtENHD2ZU9nomj8EeU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yOpNvGSsT0YECuhhrlGBLIshh0u.jpg",
-      "releaseDate": "1994-01-26",
-      "rating": 7.445,
-      "mediaType": "movie"
-    },
-    {
-      "id": 563774,
-      "type": "tmdb",
-      "title": "莫奈的睡莲：水波与光影的魔力",
-      "originalTitle": "Le ninfee di Monet",
-      "description": "该片从印象派大师克劳德·莫奈艺术生涯的起点，法国北部的海港城市勒阿弗尔出发，沿着塞纳河逆流而上，寻访他居住的地方，创作的痕迹。在吉维尼小镇与世隔绝的花园里，莫奈从丧妻的悲痛和挫败的抑郁中恢复过来，“池里的精灵浮现在我眼前，我举起了调色板”，睡莲成了莫奈晚年生涯绘画的主题，一画就是30年。对于这片池塘，莫奈从未丧失新鲜感。透过他留下的上百幅睡莲主题画作，我们看到光影之下隐藏着每一刻不同的惊喜，和他对水波与光影的执着探索。  在生命中最后12年里，莫奈克服了一战对日常生活与心态带来的巨大冲击，在家人去世、视力衰退的老境中坚持作画，倾注了大量时间和精力在巨幅装饰之作《睡莲》上。在莫奈逝世5个月后，他的朋友、法国前总理乔治·克列孟梭为《睡莲》组图专用的橘园美术馆揭幕，今天的人们仍可在莫奈亲自设计的椭圆形展厅里，全方位沉浸于这幅杰作，迷失在宁静祥和的秘境之中。  该片全程由艾莉莎·拉索斯基（Elisa Lasowski，剧集《权力的游戏》、《凡尔赛》）担任特邀解说，观众将在她的带领下前往巴黎，参观马蒙丹美术馆、橘园美术馆、奥赛博物馆以及吉维尼小镇上艺术家色彩绚丽的故居和花园，历史学家和畅销书作家罗斯·金则为本片提供更多灵感。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/frUry7pQdu2w7JCdB7Ep50fNeiJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/aOyZDHXGGtHNcUx6wdpIX0dOcal.jpg",
-      "releaseDate": "2018-11-26",
-      "rating": 6.8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 135397,
-      "type": "tmdb",
-      "title": "侏罗纪世界",
-      "originalTitle": "Jurassic World",
-      "description": "21世纪，曾经诞生过第一只恐龙的努布拉岛，在经历了一系列的惨剧之后迎来新的时代，如今这里经马斯拉尼公司之手建成了规模宏大的主题公园“侏罗纪世界”，数量繁多的远古生物每天都吸引数以万计的游客前来一饱眼福。为了吸引更多的游客，公司授意创意实验室采用不同动物的基因创造了集力量、速度和智慧于一体的暴虐霸王龙。作为负责人的克莱尔原打算请专门负责迅猛龙的欧文·格雷迪评估暴虐霸王龙的防护设施，谁知这头可怕的怪物竟然骗过了精密仪器的监视和人类的眼睛，以迅雷不及掩耳的速度逃到了外面，随后对所见的一切生物展开了无差别的血腥屠杀。原本快乐祥和的公园乱作一团，克莱尔必须深入危险之地救出两个被困的外甥，而欧文则不可避免地带着他的迅猛龙猎人团队迎战史无前例的的可怕对手……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wvbdvgVC1dWjMCim5z8lv85pZWM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/s5QfDFqRO6sjgPtKkjxD0WqXQef.jpg",
-      "releaseDate": "2015-06-06",
-      "rating": 6.7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 507086,
-      "type": "tmdb",
-      "title": "侏罗纪世界3",
-      "originalTitle": "Jurassic World Dominion",
-      "description": "在洛克伍德庄园事件的四年后，那些巨兽不仅开始大量繁衍，而且正逐步走向世界各个角落，融入了人类的世界。而两个完全不同的物种，围绕有限的生存空间展开了竞争。在此期间，欧文·格雷迪却隐居深山老林，悉心传授梅西·洛克伍德各种生存技巧以及和恐龙的相处之道。谁知，一伙不速之客掳走了梅西以及迅猛龙小蓝的孩子。愤怒的欧文只得踏上追索之路。另一方面，史前巨型蝗虫的出现引起艾丽·塞特勒博士的注意，她也因此与好友艾伦·格兰特博士等人重逢。一切阴谋都指向了位于意大利的一处恐龙保护地……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/p4m05RX6xjisJEv1fGyPuc5BiK5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/698FjyzLdpgXmUSr63LaRwblTmx.jpg",
-      "releaseDate": "2022-06-01",
-      "rating": 6.623,
-      "mediaType": "movie"
-    },
-    {
       "id": 1548736,
       "type": "tmdb",
       "title": "父辈的天空",
@@ -598,102 +226,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/54XNFVcbDcPsb9uB6HmqcpfjXc2.jpg",
       "backdropPath": null,
       "releaseDate": "2025-10-18",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1599011,
-      "type": "tmdb",
-      "title": "中华白海豚",
-      "originalTitle": "中华白海豚",
-      "description": "纪录电影《中华白海豚》聚焦 “海上大熊猫”全球仅存 6000 头的中华白海豚，既是展现其生存史诗的视觉盛宴，更是人与濒危生灵关于生命敬畏与生态坚守的真诚对话。 影片以一头名为\"珠珠\"的中华白海豚为主角，历时多年记录，从2012年它在“妈祖诞”出生于珠江口，到因港珠澳大桥建设被迫西迁，最终重返故乡的完整生命历程。 摄制组历经3600 海里的追踪“海上大熊猫”迁徙足迹，通过一批科研工作者长达数十年的坚持，一同探寻中华白海豚的演化奇迹：它们用6000万年从陆地走向海洋，皮肤随年龄由灰变白，拥有\"半脑睡眠\"的独特生理机制。 2025年，当\"珠珠\"携族群重返珠江口，当中华白海豚成为第十五届全运会吉祥物，这条\"海洋丝带\"终于串联起人与自然和谐共生的美好愿景。 影片用82分钟的深情凝视，诠释了\"万物相依，生命如海\"的深刻主题。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gkiEcRBzdFkByohtj9vuXe64zbt.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gnlT1FqTEwJSVVu0NE0F4awOxA0.jpg",
-      "releaseDate": "2025-12-12",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 351286,
-      "type": "tmdb",
-      "title": "侏罗纪世界2",
-      "originalTitle": "Jurassic World: Fallen Kingdom",
-      "description": "自侏罗纪世界的骚乱以来，种类繁多的恐龙在努布拉岛度过了三年无拘无束的时光。然而该岛火山活动频繁，随时有喷发的危险。致力于恐龙保护的克莱尔受到本杰明·洛克伍德的邀请。本杰明及其下属伊莱·米尔斯希望她和相关技术人员前往努布拉岛拯救那里的恐龙，并将它们安置在新的栖息地。受到感染的克莱尔设法找来欧文一同前往，欧文则希望救出他亲手驯养的迅猛龙小蓝。当他们踏足这座隔绝之岛时，却发现事情没那么简单。火山蠢蠢欲动，随时爆发，而混乱之中丑恶的阴谋悄然酝酿。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jVUgMrvroBDlBFlcj4Z08D8glIA.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6WA9stUMbIkEPxn3D5SWlA8FIi7.jpg",
-      "releaseDate": "2018-06-06",
-      "rating": 6.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 25664,
-      "type": "tmdb",
-      "title": "柔道龙虎榜",
-      "originalTitle": "柔道龍虎榜",
-      "description": "曾经号称“柔道小金刚”的司徒宝 ，曾是一名高手，如今放弃了柔道，已沦落成债务缠身、嗜赌酗酒的堕落混混。新一届的柔道冠军Tony 慕名而来，直指司徒宝挑战，试图一较高下。宿敌辣手李阿刚 又因当年一场未完的比赛，也找上门来要和司徒宝决一雌雄。结果Tony和司徒宝成为好友，台湾来的靓女小梦 一心想当歌星，却险遭暗算，为实现理想屡吃尽苦头的也希望司徒宝能重燃斗志，但真正令其发愤的却是年迈师傅 的战死。到底是有什么隐痛让司徒宝自甘沉沦？重寻对柔道信心和热爱的他，是否能够打败对手？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hNGXAUhs2avXegpyxFx2Sen6oIH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zXzIHuQ7UEluQrRlpp6bMvXvLR8.jpg",
-      "releaseDate": "2004-07-08",
-      "rating": 6.735,
-      "mediaType": "movie"
-    },
-    {
-      "id": 435921,
-      "type": "tmdb",
-      "title": "小镇风云",
-      "originalTitle": "L'ora legale",
-      "description": "在一个西西里岛的小镇，镇长的竞选临近。这个小镇由充满欺诈的Gaetano Patanè领导了多年，他现在准备用各种欺骗的方式再次赢得选举，并保留他的权力。人们已经习惯了政治漩涡和政治交易，只想随波逐流。但是这次镇长竞选的对手是Pierpaolo Natoli，一个50岁诚实正直的教授，这是他的第一次政治经历，充满了信心和理想。当战胜各种逆境后他赢得了选举，立即开小镇法制的新纪元，开始尊敬小镇的新次序。但是Pietrammare的人们是否准备好接受新次序了吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wiYW7gBAF70aGiuYkfH928vfmng.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uhkLSVouiRjMqk65ydC3XxIpTB5.jpg",
-      "releaseDate": "2017-01-19",
-      "rating": 6.557,
-      "mediaType": "movie"
-    },
-    {
-      "id": 413518,
-      "type": "tmdb",
-      "title": "匹诺曹",
-      "originalTitle": "Pinocchio",
-      "description": "　　改编自经典童话《木偶奇遇记》，讲述老木匠（罗伯托·贝尼尼 Roberto Benigni 饰）雕刻的木偶机缘巧合下获得生命，被木匠当作自己的儿子，并取名“匹诺曹”（费德里科·伊帕迪 Federico Ielapi 饰）。木匠耐心地教导匹诺曹，可贪玩的匹诺曹却跑到马戏团看木偶戏，并因此开启了一段离家之旅。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kIE605FVwC5Z3LYP2xABJRZhs9f.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/c4pO6YmyuUexu6WVlMjfXg2e4Zp.jpg",
-      "releaseDate": "2019-12-19",
-      "rating": 6.565,
-      "mediaType": "movie"
-    },
-    {
-      "id": 937746,
-      "type": "tmdb",
-      "title": "我是船长",
-      "originalTitle": "Io capitano",
-      "description": "入围第81届金球奖电影类最佳非英语片提名，十六岁的少年赛杜，与深爱的母亲和姊妹同住，家乡日子困苦，唯有玩起音乐时的他，眼里才有光。在表哥的怂恿下，他隐瞒母亲，揣着天真热情，以及偷偷打工攒来的现金，踏上前往欧洲大陆的旅途，深信到了那里，就能一展音乐才华，让家人过上更好的生活。从塞内加尔到利比亚，穿越撒哈拉沙漠行至地中海，这一趟未知的旅程，人心比环境更加险恶。在祖灵的冥冥指引下，他们能否抵达梦想的彼岸？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5doIzeVLwFoTsPByP5T0qwiun4d.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rniS6AOKTOr5PV7Xok6m7QSzlXg.jpg",
-      "releaseDate": "2023-09-07",
-      "rating": 7.802,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1570262,
-      "type": "tmdb",
-      "title": "开心岭",
-      "originalTitle": "开心岭",
-      "description": "　　该电影关注“云端天路”背后的无名英雄，首次将镜头对准海拔4200米的“开心岭”信号工区，揭秘铁路系统“神经末梢”的守护传奇。影片通过复员军人第五小军（卢祈炽 饰）与铁道兵出身的老信号工杨震山（巫刚 饰）的师徒羁绊，串联起暴风雪抢险、狼群夜袭、设备升级等真实事件，讲述雪域高原上两代铁路人坚守与传承的动人故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fjIW5dOdBMFefvhAWut4DfGRKPa.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ukRRlG3aXyrTVipc1irBkPj3IfM.jpg",
-      "releaseDate": "2025-11-21",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1563487,
-      "type": "tmdb",
-      "title": "陪你到清晨",
-      "originalTitle": "陪你到清晨",
-      "description": "　　这是首部用真实影像记录的非虚构电影，讲述了孩子在心理与精神困境中求救与自救的故事。  　　影片呈现了他们在学校、家庭和医院，与老师、父母和医生之间的真实经历。  　　作为资深媒体人的导演，历时五年深入学校、医疗机构和社会组织，与数百位孩子、家长、医生、老师对话，整理上万例数据，试图用纪录影像为抚养、成长与教育中的困境寻找答案。  　　孩子的心理健康是社会最重要的议题之一，它关乎国家和民族的未来与希望。  　　陪伴是孩子成长中最好的礼物。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/idSwALwO0qhO7gkYfx23TJXI6ZH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cbC36q0NllYbs8QJ3bEYu1HFz6a.jpg",
-      "releaseDate": "2025-10-24",
       "rating": 0,
       "mediaType": "movie"
     }
@@ -724,18 +256,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1599013,
-      "type": "tmdb",
-      "title": "情缘曹雪芹",
-      "originalTitle": "情缘曹雪芹",
-      "description": "　　影片聚焦于文学巨匠曹雪芹丰富而深邃的情感世界，从其生命经历中撷取动人篇章。电影不仅通过曹雪芹与生命中三位重要女性——芳青、荷香、云妹的动人情感交织，细腻展现了他的深情与胸怀；也刻画了他与敦诚、敦敏、于景廉、徐环等友人之间真挚而深刻的友谊。这些源自现实生活的深切关怀与命运共鸣，最终凝聚为他“为闺阁增光”的宏大志向，成为其呕心沥血创作《红楼梦》的初心与动力，生动诠释了一种超越个人情爱、为天下女子立传的“大情大爱”。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pBhRGhbgkVOgk5FF4o7u26ntxE5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vOb07QqTkMroELd5VmtuCS6d4v8.jpg",
-      "releaseDate": "2026-01-16",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1609495,
       "type": "tmdb",
       "title": "盖世神功",
@@ -743,6 +263,18 @@
       "description": "　　70年代，洪英真出⽣在H国华⼈街的武林世家“洪刀门”，因成⻓过程⼀事⽆成被众⼈戏称为“废柴”。  　　⼀次机会，洪英真偶遇⽼同学包掂并认识了“忠孝堂”豹哥，卷⼊⼀场阴谋当中。⽽武林⾼⼿“⽆尘”⼀早看穿洪英真是潜在练武奇才，于是打通其筋脉。  　　洪英真迫听⽆尘的建议躲到和平村。在和平村⾥，洪英真阴差阳错惹上恶霸林⼤爷。万万没想到林⼤爷的⼉⼦竟然是豹哥，于是洪英真与豹哥的恩怨⼜再次拉开……",
       "posterPath": "https://image.tmdb.org/t/p/w500/3ET7jYxEDAKAfZuM1JgaFkh0ugm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uSXacEXAaDEFMT0e07vfr4l4OJd.jpg",
+      "releaseDate": "2026-01-16",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1599013,
+      "type": "tmdb",
+      "title": "情缘曹雪芹",
+      "originalTitle": "情缘曹雪芹",
+      "description": "　　影片聚焦于文学巨匠曹雪芹丰富而深邃的情感世界，从其生命经历中撷取动人篇章。电影不仅通过曹雪芹与生命中三位重要女性——芳青、荷香、云妹的动人情感交织，细腻展现了他的深情与胸怀；也刻画了他与敦诚、敦敏、于景廉、徐环等友人之间真挚而深刻的友谊。这些源自现实生活的深切关怀与命运共鸣，最终凝聚为他“为闺阁增光”的宏大志向，成为其呕心沥血创作《红楼梦》的初心与动力，生动诠释了一种超越个人情爱、为天下女子立传的“大情大爱”。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/pBhRGhbgkVOgk5FF4o7u26ntxE5.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vOb07QqTkMroELd5VmtuCS6d4v8.jpg",
       "releaseDate": "2026-01-16",
       "rating": 0,
       "mediaType": "movie"
@@ -768,7 +300,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2025-10-22",
-      "rating": 7.9,
+      "rating": 7.958,
       "mediaType": "movie"
     },
     {
@@ -868,6 +400,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1614368,
+      "type": "tmdb",
+      "title": "喜欢上“欠欠”的你",
+      "originalTitle": "喜欢上“欠欠”的你",
+      "description": "讲述张若愚（秦霄贤 饰）和贾琼（王影璐 饰）在一连串荒唐又温暖的相处中，彼此心动、共同成长的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1563614,
       "type": "tmdb",
       "title": "只爱你",
@@ -936,6 +480,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/10fNM0vU3A9Elj0KkKy7a8qiN2J.jpg",
       "backdropPath": null,
       "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1512942,
+      "type": "tmdb",
+      "title": "为我的心动买单",
+      "originalTitle": "为我的心动买单",
+      "description": "　　影片根据泰国大热爆笑喜剧改编。分手后的夏临想借新产品“真爱保险”晋升，却不巧遇到笃信爱情的同事谭杰。两人矛盾重重打下赌约，却在一个主分一个主和的过程中，逐渐发现了对方柔软的秘密，一对受过伤的欢喜冤家，还敢勇敢的迈出那一步吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qtcp6nOOqa63EGZtzCwGmDv8bqb.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-20",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -1034,7 +590,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wT9bYGpoFnJGiRaRF9DErVjZ7qo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2hS80sTgsSmK0T61bd5J9YBc52k.jpg",
       "releaseDate": "1994-09-14",
-      "rating": 8.3,
+      "rating": 8.299,
       "mediaType": "movie"
     },
     {
@@ -1046,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/c35Vwd9rmMQfaEJuUrJRF3LZWJX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
       "releaseDate": "2014-11-05",
-      "rating": 8.465,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -1058,7 +614,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7ojgNNaZCDvp7IchH0uehUGJ0dH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xnHVX37XZEp33hhCbYlQFq7ux1J.jpg",
       "releaseDate": "1997-12-18",
-      "rating": 7.9,
+      "rating": 7.902,
       "mediaType": "movie"
     },
     {
@@ -1067,10 +623,10 @@
       "title": "盗梦空间",
       "originalTitle": "Inception",
       "description": "道姆·柯布与同事阿瑟和纳什在一次针对日本能源大亨齐藤（渡边谦 饰）的盗梦行动中失败，反被齐藤利用。齐藤威逼利诱因遭通缉而流亡海外的柯布帮他拆分他竞争对手的公司，采取极端措施在其唯一继承人罗伯特·费希尔的深层潜意识中种下放弃家族公司、自立门户的想法。为了重返美国，柯布偷偷求助于岳父迈尔斯，吸收了年轻的梦境设计师艾里阿德妮、梦境演员艾姆斯和药剂师约瑟夫加入行动。在一层层递进的梦境中，柯布不仅要对付费希尔潜意识的本能反抗，还必须直面已逝妻子梅尔的处处破坏，实际情况远比预想危险得多……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lQEjWasu07JbQHdfFI5VnEUfId2.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/89W962aAnPS3N3BdKgy2BvUhnCh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ii8QGacT3MXESqBckQlyrATY0lT.jpg",
       "releaseDate": "2010-07-15",
-      "rating": 8.37,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1130,7 +686,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b0c3TgnAqCfDLqzaAG2IoVxw3c4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ukfI9QkU1aIhOhKXYWE9n3z1mFR.jpg",
       "releaseDate": "2001-07-20",
-      "rating": 8.533,
+      "rating": 8.534,
       "mediaType": "movie"
     },
     {
@@ -1166,7 +722,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/k1pJslKr4aDayw9kWwWnlC3MIP3.jpg",
       "releaseDate": "2019-07-26",
-      "rating": 7.883,
+      "rating": 7.885,
       "mediaType": "movie"
     },
     {
@@ -1238,7 +794,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/j5M6e55pAhzPWUTP5k0Qyg6o876.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l0fNAHLOFReQJsxCOmGWvJDnimn.jpg",
       "releaseDate": "2016-12-21",
-      "rating": 7.889,
+      "rating": 7.891,
       "mediaType": "movie"
     },
     {
@@ -1250,7 +806,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bJY4HwYR7rrWBqY4t1XofjhGnVh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Eo6FPq6A4aMeOe4tTmNKwUZRvM.jpg",
       "releaseDate": "2009-06-08",
-      "rating": 8,
+      "rating": 8.008,
       "mediaType": "movie"
     },
     {
@@ -1346,7 +902,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
       "releaseDate": "1972-03-14",
-      "rating": 8.685,
+      "rating": 8.686,
       "mediaType": "movie"
     },
     {
@@ -1430,7 +986,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7MoGJEkaVFEtcgc3HiB6VCrkAIW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/69D57G3XqQMVNCwK0Z2PCcYC4Da.jpg",
       "releaseDate": "2000-09-20",
-      "rating": 7.9,
+      "rating": 7.918,
       "mediaType": "movie"
     },
     {
@@ -1514,7 +1070,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zuP5Iir0ip4cbpke8vKLmWdqJ6k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ai2FicMUxLCurVkjtYdSvVDWRmS.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.106,
+      "rating": 8.107,
       "mediaType": "movie"
     },
     {
@@ -1538,7 +1094,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tZ3cAEoLRJp4ebVzIef7y8xzHlx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg",
       "releaseDate": "2016-11-17",
-      "rating": 7.549,
+      "rating": 7.55,
       "mediaType": "movie"
     },
     {
@@ -1598,7 +1154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.121,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -1634,7 +1190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p76Dknv5K7fsihuiQDui12RZaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
       "releaseDate": "1995-01-27",
-      "rating": 7.971,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -1646,7 +1202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fCKdh2Y5uYHlshpdkdIE7WxgZ5R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vVBcIN68kFq681b4lObiNJhEVro.jpg",
       "releaseDate": "2001-12-14",
-      "rating": 7.9,
+      "rating": 7.855,
       "mediaType": "movie"
     },
     {
@@ -1778,7 +1334,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jRdJCjyJCWyYcNQuqIMRl5w2s9w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6Oa3zTiluBz2W8D2ou1MY16dUiF.jpg",
       "releaseDate": "1975-11-19",
-      "rating": 8.4,
+      "rating": 8.412,
       "mediaType": "movie"
     },
     {
@@ -1814,7 +1370,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gFxATIulWtZze6oOjPfyglDqsW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
       "releaseDate": "1997-12-05",
-      "rating": 8.157,
+      "rating": 8.158,
       "mediaType": "movie"
     },
     {
@@ -1850,7 +1406,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/pgSLk5Q4dW2M7bYxcG7DKBT3hvb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hkKTtlHjiVUW5XRfkQfl3FmJUfX.jpg",
       "releaseDate": "1995-09-22",
-      "rating": 8.4,
+      "rating": 8.378,
       "mediaType": "movie"
     },
     {
@@ -1862,7 +1418,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ggC3Brchf4RqPitEh7cROFoeAWn.jpg",
       "releaseDate": "2002-12-16",
-      "rating": 8,
+      "rating": 7.978,
       "mediaType": "movie"
     },
     {
@@ -1874,7 +1430,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ejkczWHjQoNAPUmTU26tU3aRkr8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
       "releaseDate": "1994-07-14",
-      "rating": 7.965,
+      "rating": 7.966,
       "mediaType": "movie"
     },
     {
@@ -1958,7 +1514,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1J3yRdmlBF3a5l3GLqBScRBdhJr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1XqIhsqnAozznGhxlGdI0GPcCro.jpg",
       "releaseDate": "2002-09-17",
-      "rating": 8.4,
+      "rating": 8.379,
       "mediaType": "movie"
     },
     {
@@ -2006,7 +1562,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tbhKU2naM5ItPO4ICdF2GKow9ik.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/w4bTBXcqXc2TUyS5Fc4h67uWbPn.jpg",
       "releaseDate": "1957-04-10",
-      "rating": 8.6,
+      "rating": 8.551,
       "mediaType": "movie"
     },
     {
@@ -2030,7 +1586,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
       "releaseDate": "2008-07-16",
-      "rating": 8.5,
+      "rating": 8.525,
       "mediaType": "movie"
     },
     {
@@ -2078,7 +1634,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7CENyUim29IEsaJhUxIGymCRvPu.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8.038,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -2102,7 +1658,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lVmoFqvQrFQJWWJt3TkHiE3Cr0n.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
       "releaseDate": "2010-02-14",
-      "rating": 8.2,
+      "rating": 8.202,
       "mediaType": "movie"
     },
     {
@@ -2114,7 +1670,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nB8wvhntaWFhIp9HSE1Oan7T858.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
       "releaseDate": "2003-09-07",
-      "rating": 7.097,
+      "rating": 7.096,
       "mediaType": "movie"
     },
     {
@@ -2126,7 +1682,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5DMDkeRfgISRqwxgrX9McAYwu6A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qc9zR02j2apoEwMdptMYBoAFYUC.jpg",
       "releaseDate": "2006-10-17",
-      "rating": 8.2,
+      "rating": 8.205,
       "mediaType": "movie"
     }
   ],
@@ -2140,7 +1696,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bhjlBJ1oNSmuN954FvHxUZ4IWYf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7N7CtZftqEvgojR3QloukU0oWPg.jpg",
       "releaseDate": "2024-11-08",
-      "rating": 6.844,
+      "rating": 6.845,
       "mediaType": "movie"
     },
     {
@@ -2284,7 +1840,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xZmUHiZlzuU3FuD9EE5wdZpNc95.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1DTIRhw4cpLJlHlrPPbKzq6amHc.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 6.929,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -2320,7 +1876,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 8.121,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -2332,7 +1888,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/f7LFuTZvLuUb5HfEJxDSvguB9n5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6ykQysq6kfZ6Yw5C4dkhcZRd5QI.jpg",
       "releaseDate": "2025-01-29",
-      "rating": 6.315,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -2344,7 +1900,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hoVWVcFrVWarJIOwmmoLUwJ90gy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8eifdha9GQeZAkexgtD45546XKx.jpg",
       "releaseDate": "2025-02-12",
-      "rating": 5.991,
+      "rating": 5.99,
       "mediaType": "movie"
     },
     {
@@ -2356,7 +1912,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ivyPPBVdDcwJy8LI8xccDFZqIaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
       "releaseDate": "2000-09-29",
-      "rating": 8.093,
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -2380,7 +1936,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/w7nbovdFCjk393xo0AgqlsFuA1O.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rGnf32URcZAqdTxtkoC6aUD1GBS.jpg",
       "releaseDate": "2024-08-07",
-      "rating": 7,
+      "rating": 6.951,
       "mediaType": "movie"
     },
     {
@@ -2452,7 +2008,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/d3i7412JqW8V81msHgZ2b0l9ph9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hGLywNhy1Fo1rNFHsNZsXGS69B8.jpg",
       "releaseDate": "2025-02-28",
-      "rating": 6.828,
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -2521,7 +2077,7 @@
       "title": "天堂旅行团",
       "originalTitle": "天堂旅行团",
       "description": "生活失意的宋一鲤（彭昱畅 饰）被人小鬼大的女孩余小聚（杨恩又 饰）“绑架”踏上未知旅程。旅途中他们和形形色色的人一起分享欢笑泪水，彼此温暖治愈，撕开暗夜照亮深渊。人生所有起落和灿烂，都是独一无二的体验。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wrLMO8aDCtDWBJo474CldRuHcWv.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4pNOD92JWtISwxBQG5R9Ez0EbO7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ePGDZUG7bgfLP3x0FvIUxhWT2hb.jpg",
       "releaseDate": "2025-03-08",
       "rating": 8,
@@ -2536,7 +2092,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mZSpbl5y2PSheqdi5sbigysK2vM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lsgT602GYV8ts97sKH1gWFtQs1k.jpg",
       "releaseDate": "2025-03-08",
-      "rating": 6.736,
+      "rating": 6.73,
       "mediaType": "movie"
     },
     {
@@ -2632,7 +2188,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wt1eqcRGcRRJhCoNY26I5f5Qlap.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
       "releaseDate": "2025-03-19",
-      "rating": 4.304,
+      "rating": 4.307,
       "mediaType": "movie"
     },
     {
@@ -2680,7 +2236,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tg1WGloZeutgQhlgSxKkdRhs0o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
       "releaseDate": "2025-03-26",
-      "rating": 6.697,
+      "rating": 6.696,
       "mediaType": "movie"
     },
     {
@@ -2788,7 +2344,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2LV7qOYoqtSXDlTrPT62a8KjKLG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aD7FXrm2GErTmzrIFBntPyhAqS9.jpg",
       "releaseDate": "2025-04-09",
-      "rating": 6.975,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -2800,7 +2356,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zStnpHRerSI414dmFPSpQHCmT8P.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/z7JEMQuxHWZtGb1DxZ2egjOlPcb.jpg",
       "releaseDate": "2024-10-30",
-      "rating": 6.5,
+      "rating": 6.546,
       "mediaType": "movie"
     },
     {
@@ -2872,7 +2428,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sW4JlzjMGbAogtFP4IzJvbhjhoI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xyPKwCR6b3iE15VC2arcQphtWQY.jpg",
       "releaseDate": "2025-01-10",
-      "rating": 7.269,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -2932,7 +2488,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8eeU1008NQ9TmmZgJM3NcAfKJq3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jYCyTdPfgT01IOJWDnnetr9RDX6.jpg",
       "releaseDate": "2025-04-30",
-      "rating": 7.312,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -3016,7 +2572,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p1bQDvD1EZZBlP4TpO7HQRLpYJ4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jIpagj2Dud9g3ZVJFvaWikEWsYz.jpg",
       "releaseDate": "1995-11-18",
-      "rating": 7.921,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -3040,7 +2596,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jRq6w5byyZARlCu9eNUmIIH8mXV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
       "releaseDate": "2025-04-23",
-      "rating": 7.105,
+      "rating": 7.103,
       "mediaType": "movie"
     },
     {
@@ -3052,7 +2608,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xudy9TKevYOFVJYIwOtkRKC4ZJb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/x0pkoGlwWdkzRxgQioD3cUG0awu.jpg",
       "releaseDate": "2024-09-19",
-      "rating": 7.924,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -3136,7 +2692,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/x5wNw81Rek3lyA4pPEMJheKh6Nb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.203,
+      "rating": 7.202,
       "mediaType": "movie"
     },
     {
@@ -3172,7 +2728,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5RuBsGKMmMwxsLkhdQ5CJdeBgar.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1yktYsxkmUtUFTUnCAUaqG6FEiz.jpg",
       "releaseDate": "2025-06-04",
-      "rating": 7.297,
+      "rating": 7.296,
       "mediaType": "movie"
     },
     {
@@ -3184,7 +2740,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vLSMpla6S8pMtgOU201tya6tDtH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
       "releaseDate": "2025-05-08",
-      "rating": 7.1,
+      "rating": 7.065,
       "mediaType": "movie"
     },
     {
@@ -3196,7 +2752,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tkmibNA1BOyUD6g5EM9fASJfpxx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vHTFrcqJoCi1is3XN0PZe2LSnI2.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.962,
+      "rating": 7.965,
       "mediaType": "movie"
     },
     {
@@ -3340,7 +2896,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.792,
+      "rating": 7.793,
       "mediaType": "movie"
     },
     {
@@ -3352,7 +2908,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ukPu5xYOBAnh5H46uK4aQOirW2b.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.964,
+      "rating": 6.966,
       "mediaType": "movie"
     },
     {
@@ -3412,7 +2968,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gl7kGqjM6wKkWemDeuHuBvNwYxv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tWVXGyDNQM7zRKp162PSdBSgCzb.jpg",
       "releaseDate": "2023-12-13",
-      "rating": 6.425,
+      "rating": 6.423,
       "mediaType": "movie"
     },
     {
@@ -3469,7 +3025,7 @@
       "title": "无名之辈：否极泰来",
       "originalTitle": "无名之辈：否极泰来",
       "description": "　　在曼谷街头大闹分手的“渣男”陈三金（章宇 饰）与“狠女”薛芳梅（任素汐 饰），意外卷入了一场犯罪集团的绑架活动。二人不出意外的成为了人质中的“出头鸟”、绑匪的“眼中钉”，在面临生存还是毁灭的一系列极端选择之际，二人尽显“渣男”“狠女”本性。殊不知这场意外背后还暗藏着更大危机，极端情境下的二人将何去何从？异国人群中的无名之辈们又将如何反抗命运？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jUAmY3DqX33m5MDPB9eVzjxPaOz.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/iNOkivce2JAlyK2rOdQlHe0xkDc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/diRS2bfX9KZG4ijX50G4FTNeQy9.jpg",
       "releaseDate": "2025-06-26",
       "rating": 5,
@@ -3496,7 +3052,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aJDLz1748CIMZkCkyISYe5Hl6I7.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.4,
+      "rating": 7.386,
       "mediaType": "movie"
     },
     {
@@ -3520,7 +3076,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/S8XM9nknYxBHCp1AO1TNpqwRzo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8OPxY4gmVLoURJcz1BbR2a4Hi5q.jpg",
       "releaseDate": "2025-07-12",
-      "rating": 7.138,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -3556,7 +3112,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/d1yVZB5UYwtxk3d1LBFZupSN0Rs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uJEZaEM2hY3MG50CgZ3z9jeTwmp.jpg",
       "releaseDate": "2025-07-18",
-      "rating": 8.487,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -3568,7 +3124,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kyuzrk7kaMQt6VBnKKsPIZFne8C.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
       "releaseDate": "2025-07-05",
-      "rating": 5.853,
+      "rating": 5.9,
       "mediaType": "movie"
     },
     {
@@ -3580,7 +3136,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bkCfrtEqdTKd0zTA7NMFU37rjBD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5CKcXxo5aD4BerJM6iy4IX1TJxv.jpg",
       "releaseDate": "2025-07-23",
-      "rating": 6.999,
+      "rating": 6.998,
       "mediaType": "movie"
     },
     {
@@ -3616,7 +3172,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ngLgoY3MTfLANqv9cpXr96saaFV.jpg",
       "releaseDate": "2025-07-19",
-      "rating": 8.121,
+      "rating": 8.1,
       "mediaType": "movie"
     }
   ]
