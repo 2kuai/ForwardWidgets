@@ -2,7 +2,7 @@ WidgetMetadata = {
   id: "jp_vod_full",
   title: "金牌影院",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.0.3",
+  version: "1.0.4",
   requiredVersion: "0.0.1",
   description: "金牌影院在线资源获取",
   author: "两块",
@@ -29,7 +29,7 @@ WidgetMetadata = {
       title: "加载资源",
       functionName: "loadResource",
       type: "stream",
-      cacheDuration: 600,
+      cacheDuration: 300,
       params: []
     }
   ],
@@ -47,13 +47,14 @@ async function loadResource(params) {
     try {
         const signKey = 'cb808529bae6b6be45ecfab29a4889bc';
         const t = Date.now().toString();
+        const uuid = getUUID();
 
-        const searchData = `keyword=${seriesName}&pageNum=1&pageSize=12&type=false`;
+        const searchData = `keyword=${seriesName}&pageNum=1&pageSize=5&type=false`;
         const searchSign = CryptoJS.SHA1(CryptoJS.MD5(searchData + `&key=${signKey}&t=${t}`).toString()).toString();
         const searchUrl = `${site}/api/mw-movie/anonymous/video/searchByWordPageable?${searchData}`;
         
         const sRes = await Widget.http.get(searchUrl, { 
-            headers: { 'User-Agent': UA, 't': t, 'sign': searchSign, 'deviceId': getUUID() } 
+            headers: { 'User-Agent': UA, 't': t, 'sign': searchSign, 'deviceId': uuid } 
         });
 
         const drama = getPreciseMatch(sRes.data?.data?.list, { seriesName, season, type });
@@ -83,7 +84,7 @@ async function loadResource(params) {
                 const pUrl = `${site}/api/mw-movie/anonymous/v2/video/episode/url?${psStr}`;
                 
                 const pRes = await Widget.http.get(pUrl, { 
-                    headers: { 'User-Agent': UA, 't': pt, 'sign': ps, 'deviceId': getUUID() } 
+                    headers: { 'User-Agent': UA, 't': pt, 'sign': ps, 'deviceId': uuid } 
                 });
 
                 const best = pRes.data?.data?.list?.[0];
@@ -105,9 +106,19 @@ async function loadResource(params) {
 }
 
 function getUUID() {
-return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (e) =>
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (e) =>
 ('x' === e ? (16 * Math.random()) | 0 : 'r&0x3' | '0x8').toString(16)
 );
+}
+
+/**
+ * 数字转中文（支持1-99）
+ */
+function toChineseNum(num) {
+    const chars = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
+    if (num <= 10) return chars[num];
+    if (num < 20) return "十" + chars[num % 10];
+    return chars[Math.floor(num / 10)] + "十" + (num % 10 === 0 ? "" : chars[num % 10]);
 }
 
 function getPreciseMatch(list, params) {
@@ -115,23 +126,70 @@ function getPreciseMatch(list, params) {
 
     const { seriesName, season, type } = params;
     const targetSeason = parseInt(season) || 1;
+    const cnSeason = toChineseNum(targetSeason);
+    
+    const typeMap = { movie: 1, series: 2 };
+    const targetTypeId = typeMap[type];
+
     let best = { item: null, score: -1 };
 
     for (const item of list) {
+        const { vodName, vodSub, typeId1 } = item;
+        // 处理副标题：将逗号分隔的副标题转为数组并清理空格
+        const subTitles = vodSub ? vodSub.split(/[,，]/).map(s => s.trim()) : [];
+        const fullName = `${vodName} ${subTitles.join(' ')}`;
+
+        // 1. 类型强校验
+        if (targetTypeId && typeId1 !== targetTypeId) continue;
+
         let score = 0;
-        const name = item.vodName;
-        const typeId = item.typeId1; 
 
-        if (name === seriesName) score += 60;
-        else if (name.includes(seriesName)) score += 30;
-
-        if (type === 'movie' && typeId == 1) score += 10;
-        else if (type !== 'movie' && typeId == 2) score += 10;
-
-        if (type !== 'movie') {
-            const hasSeason = name.includes(`第${targetSeason}季`) || name.match(new RegExp(`S0?${targetSeason}`, 'i'));
-            if (hasSeason) score += 40;
-            if (targetSeason === 1 && !name.match(/第[二三四五六七八九十]季/)) score += 10;
+        // --- 电影逻辑：极致精确匹配 ---
+        if (typeId1 === 1) {
+            // 必须是标题完全一致，或者副标题中有一个词完全匹配输入
+            if (vodName === seriesName || subTitles.some(s => s === seriesName)) {
+                score = 100;
+            }
+        } 
+        
+        // --- 剧集逻辑：智能季数匹配 ---
+        else if (typeId1 === 2) {
+            if (targetSeason === 1) {
+                // 第一季：名称完全一致，且通过排除法确认没有其他季的干扰
+                const otherSeasonReg = /第[二三四五六七八九十]季|S0?[2-9]/i;
+                // 排除类似"御赐小仵作2"这种直接带数字但不是我们要找的情况
+                const isExactName = (vodName === seriesName);
+                const hasSeasonSuffix = (vodName + subTitles.join('')).match(otherSeasonReg);
+                
+                // 如果搜"御赐小仵作"，目标是第1季：
+                // 碰到"御赐小仵作" -> 90分
+                // 碰到"御赐小仵作2" -> 不加这90分
+                if (isExactName && !hasSeasonSuffix) {
+                    score = 90;
+                } else if (vodName.includes(seriesName) && !vodName.includes(`${seriesName}2`) && !hasSeasonSuffix) {
+                    score = 30;
+                }
+            } else {
+                // 多季匹配：支持"御赐小仵作2"、"御赐小仵作第二季"
+                const seasonPatterns = [
+                    `${targetSeason}`, 
+                    `第${targetSeason}季`, 
+                    `第${cnSeason}季`
+                ];
+                
+                // 构建正则：匹配 (名称)(任意字符)(季数标识)
+                // 例如：御赐小仵作.*? (2|第2季|第二季|S02)
+                const seasonReg = new RegExp(`${seriesName}.*?(${seasonPatterns.join('|')})`, 'i');
+                
+                if (seasonReg.test(vodName)) {
+                    score = 90;
+                } else if (subTitles.some(s => seasonReg.test(s))) {
+                    score = 80; // 副标题命中也给高分
+                } else if (subTitles.some(s => seasonPatterns.some(p => s.includes(p))) && vodName.includes(seriesName)) {
+                    score = 30;
+                }
+            }
+            score += 10; // 类型匹配基础分
         }
 
         if (score > best.score) {
@@ -139,8 +197,9 @@ function getPreciseMatch(list, params) {
         }
     }
 
-    return best.score >= 50 ? best.item : null;
+    return best.score >= 100 ? best.item : null;
 }
+
 
 // ============================================================
 // CryptoJS 的完整代码 (crypto-js.min.js)
