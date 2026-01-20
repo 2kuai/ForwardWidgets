@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-20T14:20:37.754+08:00",
+  "last_updated": "2026-01-20T20:24:20.757+08:00",
   "tv": {
     "全网": [
       {
@@ -65,7 +65,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/e2mINd8gwW2zcMtCiDQulHmssum.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 7.3,
+        "rating": 7.6,
         "mediaType": "tv"
       },
       {
@@ -91,17 +91,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 258492,
-        "type": "tmdb",
-        "title": "人之初",
-        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
-        "releaseDate": "2025-12-27",
-        "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
         "id": 309609,
         "type": "tmdb",
         "title": "长河落日",
@@ -110,6 +99,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9aludN1SsftAqpw73f7zrpKTB83.jpg",
         "releaseDate": "2026-01-01",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 258492,
+        "type": "tmdb",
+        "title": "人之初",
+        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
+        "releaseDate": "2025-12-27",
+        "rating": 7.2,
         "mediaType": "tv"
       }
     ],
@@ -203,6 +203,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 309232,
+        "type": "tmdb",
+        "title": "新闻女王2",
+        "description": "《新闻女王》续集。由 TVB 与优酷联合出品，佘诗曼、黄宗泽领衔主演，李施嬅、高海宁、王敏奕等原班人马回归，马国明、夏文汐特别出演。",
+        "posterPath": null,
+        "backdropPath": null,
+        "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 271015,
         "type": "tmdb",
         "title": "凤凰台上",
@@ -211,17 +222,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/1ybpRrDgtejMdAP04Qhtd52QwWT.jpg",
         "releaseDate": "2025-11-14",
         "rating": 8.25,
-        "mediaType": "tv"
-      },
-      {
-        "id": 310118,
-        "type": "tmdb",
-        "title": "人民的选择",
-        "description": "1945年，艰苦卓绝的抗日战争取得伟大胜利，中国在和平与战争、光明与黑暗等重大问题上，面临艰难抉择。以毛泽东、周恩来、朱德、刘少奇为首的中国共产党人，以人民为中心，与以蒋介石为首的国民党独裁者展开大决战。毛泽东以大无畏气概，孤身涉险赴重庆谈判，指挥解放军抢占东北、转战陕北、发起三大战役、进行土地革命，发布“五一口号”。中国共产党的政策，赢得广大人民群众和民主党派的欢迎拥护，最终战胜了蒋介石王朝。1949年10月1日，中华人民共和国宣告成立。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/znQoFzT6BRJrUSQqIJJmEg0k6QY.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3bgBJeHPcz3AtG39PuAN3Iejix6.jpg",
-        "releaseDate": "2026-01-10",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -357,7 +357,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/e2mINd8gwW2zcMtCiDQulHmssum.jpg",
         "releaseDate": "2025-12-22",
-        "rating": 7.3,
+        "rating": 7.6,
         "mediaType": "tv"
       },
       {
@@ -372,17 +372,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 258492,
-        "type": "tmdb",
-        "title": "人之初",
-        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
-        "releaseDate": "2025-12-27",
-        "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
         "id": 309609,
         "type": "tmdb",
         "title": "长河落日",
@@ -391,6 +380,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9aludN1SsftAqpw73f7zrpKTB83.jpg",
         "releaseDate": "2026-01-01",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 258492,
+        "type": "tmdb",
+        "title": "人之初",
+        "description": "一场突如其来的事故，一具陈尸多年的白骨，将两个年轻人紧紧缠绕在一起。为破解身世之谜，他们携手合作配合警方共同挖清这座城市的陈年黑暗，解开重重谜团。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
+        "releaseDate": "2025-12-27",
+        "rating": 7.2,
         "mediaType": "tv"
       },
       {
@@ -618,6 +618,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 110329,
+        "type": "tmdb",
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
+        "mediaType": "tv"
+      },
+      {
         "id": 292181,
         "type": "tmdb",
         "title": "修仙记之何仙姑传",
@@ -640,17 +651,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 110329,
-        "type": "tmdb",
-        "title": "伟大的转折",
-        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
-        "releaseDate": "2019-08-26",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
         "id": 60059,
         "type": "tmdb",
         "title": "风骚律师",
@@ -658,7 +658,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/ceybevjR1WAC4wqiHEEAhrW1U9L.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg",
         "releaseDate": "2015-02-08",
-        "rating": 8.703,
+        "rating": 8.7,
         "mediaType": "tv"
       },
       {
@@ -923,17 +923,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
-        "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7.3,
-        "mediaType": "tv"
-      },
-      {
         "id": 301245,
         "type": "tmdb",
         "title": "快乐趣吹风",
@@ -950,7 +939,7 @@
         "title": "喜人奇妙夜",
         "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
         "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7GK8XDfNPzRaOfRCcsgrtyRbMvP.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
         "mediaType": "tv"
@@ -1103,17 +1092,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -1122,6 +1100,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
         "releaseDate": "2023-10-26",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -1209,7 +1198,7 @@
         "title": "喜人奇妙夜",
         "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
         "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5TvKAb7oS3N2K5h6VDIYJlKYtaY.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7GK8XDfNPzRaOfRCcsgrtyRbMvP.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
         "mediaType": "tv"
@@ -1409,6 +1398,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 306823,
+        "type": "tmdb",
+        "title": "在恋爱开始之前",
+        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
+        "releaseDate": "2025-11-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 130099,
         "type": "tmdb",
         "title": "再见爱人",
@@ -1431,17 +1431,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 308650,
-        "type": "tmdb",
-        "title": "中国新声代",
-        "description": "《中国新声代》是金鹰卡通卫视推出的一档儿童歌唱类节目，以“唱歌吧，孩子们”为口号，关注少儿成长与中国音乐的未来，为家庭观众带来纯净而正能量的音乐内容。",
-        "posterPath": null,
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 307202,
         "type": "tmdb",
         "title": "老板是新人",
@@ -1453,13 +1442,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 306823,
+        "id": 291862,
         "type": "tmdb",
-        "title": "在恋爱开始之前",
-        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
-        "releaseDate": "2025-11-25",
+        "title": "背后",
+        "description": "《背后》是由郑方一主持、张泉灵担任对谈人的观察谈话类节目，在寻找背后故事的同时，也寻找答案和力量的观察谈话类节目。以“在路过的人生里照见背后的自己”为核心立意，聚焦当代社会对深度内容的渴求，在信息碎片化、情绪快餐化的当下，旨在通过“有温度的对谈”为观众提供一处心灵栖息地，唤醒人们对自我成长、精神力量的关注。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9GULN35kQ4K8LYofJqF1VEixzgK.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-05-18",
         "rating": 0,
         "mediaType": "tv"
       }
