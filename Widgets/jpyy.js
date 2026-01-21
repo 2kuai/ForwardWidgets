@@ -2,10 +2,11 @@ WidgetMetadata = {
   id: "jp_vod_full",
   title: "金牌影院",
   icon: "https://assets.vvebo.vip/scripts/icon.png",
-  version: "1.0.4",
-  requiredVersion: "0.0.1",
+  version: "1.1.0",
+  requiredVersion: "0.0.2",
   description: "金牌影院在线资源获取",
   author: "两块",
+  site: "https://github.com/2kuai/ForwardWidgets",
   globalParams: [
     {
       name: "multiSource",
@@ -20,7 +21,12 @@ WidgetMetadata = {
       name: "site",
       title: "网站地址",
       type: "input",
-      value: "https://m.jiabaide.cn"
+      value: "https://m.jiabaide.cn",
+      placeholders: [
+        { title: "jiabaide", value: "https://m.jiabaide.cn" },
+        { title: "hnytxj", value: "https://m.hnytxj.com" },
+        { title: "ghw9zwp5", value: "https://m.ghw9zwp5.com" }
+      ]
     }
   ],
   modules: [
@@ -41,6 +47,7 @@ async function loadResource(params) {
     const { seriesName, episode, season, type, site, multiSource } = params;
 
     if (multiSource !== "enabled" || !seriesName || typeof CryptoJS === 'undefined') {
+        console.warn("请在详情资源列表调用");
         return [];
     }
 
@@ -49,7 +56,7 @@ async function loadResource(params) {
         const t = Date.now().toString();
         const uuid = getUUID();
 
-        const searchData = `keyword=${seriesName}&pageNum=1&pageSize=5&type=false`;
+        const searchData = `keyword=${seriesName}&pageNum=1&pageSize=10&type=false`;
         const searchSign = CryptoJS.SHA1(CryptoJS.MD5(searchData + `&key=${signKey}&t=${t}`).toString()).toString();
         const searchUrl = `${site}/api/mw-movie/anonymous/video/searchByWordPageable?${searchData}`;
         
