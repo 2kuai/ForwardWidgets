@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-01-23T14:18:56.670+08:00",
+  "last_updated": "2026-01-23T20:24:00.230+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 280916,
+        "type": "tmdb",
+        "title": "突然的喜欢",
+        "description": "一部笑点十足的爱情轻喜剧。当2025年的情感主播进入到一本古早言情小说中，遇到了1999年的白切黑霸总，套路与反套路的终极对决，最终谁能胜出？为了回到熟悉的现实世界，情感主播林欢儿开启了一系列攻略霸总高海明的操作，却聪明反被聪明误，当她用尽全力通关，必须离开书中世界时，却发现自己早已深陷其中，不舍离开。从“欲走还留”到“欲留还走”，故事的最后，有情人能否终成眷属……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/orTOCfTQDdExwidblsgF0jkNKMA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/gd3msyUtWYj7maWVufnixVEdUt3.jpg",
+        "releaseDate": "2026-01-22",
+        "rating": 9,
+        "mediaType": "tv"
+      },
       {
         "id": 279593,
         "type": "tmdb",
@@ -22,17 +33,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/voXmpCHYbScGXD8NBUYzE3nJl4J.jpg",
         "releaseDate": "2026-01-09",
         "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 280916,
-        "type": "tmdb",
-        "title": "突然的喜欢",
-        "description": "一部笑点十足的爱情轻喜剧。当2025年的情感主播进入到一本古早言情小说中，遇到了1999年的白切黑霸总，套路与反套路的终极对决，最终谁能胜出？为了回到熟悉的现实世界，情感主播林欢儿开启了一系列攻略霸总高海明的操作，却聪明反被聪明误，当她用尽全力通关，必须离开书中世界时，却发现自己早已深陷其中，不舍离开。从“欲走还留”到“欲留还走”，故事的最后，有情人能否终成眷属……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/orTOCfTQDdExwidblsgF0jkNKMA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gd3msyUtWYj7maWVufnixVEdUt3.jpg",
-        "releaseDate": "2026-01-22",
-        "rating": 8.5,
         "mediaType": "tv"
       },
       {
@@ -187,7 +187,7 @@
         "description": "该剧讲述的是做事执着，具有出众观察力的刑警队长宋诚在调查侦破一起刑案件过程中，发现该案和四年前的一起案件有些微妙关联。随着宋城深入调查，隐藏在两起案件中的共同证人俞笑的秘密被渐渐揭开。最后，他们互相配合，克服重重困难阻碍，将真凶绳之以法。",
         "posterPath": "https://image.tmdb.org/t/p/w500/8wSEvsH1UWUIqacz9ZBCbU7i5LH.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c841YfQpZg91vi1lNZmcf1XANqv.jpg",
-        "releaseDate": "2026-01-23",
+        "releaseDate": "",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -315,17 +315,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 312002,
-        "type": "tmdb",
-        "title": "唐朝诡事录之长安",
-        "description": "先天二年夏秋之交，天子虽已登基，但大长公主势力更盛，长安局势阴晴难定。卢凌风（杨旭文 饰）和苏无名（杨志刚 饰），奉命带着由裴喜君、费鸡师、樱桃和薛环组成的探案小队，以护送康国所献金桃的名义重返长安。繁华的长安，卢凌风复职雍州司法参军，苏无名则被授予一个特殊的官职，同时叫费鸡师出任酥山店掌柜，并将店铺设置成全长安的暗探情报中心。卢苏二人推出新政，开启环城探案模式，深入长安各坊，接触到了更广泛的百姓和民生，也借此避开了天子与大长公主的争斗。在历经康国的金桃、成佛寺的哭声、白泽的踪迹、食尾蛇、解忧店等多宗疑案后，最终长安的风云汇聚到事关朝堂的盛世马球案。卢凌风和苏无名，不得不直面这个刀光剑影的秋天以及各自的命运，并为此付出了沉重的代价。即使历经风雨，但他们终究在万年长安大观盛唐，护佑百姓的初心始终没有改变。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tarDJfifT8bvxKd4QHlMF1XfIAG.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-11-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 274641,
         "type": "tmdb",
         "title": "九尾藏不住",
@@ -335,9 +324,31 @@
         "releaseDate": "2026-01-22",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 312002,
+        "type": "tmdb",
+        "title": "唐朝诡事录之长安",
+        "description": "先天二年夏秋之交，天子虽已登基，但大长公主势力更盛，长安局势阴晴难定。卢凌风（杨旭文 饰）和苏无名（杨志刚 饰），奉命带着由裴喜君、费鸡师、樱桃和薛环组成的探案小队，以护送康国所献金桃的名义重返长安。繁华的长安，卢凌风复职雍州司法参军，苏无名则被授予一个特殊的官职，同时叫费鸡师出任酥山店掌柜，并将店铺设置成全长安的暗探情报中心。卢苏二人推出新政，开启环城探案模式，深入长安各坊，接触到了更广泛的百姓和民生，也借此避开了天子与大长公主的争斗。在历经康国的金桃、成佛寺的哭声、白泽的踪迹、食尾蛇、解忧店等多宗疑案后，最终长安的风云汇聚到事关朝堂的盛世马球案。卢凌风和苏无名，不得不直面这个刀光剑影的秋天以及各自的命运，并为此付出了沉重的代价。即使历经风雨，但他们终究在万年长安大观盛唐，护佑百姓的初心始终没有改变。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/tarDJfifT8bvxKd4QHlMF1XfIAG.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-11-08",
+        "rating": 0,
+        "mediaType": "tv"
       }
     ],
     "腾讯视频": [
+      {
+        "id": 280916,
+        "type": "tmdb",
+        "title": "突然的喜欢",
+        "description": "一部笑点十足的爱情轻喜剧。当2025年的情感主播进入到一本古早言情小说中，遇到了1999年的白切黑霸总，套路与反套路的终极对决，最终谁能胜出？为了回到熟悉的现实世界，情感主播林欢儿开启了一系列攻略霸总高海明的操作，却聪明反被聪明误，当她用尽全力通关，必须离开书中世界时，却发现自己早已深陷其中，不舍离开。从“欲走还留”到“欲留还走”，故事的最后，有情人能否终成眷属……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/orTOCfTQDdExwidblsgF0jkNKMA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/gd3msyUtWYj7maWVufnixVEdUt3.jpg",
+        "releaseDate": "2026-01-22",
+        "rating": 9,
+        "mediaType": "tv"
+      },
       {
         "id": 279593,
         "type": "tmdb",
@@ -347,17 +358,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
         "releaseDate": "2026-01-10",
         "rating": 9.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 280916,
-        "type": "tmdb",
-        "title": "突然的喜欢",
-        "description": "一部笑点十足的爱情轻喜剧。当2025年的情感主播进入到一本古早言情小说中，遇到了1999年的白切黑霸总，套路与反套路的终极对决，最终谁能胜出？为了回到熟悉的现实世界，情感主播林欢儿开启了一系列攻略霸总高海明的操作，却聪明反被聪明误，当她用尽全力通关，必须离开书中世界时，却发现自己早已深陷其中，不舍离开。从“欲走还留”到“欲留还走”，故事的最后，有情人能否终成眷属……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/orTOCfTQDdExwidblsgF0jkNKMA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/gd3msyUtWYj7maWVufnixVEdUt3.jpg",
-        "releaseDate": "2026-01-22",
-        "rating": 8.5,
         "mediaType": "tv"
       },
       {
@@ -438,14 +438,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 273131,
+        "id": 249971,
         "type": "tmdb",
-        "title": "四喜",
-        "description": "家庭幸福、爱情甜蜜的明珠刚领证、怀孕，丈夫建奇就因见义勇为去世。明珠在众说纷纭中自己拿定主意，决定生下孩子，却遇见来寻亲的亲生父母一家。明珠在心有戚戚的亲情中走出伤痛，但公公意外猝死暴露了婆家的资不抵债。明珠挺身而出，厘清债务、承包单位，把家人们拧成一股绳，重新昂扬生活。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
-        "releaseDate": "2025-11-07",
-        "rating": 7,
+        "title": "枭起青壤",
+        "description": "讲述了隐秘的民间异能组织“南山猎人”中疯刀聂九罗与阳光正直、忍辱负重多年的炎拓不打不相识，经历几次过命合作后，逐渐产生信任和好感，共同对抗地枭，守护爱与和平并终成眷属的故事。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/lOqXp1yqBxvoEdYeLy24dJCw6td.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 9.2,
         "mediaType": "tv"
       }
     ],
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-07-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 292181,
         "type": "tmdb",
         "title": "修仙记之何仙姑传",
@@ -491,6 +480,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
         "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -607,17 +607,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-07-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 110329,
         "type": "tmdb",
         "title": "伟大的转折",
@@ -636,6 +625,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
         "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -663,6 +663,17 @@
       }
     ],
     "PPTV": [
+      {
+        "id": 129635,
+        "type": "tmdb",
+        "title": "青春向前冲",
+        "description": "唐可儿大学毕业后进入一家知名网购公司上班。总经理霍彬喜欢上她，他和可儿一起完成签约三个女星，作为公司产品的形象代言人。在签约三个女星的过程中，他们历经磨难，也萌生了爱意。陆翔公开向弟弟挑战，他也喜欢可儿。同时，公司的内部进行了股权的争斗，可儿被她的闺蜜陷害，到公司底层做工。在可儿遭受误解和打击，陆翔认为霍彬会动摇，却没有想到兄弟俩彼此都陷入爱的漩涡。可儿的闺蜜李媚对她下了黑手，车祸让她受到伤害。唐可儿在爱情的两难中难以抉择。陆翔病倒了，他的遗传病不可能有爱情和婚姻，他做的一切都是为了让弟弟更好的珍惜事业和爱情。可儿为了爱情和公司的发展，主动担当公司产品的形象代言人，几经曲折，获得了成功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4Vh7IuuzvqTWI0TzyMVu0C5Z67M.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/WKIoVgMepB55AT6lc7mBRsHjhe.jpg",
+        "releaseDate": "2021-07-21",
+        "rating": 0,
+        "mediaType": "tv"
+      },
       {
         "id": 157931,
         "type": "tmdb",
@@ -693,17 +704,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/kYBsHNgp8NkFK2foAwDXrKih6H0.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/zBKCjljaVmXgJYIanP1LJHiE8t2.jpg",
         "releaseDate": "1999-04-09",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 129635,
-        "type": "tmdb",
-        "title": "青春向前冲",
-        "description": "唐可儿大学毕业后进入一家知名网购公司上班。总经理霍彬喜欢上她，他和可儿一起完成签约三个女星，作为公司产品的形象代言人。在签约三个女星的过程中，他们历经磨难，也萌生了爱意。陆翔公开向弟弟挑战，他也喜欢可儿。同时，公司的内部进行了股权的争斗，可儿被她的闺蜜陷害，到公司底层做工。在可儿遭受误解和打击，陆翔认为霍彬会动摇，却没有想到兄弟俩彼此都陷入爱的漩涡。可儿的闺蜜李媚对她下了黑手，车祸让她受到伤害。唐可儿在爱情的两难中难以抉择。陆翔病倒了，他的遗传病不可能有爱情和婚姻，他做的一切都是为了让弟弟更好的珍惜事业和爱情。可儿为了爱情和公司的发展，主动担当公司产品的形象代言人，几经曲折，获得了成功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4Vh7IuuzvqTWI0TzyMVu0C5Z67M.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/WKIoVgMepB55AT6lc7mBRsHjhe.jpg",
-        "releaseDate": "2021-07-21",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -781,7 +781,7 @@
         "title": "太平年",
         "description": "讲述了五代十国时期，钱弘俶、赵匡胤、郭荣三位有志青年经历了家国动乱、秩序崩溃、生灵涂炭后，逐渐认识到只有国家一统才能摆脱战火国殇。钱弘俶于政权动乱之时扛起吴越国主的重任，“保境安民”，福泽一方；历经战乱的赵匡胤则延续了郭荣未竟的事业，建立北宋政权，严明军纪，改革弊政，安定民生，慎用兵戈，一扫五代丧乱之颓风，向着天下太平一步步迈进。",
         "posterPath": "https://image.tmdb.org/t/p/w500/xhwaLvMDexdkxGAvtjX496DRaiM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uXV6cJ8uR2KS8DKPcntq8DZlbCj.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
         "rating": 0,
         "mediaType": "tv"
@@ -868,6 +868,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 8,
+        "mediaType": "tv"
+      },
+      {
         "id": 254532,
         "type": "tmdb",
         "title": "势均力敌的我们",
@@ -879,14 +890,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 306210,
+        "id": 307202,
         "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 8,
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -909,6 +920,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
         "releaseDate": "2025-10-18",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 257161,
+        "type": "tmdb",
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
+        "releaseDate": "2024-06-28",
+        "rating": 5.5,
         "mediaType": "tv"
       }
     ],
@@ -1037,17 +1059,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278324,
-        "type": "tmdb",
-        "title": "一路繁花",
-        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
-        "releaseDate": "2025-01-11",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 300268,
         "type": "tmdb",
         "title": "中国唱将",
@@ -1056,6 +1067,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/wy09JpYFRNwz1C6IuoqcuX9o6xn.jpg",
         "releaseDate": "2025-10-24",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278324,
+        "type": "tmdb",
+        "title": "一路繁花",
+        "description": "节目邀请超高国民度和拥有丰富人生阅历的姐姐，组成大女主旅行团，携手2位青春洋溢的少年搭档，开启一场奇妙之旅，一场“追时间”的旅行。他们将打破年龄局限，在旅行中经历观念碰撞、代际碰撞和自我与团体的碰撞。带着自信、积极、向上、永不言弃的心态，一路丈量繁华，一路绽放“繁花”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/iVdW0OlTN49kUMxW7Z8cVUtJloC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zJ6fZmY79Ae2pHbmwH4CuD7UrTh.jpg",
+        "releaseDate": "2025-01-11",
+        "rating": 6,
         "mediaType": "tv"
       },
       {
@@ -1127,17 +1149,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "releaseDate": "2024-05-14",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇",
@@ -1146,6 +1157,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "releaseDate": "2025-11-22",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "releaseDate": "2024-05-14",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1160,17 +1182,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 300172,
-        "type": "tmdb",
-        "title": "声鸣远扬2025",
-        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
-        "releaseDate": "2025-11-09",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -1179,6 +1190,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
         "releaseDate": "2014-01-03",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 300172,
+        "type": "tmdb",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1332,6 +1354,17 @@
     "PPTV": [],
     "芒果TV": [
       {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 300172,
         "type": "tmdb",
         "title": "声鸣远扬2025",
@@ -1351,28 +1384,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
         "releaseDate": "2019-11-03",
         "rating": 7.3,
-        "mediaType": "tv"
-      },
-      {
-        "id": 306823,
-        "type": "tmdb",
-        "title": "在恋爱开始之前",
-        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
-        "releaseDate": "2025-11-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 307946,
-        "type": "tmdb",
-        "title": "源来是你·青春季",
-        "description": "本节目是一档乡村文旅探索真人秀，以“文旅、美食、文创促进县域振兴”为主线。以广东省河源市东源县为拍摄地，聚焦在乡村挖掘当地宝藏特产、将地方特色农产品转化为潮流饮品、小吃。六位青年艺人受邀深入乡村，联合本地村民，以东源新产业“餐车”为载体，通过创意饮品开发、产品打样、文旅推广等手段，发展当地的村咖餐车产业、推广当地特产，通过体验农事劳作、入户走访、与村民共创产品、搭建销售平台，并在最后以“东源推介会”的形式向全国媒体推介东源特色农品，完成一次“青春版”的文创美食产品孵化全过程。该节目的所有行动路径和创业任务，皆以当地真实资源与条件为基础，联合当地政府、村民共同策划与执行，具有较强的纪实与可复制性。同时通过在东源展开的乡村之旅，挖掘乡村文旅的潜力、绘就乡村振兴的“诗画卷”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
-        "releaseDate": "2025-12-10",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
