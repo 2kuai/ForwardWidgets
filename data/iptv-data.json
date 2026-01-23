@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-23T06:22:54.347717",
+  "last_updated": "2026-01-23T12:30:11.943407",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -177,7 +177,9 @@
       "name": "浙江卫视",
       "description": "浙江广播电视集团旗下的综合卫星频道，以中国蓝为品牌，播出新闻、综艺、电视剧等多元化节目，是中国最具影响力的省级卫视之一。",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.8,h-bh_mul_4,bg-848484,lfo-center,l-image,i-浙江卫视.png,lfo-center,l-end,l-end/浙江卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+      ]
     },
     {
       "name": "东方卫视",
