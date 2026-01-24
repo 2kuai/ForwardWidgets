@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-23T18:21:49.518073",
+  "last_updated": "2026-01-24T01:03:28.591796",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -233,7 +233,9 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
+      ]
     },
     {
       "name": "山东卫视",
@@ -410,9 +412,7 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": [
-        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
-      ]
+      "childItems": []
     },
     {
       "name": "福建旅游",
