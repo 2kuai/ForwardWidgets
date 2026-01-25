@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T18:19:16.703943",
+  "last_updated": "2026-01-25T01:11:57.443735",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -412,7 +412,9 @@
       "name": "河南都市",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-河南都市.png,lfo-center,l-end,l-end/河南都市.png",
-      "childItems": []
+      "childItems": [
+        "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
+      ]
     },
     {
       "name": "福建旅游",
