@@ -1,18 +1,7 @@
 {
-  "last_updated": "2026-01-26T14:22:08.650+08:00",
+  "last_updated": "2026-01-26T20:24:32.489+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 279593,
-        "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
-        "releaseDate": "2026-01-10",
-        "rating": 8.2,
-        "mediaType": "tv"
-      },
       {
         "id": 283950,
         "type": "tmdb",
@@ -22,6 +11,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "releaseDate": "2026-01-25",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 279593,
+        "type": "tmdb",
+        "title": "小城大事",
+        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5Ik9vyIhdEze1HRkJahlZg2vW06.jpg",
+        "releaseDate": "2026-01-10",
+        "rating": 8.2,
         "mediaType": "tv"
       },
       {
@@ -80,17 +80,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 284512,
-        "type": "tmdb",
-        "title": "玉茗茶骨",
-        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
-        "releaseDate": "2025-12-29",
-        "rating": 8.6,
-        "mediaType": "tv"
-      },
-      {
         "id": 263219,
         "type": "tmdb",
         "title": "秋雪漫过的冬天",
@@ -99,6 +88,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/y1k8KhifyLJxZUK3ObviZiQREPJ.jpg",
         "releaseDate": "2026-01-10",
         "rating": 7,
+        "mediaType": "tv"
+      },
+      {
+        "id": 284512,
+        "type": "tmdb",
+        "title": "玉茗茶骨",
+        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
+        "releaseDate": "2025-12-29",
+        "rating": 8.6,
         "mediaType": "tv"
       },
       {
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 308083,
-        "type": "tmdb",
-        "title": "大国船梦",
-        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
-        "releaseDate": "2025-11-20",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 295556,
         "type": "tmdb",
         "title": "爱你不是三两天",
@@ -491,6 +480,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
         "backdropPath": null,
         "releaseDate": "2025-07-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 308083,
+        "type": "tmdb",
+        "title": "大国船梦",
+        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
+        "releaseDate": "2025-11-20",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -550,14 +550,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 302867,
+        "id": 86617,
         "type": "tmdb",
-        "title": "三江潮",
-        "description": "改革开放初期，主人公陈晨面对贫穷落后的家乡，立志大力发展经济、改变乡村面貌。她放弃了自己在福海市建委的工作，回到三江村担任村支书，与村里的林威龙、陈采薇、林祖望等年轻人一起整顿村容村貌、筹建工厂。在这个过程中，陈晨遇到了传统观念的阻力，也面临着征地、招商引资等等复杂而艰巨的挑战。陈晨等基层干部带领群众坚定地朝着福海市委市政府发展战略方向前进。在干部群众的努力拼搏下，三江县实现了“从田野走向世界”，福海市也发生了巨大变化",
-        "posterPath": "https://image.tmdb.org/t/p/w500/1Bynued6fvyJ0yqn0OCzltKrAH2.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-10-10",
-        "rating": 0,
+        "title": "大话西游之爱你一万年",
+        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
+        "releaseDate": "2017-09-28",
+        "rating": 4.5,
         "mediaType": "tv"
       }
     ],
@@ -596,17 +596,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 292181,
-        "type": "tmdb",
-        "title": "修仙记之何仙姑传",
-        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 131078,
         "type": "tmdb",
         "title": "远方的山楂树",
@@ -629,24 +618,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 308083,
+        "id": 292181,
         "type": "tmdb",
-        "title": "大国船梦",
-        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
-        "releaseDate": "2025-11-20",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "title": "修仙记之何仙姑传",
+        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
-        "releaseDate": "2025-07-03",
+        "releaseDate": "2025-05-22",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -670,6 +648,28 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7RySzFeK3LPVMXcPtqfZnl6u4p1.jpg",
         "releaseDate": "2007-09-24",
         "rating": 7.915,
+        "mediaType": "tv"
+      },
+      {
+        "id": 84693,
+        "type": "tmdb",
+        "title": "我爱男保姆",
+        "description": "家庭煮夫方原过了五年“女主外，男主内”的生活，终于被日益强势的老婆嫌弃。为了挽救婚姻，方原毅然决然的踏上了去大城市的闯荡之路，凭借自己的一技之长，开始了全能男保姆的工作。这年头客户的要求都高：洗衣洗碗洗车、擦地擦窗擦烟机、修房修草修家电、看护看门看孩子、做饭做菜做月子餐，这些都只是基本技能，代驾代谈判代分手、送花送货送口信也不算稀奇事。碰上高小姐这样的客户，方原要给人家孩子每周当一天的爹；碰上马舒儿这样的客户，方原除了干活还得兼职心理治疗师、职业规划师；而碰上陆晴这样的客户，任凭方原十项全能，都依旧被连累得背黑锅、丢彩票，赚不到钱不说还得倒贴钱。三个女人一台戏，客户还是不能得罪的上帝，方原这个男保姆努力发挥正能量，做出口碑做出成绩。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9FXo7X0XI7ufOg7shBaG8YxImnA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5ATCNi6P7zKRMIsRfYsagByIHwn.jpg",
+        "releaseDate": "2015-11-14",
+        "rating": 7.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 123462,
+        "type": "tmdb",
+        "title": "聊斋先生",
+        "description": "该剧再现了蒲松龄坎坷曲折的人生轨迹与《聊斋志异》的创作过程。\n\n该剧以蒲松龄的苦乐人生为纵轴主线，以他的精神生活为横向铺垫，将家中贤妻刘五可与梦中情人傅雪倩交替其中，大千世界各色人等与鬼狐灵界一一摄入，百态神韵，个性鲜明。除蒲松龄之奇异神采之外，还有贤妻之贤，情人之美，红莲之艳，燕子之烈，女狐之情，华妖之媚，以及学台的清明，安察使的荒唐，县令的愚蠢，经承的狡诈，纷纷交织在蒲氏的坎坷命运之中。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kY0xIgSBTjo3bNlLkWn8wJC4TGi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
+        "releaseDate": "1998-01-01",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -1427,17 +1427,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
         "releaseDate": "2025-12-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 291862,
-        "type": "tmdb",
-        "title": "背后",
-        "description": "《背后》是由郑方一主持、张泉灵担任对谈人的观察谈话类节目，在寻找背后故事的同时，也寻找答案和力量的观察谈话类节目。以“在路过的人生里照见背后的自己”为核心立意，聚焦当代社会对深度内容的渴求，在信息碎片化、情绪快餐化的当下，旨在通过“有温度的对谈”为观众提供一处心灵栖息地，唤醒人们对自我成长、精神力量的关注。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9GULN35kQ4K8LYofJqF1VEixzgK.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-18",
         "rating": 0,
         "mediaType": "tv"
       }
