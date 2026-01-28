@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T14:20:41.041+08:00",
+  "last_updated": "2026-01-28T20:25:24.992+08:00",
   "tv": {
     "全网": [
       {
@@ -76,7 +76,18 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/voXmpCHYbScGXD8NBUYzE3nJl4J.jpg",
         "releaseDate": "2026-01-09",
-        "rating": 7.727,
+        "rating": 7.917,
+        "mediaType": "tv"
+      },
+      {
+        "id": 259554,
+        "type": "tmdb",
+        "title": "夜色正浓",
+        "description": "一场盛宴之下的狂欢，让隐藏已久的暗涌浮现，唤醒了所有装睡的人，也触发了GST酒业各层人士的生存危机。一切事关生存，每一步都需格外谨慎。七个深陷其中的主要人物，在事件中扮演了不同的角色，勾勒出人性的复杂和现实的残酷，从而呈现出一个共同的主题——如何在惶惶不安中乐观地活下去！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
+        "releaseDate": "2026-01-28",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -99,17 +110,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/y1k8KhifyLJxZUK3ObviZiQREPJ.jpg",
         "releaseDate": "2026-01-10",
         "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 124595,
-        "type": "tmdb",
-        "title": "御赐小仵作",
-        "description": "唐中晚期，来自西南山区仵作世家的少女楚楚，为实现当仵作的梦想独自来长安闯荡，参加仵作考试，遇到断案如神的安郡王萧瑾瑜。萧瑾瑜招收楚楚作为仵作搭档揭秘探案。楚楚的身世之谜一石激起千层浪，打破了京中多方势力平衡，一场明争暗斗的权力斗争随之展开。伴随着一个个的案件破解，楚楚和王爷等人组成的团队一步步揭开谜底最终破解了一场延续18年的惊天大案。萧瑾瑜和楚楚顺利成婚，而楚楚也获皇帝的最终认可，得到了皇帝亲赐的 “御赐仵作”身份，实现了自己的人生理想。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vD1yMMWs6pcVfbdpiDycLS51Lik.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qh2Sryq5VCjfhqY6dhMdbN0eyY2.jpg",
-        "releaseDate": "2021-04-29",
-        "rating": 7.7,
         "mediaType": "tv"
       }
     ],
@@ -214,14 +214,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 309232,
+        "id": 308085,
         "type": "tmdb",
-        "title": "新闻女王2",
-        "description": "《新闻女王》续集。由 TVB 与优酷联合出品，佘诗曼、黄宗泽领衔主演，李施嬅、高海宁、王敏奕等原班人马回归，马国明、夏文汐特别出演。",
-        "posterPath": null,
-        "backdropPath": null,
-        "releaseDate": "",
-        "rating": 0,
+        "title": "反人类暴行",
+        "description": "1992年，哈尔滨731陈列馆工作人员小金在整理史料时，发现这段历史的记录残缺不全，为寻找真相，他踏上了一场跨越数十年的跨国取证之旅，逐渐还原出那段被尘封的黑暗岁月真相。故事采取双时间线叙事，镜头回到日军侵华期间的哈尔滨，通过几个当事人的视角，深刻揭露日军731部队残酷的人体实验和泯灭人性的暴行，鞭笞日本军国主义的反人类本质，凸显中国人民坚韧的抗争精神。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/cL4ZSWP1pisgiryVNPTDLxnk2ok.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mPZgA3bKjYdxiVFzvdZytjrQVrA.jpg",
+        "releaseDate": "2025-12-13",
+        "rating": 8.9,
         "mediaType": "tv"
       }
     ],
@@ -256,7 +256,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/voXmpCHYbScGXD8NBUYzE3nJl4J.jpg",
         "releaseDate": "2026-01-09",
-        "rating": 7.727,
+        "rating": 7.917,
         "mediaType": "tv"
       },
       {
@@ -304,6 +304,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 289723,
+        "type": "tmdb",
+        "title": "有罪之身",
+        "description": "该剧由一桩绑架案展开，讲述了警方在探案过程中发现了证物留声机里记录的一起尘封十年的凶杀案，随着警方对这起杀人案的调查，竟发现了隐藏在案件背后更为惊人的秘密。剧集并未拘泥于探究案件本身，而是以情感为扣，着力展现三位本该前程似锦的年轻人在命运的裹挟下相互守护的真挚情感 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/b9ejm0VCKt4kNc0vNvg9tfEDb9X.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
+        "releaseDate": "2026-01-28",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 312002,
         "type": "tmdb",
         "title": "唐朝诡事录之长安",
@@ -323,17 +334,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/wCdhtaLMNtQ37j4OEch4dSKXyoE.jpg",
         "releaseDate": "2015-03-31",
         "rating": 6.796,
-        "mediaType": "tv"
-      },
-      {
-        "id": 291389,
-        "type": "tmdb",
-        "title": "消失的凶手",
-        "description": "十五年前三名制药厂职工在台风夜被害，案件因证据不足悬而未决。十五年后，死者后代苏然以记者身份回到榆江，利用制药厂假药事件接近嫌疑人展开复仇，引发连环命案，最终恶人皆覆灭，但苏然也陷入命运与法律的惩罚，付出惨痛代价。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kQ9UK0uBPRMqA3V9kirVD5j7k67.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5AeBD25GlziDpHKILm7zP2BKgwF.jpg",
-        "releaseDate": "2026-01-16",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -369,6 +369,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
         "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 259554,
+        "type": "tmdb",
+        "title": "夜色正浓",
+        "description": "一场盛宴之下的狂欢，让隐藏已久的暗涌浮现，唤醒了所有装睡的人，也触发了GST酒业各层人士的生存危机。一切事关生存，每一步都需格外谨慎。七个深陷其中的主要人物，在事件中扮演了不同的角色，勾勒出人性的复杂和现实的残酷，从而呈现出一个共同的主题——如何在惶惶不安中乐观地活下去！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
+        "releaseDate": "2026-01-28",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -436,17 +447,6 @@
         "releaseDate": "2025-12-04",
         "rating": 6.5,
         "mediaType": "tv"
-      },
-      {
-        "id": 249971,
-        "type": "tmdb",
-        "title": "枭起青壤",
-        "description": "讲述了隐秘的民间异能组织“南山猎人”中疯刀聂九罗与阳光正直、忍辱负重多年的炎拓不打不相识，经历几次过命合作后，逐渐产生信任和好感，共同对抗地枭，守护爱与和平并终成眷属的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/lOqXp1yqBxvoEdYeLy24dJCw6td.jpg",
-        "releaseDate": "2025-11-22",
-        "rating": 7.6,
-        "mediaType": "tv"
       }
     ],
     "乐视视频": [
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 295556,
-        "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
-        "releaseDate": "2025-07-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 292181,
         "type": "tmdb",
         "title": "修仙记之何仙姑传",
@@ -491,6 +480,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
         "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -618,14 +618,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 295556,
+        "id": 110329,
         "type": "tmdb",
-        "title": "爱你不是三两天",
-        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
-        "releaseDate": "2025-07-03",
-        "rating": 0,
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -636,6 +636,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
         "backdropPath": null,
         "releaseDate": "2025-05-22",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 295556,
+        "type": "tmdb",
+        "title": "爱你不是三两天",
+        "description": "乐观善良的孤儿王小笛阴差阳错成为落跑新娘的替代者，嫁给暗恋多年的师哥杨家磊，两人从假戏真做到相爱成婚，却因陈安妮的回归，面临情感与家庭的抉择。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
+        "releaseDate": "2025-07-03",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -658,17 +669,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/mgRtt790e5BO3efppASPu6C6jwh.jpg",
         "backdropPath": null,
         "releaseDate": "2013-02-17",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 107674,
-        "type": "tmdb",
-        "title": "少年大钦差",
-        "description": "乾隆在前往荷花池的途中遭到了刺客徐莲的行刺，在激烈的打斗之中，乾隆遗失了极为重要的乾坤扇。陈文杰是名响京城的天才儿童，年仅九岁便已经身为御赐状元。和养父陈青云、好友心远小和尚一起，一行三人踏上了寻找乾坤扇，追捕行刺刺客的旅途。  　　\n\n途中，三人结识了刁蛮任性的千金公主十公主，徐莲亦乔装打扮隐姓埋名，潜伏到了三人的身边。他们一路上麻烦不断，波折连连，但陈文杰凭借着他的智慧将其一一化解。最终，陈文杰发现，乾隆深信不疑的心腹大臣和坤才是一切事件的幕后黑手。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/dB0uJGZcwAHfbnuaGWGINaUso61.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8reBT4mSUBOQfxF54khLNSOoiNT.jpg",
-        "releaseDate": "2004-07-31",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -912,17 +912,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 300172,
-        "type": "tmdb",
-        "title": "声鸣远扬2025",
-        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
-        "releaseDate": "2025-11-09",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 302997,
         "type": "tmdb",
         "title": "一起开麦吧",
@@ -930,6 +919,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
         "releaseDate": "2025-10-18",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 300172,
+        "type": "tmdb",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1215,6 +1215,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 108433,
+        "type": "tmdb",
+        "title": "十三邀",
+        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
+        "releaseDate": "2016-05-17",
+        "rating": 8.8,
+        "mediaType": "tv"
+      },
+      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -1234,17 +1245,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "releaseDate": "2025-12-06",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263226,
-        "type": "tmdb",
-        "title": "探索新境",
-        "description": "《探索新境》由华纳兄弟探索集团旗下的Discovery探索频道国际团队倾力打造，是王一博参与的首档户外探索纪实节目。王一博跟随六位Discovery中国探索家，分别前往六个极致地理目的地，雪山、沙漠、海岛、热带雨林等，开启深入极境的户外探索之旅。 在六段奇妙且刺激的旅程中，王一博与中国顶尖的生存和户外专家一道，探索极致的自然环境及户外挑战：在茂密的热带雨林中寻找珍稀的海南长臂猿，在大海夜潜拍摄璀璨的荧光珊瑚，在广袤无垠的沙漠中独自生活……节目不仅呈现了王一博探索未知自然的“新境”，还在过程中探讨年轻人关于成长的话题，展现当代年轻人不断突破、勇于探索的“心境”。 《探索新境》节目将自2024年8月31日起，在腾讯视频独家播出。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/iNExaEXANS3HMMQo0XpNSVbZLaJ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/nDNdylDMn5IzOTpFHBktZM82n6I.jpg",
-        "releaseDate": "2024-08-31",
-        "rating": 10,
         "mediaType": "tv"
       }
     ],
@@ -1405,6 +1405,17 @@
         "posterPath": null,
         "backdropPath": null,
         "releaseDate": "",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 307946,
+        "type": "tmdb",
+        "title": "源来是你·青春季",
+        "description": "本节目是一档乡村文旅探索真人秀，以“文旅、美食、文创促进县域振兴”为主线。以广东省河源市东源县为拍摄地，聚焦在乡村挖掘当地宝藏特产、将地方特色农产品转化为潮流饮品、小吃。六位青年艺人受邀深入乡村，联合本地村民，以东源新产业“餐车”为载体，通过创意饮品开发、产品打样、文旅推广等手段，发展当地的村咖餐车产业、推广当地特产，通过体验农事劳作、入户走访、与村民共创产品、搭建销售平台，并在最后以“东源推介会”的形式向全国媒体推介东源特色农品，完成一次“青春版”的文创美食产品孵化全过程。该节目的所有行动路径和创业任务，皆以当地真实资源与条件为基础，联合当地政府、村民共同策划与执行，具有较强的纪实与可复制性。同时通过在东源展开的乡村之旅，挖掘乡村文旅的潜力、绘就乡村振兴的“诗画卷”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
+        "releaseDate": "2025-12-10",
         "rating": 0,
         "mediaType": "tv"
       }
