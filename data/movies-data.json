@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-01-31T00:31:44.951+08:00",
+  "last_updated": "2026-02-01T00:20:46.384+08:00",
   "nowplaying": [
+    {
+      "id": 694,
+      "type": "tmdb",
+      "title": "闪灵",
+      "originalTitle": "The Shining",
+      "description": "杰克 是一个作家。一个冬天，他得到了一个看管山顶酒店的差事。这正合杰克的意思，他正好可以有一个幽静的地方写作。于是杰克带着妻儿搬进了酒店。冬天大雪封路，山顶酒店只有杰克一家三口。从他们一搬进来，杰克的妻子温蒂 就发现这里气氛诡异，杰克的儿子丹尼 经常看到一些他不认识的人，但这里除了他们一家别无他人。而杰克除了一整天闷头写作外，脾气亦变得越来越古怪。直到有一天，温蒂发现丈夫这些天来一直写就只有一句话：杰克发疯了！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
+      "releaseDate": "1980-05-23",
+      "rating": 8.206,
+      "mediaType": "movie"
+    },
     {
       "id": 1236153,
       "type": "tmdb",
@@ -10,7 +22,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
       "releaseDate": "2026-01-19",
-      "rating": 6.817,
+      "rating": 6.667,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1618784,
+      "type": "tmdb",
+      "title": "东北警察故事3",
+      "originalTitle": "东北警察故事3",
+      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/m8RL0ksOFAbxjRfVpmJnTEwEEQW.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3lxudebZT3Ed5YslEuwqsfM7KxB.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1290821,
+      "type": "tmdb",
+      "title": "庇护之地",
+      "originalTitle": "Shelter",
+      "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
+      "releaseDate": "2026-01-28",
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -22,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
       "releaseDate": "2026-01-21",
-      "rating": 5.18,
+      "rating": 5.106,
       "mediaType": "movie"
     },
     {
@@ -50,27 +86,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 694,
+      "id": 1572735,
       "type": "tmdb",
-      "title": "闪灵",
-      "originalTitle": "The Shining",
-      "description": "杰克 是一个作家。一个冬天，他得到了一个看管山顶酒店的差事。这正合杰克的意思，他正好可以有一个幽静的地方写作。于是杰克带着妻儿搬进了酒店。冬天大雪封路，山顶酒店只有杰克一家三口。从他们一搬进来，杰克的妻子温蒂 就发现这里气氛诡异，杰克的儿子丹尼 经常看到一些他不认识的人，但这里除了他们一家别无他人。而杰克除了一整天闷头写作外，脾气亦变得越来越古怪。直到有一天，温蒂发现丈夫这些天来一直写就只有一句话：杰克发疯了！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
-      "releaseDate": "1980-05-23",
-      "rating": 8.206,
+      "title": "非传统浪漫关系",
+      "originalTitle": "非传统浪漫关系",
+      "description": "情感博主祝君好与婚姻登记员龚玺两个爱情专家以离婚收场。祝君好决定与龚玺互相介绍对象，在这场荒诞的实验中，他们得以重新看待婚姻与爱情：从以自我为中心到求同存异，从我要幸福成长到我们要幸福。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mszLDElSdPjJamDBwrpeD92KHEq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eVDn4nuqxITr0akk3pJpi7VbGUv.jpg",
+      "releaseDate": "2026-01-31",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
-      "id": 1618784,
+      "id": 840464,
       "type": "tmdb",
-      "title": "东北警察故事3",
-      "originalTitle": "东北警察故事3",
-      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/m8RL0ksOFAbxjRfVpmJnTEwEEQW.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3lxudebZT3Ed5YslEuwqsfM7KxB.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 0,
+      "title": "末日逃生2：迁移",
+      "originalTitle": "Greenland 2: Migration",
+      "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "releaseDate": "2026-01-07",
+      "rating": 6.599,
       "mediaType": "movie"
     },
     {
@@ -83,18 +119,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
       "releaseDate": "2026-01-17",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1290821,
-      "type": "tmdb",
-      "title": "庇护之地",
-      "originalTitle": "Shelter",
-      "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
-      "releaseDate": "2026-01-28",
-      "rating": 6.75,
       "mediaType": "movie"
     },
     {
@@ -118,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3Dqievkc7krcTtDE2hjRkIsEzB1.jpg",
       "releaseDate": "2025-12-17",
-      "rating": 7.3,
+      "rating": 7.296,
       "mediaType": "movie"
     },
     {
@@ -134,27 +158,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1617366,
+      "id": 876907,
       "type": "tmdb",
-      "title": "太空异种",
-      "originalTitle": "太空异种",
-      "description": "　　未来世界，在一艘名为“苍穹号”的飞船上，船长梁承天带领着船员们经常在星际之间从事采集矿物质的买卖，以此来获得巨大的经济利益。虽然他们在多次采集过程中偶尔会遇到危险，但最终也都能安全返航。\r 　　直到这次，梁承天带着船员们在银河系中，意外找到一颗六千万年前爆炸的超新星，他们在附近采集到了稀有的矿物质，从而能获得巨额利益。可因利益分配不均，各怀心事的船员们就此踏上返航之旅。\r 　　在返航途中“苍穹号”意外接到了一组未知的求救讯号。他们成功救下了“创世纪号”的生物学家林修远和他的妻子Angel，而梁承天在救援的过程中也意外受伤。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/u0GrncLTYL0nvL2aZPwrkmyDKcS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pLMla6H6hFsoY8sjhbWBT8ZKw21.jpg",
-      "releaseDate": "2026-01-30",
+      "title": "没问题",
+      "originalTitle": "没问题",
+      "description": "东北某市，晨报主任左守权得知与前妻生活多年的女儿，在校组建“问题乐队”，不务正业，恐将被学校处分。老左欲将女儿留在家乡从事铁饭碗工作，左明明却欲南下逐梦。老左苦口婆心劝说不成只好四处托人求助。女儿英语老师吕有容，因儿子转学之事有求于老左，两人化干戈为玉帛，惺惺相惜。由此引发左明明误会其二人有苟且之事，羞怒至极，父女决裂。左明明终日与乐队混迹夜场，几乎放弃学业。老同学牛校长涉嫌违纪，牵连老左被停职。吕老师因和老左的一条醉酒视频丢了工作。关乎女儿学位的英语四级考试，也只剩下最后机会。 为了女儿的未来，老左找来女儿乐队吉他手小马协助，准备孤注一掷……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ycqFS0akZOHbxEocU5TKtsUJPvu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pkJdwOaxaaFOhEKR7p52FOkrReb.jpg",
+      "releaseDate": "2026-01-31",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1305715,
-      "type": "tmdb",
-      "title": "过家家",
-      "originalTitle": "过家家",
-      "description": "在小城市长大的单亲男孩钟不凡一直想去北京闯荡一番，却因为家庭原因一直没能实现在一次与亲生父亲的争执中失手伤人，以为自己闯下大祸，仓皇逃匿，被命运捉弄阴错阳差地逃到了北京。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jTuu8wLW2RUg1IzX4IC7wqpsjIo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/dT3mUfkXKzUbDu4qlldRGXxePLj.jpg",
-      "releaseDate": "2026-01-01",
-      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -166,7 +178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fqUJHyzHtchLlpsMpfht7GyCTnK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
       "releaseDate": "2025-11-26",
-      "rating": 7.613,
+      "rating": 7.631,
       "mediaType": "movie"
     },
     {
@@ -190,7 +202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
       "releaseDate": "2025-12-16",
-      "rating": 6.7,
+      "rating": 6.742,
       "mediaType": "movie"
     },
     {
@@ -309,7 +321,7 @@
       "title": "镖人：风起大漠",
       "originalTitle": "镖人：风起大漠",
       "description": "大漠镖客刀马受恩人莫族长委托护送神秘人知世郎回长安，遭到暴乱的胡商家族的倾力围剿，莫族长殒命维护刀马多年前曾冒死救下罪臣家孤婴小七的左骁骑卫身份，全然因为知世郎告诉了他小七和刀马的神秘宿命。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tXmfpNROo13QiYoSCQkDYrYhLha.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yC6MexRwOyp7PDWCGnDIpdnnzYj.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
@@ -357,7 +369,7 @@
       "title": "熊猫计划之部落奇遇记",
       "originalTitle": "熊猫计划之部落奇遇记",
       "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/seERuLEpknbgD3L97LaMecxU4rX.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uESXCRJ5WPmys6S4ivY6lO8MAKh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
@@ -372,18 +384,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1421091,
-      "type": "tmdb",
-      "title": "年夜“犯”",
-      "originalTitle": "年夜“犯”",
-      "description": "自称“守年人”的陌生人闯入一家五口的年夜饭，请求他们一起追踪抓走小孩的“年怪”。起初没人相信，直到家中大姐发现刚刚独自外出的儿子失联了，最可疑的似乎不是年怪，而是面前的陌生人。",
-      "posterPath": null,
-      "backdropPath": null,
-      "releaseDate": "",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -444,7 +444,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/76C6tTFrjibiLhTHgvPhVAQQ9nk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/CpLAfXgSNeNRRbRzPrTuzKmIHO.jpg",
       "releaseDate": "2006-06-29",
-      "rating": 7.391,
+      "rating": 7.39,
       "mediaType": "movie"
     },
     {
@@ -542,7 +542,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kjO6OdgVK9UimXupZcGIuQy2pbO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg",
       "releaseDate": "2018-11-16",
-      "rating": 8.224,
+      "rating": 8.223,
       "mediaType": "movie"
     },
     {
@@ -578,7 +578,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wT9bYGpoFnJGiRaRF9DErVjZ7qo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/erRKAGEjtz3XKYKp8TaSbLrIoB2.jpg",
       "releaseDate": "1994-09-14",
-      "rating": 8.3,
+      "rating": 8.297,
       "mediaType": "movie"
     },
     {
@@ -602,7 +602,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lFYUkUPcFXDzZzSfkiCDsvHIJxj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xnHVX37XZEp33hhCbYlQFq7ux1J.jpg",
       "releaseDate": "1997-12-18",
-      "rating": 7.902,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -662,7 +662,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nAnzFcqORitpwvRQPceIt4mcm8G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg",
       "releaseDate": "1998-06-04",
-      "rating": 8.2,
+      "rating": 8.15,
       "mediaType": "movie"
     },
     {
@@ -674,7 +674,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b0c3TgnAqCfDLqzaAG2IoVxw3c4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ukfI9QkU1aIhOhKXYWE9n3z1mFR.jpg",
       "releaseDate": "2001-07-20",
-      "rating": 8.5,
+      "rating": 8.533,
       "mediaType": "movie"
     },
     {
@@ -710,7 +710,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/k1pJslKr4aDayw9kWwWnlC3MIP3.jpg",
       "releaseDate": "2019-07-26",
-      "rating": 7.889,
+      "rating": 7.89,
       "mediaType": "movie"
     },
     {
@@ -782,7 +782,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/j5M6e55pAhzPWUTP5k0Qyg6o876.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l0fNAHLOFReQJsxCOmGWvJDnimn.jpg",
       "releaseDate": "2016-12-21",
-      "rating": 7.894,
+      "rating": 7.896,
       "mediaType": "movie"
     },
     {
@@ -806,7 +806,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nnkoqpoziQTVNQRIHF8Ai6j9vTt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yYvBNN96Ym3wtPxGCFl7F888WwB.jpg",
       "releaseDate": "1989-06-02",
-      "rating": 8.301,
+      "rating": 8.3,
       "mediaType": "movie"
     },
     {
@@ -830,7 +830,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vxj2k0168d7K3pih7Aw6kqvvLcN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5jhG1lTgV0MS6tDkBMQSSitttTT.jpg",
       "releaseDate": "2006-12-14",
-      "rating": 7.9,
+      "rating": 7.887,
       "mediaType": "movie"
     },
     {
@@ -902,7 +902,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kRx2QJ1Q5k863AbYgPkj23BbxK8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/e5MvOQIIouSgQcBHCMNA6Rsbwnd.jpg",
       "releaseDate": "2011-09-22",
-      "rating": 8.15,
+      "rating": 8.151,
       "mediaType": "movie"
     },
     {
@@ -926,7 +926,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6L0nYQqqEYPaSMjmsWH8dr8I4Sk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
       "releaseDate": "2016-02-11",
-      "rating": 7.8,
+      "rating": 7.758,
       "mediaType": "movie"
     },
     {
@@ -938,7 +938,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6O1mOoTXuc1WqjKd2R7MFQHZ7Eb.jpg",
       "releaseDate": "1988-04-16",
-      "rating": 8.1,
+      "rating": 8.065,
       "mediaType": "movie"
     },
     {
@@ -986,7 +986,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bmDtqKw3kuaS3bLlCXZKkPs9MpQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4stepMoz737edm7Tb5Y9C5o8cJs.jpg",
       "releaseDate": "2006-05-27",
-      "rating": 7.803,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -1058,7 +1058,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hg2Z4rD1CkplEZENYEMDBsMWcxK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fK5ssgvtI43z19FoWigdlqgpLRE.jpg",
       "releaseDate": "2008-06-22",
-      "rating": 8.1,
+      "rating": 8.106,
       "mediaType": "movie"
     },
     {
@@ -1154,7 +1154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4FHcxMtVruMr7ltU2cItWssLjTP.jpg",
       "releaseDate": "1939-12-15",
-      "rating": 7.922,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -1178,7 +1178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5gisRHtmLULKXHthDvez9DxdlYm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
       "releaseDate": "1995-01-27",
-      "rating": 7.97,
+      "rating": 7.971,
       "mediaType": "movie"
     },
     {
@@ -1286,7 +1286,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8LjEBOHkml5BlxTEinVljyltMnw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
       "releaseDate": "2006-03-23",
-      "rating": 8.04,
+      "rating": 8.039,
       "mediaType": "movie"
     },
     {
@@ -1298,7 +1298,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/szxBVXajhvjvOC4tbH6hygdumcs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/einbto9qLXFx9QXxEHylaxDbKPx.jpg",
       "releaseDate": "2013-09-04",
-      "rating": 7.9,
+      "rating": 7.906,
       "mediaType": "movie"
     },
     {
@@ -1310,7 +1310,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pjy0T63vIFYvxRSJ3ZtjB4tmWV4.jpg",
       "releaseDate": "2004-09-09",
-      "rating": 8.388,
+      "rating": 8.4,
       "mediaType": "movie"
     },
     {
@@ -1358,7 +1358,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6GtC5kaLrtk2YhAfvPqQrgbRQKR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
       "releaseDate": "1997-12-05",
-      "rating": 8.157,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -1406,7 +1406,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ggC3Brchf4RqPitEh7cROFoeAWn.jpg",
       "releaseDate": "2002-12-16",
-      "rating": 7.977,
+      "rating": 7.976,
       "mediaType": "movie"
     },
     {
@@ -1454,7 +1454,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/asM6jzyXZv7HKORpTQFnkFplHPd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/A63giQFJP4ABqNk4sLzegVeqVdl.jpg",
       "releaseDate": "2008-05-07",
-      "rating": 7.817,
+      "rating": 7.818,
       "mediaType": "movie"
     },
     {
@@ -1478,7 +1478,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nctLwV78fJNfXtBgoaJgWYtRyK8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rn7i9XrcKtOU6RGhYPukaZTkGNN.jpg",
       "releaseDate": "1999-06-05",
-      "rating": 7.506,
+      "rating": 7.507,
       "mediaType": "movie"
     },
     {
@@ -1502,7 +1502,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4KRvUM24smLLZYUOJ7QQmBN1FXY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1XqIhsqnAozznGhxlGdI0GPcCro.jpg",
       "releaseDate": "2002-09-17",
-      "rating": 8.379,
+      "rating": 8.377,
       "mediaType": "movie"
     },
     {
@@ -1550,7 +1550,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ztYF7nf1SBJYMWPMzjWv52U6T41.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/w4bTBXcqXc2TUyS5Fc4h67uWbPn.jpg",
       "releaseDate": "1957-04-10",
-      "rating": 8.553,
+      "rating": 8.554,
       "mediaType": "movie"
     },
     {
@@ -1622,7 +1622,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/a6v21Mgz2w6OQL7ezkQxGbGA92W.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
       "releaseDate": "2023-07-19",
-      "rating": 8,
+      "rating": 8.036,
       "mediaType": "movie"
     },
     {
@@ -1684,7 +1684,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9q5Q3V8kTgbMgdDxQt98vd0VKXD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7N7CtZftqEvgojR3QloukU0oWPg.jpg",
       "releaseDate": "2024-11-08",
-      "rating": 6.851,
+      "rating": 6.85,
       "mediaType": "movie"
     },
     {
@@ -1708,7 +1708,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yQ2Ul7PAbx7vJGpnrGgnnE3jtr3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/noPEm6Vu9Lm6QUdTGLOyRgk4M6s.jpg",
       "releaseDate": "2024-12-19",
-      "rating": 7.632,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -1924,7 +1924,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/pMduNVkV3QdObdOfKNQ2fr3q9Pz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rGnf32URcZAqdTxtkoC6aUD1GBS.jpg",
       "releaseDate": "2024-08-07",
-      "rating": 6.826,
+      "rating": 6.862,
       "mediaType": "movie"
     },
     {
@@ -1972,7 +1972,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4XPNNt0zfZKBqxxVWaQALd57UHl.jpg",
       "releaseDate": "2024-08-29",
-      "rating": 8.097,
+      "rating": 8.098,
       "mediaType": "movie"
     },
     {
@@ -1996,7 +1996,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/d3i7412JqW8V81msHgZ2b0l9ph9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2P0PUkQ1tNHNYTEmtbBmM8MfXBG.jpg",
       "releaseDate": "2025-02-28",
-      "rating": 6.83,
+      "rating": 6.831,
       "mediaType": "movie"
     },
     {
@@ -2020,7 +2020,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qMOOPtE2SgFMxFePEOhQGyN3ru1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hwlyY7LJdEFbCPaGNXiskKKmJ5X.jpg",
       "releaseDate": "2025-01-22",
-      "rating": 5.955,
+      "rating": 5.956,
       "mediaType": "movie"
     },
     {
@@ -2056,7 +2056,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/x8JiIrpQlUiqnTZLHkKfm45pXPU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fNXUCk54vGcoKr34olN14ohUSFY.jpg",
       "releaseDate": "2023-10-26",
-      "rating": 8.089,
+      "rating": 8.087,
       "mediaType": "movie"
     },
     {
@@ -2104,7 +2104,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dKtgSYi2AwlaHYo1Iqie8wlMsc5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
       "releaseDate": "2023-03-22",
-      "rating": 7.71,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -2176,7 +2176,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wt1eqcRGcRRJhCoNY26I5f5Qlap.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
       "releaseDate": "2025-03-19",
-      "rating": 4.318,
+      "rating": 4.32,
       "mediaType": "movie"
     },
     {
@@ -2260,7 +2260,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/otQo3B6uiUIlQ2OGsCgwG56tPA2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
       "releaseDate": "2025-03-31",
-      "rating": 6.291,
+      "rating": 6.292,
       "mediaType": "movie"
     },
     {
@@ -2332,7 +2332,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2LV7qOYoqtSXDlTrPT62a8KjKLG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aD7FXrm2GErTmzrIFBntPyhAqS9.jpg",
       "releaseDate": "2025-04-09",
-      "rating": 7,
+      "rating": 6.96,
       "mediaType": "movie"
     },
     {
@@ -2368,7 +2368,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yxzE1uIp8behBe1yGvdfb1hsFmv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dHnki2Dh6lbOtfksrh8H5lg08f5.jpg",
       "releaseDate": "2014-08-21",
-      "rating": 7.869,
+      "rating": 7.87,
       "mediaType": "movie"
     },
     {
@@ -2428,7 +2428,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mTDlurvwnAoGJ7XcCaOT4T9K9Wa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5U3VLeWr2H4Nd3G7IkHItFimsIz.jpg",
       "releaseDate": "2024-08-01",
-      "rating": 7.587,
+      "rating": 7.599,
       "mediaType": "movie"
     },
     {
@@ -2548,7 +2548,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mgxuL4rDqAHdcZvO3fXRhrcifpv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
       "releaseDate": "1997-07-12",
-      "rating": 8.3,
+      "rating": 8.322,
       "mediaType": "movie"
     },
     {
@@ -2584,7 +2584,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jRq6w5byyZARlCu9eNUmIIH8mXV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
       "releaseDate": "2025-04-23",
-      "rating": 7.095,
+      "rating": 7.096,
       "mediaType": "movie"
     },
     {
@@ -2596,7 +2596,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lnWJqTA4gha5sZGJaD15oxOUyVm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/j9uruwRe9qM8RnP758dF7ISB8Bj.jpg",
       "releaseDate": "2024-09-19",
-      "rating": 7.9,
+      "rating": 7.913,
       "mediaType": "movie"
     },
     {
@@ -2680,7 +2680,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/x5wNw81Rek3lyA4pPEMJheKh6Nb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
       "releaseDate": "2025-05-17",
-      "rating": 7.189,
+      "rating": 7.191,
       "mediaType": "movie"
     },
     {
@@ -2740,7 +2740,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/s8BEZ7TsipeKhWM5UiDJrlC8Drf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/79PNOxNXSe5e0bhEj11QJPlsdCN.jpg",
       "releaseDate": "2025-06-06",
-      "rating": 7.952,
+      "rating": 7.951,
       "mediaType": "movie"
     },
     {
@@ -2884,7 +2884,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
       "releaseDate": "2025-06-25",
-      "rating": 7.79,
+      "rating": 7.788,
       "mediaType": "movie"
     },
     {
@@ -2896,7 +2896,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/xMqDOyZMZ5aKIqjMUoneQLcDgX5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ukPu5xYOBAnh5H46uK4aQOirW2b.jpg",
       "releaseDate": "2025-06-18",
-      "rating": 6.943,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -2920,7 +2920,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qWh5eySsmffygLGOUSYSsJncWBH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
       "releaseDate": "2024-12-06",
-      "rating": 7.625,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -2980,7 +2980,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2XxZq3DA9KHdCXh2YvxBPIm6aa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xCoF56oOLjKqzwWkwlC8gsrx18h.jpg",
       "releaseDate": "2025-07-01",
-      "rating": 6.33,
+      "rating": 6.331,
       "mediaType": "movie"
     },
     {
@@ -3040,7 +3040,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hwRqIDXn3PEbmKDfdAReGR77HS5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aJDLz1748CIMZkCkyISYe5Hl6I7.jpg",
       "releaseDate": "2025-07-09",
-      "rating": 7.377,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -3112,7 +3112,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kyuzrk7kaMQt6VBnKKsPIZFne8C.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
       "releaseDate": "2025-07-05",
-      "rating": 5.878,
+      "rating": 5.9,
       "mediaType": "movie"
     },
     {
@@ -3124,7 +3124,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bkCfrtEqdTKd0zTA7NMFU37rjBD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
       "releaseDate": "2025-07-23",
-      "rating": 6.982,
+      "rating": 6.981,
       "mediaType": "movie"
     },
     {
@@ -3160,7 +3160,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ngLgoY3MTfLANqv9cpXr96saaFV.jpg",
       "releaseDate": "2025-07-19",
-      "rating": 8,
+      "rating": 8.047,
       "mediaType": "movie"
     }
   ]
