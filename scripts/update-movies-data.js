@@ -78,14 +78,15 @@ async function getTmdbDetails(rawTitle) {
 
     return {
       id: movie.id,
+      type: "tmdb",
       title: movie.title,
-      originalTitle: movie.original_title,
-      overview: movie.overview,
-      poster: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
-      backdrop: movie.backdrop_path ? `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}` : null,
+      description: movie.overview,
+      posterPath: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
+      backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}` : null,
       rating: movie.vote_average,
       releaseDate: movie.release_date,
-      genres: genres
+      genres: genres,
+      mediaType: "movie"
     };
   }));
 }
