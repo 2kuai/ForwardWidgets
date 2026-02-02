@@ -2,7 +2,8 @@ name: Update Movies Data
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
+    # 每天北京时间 06:00 (UTC 22:00) 和 20:00 (UTC 12:00)
+    - cron: '0 22,12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -25,12 +26,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies locally (no config files)
+      - name: Install dependencies locally
         run: |
-          # 创建临时 node_modules 但不生成任何配置文件
+          # 增加上个回答代码中用到的两个核心依赖
           npm install --no-package-lock --no-save --ignore-scripts \
             axios@1.6.7 \
-            cheerio@1.0.0-rc.12
+            cheerio@1.0.0-rc.12 \
+            p-limit@5.0.0 \
+            user-agents@1.1.0
           echo "Dependencies installed in ./node_modules"
 
       - name: Setup data directory
@@ -41,8 +44,8 @@ jobs:
       - name: Update Movies data
         id: update
         run: |
-          # 临时修改 NODE_PATH 确保能找到本地模块
           export NODE_PATH=./node_modules
+          # 确保路径指向你保存脚本的位置
           node scripts/update-movies-data.js
           chmod 644 data/movies-data.json
         continue-on-error: true
@@ -50,19 +53,22 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
+          # 检查文件是否存在且有变化
+          if [ -f data/movies-data.json ]; then
+            git diff --exit-code data/movies-data.json || echo "changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add data/movies-data.json
-          git commit -m "Auto-update: Movies data $(date +'%Y-%m-%d')"
+          git commit -m "Auto-update: Movies data $(date +'%Y-%m-%d %H:%M')"
           git pull --rebase
           git push
 
       - name: Cleanup
+        if: always()
         run: |
-          rm -rf node_modules  # 清除临时依赖
-          rm -f data/movies-data.backup.json
+          rm -rf node_modules
