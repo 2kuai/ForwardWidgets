@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T18:32:05.600975",
+  "last_updated": "2026-02-03T01:19:35.257975",
   "cctv": [
     {
       "name": "CCTV-1 综合",
@@ -233,7 +233,9 @@
       "name": "安徽卫视",
       "description": "",
       "backdrop_path": "https://ik.imagekit.io/2kuai/tr:l-image,i-TV.png,w-bw_mul_1.5,h-bh_mul_4,bg-848484,lfo-center,l-image,i-安徽卫视.png,lfo-center,l-end,l-end/安徽卫视.png",
-      "childItems": []
+      "childItems": [
+        "http://222.169.85.8:9901/tsfile/live/0130_1.m3u8"
+      ]
     },
     {
       "name": "山东卫视",
