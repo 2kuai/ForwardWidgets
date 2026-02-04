@@ -10,7 +10,7 @@ const config = {
   tmdbApiKey: process.env.TMDB_API_KEY,
   tmdbBaseUrl: 'https://api.themoviedb.org/3',
   outputPath: './data/movies-data.json',
-  concurrency: 3, // TMDB 并发数
+  concurrency: 2, // 降低并发以应对无缓存的 API 压力
 };
 
 const GENRE_MAP = {
@@ -25,30 +25,23 @@ const limit = pLimit(config.concurrency);
 const getUA = () => new UserAgent({ deviceCategory: 'desktop' }).toString();
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-// --- 工具函数：重试逻辑 ---
-/**
- * 带有指数退避的重试包装器
- */
-async function withRetry(fn, retries = 3, baseDelay = 2000) {
+// --- 重试逻辑 ---
+async function withRetry(fn, retries = 3, baseDelay = 3000) {
   try {
     return await fn();
   } catch (error) {
-    const isRetryable = !error.response || error.response.status === 429 || error.response.status >= 500;
-    if (retries > 0 && isRetryable) {
-      // 如果是 429 (Too Many Requests)，等待时间加长
-      const waitTime = error.response?.status === 429 ? baseDelay * 2 : baseDelay;
-      console.warn(`⚠️ 请求失败: ${error.message}，正在重试... 剩余次数: ${retries}`);
-      await delay(waitTime);
-      return withRetry(fn, retries - 1, baseDelay * 2);
+    if (retries > 0 && (!error.response || error.response.status === 429 || error.response.status >= 500)) {
+      console.warn(`⚠️ 请求重试中... 剩余次数: ${retries}`);
+      await delay(baseDelay);
+      return withRetry(fn, retries - 1, baseDelay * 1.5);
     }
     throw error;
   }
 }
 
-// --- 核心逻辑：TMDB 数据获取 ---
+// --- TMDB 核心获取 (无缓存版) ---
 async function getTmdbDetails(rawTitle) {
   return limit(() => withRetry(async () => {
-    // 提取年份和清洗标题
     const yearMatch = rawTitle.match(/[(（](\d{4})[)）]/);
     const year = yearMatch ? yearMatch[1] : "";
     const cleanTitle = rawTitle.replace(/[(（].*?[)）]/g, '').trim();
@@ -63,19 +56,10 @@ async function getTmdbDetails(rawTitle) {
     });
 
     const results = res.data.results;
-    if (!results?.length) {
-      console.log(`[TMDB] ❌ 未找到: ${cleanTitle}`);
-      return null;
-    }
+    if (!results?.length) return null;
 
     const movie = results.find(m => m.title === cleanTitle || m.original_title === cleanTitle) || results[0];
     
-    // 标签映射
-    const genres = (movie.genre_ids || [])
-      .map(id => GENRE_MAP[id])
-      .filter(Boolean)
-      .slice(0, 3);
-
     return {
       id: movie.id,
       type: "tmdb",
@@ -85,7 +69,7 @@ async function getTmdbDetails(rawTitle) {
       backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}` : null,
       rating: movie.vote_average,
       releaseDate: movie.release_date,
-      genres: genres,
+      genres: (movie.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 3),
       mediaType: "movie"
     };
   }));
@@ -93,101 +77,83 @@ async function getTmdbDetails(rawTitle) {
 
 // --- 爬虫模块 ---
 const Scrapers = {
-  async getDouban(type) {
-    return withRetry(async () => {
-      const url = `https://movie.douban.com/${type}`;
-      const res = await axios.get(url, { 
-        headers: { 'User-Agent': getUA(), 'Referer': 'https://movie.douban.com/' },
-        timeout: 10000 
-      });
+  async getDoubanTop250() {
+    const titles = [];
+    for (let i = 0; i < 250; i += 25) {
+      console.log(`正在抓取豆瓣 Top 250 (第 ${i + 1} - ${i + 25} 名)`);
+      const res = await withRetry(() => axios.get(`https://movie.douban.com/top250?start=${i}`, {
+        headers: { 'User-Agent': getUA(), 'Referer': 'https://movie.douban.com/' }
+      }));
       const $ = cheerio.load(res.data);
-      const titles = [];
-
-      if (type === 'nowplaying') {
-        $('#nowplaying .list-item').each((_, el) => {
-          const t = $(el).attr('data-title');
-          const r = $(el).attr('data-release');
-          if (t) titles.push(`${t}${r ? `（${r}）` : ''}`);
-        });
-      } else {
-        $('.coming_list tbody tr').each((_, el) => {
-          const t = $(el).find('td:nth-child(2) a').text().trim();
-          const y = $(el).find('td:first-child').text().trim().match(/\d{4}/)?.[0] || "";
-          if (t) titles.push(`${t}${y ? `（${y}）` : ''}`);
-        });
-      }
-      return titles;
-    });
+      $('.item').each((_, el) => {
+        const t = $(el).find('.title').first().text().trim();
+        const y = $(el).find('.bd p').text().trim().match(/\d{4}/)?.[0] || "";
+        if (t) titles.push(`${t}${y ? `（${y}）` : ''}`);
+      });
+      await delay(1500); // 必须的延迟，防止豆瓣封 IP
+    }
+    return titles;
   },
 
-  async getMaoyan() {
-    return withRetry(async () => {
-      const res = await axios.get("https://m.maoyan.com/asgard/board/4", {
-        headers: { 'User-Agent': getUA() },
-        timeout: 10000
+  async getDouban(type) {
+    const res = await withRetry(() => axios.get(`https://movie.douban.com/${type}`, { 
+      headers: { 'User-Agent': getUA(), 'Referer': 'https://movie.douban.com/' }
+    }));
+    const $ = cheerio.load(res.data);
+    const titles = [];
+    if (type === 'nowplaying') {
+      $('#nowplaying .list-item').each((_, el) => {
+        const t = $(el).attr('data-title');
+        const r = $(el).attr('data-release');
+        if (t) titles.push(`${t}${r ? `（${r}）` : ''}`);
       });
-      const $ = cheerio.load(res.data);
-      return $('.board-card .title').map((_, el) => $(el).text().trim()).get();
-    });
+    } else {
+      $('.coming_list tbody tr').each((_, el) => {
+        const t = $(el).find('td:nth-child(2) a').text().trim();
+        const y = $(el).find('td:first-child').text().trim().match(/\d{4}/)?.[0] || "";
+        if (t) titles.push(`${t}${y ? `（${y}）` : ''}`);
+      });
+    }
+    return titles;
   }
 };
 
-// --- 主函数 ---
 async function main() {
-  console.time('🚀 脚本总执行耗时');
-  
-  if (!config.tmdbApiKey) {
-    console.error("❌ 错误: 未检测到 TMDB_API_KEY 环境变量");
-    process.exit(1);
-  }
+  console.time('⏱️ 执行耗时');
+  if (!config.tmdbApiKey) { console.error("❌ 缺少 TMDB_API_KEY"); process.exit(1); }
 
   try {
-    console.log("📦 正在拉取各平台原始数据...");
-    const [dbNow, dbSoon, myClassic] = await Promise.all([
+    console.log("🚀 开始实时同步...");
+    const [dbNow, dbSoon, dbTop250] = await Promise.all([
       Scrapers.getDouban('nowplaying').catch(() => []),
       Scrapers.getDouban('coming').catch(() => []),
-      Scrapers.getMaoyan().catch(() => [])
+      Scrapers.getDoubanTop250().catch(() => [])
     ]);
 
-    // 汇总并去重，避免重复请求 TMDB
-    const allUniqueTitles = [...new Set([...dbNow, ...dbSoon, ...myClassic])];
-    console.log(`🔍 待处理唯一影片数: ${allUniqueTitles.length}`);
+    const allTitles = [...new Set([...dbNow, ...dbSoon, ...dbTop250])];
+    console.log(`📡 正在请求 TMDB 详情 (共 ${allTitles.length} 部)...`);
 
-    // 并发获取详情
+    // 实时并发获取
     const movieMap = new Map();
-    const detailsResults = await Promise.all(allUniqueTitles.map(title => getTmdbDetails(title)));
-    
-    allUniqueTitles.forEach((title, index) => {
-      if (detailsResults[index]) movieMap.set(title, detailsResults[index]);
-    });
+    const results = await Promise.all(allTitles.map(t => getTmdbDetails(t)));
+    allTitles.forEach((t, i) => { if (results[i]) movieMap.set(t, results[i]); });
 
-    // 组装最终 JSON
     const finalData = {
       updated_at: new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }),
       now_playing: dbNow.map(t => movieMap.get(t)).filter(Boolean),
       coming_soon: dbSoon.map(t => movieMap.get(t)).filter(Boolean),
-      classics: myClassic.map(t => movieMap.get(t)).filter(Boolean)
+      top250: dbTop250.map(t => movieMap.get(t)).filter(Boolean)
     };
 
-    // 写入文件
-    const dir = path.dirname(config.outputPath);
-    await fs.mkdir(dir, { recursive: true });
+    await fs.mkdir(path.dirname(config.outputPath), { recursive: true });
     await fs.writeFile(config.outputPath, JSON.stringify(finalData, null, 2));
-
-    console.log(`\n✅ 数据更新成功！`);
-    console.table({
-      '正在热映': finalData.now_playing.length,
-      '即将上映': finalData.coming_soon.length,
-      '经典推荐': finalData.classics.length,
-      '匹配总数': movieMap.size
-    });
-
+    
+    console.log(`\n✅ 数据已写入: ${config.outputPath}`);
   } catch (err) {
-    console.error("🚨 脚本执行中断:", err.message);
+    console.error("🚨 执行失败:", err.message);
     process.exit(1);
   }
-  
-  console.timeEnd('🚀 脚本总执行耗时');
+  console.timeEnd('⏱️ 执行耗时');
 }
 
 main();
