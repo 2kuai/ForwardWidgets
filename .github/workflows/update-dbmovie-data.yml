@@ -1,4 +1,4 @@
-name: Update Movie Data
+name: Update Dbmovie Data
 
 on:
   schedule:
@@ -23,23 +23,24 @@ jobs:
         node-version: '20'
         
     - name: Install axios
-      # 在无 package.json 环境下干净安装
+      # 无 package.json 环境下的干净安装模式
       run: npm install axios --no-package-lock --no-save
       
     - name: Create data directory
       run: mkdir -p data
       
-    - name: Run Movie data script
-      run: node script/update-dbmovie-data.js
+    - name: Run Dbmovie data script
+      # 确保路径为 scripts/ 且文件名正确
+      run: node scripts/update-dbmovie-data.js
       
     - name: Commit and push changes
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
-        # 添加生成的数据文件
+        # 仅针对 dbmovie 的数据进行 add
         git add data/dbmovie-data.json
         
-        # 检查是否有变更，如有则提交并推送
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update Movie data [skip ci]"
+        # 检查变更，如有则提交推送
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update Dbmovie data [skip ci]"
         git push
