@@ -1,51 +1,45 @@
-name: Update dbMovie Data
+name: Update Movie Data
 
 on:
   schedule:
     # 每天北京时间凌晨 04:00 运行 (UTC 20:00)
     - cron: '0 20 * * *'
-  workflow_dispatch: # 允许点击按钮手动触发
+  workflow_dispatch:
 
 jobs:
-  build:
+  update-data:
     runs-on: ubuntu-latest
-
-    # 赋予 Action 写入权限，否则无法推送数据回仓库
-    permissions:
-      contents: write
-
+    env:
+      TZ: Asia/Shanghai
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm' # 开启缓存加速后续运行
-
-      - name: Install Dependencies
-        run: npm install axios
-
-      - name: Create Data Directory
-        run: mkdir -p data
-
-      - name: Run Fetch Script
-        env:
-          # 请确保在 Settings -> Secrets -> Actions 中配置了此变量
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node update-dbmovie-data.js
-
-      - name: Commit and Push Data
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 检查文件是否有变化
-          git add data/dbmovie-data.json
-          if git diff --staged --quiet; then
-            echo "数据未发生变化，跳过提交。"
-          else
-            git commit -m "chore: 自动更新电影推荐数据 [skip ci]"
-            git push
-          fi
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install axios
+      # 在无 package.json 环境下干净安装
+      run: npm install axios --no-package-lock --no-save
+      
+    - name: Create data directory
+      run: mkdir -p data
+      
+    - name: Run Movie data script
+      run: node script/update-dbmovie-data.js
+      
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        # 添加生成的数据文件
+        git add data/dbmovie-data.json
+        
+        # 检查是否有变更，如有则提交并推送
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update Movie data [skip ci]"
+        git push
