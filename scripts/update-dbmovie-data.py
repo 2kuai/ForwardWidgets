@@ -110,7 +110,7 @@ async def process_region(session, region):
     print(f"\n{BOLD}{BLUE}▶ 正在同步: {region['title']}{RESET}")
     url = "https://m.douban.com/rexxar/api/v2/subject/recent_hot/movie"
     headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)", "Referer": "https://m.douban.com/movie/"}
-    params = {"start": 0, "limit": region['limit'], "type": region['type']}
+    params = {"start": 0, "limit": region['limit'], "category": "", "type": region['type']}
 
     async with session.get(url, params=params, headers=headers) as resp:
         items = (await resp.json()).get("items", [])
