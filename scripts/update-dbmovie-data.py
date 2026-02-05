@@ -75,6 +75,7 @@ async def fetch_tmdb_detail(session, item, cache):
                         "id": res["id"],
                         "type": "tmdb",
                         "title": res["title"],
+                        "description": res["overview"],
                         "rating": res.get("vote_average"),
                         "releaseDate": res.get("release_date"),
                         "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
