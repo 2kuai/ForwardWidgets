@@ -1,46 +1,59 @@
-name: Update Dbmovie Data
+name: Update dbMovie Data (Python)
 
 on:
   schedule:
     # 每天北京时间凌晨 04:00 运行 (UTC 20:00)
     - cron: '0 20 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # 允许在 GitHub 界面手动点击运行
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     env:
+      # 设置时区，确保脚本日志时间准确
       TZ: Asia/Shanghai
+      # 从 Repo Secrets 中读取 TMDB API KEY
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # 确保有足够的 commit 记录用于推送
+          fetch-depth: 1
       
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          # 开启 pip 缓存，加速后续运行的依赖安装
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # aiohttp 用于异步请求，requests 可作为备用
+          pip install aiohttp
+          
+      - name: Create data directory
+        run: mkdir -p data
         
-    - name: Install axios
-      # 无 package.json 环境下的干净安装模式
-      run: npm install axios --no-package-lock --no-save
-      
-    - name: Create data directory
-      run: mkdir -p data
-      
-    - name: Run Dbmovie data script
-      # 确保路径为 scripts/ 且文件名正确
-      run: node scripts/update-dbmovie-data.js
-      
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        
-        # 仅针对 dbmovie 的数据进行 add
-        git add data/dbmovie-data.json
-        
-        # 检查变更，如有则提交推送
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update Dbmovie data [skip ci]"
-        git push
+      - name: Run Dbmovie script
+        # 确保路径指向你存放 Python 脚本的实际位置
+        run: python scripts/update-dbmovie_data.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 仅针对生成的数据文件进行 add
+          git add data/dbmovie-data.json
+          
+          # 检查文件是否有变化，只有在有更新时才进行 commit
+          if git diff --staged --quiet; then
+            echo "No changes detected in movie data. Skipping commit."
+          else
+            git commit -m "chore: 自动更新豆瓣电影数据 [skip ci]"
+            git push
+          fi
