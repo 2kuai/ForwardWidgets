@@ -73,11 +73,13 @@ async def fetch_tmdb_detail(session, item, cache):
                 if is_title_ok and is_year_ok:
                     info = {
                         "id": res["id"],
+                        "type": "tmdb",
                         "title": res["title"],
                         "rating": res.get("vote_average"),
-                        "release_date": res.get("release_date"),
-                        "poster_path": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
-                        "backdrop_path": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None
+                        "releaseDate": res.get("release_date"),
+                        "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
+                        "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
+                        "mediaType": "movie"
                     }
                     cache[cache_key] = info
                     return info
