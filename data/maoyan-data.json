@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T02:33:23.154+08:00",
+  "last_updated": "2026-02-05T09:04:45.760+08:00",
   "tv": {
     "全网": [
       {
@@ -14,17 +14,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 282558,
-        "type": "tmdb",
-        "title": "生命树",
-        "description": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4GNUqF6M6FPP36Dqw5Mdpuup8kh.jpg",
-        "releaseDate": "2026-01-30",
-        "rating": 9.2,
-        "mediaType": "tv"
-      },
-      {
         "id": 259554,
         "type": "tmdb",
         "title": "夜色正浓",
@@ -33,6 +22,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
         "releaseDate": "2026-01-28",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 282558,
+        "type": "tmdb",
+        "title": "生命树",
+        "description": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4GNUqF6M6FPP36Dqw5Mdpuup8kh.jpg",
+        "releaseDate": "2026-01-30",
+        "rating": 9.2,
         "mediaType": "tv"
       },
       {
@@ -54,7 +54,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
-        "rating": 8.8,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -245,7 +245,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
-        "rating": 8.8,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -278,7 +278,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
         "releaseDate": "2025-12-25",
-        "rating": 9.7,
+        "rating": 9.5,
         "mediaType": "tv"
       },
       {
@@ -368,7 +368,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
-        "rating": 8.8,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -473,17 +473,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 292181,
-        "type": "tmdb",
-        "title": "修仙记之何仙姑传",
-        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-05-22",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 222714,
         "type": "tmdb",
         "title": "蝶影",
@@ -492,6 +481,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
         "releaseDate": "2023-03-21",
         "rating": 5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 292181,
+        "type": "tmdb",
+        "title": "修仙记之何仙姑传",
+        "description": "唐高宗开元年间，何仙姑出生在零陵一户普通的庄户人家，正逢吕洞宾、铁拐李等七仙欲在人间选一位品貌俱佳的女子度化为仙，他们选中了何仙姑。转眼何仙姑长大成人成为乡村郎中，她女扮男装陪师哥成名来京城参加乡试，结识了文武双全的京城美男子李如义。二人经过误会斗气，彼此产生了好感。何仙姑为了给百姓医病，毅然办起了药堂。林尚书和他的爪牙方御医频频刁难何仙姑，并加害李如义，何仙姑凭借才智化险为夷，并捉弄了他们。林尚书欲除掉何仙姑，向皇上建议收何仙姑为皇上的“贴身御医”，被何仙姑识破奸计。何仙姑惩恶扬善的举动博得百姓爱戴并欲回朝廷施展抱负，吕洞宾劝她还是随七仙在民间惩恶扬善,何仙姑听从了建议，随七仙去往蓬莱仙岛。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4DdYNfW96QbrYP2SKLC3Ikv8Jo5.jpg",
+        "backdropPath": null,
+        "releaseDate": "2025-05-22",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -506,17 +506,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 308083,
-        "type": "tmdb",
-        "title": "大国船梦",
-        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
-        "releaseDate": "2025-11-20",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 250475,
         "type": "tmdb",
         "title": "川流",
@@ -525,6 +514,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/u0lNhBm4ishAcQXIP5ydhTzxQDB.jpg",
         "releaseDate": "2024-04-01",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 308083,
+        "type": "tmdb",
+        "title": "大国船梦",
+        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
+        "releaseDate": "2025-11-20",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -585,17 +585,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 113212,
-        "type": "tmdb",
-        "title": "绿水青山带笑颜",
-        "description": "许晗（杨烁 饰）在北京做了8年艺考培训学校，偶然被乡村风景所吸引，决定回乡创办精品民宿，却遭遇了一连串意外挑战；杜笑语（潘之琳 饰）果决独立，对家乡制琉璃的“老手艺”有着深厚的情感，辞职回乡后，决定要成立一家琉璃工坊，却无法得到家人的理解与支持。两名年轻人历经波折，在大学生村官郑菲（马苏 饰）、许晗老同学（于洋 饰）及当地村民的协助和支持下，最终能否完成自我梦想，将落后的家乡扶上小康之路？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/e8NxanmrfsyD7xO2PekbPW7tNhg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bE0oKXwTWEDqsGConBtD27HdN3m.jpg",
-        "releaseDate": "2020-03-18",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 295556,
         "type": "tmdb",
         "title": "爱你不是三两天",
@@ -603,6 +592,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
         "releaseDate": "2025-07-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 113212,
+        "type": "tmdb",
+        "title": "绿水青山带笑颜",
+        "description": "许晗（杨烁 饰）在北京做了8年艺考培训学校，偶然被乡村风景所吸引，决定回乡创办精品民宿，却遭遇了一连串意外挑战；杜笑语（潘之琳 饰）果决独立，对家乡制琉璃的“老手艺”有着深厚的情感，辞职回乡后，决定要成立一家琉璃工坊，却无法得到家人的理解与支持。两名年轻人历经波折，在大学生村官郑菲（马苏 饰）、许晗老同学（于洋 饰）及当地村民的协助和支持下，最终能否完成自我梦想，将落后的家乡扶上小康之路？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/e8NxanmrfsyD7xO2PekbPW7tNhg.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bE0oKXwTWEDqsGConBtD27HdN3m.jpg",
+        "releaseDate": "2020-03-18",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -618,14 +618,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 84693,
+        "id": 110329,
         "type": "tmdb",
-        "title": "我爱男保姆",
-        "description": "家庭煮夫方原过了五年“女主外，男主内”的生活，终于被日益强势的老婆嫌弃。为了挽救婚姻，方原毅然决然的踏上了去大城市的闯荡之路，凭借自己的一技之长，开始了全能男保姆的工作。这年头客户的要求都高：洗衣洗碗洗车、擦地擦窗擦烟机、修房修草修家电、看护看门看孩子、做饭做菜做月子餐，这些都只是基本技能，代驾代谈判代分手、送花送货送口信也不算稀奇事。碰上高小姐这样的客户，方原要给人家孩子每周当一天的爹；碰上马舒儿这样的客户，方原除了干活还得兼职心理治疗师、职业规划师；而碰上陆晴这样的客户，任凭方原十项全能，都依旧被连累得背黑锅、丢彩票，赚不到钱不说还得倒贴钱。三个女人一台戏，客户还是不能得罪的上帝，方原这个男保姆努力发挥正能量，做出口碑做出成绩。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9FXo7X0XI7ufOg7shBaG8YxImnA.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/5ATCNi6P7zKRMIsRfYsagByIHwn.jpg",
-        "releaseDate": "2015-11-14",
-        "rating": 7.3,
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -640,14 +640,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 1418,
+        "id": 137604,
         "type": "tmdb",
-        "title": "生活大爆炸",
-        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7RySzFeK3LPVMXcPtqfZnl6u4p1.jpg",
-        "releaseDate": "2007-09-24",
-        "rating": 7.9,
+        "title": "重返大福村",
+        "description": "本剧讲述了由大福村走出的农民陆大鹏在某市发展成了一名风光无限的企业家，而在众人仰慕的成功背后，有着不为人知的头疼事。生活上离异的他，又当爹又当妈的抚养一双不省心的儿女，因工作忙碌疏于交流，和儿女间的矛盾日益加重，前妻还不停的于他争夺抚养权；因全球大环境影响，陆大鹏的事业起起伏伏、麻烦不断。\n\n某杂志记者的张可欣，为了得到第一手“情报”，她处心积虑的“潜伏”在陆大鹏身边，几经波折，最终得到陆大鹏的信任。百般无奈的陆大鹏在友人的建议下决定“破釜沉舟”携全家重返大福村，希望在“重返”中和儿女充分相处，让孩子自己决定由谁抚养，同时，冷静的梳理下一步的工作思路。张可欣得知后决定一同重返，在陆家女儿的帮助下，张可欣和陆家三人一同踏上返乡路。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mgRtt790e5BO3efppASPu6C6jwh.jpg",
+        "backdropPath": null,
+        "releaseDate": "2013-02-17",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 84693,
+        "type": "tmdb",
+        "title": "我爱男保姆",
+        "description": "家庭煮夫方原过了五年“女主外，男主内”的生活，终于被日益强势的老婆嫌弃。为了挽救婚姻，方原毅然决然的踏上了去大城市的闯荡之路，凭借自己的一技之长，开始了全能男保姆的工作。这年头客户的要求都高：洗衣洗碗洗车、擦地擦窗擦烟机、修房修草修家电、看护看门看孩子、做饭做菜做月子餐，这些都只是基本技能，代驾代谈判代分手、送花送货送口信也不算稀奇事。碰上高小姐这样的客户，方原要给人家孩子每周当一天的爹；碰上马舒儿这样的客户，方原除了干活还得兼职心理治疗师、职业规划师；而碰上陆晴这样的客户，任凭方原十项全能，都依旧被连累得背黑锅、丢彩票，赚不到钱不说还得倒贴钱。三个女人一台戏，客户还是不能得罪的上帝，方原这个男保姆努力发挥正能量，做出口碑做出成绩。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/9FXo7X0XI7ufOg7shBaG8YxImnA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/5ATCNi6P7zKRMIsRfYsagByIHwn.jpg",
+        "releaseDate": "2015-11-14",
+        "rating": 7.3,
         "mediaType": "tv"
       },
       {
@@ -659,17 +670,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/9ziYs66EQwWEyNejckMEeRJSRJa.jpg",
         "releaseDate": "1998-01-01",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 1418,
-        "type": "tmdb",
-        "title": "生活大爆炸",
-        "description": "谢尔顿·库珀Sheldon Cooper（吉姆·帕森斯饰）和莱纳德·霍夫斯塔特Leonard Hofstadter（约翰尼·盖尔克奇饰）是一对好朋友，他们的智商绝对高人一等，因为他们对量子物理学理论可以倒背如流，无论你问他们什么问题，都难不倒他们。但是说到日常生活，这两个不修边幅的男孩就彻底没了脾气，生活中柴米油盐这些看似简单的事情，却让他们有迷失在太空里一样的感觉，他们所掌握的那些科学原理在这里根本没有用武之地。直到有一天，隔壁搬来一位美貌性感的女孩佩妮Penny（卡蕾·措科饰），顿时吸引了莱纳德Leonard的目光。佩妮Penny是个梦想成为演员的女孩，但一直没有能成功，平时只能在快餐店打工，她个性开朗，待人友善，是位与莱纳德Leonard、谢尔顿Sheldon截然不同的追求时尚的年轻人，最重要的是她刚刚变成单身。莱纳德Leonard和谢尔顿Sheldon还有两个好朋友。自认为是花花公子的霍华德·沃洛维茨Howard Wolowitz（西蒙·赫尔伯格饰），他称自己是加州理工学院的\"卡萨诺瓦\"（1725-1798，意大利冒险家，以所写的包括他的许多风流韵事的《自传》而著称，后来该词被引申为\"风流浪子，好色之徒\"），能用六种语言泡妞，参与负责美国的火星探索计划，其实霍华德Howard不过是个喜欢拿一些过时的手段泡妞的家伙，很多时候他的泡妞手法都让对方感到恶心。来自印度的拉杰什·库斯拉帕里Rajesh Koothrappali（昆瑙·内亚饰）患有严重的“与异性交往障碍症”，有异性在场的时候他就无法说话，只有在喝醉以后才能自在地与女孩交流。一个美女和四个科学阿宅的故事就这样在笑声中悄然开始上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/9vVZDfKs5Iq8VuSKuyCZTIumdwa.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7RySzFeK3LPVMXcPtqfZnl6u4p1.jpg",
-        "releaseDate": "2007-09-24",
-        "rating": 7.9,
         "mediaType": "tv"
       }
     ],
@@ -750,7 +750,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
-        "rating": 8.8,
+        "rating": 9,
         "mediaType": "tv"
       },
       {
@@ -809,17 +809,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "releaseDate": "2025-11-12",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 240686,
         "type": "tmdb",
         "title": "锦月如歌",
@@ -840,22 +829,22 @@
         "releaseDate": "2026-01-15",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "releaseDate": "2025-11-12",
+        "rating": 8,
+        "mediaType": "tv"
       }
     ]
   },
   "show": {
     "全网": [
-      {
-        "id": 307202,
-        "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
       {
         "id": 309015,
         "type": "tmdb",
@@ -923,14 +912,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
+        "id": 307202,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7.3,
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 257161,
+        "type": "tmdb",
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
+        "releaseDate": "2024-06-28",
+        "rating": 5.5,
         "mediaType": "tv"
       }
     ],
@@ -1398,13 +1398,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 306823,
+        "id": 300172,
         "type": "tmdb",
-        "title": "在恋爱开始之前",
-        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
-        "releaseDate": "2025-11-25",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1420,13 +1420,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 300172,
+        "id": 306823,
         "type": "tmdb",
-        "title": "声鸣远扬2025",
-        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
-        "releaseDate": "2025-11-09",
+        "title": "在恋爱开始之前",
+        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
+        "releaseDate": "2025-11-25",
         "rating": 0,
         "mediaType": "tv"
       },
