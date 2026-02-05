@@ -32,7 +32,7 @@ jobs:
         run: mkdir -p data
         
       - name: Run Dbmovie script
-        run: python scripts/update-dbmovie_data.py
+        run: python scripts/update-dbmovie-data.py
           
       - name: Commit and push changes
         run: |
