@@ -11,6 +11,15 @@ OUTPUT_FILE = os.path.join(DATA_DIR, "dbtv-data.json")
 
 DB_BASE_URL = "https://m.douban.com/rexxar/api/v2/subject/recent_hot/tv"
 
+# 类型映射表
+GENRE_MAP = {
+    28: "动作", 12: "冒险", 16: "动画", 35: "喜剧", 80: "犯罪", 99: "纪录片", 18: "剧情", 
+    10751: "家庭", 14: "奇幻", 36: "历史", 27: "恐怖", 10402: "音乐", 9648: "悬疑", 
+    10749: "爱情", 878: "科幻", 10770: "电视电影", 53: "惊悚", 10752: "战争", 37: "西部", 
+    10759: "动作冒险", 10762: "儿童", 10763: "新闻", 10764: "真人秀", 10765: "科幻奇幻", 
+    10766: "肥皂剧", 10767: "脱口秀", 10768: "战争政治"
+}
+
 REGIONS = [
     { "title": "全部剧集", "value": "tv", "limit": 300},
     { "title": "国产剧", "value": "tv_domestic", "limit": 150 },
@@ -24,7 +33,7 @@ REGIONS = [
 ]
 
 async def fetch_douban_list(session, region):
-    # 注意这里改成了 region["value"]，对应配置里的 key
+    # 使用配置中的 value 作为豆瓣接口的 type 参数
     params = {"start": 0, "limit": region["limit"], "type": region["value"]}
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)",
@@ -46,7 +55,6 @@ async def fetch_tmdb_detail(session, item, cache):
     cache_key = f"{db_title}_{db_year}"
     if cache_key in cache: return cache[cache_key]
 
-    # TV 搜索接口
     url = "https://api.themoviedb.org/3/search/tv"
     headers = {"accept": "application/json"}
     params = {"query": db_title, "language": "zh-CN"}
@@ -56,7 +64,6 @@ async def fetch_tmdb_detail(session, item, cache):
     else:
         params["api_key"] = TMDB_API_KEY
 
-    # TV 专用的年份参数名
     if db_year: params["first_air_date_year"] = db_year
 
     try:
@@ -67,20 +74,22 @@ async def fetch_tmdb_detail(session, item, cache):
             if not results: return None
 
             for res in results:
-                # TV 专用字段：name 和 original_name
+                # TV 专用字段比对
                 tmdb_t = (res.get("name") or "").lower()
                 tmdb_o = (res.get("original_name") or "").lower()
                 target = db_title.lower()
                 
                 is_title_ok = (tmdb_t == target or tmdb_o == target)
-                
-                # TV 专用日期字段：first_air_date
                 first_air = res.get("first_air_date")
                 is_year_ok = True
                 if db_year and first_air:
                     is_year_ok = first_air.startswith(db_year)
                 
                 if is_title_ok and is_year_ok:
+                    # 根据 GENRE_MAP 进行映射转换
+                    genre_ids = res.get("genre_ids", [])
+                    genre_names = [GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)]
+
                     info = {
                         "id": res["id"],
                         "type": "tmdb",
@@ -90,7 +99,8 @@ async def fetch_tmdb_detail(session, item, cache):
                         "releaseDate": first_air,
                         "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
                         "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
-                        "mediaType": "tv"
+                        "mediaType": "tv",
+                        "genres": genre_names  # 输出中文类型映射结果
                     }
                     cache[cache_key] = info
                     return info
@@ -121,11 +131,12 @@ async def main():
             print(f"Processing: {region['title']}")
             items = await fetch_douban_list(session, region)
             matched = await batch_process(session, items, 8, cache)
-            final_result[region["title"]] = matched
+            # 使用 REGIONS 里的 value 值作为最终 JSON 的键值
+            final_result[region["value"]] = matched
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_result, f, ensure_ascii=False, indent=2)
-    print(f"✅ TV Data saved to {OUTPUT_FILE}")
+    print(f"✅ TV Data saved to {OUTPUT_FILE} with Value Keys and Genres")
 
 if __name__ == "__main__":
     asyncio.run(main())
