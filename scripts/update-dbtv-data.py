@@ -88,7 +88,8 @@ async def fetch_tmdb_detail(session, item, cache):
                 if is_title_ok and is_year_ok:
                     # 根据 GENRE_MAP 进行映射转换
                     genre_ids = res.get("genre_ids", [])
-                    genre_names = [GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)]
+                    genre_names = ", ".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
+
 
                     info = {
                         "id": res["id"],
