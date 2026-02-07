@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "获取最新热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.5.5",
+  version: "1.5.51",
   requiredVersion: "0.0.1",
   globalParams: [
     {
@@ -150,8 +150,7 @@ var WidgetMetadata = {
 
 // --- 工具类 ---
 const Utils = {
-  // 统一的空数据提示
-  emptyTips: [{ id: "empty", type: "text", title: "⚠️ 缺少配置", description: "请填写 Trakt 用户名" }],
+  emptyTips: [{ id: "empty", type: "text", title: "⚠️ 数据为空", description: "请刷新数据" }],
 
   async fetch(proxy, path) {
     const url = `${proxy || ""}${path}`;
