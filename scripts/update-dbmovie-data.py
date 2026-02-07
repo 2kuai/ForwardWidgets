@@ -12,6 +12,14 @@ OUTPUT_FILE = os.path.join(DATA_DIR, "dbmovie-data.json")
 
 DB_BASE_URL = "https://m.douban.com/rexxar/api/v2/subject/recent_hot/movie"
 
+GENRE_MAP = {
+    28: "动作", 12: "冒险", 16: "动画", 35: "喜剧", 80: "犯罪", 99: "纪录片", 18: "剧情", 
+    10751: "家庭", 14: "奇幻", 36: "历史", 27: "恐怖", 10402: "音乐", 9648: "悬疑", 
+    10749: "爱情", 878: "科幻", 10770: "电视电影", 53: "惊悚", 10752: "战争", 37: "西部", 
+    10759: "动作冒险", 10762: "儿童", 10763: "新闻", 10764: "真人秀", 10765: "科幻奇幻", 
+    10766: "肥皂剧", 10767: "脱口秀", 10768: "战争政治"
+}
+
 REGIONS = [
     {"title": "全部", "type": "", "limit": 300},
     {"title": "华语", "type": "华语", "limit": 100},
@@ -71,6 +79,8 @@ async def fetch_tmdb_detail(session, item, cache):
                     is_year_ok = res["release_date"].startswith(db_year)
                 
                 if is_title_ok and is_year_ok:
+                    genre_ids = res.get("genre_ids", [])
+                    genre_names = [GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)]
                     info = {
                         "id": res["id"],
                         "type": "tmdb",
@@ -80,7 +90,8 @@ async def fetch_tmdb_detail(session, item, cache):
                         "releaseDate": res.get("release_date"),
                         "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
                         "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
-                        "mediaType": "movie"
+                        "mediaType": "movie",
+                        "genreTitle": genre_names
                     }
                     cache[cache_key] = info
                     return info
