@@ -1,5 +1,5 @@
 {
-  "全部剧集": [
+  "tv": [
     {
       "id": 282558,
       "type": "tmdb",
@@ -9,7 +9,10 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4GNUqF6M6FPP36Dqw5Mdpuup8kh.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 289723,
@@ -20,7 +23,11 @@
       "releaseDate": "2026-01-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/2XVSrurMxtdPWHLxYuoZsfuftVi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 279446,
@@ -31,7 +38,10 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 278127,
@@ -42,7 +52,11 @@
       "releaseDate": "2026-02-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/qvY538wQj2U4NMy4aMV5mbbP2aF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1mLSH6ssXakJXj9bIQh4GAg5eO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 261676,
@@ -53,7 +67,11 @@
       "releaseDate": "2026-02-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 279593,
@@ -64,7 +82,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 229891,
@@ -75,7 +96,11 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/kDd4zcu7ZxshPabiznEHQfl7khz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/svnZYhAboLrwHEtkKRm2mIdjocB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 262957,
@@ -86,7 +111,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/8wSEvsH1UWUIqacz9ZBCbU7i5LH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c841YfQpZg91vi1lNZmcf1XANqv.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 278882,
@@ -97,7 +126,12 @@
       "releaseDate": "2026-01-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/nXDZlqN7K5F3RuJRZmzVVOlKZ4p.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 280632,
@@ -108,7 +142,11 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/hMFhZSPB42dAH2dR5aPin69S5fM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 278577,
@@ -119,7 +157,10 @@
       "releaseDate": "2025-12-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/e2mINd8gwW2zcMtCiDQulHmssum.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 302726,
@@ -130,7 +171,10 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/tE7rm2kTKy0QsdL2p6lzvsVMvGX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l0vi8Gc2vGQ5CiFULe0Mj6yhCE8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 280916,
@@ -141,7 +185,11 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/oxO7uBExa8fWe98joDVtjSm9zHo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c5Rqjj7f72oS10tzgKzpau9Uq2B.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 263219,
@@ -152,7 +200,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/2LjFKTDjYhQAW7ehLytH7V4Ucho.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/y1k8KhifyLJxZUK3ObviZiQREPJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 259554,
@@ -163,7 +214,10 @@
       "releaseDate": "2026-01-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 283950,
@@ -174,7 +228,10 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312002,
@@ -185,7 +242,10 @@
       "releaseDate": "2025-11-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/tarDJfifT8bvxKd4QHlMF1XfIAG.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 246386,
@@ -196,7 +256,12 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/lgVY2OSdzOZ5uaAhVunWkAnHM9f.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uv0LVwNM8mZcwhCa5pd6FJxvKDz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 279136,
@@ -207,7 +272,11 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/voXmpCHYbScGXD8NBUYzE3nJl4J.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 308085,
@@ -218,7 +287,10 @@
       "releaseDate": "2025-12-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/cL4ZSWP1pisgiryVNPTDLxnk2ok.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mPZgA3bKjYdxiVFzvdZytjrQVrA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "战争政治"
+      ]
     },
     {
       "id": 254071,
@@ -229,7 +301,12 @@
       "releaseDate": "2026-01-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/qFOgwQtUEcKPVafbIl5ImKtB8Vz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tSFndbpoEctuYviiSRJHjyC31V9.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 284512,
@@ -240,7 +317,11 @@
       "releaseDate": "2025-12-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 311025,
@@ -251,7 +332,11 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/2YoVmj1MlsjG2vevxZLpJndiGDN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eZxFxQnL4DzCdfOWiJ4IZf2eZp7.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 198178,
@@ -262,7 +347,11 @@
       "releaseDate": "2026-01-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 308508,
@@ -273,7 +362,11 @@
       "releaseDate": "2025-12-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/ztatj4WzKwdmtJdGT7R9jthwSXY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2YGizLQTsT7eIJ1gU7pJS1pgmqJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险"
+      ]
     },
     {
       "id": 249971,
@@ -284,7 +377,11 @@
       "releaseDate": "2025-11-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1WTWVTBwPnMVAp7QjV1FuRXhuEf.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险"
+      ]
     },
     {
       "id": 254482,
@@ -295,7 +392,12 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/9DKEd80jWJjiME27nJmTzdVtOLr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "战争政治"
+      ]
     },
     {
       "id": 273112,
@@ -306,7 +408,12 @@
       "releaseDate": "2025-12-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 263048,
@@ -317,7 +424,10 @@
       "releaseDate": "2025-12-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/jebww4SrWIzwqNRchGW5AlR2KNX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zBgOoOIfVdPbIUkaT9lxthcsUAZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 296146,
@@ -328,7 +438,10 @@
       "releaseDate": "2025-12-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 258492,
@@ -339,7 +452,11 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 251994,
@@ -350,7 +467,10 @@
       "releaseDate": "2025-11-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/htvcf2HU0gsRcvApvUNNMYKdI3k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 279041,
@@ -361,7 +481,10 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/5NUddXQVP4Pf4mdfmlhqKPMUSHU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 277052,
@@ -372,7 +495,10 @@
       "releaseDate": "2025-12-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 290983,
@@ -383,7 +509,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/fiI8VPRfsk5Xe43Eq7ldZiarXND.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zlJIkmzcNbAQOc1xL9WVmC0ssab.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 256226,
@@ -394,7 +524,11 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/a6EkylRV9VFKlQax3i80vLW95Pp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jYY27Z9KHE5K1FABmnGtAIHVeGR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 278142,
@@ -405,7 +539,10 @@
       "releaseDate": "2025-11-26",
       "posterPath": "https://image.tmdb.org/t/p/w500/sRTtUYmounFPW8nuG6UzkeesfR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/25w9j2tvI6xAfQOOYWa7YLLxuZs.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 284744,
@@ -416,7 +553,11 @@
       "releaseDate": "2025-12-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/6ADirWn2n3I4oGfLrr3RmCZE2UN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dxLxJVZQQ77S8K52myee4sJskxc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 278927,
@@ -427,7 +568,10 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOndRgTrDDj4a582suRULBalBN8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/d4rqmgI01cIUQ3e1qqZgNsFfeGB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 273160,
@@ -438,7 +582,11 @@
       "releaseDate": "2026-01-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/gh5XBBjNTIfjfeDLuzPRDW7RFUS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 255064,
@@ -449,7 +597,11 @@
       "releaseDate": "2026-01-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/frh8aDHSjbnyHv2YU5fJBThEhK3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3pxPbuDzuZaWRdheGptiDTM9jFz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 313056,
@@ -460,7 +612,11 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/9YrE32g6RrypLotqdp4UbRLWVlB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9mFGkqbXvFYVnRg4VAwmXjd8Qw1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 259731,
@@ -471,7 +627,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/vRXw6fUD9B4RhMoTvhcJcnHYIMP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n4hJLZmBG8kZccNn7bNgBDsVQ6a.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 278165,
@@ -482,7 +643,11 @@
       "releaseDate": "2025-11-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/kDd1WmVsbNXaxwtfkbtKL1BNS6J.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cXCqkzOZ3vAgaskIBwDR2zTkH0M.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 252739,
@@ -493,7 +658,12 @@
       "releaseDate": "2025-10-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/ud5RNliQshB1mg4XLyPGUZnZKVN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ex8tr0HjFIsOWf968DuJwTKAZjg.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "动作冒险"
+      ]
     },
     {
       "id": 262997,
@@ -504,7 +674,10 @@
       "releaseDate": "2025-11-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gzkvQnrCtQYAh6ev13SIzEx5yTF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312731,
@@ -515,7 +688,11 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/79Uv5tW1gua2eFYlnuCNN49EMfJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uC3fB46tTc4ntyOpmp7lcFKRQ1d.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 297424,
@@ -526,7 +703,11 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/s7NUr6S9UaqCAEPTISNaqnJ4ZBP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9s3oQk0DmNkVwUjcvbivIIj05YT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 240459,
@@ -537,7 +718,11 @@
       "releaseDate": "2025-12-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 239385,
@@ -548,7 +733,11 @@
       "releaseDate": "2025-11-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cqkmEHLE4LjPHSqKdLt4pJFJv0f.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 306762,
@@ -559,7 +748,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/ogbZc8ELD0XnzCtWE0jGNbesiNc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/MYrRkkE2L0DKw5CRjbCYeQjLAq.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 209110,
@@ -570,7 +763,11 @@
       "releaseDate": "2025-12-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4Bvk0EVHCjswWQYFHdRNsVWLtk8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 280587,
@@ -581,7 +778,11 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/rtUa4tInMnPFGkF79ylhVRhYmFP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rUAi2tUpSzRS8nDFRaYUu5tZClL.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 253476,
@@ -592,7 +793,11 @@
       "releaseDate": "2026-01-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/wjh7Ju3vO6T58Z6IPqSSyaGt6VA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nUBAxPUHcHefOo0mgLT01g0fEyZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 304256,
@@ -603,7 +808,11 @@
       "releaseDate": "2025-11-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/AiedGW8nsTI4qzlunfY5QWuzNAD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBJL8QksUvrmT8ra04x7krejUAe.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 250505,
@@ -614,7 +823,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/nrmJhb5wB5cDTOWebIzyXqfiGMc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eVEbRtSOrczWlYnVmwM195AnX86.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 282471,
@@ -625,7 +838,10 @@
       "releaseDate": "2025-10-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/vytkrWR9TWThsgGiin8boRJwWXA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eJKWvkgJE6Rdtr9qibK2Dmw9PPQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 309727,
@@ -636,7 +852,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/SNAlHy8zGrPaKVktII8YrN3yNH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/VUSs0WjqCLyLIml0m2L4P0dOTI.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "儿童"
+      ]
     },
     {
       "id": 275631,
@@ -647,7 +867,10 @@
       "releaseDate": "2026-01-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/bLpB80mZqkEFxUi0DKWozPaUfCv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uFgnJzuffcZhkQAbAhzMGTFQif4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312039,
@@ -658,7 +881,10 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/2yvku7T7UKiTkcJ5Mb7uujl2fn9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wykuSrGgKbwErqrCND9DGhZ4Lo8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 254166,
@@ -669,7 +895,10 @@
       "releaseDate": "2025-11-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/64E5c16WXzkFeBV76fYX0RpubKm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xGiiGyhBWFNc3pqLCIrEAsnB3lc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 246473,
@@ -680,7 +909,11 @@
       "releaseDate": "2025-12-24",
       "posterPath": "https://image.tmdb.org/t/p/w500/b8RqVzxYGKKAZUQ1pjdqU6vh8ve.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 301874,
@@ -691,7 +924,10 @@
       "releaseDate": "2025-11-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/pTXxLIZU9zhBmkx2ZSkBnY8ECs5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zS5dYnequDfVWutSVxE1uOpbLHC.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧"
+      ]
     },
     {
       "id": 263151,
@@ -702,7 +938,11 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/2ilIbodMYijMA0XnyfH852mth10.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 310024,
@@ -713,7 +953,10 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/gJdZsSTTFlmONonSdef9WxtLAa7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Wd0u61GRl9fWwQp74RwCsnrDAk.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 312533,
@@ -724,7 +967,10 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/wLsLICGr3ia25xlIMGa2lIXDYCl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sVKxhv0o9aNOZatjN7Y3TnMhJ3j.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 285278,
@@ -735,7 +981,12 @@
       "releaseDate": "2025-12-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/u9Gczr77gvxan27sLuwL5vcziyR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sLSbzjid9shizEeHR0KFJU5ZYKW.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 257789,
@@ -746,7 +997,10 @@
       "releaseDate": "2025-12-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/qKAEETQekVthPO6JgJ0T6aalQK2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/owpHW3RR1sblt74An0YhjQCD3q5.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 286126,
@@ -757,7 +1011,11 @@
       "releaseDate": "2025-12-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/eZ7jw8gavFcuLPh0FAT6LXMhWIW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/113VPI8oYOr8s2b7NdatAYKs9nM.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "战争政治"
+      ]
     },
     {
       "id": 291389,
@@ -768,7 +1026,10 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/kQ9UK0uBPRMqA3V9kirVD5j7k67.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5AeBD25GlziDpHKILm7zP2BKgwF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 263044,
@@ -779,7 +1040,10 @@
       "releaseDate": "2025-10-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 295890,
@@ -790,7 +1054,10 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/6Q5AywwqCN2pHIrBUBHdGfBkzJ7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aoFLvidrtOg0D0k0AA0veW0d4vG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 306207,
@@ -801,7 +1068,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/lxo5aQtdmcB662LdWQu4tTZxytA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6t0yrpMPfxQWl4kmYCbOU1URqaE.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 304194,
@@ -812,7 +1082,12 @@
       "releaseDate": "2026-01-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/aJ61VKSd3QkPOloquJ1lF0RLS3f.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iciDvO9pqTWgVMhDdwiDXNRtMo3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 241576,
@@ -823,7 +1098,12 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/luJqJM18LgxISIKJj55cA84NogP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b9nrdh1VaspBckmaDwftW4mcOyC.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 284828,
@@ -834,7 +1114,11 @@
       "releaseDate": "2026-01-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/AugrI6oR9gLPHoPMMhx6awuXelN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ychH8vLDbBDKVWgZ6WC68iYNIzi.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 282810,
@@ -845,7 +1129,12 @@
       "releaseDate": "2026-01-02",
       "posterPath": "https://image.tmdb.org/t/p/w500/pSvHtvThGPOstnl2eK1oc0CQWaa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l3qDk8o59jgLfO5HBAJKpCwMAld.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 270420,
@@ -856,7 +1145,12 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/gaD8NAb2SmVMXM8OQL63R0nsE9y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sa9igU1XIER6bMgtZ2Ejfo1KsD8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 278157,
@@ -867,7 +1161,10 @@
       "releaseDate": "2026-02-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/bM2mFvWmmELCpYOG9wr8FBGSdFK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iqmvZWm1gn6j1vC86GU4e2D8z5A.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 273131,
@@ -878,7 +1175,10 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/vPPAWf3oUM5xjFMZZdM9y4LvB5d.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yFUTNUidyuCt2pZ8wqVy7YbJc53.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 307682,
@@ -889,7 +1189,10 @@
       "releaseDate": "2026-01-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/dn0MVtByu6DKGzb2n9QBm9AqRCr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1KcYtPH9s2wRMnBLszfC7JygohT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 295430,
@@ -900,7 +1203,10 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/6PHfor9C4rB84FLwaVvR42xA3Nm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aOC9SrZjzKN2m1ILbJF3XlUPITK.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 281013,
@@ -911,7 +1217,11 @@
       "releaseDate": "2025-11-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/iVZPgJymzHN0LiMXw4dWf2V7P5w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cTFQKu8CLftXHUCIBGksfL8uhf3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 307650,
@@ -922,7 +1232,11 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/emcQQsHTic8EshyiGpPPcYOdtjI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rDZBbqvXkZGxPqe9szBtSIvAgji.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 307182,
@@ -933,7 +1247,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/zmta09ZIB0MWE4QW6bDpNDGAlTF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/37LHNrVLu5HrQGBqI7V3cYPQ6Z3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 287231,
@@ -944,7 +1261,11 @@
       "releaseDate": "2026-02-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/KVyfJoW4nO1CATxHrD7oR8rRJH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qI2pX6IWQojvh2kaLv6M233Iwqb.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 246412,
@@ -955,7 +1276,12 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/40LNkGfFZWtbQBzKUuDV2qq1lkk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "科幻奇幻",
+        "悬疑"
+      ]
     },
     {
       "id": 262262,
@@ -966,7 +1292,11 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/dZQUJiG2scf8APdnMnMilB8A9GS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eV31zFSUF534xmpBEkHINkmsSnG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 280948,
@@ -977,7 +1307,11 @@
       "releaseDate": "2026-01-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/lPbh6NkontXBKkgQdnaHk6S2fq2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 270856,
@@ -988,7 +1322,11 @@
       "releaseDate": "2025-12-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/iSWWHkCz83ZGWHVcluCmve5np44.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kXGdrgIkKttrAvKFMCrM8P3wSE4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 308682,
@@ -999,7 +1337,11 @@
       "releaseDate": "2026-02-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/20zBJwtTcMLm3EHDaVvPiLfLjdq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hssgXZY0gBKqAShSrcqRWtUeXOX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 252193,
@@ -1010,7 +1352,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vcU8hIHXuADItJSzEmt2F8IMq5l.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "剧情"
+      ]
     },
     {
       "id": 275989,
@@ -1021,7 +1367,10 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/u7VVrYOuOdRLDhlC1fBxxOjkt2T.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6VYRfXF9XjdQyJlYjsJ4LQOcssZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 282158,
@@ -1032,7 +1381,13 @@
       "releaseDate": "2026-01-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/kcgqqnmSMExwITZ7gn3gw62c9l5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eOhBg0HGmpVatlg9EUgeuPszvfk.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "动画",
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 270858,
@@ -1043,7 +1398,11 @@
       "releaseDate": "2025-11-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/7pO7e8LtIk8KT68uRBqGV4w4iPF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/f3eqWrwdpUrF8K6byvRtVMfabJB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 307977,
@@ -1054,7 +1413,11 @@
       "releaseDate": "2026-01-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/ECjZFaPrGoNZeRXMvo1TQg8sR2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1KyKeNuos6joVHvQPBAqMfA2EE3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 293608,
@@ -1065,7 +1428,12 @@
       "releaseDate": "2026-01-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/47T6il9NGTvqm9I58GtPt9eNGTv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/awldlWlTkCeuohxZMGKhQwyydGA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 291339,
@@ -1076,7 +1444,11 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 298567,
@@ -1087,7 +1459,10 @@
       "releaseDate": "2025-11-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/cmZCkU8UYxVTjVlnIrnW5xHWYsV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a4iuWhgZhvtHlBzozkNggciOjV8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 301885,
@@ -1098,7 +1473,10 @@
       "releaseDate": "2026-01-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/qGBbNhVUdth0xmbS7JBIruAl5S8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/t5rA4vqttpwbhqp23QtCQdtaO8x.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 305227,
@@ -1109,7 +1487,10 @@
       "releaseDate": "2026-01-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/aVqtwHKs8LtcTtzznKhvamqm5gr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vFuORyhRU3pdxdd2lAGruo2hXX3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 250504,
@@ -1120,7 +1501,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/gKX1dsnIIoDFyZxmKv3s7PZ8iXJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ylW0m5UztyyL4YFu8EC6usUHLF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 278164,
@@ -1131,7 +1516,11 @@
       "releaseDate": "2026-01-20",
       "posterPath": "https://image.tmdb.org/t/p/w500/2hk3xyrZVMMAAe8lVPv77CODIsg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gfmkw323bG7Q9XXzxEgNWNiAxnd.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 278146,
@@ -1142,18 +1531,27 @@
       "releaseDate": "2025-12-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/id15Evrv2UKg2MBpueMTmxnlrZY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qNTjmaC8y5XnAMzmnULZXixKAm.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 238458,
       "type": "tmdb",
       "title": "现金英雄",
       "description": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
-      "rating": 7.292,
+      "rating": 7.266,
       "releaseDate": "2025-12-26",
       "posterPath": "https://image.tmdb.org/t/p/w500/hIQwZleQDWyhwGlnW1O6wUTnIiY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lr0h0OBj7QOEvkaX5g3JWoaKZsI.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "剧情"
+      ]
     },
     {
       "id": 279601,
@@ -1164,7 +1562,11 @@
       "releaseDate": "2025-12-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lSffVt0etoSLyl2hsTREdJ1CnQ1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "家庭"
+      ]
     },
     {
       "id": 271015,
@@ -1175,7 +1577,10 @@
       "releaseDate": "2025-11-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/nfpOK1KHPBZFTUAvHNrdxXvTUhf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1ybpRrDgtejMdAP04Qhtd52QwWT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 262793,
@@ -1186,7 +1591,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/hV29h9XRCJOPtIIiJ1vkEY1xMV3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/Ak7AdQpvmZpSe9WYBd5KrgjSsSX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 274760,
@@ -1197,7 +1606,11 @@
       "releaseDate": "2025-12-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "家庭"
+      ]
     },
     {
       "id": 282901,
@@ -1208,7 +1621,11 @@
       "releaseDate": "2025-12-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/7HwRRXaegCiO4GxEGcAt9MPjLxc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/XvtxaWSZGMRGYYL3OZkn4JP9L5.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 304928,
@@ -1219,7 +1636,11 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/aMMXFeeIuIxMFrH6ooDHCrRssGb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1vfUzGinUY2JyHoGOU1je6gNXpx.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 263218,
@@ -1230,7 +1651,10 @@
       "releaseDate": "2025-11-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/eQhBiO0ELLjOsUPW47ZEwEs62KU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yB0WlkEWHk8MKVptutO5awGUM23.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 252322,
@@ -1241,7 +1665,10 @@
       "releaseDate": "2025-11-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/ikG4BhHNf7JwveVC7HbdVYTkmYw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tMHyxA6v9fU8ELulaXAS84xrVHA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 293530,
@@ -1252,7 +1679,13 @@
       "releaseDate": "2025-11-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/5Ze7dFENTecawz1RnpbpmM4NWkD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zuVqYUqXH4GDDbpG48nuQc03k16.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 305105,
@@ -1263,7 +1696,10 @@
       "releaseDate": "2026-01-20",
       "posterPath": "https://image.tmdb.org/t/p/w500/vwurXNCBznFl6RichCsRlDzSg8Z.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qF8p3X7uIDjrzteXzyDBvKajEJ0.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 244244,
@@ -1274,7 +1710,11 @@
       "releaseDate": "2026-01-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 274641,
@@ -1285,7 +1725,10 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/uhMgwSTupwkVMOkaAHIzmgVpcpC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2YhgLOLTgoCd77r7a5RVpLooPqw.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 287115,
@@ -1296,7 +1739,11 @@
       "releaseDate": "2026-01-24",
       "posterPath": "https://image.tmdb.org/t/p/w500/sG1HZrLhg9mnvTvC9VvlFkjRLKj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aA5arZOOPRm2fJoYlPka24V1ryv.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 278154,
@@ -1307,7 +1754,11 @@
       "releaseDate": "2025-12-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/h9sVFxTrNFpmg1qEGJoVN0ExQBI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5mMxNsDe6CgGv3A7j37Gap0jV8N.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 296523,
@@ -1318,7 +1769,11 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/upUOfPAMhjWDPu8R31r9YvYDfum.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qW3M9pEA1WdfyingbUuhtsmLNJK.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 281401,
@@ -1329,7 +1784,10 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/kN5aglEWD1cfrzv1DULfWfzrUUI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3aeYYriPQN7886in9bIGKnbC5eQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 309290,
@@ -1340,7 +1798,11 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/s7IYEZQ2AyscAiDmuS6jgetOt6Y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8vg43kdGjDVShU678TbBxHKjT74.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 305002,
@@ -1351,7 +1813,10 @@
       "releaseDate": "2026-01-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/1Vpu2bTZc2UENkziMWMT38kJjaJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bYIBtplNjntdVVxny0xfvF1ip9y.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 281005,
@@ -1362,7 +1827,11 @@
       "releaseDate": "2025-12-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/69UH3A6JlsaHseqDviu9YtfjvyG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2sthhg2okBF91wlwxvFaM4eXiTg.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 259886,
@@ -1373,7 +1842,11 @@
       "releaseDate": "2025-12-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/fmlam3xNaZOx9XJTo5SoQctkwOv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9OUDNZjZOgJiFTjXfOtUBy90FUH.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 283119,
@@ -1384,7 +1857,12 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/nJEaALwGhCdsHjZun3dOVDfvTgD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n0oinZsZqtZ7ug8jtfS4J7Bt52L.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 310963,
@@ -1395,7 +1873,10 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/gwiBbMkEhMk1Lfu0S2gsWsJgUp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/q26tcczglYxOMBOXerA4gaOjAm5.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 285357,
@@ -1406,7 +1887,13 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/lWNtQ6Ju61H1JYca0xdxIztegDV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uLC9tdRSPcKsgvRLth38WEbm8pa.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 281161,
@@ -1417,7 +1904,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/iEtEDr5CfVcUhWXFze18Rl2Q9CN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wThJAr5CYaLXH5qNhleCfbNrNSE.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 261253,
@@ -1428,7 +1920,12 @@
       "releaseDate": "2025-11-02",
       "posterPath": "https://image.tmdb.org/t/p/w500/jgsKUyOwzxBGmCGGyLsEqOHsIij.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yooACIO8tLgxAIs6RPckD79wgws.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "家庭",
+        "悬疑"
+      ]
     },
     {
       "id": 278271,
@@ -1439,7 +1936,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/fgG5AAn7st7ZCSLmcDWPd08WZCv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8DEkl9AyRl8mvyvIirCsVvyYAg8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "喜剧",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 305816,
@@ -1450,7 +1952,11 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/5eENfxWAZQVBZth1y5SHDh7qLjd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tPMNxlMVPhg9cPuEzPP23wl5QfM.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 274141,
@@ -1461,7 +1967,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/aPazanJSBdB8GBTaTOSXy2VJk60.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wTNcq9alDaNx2O65dsXz7HGeDSh.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 284444,
@@ -1472,7 +1983,12 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/fnMlh7jvoPvqoIqz5bYnw8MkQwO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jlIvjqSqJXDcwTGG5nzKNeH1K9t.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 219080,
@@ -1483,7 +1999,12 @@
       "releaseDate": "2025-11-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "科幻奇幻",
+        "动作冒险"
+      ]
     },
     {
       "id": 305818,
@@ -1494,7 +2015,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/jlPyytPE0rEQSHDgUsFaot9NV78.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zQjJo0iydzMlJv7ChiRR0Hz1HID.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 285760,
@@ -1505,7 +2029,11 @@
       "releaseDate": "2025-11-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/7VSBuGSEN5OgkQ892OsGuwabtbB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/okit8TyYLkVqfZZhaMggzm89gKM.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 298203,
@@ -1516,7 +2044,12 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/gDbXuXdGfGcd5pfmO8wGiHFvDTd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/etMLUe751O3GnQSHsFbgpijmHRr.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 308275,
@@ -1527,7 +2060,10 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/AjnQUgu5XnrzrCS8WfiR5QEgk8q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lO8f1YgpnsDZkQnmwRkbJXtQUCD.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 280049,
@@ -1538,7 +2074,12 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/8ORt29GnG4gFNrQDUUSE1ZQP9Vm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gf62V8UBVBMFPpD9yI0UFvkFvq2.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 274570,
@@ -1549,7 +2090,12 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/eq6EvcEU4DJqFd1W48h3Wu1gKMp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2i4WbWTwMNTHAVuoAcAUrI05PP1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "喜剧"
+      ]
     },
     {
       "id": 306213,
@@ -1560,7 +2106,10 @@
       "releaseDate": "2026-01-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/lwIIqEs2SZJZ98TtMinAEVMiSh4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cXKiBAnvg8Oh8DOO5uQjGoogT1C.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 310118,
@@ -1571,7 +2120,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/znQoFzT6BRJrUSQqIJJmEg0k6QY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3bgBJeHPcz3AtG39PuAN3Iejix6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 294052,
@@ -1582,7 +2134,11 @@
       "releaseDate": "2025-11-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/ihvQp8S5cMbFq6SvV6mdZBhyAk9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ndd0w1N3ezArV3fmeWaEjD5dl4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 285770,
@@ -1593,7 +2149,11 @@
       "releaseDate": "2025-11-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/2qVVxneWC5NoXNpqT9OoYE3cL3h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xiWu9f9jP2NSmXu2hWzrtafrpQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 295117,
@@ -1604,7 +2164,10 @@
       "releaseDate": "2026-01-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/pDMheYC1YRKWGryNrf2nMNTnRDw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/izy7QqBDgZY13SYKSCAcRuU0ZTf.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 217837,
@@ -1615,7 +2178,12 @@
       "releaseDate": "2025-10-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/xH3dnqf57Cu8iwpHY6IeTV4t1W4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ke3Ctn0jZru8oys8wAsY5oDIDX4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻",
+        "动作冒险"
+      ]
     },
     {
       "id": 307422,
@@ -1626,7 +2194,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/kCqGiR2Ee3cu8U2CuU7SW34PJtU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8kwmew6cK7RyE4oazSoNdyPBU9S.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 308290,
@@ -1637,7 +2208,10 @@
       "releaseDate": "2025-12-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/kyqlZHMQlk8y4Hhw8fKASSnxi7L.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1VyJnV2kXswxdxtlthCgvRO137E.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 197491,
@@ -1648,7 +2222,11 @@
       "releaseDate": "2025-12-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/1UbNImFy3fDxqh3ay7Xjdu6sWF5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yvEPuVdVbGbkvxuXFDu0PyTkG99.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 272418,
@@ -1659,7 +2237,11 @@
       "releaseDate": "2025-11-02",
       "posterPath": "https://image.tmdb.org/t/p/w500/3teWChNzKJdbfen46IdeKTygdZa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uoIOfRNmu47P2fET2KnrYHt3TH.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 303748,
@@ -1670,7 +2252,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/wKO9jt3lXB25blhrDiNjs6FiVDG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sjNcFeeR663zIseK7v9IEvh5poO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 274380,
@@ -1681,7 +2267,10 @@
       "releaseDate": "2025-10-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/jaAnpT21nEGEeRFdTiseWmfw0dE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fbTeoRJf0dZ37O4QNtTyPRiggKa.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻"
+      ]
     },
     {
       "id": 223300,
@@ -1692,7 +2281,11 @@
       "releaseDate": "2025-12-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dHCr5HgldBavJPzAYFYmM0rEdQo.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "西部"
+      ]
     },
     {
       "id": 307013,
@@ -1703,7 +2296,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/a17NLD53cGTqNMdlqe63eLPuPo8.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 302540,
@@ -1714,7 +2310,13 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/vWULYz6Pp5vDevVVBawVDZcgKJh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pXdkJvhBcPf8oEj831ASMkLPXKT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "犯罪",
+        "喜剧",
+        "家庭"
+      ]
     },
     {
       "id": 307677,
@@ -1725,7 +2327,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/jmMZlm0JApy3bMWJpvX6iBEurs6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fZ2C0xRmKnKY2TuqL8TH033KFcV.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 297642,
@@ -1736,7 +2341,10 @@
       "releaseDate": "2025-11-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 310810,
@@ -1747,7 +2355,10 @@
       "releaseDate": "2026-01-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/sbV7ERzcemvJdfwYbNtsz70UgY8.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 287591,
@@ -1758,7 +2369,11 @@
       "releaseDate": "2026-01-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/3061lEeTTSb5NtX0ASXnRSO7Mo5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6Eg3t2KdtqiF29G7a7S1Npl93g8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 277584,
@@ -1769,7 +2384,10 @@
       "releaseDate": "2026-01-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/tFFOtPLjzJkD6XCtWYp7hibOcPP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8dluhsKP0VzZVif1IlltBLmDD62.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧"
+      ]
     },
     {
       "id": 301909,
@@ -1780,7 +2398,10 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/5KZtuCt1pWJjp9ejSYGzjx7MX5K.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g3U4dTRLkD3k98kavIIGXWLP1b6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 299878,
@@ -1791,7 +2412,10 @@
       "releaseDate": "2025-11-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/iQU1r4fkPayjYPALYTOeU749zwM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mwJiHvhcSdhDIG81aarJbddUDLR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 296520,
@@ -1802,7 +2426,12 @@
       "releaseDate": "2025-11-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/frDntanA2DMcNppQYBY5NfHmMM2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kgWPwLlDW6Ay8f4jvwybZKA0L9A.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 303315,
@@ -1813,7 +2442,11 @@
       "releaseDate": "2025-12-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/vA9cNH1c0EbXyEWdON5fhzC7yhB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oRojicdeqfW0NPnIpV8npVypdjr.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 283891,
@@ -1824,7 +2457,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/xKVJu2INm7wfeeXSRtEGLGpVzdZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jK9HlovnISpiraw75B0o6qxlMbw.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "悬疑",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 286291,
@@ -1835,7 +2473,13 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/3KxyECISY5arB72ADxUuY4DUwJL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pDQ9P84InNrBN1hDTCjhQ1dN1kO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 277752,
@@ -1846,7 +2490,11 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/iefxPSC0ysbiesu0QV3TvV9tFdZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jKyYbESbbsDuEF0G2a9Kg5zuttG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 305078,
@@ -1857,7 +2505,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/1ifRpg5Hj3ldJHQWuqXapcA39xS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iyTI8V5KPNzpcir6CKViR2gjFFY.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 299950,
@@ -1868,7 +2519,10 @@
       "releaseDate": "2025-11-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/pz0bLCVLqXPZRYEBKD2jxXM1kxR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kufteBy1fhiv5zgDfK7SAEk0eQU.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 308968,
@@ -1879,7 +2533,10 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/tA69wzMSpigU9MEHirGL8enZYsr.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 306747,
@@ -1890,7 +2547,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/98OortxZdxhbxCaord7nEEkmf3F.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 245219,
@@ -1901,7 +2561,11 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/fFXIzuSMQ9zSCOJtAkNDuJDzHVW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l89mjyc8tGfhEalwDIeGqmXLR1N.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 283392,
@@ -1912,7 +2576,11 @@
       "releaseDate": "2025-11-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/snnfulxgcvVdBx3olwiUGpG0var.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rLRcegZCRnnBNZJ056x4Q28J02L.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 303109,
@@ -1923,7 +2591,10 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/63hWjrNMZgQDGNFKCiO4dbwvtKq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nZKcaSSV7NaGfuPeE6N4Xt5St7E.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 261902,
@@ -1934,10 +2605,14 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/dX4Yer4TWcem8MKvEhXxZFhZAZH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wG6bbIKNGRZ9yU8PTHmcfVkQ843.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     }
   ],
-  "国产剧": [
+  "tv_domestic": [
     {
       "id": 282558,
       "type": "tmdb",
@@ -1947,7 +2622,10 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4GNUqF6M6FPP36Dqw5Mdpuup8kh.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 289723,
@@ -1958,7 +2636,11 @@
       "releaseDate": "2026-01-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/2XVSrurMxtdPWHLxYuoZsfuftVi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 279446,
@@ -1969,7 +2651,10 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 278127,
@@ -1980,7 +2665,11 @@
       "releaseDate": "2026-02-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/qvY538wQj2U4NMy4aMV5mbbP2aF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1mLSH6ssXakJXj9bIQh4GAg5eO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 261676,
@@ -1991,7 +2680,11 @@
       "releaseDate": "2026-02-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 279593,
@@ -2002,7 +2695,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 262957,
@@ -2013,7 +2709,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/8wSEvsH1UWUIqacz9ZBCbU7i5LH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c841YfQpZg91vi1lNZmcf1XANqv.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 278882,
@@ -2024,7 +2724,12 @@
       "releaseDate": "2026-01-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/nXDZlqN7K5F3RuJRZmzVVOlKZ4p.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 280632,
@@ -2035,7 +2740,11 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/hMFhZSPB42dAH2dR5aPin69S5fM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 278577,
@@ -2046,7 +2755,10 @@
       "releaseDate": "2025-12-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/e2mINd8gwW2zcMtCiDQulHmssum.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 302726,
@@ -2057,7 +2769,10 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/tE7rm2kTKy0QsdL2p6lzvsVMvGX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l0vi8Gc2vGQ5CiFULe0Mj6yhCE8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 280916,
@@ -2068,7 +2783,11 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/oxO7uBExa8fWe98joDVtjSm9zHo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c5Rqjj7f72oS10tzgKzpau9Uq2B.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 263219,
@@ -2079,7 +2798,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/2LjFKTDjYhQAW7ehLytH7V4Ucho.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/y1k8KhifyLJxZUK3ObviZiQREPJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 259554,
@@ -2090,7 +2812,10 @@
       "releaseDate": "2026-01-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 283950,
@@ -2101,7 +2826,10 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312002,
@@ -2112,7 +2840,10 @@
       "releaseDate": "2025-11-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/tarDJfifT8bvxKd4QHlMF1XfIAG.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 279136,
@@ -2123,7 +2854,11 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/voXmpCHYbScGXD8NBUYzE3nJl4J.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 308085,
@@ -2134,7 +2869,10 @@
       "releaseDate": "2025-12-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/cL4ZSWP1pisgiryVNPTDLxnk2ok.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mPZgA3bKjYdxiVFzvdZytjrQVrA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "战争政治"
+      ]
     },
     {
       "id": 284512,
@@ -2145,7 +2883,11 @@
       "releaseDate": "2025-12-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 311025,
@@ -2156,7 +2898,11 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/2YoVmj1MlsjG2vevxZLpJndiGDN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eZxFxQnL4DzCdfOWiJ4IZf2eZp7.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 308508,
@@ -2167,7 +2913,11 @@
       "releaseDate": "2025-12-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/ztatj4WzKwdmtJdGT7R9jthwSXY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2YGizLQTsT7eIJ1gU7pJS1pgmqJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险"
+      ]
     },
     {
       "id": 249971,
@@ -2178,7 +2928,11 @@
       "releaseDate": "2025-11-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/a2ab28sPQNi9xGmvEzRIiydbqMr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1WTWVTBwPnMVAp7QjV1FuRXhuEf.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险"
+      ]
     },
     {
       "id": 254482,
@@ -2189,7 +2943,12 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/9DKEd80jWJjiME27nJmTzdVtOLr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "战争政治"
+      ]
     },
     {
       "id": 273112,
@@ -2200,7 +2959,12 @@
       "releaseDate": "2025-12-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 263048,
@@ -2211,7 +2975,10 @@
       "releaseDate": "2025-12-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/jebww4SrWIzwqNRchGW5AlR2KNX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zBgOoOIfVdPbIUkaT9lxthcsUAZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 296146,
@@ -2222,7 +2989,10 @@
       "releaseDate": "2025-12-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 258492,
@@ -2233,7 +3003,11 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/vIf5ueGBbNBjUBlK2zMjQFLoAK3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 251994,
@@ -2244,7 +3018,10 @@
       "releaseDate": "2025-11-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/htvcf2HU0gsRcvApvUNNMYKdI3k.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/95irEMwDL14I8ICyAeUxVCucq4c.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 279041,
@@ -2255,7 +3032,10 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/5NUddXQVP4Pf4mdfmlhqKPMUSHU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 277052,
@@ -2266,7 +3046,10 @@
       "releaseDate": "2025-12-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 290983,
@@ -2277,7 +3060,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/fiI8VPRfsk5Xe43Eq7ldZiarXND.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zlJIkmzcNbAQOc1xL9WVmC0ssab.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 278927,
@@ -2288,7 +3075,10 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOndRgTrDDj4a582suRULBalBN8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/d4rqmgI01cIUQ3e1qqZgNsFfeGB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 313056,
@@ -2299,7 +3089,11 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/9YrE32g6RrypLotqdp4UbRLWVlB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9mFGkqbXvFYVnRg4VAwmXjd8Qw1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 262997,
@@ -2310,7 +3104,10 @@
       "releaseDate": "2025-11-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/bubNWLmQlkv8KxRxHgbFaRo4cEN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gzkvQnrCtQYAh6ev13SIzEx5yTF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312731,
@@ -2321,7 +3118,11 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/79Uv5tW1gua2eFYlnuCNN49EMfJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uC3fB46tTc4ntyOpmp7lcFKRQ1d.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 280587,
@@ -2332,7 +3133,11 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/rtUa4tInMnPFGkF79ylhVRhYmFP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rUAi2tUpSzRS8nDFRaYUu5tZClL.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 275631,
@@ -2343,7 +3148,10 @@
       "releaseDate": "2026-01-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/bLpB80mZqkEFxUi0DKWozPaUfCv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uFgnJzuffcZhkQAbAhzMGTFQif4.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 312039,
@@ -2354,7 +3162,10 @@
       "releaseDate": "2026-02-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/2yvku7T7UKiTkcJ5Mb7uujl2fn9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wykuSrGgKbwErqrCND9DGhZ4Lo8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 254166,
@@ -2365,7 +3176,10 @@
       "releaseDate": "2025-11-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/64E5c16WXzkFeBV76fYX0RpubKm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xGiiGyhBWFNc3pqLCIrEAsnB3lc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 301874,
@@ -2376,7 +3190,10 @@
       "releaseDate": "2025-11-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/pTXxLIZU9zhBmkx2ZSkBnY8ECs5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zS5dYnequDfVWutSVxE1uOpbLHC.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧"
+      ]
     },
     {
       "id": 263151,
@@ -2387,7 +3204,11 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/2ilIbodMYijMA0XnyfH852mth10.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 312533,
@@ -2398,7 +3219,10 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/wLsLICGr3ia25xlIMGa2lIXDYCl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sVKxhv0o9aNOZatjN7Y3TnMhJ3j.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 257789,
@@ -2409,7 +3233,10 @@
       "releaseDate": "2025-12-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/qKAEETQekVthPO6JgJ0T6aalQK2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/owpHW3RR1sblt74An0YhjQCD3q5.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 286126,
@@ -2420,7 +3247,11 @@
       "releaseDate": "2025-12-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/eZ7jw8gavFcuLPh0FAT6LXMhWIW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/113VPI8oYOr8s2b7NdatAYKs9nM.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "战争政治"
+      ]
     },
     {
       "id": 291389,
@@ -2431,7 +3262,10 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/kQ9UK0uBPRMqA3V9kirVD5j7k67.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5AeBD25GlziDpHKILm7zP2BKgwF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 263044,
@@ -2442,7 +3276,10 @@
       "releaseDate": "2025-10-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/fciOFbC7nwgnKHkBTtW3XeoEuPI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pBz1oWgrrV0F9QKf8OwaUdGFmM6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 295890,
@@ -2453,10 +3290,13 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/6Q5AywwqCN2pHIrBUBHdGfBkzJ7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/aoFLvidrtOg0D0k0AA0veW0d4vG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     }
   ],
-  "欧美剧": [
+  "tv_american": [
     {
       "id": 246386,
       "type": "tmdb",
@@ -2466,7 +3306,12 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/lgVY2OSdzOZ5uaAhVunWkAnHM9f.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uv0LVwNM8mZcwhCa5pd6FJxvKDz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 254071,
@@ -2477,7 +3322,12 @@
       "releaseDate": "2026-01-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/qFOgwQtUEcKPVafbIl5ImKtB8Vz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tSFndbpoEctuYviiSRJHjyC31V9.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 198178,
@@ -2488,7 +3338,11 @@
       "releaseDate": "2026-01-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 273160,
@@ -2499,7 +3353,11 @@
       "releaseDate": "2026-01-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/gh5XBBjNTIfjfeDLuzPRDW7RFUS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 259731,
@@ -2510,7 +3368,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/vRXw6fUD9B4RhMoTvhcJcnHYIMP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n4hJLZmBG8kZccNn7bNgBDsVQ6a.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 240459,
@@ -2521,7 +3384,11 @@
       "releaseDate": "2025-12-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 250505,
@@ -2532,7 +3399,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/nrmJhb5wB5cDTOWebIzyXqfiGMc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eVEbRtSOrczWlYnVmwM195AnX86.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 287231,
@@ -2543,7 +3414,11 @@
       "releaseDate": "2026-02-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/KVyfJoW4nO1CATxHrD7oR8rRJH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qI2pX6IWQojvh2kaLv6M233Iwqb.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 246412,
@@ -2554,7 +3429,12 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/40LNkGfFZWtbQBzKUuDV2qq1lkk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "科幻奇幻",
+        "悬疑"
+      ]
     },
     {
       "id": 262262,
@@ -2565,7 +3445,11 @@
       "releaseDate": "2026-01-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/dZQUJiG2scf8APdnMnMilB8A9GS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eV31zFSUF534xmpBEkHINkmsSnG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     },
     {
       "id": 291339,
@@ -2576,7 +3460,11 @@
       "releaseDate": "2026-01-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 250504,
@@ -2587,7 +3475,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/gKX1dsnIIoDFyZxmKv3s7PZ8iXJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ylW0m5UztyyL4YFu8EC6usUHLF.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 279601,
@@ -2598,7 +3490,11 @@
       "releaseDate": "2025-12-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lSffVt0etoSLyl2hsTREdJ1CnQ1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "家庭"
+      ]
     },
     {
       "id": 262793,
@@ -2609,7 +3505,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/hV29h9XRCJOPtIIiJ1vkEY1xMV3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/Ak7AdQpvmZpSe9WYBd5KrgjSsSX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 244244,
@@ -2620,7 +3520,11 @@
       "releaseDate": "2026-01-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 296523,
@@ -2631,7 +3535,11 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/upUOfPAMhjWDPu8R31r9YvYDfum.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qW3M9pEA1WdfyingbUuhtsmLNJK.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 281401,
@@ -2642,7 +3550,10 @@
       "releaseDate": "2026-01-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/kN5aglEWD1cfrzv1DULfWfzrUUI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3aeYYriPQN7886in9bIGKnbC5eQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 259886,
@@ -2653,7 +3564,11 @@
       "releaseDate": "2025-12-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/fmlam3xNaZOx9XJTo5SoQctkwOv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9OUDNZjZOgJiFTjXfOtUBy90FUH.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 272418,
@@ -2664,7 +3579,11 @@
       "releaseDate": "2025-11-02",
       "posterPath": "https://image.tmdb.org/t/p/w500/3teWChNzKJdbfen46IdeKTygdZa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uoIOfRNmu47P2fET2KnrYHt3TH.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 223300,
@@ -2675,7 +3594,11 @@
       "releaseDate": "2025-12-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dHCr5HgldBavJPzAYFYmM0rEdQo.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "西部"
+      ]
     },
     {
       "id": 296520,
@@ -2686,7 +3609,12 @@
       "releaseDate": "2025-11-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/frDntanA2DMcNppQYBY5NfHmMM2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kgWPwLlDW6Ay8f4jvwybZKA0L9A.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情",
+        "悬疑"
+      ]
     },
     {
       "id": 277752,
@@ -2697,10 +3625,14 @@
       "releaseDate": "2025-12-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/iefxPSC0ysbiesu0QV3TvV9tFdZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jKyYbESbbsDuEF0G2a9Kg5zuttG.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ]
     }
   ],
-  "日剧": [
+  "tv_japanese": [
     {
       "id": 304256,
       "type": "tmdb",
@@ -2710,7 +3642,11 @@
       "releaseDate": "2025-11-21",
       "posterPath": "https://image.tmdb.org/t/p/w500/AiedGW8nsTI4qzlunfY5QWuzNAD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mBJL8QksUvrmT8ra04x7krejUAe.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 306207,
@@ -2721,7 +3657,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/lxo5aQtdmcB662LdWQu4tTZxytA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6t0yrpMPfxQWl4kmYCbOU1URqaE.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 304194,
@@ -2732,7 +3671,12 @@
       "releaseDate": "2026-01-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/aJ61VKSd3QkPOloquJ1lF0RLS3f.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iciDvO9pqTWgVMhDdwiDXNRtMo3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 307682,
@@ -2743,7 +3687,10 @@
       "releaseDate": "2026-01-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/dn0MVtByu6DKGzb2n9QBm9AqRCr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1KcYtPH9s2wRMnBLszfC7JygohT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 307650,
@@ -2754,7 +3701,11 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/emcQQsHTic8EshyiGpPPcYOdtjI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rDZBbqvXkZGxPqe9szBtSIvAgji.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 307182,
@@ -2765,7 +3716,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/zmta09ZIB0MWE4QW6bDpNDGAlTF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/37LHNrVLu5HrQGBqI7V3cYPQ6Z3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 308682,
@@ -2776,7 +3730,11 @@
       "releaseDate": "2026-02-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/20zBJwtTcMLm3EHDaVvPiLfLjdq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hssgXZY0gBKqAShSrcqRWtUeXOX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 252193,
@@ -2787,7 +3745,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vcU8hIHXuADItJSzEmt2F8IMq5l.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "剧情"
+      ]
     },
     {
       "id": 307977,
@@ -2798,7 +3760,11 @@
       "releaseDate": "2026-01-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/ECjZFaPrGoNZeRXMvo1TQg8sR2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1KyKeNuos6joVHvQPBAqMfA2EE3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 301885,
@@ -2809,7 +3775,10 @@
       "releaseDate": "2026-01-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/qGBbNhVUdth0xmbS7JBIruAl5S8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/t5rA4vqttpwbhqp23QtCQdtaO8x.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 305227,
@@ -2820,7 +3789,10 @@
       "releaseDate": "2026-01-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/aVqtwHKs8LtcTtzznKhvamqm5gr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vFuORyhRU3pdxdd2lAGruo2hXX3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 304928,
@@ -2831,7 +3803,11 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/aMMXFeeIuIxMFrH6ooDHCrRssGb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1vfUzGinUY2JyHoGOU1je6gNXpx.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 305002,
@@ -2842,7 +3818,10 @@
       "releaseDate": "2026-01-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/1Vpu2bTZc2UENkziMWMT38kJjaJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bYIBtplNjntdVVxny0xfvF1ip9y.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 305816,
@@ -2853,7 +3832,11 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/5eENfxWAZQVBZth1y5SHDh7qLjd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tPMNxlMVPhg9cPuEzPP23wl5QfM.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "动作冒险"
+      ]
     },
     {
       "id": 305818,
@@ -2864,7 +3847,10 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/jlPyytPE0rEQSHDgUsFaot9NV78.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zQjJo0iydzMlJv7ChiRR0Hz1HID.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 298203,
@@ -2875,7 +3861,12 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/gDbXuXdGfGcd5pfmO8wGiHFvDTd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/etMLUe751O3GnQSHsFbgpijmHRr.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ]
     },
     {
       "id": 308275,
@@ -2886,7 +3877,10 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/AjnQUgu5XnrzrCS8WfiR5QEgk8q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lO8f1YgpnsDZkQnmwRkbJXtQUCD.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 306213,
@@ -2897,7 +3891,10 @@
       "releaseDate": "2026-01-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/lwIIqEs2SZJZ98TtMinAEVMiSh4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cXKiBAnvg8Oh8DOO5uQjGoogT1C.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 307422,
@@ -2908,7 +3905,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/kCqGiR2Ee3cu8U2CuU7SW34PJtU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8kwmew6cK7RyE4oazSoNdyPBU9S.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 307013,
@@ -2919,7 +3919,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/a17NLD53cGTqNMdlqe63eLPuPo8.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 307677,
@@ -2930,7 +3933,10 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/jmMZlm0JApy3bMWJpvX6iBEurs6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fZ2C0xRmKnKY2TuqL8TH033KFcV.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 299878,
@@ -2941,7 +3947,10 @@
       "releaseDate": "2025-11-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/iQU1r4fkPayjYPALYTOeU749zwM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mwJiHvhcSdhDIG81aarJbddUDLR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     },
     {
       "id": 303315,
@@ -2952,7 +3961,11 @@
       "releaseDate": "2025-12-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/vA9cNH1c0EbXyEWdON5fhzC7yhB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oRojicdeqfW0NPnIpV8npVypdjr.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 305078,
@@ -2963,7 +3976,10 @@
       "releaseDate": "2026-01-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/1ifRpg5Hj3ldJHQWuqXapcA39xS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/iyTI8V5KPNzpcir6CKViR2gjFFY.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 299950,
@@ -2974,7 +3990,10 @@
       "releaseDate": "2025-11-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/pz0bLCVLqXPZRYEBKD2jxXM1kxR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kufteBy1fhiv5zgDfK7SAEk0eQU.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 306747,
@@ -2985,10 +4004,13 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/98OortxZdxhbxCaord7nEEkmf3F.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑"
+      ]
     }
   ],
-  "韩剧": [
+  "tv_korean": [
     {
       "id": 229891,
       "type": "tmdb",
@@ -2998,7 +4020,11 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/kDd4zcu7ZxshPabiznEHQfl7khz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/svnZYhAboLrwHEtkKRm2mIdjocB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 256226,
@@ -3009,7 +4035,11 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/a6EkylRV9VFKlQax3i80vLW95Pp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jYY27Z9KHE5K1FABmnGtAIHVeGR.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 284744,
@@ -3020,7 +4050,11 @@
       "releaseDate": "2025-12-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/6ADirWn2n3I4oGfLrr3RmCZE2UN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dxLxJVZQQ77S8K52myee4sJskxc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 297424,
@@ -3031,7 +4065,11 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/s7NUr6S9UaqCAEPTISNaqnJ4ZBP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9s3oQk0DmNkVwUjcvbivIIj05YT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 239385,
@@ -3042,7 +4080,11 @@
       "releaseDate": "2025-11-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cqkmEHLE4LjPHSqKdLt4pJFJv0f.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 209110,
@@ -3053,7 +4095,11 @@
       "releaseDate": "2025-12-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4Bvk0EVHCjswWQYFHdRNsVWLtk8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ]
     },
     {
       "id": 246473,
@@ -3064,7 +4110,11 @@
       "releaseDate": "2025-12-24",
       "posterPath": "https://image.tmdb.org/t/p/w500/b8RqVzxYGKKAZUQ1pjdqU6vh8ve.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "剧情"
+      ]
     },
     {
       "id": 310024,
@@ -3075,7 +4125,10 @@
       "releaseDate": "2026-02-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/gJdZsSTTFlmONonSdef9WxtLAa7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Wd0u61GRl9fWwQp74RwCsnrDAk.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪"
+      ]
     },
     {
       "id": 285278,
@@ -3086,7 +4139,12 @@
       "releaseDate": "2025-12-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/u9Gczr77gvxan27sLuwL5vcziyR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sLSbzjid9shizEeHR0KFJU5ZYKW.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 282810,
@@ -3097,7 +4155,12 @@
       "releaseDate": "2026-01-02",
       "posterPath": "https://image.tmdb.org/t/p/w500/pSvHtvThGPOstnl2eK1oc0CQWaa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l3qDk8o59jgLfO5HBAJKpCwMAld.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 270420,
@@ -3108,7 +4171,12 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/gaD8NAb2SmVMXM8OQL63R0nsE9y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sa9igU1XIER6bMgtZ2Ejfo1KsD8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "科幻奇幻",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 281013,
@@ -3119,7 +4187,11 @@
       "releaseDate": "2025-11-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/iVZPgJymzHN0LiMXw4dWf2V7P5w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cTFQKu8CLftXHUCIBGksfL8uhf3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     },
     {
       "id": 280948,
@@ -3130,7 +4202,11 @@
       "releaseDate": "2026-01-05",
       "posterPath": "https://image.tmdb.org/t/p/w500/lPbh6NkontXBKkgQdnaHk6S2fq2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 275989,
@@ -3141,7 +4217,10 @@
       "releaseDate": "2025-12-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/u7VVrYOuOdRLDhlC1fBxxOjkt2T.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6VYRfXF9XjdQyJlYjsJ4LQOcssZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 293608,
@@ -3152,7 +4231,12 @@
       "releaseDate": "2026-01-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/47T6il9NGTvqm9I58GtPt9eNGTv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/awldlWlTkCeuohxZMGKhQwyydGA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "犯罪",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 298567,
@@ -3163,18 +4247,25 @@
       "releaseDate": "2025-11-28",
       "posterPath": "https://image.tmdb.org/t/p/w500/cmZCkU8UYxVTjVlnIrnW5xHWYsV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a4iuWhgZhvtHlBzozkNggciOjV8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 238458,
       "type": "tmdb",
       "title": "现金英雄",
       "description": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
-      "rating": 7.292,
+      "rating": 7.266,
       "releaseDate": "2025-12-26",
       "posterPath": "https://image.tmdb.org/t/p/w500/hIQwZleQDWyhwGlnW1O6wUTnIiY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lr0h0OBj7QOEvkaX5g3JWoaKZsI.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "剧情"
+      ]
     },
     {
       "id": 293530,
@@ -3185,7 +4276,13 @@
       "releaseDate": "2025-11-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/5Ze7dFENTecawz1RnpbpmM4NWkD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zuVqYUqXH4GDDbpG48nuQc03k16.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "悬疑",
+        "动作冒险",
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 281005,
@@ -3196,7 +4293,11 @@
       "releaseDate": "2025-12-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/69UH3A6JlsaHseqDviu9YtfjvyG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2sthhg2okBF91wlwxvFaM4eXiTg.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 274570,
@@ -3207,7 +4308,12 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/eq6EvcEU4DJqFd1W48h3Wu1gKMp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2i4WbWTwMNTHAVuoAcAUrI05PP1.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "喜剧"
+      ]
     },
     {
       "id": 285770,
@@ -3218,7 +4324,11 @@
       "releaseDate": "2025-11-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/2qVVxneWC5NoXNpqT9OoYE3cL3h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xiWu9f9jP2NSmXu2hWzrtafrpQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 308290,
@@ -3229,7 +4339,10 @@
       "releaseDate": "2025-12-14",
       "posterPath": "https://image.tmdb.org/t/p/w500/kyqlZHMQlk8y4Hhw8fKASSnxi7L.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1VyJnV2kXswxdxtlthCgvRO137E.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 197491,
@@ -3240,7 +4353,11 @@
       "releaseDate": "2025-12-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/1UbNImFy3fDxqh3ay7Xjdu6sWF5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yvEPuVdVbGbkvxuXFDu0PyTkG99.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ]
     },
     {
       "id": 303748,
@@ -3251,7 +4368,11 @@
       "releaseDate": "2025-11-13",
       "posterPath": "https://image.tmdb.org/t/p/w500/wKO9jt3lXB25blhrDiNjs6FiVDG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sjNcFeeR663zIseK7v9IEvh5poO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ]
     },
     {
       "id": 301909,
@@ -3262,7 +4383,10 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/5KZtuCt1pWJjp9ejSYGzjx7MX5K.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/g3U4dTRLkD3k98kavIIGXWLP1b6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     },
     {
       "id": 261902,
@@ -3273,10 +4397,14 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/dX4Yer4TWcem8MKvEhXxZFhZAZH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wG6bbIKNGRZ9yU8PTHmcfVkQ843.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ]
     }
   ],
-  "动画": [
+  "tv_animation": [
     {
       "id": 255064,
       "type": "tmdb",
@@ -3286,7 +4414,11 @@
       "releaseDate": "2026-01-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/frh8aDHSjbnyHv2YU5fJBThEhK3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3pxPbuDzuZaWRdheGptiDTM9jFz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 306762,
@@ -3297,7 +4429,11 @@
       "releaseDate": "2026-01-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/ogbZc8ELD0XnzCtWE0jGNbesiNc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/MYrRkkE2L0DKw5CRjbCYeQjLAq.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 253476,
@@ -3308,7 +4444,11 @@
       "releaseDate": "2026-01-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/wjh7Ju3vO6T58Z6IPqSSyaGt6VA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nUBAxPUHcHefOo0mgLT01g0fEyZ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 309727,
@@ -3319,7 +4459,11 @@
       "releaseDate": "2026-01-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/SNAlHy8zGrPaKVktII8YrN3yNH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/VUSs0WjqCLyLIml0m2L4P0dOTI.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "儿童"
+      ]
     },
     {
       "id": 282158,
@@ -3330,7 +4474,13 @@
       "releaseDate": "2026-01-31",
       "posterPath": "https://image.tmdb.org/t/p/w500/kcgqqnmSMExwITZ7gn3gw62c9l5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eOhBg0HGmpVatlg9EUgeuPszvfk.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动作冒险",
+        "动画",
+        "科幻奇幻",
+        "剧情"
+      ]
     },
     {
       "id": 283119,
@@ -3341,7 +4491,12 @@
       "releaseDate": "2026-01-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/nJEaALwGhCdsHjZun3dOVDfvTgD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/n0oinZsZqtZ7ug8jtfS4J7Bt52L.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 285357,
@@ -3352,7 +4507,13 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/lWNtQ6Ju61H1JYca0xdxIztegDV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uLC9tdRSPcKsgvRLth38WEbm8pa.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 281161,
@@ -3363,7 +4524,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/iEtEDr5CfVcUhWXFze18Rl2Q9CN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wThJAr5CYaLXH5qNhleCfbNrNSE.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 278271,
@@ -3374,7 +4540,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/fgG5AAn7st7ZCSLmcDWPd08WZCv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8DEkl9AyRl8mvyvIirCsVvyYAg8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "喜剧",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 274141,
@@ -3385,7 +4556,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/aPazanJSBdB8GBTaTOSXy2VJk60.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/wTNcq9alDaNx2O65dsXz7HGeDSh.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 284444,
@@ -3396,7 +4572,12 @@
       "releaseDate": "2026-01-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/fnMlh7jvoPvqoIqz5bYnw8MkQwO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jlIvjqSqJXDcwTGG5nzKNeH1K9t.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 219080,
@@ -3407,7 +4588,12 @@
       "releaseDate": "2025-11-19",
       "posterPath": "https://image.tmdb.org/t/p/w500/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "科幻奇幻",
+        "动作冒险"
+      ]
     },
     {
       "id": 280049,
@@ -3418,7 +4604,12 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/8ORt29GnG4gFNrQDUUSE1ZQP9Vm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gf62V8UBVBMFPpD9yI0UFvkFvq2.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 302540,
@@ -3429,7 +4620,13 @@
       "releaseDate": "2025-11-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/vWULYz6Pp5vDevVVBawVDZcgKJh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pXdkJvhBcPf8oEj831ASMkLPXKT.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "犯罪",
+        "喜剧",
+        "家庭"
+      ]
     },
     {
       "id": 287591,
@@ -3440,7 +4637,11 @@
       "releaseDate": "2026-01-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/3061lEeTTSb5NtX0ASXnRSO7Mo5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6Eg3t2KdtqiF29G7a7S1Npl93g8.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情"
+      ]
     },
     {
       "id": 283891,
@@ -3451,7 +4652,12 @@
       "releaseDate": "2026-01-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/xKVJu2INm7wfeeXSRtEGLGpVzdZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jK9HlovnISpiraw75B0o6qxlMbw.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "悬疑",
+        "科幻奇幻"
+      ]
     },
     {
       "id": 286291,
@@ -3462,10 +4668,16 @@
       "releaseDate": "2026-01-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/3KxyECISY5arB72ADxUuY4DUwJL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pDQ9P84InNrBN1hDTCjhQ1dN1kO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "动画",
+        "剧情",
+        "动作冒险",
+        "科幻奇幻"
+      ]
     }
   ],
-  "纪录片": [
+  "tv_documentary": [
     {
       "id": 301380,
       "type": "tmdb",
@@ -3475,7 +4687,10 @@
       "releaseDate": "2025-09-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/sS89iqV97VdoatEVGJqulTkHtVH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2mKA4gG3XO8bqXLIaMI6CjoARC0.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 309531,
@@ -3486,7 +4701,10 @@
       "releaseDate": "2025-12-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/1rOTzlSY6Cid3XxoTLRCoMJuFcB.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 301991,
@@ -3497,7 +4715,10 @@
       "releaseDate": "2025-11-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/jDHFGWebxVymlez4E5z8VaNYnbD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ecTdWTANa1foVcFj08gUiURxVnX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 292130,
@@ -3508,7 +4729,10 @@
       "releaseDate": "2025-10-16",
       "posterPath": "https://image.tmdb.org/t/p/w500/5e1CRqCFPQfEIhdTaPaZ572HVhS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 306244,
@@ -3519,7 +4743,10 @@
       "releaseDate": "2025-11-20",
       "posterPath": "https://image.tmdb.org/t/p/w500/3uYMlIbuwgbS3LJzFEy8sjYqdY5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8a1RARCUC9N1rkOwpxwvPSd8d4W.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 305900,
@@ -3530,7 +4757,10 @@
       "releaseDate": "2025-11-18",
       "posterPath": "https://image.tmdb.org/t/p/w500/5QKFmUPEj0ZjysJkk7c8jQ4yCuy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nruY6gV3aKwdIyWDPFTT2TY724N.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 305819,
@@ -3541,7 +4771,10 @@
       "releaseDate": "2025-11-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/pbNaEP6ITdtckPV7ekzXqu8zKVo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kkeynPq2x8XrsMcNQuOGwJe7Gsb.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 297514,
@@ -3552,7 +4785,11 @@
       "releaseDate": "2025-08-04",
       "posterPath": "https://image.tmdb.org/t/p/w500/gWwdAdvyc647QBKvSTviFrVP3zo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hDoJUPvYlu0aaR5jqF9PqTkqzcy.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片",
+        "战争政治"
+      ]
     },
     {
       "id": 310810,
@@ -3563,7 +4800,10 @@
       "releaseDate": "2026-01-11",
       "posterPath": "https://image.tmdb.org/t/p/w500/sbV7ERzcemvJdfwYbNtsz70UgY8.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 298710,
@@ -3574,7 +4814,10 @@
       "releaseDate": "2025-08-20",
       "posterPath": "https://image.tmdb.org/t/p/w500/rG08hS3NDRXzRhed6nICzKvtRGn.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vpJ2HEeCM3xjTMQfN4j8aFDOJth.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 290682,
@@ -3585,7 +4828,11 @@
       "releaseDate": "2025-08-15",
       "posterPath": "https://image.tmdb.org/t/p/w500/qNOW4MsrK9aCSCJIbuMRqc5NrNv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/97yy7CgS8poPk9OsvtHQZieymMB.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片",
+        "战争政治"
+      ]
     },
     {
       "id": 307500,
@@ -3596,7 +4843,10 @@
       "releaseDate": "2025-11-12",
       "posterPath": "https://image.tmdb.org/t/p/w500/vKPqDpEmXQ3VDHQRiv2aMAffrXO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pFmfO2B7cZJvBLW44yOmc97Kasq.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 308968,
@@ -3607,7 +4857,10 @@
       "releaseDate": "2025-11-01",
       "posterPath": "https://image.tmdb.org/t/p/w500/tA69wzMSpigU9MEHirGL8enZYsr.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 300999,
@@ -3618,7 +4871,11 @@
       "releaseDate": "2025-10-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/8XK4kBkP7QVIPnl6dFfdPSCICs6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oS4ZzG1c4xZtZRrJipNqXs1b17Z.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片",
+        "悬疑"
+      ]
     },
     {
       "id": 283354,
@@ -3629,7 +4886,10 @@
       "releaseDate": "2025-08-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/f16yvVS9QJf1x0dxx1bPE7cnKKR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fHfHUP0kwV6wFWsnDe6jL7V9M5X.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 298682,
@@ -3640,7 +4900,10 @@
       "releaseDate": "2025-09-30",
       "posterPath": "https://image.tmdb.org/t/p/w500/fPn8vz87UGtWgDxQ8LiilewOD1m.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sXLwuwDOAxklnnQFfa7OHCPgHDL.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 303109,
@@ -3651,7 +4914,10 @@
       "releaseDate": "2025-11-07",
       "posterPath": "https://image.tmdb.org/t/p/w500/63hWjrNMZgQDGNFKCiO4dbwvtKq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nZKcaSSV7NaGfuPeE6N4Xt5St7E.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     },
     {
       "id": 298234,
@@ -3662,10 +4928,13 @@
       "releaseDate": "2025-09-10",
       "posterPath": "https://image.tmdb.org/t/p/w500/pHAM8Fzek7xwTbqmaxPXAjCAjz1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qSxabAdLMiJWIJUb7hbSVvwMm4s.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片"
+      ]
     }
   ],
-  "国内综艺": [
+  "show_domestic": [
     {
       "id": 296202,
       "type": "tmdb",
@@ -3675,7 +4944,10 @@
       "releaseDate": "2025-07-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/b0sU5blJ3Hwq7O71KCj7HhcRpPp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sYw9FpsaXCiCukpRZtZeUUFETPJ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 309015,
@@ -3686,7 +4958,10 @@
       "releaseDate": "2025-12-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 312066,
@@ -3697,7 +4972,10 @@
       "releaseDate": "2026-01-24",
       "posterPath": "https://image.tmdb.org/t/p/w500/swK14jY3w3pOuRwfScdhgpqiwgG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "脱口秀"
+      ]
     },
     {
       "id": 306210,
@@ -3708,7 +4986,10 @@
       "releaseDate": "2025-11-22",
       "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 309100,
@@ -3719,7 +5000,10 @@
       "releaseDate": "2025-12-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 310310,
@@ -3730,7 +5014,11 @@
       "releaseDate": "2026-01-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/68eg6fQQ9VyPsICn2VxYRPhBC8S.jpg",
       "backdropPath": null,
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀",
+        "喜剧"
+      ]
     },
     {
       "id": 306845,
@@ -3741,7 +5029,10 @@
       "releaseDate": "2025-12-06",
       "posterPath": "https://image.tmdb.org/t/p/w500/mRd39FZDi4SkzYPsjaumRitYU6A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 300172,
@@ -3752,7 +5043,10 @@
       "releaseDate": "2025-11-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 308580,
@@ -3763,10 +5057,13 @@
       "releaseDate": "2025-12-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     }
   ],
-  "国外综艺": [
+  "show_foreign": [
     {
       "id": 298698,
       "type": "tmdb",
@@ -3776,7 +5073,11 @@
       "releaseDate": "2025-09-23",
       "posterPath": "https://image.tmdb.org/t/p/w500/pTIE653j4NiELioENWaL483ca5Q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/i0kPV83Py7q0mGWiDBPLdzljeQX.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀",
+        "犯罪"
+      ]
     },
     {
       "id": 305379,
@@ -3787,7 +5088,10 @@
       "releaseDate": "2025-12-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/iAGXAIlRhpgK4cqv51eUc9dCl8h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vmQhEYL4VP7jjaNC5qNSETGHGJc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 301449,
@@ -3798,7 +5102,10 @@
       "releaseDate": "2025-10-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/k4oenZF14FK4YW59Wsracnk9DXU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uIvLWRPBrsa3DzpfAYsHUGAr81e.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 304068,
@@ -3809,7 +5116,10 @@
       "releaseDate": "2025-11-25",
       "posterPath": "https://image.tmdb.org/t/p/w500/v67yptLLoKhDe0apSoGv9op4yG7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hisigWf5HWftTSFXyvS8o50Geuc.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 306979,
@@ -3820,7 +5130,10 @@
       "releaseDate": "2025-11-29",
       "posterPath": "https://image.tmdb.org/t/p/w500/1Efl3FhOQolH8AHU2B9f29AcmDo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tGXbns99hHl14WpbG0HClFv5f7Q.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 302173,
@@ -3831,7 +5144,12 @@
       "releaseDate": "2025-10-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/7H2hHWyYTR0nnlsvqxLYfrhw21m.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bs1Jt48PRZmn3alzXgw0J6tJ1M9.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀",
+        "喜剧",
+        "脱口秀"
+      ]
     },
     {
       "id": 300397,
@@ -3842,7 +5160,10 @@
       "releaseDate": "2025-10-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/dwj4oxkCRRC8kzkcqe3aethuFTW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/edJgC9m27oXcKiLJonmPJCAkRBW.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 304299,
@@ -3853,7 +5174,8 @@
       "releaseDate": "2025-08-08",
       "posterPath": "https://image.tmdb.org/t/p/w500/2Ktj5Ch359iyDsiPTDO8oTRYxRD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1Oj0OHPXGas34oxb0T6ZQwI4w12.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": []
     },
     {
       "id": 304173,
@@ -3864,7 +5186,10 @@
       "releaseDate": "2025-10-27",
       "posterPath": "https://image.tmdb.org/t/p/w500/qdZ7T1pYMm8SMuA93vsAgpAdDDN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gN7ECWxXzYn7z3yNHs3Rph9NBfH.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀"
+      ]
     },
     {
       "id": 305928,
@@ -3875,7 +5200,12 @@
       "releaseDate": "2025-11-17",
       "posterPath": "https://image.tmdb.org/t/p/w500/e3Og7e9hOS8qb5RMI4oQkt6AIbR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tacYNbD7b5vn0jflL0Lzp3epBAz.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "纪录片",
+        "动作冒险",
+        "喜剧"
+      ]
     },
     {
       "id": 296263,
@@ -3886,7 +5216,11 @@
       "releaseDate": "2025-09-09",
       "posterPath": "https://image.tmdb.org/t/p/w500/ew92ziUERM4YGzN94AxyWI0xHws.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hNzHTpYZQum9yfs1VeFAAYYROuk.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "真人秀",
+        "喜剧"
+      ]
     },
     {
       "id": 299692,
@@ -3897,7 +5231,10 @@
       "releaseDate": "2025-09-03",
       "posterPath": "https://image.tmdb.org/t/p/w500/e73hTATlxMOlmDHHDJqgTDY8zO7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9XHhHEkFoBWSTUhZQnTXFkVZGyQ.jpg",
-      "mediaType": "tv"
+      "mediaType": "tv",
+      "genres": [
+        "剧情"
+      ]
     }
   ]
 }
