@@ -100,7 +100,7 @@ async def fetch_tmdb_detail(session, item, cache):
                         "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
                         "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
                         "mediaType": "tv",
-                        "genres": genre_names  # 输出中文类型映射结果
+                        "genreTitle": genre_names  # 输出中文类型映射结果
                     }
                     cache[cache_key] = info
                     return info
