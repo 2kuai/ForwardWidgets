@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T09:09:09.620+08:00",
+  "last_updated": "2026-02-09T14:52:55.455+08:00",
   "tv": {
     "全网": [
       {
@@ -10,18 +10,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
         "releaseDate": "2024-06-14",
-        "rating": 9.167,
-        "mediaType": "tv"
-      },
-      {
-        "id": 259554,
-        "type": "tmdb",
-        "title": "夜色正浓",
-        "description": "一场盛宴之下的狂欢，让隐藏已久的暗涌浮现，唤醒了所有装睡的人，也触发了GST酒业各层人士的生存危机。一切事关生存，每一步都需格外谨慎。七个深陷其中的主要人物，在事件中扮演了不同的角色，勾勒出人性的复杂和现实的残酷，从而呈现出一个共同的主题——如何在惶惶不安中乐观地活下去！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
-        "releaseDate": "2026-01-28",
-        "rating": 9,
+        "rating": 9.2,
         "mediaType": "tv"
       },
       {
@@ -36,6 +25,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 259554,
+        "type": "tmdb",
+        "title": "夜色正浓",
+        "description": "一场盛宴之下的狂欢，让隐藏已久的暗涌浮现，唤醒了所有装睡的人，也触发了GST酒业各层人士的生存危机。一切事关生存，每一步都需格外谨慎。七个深陷其中的主要人物，在事件中扮演了不同的角色，勾勒出人性的复杂和现实的残酷，从而呈现出一个共同的主题——如何在惶惶不安中乐观地活下去！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
+        "releaseDate": "2026-01-28",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 278882,
         "type": "tmdb",
         "title": "年少有为",
@@ -44,6 +44,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
         "releaseDate": "2026-01-31",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "releaseDate": "2026-01-25",
+        "rating": 8.5,
         "mediaType": "tv"
       },
       {
@@ -99,17 +110,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5Rqjj7f72oS10tzgKzpau9Uq2B.jpg",
         "releaseDate": "2026-01-22",
         "rating": 9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 283950,
-        "type": "tmdb",
-        "title": "女神蒙上眼",
-        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
-        "releaseDate": "2026-01-25",
-        "rating": 8.5,
         "mediaType": "tv"
       }
     ],
@@ -214,14 +214,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 271015,
+        "id": 309232,
         "type": "tmdb",
-        "title": "凤凰台上",
-        "description": "女侠凌苍苍凭借着侠肝义胆和出奇制胜的武功，在江湖中创立了匡扶正义的门派凤来阁。南祁王朝年轻的皇帝萧焕一心为民，然而首辅大臣联合江湖势力把持朝政，祸乱百姓。萧焕为拯救苍生于苦难，化名“白迟帆”微服私访行走江湖，并认识了行侠仗义的凤来阁阁主凌苍苍。二人一起仗剑天涯，除暴安良，惺惺相惜，却不料凌苍苍就是首辅的女儿，并即将成为他的皇后。面对江湖动乱、百姓受难，心怀大义的萧焕和凌苍苍携手平乱赈灾、惩处贪墨。他们在为百姓谋福祉的过程中，也寻获了自己想要执剑江湖的初心，找到了自身的价值，那就是铁肩担道、热血为民，帮助百姓安居乐业，使得山河无恙、人间皆安。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nfpOK1KHPBZFTUAvHNrdxXvTUhf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1ybpRrDgtejMdAP04Qhtd52QwWT.jpg",
-        "releaseDate": "2025-11-14",
-        "rating": 7.8,
+        "title": "新闻女王2",
+        "description": "《新闻女王》续集。由 TVB 与优酷联合出品，佘诗曼、黄宗泽领衔主演，李施嬅、高海宁、王敏奕等原班人马回归，马国明、夏文汐特别出演。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/arFTwEo6N56uYTyvDeGIeelpGkM.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/wCSJnMIGy7V5KhFNSZ32RiFxuqr.jpg",
+        "releaseDate": "",
+        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -234,7 +234,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
         "releaseDate": "2024-06-14",
-        "rating": 9.167,
+        "rating": 9.2,
         "mediaType": "tv"
       },
       {
@@ -293,17 +293,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 279136,
-        "type": "tmdb",
-        "title": "轧戏",
-        "description": "肖稚宇与胡羞因一场民国主题剧本杀结缘，漫雪纷飞、谍影交错的剧本世界里，两人碰撞出宿命火花；现实世界的意外重逢，却揭开彼此身份谜题，二人穿梭于现实与剧本的错位时空，最终在跨越维度的羁绊中实现双向成长，完成对爱情与自我的进阶蜕变。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/tlKhF5VoMUjkjtQZ1K1lmov20PC.jpg",
-        "releaseDate": "2026-01-09",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 211089,
         "type": "tmdb",
         "title": "唐朝诡事录",
@@ -312,6 +301,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zRBNzwH70x5uRCPRFSjJOlyJ2qq.jpg",
         "releaseDate": "2022-09-27",
         "rating": 8.357,
+        "mediaType": "tv"
+      },
+      {
+        "id": 279136,
+        "type": "tmdb",
+        "title": "轧戏",
+        "description": "肖稚宇与胡羞因一场民国主题剧本杀结缘，漫雪纷飞、谍影交错的剧本世界里，两人碰撞出宿命火花；现实世界的意外重逢，却揭开彼此身份谜题，二人穿梭于现实与剧本的错位时空，最终在跨越维度的羁绊中实现双向成长，完成对爱情与自我的进阶蜕变。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/h4JBW427uAKQayEdyCu2Ffp1sri.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/tlKhF5VoMUjkjtQZ1K1lmov20PC.jpg",
+        "releaseDate": "2026-01-09",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -416,6 +416,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 239853,
+        "type": "tmdb",
+        "title": "老夫老妻重返青春",
+        "description": "藏和依音是一对结婚至今超过五十年，长年一起生活在农村并度过余生的平凡老夫妻。 某一天，两人醒过来时，突然发现自己竟变回年轻时的样貌！？不过他们很快就接受这样的改变，同时也决定要趁这机会展开重返年轻时的夫妻生活。\n\n不只外表，连内在都十分有魅力的老爷爷与老奶奶所掀起的热闹恩爱夫妻喜剧就此登场！　",
+        "posterPath": "https://image.tmdb.org/t/p/w500/xAdu4kOtUPHx8rpL8RWC5HLFVOv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/dk7yosf6MZCDloAMXTH3P89Autd.jpg",
+        "releaseDate": "2024-04-07",
+        "rating": 7.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 313056,
         "type": "tmdb",
         "title": "被隐匿的真相",
@@ -435,17 +446,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/rcKobqXN4yFaBzRqDQk3zBbssEJ.jpg",
         "releaseDate": "2025-12-27",
         "rating": 7.2,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263048,
-        "type": "tmdb",
-        "title": "狙击蝴蝶",
-        "description": "遭遇丈夫背叛的都市飒女岑矜（陈妍希饰），在人生至暗时刻收到山村少年李雾（周柯宇饰）的求助电话，他父母双亡爷爷去世，被姑父逼迫退学打工，无法参加高考，只能将最后希望寄托在曾资助他的岑矜父母身上。岑矜自告奋勇带李雾走出大山迎接新生活。朝夕相处中，李雾对姐姐萌生情愫开始一个人的兵荒马乱，岑矜因为弟弟的陪伴走出阴霾。岑矜意外撞破少年心事，嘴上拒绝实则早已动了真心。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jebww4SrWIzwqNRchGW5AlR2KNX.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zBgOoOIfVdPbIUkaT9lxthcsUAZ.jpg",
-        "releaseDate": "2025-12-04",
-        "rating": 6.5,
         "mediaType": "tv"
       }
     ],
@@ -495,17 +495,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 222714,
-        "type": "tmdb",
-        "title": "蝶影",
-        "description": "1937年11月，上海沦陷，落入日军之手，以魏大宏、林秋雁为首的我地下党组织转入地下工作。1941年，日军在上海启动绝密的“蝎美人计划”，意图利用“伪钞”扰乱我国金融市场，并借机大肆掠夺我国珍贵的文物古籍等。以魏大宏、林秋雁为首的我党行动小组，秘密行动，行动途中，结识了唐二十三，胖子，瘦猴等一群侠肝义胆的年轻人，后来，小组一举粉碎了敌人的秘密计划，夺回了被掠夺去的文物古籍。林秋雁的同胞妹妹林秋月，原本是军统的学员，在一次意外中与姐姐失散，相认以后，受到大姐林秋雁的感召，和军统教官周天昊一起脱离军统组织，加入了魏大宏和林秋雁的行动小组。在一次战斗过程中，林秋月不幸牺牲，林秋雁则在完成任务以后，带着妹妹林秋月的遗愿，和教官周天昊一起北上参加了新四军。若干年后，经历了战场炮火洗礼的林秋雁和周天昊两个人，成长为我新四军优秀的指挥员。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/andkS4ZitjzxZBOAMiOeWeA4Z2b.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
-        "releaseDate": "2023-03-21",
-        "rating": 5,
-        "mediaType": "tv"
-      },
-      {
         "id": 308083,
         "type": "tmdb",
         "title": "大国船梦",
@@ -517,14 +506,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 134983,
+        "id": 222714,
         "type": "tmdb",
-        "title": "功勋",
-        "description": "该剧取材于首批八位“共和国勋章”获得者的真实故事，以“国家叙事、时代表达”的艺术手法，用单元剧的形式，将首批八位功勋人物的人生华彩篇章与共和国命运串联起来，诠释了他们“忠诚、执着、朴实”的人生品格和献身祖国人民的崇高境界。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/8U8SYW0lCaNaIpECt3vlTGEspGW.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7mggVzaXWyncg49xWsdomulBmh6.jpg",
-        "releaseDate": "2021-09-26",
-        "rating": 7.7,
+        "title": "蝶影",
+        "description": "1937年11月，上海沦陷，落入日军之手，以魏大宏、林秋雁为首的我地下党组织转入地下工作。1941年，日军在上海启动绝密的“蝎美人计划”，意图利用“伪钞”扰乱我国金融市场，并借机大肆掠夺我国珍贵的文物古籍等。以魏大宏、林秋雁为首的我党行动小组，秘密行动，行动途中，结识了唐二十三，胖子，瘦猴等一群侠肝义胆的年轻人，后来，小组一举粉碎了敌人的秘密计划，夺回了被掠夺去的文物古籍。林秋雁的同胞妹妹林秋月，原本是军统的学员，在一次意外中与姐姐失散，相认以后，受到大姐林秋雁的感召，和军统教官周天昊一起脱离军统组织，加入了魏大宏和林秋雁的行动小组。在一次战斗过程中，林秋月不幸牺牲，林秋雁则在完成任务以后，带着妹妹林秋月的遗愿，和教官周天昊一起北上参加了新四军。若干年后，经历了战场炮火洗礼的林秋雁和周天昊两个人，成长为我新四军优秀的指挥员。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/andkS4ZitjzxZBOAMiOeWeA4Z2b.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
+        "releaseDate": "2023-03-21",
+        "rating": 5,
         "mediaType": "tv"
       },
       {
@@ -539,6 +528,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 134983,
+        "type": "tmdb",
+        "title": "功勋",
+        "description": "该剧取材于首批八位“共和国勋章”获得者的真实故事，以“国家叙事、时代表达”的艺术手法，用单元剧的形式，将首批八位功勋人物的人生华彩篇章与共和国命运串联起来，诠释了他们“忠诚、执着、朴实”的人生品格和献身祖国人民的崇高境界。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/8U8SYW0lCaNaIpECt3vlTGEspGW.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7mggVzaXWyncg49xWsdomulBmh6.jpg",
+        "releaseDate": "2021-09-26",
+        "rating": 7.7,
+        "mediaType": "tv"
+      },
+      {
         "id": 302867,
         "type": "tmdb",
         "title": "三江潮",
@@ -550,14 +550,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 86617,
+        "id": 246981,
         "type": "tmdb",
-        "title": "大话西游之爱你一万年",
-        "description": "　　五百年前，紫霞（赵艺饰）下凡去寻找拔出紫青宝剑的意中人至尊宝（黄子韬饰），却撞坏了紫青宝剑。紫霞为了修复宝剑，使用月光宝盒穿越。五百年后，至尊宝遗失前世记忆，转世成为斧头帮帮主，与善良的白晶晶朝夕相处中互生好感。但白晶晶被春三十娘所骗拔剑自刎，为了救回白晶晶，至尊宝使用月光宝盒，竟穿越回五百年前。盘丝洞口二人相遇，紫霞惊觉她面前的就是五百年前的至尊宝，但却发现他已经爱上别人。牛魔王贪图美色以至尊宝的性命相要挟，要迎娶紫霞。混乱中，至尊宝被月光宝盒传送到现代与未来，穿越之旅至尊宝看清了自己的内心。至尊宝为救紫霞与牛魔王大战。紧要关头，紫霞为至尊宝挡下了牛魔王的致命一击。此时救妹心切的青霞与六耳猕猴达成一致，按照天数安排演了一出戏，从而改变紫霞、至尊宝的命运。世间混沌终各归各位，紫霞和至尊宝也终于拥有了幸福的结局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vm75MOz5xGo6fsaSCdj9bKnAVLK.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q2PRZRjMX0kH0sRTgD62rROtZL0.jpg",
-        "releaseDate": "2017-09-28",
-        "rating": 4.5,
+        "title": "创想季",
+        "description": "大学时代同寝室的四个铁哥们毕业在即。一次突发的事件让这四个毫无背景却心怀大志的草根青年为了在“北京”这块充满机遇的土地上实现各自的人生梦想，决定“抱团取暖”合租一套房子。没想到至此麻烦不断。几人在艰难的找房过程中受到启发，决定自己创业，准备以“互联网+”的思维和全新的商业模式为同样受到租房困扰的北漂们服务。几个好朋友相互理解、相互配合，几经周折，在经历了种种磨难后，面对利益与责任、财富与梦想、亲情与诱惑、爱情与背叛，终于突破了自我，创造出一条通往梦想之路。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qx61amwiWCZASEYivoXBMiovku9.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
+        "releaseDate": "2024-02-21",
+        "rating": 9,
         "mediaType": "tv"
       }
     ],
@@ -581,7 +581,7 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/7KFlApfTLNMNh0y5Zp1ufsgfN0J.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
         "releaseDate": "2024-11-17",
-        "rating": 7.3,
+        "rating": 7.272,
         "mediaType": "tv"
       },
       {
@@ -592,6 +592,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/rmGnD4NYwffuJtD9e7Rif2ixVIw.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/nG4buDBOgfprySkxaJQ4r2Gl8a8.jpg",
         "releaseDate": "2025-07-03",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 131078,
+        "type": "tmdb",
+        "title": "远方的山楂树",
+        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
+        "releaseDate": "2019-12-27",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -615,17 +626,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/GkaNyIkcvvu983lJoG3ioaxXFy.jpg",
         "releaseDate": "2022-02-10",
         "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 131078,
-        "type": "tmdb",
-        "title": "远方的山楂树",
-        "description": "　　1976年，东北农村一处普通的知青点里，团支书彭天翼被推荐为工农兵学员，即将返回北京上大学。然而，就在这人生转折时刻，航天科学家楚忠良把毕生研究成果偷偷交给他保管。彭天翼为保护珍贵的学术成果，放弃火热的初恋和即将被保送上学的前程。 知青大规模返城，彭天翼却继续扎根农村，他为了推动农业改革，与保守势力辩论，错过了高考；回城务工后，他在经济体制改革中大刀阔斧，因此导致家庭出现裂痕；为坚守强国富民的初心，他放弃了赴美国继承遗产的机会，安心于平淡艰辛的经济学研究。历经无数牺牲和奋斗，以彭天翼为代表的知青们为中国改革事业趟出一条血路……",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kVcFMlz0UBlA4fI9rKIkiuWKAy5.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
-        "releaseDate": "2019-12-27",
-        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -732,17 +732,6 @@
     ],
     "芒果TV": [
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "releaseDate": "2026-01-23",
-        "rating": 8.9,
-        "mediaType": "tv"
-      },
-      {
         "id": 283950,
         "type": "tmdb",
         "title": "女神蒙上眼",
@@ -751,6 +740,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "releaseDate": "2026-01-25",
         "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "releaseDate": "2026-01-23",
+        "rating": 8.9,
         "mediaType": "tv"
       },
       {
@@ -857,17 +857,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 312878,
-        "type": "tmdb",
-        "title": "周五晚高疯",
-        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/c9FCC1pUv9PTtuOuW8u1uRE34EF.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kzC9YU1FtaotFJibKfJWqoY56xF.jpg",
-        "releaseDate": "2026-02-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
@@ -879,13 +868,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 307202,
+        "id": 254532,
         "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "releaseDate": "2024-05-14",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -901,24 +890,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
+        "id": 312878,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7.3,
-        "mediaType": "tv"
-      },
-      {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "releaseDate": "2024-05-14",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/c9FCC1pUv9PTtuOuW8u1uRE34EF.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kzC9YU1FtaotFJibKfJWqoY56xF.jpg",
+        "releaseDate": "2026-02-06",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -931,6 +909,28 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
         "releaseDate": "2023-08-13",
         "rating": 7.2,
+        "mediaType": "tv"
+      },
+      {
+        "id": 114473,
+        "type": "tmdb",
+        "title": "名侦探学院",
+        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "releaseDate": "2019-11-03",
+        "rating": 7.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 8,
         "mediaType": "tv"
       }
     ],
@@ -1070,17 +1070,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 306845,
-        "type": "tmdb",
-        "title": "笑有新生",
-        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/mRd39FZDi4SkzYPsjaumRitYU6A.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
-        "releaseDate": "2025-12-06",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 238136,
         "type": "tmdb",
         "title": "你好，种地少年",
@@ -1089,6 +1078,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
         "releaseDate": "2023-10-26",
         "rating": 9,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306845,
+        "type": "tmdb",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mRd39FZDi4SkzYPsjaumRitYU6A.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
+        "releaseDate": "2025-12-06",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1138,17 +1138,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 309015,
-        "type": "tmdb",
-        "title": "日落时分说爱你",
-        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
-        "releaseDate": "2025-12-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 254532,
         "type": "tmdb",
         "title": "势均力敌的我们",
@@ -1156,6 +1145,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "releaseDate": "2024-05-14",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 309015,
+        "type": "tmdb",
+        "title": "日落时分说爱你",
+        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
+        "releaseDate": "2025-12-25",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1182,17 +1182,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 155660,
-        "type": "tmdb",
-        "title": "最强大脑",
-        "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
-        "releaseDate": "2014-01-03",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -1201,6 +1190,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 155660,
+        "type": "tmdb",
+        "title": "最强大脑",
+        "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
+        "releaseDate": "2014-01-03",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -1354,17 +1354,6 @@
     "PPTV": [],
     "芒果TV": [
       {
-        "id": 307202,
-        "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 114473,
         "type": "tmdb",
         "title": "名侦探学院",
@@ -1373,6 +1362,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
         "releaseDate": "2019-11-03",
         "rating": 7.3,
+        "mediaType": "tv"
+      },
+      {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1420,13 +1420,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 279325,
+        "id": 304080,
         "type": "tmdb",
-        "title": "我和朋友的假期",
-        "description": "电影《我的朋友安德烈》两位主创刘昊然、董子健及他们的现实好友结伴去上海乡下体验欢乐暑假生活。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hJBYSvQlIptwa9ng8Ns3cwi70u.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/yBWJo2ph7ctooTzFLsZ8uTdMMhL.jpg",
-        "releaseDate": "2026-01-14",
+        "title": "当家爸爸的聚会",
+        "description": "节目计划开启一年两季的寒暑假季番规划，每季10期。首季将由《爸爸当家·慢享季》中热度最高的王永鸿家庭作为“东道主”发起聚会邀请，邀约全职爸爸互助会中有时间聚会的几组家庭，开启一段以“来我家聚一聚”为主题的家乡团建和研学之旅。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/12LyvRx6OHbwx5DTnjOKSwWJRZ2.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zIxgzMsXIOBSxHlkpbsHiKuBCyO.jpg",
+        "releaseDate": "2025-10-15",
         "rating": 0,
         "mediaType": "tv"
       }
