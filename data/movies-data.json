@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/2/11 06:32:45",
+  "updated_at": "2026/2/11 20:50:02",
   "now_playing": [
     {
       "id": 1618784,
@@ -38,7 +38,7 @@
       "description": "杰克 是一个作家。一个冬天，他得到了一个看管山顶酒店的差事。这正合杰克的意思，他正好可以有一个幽静的地方写作。于是杰克带着妻儿搬进了酒店。冬天大雪封路，山顶酒店只有杰克一家三口。从他们一搬进来，杰克的妻子温蒂 就发现这里气氛诡异，杰克的儿子丹尼 经常看到一些他不认识的人，但这里除了他们一家别无他人。而杰克除了一整天闷头写作外，脾气亦变得越来越古怪。直到有一天，温蒂发现丈夫这些天来一直写就只有一句话：杰克发疯了！",
       "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
-      "rating": 8.2,
+      "rating": 8.206,
       "releaseDate": "1980-05-23",
       "genres": [
         "恐怖",
@@ -59,6 +59,21 @@
         "科幻",
         "动作",
         "惊悚"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 680493,
+      "type": "tmdb",
+      "title": "重返寂静岭",
+      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
+      "rating": 5.199,
+      "releaseDate": "2026-01-21",
+      "genres": [
+        "恐怖",
+        "悬疑"
       ],
       "mediaType": "movie"
     },
@@ -94,6 +109,20 @@
       "mediaType": "movie"
     },
     {
+      "id": 1497873,
+      "type": "tmdb",
+      "title": "翠湖",
+      "description": "　　影片讲述了昆明翠湖畔的一段家庭往事。老人树文在丧妻后想要重启人生新的情感阶段，却与女儿们爆发冲突，在这场冲突中让他看清自己在家庭里的“缺位”，也促使他重新承担起家长的责任，在直面三代人，三个家庭之间深藏的遗憾与隐痛的过程中，展开了一段寻求和解的温情旅程。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mWSaqsjF7yyjGO5O2tlO0a1DdKw.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/raaHAfgFU9g4d8W7YdwOv59ByC7.jpg",
+      "rating": 7,
+      "releaseDate": "2026-01-24",
+      "genres": [
+        "剧情"
+      ],
+      "mediaType": "movie"
+    },
+    {
       "id": 1537690,
       "type": "tmdb",
       "title": "爆水管",
@@ -109,42 +138,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 1497873,
-      "type": "tmdb",
-      "title": "翠湖",
-      "description": "　　影片讲述了昆明翠湖畔的一段家庭往事。老人树文在丧妻后想要重启人生新的情感阶段，却与女儿们爆发冲突，在这场冲突中让他看清自己在家庭里的“缺位”，也促使他重新承担起家长的责任，在直面三代人，三个家庭之间深藏的遗憾与隐痛的过程中，展开了一段寻求和解的温情旅程。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mWSaqsjF7yyjGO5O2tlO0a1DdKw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/raaHAfgFU9g4d8W7YdwOv59ByC7.jpg",
-      "rating": 7,
-      "releaseDate": "2026-01-24",
-      "genres": [
-        "剧情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 680493,
-      "type": "tmdb",
-      "title": "重返寂静岭",
-      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
-      "rating": 5.2,
-      "releaseDate": "2026-01-21",
-      "genres": [
-        "恐怖",
-        "悬疑"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 1290821,
       "type": "tmdb",
       "title": "庇护之地",
       "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
-      "rating": 7.514,
+      "rating": 7.526,
       "releaseDate": "2026-01-28",
       "genres": [
         "动作",
@@ -160,28 +160,12 @@
       "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
-      "rating": 6.536,
+      "rating": 6.552,
       "releaseDate": "2026-01-07",
       "genres": [
         "冒险",
         "惊悚",
         "科幻"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1271895,
-      "type": "tmdb",
-      "title": "96分钟：列车爆炸案",
-      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
-      "rating": 5.5,
-      "releaseDate": "2025-09-05",
-      "genres": [
-        "动作",
-        "犯罪",
-        "爱情"
       ],
       "mediaType": "movie"
     },
@@ -215,18 +199,66 @@
       "mediaType": "movie"
     },
     {
+      "id": 1271895,
+      "type": "tmdb",
+      "title": "96分钟：列车爆炸案",
+      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
+      "rating": 5.5,
+      "releaseDate": "2025-09-05",
+      "genres": [
+        "动作",
+        "犯罪",
+        "爱情"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 650524,
+      "type": "tmdb",
+      "title": "寻秦记",
+      "description": "2030年，香港诸多现代物被抽取到秦朝，抽送中的生命体更是因此灰飞烟灭。拯救行动迫在眉睫，项少龙带领众人孤注一掷。秦王的欲望，家人的安危，是离开还是留下，都将在这秘境之地寻找答案。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wIATfOCE25jVxdXXO2ss6S770Bm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
+      "rating": 6.556,
+      "releaseDate": "2025-12-31",
+      "genres": [
+        "科幻",
+        "动作",
+        "喜剧"
+      ],
+      "mediaType": "movie"
+    },
+    {
       "id": 83533,
       "type": "tmdb",
       "title": "阿凡达：火与烬",
       "description": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "posterPath": "https://image.tmdb.org/t/p/w500/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
-      "rating": 7.302,
+      "rating": 7.3,
       "releaseDate": "2025-12-17",
       "genres": [
         "科幻",
         "冒险",
         "奇幻"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1325866,
+      "type": "tmdb",
+      "title": "用武之地",
+      "description": "　　驻外记者马笑和志愿医生潘文佳夫妇，陪同工程师苗峰赴郊区修理基站，当地局势突变。三人一路躲避恐怖组织的无差别袭击，最终还是被绑架沦为人质，并在狱中结识了华侨商人周伟杰。面对恐怖分子闻所未闻的屠杀暴行和以命换钱的勒索，他们历经105天，展开了一场惊心动魄的自救逃生。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/v8JNXoPcQRoEvUNYZYSOcYZvKEf.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/tGuuWu84PFzeOKMFXKSjDGdqDE8.jpg",
+      "rating": 5.7,
+      "releaseDate": "2025-12-24",
+      "genres": [
+        "剧情",
+        "战争",
+        "动作"
       ],
       "mediaType": "movie"
     },
@@ -253,60 +285,12 @@
       "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
-      "rating": 5.844,
+      "rating": 5.835,
       "releaseDate": "2025-12-24",
       "genres": [
         "冒险",
         "喜剧",
         "恐怖"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 650524,
-      "type": "tmdb",
-      "title": "寻秦记",
-      "description": "2030年，香港诸多现代物被抽取到秦朝，抽送中的生命体更是因此灰飞烟灭。拯救行动迫在眉睫，项少龙带领众人孤注一掷。秦王的欲望，家人的安危，是离开还是留下，都将在这秘境之地寻找答案。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wIATfOCE25jVxdXXO2ss6S770Bm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
-      "rating": 6.1,
-      "releaseDate": "2025-12-31",
-      "genres": [
-        "科幻",
-        "动作",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1325866,
-      "type": "tmdb",
-      "title": "用武之地",
-      "description": "　　驻外记者马笑和志愿医生潘文佳夫妇，陪同工程师苗峰赴郊区修理基站，当地局势突变。三人一路躲避恐怖组织的无差别袭击，最终还是被绑架沦为人质，并在狱中结识了华侨商人周伟杰。面对恐怖分子闻所未闻的屠杀暴行和以命换钱的勒索，他们历经105天，展开了一场惊心动魄的自救逃生。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/v8JNXoPcQRoEvUNYZYSOcYZvKEf.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/tGuuWu84PFzeOKMFXKSjDGdqDE8.jpg",
-      "rating": 5.7,
-      "releaseDate": "2025-12-24",
-      "genres": [
-        "剧情",
-        "战争",
-        "动作"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 804370,
-      "type": "tmdb",
-      "title": "时空奇旅",
-      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
-      "rating": 7.8,
-      "releaseDate": "2025-10-22",
-      "genres": [
-        "动画",
-        "科幻",
-        "冒险"
       ],
       "mediaType": "movie"
     },
@@ -317,7 +301,7 @@
       "description": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "posterPath": "https://image.tmdb.org/t/p/w500/6LBiFV0eoBjeKksQ5fwmYk3xbXD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
-      "rating": 7.624,
+      "rating": 7.6,
       "releaseDate": "2025-11-26",
       "genres": [
         "动画",
@@ -342,17 +326,18 @@
       "mediaType": "movie"
     },
     {
-      "id": 1604938,
+      "id": 804370,
       "type": "tmdb",
-      "title": "六六大顺",
-      "description": "　　濒临破产的老板李大顺（李孟武 饰）为逆转绝境，与死磕项目的技术宅李谱（肖轶 饰）踏上寻“小分子水”之路，临时搭挡的组合囧况百出，还没发车就透露着热闹，并偶遇了身世可怜的少年六六……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eHkhTwKHpHL2h77wwfJ5CPGgstO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/iFVmttz2mnWnz1twTmEpZAPwapt.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-06",
+      "title": "时空奇旅",
+      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
+      "rating": 7.8,
+      "releaseDate": "2025-10-22",
       "genres": [
-        "剧情",
-        "喜剧"
+        "动画",
+        "科幻",
+        "冒险"
       ],
       "mediaType": "movie"
     },
@@ -368,6 +353,21 @@
       "genres": [
         "喜剧",
         "剧情"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1604938,
+      "type": "tmdb",
+      "title": "六六大顺",
+      "description": "　　濒临破产的老板李大顺（李孟武 饰）为逆转绝境，与死磕项目的技术宅李谱（肖轶 饰）踏上寻“小分子水”之路，临时搭挡的组合囧况百出，还没发车就透露着热闹，并偶遇了身世可怜的少年六六……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/eHkhTwKHpHL2h77wwfJ5CPGgstO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/iFVmttz2mnWnz1twTmEpZAPwapt.jpg",
+      "rating": 0,
+      "releaseDate": "2026-02-06",
+      "genres": [
+        "剧情",
+        "喜剧"
       ],
       "mediaType": "movie"
     },
@@ -394,7 +394,7 @@
       "description": "赖瑞（迈尔斯·特勒 饰）刚刚去世，他来到了一个类似火车站的中间地带，在那里被告知必须自己选择未来的生活方式——是永远在海滩上度过每一天；还是在一连串的轮回中过着放荡不羁的生活。就在他还在犹豫不决的时候，他的妻子琼安（伊丽莎白·奥尔森 饰）也去世了。于是，这对夫妇在生死之间的这个“中转站”重新团聚了。这本该是一个幸福的时刻，但却存在一个重大缺陷：在琼安的灵魂等待她的地方，还有她的第一任丈夫卢克（卡勒姆·特纳 饰），这位英俊潇洒的战争飞行员在他们的婚姻仅两年后，就在朝鲜战场上牺牲了。从那以后，卢克就一直在等待琼安的归来，他以调酒师的身份在“极乐世界”版的纽约中央车站工作，耐心地等待着那一天的到来。然而，这一情况彻底打乱了赖瑞原本的计划——他本想和结婚65年的妻子继续过正常的生活。",
       "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-      "rating": 6.977,
+      "rating": 6.985,
       "releaseDate": "2025-11-26",
       "genres": [
         "爱情",
@@ -418,18 +418,18 @@
       "mediaType": "movie"
     },
     {
-      "id": 1602722,
+      "id": 838240,
       "type": "tmdb",
-      "title": "舒克贝塔之微缩人类",
-      "description": "　　鼠王获得了微缩人类技术后建造了梦想岛，企图把魔方市的市民都缩小并囚禁于此并以此夺取魔方市。 舒克贝塔因运送机场的乘客来到梦想岛，卷入了这场阴谋，他们挺身而出，破除了鼠王的阴谋，拯救了魔方市市民。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/f7K95hYV9WjRGV3Qk3e0SmqZxhl.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/gv5T4Y3PwzndEkPONtCT2GOKf2D.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-24",
+      "title": "机器人之梦",
+      "description": "一只狗住在曼哈顿，它厌倦了独处。某日，它决定为自己制造一个机器人作伴。它们的友谊日益深厚，随着80年代纽约的节奏，终成彼此不可或缺的存在。一个夏夜，狗怀着巨大的悲伤，被迫将机器人遗弃在海滩。它们还能再相见吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
+      "rating": 8,
+      "releaseDate": "2023-12-06",
       "genres": [
         "动画",
-        "喜剧",
-        "奇幻"
+        "剧情",
+        "喜剧"
       ],
       "mediaType": "movie"
     },
@@ -449,18 +449,18 @@
       "mediaType": "movie"
     },
     {
-      "id": 838240,
+      "id": 1602722,
       "type": "tmdb",
-      "title": "机器人之梦",
-      "description": "一只狗住在曼哈顿，它厌倦了独处。某日，它决定为自己制造一个机器人作伴。它们的友谊日益深厚，随着80年代纽约的节奏，终成彼此不可或缺的存在。一个夏夜，狗怀着巨大的悲伤，被迫将机器人遗弃在海滩。它们还能再相见吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-      "rating": 8,
-      "releaseDate": "2023-12-06",
+      "title": "舒克贝塔之微缩人类",
+      "description": "　　鼠王获得了微缩人类技术后建造了梦想岛，企图把魔方市的市民都缩小并囚禁于此并以此夺取魔方市。 舒克贝塔因运送机场的乘客来到梦想岛，卷入了这场阴谋，他们挺身而出，破除了鼠王的阴谋，拯救了魔方市市民。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/f7K95hYV9WjRGV3Qk3e0SmqZxhl.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/gv5T4Y3PwzndEkPONtCT2GOKf2D.jpg",
+      "rating": 0,
+      "releaseDate": "2026-01-24",
       "genres": [
         "动画",
-        "剧情",
-        "喜剧"
+        "喜剧",
+        "奇幻"
       ],
       "mediaType": "movie"
     },
@@ -495,22 +495,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 967941,
-      "type": "tmdb",
-      "title": "魔法坏女巫2",
-      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
-      "rating": 6.68,
-      "releaseDate": "2025-11-19",
-      "genres": [
-        "奇幻",
-        "冒险",
-        "爱情"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 425274,
       "type": "tmdb",
       "title": "惊天魔盗团3",
@@ -527,17 +511,33 @@
       "mediaType": "movie"
     },
     {
-      "id": 1502119,
+      "id": 967941,
       "type": "tmdb",
-      "title": "隐者山河",
-      "description": "　　《隐者山河》记录了旅法华人作曲家陈其钢对艺术和人生的求索过程。这是一部音乐纪录电影，也是一次有现实意义的文化巡礼。作为一位在中法文化氛围中成长起来的音乐家，陈其钢以独特的视角，传递出耳目一新的观念。  　　影片以记录陈其钢在中国浙江·丽水的隐居生活和访谈为基点，跟随陈其钢近年来在全球不同国家上演的音乐作品和排演过程为主体内容，以近乎散文诗的方式，将陈其钢的人生经历和音乐作品耦合，分布成六个乐章——归隐、肖像、迁徙、创作、躬耕、如戏，观众既可以透过音乐和影像，感受陈其钢的音乐魅力，也可以身临其境体验音乐家诚实自由的思想表达，领会艺术的秘密所在。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fgYRdHm9rcl7Mphqkte074ggWD2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/zFTJNWRqfhi4yTQOVnXsdjnl2DI.jpg",
-      "rating": 0,
-      "releaseDate": "2025-11-25",
+      "title": "魔法坏女巫2",
+      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
+      "rating": 6.7,
+      "releaseDate": "2025-11-19",
       "genres": [
-        "纪录片",
-        "音乐"
+        "奇幻",
+        "冒险",
+        "爱情"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1598997,
+      "type": "tmdb",
+      "title": "八府巡按",
+      "description": "　　清末，关东永昌府。二甲进士出身的知府贾正道，在吴师爷等众属下以及绅商协助下治理一府六县。一封军机处密信让众人手忙脚乱，朝廷将秘遣“八府巡按”查办贪腐。同时收到刑部紧急公文要求缉拿“在逃诈骗团伙”。他们辗转于酒局、闺房、江湖与公堂之间，既要躲避巡查消灾解祸，又想抓捕逃犯邀功领赏。在精心筹划的步步为营与机缘运命的荒腔走板中，一场关乎发财还是发疯、升官还是“升天”的大戏拉开帷幕……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hn3bVQvfVa8u4x9Tx9ajn2WHtOs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/gDen1hY37ukvFX1x8pfkAUhAvqM.jpg",
+      "rating": 0,
+      "releaseDate": "2026-01-16",
+      "genres": [
+        "剧情",
+        "喜剧"
       ],
       "mediaType": "movie"
     },
@@ -553,6 +553,37 @@
       "genres": [
         "爱情",
         "剧情"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 915935,
+      "type": "tmdb",
+      "title": "坠落的审判",
+      "description": "在贾斯汀·特里耶这部荣获奥斯卡奖的杰作中，我们看得越近，却知得越少。这部诡谲迷人的法庭惊悚片，审视着真实与虚构彼此侵蚀的边界。作家桑德拉·沃伊特（桑德拉·惠勒，摄人心魄的演绎）擅长将自身经历转化为自虚构文学，当她因丈夫坠楼身亡的疑案受审时——这究竟是谋杀还是自杀？——一场审判逐渐揭开一个破碎家庭的层层内幕。特里耶以室内心理剧的极简张力为核心，通过复杂而灵动的剪辑，构筑出一桩悬案；其终极指向并非死亡本身，而是我们每个人隐匿的生存真相。[标准收藏]",
+      "posterPath": "https://image.tmdb.org/t/p/w500/64sltz8tKvDxpIT7GHhFCyOVBKH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/kszooR7v1TLFM4pzx6IkKq2jDAN.jpg",
+      "rating": 7.532,
+      "releaseDate": "2023-08-23",
+      "genres": [
+        "惊悚",
+        "悬疑",
+        "犯罪"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1502119,
+      "type": "tmdb",
+      "title": "隐者山河",
+      "description": "　　《隐者山河》记录了旅法华人作曲家陈其钢对艺术和人生的求索过程。这是一部音乐纪录电影，也是一次有现实意义的文化巡礼。作为一位在中法文化氛围中成长起来的音乐家，陈其钢以独特的视角，传递出耳目一新的观念。  　　影片以记录陈其钢在中国浙江·丽水的隐居生活和访谈为基点，跟随陈其钢近年来在全球不同国家上演的音乐作品和排演过程为主体内容，以近乎散文诗的方式，将陈其钢的人生经历和音乐作品耦合，分布成六个乐章——归隐、肖像、迁徙、创作、躬耕、如戏，观众既可以透过音乐和影像，感受陈其钢的音乐魅力，也可以身临其境体验音乐家诚实自由的思想表达，领会艺术的秘密所在。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fgYRdHm9rcl7Mphqkte074ggWD2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/zFTJNWRqfhi4yTQOVnXsdjnl2DI.jpg",
+      "rating": 0,
+      "releaseDate": "2025-11-25",
+      "genres": [
+        "纪录片",
+        "音乐"
       ],
       "mediaType": "movie"
     },
@@ -604,6 +635,22 @@
       "mediaType": "movie"
     },
     {
+      "id": 10191,
+      "type": "tmdb",
+      "title": "驯龙高手",
+      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
+      "rating": 7.855,
+      "releaseDate": "2010-03-18",
+      "genres": [
+        "奇幻",
+        "冒险",
+        "动画"
+      ],
+      "mediaType": "movie"
+    },
+    {
       "id": 1323410,
       "type": "tmdb",
       "title": "月光里的男孩",
@@ -632,22 +679,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 10191,
-      "type": "tmdb",
-      "title": "驯龙高手",
-      "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
-      "rating": 7.855,
-      "releaseDate": "2010-03-18",
-      "genres": [
-        "奇幻",
-        "冒险",
-        "动画"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 839803,
       "type": "tmdb",
       "title": "雄狮少年",
@@ -664,17 +695,16 @@
       "mediaType": "movie"
     },
     {
-      "id": 1598997,
+      "id": 1369453,
       "type": "tmdb",
-      "title": "八府巡按",
-      "description": "　　清末，关东永昌府。二甲进士出身的知府贾正道，在吴师爷等众属下以及绅商协助下治理一府六县。一封军机处密信让众人手忙脚乱，朝廷将秘遣“八府巡按”查办贪腐。同时收到刑部紧急公文要求缉拿“在逃诈骗团伙”。他们辗转于酒局、闺房、江湖与公堂之间，既要躲避巡查消灾解祸，又想抓捕逃犯邀功领赏。在精心筹划的步步为营与机缘运命的荒腔走板中，一场关乎发财还是发疯、升官还是“升天”的大戏拉开帷幕……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hn3bVQvfVa8u4x9Tx9ajn2WHtOs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/gDen1hY37ukvFX1x8pfkAUhAvqM.jpg",
+      "title": "年年岁岁",
+      "description": "梦境与幻觉不断侵入米寻的现实生活，尘封的往事，隐秘的情感被渐渐揭开，米寻决意以此拍摄一部电影，与父亲重逢与告别。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8smDX9YYebIDBRQGaEqmCr3mHkj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/81wAN1BT7maDqrdTroBvdTevAsK.jpg",
       "rating": 0,
-      "releaseDate": "2026-01-16",
+      "releaseDate": "2023-03-16",
       "genres": [
-        "剧情",
-        "喜剧"
+        "剧情"
       ],
       "mediaType": "movie"
     },
@@ -777,7 +807,7 @@
       "description": "心怀演员梦想的米娅在试镜间隙为电影明星端送拿铁，而执着于爵士乐的塞巴斯汀则在昏暗酒吧靠弹奏钢琴曲勉强度日。然而当事业渐有起色，两人不得不做出抉择，这些决定逐渐磨损着他们如薄纱般的恋情，那些曾奋力彼此守护的梦想，此刻却可能将彼此撕裂。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
-      "rating": 7.898,
+      "rating": 7.9,
       "releaseDate": "2016-12-01",
       "genres": [
         "喜剧",
@@ -963,7 +993,7 @@
       "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
       "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
-      "rating": 7,
+      "rating": 5.5,
       "releaseDate": "2017-06-16",
       "genres": [
         "纪录片"
@@ -986,6 +1016,22 @@
       "mediaType": "movie"
     },
     {
+      "id": 1632606,
+      "type": "tmdb",
+      "title": "团圆令",
+      "description": "　　因一场意外，熊猫兄妹“团仔”与“圆妞”不幸离散，各自踏上了危机四伏的寻亲之旅。一路上结识挚友收获勇气。然而，一股企图割裂亲缘的邪恶阴影正在悄然逼近......  　　当“离散”成为血脉的考验，“团圆”是他们唯一寻找的归途。这对兄妹能否突破重重险阻，跨越山河血脉相聚，守护住他们共同的家园？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lVdryD9bJWHWC48vYPGGXy6tgOE.jpg",
+      "backdropPath": null,
+      "rating": 0,
+      "releaseDate": "2026-02-28",
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "mediaType": "movie"
+    },
+    {
       "id": 1159831,
       "type": "tmdb",
       "title": "暗黑新娘！",
@@ -998,6 +1044,21 @@
         "科幻",
         "恐怖",
         "喜剧"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1171145,
+      "type": "tmdb",
+      "title": "洛杉矶劫案",
+      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
+      "rating": 9,
+      "releaseDate": "2026-02-11",
+      "genres": [
+        "犯罪",
+        "惊悚"
       ],
       "mediaType": "movie"
     },
@@ -1022,7 +1083,7 @@
       "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sYM02XfZhqvlixmRkDcseQ6Xllk.jpg",
-      "rating": 8.1,
+      "rating": 8.647,
       "releaseDate": "2026-02-11",
       "genres": [
         "剧情",
@@ -1081,7 +1142,7 @@
       "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/6h7w8R4BA7vubEmEEW5vYEjuoz6.jpg",
-      "rating": 7.7,
+      "rating": 7.708,
       "releaseDate": "2025-12-19",
       "genres": [
         "剧情"
@@ -1096,7 +1157,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "rating": 0,
-      "releaseDate": "2026-03-04",
+      "releaseDate": "2026-02-28",
       "genres": [
         "动画",
         "家庭",
@@ -1248,7 +1309,7 @@
       "description": "1947年，小有成就的青年银行家安迪因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德，请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟络，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步。",
       "posterPath": "https://image.tmdb.org/t/p/w500/aAdnwqwkKX5PPcr8EdtaiA8AZVl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-      "rating": 8.7,
+      "rating": 8.715,
       "releaseDate": "1994-09-23",
       "genres": [
         "剧情",
@@ -1292,7 +1353,7 @@
       "description": "阿甘于二战结束后不久出生在美国南方阿拉巴马州一个闭塞的小镇，他先天弱智，智商只有75，然而他的妈妈是一个性格坚强的女性，她常常鼓励阿甘“傻人有傻福”，要他自强不息。阿甘像普通孩子一样上学，并且认识了一生的朋友和至爱珍妮，在珍妮和妈妈的爱护下，阿甘凭着上帝赐予的“飞毛腿”开始了一生不停的奔跑。阿甘成为橄榄球巨星、越战英雄、乒乓球外交使者、亿万富翁，但是，他始终忘不了珍妮，几次匆匆的相聚和离别，更是加深了阿甘的思念。有一天，阿甘收到珍妮的信，他们终于又要见面…",
       "posterPath": "https://image.tmdb.org/t/p/w500/yiWWUa1mB55dfd0QpGHsFsge67I.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
-      "rating": 8.462,
+      "rating": 8.5,
       "releaseDate": "1994-06-23",
       "genres": [
         "喜剧",
@@ -1339,7 +1400,7 @@
       "description": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前NASA宇航员库珀接连在女儿墨菲的书房发现奇怪的重力场现象，随即得知在某个未知区域内前NASA成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德、罗米利、多伊尔搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
       "posterPath": "https://image.tmdb.org/t/p/w500/c35Vwd9rmMQfaEJuUrJRF3LZWJX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
-      "rating": 8.5,
+      "rating": 8.467,
       "releaseDate": "2014-11-05",
       "genres": [
         "冒险",
@@ -1355,7 +1416,7 @@
       "description": "里昂是名孤独的职业杀手，受人雇佣。一天，邻居家小姑娘马蒂尔达敲开他的房门，要求在他那里暂避杀身之祸。原来邻居家的主人是警方缉毒组的眼线，只因贪污了一小包毒品而遭恶警杀害全家的惩罚。马蒂尔达得到里昂的留救，幸免于难，并留在里昂那里。里昂教小女孩使枪，她教里昂法文，两人关系日趋亲密，相处融洽。女孩想着去报仇，反倒被抓，里昂及时赶到，将女孩救回。混杂着哀怨情仇的正邪之战渐次升级，更大的冲突在所难免……",
       "posterPath": "https://image.tmdb.org/t/p/w500/wT9bYGpoFnJGiRaRF9DErVjZ7qo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/jRJrQ72VLyEnVsvwfep8Xjlvu8c.jpg",
-      "rating": 8.3,
+      "rating": 8.296,
       "releaseDate": "1994-09-14",
       "genres": [
         "犯罪",
@@ -1479,7 +1540,7 @@
       "description": "公元 2700 年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长无边的宇宙之旅。临行前他们委托 Buynlarge 的公司对地球垃圾进行清理，该公司开发了名为 WALL·E（地球废品分装员的缩写）的机器人担当此重任。 这些机器人按照程序日复一日、年复一年辛勤工作，但随着时间的流逝和恶劣环境的侵蚀，WALL·E 们接连损坏、停止运动。最后只有一个仍在进行这项似乎永无止境的工作。经历了漫长的岁月，它开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活…",
       "posterPath": "https://image.tmdb.org/t/p/w500/hg2Z4rD1CkplEZENYEMDBsMWcxK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fK5ssgvtI43z19FoWigdlqgpLRE.jpg",
-      "rating": 8.1,
+      "rating": 8.107,
       "releaseDate": "2008-06-22",
       "genres": [
         "动画",
@@ -1527,7 +1588,7 @@
       "description": "本片改编自阿加莎·克里斯蒂同名小说。  伦敦著名刑案辩护律师韦菲爵士接受了心脏病治疗，但是身体依旧虚弱，第一天回家休养，护士一直严厉监督他服药，并杜绝烟酒。管家为了便于上楼，还专门为他修了电梯。但是，种种关心照顾，对于这位桀骜不驯、牙尖嘴利的大律师根本不起作用，反倒是一纸诉状令他倍感兴奋。律师梅休和当事人沃尔登门拜访，请他出山打官司。原来，沃尔结识了富婆，两人相见甚欢，虽然仆人对他发明的打蛋器充满鄙夷，但是富婆却对他充满爱意，甚至为他修改了遗嘱，把8万英镑留给了他。然而，富婆却惨遭毒手。于是，沃尔成为警方的头号嫌疑犯。他的唯一证人是妻子克里斯汀，然而后者登门时的冷漠与淡定，令韦菲爵士怀疑这其中另有隐情。在扑朔迷离的案件背后，隐藏着一个个环环相扣、不可告人的秘密……",
       "posterPath": "https://image.tmdb.org/t/p/w500/eKAZqdT78RIiTPlWDc53jQEPU3v.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
-      "rating": 8.219,
+      "rating": 8.2,
       "releaseDate": "1957-12-17",
       "genres": [
         "剧情",
@@ -1559,7 +1620,7 @@
       "description": "一个鞋匠家庭出身的12岁墨西哥小男孩米格，自幼有一个音乐梦，但音乐却是被家庭所禁止的，他们认为自己被音乐诅咒了。在米格秘密追寻音乐梦时，因为触碰了一把吉他而踏上了亡灵土地。每年的亡灵节日，逝去的家人都会返回人间与亲人团聚，但从来还没有人去到过亡灵的世界。米格被多彩绚丽的亡灵世界所震撼，而更令他的惊喜的是，他重逢了逝去的太爷爷和祖辈们，一家人要想办法将米格重新送回人间……",
       "posterPath": "https://image.tmdb.org/t/p/w500/zrhUypo2z3aRX9htuzGpoVWE4jo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-      "rating": 8.198,
+      "rating": 8.199,
       "releaseDate": "2017-10-27",
       "genres": [
         "家庭",
@@ -1663,7 +1724,7 @@
       "description": "小月的母亲生病住院了，父亲带着她与四岁的妹妹小梅到乡间的居住。她们对那里的环境都感到十分新奇，也发现了很多有趣的事情。她们遇到了很多小精灵，她们来到属于她们的环境中，看到了她们世界中很多的奇怪事物，更与一只大大胖胖的龙猫成为了朋友。龙猫与小精灵们利用他们的神奇力量，为小月与妹妹带来了很多神奇的景观，令她们大开眼界。\r 妹妹小梅常常挂念生病中的母亲，嚷着要姐姐带着她去看母亲，但小月拒绝了。小梅竟然自己前往，不料途中迷路了，小月只好寻找她的龙猫及小精灵朋友们帮助。",
       "posterPath": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/6O1mOoTXuc1WqjKd2R7MFQHZ7Eb.jpg",
-      "rating": 8.1,
+      "rating": 8.064,
       "releaseDate": "1988-04-16",
       "genres": [
         "奇幻",
@@ -1679,7 +1740,7 @@
       "description": "富少福贵（葛优 饰）嗜赌成性，妻子家珍（巩俐 饰）屡劝无果后带着女儿凤霞离开了他。当夜，福贵输光所有家产气死父亲，被迫靠变卖母亲首饰租间破屋过活。一年后，家珍手拉凤霞怀抱刚出世的儿子有庆回到家中，福贵痛改前非，开始靠演皮影戏过起安份守己的日子。但好景不常，内战时期，福贵被国民党抓去当劳工，一番辗转终回到家乡与一家人团圆后，凤霞因病变成哑巴，而在后来的大跃进和文革中，他虽获某些小福，逆境却也一直与他如影相随。\r 根据余华同名小说改编。",
       "posterPath": "https://image.tmdb.org/t/p/w500/h45Jc1URohpgUxmfEXB5MqUlHJW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/s7xVB5OPWw6GO40VBeEJcX9EwNt.jpg",
-      "rating": 8.059,
+      "rating": 8.1,
       "releaseDate": "1994-05-18",
       "genres": [
         "剧情",
@@ -1757,7 +1818,7 @@
       "description": "这部史诗巨制描绘了一位南方佳丽在美国内战与重建时期的命运浮沉。影片荣获八项奥斯卡金像奖，其中包括最佳影片奖。",
       "posterPath": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/4FHcxMtVruMr7ltU2cItWssLjTP.jpg",
-      "rating": 7.92,
+      "rating": 7.919,
       "releaseDate": "1939-12-15",
       "genres": [
         "剧情",
@@ -2062,7 +2123,7 @@
       "description": "不久的将来，网络黑客尼奥对这个看似正常的现实世界产生了怀疑。他结识了黑客崔妮蒂，并见到了黑客组织的首领墨菲斯。墨菲斯告诉他，现实世界其实是由一个名叫“母体”的计算机人工智能系统控制，人们就像他们饲养的动物，没有自由和思想，而尼奥就是能够拯救人类的救世主。可是，救赎之路从来都不会一帆风顺，到底哪里才是真实的世界？如何才能打败那些超人一样的特勤？尼奥是不是人类的希望？这是黑客的帝国，程序和代码欢迎大家的到来。",
       "posterPath": "https://image.tmdb.org/t/p/w500/vsTC6jddyfy25GirpCVtZ7GOB7A.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
-      "rating": 8.2,
+      "rating": 8.237,
       "releaseDate": "1999-03-31",
       "genres": [
         "动作",
@@ -2077,7 +2138,7 @@
       "description": "J.R.R.托尔金的文学巨著首次以电影形式磅礴呈现——这是一场正义对抗邪恶的史诗冒险，一段关于友谊力量与个人勇气的传奇，更是一次为人类纪元开辟道路的英雄征程。[新线影业]",
       "posterPath": "https://image.tmdb.org/t/p/w500/dvNHlWMxba5f9r8xS9tILLUig8m.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-      "rating": 8.427,
+      "rating": 8.4,
       "releaseDate": "2001-12-18",
       "genres": [
         "冒险",
@@ -2109,7 +2170,7 @@
       "description": "作为《教父》的续篇，影片延续了科莱昂家族两代权力交替的史诗。科波拉在第二部分中讲述了两条故事线：由罗伯特·德尼罗以非凡演技演绎的年轻教父维托的根源与崛起，以及迈克尔（阿尔·帕西诺饰）作为新任教父的上位之路。[派拉蒙影业]",
       "posterPath": "https://image.tmdb.org/t/p/w500/4J8jUmjgKPggRPJqqdkjWCj2k0D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
-      "rating": 8.571,
+      "rating": 8.6,
       "releaseDate": "1974-12-20",
       "genres": [
         "剧情",
@@ -2217,7 +2278,7 @@
       "description": "这是一部关于一个真实天才的极富人性的剧情片。英俊而又十分古怪的数学家小约翰纳什念研究生时便发明了他著名的博弈理论，短短26页的论文在经济、军事等领域产生深远的影响，他开始享有国际声誉。但纳什出众的直觉受到了精神分裂症的困扰，使他向学术上最高层次进军的辉煌历程发生了巨大改变。面对这个曾经击毁了许多人的挑战，纳什在深爱着他的妻子艾丽西亚的相助下，与被认为是只能好转、无法治愈的疾病作斗争。经过十几年的不懈努力，完全通过意志的力量，他一如既往地坚持工作，并于1994年获得诺贝尔奖，他在博奕论方面颇具前瞻性的工作也成为20世纪最具影响力的理论。这是一个真人真事的传奇故事，今天纳什继续在他的领域中耕耘着。",
       "posterPath": "https://image.tmdb.org/t/p/w500/fCKdh2Y5uYHlshpdkdIE7WxgZ5R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vVBcIN68kFq681b4lObiNJhEVro.jpg",
-      "rating": 7.855,
+      "rating": 7.9,
       "releaseDate": "2001-12-14",
       "genres": [
         "剧情",
@@ -2232,7 +2293,7 @@
       "description": "八岁男孩布鲁诺（Asa Butterfield 饰）一家随着纳粹军官父亲的一纸调令，由柏林搬迁到了乡下。失去了朋友们的布鲁诺很快对新家附近的“农庄”产生了兴趣，那里有一群身穿“条纹睡衣”的人终日忙碌，并且其中一个为布鲁诺一家服务，他形容肮脏，态度慎微。周遭环境和布鲁诺的举止让母亲暗暗担忧，但纳粹父亲制止家中任何怀疑既定政策的行为。  布鲁诺偷偷结识了铁丝网另一边的同龄男孩施穆尔，并时常带给他食物吃。在紧张的家庭氛围和姐姐向成人世界的变化中，施穆尔是布鲁诺惟一的朋友。某日布鲁诺决定，去铁丝网的另一边，以便见到施穆尔的父亲……",
       "posterPath": "https://image.tmdb.org/t/p/w500/asM6jzyXZv7HKORpTQFnkFplHPd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/A63giQFJP4ABqNk4sLzegVeqVdl.jpg",
-      "rating": 7.817,
+      "rating": 7.818,
       "releaseDate": "2008-05-07",
       "genres": [
         "剧情",
@@ -2293,7 +2354,7 @@
       "description": "一部政治惊悚片，亦是一曲人性剧，本片的故事始于1984年的东柏林，时值柏林墙倒塌与“公开性”政策实施五年前，并最终将我们带至1991年已然统一的德国。影片刻画了东德全权秘密警察机构史塔西麾下的精锐军官——格尔德·维泽勒上尉逐渐醒悟的过程。[索尼影业经典]",
       "posterPath": "https://image.tmdb.org/t/p/w500/v08rYoUwgAIT5zwhT4V3Tada78o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
-      "rating": 8,
+      "rating": 8.037,
       "releaseDate": "2006-03-23",
       "genres": [
         "剧情",
@@ -2324,7 +2385,7 @@
       "description": "1940年代的上海，自小受尽欺辱的街头混混阿星为了能出人头地，可谓窥见机会的缝隙就往里钻，今次他盯上行动日益猖獗的黑道势力“斧头帮”，想借之大名成就大业。阿星假冒“斧头帮”成员试图在一个叫“猪笼城寨”的地方对居民敲诈，不想引来真的“斧头帮”与“猪笼城寨”居民的恩怨。“猪笼城寨”原是藏龙卧虎之处，居民中有许多身怀绝技者，他们隐藏于此本是为远离江湖恩怨，不想麻烦自动上身，躲都躲不及。而在观战正邪两派的斗争中，阿星逐渐领悟功夫的真谛。",
       "posterPath": "https://image.tmdb.org/t/p/w500/l0K2XZpJIAheTotb096MwAdEQpX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/9XhZhoSnFJ3AjpfzdIiZVHLQIS4.jpg",
-      "rating": 7.5,
+      "rating": 7.481,
       "releaseDate": "2004-02-10",
       "genres": [
         "动作",
@@ -2385,7 +2446,7 @@
       "description": "艾德里安（马里奥·卡萨斯 Mario Casas 饰）经营着一间科技公司，事业蒸蒸日上，家中有美丽贤惠的妻子和活泼可爱的女儿，事业家庭双丰收的他是旁人羡慕的对象。然而，野心勃勃的艾德里安并未珍惜眼前来之不易的生活，一直以来，他和一位名叫劳拉（芭芭拉·蓝妮 Bárbara Lennie 饰）的女摄影师保持着肉体关系。某日幽会过后，两人驱车离开别墅，却在路上发生了车祸，为了掩盖事件的真相，两人决定将在车祸中死去的青年丹尼尔联同他的车一起沉入湖底。之后，劳拉遇见了一位善良的老人，老人将劳拉坏掉的车拉回家中修理，然而，令劳拉没有想到的是，这位老人，竟然就是丹尼尔的父亲。",
       "posterPath": "https://image.tmdb.org/t/p/w500/xh32R4QAARCgazSQUgVd0NdrnIk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/1ZSWFzAP4AZuFCigZZoib2RdcUO.jpg",
-      "rating": 8.1,
+      "rating": 8.087,
       "releaseDate": "2017-01-06",
       "genres": [
         "剧情",
@@ -2448,7 +2509,7 @@
       "description": "韦斯·安德森以其冷峻机锋与视觉奇想，在两次世界大战之间旧世浮华的欧洲舞台上，铺陈开这场精致的冒险轶事。在奢华非凡的布达佩斯大饭店中，礼宾员古斯塔沃先生与他的年轻门生零因卷入一起无价文艺复兴画作失窃案与巨额家族遗产争夺战而建立起坚不可摧的羁绊——而此时整个大陆正被政局动荡所吞噬。这部精心雕琢的作品既是酣畅淋漓的流浪汉传奇，亦是对逝去世界之辉煌与友谊的深情颂歌。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/1Hd0xHLGnu4TRcq0lYG50KbAxfb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/9udCLTxTFl28RxnK8Q05E154ZGa.jpg",
-      "rating": 8.033,
+      "rating": 8,
       "releaseDate": "2014-02-26",
       "genres": [
         "喜剧",
@@ -2478,7 +2539,7 @@
       "description": "在州立精神病院里休养总比蹲监狱强，对吧？兰德尔·P·麦克墨菲（杰克·尼科尔森 饰），一个血管里流淌着闪电、舌绽莲花的自由派骗子，装疯混进了他所谓的“疯子们”中间。很快，他那极具感染力的无序感便与麻木的例行程序发生冲撞。当世界大赛正酣时，这群被镇静剂泡透的家伙怎能披着浴袍拖沓度日？这意味着战争！一方是麦克墨菲，另一方则是轻声细语的拉契特护士（路易丝·弗莱彻 饰）——这位影史上最冷酷可怕的恶魔之一。而赌注，是整个病房每位患者的命运。[华纳兄弟]",
       "posterPath": "https://image.tmdb.org/t/p/w500/cTlE3BxHbJL05UrisIUkS9usdOW.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/6Oa3zTiluBz2W8D2ou1MY16dUiF.jpg",
-      "rating": 8.413,
+      "rating": 8.4,
       "releaseDate": "1975-11-19",
       "genres": [
         "剧情"
@@ -2524,7 +2585,7 @@
       "description": "麻省理工学院的数学教授蓝波在席上公布了一道困难的数学题，却被年轻的清洁工威尔（马特·戴蒙 饰）解了出来。可是威尔却是个问题少年，成天和好朋友查克（本·阿弗莱特 饰）等人四处闲逛，打架滋事。当蓝波找到这个天才的时候，他正因为打架袭警被法庭宣判送进看守所。蓝波向法官求情保释，才使他免于牢狱之灾。蓝波为了让威尔找到自己的人生目标，不浪费他的数学天赋，请了很多心理学专家为威尔做辅导，但是威尔十分抗拒，专家们都束手无策。无计可施之下，蓝波求助于他大学的好友，心理学教授尚恩（罗宾·威廉姆斯 饰），希望能够帮助威尔打开心房。经过蓝波和尚恩的不懈努力，威尔渐渐敞开心胸，而好友查克的一席话，更是让他豁然开朗。",
       "posterPath": "https://image.tmdb.org/t/p/w500/6GtC5kaLrtk2YhAfvPqQrgbRQKR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
-      "rating": 8.158,
+      "rating": 8.2,
       "releaseDate": "1997-12-05",
       "genres": [
         "剧情"
@@ -2613,7 +2674,7 @@
       "description": "尹天仇（周星驰 饰）一直醉心戏剧，想成为一名演员，平时除了做跑龙套以外，还会在街坊福利会里开设演员训练班。此时舞小姐柳飘飘在妈妈桑的带领下来到这里要求学做戏，原来柳飘飘有一段非常不愉快的经历，在尹天仇对她指导的过程中，柳飘飘对尹天仇渐生情愫，同时她也成为了夜总会里当红的小姐。尹天仇受到了极多白眼之后，终于得到了大明星鹃姐（莫文蔚 饰）的赏识，提携他担演新戏中的男主角，但没想到突然把他的角色换掉了，令他失望不已。在片场当场务的卧底警员（吴孟达 饰）身份被识穿，尹天仇阴差阳错的帮忙破了案。之后尹天仇继续活跃在街坊福利会的演员训练班里。",
       "posterPath": "https://image.tmdb.org/t/p/w500/6tHNUo8asDW1jApyEqJMgjfellO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fGzO3qGIaBlLlW53fsaRSUPEjw0.jpg",
-      "rating": 7.389,
+      "rating": 7.387,
       "releaseDate": "1999-02-08",
       "genres": [
         "喜剧",
@@ -2629,7 +2690,7 @@
       "description": "二十年代的美国处于经济萧条时期，失业率居高不下，工人受尽压榨，成为了大机器生产中的一颗螺丝钉。查理就是一个底层市民，他在一个机器隆隆的厂房里日以继夜地工作，以赚取微薄的收入。重复繁重的工作压得他喘不过气，他把人们的鼻子当成螺丝钉来拧，卷入流水线机器的皮带里，令人苦笑不得。\r 查理尽管贫穷，但却很善良。他在路上搭救了流浪女，和她一起生活，家里破烂却又温馨。每次身无分文的查理为了找到吃的，都会故意犯事，以便进入监牢。光景一时间有了好转，流浪女成了歌舞红星，然而好景太短暂了。",
       "posterPath": "https://image.tmdb.org/t/p/w500/3OR9kt3TIjGoiMtv7OGwM6LGavC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vzKzz7ObY3zNIV4ZYFY6Ib3X6ig.jpg",
-      "rating": 8.281,
+      "rating": 8.282,
       "releaseDate": "1936-02-05",
       "genres": [
         "喜剧",
@@ -2645,7 +2706,7 @@
       "description": "在其突破性的第二部作品中，奉俊昊以颠覆性的手法引爆了警察类型片的传统桎梏，带来了震撼且超越类型的成果。影片基于1980年代撼动韩国乡村社区的一连串真实连环杀人案改编，韩国电影标志性人物宋康昊饰演当地警官，他不得不与一位老练的首尔侦探联手调查此案——两人由此踏上一段长达数年、充满挫败与煎熬的艰苦历程，逐渐被推向存在的边缘。奉俊昊将扣人心弦的刑侦过程与军权统治下日常生活的荒诞社会图景生动结合，打造了一次深入黑暗的萦心之旅：它始于黑色喜剧的讽刺，终于与深渊那场灵魂破碎的遭遇。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/6Kn6qW3an3DkPl3MahWemTzrjCt.jpg",
-      "rating": 8.1,
+      "rating": 8.055,
       "releaseDate": "2003-04-25",
       "genres": [
         "犯罪",
@@ -2676,7 +2737,7 @@
       "description": "黎耀辉与何宝荣是一对同性恋人，为了有新的开始，他们怀着美丽的梦想（去看南美洲大瀑布）离开香港来到阿根廷，却在布宜诺斯艾利斯迷了路。黎耀辉想安下心来过日子，无奈何宝荣于夜夜笙歌中放纵着自己的生命，以期找寻更多的刺激，只当黎耀辉是他受伤后的港湾，两人分歧 、争吵越来越多，心的距离越来越远。黎耀辉明白过去的日子不可能再复返时，决定离开何宝荣，而正是在他离开后，绝望的意味（对黎耀辉的爱）才在何宝荣的脑海中完整的浮现。",
       "posterPath": "https://image.tmdb.org/t/p/w500/dAyUTgO1BGuEZhF3f2G8V9d8sXM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/2Xkd3WeAx11cHxb4Lr3wnSNDWcd.jpg",
-      "rating": 7.561,
+      "rating": 7.6,
       "releaseDate": "1997-05-30",
       "genres": [
         "剧情",
@@ -2707,7 +2768,7 @@
       "description": "在这部扣人心弦的生态惊悚片中，一支由潜水员、活动家与特效专家组成的精英团队潜入日本一处秘密海湾，旨在揭露历史上最触目惊心且超乎想象的反自然罪行之一。[Roadside Attractions]",
       "posterPath": "https://image.tmdb.org/t/p/w500/jlagJH6iwZP0ObDxhqPo2kRPHPz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/gpyu3jQeMQeUFAVjCSrVCrYYK3f.jpg",
-      "rating": 7.943,
+      "rating": 7.944,
       "releaseDate": "2009-07-31",
       "genres": [
         "纪录片"
@@ -2784,7 +2845,7 @@
       "description": "刚刚和妻子离婚的卢卡斯目前在一家托儿所工作，心地善良个性温和的他很快就受到了同事和孩子们的喜爱，其中，一个名叫卡拉的早熟女孩对卢卡斯尤为的亲近。面对女孩幼稚 而单纯的示好，卢卡斯只能婉转的拒绝，可令他没有想到的是，这一举动将他的生活推向了风口浪尖。\r 卡拉报复性的谎言让卢卡斯背负起了性侵女童的罪名，一时间，这个好好先生成为了整个小镇排挤和压迫的对象。好友的愤怒，前妻的不信任，爱犬的死亡和陌生人的恶意让卢卡斯几近崩溃，而当小小的卡拉吐露真相之后，恶意却并没有随着卢卡斯的重获清白而划下句点。",
       "posterPath": "https://image.tmdb.org/t/p/w500/phBQ7y7FwqhpUzQid32mnX91CmO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/7zN7m5jEyrNxFYm2EbQJAZwAG5i.jpg",
-      "rating": 8.1,
+      "rating": 8.097,
       "releaseDate": "2012-10-25",
       "genres": [
         "剧情"
@@ -2798,7 +2859,7 @@
       "description": "室町时代时期的虾夷族少年阿席达卡，某日遇到被称为“邪魔神”攻击他所居住村落的怪物。在阿席达卡为了保护村落与邪魔神对战时，过程当中遭受邪魔神的攻击而留下创伤与诅咒。击败了邪魔神之后，阿席达卡发现对方是由一头愤怒的山猪神所变化而成，并在祂的体内发现一颗铁弹。之后村里的女巫便劝他以铁弹为线索，来离开村落前往西方，查找邪魔神产生的来源和解除诅咒方法。  于阿席达卡的旅途中，他拯救了两名来自于炼铁据地“达达拉城”的住民。在协助对方返回到达达拉城之后，阿席达卡得知邪魔神身上的铁弹，便是遭到由达达拉城所打造的火枪所伤，其中达达拉城的统治者黑帽大人因为炼铁缘故从森林中砍伐许多木头资源，便与森林中的神祇交恶发生冲突。起初阿席达卡对于黑帽大人夺取资源、伤害森林神祇的行为感到愤怒，但之后目睹到众多穷人以及被社会隔离的痳疯患者在达达拉城有着生存机会而动摇。  后续他知晓森林里住着一位由犬神所养大，憎恨黑帽大人一心想取下对方性命，有着“幽灵公主”名号的人类少女小桑。在阿席达卡来到达达拉城的当日夜晚里，小桑突然现身于达达拉城内想找寻机会突击黑帽大人。当她们俩人展开打斗时，阿席达卡试图想调停双方之间的斗争，但在阻止的过程中阿席达卡意外遭旁人用石火枪给误射打伤。而小桑之后则将阿席达卡带回自己居住的森林里疗养。  在伤口撤销后，阿席达卡得知小桑打算与其祂山猪神同盟向人类一决死战，并发现到黑帽大人要与朝廷一方势力联手，来夺取名为“山兽神”的森林神祇之首级，以获得对方长生不死能力的事情。之后阿席达卡便试着想在混乱的局势中，找寻可解决冲突的方式。",
       "posterPath": "https://image.tmdb.org/t/p/w500/mgxuL4rDqAHdcZvO3fXRhrcifpv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
-      "rating": 8.3,
+      "rating": 8.322,
       "releaseDate": "1997-07-12",
       "genres": [
         "冒险",
@@ -2814,7 +2875,7 @@
       "description": "改革开放初期，黎小军（黎明 饰）告别女友小婷（杨恭如 饰）从天津（国语版中为无锡）来到香港讨生活，期望有天挣到大钱把小婷接来与之风风光光地成婚，没料想日子会比想象中的难熬许多。  黎小军在快餐店与同样从大陆到港讨生活但避讳谈自己身份的李翘（张曼玉 饰）结识后，因为共同喜爱邓丽君，两人人在异 乡的孤独都有 了某种程度的缓解，并在交往的过程中生出了真爱，可是世事难料，两人最终无奈分手，黎小军成了小婷的老公，李翘跟了在黑社会做事的豹哥（曾志伟 饰）。然而因为邓丽君，两人的缘分并没到此为止。",
       "posterPath": "https://image.tmdb.org/t/p/w500/5zI3WI1qg5fuHxHVJNdGAo8Etr1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/zFPns25Qnt6WCM6DLQrPrNziC0e.jpg",
-      "rating": 7.844,
+      "rating": 7.845,
       "releaseDate": "1996-11-02",
       "genres": [
         "剧情",
@@ -2924,7 +2985,7 @@
       "description": "美国青年杰西（伊桑·霍克 饰）在火车上偶遇了法国女学生塞琳娜（朱莉·德尔佩 饰），两人在火车上交谈甚欢。当火车到达维也纳时，杰西盛情邀请塞琳娜一起在维也纳游览一番，即使杰西翌日便要坐飞机离开。与杰西一见钟情的塞琳娜接受了杰西的邀请。\r 他们一边游览城市，一边谈论着彼此的过去 ，彼此对生活的感想，两人了解越加深刻。他们非常珍惜这美妙的晚上，这对恋人一起经历了很多浪漫的经历因为他们约定在半年后再见，而此次约会将会在日出之间结束……",
       "posterPath": "https://image.tmdb.org/t/p/w500/5gisRHtmLULKXHthDvez9DxdlYm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
-      "rating": 7.97,
+      "rating": 8,
       "releaseDate": "1995-01-27",
       "genres": [
         "剧情",
@@ -2954,7 +3015,7 @@
       "description": "九年前，杰西（伊桑·霍克 饰）与席琳（朱莉·德尔佩 饰）在火车上不期而遇，怦然心动。在维也纳渡过疯狂而又浪漫的一夜后，他们在日出前分手，并相约在维也纳重逢。\r 九年之后，杰西已成为畅销书作家，而席琳则是法国环保组织成员。杰西在新书里娓娓道来的，正是九年前的浪漫夜晚。在巴黎促销新书时，杰西与席琳在书店相遇，然而他们只有一下午的时光相处，日落之前，杰西要乘飞机赶回美国。两人在午后的巴黎街头散步，在美丽的护城河上泛舟，无所不谈，兴致勃勃。可是就像命运的捉弄，快乐的时光像烟花一样醉人却短暂。",
       "posterPath": "https://image.tmdb.org/t/p/w500/yxfBGNZBSnqIu4GoIxPcP7EwuV3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/tcZi0LQc5iu2u6i5aOWyj9NBBvl.jpg",
-      "rating": 7.808,
+      "rating": 7.8,
       "releaseDate": "2004-06-16",
       "genres": [
         "剧情",
@@ -2984,7 +3045,7 @@
       "description": "这是一个不同寻常的学期，魔法学校的盛事：三强争霸赛将在霍格沃茨举行。学生们争先报名，希翼获得永恒无上的荣誉。火焰杯在选出三所学校的三名勇士后，竟将未足年龄的哈利也挑选出来。哈利的当选引起其他学生的嫉妒连连，就连铁哥们罗恩也首次和他闹起了别扭，哈利感到孤立无援，还好有教父小天狼星和赫敏一直支持他。可总有些好事者如记者丽塔等着看他的好戏。天知道这场比赛是何等艰辛危险，在龙的眼皮下偷蛋，潜入湖底救人，在迷宫中探险……一不小心，甚至可能付出生命的代价。黑魔王伏地魔的威胁渐渐显现，每一天都险象环生，动人心弦。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wFWTByIUYjtB113HTriXJXTN13S.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg",
-      "rating": 7.801,
+      "rating": 7.8,
       "releaseDate": "2005-11-16",
       "genres": [
         "冒险",
@@ -3015,7 +3076,7 @@
       "description": "当红三人少女偶像团体Charming Bird面临解散，核心成员雾越未麻在事务所的安排下不得不退出团体，转型成为一名电视剧演员。万事开头难，对于偶像歌手转型而来的未麻尤其如此，她在工作中承受着压力，闷闷不乐。与此同时，各种恐吓信不断、经纪人田所先生遇袭以及以自己的口吻在网站上写日记的神秘人都让未麻焦虑不已，恍惚间她甚至看到另一个自己。未麻的苦恼无人知晓，贪婪的田所甚至同意剧组的剧本，要求未麻出演一场尺度极大的强暴戏。这次演出成为未麻演艺事业的转折点，她的出镜率开始攀升，甚至还拍摄了裸露的写真。与此相对，电视剧编剧涩谷和曾给未麻拍下裸照摄影师村野接连遇害。未麻的生活变得混乱不堪，真相究竟如何？本片荣获1997年亚洲奇幻电影节最佳亚洲影片。",
       "posterPath": "https://image.tmdb.org/t/p/w500/6A2jXiDptJExIxX6fNTg0K1GMzx.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/mHG7dpLb0ZScSY3LpP443IHRmjy.jpg",
-      "rating": 8.301,
+      "rating": 8.3,
       "releaseDate": "1998-02-28",
       "genres": [
         "动画",
@@ -3030,7 +3091,7 @@
       "description": "可爱的小女孩莱莉（凯特林·迪亚斯 Kaitlyn Dias 配音）出生在明尼苏达州一个平凡的家庭中，从小她在父母的呵护下长大，脑海中保存着无数美好甜蜜的回忆。当然这些记忆还与几个莱莉未曾谋面的伙伴息息相关，他们就是人类的五种主要情绪：乐乐（艾米·波勒 Amy Poehl er 配音）、忧忧（菲利丝·史密斯 Phyllis Smith 配音）、怕怕（比尔·哈德尔 Bill Hader 配音）、厌厌（敏迪·卡灵 Mindy Kaling 配音）和怒怒（刘易斯·布莱克 Lewis Black 配音）。乐乐作为团队的领导，她协同其他伙伴致力于为小主人营造更多美好的珍贵回忆。某天，莱莉随同父母搬到了旧金山，肮脏逼仄的公寓、陌生的校园环境、逐渐失落的友情都让莱莉无所适从，她的负面情绪逐渐累积，内心美好的世界渐次崩塌。\r 为了保护这一切，乐乐只有行动起来……",
       "posterPath": "https://image.tmdb.org/t/p/w500/gN3qUaxucFWNTBDsaxkyCQSbox2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
-      "rating": 7.9,
+      "rating": 7.909,
       "releaseDate": "2015-06-17",
       "genres": [
         "动画",
@@ -3091,7 +3152,7 @@
       "description": "美国怀俄明州的西部，沉默寡言的农夫恩尼斯·德·玛尔和热情开朗的牛仔杰克·特威斯特一道被派到山上牧羊，那里人迹罕至，他们只有与羊群为伴，生活单调无味。一个天寒地冻的夜晚，在酒精与荷尔蒙的作用下，他们做了“不该做的事情”，也就此他们在断背山上度过了人生中最美好的时光。季节性放牧结束，迫于世俗压力，杰克和恩尼斯不舍地与对方分离并各自结婚生子。恩尼斯迎娶了自幼相识的阿尔玛，并有了两个可爱的女儿；杰克到了德州，在妻子露琳家族的扶植下事业顺利，还有了个儿子。虽然彼此真心相应，他们只能每年定期约会。一边知情的阿尔玛痛苦无比，而他们又无法满足一年只有几天的团聚。这时意外发生……",
       "posterPath": "https://image.tmdb.org/t/p/w500/fo9yZVC2nwgr3RpGoUGKaeEzHo8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vXzqV2RtJlT9WhNEM4NYWCEC6ZI.jpg",
-      "rating": 7.785,
+      "rating": 7.8,
       "releaseDate": "2005-10-22",
       "genres": [
         "剧情",
@@ -3122,7 +3183,7 @@
       "description": "威廉·华莱士童年时，其父、苏格兰民族英雄马索·华莱士在与英军的斗争中牺牲，他开始接受父亲好友的指导，学习苏格兰文化和武术。青年华莱士（梅尔·吉布森 饰）学成回到故乡，向美丽的少女梅伦求婚，不想梅伦被英军抢去且遭杀害。在广大村民“英雄之后”的呼声中，华莱士率众揭竿起义，并与苏格兰贵族罗伯结成联盟，但不久他发现，苏格兰贵族考虑的只是自身的利益。英王为缓和局势，派伊莎贝拉（苏菲·玛索 饰）前去和华莱士谈判，由于英王只想收买华莱士，根本不顾苏格兰人民的自由和平等，谈判失败，但这一切并不为伊莎贝拉所知。伊莎贝拉归国后发现事情真相，且知晓英王正策划阴招，忙送信给华莱士，而两人的爱情，也在战争与阴谋中悄然滋生。",
       "posterPath": "https://image.tmdb.org/t/p/w500/6lKfw0XNf8AUv76DZPxvoDGdfwl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/8lBcqakI3F19NWkXdqE0M8W76b9.jpg",
-      "rating": 7.94,
+      "rating": 7.9,
       "releaseDate": "1995-05-24",
       "genres": [
         "动作",
@@ -3215,7 +3276,7 @@
       "description": "根据简·奥斯汀同名小说改编。伊丽莎白·班纳特(凯拉·奈特丽 饰)出身于小地主家庭，有四个姐妹，母亲班纳特太太整天操心着为女儿物色称心如意的丈夫。新来的邻居宾格来先生和他的朋友达西（马修·麦克菲迪恩 饰）打破了她们一家人单调的乡村生活。宾格来和伊丽莎白的姐姐简·班纳特互生情愫；达西对善良聪明的伊丽莎白产生了好感，而伊丽莎白却对达西不可一世的傲慢心存偏见，不接受他的感情。然而，世事难料，宾格来和简·班纳特因为误会，关系危在旦夕；达西的种种作为，展示了性格中和伊丽莎白相同的善良一面，逐渐赢得了伊丽莎白的好感。两对有情人能否终成眷属？班纳特姐妹们能否得到自己想要的生活？\r 简·奥斯汀笔下十九世纪初英国乡村生活和社会风貌，重新展现在大银幕上。",
       "posterPath": "https://image.tmdb.org/t/p/w500/2RD0e28s7IFPbxWkBUaPfvwcdWB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/1Onam6oWyFAUCcoxtdWkACtEiNr.jpg",
-      "rating": 8.052,
+      "rating": 8.1,
       "releaseDate": "2005-09-16",
       "genres": [
         "剧情",
@@ -3230,7 +3291,7 @@
       "description": "一九六二年的香港：周慕云与苏丽珍在同一天搬进相邻的公寓。他们的相遇起初保持着得体与疏离——直到发现各自配偶的秘密，一种亲密的情愫悄然滋生。王家卫的本片既含蓄典雅又视觉绚烂，精湛地勾勒出浪漫渴望与易逝的瞬间。在悸动的配乐、以及杜可风与李屏宾极致抽象的摄影美学中，这部电影成为过去二十年影坛的重要风格标杆，亦是王家卫璀璨生涯的一座里程碑。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/ivyPPBVdDcwJy8LI8xccDFZqIaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
-      "rating": 8.1,
+      "rating": 8.093,
       "releaseDate": "2000-09-29",
       "genres": [
         "剧情",
@@ -3476,7 +3537,7 @@
       "description": "为了完成父亲的心愿，维克多（汤姆•汉克斯 Tom Hanks 饰）从故国乘坐飞机前往美国肯尼迪机场，但戏剧性的事情发生了：他被告知祖国发生政变，而他的身份证护照一一失效，同时他的签证也无法再使用。进退两难的维克多只有在机场滞留，等待新证件的办理。但是，他在机场等待了整整9个月。在这9个月里面，他用机场的洗手间洗漱，在候机室睡觉，他已经学懂因地制宜，在机场照料自己的生活，甚至还找了一份建筑工地工作。然而维克多的邋遢晦气却招来了机场负责人弗兰克（史坦利•图齐 Stanley Tucci 饰）的不满，而恐怕更令他气愤妒忌的是，美丽的空姐艾米利亚（凯瑟琳•泽塔-琼斯 Catherine Zeta-Jones 饰）竟然爱上了维克多。处在甜蜜中的维克多，也在慢慢观察机场的人生百态，自得其乐。",
       "posterPath": "https://image.tmdb.org/t/p/w500/7a7bWt1hVIWPBLiKXK9aou1ZSfO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/zywtNiaZ9r7azrcNdl2j0jOgrkw.jpg",
-      "rating": 7.3,
+      "rating": 7.349,
       "releaseDate": "2004-06-17",
       "genres": [
         "喜剧",
@@ -3507,7 +3568,7 @@
       "description": "超级坏蛋格鲁 在听说埃及金字塔被盗的新闻后不满市面上新贼辈出，决定在纳法利欧博士 的帮助下建造火箭升空盗取月亮。在向坏蛋银行贷款的过程中，格鲁盗取的收缩射线枪被新贼维克托 抢走。为了夺回收缩射线枪，格鲁决定领养三位孤儿——玛戈、伊迪丝 和阿格蕾丝，利用她们进入维克托的城堡兜售饼干的机会实施偷盗，计划成功后再偷偷处理掉三个小孩。然而在平凡的日常相处中，格鲁却发现自己越来越离不开这三个小鬼，但这样的感情用事却将严重影响周密的盗月计划……",
       "posterPath": "https://image.tmdb.org/t/p/w500/wQ2dOndyH5Xq7kzJvv5haIFEahZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/2XSeKDmIa2KxaiJy4J9e8FrIZhk.jpg",
-      "rating": 7.255,
+      "rating": 7.256,
       "releaseDate": "2010-07-08",
       "genres": [
         "家庭",
@@ -3569,7 +3630,7 @@
       "description": "一所平凡的中学，1年B组即将迎来春假。不知天高地厚的学生们肆意吵闹，殊不知一场绵亘数月的风暴正向他们袭来。级任教师森口悠子（松隆子 饰）全然无视这片混乱，静静地向学生们做出最后的告白。这个单亲妈妈独自抚养着可爱的女儿（芦田爱菜 饰），然而女儿最终在游泳池中溺水身亡。警察 认定这是一起意外，森口则认定女儿死于班上两个学生之手。她不动声色地指责着犯人A和B，并宣布用自己的方式进行复仇。在此之后，森口辞去教师职务，1年B班的学生也心怀惴惴迎来了春假。新学期开始，残酷的风暴袭向了这群无知无畏的少男少女……本片根据湊かなえ的原作改编，并成为2010年电影旬报十佳影片；第34届日本电影学院奖最佳作品、最佳导演、最佳剧本和最佳剪辑4项大奖。",
       "posterPath": "https://image.tmdb.org/t/p/w500/5zMc9ggvMIvEOwH9rj4ojMLaBFG.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sT7f721Zvb9Feo11sbhvkk2JLHi.jpg",
-      "rating": 7.585,
+      "rating": 7.586,
       "releaseDate": "2010-06-04",
       "genres": [
         "剧情",
@@ -3648,7 +3709,7 @@
       "description": "凤凰城一女秘书卷走客户四万美元公款，仓皇出逃途中入住一家偏僻汽车旅馆。旅馆经营者诺曼·贝茨是位受其母亲支配的年轻人。",
       "posterPath": "https://image.tmdb.org/t/p/w500/ocbBnQ7kYPJHSIlFmSg6LwxFrh2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vzXQEAmXIEWAtPCgB81bAS6EJCy.jpg",
-      "rating": 8.4,
+      "rating": 8.418,
       "releaseDate": "1960-06-22",
       "genres": [
         "恐怖",
@@ -3727,7 +3788,7 @@
       "description": "在远离大都会的小山村，住着巫女世家出身的高中女孩宫水三叶（上白石萌音 配音）。校园和家庭的原因本就让她充满烦恼，而近一段时间发生的奇怪事件，又让三叶摸不清头脑。不知从何时起，三叶在梦中就会变成一个住在东京的高中男孩。那里有陌生的同学和朋友，有亲切的前辈和繁华的街道，一切都是如此诱人而真实。另一方面，住在东京的高中男孩立花泷（神木隆之介 配音）则总在梦里来到陌生的小山村，以女孩子的身份过着全新的生活。许是受那颗神秘彗星的影响，泷和三叶在梦中交换了身份。他们以他者的角度体验着对方的人生，这期间有愤怒、有欢笑也有暖心。只是两人并不知道，身份交换的背后隐藏着重大而锥心的秘密……",
       "posterPath": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
-      "rating": 8.5,
+      "rating": 8.478,
       "releaseDate": "2016-08-26",
       "genres": [
         "动画",
@@ -3850,7 +3911,7 @@
       "description": "本片是奥斯卡奖提名者马丁·麦克唐纳执导的一部黑色喜剧犯罪剧情片。在女儿遇害案悬置数月仍未破获后，米尔德丽德·海斯采取了一项大胆之举：她租下通往小镇路上的三块广告牌，牌上直指当地德高望重的警察局长比尔·威洛比的尖锐标语掀起轩然大波。而当威洛比麾下警员杰森·迪克森——一个沉迷酒精与暴力的不成熟妈宝男——卷入冲突后，米尔德丽德与埃宾镇执法部门之间的对抗愈演愈烈。[福克斯探照灯影业]",
       "posterPath": "https://image.tmdb.org/t/p/w500/fQzCvF2R4P9YkPQK7gO9LNLcnlD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
-      "rating": 8.061,
+      "rating": 8.062,
       "releaseDate": "2017-12-01",
       "genres": [
         "犯罪",
@@ -3897,7 +3958,7 @@
       "description": "两位女性，一辆青绿色雷鸟跑车，一场终身难忘的旅程。凭借这部流行文化里程碑之作，编剧卡莉·库利与动作片名导雷德利·斯科特改写了公路电影的规则，讲述一对闺蜜在周末旅行失控后意外沦为亡命之徒的故事——她们在西南公路上急速狂飙，躲避追捕的同时以自我意志追寻自由。苏珊·萨兰登与吉娜·戴维斯令人屏息的表演（加上布拉德·皮特性感耀眼的首秀）推动着剧情，影片获六项奥斯卡提名，并为库利赢得一座奖杯。本片这场酣畅淋漓的灵魂洗礼，堪称电影史上对生死与共的女性情谊最极致的礼赞。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/gcg7uU1pfszTcukhfFTTfQNJrL0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/eA15zhxnhQSg4k5MUbbTERIU23Z.jpg",
-      "rating": 7.596,
+      "rating": 7.6,
       "releaseDate": "1991-05-24",
       "genres": [
         "剧情",
@@ -3928,7 +3989,7 @@
       "description": "1991年，香港黑帮龙头倪坤（张同祖 饰）被杀，倪氏家族旗下五大头目中除韩琛（曾志伟 饰）外，均伺机背叛发难，不料却被倪家不起眼的第二代倪永孝（吴镇宇 饰）不费一兵一卒牵制，此举引来重案祖督察黄志诚（黄秋生 饰）的戒心，使其派出警校学生陈永仁（余文乐 饰）渗入倪家进行长期的卧底工作，而韩琛为了巩固势力，早在警察内部安插了线人刘建明（陈冠希 饰）。三年后，事业蒸蒸日上的倪永孝为安枕无忧，决意将五大头目一举歼灭，却因疏忽让韩琛成为漏网之鱼。1997年，大难不死的韩琛重出江湖，为替死去的同事报仇，黄志诚找到他商议合作除掉倪永孝的事宜，不久却发现此举铸成大错，而各自为自己的尴尬身份苦恼的陈永仁和刘建明，则在无间道的路上越行越远……",
       "posterPath": "https://image.tmdb.org/t/p/w500/5xRCFetYT8cHlcIFjuWL5uyNjy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/j0bK5l5Wo4XvUUrKp1FckLvbse9.jpg",
-      "rating": 7.309,
+      "rating": 7.3,
       "releaseDate": "2003-10-01",
       "genres": [
         "动作",
@@ -3975,7 +4036,7 @@
       "description": "1935年。美国南部惨淡肃杀的冷山监狱。这里有片一英里长的绿地，人们叫它“绿里”。不过，它的居民皆为死囚，在绿地的另一头，便是行刑用的电椅。保罗·艾治科姆（汤姆·汉 克斯饰）是这里的狱监，对于走过“绿里”、继而在电椅上惨叫毙命的死囚行刑程序，他俨然已无动于衷。除了保罗及其爱妻简外，“绿里”上还有凶残的副狱监豪威尔，有施虐倾向 的狱吏佩西，良心未泯的看守海尔和他身患绝症的妻子美琳达，喜用宠物鼠逗狱吏和诸“难友”取乐的德拉克，连环杀人狂威廉，负疚深重的犯人彼特等一干形形色色的人们。他们之 间充满了敌意和不屑。但神秘的约翰·考夫利的到来改变了一切。考夫利因谋杀两名幼女被 判死罪，他相貌恐怖，体形硕大，却出奇地平和、敏感而缄默，天真时甚至像个孩子，同时， 他似乎还具有一种不可名状的神秘力量，令人不由自主地对其产生信任感，这不禁让艾治科姆对其罪行是否属实深怀疑问。 真情无法取代程式，考夫利终要走过“绿里”。在这个貌似粗鲁的男人即将赴死的刹那，“绿里”上的人们以不同以往的形式实现了各自生命的重要跨越。",
       "posterPath": "https://image.tmdb.org/t/p/w500/yWRRYQACzvbUe5VVdDcjMhXXHD2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/b6HWTOxn1xevvyHU2K9ICvaRU6g.jpg",
-      "rating": 8.5,
+      "rating": 8.504,
       "releaseDate": "1999-12-10",
       "genres": [
         "奇幻",
@@ -3991,7 +4052,7 @@
       "description": "作为“爱在”三部曲的终章，故事展现塞利娜与杰西相伴数年后，带着双胞胎女儿与友人们在希腊展开阳光斑驳的夏日旅居。然而这对伴侣很快发现，长久积压的矛盾逐渐浮出水面，使假期陷入波澜。林克莱特与演员们历经二十年打磨出的情感深度、锐利机锋与酣畅对白，在此凝结成篇。本片深入探讨长期亲密关系的复杂肌理，叩问当爱情褪去往日幻影，究竟将归于何种模样。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/ywRDktMWN1muuK7D2bxfs9l9tcc.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/crdW75sDNYM0ddjFyrcg6V59qdP.jpg",
-      "rating": 7.498,
+      "rating": 7.497,
       "releaseDate": "2013-04-05",
       "genres": [
         "爱情",
@@ -4111,7 +4172,7 @@
       "description": "香港某个国际伪钞集团重要分子宋子豪（狄龙）和Mark（周润发）情同手足，某次宋子豪带手下谭成（李子雄）去台北交易时被其出卖受枪伤被捕入狱，为替好兄弟报仇，Mark孤身赴台，结果被人打成瘸子，江湖地位自此一落千丈，而宋子豪的父亲也在不久丧命。一向视宋子豪为偶像的宋子杰得知哥哥的真实身份后，对黑社会及他恨之人骨，立誓利用警察身份将黑帮势力斩草除根，宋子豪出狱后不顾苦等他想重创辉煌的Mark的劝阻，决心弃暗投明，无奈得不到宋子杰的谅解。而此时已成帮会老大的谭成欲找宋子豪再合作，遭拒绝后放言会害宋子杰，被逼走投无路，宋子豪决定再与Mark连手共抗强敌。",
       "posterPath": "https://image.tmdb.org/t/p/w500/xdy2aw0MwO5ZilPHDbZzpGhq2v5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/o3NOUSFVCHjQFUUvS6OYPvC4sBE.jpg",
-      "rating": 7.393,
+      "rating": 7.4,
       "releaseDate": "1986-08-02",
       "genres": [
         "动作",
@@ -4127,7 +4188,7 @@
       "description": "警方不予受理后，伦纳德·谢尔比执意追查强奸杀害妻子的凶手。然而，一种罕见且无法治愈的失忆症，使他踏上复仇之路难上加难。",
       "posterPath": "https://image.tmdb.org/t/p/w500/dy8gXxDdWILkR7f2N6fQGwFxgKl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
-      "rating": 8.2,
+      "rating": 8.176,
       "releaseDate": "2000-10-11",
       "genres": [
         "悬疑",
@@ -4158,7 +4219,7 @@
       "description": "无敌破坏王（约翰·C·赖利 John C. Reilly 配音）生活在一个80年代出品的低精度游戏中。他的设定身份是一个反派，每天的生活就是在游戏《快手阿修》中大搞破坏，其后由玩家操作的英雄人物快手阿修（杰克·麦克布瑞尔 Jack McBrayer 配音） 会及时赶到进行修补，赢得奖牌，包揽一切荣耀。身为反派，破坏王厌倦了自己的生活，眼看阿修被胜利者的光环围绕，自己却日复一日在无趣中过活，他终于决定改变。单纯的他以为只要自己也能得到一枚奖牌，就可以摆脱反派的身份，于是某日在游戏厅歇业后，破坏王偷偷离开了自己的游戏，前去闯荡其他电子游戏的世界。在途中，破坏王结识了来自《英雄使命》的冷酷队长（简·林奇 Jane Lynch 配音）和来自90年代糖果赛车游戏《甜蜜冲刺》的小女孩云妮（萨拉·丝沃曼 Sarah Silverman 配音）。后者梦想着能上场比赛，但其身份也不允许她梦想成真。破坏王所属的游戏《快手阿修》由于失去了他被认定为系统错误，如不尽快返回，则游戏就会被永久删除；而《甜蜜冲刺》的游戏世界则在悄悄酝酿着一场巨大的、威胁到整个游戏世界的阴谋。这也许是无敌破坏王实现梦想的机会，但也可能是一条不归路…… 他可以扭转乾坤，成为一名真正的英雄吗？",
       "posterPath": "https://image.tmdb.org/t/p/w500/fOdS0JZsWvxtyYwZRS0MZDyEvk8.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/3IFRjBDwtk0DlIsDfJ2zEzLjUBi.jpg",
-      "rating": 7.353,
+      "rating": 7.354,
       "releaseDate": "2012-11-01",
       "genres": [
         "家庭",
@@ -4331,7 +4392,7 @@
       "description": "这是一部黑色喜剧，由6个独立的暴力复仇小故事构成。影片是一次对于人类失控行径的颠覆性创作，从怪异的幽默感，独特的画面和大胆的配乐，到对于身处绝境的普通人这一题材的偏爱，都可以清晰地看到南美鬼才导演达米安·斯兹弗隆与阿莫多瓦在创作方面的相似之处。",
       "posterPath": "https://image.tmdb.org/t/p/w500/yxzE1uIp8behBe1yGvdfb1hsFmv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/dHnki2Dh6lbOtfksrh8H5lg08f5.jpg",
-      "rating": 7.87,
+      "rating": 7.869,
       "releaseDate": "2014-08-21",
       "genres": [
         "剧情",
@@ -4486,7 +4547,7 @@
       "description": "这部查理·卓别林最受珍爱的作品，亦是其流浪汉形象的终极篇章。在这部无声影片中，身兼编剧、导演与主演的卓别林达到了悲喜交融的新境界：可爱的流浪汉爱上街头卖花的失明少女（弗吉尼亚·切瑞尔诠释出魔幻般的纯真），却被女孩误认为百万富翁。尽管这部大萧条时期的轰动之作诞生于有声时代来临之后，卓别林仍毅然坚守对默片艺术表现力的热爱。最终成就了他个人艺术的巅峰，亦加冕为默片喜剧的不朽丰碑。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/hGUhhcC0YxhVuo36SvaRmDDM7o5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/aSksN0VqrRyXkcJPDqGL6S3gxpl.jpg",
-      "rating": 8.257,
+      "rating": 8.3,
       "releaseDate": "1931-02-06",
       "genres": [
         "喜剧",
@@ -4502,7 +4563,7 @@
       "description": "本片是对皇后乐队、传奇主唱弗雷迪·莫库里以及他们音乐的致敬盛宴，这是一段充满爱、痛苦、接纳和音乐的旅程。弗雷迪·莫库里曾是希思罗机场的一名普通搬运工，对音乐满腔热血的他，与布莱恩·梅、罗杰·泰勒、约 翰·迪肯组成皇后乐队。这个殿堂级乐队的从无到有，从疏离到重聚，从低谷到巅峰，仿佛就是弗雷迪一生的缩影。",
       "posterPath": "https://image.tmdb.org/t/p/w500/yNFB3w856i8HcHld5xeeT0avTFt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/dcvbs8z0GEXslC1kCT77x19XDeR.jpg",
-      "rating": 7.962,
+      "rating": 7.961,
       "releaseDate": "2018-10-24",
       "genres": [
         "音乐",
@@ -4547,7 +4608,7 @@
       "description": "心怀演员梦想的米娅在试镜间隙为电影明星端送拿铁，而执着于爵士乐的塞巴斯汀则在昏暗酒吧靠弹奏钢琴曲勉强度日。然而当事业渐有起色，两人不得不做出抉择，这些决定逐渐磨损着他们如薄纱般的恋情，那些曾奋力彼此守护的梦想，此刻却可能将彼此撕裂。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
-      "rating": 7.898,
+      "rating": 7.9,
       "releaseDate": "2016-12-01",
       "genres": [
         "喜剧",
@@ -4563,7 +4624,7 @@
       "description": "南宋是一个人妖难分的时期，法海和尚（赵文卓 饰）到处收服妖精，也扰乱了在西湖底修炼的白青二蛇。青（张曼玉 饰）曾获白（王祖贤 饰）相救，二者便以姐妹相称。姐妹俩受惑佯装成人生活在民间，白更嫁于老实书生许仙，青也同时看上了许仙，便常常以媚态勾引许仙，无奈许仙只深爱白一个。白开设了药店，以为可以自此过上安定的生活，可许仙却受不了青的百般挑逗，更发现了青白二蛇的真实身份，可他却不舍得离开家中的天姿国色。法海得知了青白二蛇的下落，更抓走了许仙。原来白为了爱情放弃修成正果，更怀有了身孕。为了救回丈夫，二蛇与法海展开了搏斗……",
       "posterPath": "https://image.tmdb.org/t/p/w500/b4AjXHdFMlPlSN1DZX18TUENhbs.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sofHRGQgG6LvKYJWpaxQRFKe4or.jpg",
-      "rating": 7.144,
+      "rating": 7.151,
       "releaseDate": "1993-11-04",
       "genres": [
         "动作",
@@ -4594,7 +4655,7 @@
       "description": "故事分五章进行。二战中德占法国，德军上校汉斯（克里斯托弗·瓦尔兹 Christoph Waltz 饰）号称“犹太猎人”，在一次屠犹行动中，少女苏珊娜（梅勒尼·劳伦特 Mélanie Laurent 饰）侥幸逃脱。与此同时，八名美国犹太士兵在中尉奥尔多（布拉德·皮特 饰） 的带领下潜入德占法国刺杀德国军人，其行动神出鬼没，手法残忍，对德军造成相当威胁，被称为“杂种”。三年后苏珊娜来到巴黎继承了姑母的电影院，结识了德国战斗英雄，电影《国家荣耀》的主演弗里德里克（丹尼尔·布鲁赫 Daniel Brühl 饰）。对苏珊娜一见钟情的弗里德里克说服德国宣传部长约瑟夫·戈培尔（西尔维斯特·格洛斯 Sylvester Groth 饰）在苏珊娜的影院首映《国家荣耀》，希特勒（马丁·乌特克 Martin Wuttke 饰）本人也将出席。苏珊娜决定借放映之机烧毁影院；而在德国间谍女演员布里奇特（戴安娜·克鲁格 Diane Kruger 饰）的安排下，英美联合的刺杀行动“奇诺”也将在首映当晚行动……",
       "posterPath": "https://image.tmdb.org/t/p/w500/5j2CTOn2uggMAxPUg9JsxHmqCIU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
-      "rating": 8.215,
+      "rating": 8.2,
       "releaseDate": "2009-08-02",
       "genres": [
         "剧情",
@@ -4626,7 +4687,7 @@
       "description": "　　改编自苏童小说《妻妾成群》。大学刚读半年的颂莲（巩俐）被贪钱的母亲逼迫着嫁进陈家大院，成了老爷的第四房姨太。陈府有老规矩，姨太太们傍晚时分要站在自已的屋子前，等待下人送来的意味被老爷“临幸”的大红灯笼。",
       "posterPath": "https://image.tmdb.org/t/p/w500/c8e6H3G3RNRsBQrSPv3yxUhblXZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/9UCHfC9tYojD4mMVBm0boyzYEQq.jpg",
-      "rating": 7.9,
+      "rating": 7.924,
       "releaseDate": "1991-12-18",
       "genres": [
         "剧情"
@@ -4640,7 +4701,7 @@
       "description": "纽约剧团要重排《天鹅湖》，因前领舞Beth离去，总监Thomas（文森特•卡索尔 Vincent Cassel. 饰）决定海选新领舞，且要求领舞要分饰黑天鹅与白天鹅。Nina（娜塔莉•波特曼Natalie Portman 饰）自幼练习芭蕾舞，在母亲的细心关照下，技艺出众。这次，她希望可以脱颖而出。然而，在竞争中，她发现心机颇重的Lily（米拉•库妮丝 Mila Kunis 饰）是自己的强劲对手。在选拔中，她的白天鹅表演的无可挑剔，但是黑天鹅不及Lily。她感到身心俱疲，回家还发现了背部的红斑与脚伤。她一个人找到总监，希望争取一下。总监趁机亲吻她，却被她强硬拒绝。结果，总监居然选了她。队友怀疑她靠色相上位。在酒会上，Beth甚至当众发泄。这种压力外加伤病，一直影响着她的发挥。总监启发她要释放激情，表现出黑天鹅的诱惑。在强大的心理暗示中，她似乎也滑向了黑天鹅的角色。",
       "posterPath": "https://image.tmdb.org/t/p/w500/eUhKaATJOIbWxpx354T6TvjRWHX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/g0geLM1zXpLb9mpqKw1ePcA5bTJ.jpg",
-      "rating": 7.687,
+      "rating": 7.7,
       "releaseDate": "2010-12-03",
       "genres": [
         "剧情",
@@ -4718,7 +4779,7 @@
       "description": "海神的女儿波妞从深海出逃玩耍，却被困在玻璃瓶里冲到岸上，碰巧被住在岸边悬崖的宗介救出，两人因此相识。但是波妞的父亲——魔法师藤本，认为人类世界肮脏丑陋，强行把波妞带回海里。面对父亲的阻挠、席卷小镇的海啸，以及永远失去魔法的威胁，波妞仍然大胆而坚决地决定——要变成人类跟宗介在一起。而承诺要永远保护波妞的宗介，也即将面临新的挑战。",
       "posterPath": "https://image.tmdb.org/t/p/w500/cgGsTfcTSBzqcpyl1DWKDCJzxl3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/shqLeIkqPAAXM8iT6wVDiXUYz1p.jpg",
-      "rating": 7.8,
+      "rating": 7.756,
       "releaseDate": "2008-07-19",
       "genres": [
         "动画",
@@ -4823,7 +4884,7 @@
       "description": "一个浸润着鲜红与纯白的爱情故事，写在一本洒满昏黄的笔记本上，被一位老先生(詹姆斯·加纳 饰)，一遍一遍的讲述。老太太(吉娜·罗兰兹 饰)总是静静的听着，好奇的追问结果。在一家疗养院，这样不变的场景每天都会上演。笔记本上，秀美的字迹，记载着发生在那个夏天的爱情。艾莉(瑞秋·麦克亚当斯 饰)是富有人家的千金，她随家人来到小镇避暑。在一个充满梦幻的游乐场，邂逅了诺亚(瑞恩·高斯林 饰)。诺亚没有钱，却活的很快乐。艾莉在他那学会了自由，得到了欢笑，两人很快热恋起来。然而在艾莉父母的阻挠下，相爱的两个人，就被分开在夏天结束的那一刻。随着诺亚的365封信被偷偷藏起，艾莉在7年后终于放弃了等待。就在她要步入教堂的前一天，突然在报纸上看到了诺亚曾许诺给自己建造的白色房子。一切记忆，全部苏醒……也许，应该苏醒的，不是故事中的，而是听故事的人。",
       "posterPath": "https://image.tmdb.org/t/p/w500/r2WeeOresCiLhlEpLTz0RPe2s8c.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/zdXnJqBaGFVtLoPNuMeKfEYUViZ.jpg",
-      "rating": 7.9,
+      "rating": 7.89,
       "releaseDate": "2004-06-25",
       "genres": [
         "爱情",
@@ -4838,7 +4899,7 @@
       "description": "　　这是一出10个爱情故事窜成的喜剧杂烩：失去母亲的小男孩终日郁郁寡欢，继父不知该如何安慰。当他得知继子喜欢上学校里最美的女孩，便热烈地鼓励儿子去追。小男孩为了赢得小女孩的关注，废寝忘食地练习架子鼓，只为了在圣诞节的晚会上能与她同台演出。勇敢的他，甚至为了最后的一记道别潇洒地突破机场的安检区。两个孩子的母亲面对了婚姻危机。丈夫感情出轨，把项链送给了别的女人，给她的，则仅是一张她热爱的女歌手的CD。她找了借口仓皇躲入卧室，在歌声中隐忍啜泣。转个身，又夸张地大笑着，迎向娇女爱子欢喜的面容。 丈夫最终幡然醒悟……如此的小故事共有十出，温暖你我的心。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nB8wvhntaWFhIp9HSE1Oan7T858.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-      "rating": 7.094,
+      "rating": 7.095,
       "releaseDate": "2003-09-07",
       "genres": [
         "喜剧",
@@ -4901,7 +4962,7 @@
       "description": "10 岁的奥古斯特天生脸部畸形，此前一直在家中和妈妈自学。这是他第一天上公共学校，他不寻常的外表让他成为同学讨论的焦点。终日受到嘲笑和排斥的奥古斯特尽自己最大的努力在这残忍的环境中生存，就连好不容易交到的新朋友也似乎不太值得信任。当班上的恶霸 Julian 将他锁定为霸凌目标后，奥古斯特萌生了退学的念头。但就在此时，一个善良又美丽的女同学与他交好，帮助他走出困难。前路漫漫，奥古斯特必须向周遭的人证明，与他善良、聪敏、勇敢的心灵相比，外表一点也不重要。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zIcdHTMML8PSyrOQXFqASW3DOHj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/b7xQ5fuyVO4c24igizCfPgF6n7q.jpg",
-      "rating": 8.1,
+      "rating": 8.109,
       "releaseDate": "2017-11-13",
       "genres": [
         "家庭",
@@ -4964,7 +5025,7 @@
       "description": "经历第一集中的腥风血雨之后，伯恩（马特·达蒙饰）和自己的女友化名隐身在一个偏僻遥远的海滨小镇。虽然伯恩不愿意回视过去，但“过去”却一直都在追随着他，伯恩发现秘密组织的杀手已经潜入小镇，为了保护女友玛丽·克鲁兹，他必须战斗。是一起国际政治刺杀事件让CIA重新审视已经失踪的伯恩的档案，一名某大国政要被职业杀手刺杀，刺杀者留下的证据显示他的名字叫“杰森·伯恩”，这是大卫·韦伯从前在中央情报局的化名。于是大卫·韦伯不仅仅要防备秘密组织暗地里的追杀，还要避开时刻寻找他的CIA特工。在上一集中和伯恩并肩作战的尼科莱特信任伯恩，但她发现自己也身陷困境。事态似乎变得越发失去控制，四面楚歌的“伯恩”现在只有单枪匹马地去找出那个冒充自己的人，洗刷自己和尼科莱特的清白",
       "posterPath": "https://image.tmdb.org/t/p/w500/kePCwAfcT5f2buKaGMsJs1wFYUM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fE7RqvVHbGHjBC9NjIjlLh2t4zK.jpg",
-      "rating": 7.325,
+      "rating": 7.324,
       "releaseDate": "2004-07-23",
       "genres": [
         "动作",
