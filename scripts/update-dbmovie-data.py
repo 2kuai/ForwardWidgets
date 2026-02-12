@@ -1,12 +1,10 @@
 import asyncio
 import aiohttp
 import json
-import time
 import os
 
 # --- 配置区 ---
 TMDB_API_KEY = os.environ.get('TMDB_API_KEY')
-# 确保保存到 data 文件夹
 DATA_DIR = "data"
 OUTPUT_FILE = os.path.join(DATA_DIR, "dbmovie-data.json")
 
@@ -54,7 +52,6 @@ async def fetch_tmdb_detail(session, item, cache):
     headers = {"accept": "application/json"}
     params = {"query": db_title, "language": "zh-CN"}
     
-    # 自动处理 Bearer Token 或 API Key
     if TMDB_API_KEY.startswith("eyJ"):
         headers["Authorization"] = f"Bearer {TMDB_API_KEY}"
     else:
@@ -80,16 +77,19 @@ async def fetch_tmdb_detail(session, item, cache):
                 
                 if is_title_ok and is_year_ok:
                     genre_ids = res.get("genre_ids", [])
-                    genre_names = ", ".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
+                    genre_names = ",".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
+                    
                     info = {
                         "id": res["id"],
-                        "type": "tmdb",
                         "title": res["title"],
                         "description": res["overview"],
                         "rating": res.get("vote_average"),
+                        "vote_average": res.get("vote_average"),
+                        "vote_count": res.get("vote_count"),
+                        "popularity": res.get("popularity"),
                         "releaseDate": res.get("release_date"),
-                        "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
-                        "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
+                        "posterPath": res.get("poster_path"),
+                        "backdropPath": res.get("backdrop_path"),
                         "mediaType": "movie",
                         "genreTitle": genre_names
                     }
@@ -112,7 +112,6 @@ async def main():
         print("❌ Error: TMDB_API_KEY is missing")
         return
 
-    # 自动创建 data 目录
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
 
