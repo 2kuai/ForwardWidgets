@@ -88,7 +88,7 @@ async def fetch_tmdb_detail(session, item, cache):
                 if is_title_ok and is_year_ok:
                     # 根据 GENRE_MAP 进行映射转换
                     genre_ids = res.get("genre_ids", [])
-                    genre_names = ", ".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
+                    genre_names = ",".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
 
 
                     info = {
@@ -97,11 +97,14 @@ async def fetch_tmdb_detail(session, item, cache):
                         "title": res.get("name"),
                         "description": res.get("overview"),
                         "rating": res.get("vote_average"),
+                        "vote_average": res.get("vote_average"),
+                        "vote_count": res.get("vote_count"),
+                        "popularity": res.get("popularity"),
                         "releaseDate": first_air,
-                        "posterPath": f"https://image.tmdb.org/t/p/w500{res.get('poster_path')}" if res.get('poster_path') else None,
-                        "backdropPath": f"https://image.tmdb.org/t/p/w500{res.get('backdrop_path')}" if res.get('backdrop_path') else None,
+                        "posterPath": res.get("poster_path"),
+                        "backdropPath": res.get("backdrop_path"),
                         "mediaType": "tv",
-                        "genreTitle": genre_names  # 输出中文类型映射结果
+                        "genreTitle": genre_names
                     }
                     cache[cache_key] = info
                     return info
