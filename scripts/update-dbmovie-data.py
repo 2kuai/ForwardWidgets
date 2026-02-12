@@ -81,6 +81,7 @@ async def fetch_tmdb_detail(session, item, cache):
                     
                     info = {
                         "id": res["id"],
+                        "type": "tmdb",
                         "title": res["title"],
                         "description": res["overview"],
                         "rating": res.get("vote_average"),
