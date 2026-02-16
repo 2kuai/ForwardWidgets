@@ -1,18 +1,7 @@
 {
-  "last_updated": "2026-02-16T14:51:21.634+08:00",
+  "last_updated": "2026-02-16T20:35:57.494+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 278127,
-        "type": "tmdb",
-        "title": "唐宫奇案之青雾风鸣",
-        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/1mLSH6ssXakJXj9bIQh4GAg5eO.jpg",
-        "releaseDate": "2026-02-05",
-        "rating": 6.5,
-        "mediaType": "tv"
-      },
       {
         "id": 282558,
         "type": "tmdb",
@@ -44,6 +33,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "releaseDate": "2026-01-23",
         "rating": 8.75,
+        "mediaType": "tv"
+      },
+      {
+        "id": 278127,
+        "type": "tmdb",
+        "title": "唐宫奇案之青雾风鸣",
+        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/1mLSH6ssXakJXj9bIQh4GAg5eO.jpg",
+        "releaseDate": "2026-02-05",
+        "rating": 6.5,
         "mediaType": "tv"
       },
       {
@@ -315,17 +315,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 289723,
-        "type": "tmdb",
-        "title": "有罪之身",
-        "description": "该剧由一桩绑架案展开，讲述了警方在探案过程中发现了证物留声机里记录的一起尘封十年的凶杀案，随着警方对这起杀人案的调查，竟发现了隐藏在案件背后更为惊人的秘密。剧集并未拘泥于探究案件本身，而是以情感为扣，着力展现三位本该前程似锦的年轻人在命运的裹挟下相互守护的真挚情感 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2XVSrurMxtdPWHLxYuoZsfuftVi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
-        "releaseDate": "2026-01-28",
-        "rating": 9.5,
-        "mediaType": "tv"
-      },
-      {
         "id": 279041,
         "type": "tmdb",
         "title": "双轨",
@@ -334,6 +323,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7.184,
+        "mediaType": "tv"
+      },
+      {
+        "id": 289723,
+        "type": "tmdb",
+        "title": "有罪之身",
+        "description": "该剧由一桩绑架案展开，讲述了警方在探案过程中发现了证物留声机里记录的一起尘封十年的凶杀案，随着警方对这起杀人案的调查，竟发现了隐藏在案件背后更为惊人的秘密。剧集并未拘泥于探究案件本身，而是以情感为扣，着力展现三位本该前程似锦的年轻人在命运的裹挟下相互守护的真挚情感 。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/2XVSrurMxtdPWHLxYuoZsfuftVi.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
+        "releaseDate": "2026-01-28",
+        "rating": 9.5,
         "mediaType": "tv"
       }
     ],
@@ -539,17 +539,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 278579,
-        "type": "tmdb",
-        "title": "天下同心",
-        "description": "1948年，面对蒋介石国民党反动派的假民主、真独裁，中共中央邀请民主人士前往解放区召开和平建国的政治协商会议，以毛泽东为核心的第一代党的领导集体，以政治、军事、经济、民生方方面面一切“为人民服务”的实际行动，最终让以李济深、沈钧儒、张澜、宋庆龄、黄炎培、梁思成等为代表的各民主党派、各阶层、各阵营，甚至包括傅作义等国民党起义高级将领、张治中等国共和谈代表都看到了中国共产党为中华民族带来的全新希望，他们从此自觉选择并真心拥护中国共产党的领导，团结合作、肝胆相照、荣辱与共，携手建立独立、民主、和平、统一的新中国，华夏大地万水朝东、天下同心，迈向伟大的民族复兴新征程 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/7heT6xS5OGQrK32p6f8YknbJMXi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q5Ip8N90QL3QxF53LVpsz2tp4mY.jpg",
-        "releaseDate": "2024-12-02",
-        "rating": 6,
-        "mediaType": "tv"
-      },
-      {
         "id": 274508,
         "type": "tmdb",
         "title": "扑通扑通的水球少年",
@@ -558,6 +547,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/4kO21EzqcaAIPVJLOk8hNFy3E0J.jpg",
         "releaseDate": "2024-10-17",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 246981,
+        "type": "tmdb",
+        "title": "创想季",
+        "description": "大学时代同寝室的四个铁哥们毕业在即。一次突发的事件让这四个毫无背景却心怀大志的草根青年为了在“北京”这块充满机遇的土地上实现各自的人生梦想，决定“抱团取暖”合租一套房子。没想到至此麻烦不断。几人在艰难的找房过程中受到启发，决定自己创业，准备以“互联网+”的思维和全新的商业模式为同样受到租房困扰的北漂们服务。几个好朋友相互理解、相互配合，几经周折，在经历了种种磨难后，面对利益与责任、财富与梦想、亲情与诱惑、爱情与背叛，终于突破了自我，创造出一条通往梦想之路。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/qx61amwiWCZASEYivoXBMiovku9.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/oAyaSJwoDXD4rQjPWdtPbt8D41t.jpg",
+        "releaseDate": "2024-02-21",
+        "rating": 9,
         "mediaType": "tv"
       }
     ],
@@ -743,17 +743,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 284512,
-        "type": "tmdb",
-        "title": "玉茗茶骨",
-        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
-        "releaseDate": "2025-12-29",
-        "rating": 8.571,
-        "mediaType": "tv"
-      },
-      {
         "id": 283950,
         "type": "tmdb",
         "title": "女神蒙上眼",
@@ -762,6 +751,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "releaseDate": "2026-01-25",
         "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 284512,
+        "type": "tmdb",
+        "title": "玉茗茶骨",
+        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
+        "releaseDate": "2025-12-29",
+        "rating": 8.571,
         "mediaType": "tv"
       },
       {
@@ -846,6 +846,17 @@
   "show": {
     "全网": [
       {
+        "id": 114473,
+        "type": "tmdb",
+        "title": "名侦探学院",
+        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "releaseDate": "2019-11-03",
+        "rating": 7.3,
+        "mediaType": "tv"
+      },
+      {
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
@@ -864,17 +875,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/l0SrMIt6qvvEdk6fbyyxO4865Vq.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "releaseDate": "2026-01-24",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 309015,
-        "type": "tmdb",
-        "title": "日落时分说爱你",
-        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
-        "releaseDate": "2025-12-25",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -901,6 +901,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 309015,
+        "type": "tmdb",
+        "title": "日落时分说爱你",
+        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
+        "releaseDate": "2025-12-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 231620,
         "type": "tmdb",
         "title": "现在就出发",
@@ -912,14 +923,25 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
+        "id": 307202,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7.3,
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "releaseDate": "2025-11-22",
+        "rating": 8,
         "mediaType": "tv"
       }
     ],
@@ -1112,6 +1134,17 @@
         "releaseDate": "2025-10-24",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 88580,
+        "type": "tmdb",
+        "title": "王牌对王牌",
+        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
+        "releaseDate": "2016-01-29",
+        "rating": 6.5,
+        "mediaType": "tv"
       }
     ],
     "腾讯视频": [
@@ -1127,17 +1160,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 309015,
-        "type": "tmdb",
-        "title": "日落时分说爱你",
-        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
-        "releaseDate": "2025-12-25",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 254532,
         "type": "tmdb",
         "title": "势均力敌的我们",
@@ -1145,6 +1167,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "releaseDate": "2024-05-14",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 309015,
+        "type": "tmdb",
+        "title": "日落时分说爱你",
+        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/uHozET4VnjItqP69W688sf0Nafv.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
+        "releaseDate": "2025-12-25",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1211,6 +1244,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "releaseDate": "2025-12-06",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 300172,
+        "type": "tmdb",
+        "title": "声鸣远扬2025",
+        "description": "《声鸣远扬2025》将通过不拘一格的创作逻辑，大小屏融合的“破壁”生态来持续打造音乐节目新品牌，挖掘培养下一代优秀青年歌唱人才，为国家文化事业和文化产业的发展，注入源源不断的新声活力。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
+        "releaseDate": "2025-11-09",
         "rating": 0,
         "mediaType": "tv"
       }
