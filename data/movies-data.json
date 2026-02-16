@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026/2/16 20:43:36",
+  "updated_at": "2026/2/17 06:19:59",
   "now_playing": [
+    {
+      "id": 1305781,
+      "type": "tmdb",
+      "title": "镖人：风起大漠",
+      "description": "大漠之上，镖人、官府、西域五大家族等多方势力盘根错节、暗潮涌动。“天字第二号逃犯”刀马接下特殊押镖任务，和同伴一起从西域护镖远赴长安。不料，他们的护送对象竟是“天字第一号逃犯”知世郎……天下熙熙皆为利来，各方势力闻风入局，抢镖厮杀接连上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
+      "rating": 0,
+      "releaseDate": "2026-02-17",
+      "genres": [
+        "动作",
+        "剧情",
+        "历史"
+      ],
+      "mediaType": "movie"
+    },
     {
       "id": 1618784,
       "type": "tmdb",
@@ -17,33 +33,48 @@
       "mediaType": "movie"
     },
     {
-      "id": 871900,
+      "id": 1359005,
       "type": "tmdb",
-      "title": "藏地情书",
-      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
+      "title": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
+      "backdropPath": null,
       "rating": 0,
-      "releaseDate": "2026-02-13",
+      "releaseDate": "2026-02-17",
       "genres": [
         "剧情",
-        "爱情"
+        "科幻",
+        "冒险"
       ],
       "mediaType": "movie"
     },
     {
-      "id": 1614368,
+      "id": 1447971,
       "type": "tmdb",
-      "title": "喜欢上“欠欠”的你",
-      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "title": "惊蛰无声",
+      "description": "你看不见的地方，谍战从未停止交锋！我国最新战机的涉密信息外泄，国家安全面临威胁，国安小组迅速行动抓捕间谍，在信任与背叛的漩涡中，一场惊心博弈悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
       "rating": 0,
-      "releaseDate": "2026-02-14",
+      "releaseDate": "2026-02-17",
       "genres": [
         "剧情",
-        "喜剧",
-        "爱情"
+        "犯罪"
+      ],
+      "mediaType": "movie"
+    },
+    {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
+      "rating": 0,
+      "releaseDate": "2026-02-17",
+      "genres": [
+        "剧情",
+        "喜剧"
       ],
       "mediaType": "movie"
     },
@@ -63,28 +94,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "rating": 7.1,
-      "releaseDate": "1992-09-24",
-      "genres": [
-        "动作",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 694,
       "type": "tmdb",
       "title": "闪灵",
       "description": "杰克是一个作家。一个冬天，他得到了一个看管山顶酒店的差事。这正合杰克的意思，他正好可以有一个幽静的地方写作。于是杰克带着妻儿搬进了酒店。冬天大雪封路，山顶酒店只有杰克一家三口。从他们一搬进来，杰克的妻子温蒂就发现这里气氛诡异，杰克的儿子丹尼经常看到一些他不认识的人，但这里除了他们一家别无他人。而杰克除了一整天闷头写作外，脾气亦变得越来越古怪。直到有一天，温蒂发现丈夫这些天来一直写就只有一句话：杰克发疯了！",
       "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
-      "rating": 8.205,
+      "rating": 8.206,
       "releaseDate": "1980-05-23",
       "genres": [
         "恐怖",
@@ -98,8 +114,8 @@
       "title": "极限审判",
       "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
-      "rating": 6.674,
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/po1niVuud0tX86xOFegO5omQ2wX.jpg",
+      "rating": 6.7,
       "releaseDate": "2026-01-20",
       "genres": [
         "科幻",
@@ -130,7 +146,7 @@
       "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
-      "rating": 5.1,
+      "rating": 5.116,
       "releaseDate": "2026-01-21",
       "genres": [
         "恐怖",
@@ -139,31 +155,33 @@
       "mediaType": "movie"
     },
     {
-      "id": 1497873,
+      "id": 1421552,
       "type": "tmdb",
-      "title": "翠湖",
-      "description": "　　影片讲述了昆明翠湖畔的一段家庭往事。老人树文在丧妻后想要重启人生新的情感阶段，却与女儿们爆发冲突，在这场冲突中让他看清自己在家庭里的“缺位”，也促使他重新承担起家长的责任，在直面三代人，三个家庭之间深藏的遗憾与隐痛的过程中，展开了一段寻求和解的温情旅程。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mWSaqsjF7yyjGO5O2tlO0a1DdKw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/raaHAfgFU9g4d8W7YdwOv59ByC7.jpg",
-      "rating": 7,
-      "releaseDate": "2026-01-24",
+      "title": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
+      "rating": 0,
+      "releaseDate": "2026-02-17",
       "genres": [
-        "剧情"
+        "喜剧",
+        "动作"
       ],
       "mediaType": "movie"
     },
     {
-      "id": 1530787,
+      "id": 1607088,
       "type": "tmdb",
-      "title": "匿杀",
-      "description": "　　地狱空荡荡，恶魔在人间。十五年前，一群身份各异的罪恶权贵将都马市染黑成一座“地狱岛”，高中生晓笛惨遭权贵凌辱致死；十五年后，这些背后操盘者接连惨死，死状惨烈。曾目睹十五年前命案的方天阳与警官方正楠深入调查，惊觉这桩匿名杀人案不只是单纯的复仇，更是一场迟到的控诉。桩桩命案，层层黑幕，那张权力、金钱、欲望织就的黑色秘网背后究竟藏着多少不为人知的罪孽？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wz7DchRv3sXIH87LyjhhxJdrVGk.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/CZUyZdTBeOhr29KFjcsVjexEFE.jpg",
-      "rating": 6,
-      "releaseDate": "2025-12-27",
+      "title": "熊出没·年年有熊",
+      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
+      "rating": 0,
+      "releaseDate": "2026-02-17",
       "genres": [
-        "悬疑",
-        "犯罪"
+        "喜剧",
+        "奇幻",
+        "动画"
       ],
       "mediaType": "movie"
     },
@@ -184,34 +202,17 @@
       "mediaType": "movie"
     },
     {
-      "id": 1572735,
+      "id": 1530787,
       "type": "tmdb",
-      "title": "非传统浪漫关系",
-      "description": "情感博主祝君好与婚姻登记员龚玺两个爱情专家以离婚收场。祝君好决定与龚玺互相介绍对象，在这场荒诞的实验中，他们得以重新看待婚姻与爱情：从以自我为中心到求同存异，从我要幸福成长到我们要幸福。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mszLDElSdPjJamDBwrpeD92KHEq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/eVDn4nuqxITr0akk3pJpi7VbGUv.jpg",
-      "rating": 7,
-      "releaseDate": "2026-01-31",
+      "title": "匿杀",
+      "description": "　　地狱空荡荡，恶魔在人间。十五年前，一群身份各异的罪恶权贵将都马市染黑成一座“地狱岛”，高中生晓笛惨遭权贵凌辱致死；十五年后，这些背后操盘者接连惨死，死状惨烈。曾目睹十五年前命案的方天阳与警官方正楠深入调查，惊觉这桩匿名杀人案不只是单纯的复仇，更是一场迟到的控诉。桩桩命案，层层黑幕，那张权力、金钱、欲望织就的黑色秘网背后究竟藏着多少不为人知的罪孽？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wz7DchRv3sXIH87LyjhhxJdrVGk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/CZUyZdTBeOhr29KFjcsVjexEFE.jpg",
+      "rating": 6,
+      "releaseDate": "2025-12-27",
       "genres": [
-        "剧情",
-        "爱情",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1290821,
-      "type": "tmdb",
-      "title": "庇护之地",
-      "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
-      "rating": 7.6,
-      "releaseDate": "2026-01-28",
-      "genres": [
-        "动作",
-        "犯罪",
-        "惊悚"
+        "悬疑",
+        "犯罪"
       ],
       "mediaType": "movie"
     },
@@ -222,42 +223,12 @@
       "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
-      "rating": 6.542,
+      "rating": 6.54,
       "releaseDate": "2026-01-07",
       "genres": [
         "冒险",
         "惊悚",
         "科幻"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1249173,
-      "type": "tmdb",
-      "title": "我的朋友安德烈",
-      "description": "性格迥异的李默（刘昊然 饰）与安德烈（董子健 饰）因为足球成为知己，而一场意外却让安德烈跟随年少往事一起消失在了李默的记忆中。多年后，李默在为父亲奔丧路上与安德烈“重逢”，一段尘封的回忆被逐渐揭开……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-17",
-      "genres": [
-        "剧情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 650524,
-      "type": "tmdb",
-      "title": "寻秦记",
-      "description": "2030年，香港诸多现代物被抽取到秦朝，抽送中的生命体更是因此灰飞烟灭。拯救行动迫在眉睫，项少龙带领众人孤注一掷。秦王的欲望，家人的安危，是离开还是留下，都将在这秘境之地寻找答案。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qUy2mSNozvje7hkjM5AoTYob7RZ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
-      "rating": 6.6,
-      "releaseDate": "2025-12-31",
-      "genres": [
-        "科幻",
-        "动作",
-        "喜剧"
       ],
       "mediaType": "movie"
     },
@@ -268,7 +239,7 @@
       "description": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "posterPath": "https://image.tmdb.org/t/p/w500/6LBiFV0eoBjeKksQ5fwmYk3xbXD.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg",
-      "rating": 7.612,
+      "rating": 7.616,
       "releaseDate": "2025-11-26",
       "genres": [
         "动画",
@@ -284,91 +255,12 @@
       "description": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "posterPath": "https://image.tmdb.org/t/p/w500/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
-      "rating": 7.288,
+      "rating": 7.286,
       "releaseDate": "2025-12-17",
       "genres": [
         "科幻",
         "冒险",
         "奇幻"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1565586,
-      "type": "tmdb",
-      "title": "遇见不同的遇见",
-      "description": "　　都市“躺平青年”但爽，带领“突如其来”电视栏目组，突袭暗访专业从事借钱为生的老乡“滚刀肉”吴德，在吴德的引领下，但爽有缘结识了有财、有貌的“超级卷王”是蒂，未曾想这对欢喜冤家的爱情之路总是遇见不同的遇见，在经历了英雄救美、海景房骗局、P2P理财“深坑”的一系列惊心动魄的故事下，最终花好月圆走在了一起。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ouAaqGz1aAzPXbnt7zciIVMB20E.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/jjEUYqfMBw7v4aFpwRQCRfN9QA.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-14",
-      "genres": [
-        "喜剧",
-        "悬疑",
-        "爱情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 804370,
-      "type": "tmdb",
-      "title": "时空奇旅",
-      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
-      "rating": 7.843,
-      "releaseDate": "2025-10-22",
-      "genres": [
-        "动画",
-        "科幻",
-        "冒险"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1305715,
-      "type": "tmdb",
-      "title": "过家家",
-      "description": "在小城市长大的单亲男孩钟不凡一直想去北京闯荡一番，却因为家庭原因一直没能实现在一次与亲生父亲的争执中失手伤人，以为自己闯下大祸，仓皇逃匿，被命运捉弄阴错阳差地逃到了北京。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jTuu8wLW2RUg1IzX4IC7wqpsjIo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/13nESZqXTCF1gF7YJYoCzZemupY.jpg",
-      "rating": 7.3,
-      "releaseDate": "2026-01-01",
-      "genres": [
-        "喜剧",
-        "剧情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 838240,
-      "type": "tmdb",
-      "title": "机器人之梦",
-      "description": "一只狗住在曼哈顿，它厌倦了独处。某日，它决定为自己制造一个机器人作伴。它们的友谊日益深厚，随着80年代纽约的节奏，终成彼此不可或缺的存在。一个夏夜，狗怀着巨大的悲伤，被迫将机器人遗弃在海滩。它们还能再相见吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-      "rating": 7.977,
-      "releaseDate": "2023-12-06",
-      "genres": [
-        "动画",
-        "剧情",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1259102,
-      "type": "tmdb",
-      "title": "永恒站",
-      "description": "赖瑞（迈尔斯·特勒 饰）刚刚去世，他来到了一个类似火车站的中间地带，在那里被告知必须自己选择未来的生活方式——是永远在海滩上度过每一天；还是在一连串的轮回中过着放荡不羁的生活。就在他还在犹豫不决的时候，他的妻子琼安（伊丽莎白·奥尔森 饰）也去世了。于是，这对夫妇在生死之间的这个“中转站”重新团聚了。这本该是一个幸福的时刻，但却存在一个重大缺陷：在琼安的灵魂等待她的地方，还有她的第一任丈夫卢克（卡勒姆·特纳 饰），这位英俊潇洒的战争飞行员在他们的婚姻仅两年后，就在朝鲜战场上牺牲了。从那以后，卢克就一直在等待琼安的归来，他以调酒师的身份在“极乐世界”版的纽约中央车站工作，耐心地等待着那一天的到来。然而，这一情况彻底打乱了赖瑞原本的计划——他本想和结婚65年的妻子继续过正常的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-      "rating": 6.989,
-      "releaseDate": "2025-11-26",
-      "genres": [
-        "爱情",
-        "喜剧",
-        "剧情"
       ],
       "mediaType": "movie"
     },
@@ -404,22 +296,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 991494,
-      "type": "tmdb",
-      "title": "海绵宝宝：深海大冒险",
-      "description": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
-      "rating": 6.7,
-      "releaseDate": "2025-12-16",
-      "genres": [
-        "动画",
-        "家庭",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 1602722,
       "type": "tmdb",
       "title": "舒克贝塔之微缩人类",
@@ -436,77 +312,17 @@
       "mediaType": "movie"
     },
     {
-      "id": 1604938,
+      "id": 991494,
       "type": "tmdb",
-      "title": "六六大顺",
-      "description": "　　濒临破产的老板李大顺（李孟武 饰）为逆转绝境，与死磕项目的技术宅李谱（肖轶 饰）踏上寻“小分子水”之路，临时搭挡的组合囧况百出，还没发车就透露着热闹，并偶遇了身世可怜的少年六六……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eHkhTwKHpHL2h77wwfJ5CPGgstO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/iFVmttz2mnWnz1twTmEpZAPwapt.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-06",
-      "genres": [
-        "剧情",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1555232,
-      "type": "tmdb",
-      "title": "不过是上班",
-      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-10",
-      "genres": [
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 967941,
-      "type": "tmdb",
-      "title": "魔法坏女巫2",
-      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
-      "rating": 6.69,
-      "releaseDate": "2025-11-19",
-      "genres": [
-        "奇幻",
-        "冒险",
-        "爱情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1593221,
-      "type": "tmdb",
-      "title": "宇宙护卫队：百变流星",
-      "description": "达尔文星球的晴天霹雳解封曾企图占领地球的恐龙三人组，组成超甲恐龙队，从赤道的热带雨林开始冰冻地球。护卫队收到总部指示，阻止超甲恐龙队。关键时刻，队员流星又遇到了困境，这次他能拯救同伴，保护地球吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fu0gDFPZfgJJ4G3nMISiMmEOXe2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/dyJZF6h4sTjKgK2SxDTTjhAUpA1.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-24",
+      "title": "海绵宝宝：深海大冒险",
+      "description": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
+      "rating": 6.7,
+      "releaseDate": "2025-12-16",
       "genres": [
         "动画",
-        "科幻",
-        "冒险"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 876907,
-      "type": "tmdb",
-      "title": "没问题",
-      "description": "东北某市，晨报主任左守权得知与前妻生活多年的女儿，在校组建“问题乐队”，不务正业，恐将被学校处分。老左欲将女儿留在家乡从事铁饭碗工作，左明明却欲南下逐梦。老左苦口婆心劝说不成只好四处托人求助。女儿英语老师吕有容，因儿子转学之事有求于老左，两人化干戈为玉帛，惺惺相惜。由此引发左明明误会其二人有苟且之事，羞怒至极，父女决裂。左明明终日与乐队混迹夜场，几乎放弃学业。老同学牛校长涉嫌违纪，牵连老左被停职。吕老师因和老左的一条醉酒视频丢了工作。关乎女儿学位的英语四级考试，也只剩下最后机会。 为了女儿的未来，老左找来女儿乐队吉他手小马协助，准备孤注一掷……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ycqFS0akZOHbxEocU5TKtsUJPvu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/pkJdwOaxaaFOhEKR7p52FOkrReb.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-31",
-      "genres": [
-        "剧情",
+        "家庭",
         "喜剧"
       ],
       "mediaType": "movie"
@@ -541,88 +357,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 1599013,
-      "type": "tmdb",
-      "title": "情缘曹雪芹",
-      "description": "　　影片聚焦于文学巨匠曹雪芹丰富而深邃的情感世界，从其生命经历中撷取动人篇章。电影不仅通过曹雪芹与生命中三位重要女性——芳青、荷香、云妹的动人情感交织，细腻展现了他的深情与胸怀；也刻画了他与敦诚、敦敏、于景廉、徐环等友人之间真挚而深刻的友谊。这些源自现实生活的深切关怀与命运共鸣，最终凝聚为他“为闺阁增光”的宏大志向，成为其呕心沥血创作《红楼梦》的初心与动力，生动诠释了一种超越个人情爱、为天下女子立传的“大情大爱”。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pBhRGhbgkVOgk5FF4o7u26ntxE5.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/vOb07QqTkMroELd5VmtuCS6d4v8.jpg",
-      "rating": 0,
-      "releaseDate": "2026-01-16",
-      "genres": [
-        "剧情",
-        "爱情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 98344,
-      "type": "tmdb",
-      "title": "赛德克·巴莱（上）",
-      "description": "　　本片根据雾社事件史实改编。  　　1895年，《马关条约》割让台湾之后，日本遂即武力接收台湾，宝岛各地纷纷被攻破。而台湾山区因道路不通，原住民生活尚暂未受影响，雾社地区的赛德克人之中，马赫坡年轻一代的莫那鲁道（游大庆 饰）英勇过人，率族群与甘卓万人争斗不休。日人垂涎雾社地区的 丰富资源，试图染指但遭到赛德克人强烈抵抗，伤亡惨重，然终于借原住民族群之间的互相仇杀侵入了雾社。莫那鲁道只得忍辱投降，但心中的火苗从未熄灭。时间推至1930年，日本对于雾社原住民的“文明改造”历经多年，日语等所谓文明并未给予原住民平等的生活，日人的欺压和繁重劳作侵蚀着赛德克人的传统和尊严，多年的愤怒累积，终于在这一年全面喷发！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mrdrts2XXkJHg24I0CqhUWNUh40.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/ucoQdA7OTeGrhgVo0ii7rNEn2le.jpg",
-      "rating": 7.3,
-      "releaseDate": "2011-09-09",
-      "genres": [
-        "剧情",
-        "动作",
-        "历史"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 924114,
-      "type": "tmdb",
-      "title": "再团圆",
-      "description": "　　李振华与聂素珍两人早年丧偶，上世纪八十年代结为半路夫妻。前妻凤仙在老家山西的坟地面临拆迁，老李提出希望能和前妻及老聂三人合葬，这一想法打破了二人平静的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8RuuJWfRugWcLuhsfmmdyJC1sAM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/y5bi8tO5kDOf1gWlelk8Xnp79fw.jpg",
-      "rating": 0,
-      "releaseDate": "2025-12-23",
-      "genres": [
-        "剧情"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 98344,
-      "type": "tmdb",
-      "title": "赛德克·巴莱（上）",
-      "description": "　　本片根据雾社事件史实改编。  　　1895年，《马关条约》割让台湾之后，日本遂即武力接收台湾，宝岛各地纷纷被攻破。而台湾山区因道路不通，原住民生活尚暂未受影响，雾社地区的赛德克人之中，马赫坡年轻一代的莫那鲁道（游大庆 饰）英勇过人，率族群与甘卓万人争斗不休。日人垂涎雾社地区的 丰富资源，试图染指但遭到赛德克人强烈抵抗，伤亡惨重，然终于借原住民族群之间的互相仇杀侵入了雾社。莫那鲁道只得忍辱投降，但心中的火苗从未熄灭。时间推至1930年，日本对于雾社原住民的“文明改造”历经多年，日语等所谓文明并未给予原住民平等的生活，日人的欺压和繁重劳作侵蚀着赛德克人的传统和尊严，多年的愤怒累积，终于在这一年全面喷发！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mrdrts2XXkJHg24I0CqhUWNUh40.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/ucoQdA7OTeGrhgVo0ii7rNEn2le.jpg",
-      "rating": 7.3,
-      "releaseDate": "2011-09-09",
-      "genres": [
-        "剧情",
-        "动作",
-        "历史"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1369453,
-      "type": "tmdb",
-      "title": "年年岁岁",
-      "description": "梦境与幻觉不断侵入米寻的现实生活，尘封的往事，隐秘的情感被渐渐揭开，米寻决意以此拍摄一部电影，与父亲重逢与告别。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8smDX9YYebIDBRQGaEqmCr3mHkj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/81wAN1BT7maDqrdTroBvdTevAsK.jpg",
-      "rating": 0,
-      "releaseDate": "2023-03-16",
-      "genres": [
-        "剧情"
-      ],
-      "mediaType": "movie"
-    },
-    {
       "id": 10400,
       "type": "tmdb",
       "title": "飓风",
       "description": "一个黑人毛头小伙莱斯（维斯罗斯•雷恩•香农 Vicellous Reon Shannon 饰）在旧书市无意中淘到了拳王“飓风”鲁本•卡特（丹泽尔•华盛顿 Denzel Washington 饰）在狱中写的自传，并开始了对他的故事产生了兴趣。鲁本出生于贫寒家庭，幼年时嫉恶如仇，因此与当地的白人警察结怨。后来，他因为出色的身手，名震拳坛，绰号“飓风”。此后，他参加了越战成为荣誉军官，并在某舞会偶然结识了后来的妻子。当生活进入美满轨道的时候，一次新泽西酒吧杀人案彻底毁掉了他美好希望。莱斯与鲁本通信，了解到他蒙受不白之冤，便说服了朋友们，一起查找证据，希望揭开真相，令他重获自由，然而种族歧视的恶势力却在暗中百般刁难，意图把飓风困死在牢房……",
       "posterPath": "https://image.tmdb.org/t/p/w500/iH7zKvZRD9GjLgUIZSOnFCPyFAl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/ffAL7ZiUnCay51SeHFTrTEUpUkO.jpg",
-      "rating": 7.436,
+      "rating": 7.4,
       "releaseDate": "1999-09-17",
       "genres": [
         "剧情"
@@ -647,99 +388,6 @@
     }
   ],
   "coming_soon": [
-    {
-      "id": 1305781,
-      "type": "tmdb",
-      "title": "镖人：风起大漠",
-      "description": "大漠之上，镖人、官府、西域五大家族等多方势力盘根错节、暗潮涌动。“天字第二号逃犯”刀马接下特殊押镖任务，和同伴一起从西域护镖远赴长安。不料，他们的护送对象竟是“天字第一号逃犯”知世郎……天下熙熙皆为利来，各方势力闻风入局，抢镖厮杀接连上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "动作",
-        "剧情",
-        "历史"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1447971,
-      "type": "tmdb",
-      "title": "惊蛰无声",
-      "description": "你看不见的地方，谍战从未停止交锋！我国最新战机的涉密信息外泄，国家安全面临威胁，国安小组迅速行动抓捕间谍，在信任与背叛的漩涡中，一场惊心博弈悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "剧情",
-        "犯罪"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1462229,
-      "type": "tmdb",
-      "title": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "剧情",
-        "喜剧"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
-      "backdropPath": null,
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "剧情",
-        "科幻",
-        "冒险"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1421552,
-      "type": "tmdb",
-      "title": "熊猫计划之部落奇遇记",
-      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "喜剧",
-        "动作"
-      ],
-      "mediaType": "movie"
-    },
-    {
-      "id": 1607088,
-      "type": "tmdb",
-      "title": "熊出没·年年有熊",
-      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
-      "rating": 0,
-      "releaseDate": "2026-02-17",
-      "genres": [
-        "喜剧",
-        "奇幻",
-        "动画"
-      ],
-      "mediaType": "movie"
-    },
     {
       "id": 485289,
       "type": "tmdb",
@@ -808,7 +456,7 @@
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
-      "rating": 7.171,
+      "rating": 7.06,
       "releaseDate": "2026-02-11",
       "genres": [
         "犯罪",
@@ -836,7 +484,7 @@
       "title": "呼啸山庄",
       "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/oGAYQOhfuXMh9Cpp4LNfzI5uDS3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/rcL91tOOOe3EXe2yifwh4jprYp8.jpg",
       "rating": 6.8,
       "releaseDate": "2026-02-11",
       "genres": [
@@ -852,7 +500,7 @@
       "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
-      "rating": 7.24,
+      "rating": 7.259,
       "releaseDate": "2026-02-11",
       "genres": [
         "动画",
@@ -896,7 +544,7 @@
       "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/bHtlDAORBQiYKCJMwDP9WBgcQHM.jpg",
-      "rating": 7.6,
+      "rating": 7.595,
       "releaseDate": "2025-12-19",
       "genres": [
         "剧情"
@@ -1094,7 +742,7 @@
       "description": "安迪·杜佛兰被错判谋杀妻子及其情人，在缅因州肖申克服刑，判处两项无期徒刑接连执行。影片背景设定于1940年代，展现安迪如何在残酷的监狱环境中艰难求生，甚至赢得狱友们的敬重——尤其是与老囚徒“瑞德”·雷丁之间深厚的友谊。",
       "posterPath": "https://image.tmdb.org/t/p/w500/aAdnwqwkKX5PPcr8EdtaiA8AZVl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-      "rating": 8.716,
+      "rating": 8.715,
       "releaseDate": "1994-09-23",
       "genres": [
         "剧情",
@@ -1216,7 +864,7 @@
       "title": "盗梦空间",
       "description": "道姆·柯布与同事阿瑟和纳什在一次针对日本能源大亨齐藤（渡边谦 饰）的盗梦行动中失败，反被齐藤利用。齐藤威逼利诱因遭通缉而流亡海外的柯布帮他拆分他竞争对手的公司，采取极端措施在其唯一继承人罗伯特·费希尔的深层潜意识中种下放弃家族公司、自立门户的想法。为了重返美国，柯布偷偷求助于岳父迈尔斯，吸收了年轻的梦境设计师艾里阿德妮、梦境演员艾姆斯和药剂师约瑟夫加入行动。在一层层递进的梦境中，柯布不仅要对付费希尔潜意识的本能反抗，还必须直面已逝妻子梅尔的处处破坏，实际情况远比预想危险得多……",
       "posterPath": "https://image.tmdb.org/t/p/w500/89W962aAnPS3N3BdKgy2BvUhnCh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w1280/ii8QGacT3MXESqBckQlyrATY0lT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
       "rating": 8.37,
       "releaseDate": "2010-07-15",
       "genres": [
@@ -1357,7 +1005,7 @@
       "description": "1991年，香港黑帮三合会会员刘健明（陈冠希 饰）听从老大韩琛（曾志伟 饰）的吩咐，加入警察部队成为黑帮卧底，韩琛许诺刘健明会帮其在七年后晋升为见习督察。1992年，警察训练学校优秀学员陈永仁（余文乐 饰）被上级黄志诚（黄秋生 饰）要求深入到三合会做卧底，终极目标是成为韩琛身边的红人。2002年，两人都不负重望，也都身背重压，高级警司刘健明（刘德华 饰）逐渐想成为一个真正的好人，帮派干部陈永仁（梁朝伟 饰）则盼着尽快回归警察身份。重案组从陈永仁手中获悉一批毒品交易情报，锁紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验……",
       "posterPath": "https://image.tmdb.org/t/p/w500/ybmGHs0ZAOy9kRAxfWfdeC6gtoN.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/iiDGA97Kqt2dVU1deXQF06USBRu.jpg",
-      "rating": 7.798,
+      "rating": 7.8,
       "releaseDate": "2002-12-12",
       "genres": [
         "剧情",
@@ -1465,7 +1113,7 @@
       "description": "溥仪三岁登基，年幼的他眼中只有大臣身上的一只蝈蝈，江山在他心中只是一个不明所以的名词。长大了，他以为可以变革，却被太监一把火烧了朝廷账本。他以为自己是大清江山的主人……",
       "posterPath": "https://image.tmdb.org/t/p/w500/f1gDRukoKvHwitvF0HvrBiX2V58.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/k29qVmwWwR0i5A1UMIws1Vmv6hV.jpg",
-      "rating": 7.582,
+      "rating": 7.6,
       "releaseDate": "1987-10-04",
       "genres": [
         "剧情",
@@ -1650,7 +1298,7 @@
       "description": "继母因无力负担生活，将苏菲和她的两个妹妹都送到了制帽店去当学徒。两个妹妹很快先后就离开了制帽店去追寻各自的梦想，只有苏菲坚持了下来。一天，小镇旁边来了一座移动堡垒，传说堡垒的主人哈尔专吸取年青姑娘的灵魂，所以小镇的姑娘都不敢靠近。一个恶毒的巫婆嫉妒苏菲的制帽技术，用巫术把她变成了一个80岁的老太婆，而且苏菲还不能对别人说出自己身中的巫术。无奈，苏菲决定独自一人逃离小镇。天黑了，虚弱的苏菲没走多远，来到了移动城堡。心想自己已经是老太婆了，苏菲壮着胆子走进了城堡。不想，遇到了和她遭遇相同的火焰魔。两人约定彼此帮助对方打破各自的咒语。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/pjy0T63vIFYvxRSJ3ZtjB4tmWV4.jpg",
-      "rating": 8.387,
+      "rating": 8.4,
       "releaseDate": "2004-09-09",
       "genres": [
         "奇幻",
@@ -1860,7 +1508,7 @@
       "type": "tmdb",
       "title": "绿皮书",
       "description": "托尼（维果·莫腾森 Viggo Mortensen 饰）是一个吊儿郎当游手好闲的混混，在一家夜总会做侍者。这间夜总会因故要停业几个月，可托尼所要支付的房租和生活费不会因此取消，所以他的当务之急是去寻找另一份工作来填补这几个月的空缺。在这个节骨眼上，一位名叫唐雪莉（马赫沙拉·阿里 Mahershala Ali 饰）的黑人钢琴家提出雇佣托尼。唐雪莉即将开始为期八个星期的南下巡回演出，可是，那个时候南方对黑人的歧视非常的严重，于是托尼便成为了唐雪莉的司机兼保镖。一路上，两人迥异的性格使得他们之间产生了很多的矛盾，与此同时，唐雪莉在南方所遭受的种种不公平的对待也让托尼对种族歧视感到深恶痛绝。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/i5kSuadrODYA2INXDksBk6oAY66.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kjO6OdgVK9UimXupZcGIuQy2pbO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg",
       "rating": 8.222,
       "releaseDate": "2018-11-16",
@@ -2063,7 +1711,7 @@
       "description": "这是一部关于一个真实天才的极富人性的剧情片。英俊而又十分古怪的数学家小约翰纳什念研究生时便发明了他著名的博弈理论，短短26页的论文在经济、军事等领域产生深远的影响，他开始享有国际声誉。但纳什出众的直觉受到了精神分裂症的困扰，使他向学术上最高层次进军的辉煌历程发生了巨大改变。面对这个曾经击毁了许多人的挑战，纳什在深爱着他的妻子艾丽西亚的相助下，与被认为是只能好转、无法治愈的疾病作斗争。经过十几年的不懈努力，完全通过意志的力量，他一如既往地坚持工作，并于1994年获得诺贝尔奖，他在博奕论方面颇具前瞻性的工作也成为20世纪最具影响力的理论。这是一个真人真事的传奇故事，今天纳什继续在他的领域中耕耘着。",
       "posterPath": "https://image.tmdb.org/t/p/w500/fCKdh2Y5uYHlshpdkdIE7WxgZ5R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vVBcIN68kFq681b4lObiNJhEVro.jpg",
-      "rating": 7.9,
+      "rating": 7.854,
       "releaseDate": "2001-12-14",
       "genres": [
         "剧情",
@@ -2294,7 +1942,7 @@
       "description": "韦斯·安德森以其冷峻机锋与视觉奇想，在两次世界大战之间旧世浮华的欧洲舞台上，铺陈开这场精致的冒险轶事。在奢华非凡的布达佩斯大饭店中，礼宾员古斯塔沃先生与他的年轻门生零因卷入一起无价文艺复兴画作失窃案与巨额家族遗产争夺战而建立起坚不可摧的羁绊——而此时整个大陆正被政局动荡所吞噬。这部精心雕琢的作品既是酣畅淋漓的流浪汉传奇，亦是对逝去世界之辉煌与友谊的深情颂歌。[标准收藏]",
       "posterPath": "https://image.tmdb.org/t/p/w500/1Hd0xHLGnu4TRcq0lYG50KbAxfb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/9udCLTxTFl28RxnK8Q05E154ZGa.jpg",
-      "rating": 8,
+      "rating": 8.033,
       "releaseDate": "2014-02-26",
       "genres": [
         "喜剧",
@@ -3016,7 +2664,7 @@
       "description": "维京岛国的少年小嗝嗝（杰伊•巴鲁切尔 Jay Baruchel 配音）是部落统领伟大的斯托里克（杰拉德·巴特勒 Gerard Butler 配音）的儿子，他非常想像自己的父亲一样亲手屠龙——这些飞龙是岛上维京人放牧羊群的主要天敌——但他每次出现在部落屠龙的战斗中都只给大家徒增烦恼。在一次对抗飞龙的战斗中，希卡普偷偷用射龙器击伤了一只最神秘的“夜之怒龙”，并背着族人放生、豢养，甚至驯服了这只龙，还给它起名“无牙”。希卡普的神秘行径引起了一同训练屠龙技巧的女孩阿斯特丽德（亚美莉卡·费雷拉 America Ferrera 配音）的怀疑。阿斯特丽德发现了希卡普的秘密，却同时被身骑“无牙”御风而飞的美妙体验所震撼。格雷决定在屠龙成人礼上向远征归来的斯托里克和族人讲明真相，说服大家放弃屠龙，却偏偏弄巧成拙，害得“无牙”被俘，一场更大的灾难就在眼前……",
       "posterPath": "https://image.tmdb.org/t/p/w500/2rNDBSL0xJO17oy8CZfOW8QjGKV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
-      "rating": 7.855,
+      "rating": 7.856,
       "releaseDate": "2010-03-18",
       "genres": [
         "奇幻",
@@ -3046,7 +2694,7 @@
       "description": "书生宁采臣（张国荣饰）前往郭北县收帐，但却因帐簿被雨水淋透，收账不成，无处可归。漆黑的夜晚，四周荒山野岭，遂夜宿鬼寺兰若寺，遇上侠士燕赤霞（午马饰），二人成为邻居。一日偶遇艳女小倩（王祖贤饰），二人两情相悦，但小倩乃是被树妖姥姥（刘兆铭饰）控制的鬼魂，专门迷惑精壮男子代姥姥吸取阳气。小倩见宁采臣心地善良不忍加害，并与他感情逐渐加深。宁采臣欲救小倩脱离姥姥魔掌，但苦于姥姥功力深厚，小倩无法脱离其魔掌，燕赤霞出现救下二人，树妖姥姥与燕赤霞大战之后被其掌心雷封印了一百年。不料聂小倩却被黑山老妖抢去为妻，为救小倩，宁采臣求助于燕赤霞，几经艰苦终于救回小倩。",
       "posterPath": "https://image.tmdb.org/t/p/w500/fP64i84njY92svpSLqbQyNLMOAB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/8qDJ594juzFixXFhDumgU1xhdbZ.jpg",
-      "rating": 7.284,
+      "rating": 7.294,
       "releaseDate": "1987-07-18",
       "genres": [
         "奇幻",
@@ -3199,7 +2847,7 @@
       "description": "　　我们不知道，在那样的世界里住着那样一群怪物。他们长相滑稽，却必须装作狰狞。因为，在夜深的时候，他们要悄悄的出现在孩子的衣橱里，吓唬刚刚甜美睡去的宝宝。一切，只因为他们是怪物电力公司的员工，而孩子的尖叫，则是怪物王国发电的全部能量。怪物们害怕孩子，却又必须让孩子尖叫。在怪物的国度里，他们都是为全民造福的英雄。\r 　　毛怪苏利文（约翰•古德曼）是怪物公司最出色的员工，业绩总是摇摇领先，他吓哭的小孩儿不计其数。他与搭档大眼怪麦克（比利•克里斯托）很受大家的爱戴。一次偶然，毛怪不小心把一个两岁的小女孩阿布（玛丽•吉布斯）带回了怪物世界，引起了极大的恐慌，调皮可爱的阿布把这些可怕的怪物吓的人仰马翻。警方在追捕阿布，而坏蛋亨利（詹姆斯•柯博）也计划利用阿布进行他改革工厂的邪恶计划。\r 　　另一方面，在与阿布相处的过程中，毛怪渐渐对她产生莫名的情愫，甚至因此被放逐野外。可是一切都不能抵挡毛怪拯救女孩的信念，为了阿布，毛怪踏上了艰险的旅程……",
       "posterPath": "https://image.tmdb.org/t/p/w500/fc5SCUbpO3aVBuzPpugoFPQ8K1n.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sDTnMOJ3H5wI38OxObmCtK7wfd5.jpg",
-      "rating": 7.8,
+      "rating": 7.846,
       "releaseDate": "2001-11-01",
       "genres": [
         "动画",
@@ -3292,7 +2940,7 @@
       "description": "在八十年代的意大利里维埃拉，每年夏天，十七岁的少年埃利奥都会跟家人在这里。今年，和他们共享假日时光的，还有来自美国的奥利弗，高大英俊热情开朗的奥利弗很快就获得了埃利奥一家人的喜爱。随着时间的推移，埃利奥和奥利弗之间渐渐产生了致命的吸引力，但性别和年龄的桎梏让他们迟迟无法跨出那关键的一步，与此同时，单纯善良的少女马奇娅也向埃利奥奉献着自己的感情和身体。最终，汹涌的激情冲破了埃利奥和奥利弗之间的防线，两人开始了一段注定不会有结果的恋情。",
       "posterPath": "https://image.tmdb.org/t/p/w500/7EDfu9QbGBBlPz1U0w4q0u8CeWT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fwf4L3r2ZU9ptOB9nOo5nuVLo1i.jpg",
-      "rating": 8.1,
+      "rating": 8.096,
       "releaseDate": "2017-10-01",
       "genres": [
         "爱情",
@@ -3307,7 +2955,7 @@
       "description": "1858年，美国南北战争前两年。德国赏金猎人金·舒尔茨（克里斯托弗·瓦尔兹 Christoph Waltz饰）从贩奴商人手中买下黑奴姜戈（杰米·福克斯 Jamie Foxx饰），让其重获自由。舒尔茨实则是要把姜戈培养成无法无天的赏金猎人，为其缉拿各种通缉犯以换取报酬。姜戈的唯一条件是：从暴虐的糖果庄园主卡尔文·坎迪（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）手中解救出自己的妻子布鲁姆希尔达（凯丽·华盛顿 Kerry Washington饰）。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nZg8if95sX3Rbww7KW3UbuQVeyK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/s4cJQaj40SwMifUrrdtdOJsjnRO.jpg",
-      "rating": 8.2,
+      "rating": 8.187,
       "releaseDate": "2012-12-25",
       "genres": [
         "剧情",
@@ -3462,7 +3110,7 @@
       "description": "2045年，处于混乱和崩溃边缘的现实世界令人失望，人们将救赎的希望寄托于“绿洲”，一个由鬼才詹姆斯·哈利迪（马克·里朗斯 饰）一手打造的虚拟游戏宇宙。在那里，想象力主宰一切，你可以去任何地方，做任何想做的事，成为任何想成为的人。哈利迪弥留之际，宣布将巨额财产和“绿洲”的所有权留给第一个闯过三道谜题，找出他在游戏中藏匿彩蛋的人，自此引发了一场全世界范围内的竞争。当韦德·沃兹（泰尔·谢里丹饰）成为首位解出第一道迷题的玩家，他和他的朋友们不可避免地卷入了这场奇遇和凶险共存，波澜壮阔的寻宝之旅——为拯救“绿洲”，也为拯救世界。",
       "posterPath": "https://image.tmdb.org/t/p/w500/546MvE18yfLXEBwWWsxE0f4xuMy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
-      "rating": 7.585,
+      "rating": 7.584,
       "releaseDate": "2018-03-28",
       "genres": [
         "冒险",
@@ -3478,7 +3126,7 @@
       "description": "根据Andrew Hodges所写的传记《艾伦·图灵》（Alan Turing: The Enigma）改编。艾伦·图灵是英国数学家、逻辑学家，二战中曾协助军方破解德国的著名密码系统Enigma，对盟军取得了二战的胜利有一定的帮助。图灵对于人工智能的发展有诸多贡献，著名的图灵机模型为现代计算机的逻辑工作方式奠定了基础。图灵是著名的同性恋之一，并因为其同性恋倾向而遭到迫害，使得他的职业生涯尽毁。1952年，他的同性伴侣协同一名同谋一起闯进了图灵的房子实施盗窃。图灵为此而报警。但是警方的调查结果使得他被控以“明显的猥亵和性颠倒行为”。他没有申辩，并被定罪。在著名的公审后，他被给予了两个选择：坐牢或荷尔蒙疗法。他选择了荷尔蒙注射，并持续了一年。在这段时间里，药物产生了包括乳房不断发育的副作用。1954年，图灵因食用浸过氰化物溶液的苹果死亡。很多人相信他是自杀。但是他的母亲极力争论他的死是意外，因为他在实验室里不小心堆放了很多化学物品。",
       "posterPath": "https://image.tmdb.org/t/p/w500/hqa3UAu3wdSeRUvfNzJTbuR3VgK.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/gLQoJ9P79g501oEEtrN8zMlCPpx.jpg",
-      "rating": 8,
+      "rating": 7.987,
       "releaseDate": "2014-11-14",
       "genres": [
         "历史",
@@ -3494,7 +3142,7 @@
       "description": "凤凰城一女秘书卷走客户四万美元公款，仓皇出逃途中入住一家偏僻汽车旅馆。旅馆经营者诺曼·贝茨是位受其母亲支配的年轻人。",
       "posterPath": "https://image.tmdb.org/t/p/w500/ocbBnQ7kYPJHSIlFmSg6LwxFrh2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/vzXQEAmXIEWAtPCgB81bAS6EJCy.jpg",
-      "rating": 8.418,
+      "rating": 8.417,
       "releaseDate": "1960-06-22",
       "genres": [
         "恐怖",
@@ -4348,7 +3996,7 @@
       "description": "本片是对皇后乐队、传奇主唱弗雷迪·莫库里以及他们音乐的致敬盛宴，这是一段充满爱、痛苦、接纳和音乐的旅程。弗雷迪·莫库里曾是希思罗机场的一名普通搬运工，对音乐满腔热血的他，与布莱恩·梅、罗杰·泰勒、约 翰·迪肯组成皇后乐队。这个殿堂级乐队的从无到有，从疏离到重聚，从低谷到巅峰，仿佛就是弗雷迪一生的缩影。",
       "posterPath": "https://image.tmdb.org/t/p/w500/yNFB3w856i8HcHld5xeeT0avTFt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/dcvbs8z0GEXslC1kCT77x19XDeR.jpg",
-      "rating": 8,
+      "rating": 7.961,
       "releaseDate": "2018-10-24",
       "genres": [
         "音乐",
@@ -4456,7 +4104,7 @@
       "description": "上一部中，超级电脑“天网”阻止人类抵抗领袖约翰·康纳诞生的行动失败，时隔13年后，在“审判日”到来之前，“天网”派出了更加先进的生化机器人T-1000（罗伯特·帕特里克 饰）从公元2029年回到洛杉矶追杀已经长大的约翰，与此同时，约翰也派出了机器人T-800（阿诺· 施瓦辛格 饰）回去保护年幼的自己。\r 此时，萨拉·康纳（琳达·汉密尔顿 饰）因为怪异的言行而住进了精神疗养院，约翰则和养父母住在一起，行为叛逆。T-800找到他们，在逃避T-1000追杀过程中，获得了二人的信任。\r 为了改变未来的历史，挽救人类的命运，萨拉、约翰和T-800 Model 101找到了“天网”之父，迈尔斯·戴森（乔·莫顿 饰），说服他销毁一切有关“天网”的资料，此时，警察和T-1000同时赶来，他们陷入了多方争斗中。",
       "posterPath": "https://image.tmdb.org/t/p/w500/OA6oYh2CwTrWXTjGDIIs8MUHsy.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/xKb6mtdfI5Qsggc44Hr9CCUDvaj.jpg",
-      "rating": 8.138,
+      "rating": 8.139,
       "releaseDate": "1991-07-03",
       "genres": [
         "动作",
@@ -4486,7 +4134,7 @@
       "description": "纽约剧团要重排《天鹅湖》，因前领舞Beth离去，总监Thomas（文森特•卡索尔 Vincent Cassel. 饰）决定海选新领舞，且要求领舞要分饰黑天鹅与白天鹅。Nina（娜塔莉•波特曼Natalie Portman 饰）自幼练习芭蕾舞，在母亲的细心关照下，技艺出众。这次，她希望可以脱颖而出。然而，在竞争中，她发现心机颇重的Lily（米拉•库妮丝 Mila Kunis 饰）是自己的强劲对手。在选拔中，她的白天鹅表演的无可挑剔，但是黑天鹅不及Lily。她感到身心俱疲，回家还发现了背部的红斑与脚伤。她一个人找到总监，希望争取一下。总监趁机亲吻她，却被她强硬拒绝。结果，总监居然选了她。队友怀疑她靠色相上位。在酒会上，Beth甚至当众发泄。这种压力外加伤病，一直影响着她的发挥。总监启发她要释放激情，表现出黑天鹅的诱惑。在强大的心理暗示中，她似乎也滑向了黑天鹅的角色。",
       "posterPath": "https://image.tmdb.org/t/p/w500/eUhKaATJOIbWxpx354T6TvjRWHX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/g0geLM1zXpLb9mpqKw1ePcA5bTJ.jpg",
-      "rating": 7.7,
+      "rating": 7.687,
       "releaseDate": "2010-12-03",
       "genres": [
         "剧情",
@@ -4548,7 +4196,7 @@
       "description": "　　未来的世界，科技的力量胜过一切，基因决定命运，几乎成为金科玉律。不幸文森特（伊桑·霍克 Ethan Hawke 饰）是一个基因不良的人，出生以来就决定了他近视和心脏病的缺陷，他只能活到30岁。\r 于是父母为文森特增添了一个有着优良基因的弟弟。文森特的梦想是漫游太空，然而恶劣的基因令他无法圆梦，直到他遇到了太空中心的杰罗姆（裘德·洛 Jude Law 饰）。杰罗姆有优秀的基因，却在一次意外中半身瘫痪。\r 二人决定调换身份，文森特千方百计隐藏自己的基因信息，每天都认真清洗掉自己的皮屑毛发，不暴露任何蛛丝马迹。另一方面，杰罗姆帮他筹备进入太空前需要检查的基因物品。事情进展得非常顺利，然而一桩谋杀案和一根睫毛，让事情节外生枝。",
       "posterPath": "https://image.tmdb.org/t/p/w500/pKtirbfjgx9myanD7ERNvsFYvJU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/hPsCR1ny6GnctJkWqeJwihTDD7T.jpg",
-      "rating": 7.564,
+      "rating": 7.563,
       "releaseDate": "1997-07-09",
       "genres": [
         "惊悚",
@@ -4609,7 +4257,7 @@
       "description": "逃过摄魂怪的追杀，通过魔法部的审查，哈利终于回到美丽的霍格沃兹。然而这个学期并不轻松，他不仅要完成魔法等级考试，还要应对夜晚的噩梦和黑魔法防御课老师乌姆里奇的打压。在好友的支持下，哈利秘密组建了邓不利多军团，与大家一起练习黑魔法防御术。噩梦中，哈利总是以伏地魔的视角出现，似乎他们之间有着某种神秘的联系。在邓不利多的指示下，哈利向斯内普教授学习大脑封闭术，却鲜有成效。终于在一次噩梦的诱使下，哈利偏执的赶往魔法部营救小天狼星，却不想陷入伏地魔的圈套，引发凤凰社与食死徒之间的正面冲突。在混战中，小天狼星不幸遇难。究竟哈利与伏地魔之间有着怎样的联系？在悲恸中，邓不利多为哈利揭开谜底，哈利还有更长、更艰难的路要走……",
       "posterPath": "https://image.tmdb.org/t/p/w500/vTRfNdAzQet1kRpEYRfEqSixklh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/pkxPkHOPJjOvzfQOclANEBT8OfK.jpg",
-      "rating": 7.672,
+      "rating": 7.7,
       "releaseDate": "2007-07-08",
       "genres": [
         "冒险",
@@ -4640,7 +4288,7 @@
       "description": "在一个静得有些诡异阴森的夜晚，年轻女子艾米丽（艾米丽·芭尔多尼 Emily Baldoni 饰）驱车来到朋友家参加聚会。此前她一边开车一边和男友打电话，然而通话突然中断，她的手机屏也莫名其妙出现裂痕。这一事件让艾米丽的心中升起隐隐不安，因为当晚一颗彗星刚好接近地球，一个很久之前听过的传说使她对彗星的到来有着不祥的预感。稍后，朋友们落座，大家彼此交谈，叙说近况，虽然言语中有着许多莫名其妙、蹊跷反常的线索，然而均被一带而过。突然间，灯光尽灭。当光明重新来临时，众人发现附近只有一户人家还在亮灯，而亮灯人家里坐着的竟是他们自己……",
       "posterPath": "https://image.tmdb.org/t/p/w500/7zQE3Dx96FDfu82cIqJHl1dCV3J.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/utghtkDDOhwEDS7r9hhRhn7Wneg.jpg",
-      "rating": 7.222,
+      "rating": 7.221,
       "releaseDate": "2014-04-06",
       "genres": [
         "惊悚",
@@ -4700,7 +4348,7 @@
       "description": "载人航天宇宙飞船阿瑞斯3号成功抵达火星，谁知一场破坏力极其巨大的风暴向宇航员们袭来，阿瑞斯3号被迫中断任务，紧急返航。撤离途中，宇航员马克·沃特尼被飞船上吹落的零件击中，由于生还希望渺茫，队友们只得匆匆返航，并向世人宣告他已牺牲的事实。出乎意料的是，马克以极低的概率活了下来。他躲进驻火星的航天基地疗伤。下一次火星任务要等到四年后，而基地内的补给仅够他维持31天。短暂的绝望后，马克决定利用有限的食物，在这颗空无一人的星球上种植作物，寻找一线生机。与此同时，地球方面也很快发现马克生还的事实，他们想尽办法部署营救计划。孤军奋战的马克，能否等到救援队伍的到来？",
       "posterPath": "https://image.tmdb.org/t/p/w500/5HUENHVv7wlqwptGkBmEmQkIBAV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/sq8oUjbBvKkqv9h0Ns5rQbbquhZ.jpg",
-      "rating": 7.692,
+      "rating": 7.691,
       "releaseDate": "2015-09-30",
       "genres": [
         "剧情",
@@ -4732,7 +4380,7 @@
       "description": "这部抒情而深切动人的影片是当代日本电影大师是枝裕和迄今为止最个人化的作品。影片为纪念其已故母亲而创作，描绘了横山家聚集举行纪念仪式的一天——其背后的深意随剧情推进才逐渐清晰。导演并未着力于强烈的戏剧冲突，而是通过细微的举止与家庭日常（尤其是烹饪）来勾勒一个家族的全部生活，其间贯穿着深藏的遗憾与平凡的欢欣。影片凭借鲜活而令人心碎的表演，以及回归导演早期纪录片风格的温柔自然主义笔触，非凡地刻画了那些将我们紧密相连的羁绊。[标准收藏公司]",
       "posterPath": "https://image.tmdb.org/t/p/w500/8M0PBJYX8s04u81XeZn3BXGj54U.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/lvSB0bnLzuxwrfTlI2l13gctWRn.jpg",
-      "rating": 7.771,
+      "rating": 7.77,
       "releaseDate": "2008-06-28",
       "genres": [
         "剧情",
@@ -4810,7 +4458,7 @@
       "description": "经历第一集中的腥风血雨之后，伯恩（马特·达蒙饰）和自己的女友化名隐身在一个偏僻遥远的海滨小镇。虽然伯恩不愿意回视过去，但“过去”却一直都在追随着他，伯恩发现秘密组织的杀手已经潜入小镇，为了保护女友玛丽·克鲁兹，他必须战斗。是一起国际政治刺杀事件让CIA重新审视已经失踪的伯恩的档案，一名某大国政要被职业杀手刺杀，刺杀者留下的证据显示他的名字叫“杰森·伯恩”，这是大卫·韦伯从前在中央情报局的化名。于是大卫·韦伯不仅仅要防备秘密组织暗地里的追杀，还要避开时刻寻找他的CIA特工。在上一集中和伯恩并肩作战的尼科莱特信任伯恩，但她发现自己也身陷困境。事态似乎变得越发失去控制，四面楚歌的“伯恩”现在只有单枪匹马地去找出那个冒充自己的人，洗刷自己和尼科莱特的清白",
       "posterPath": "https://image.tmdb.org/t/p/w500/kePCwAfcT5f2buKaGMsJs1wFYUM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/fE7RqvVHbGHjBC9NjIjlLh2t4zK.jpg",
-      "rating": 7.3,
+      "rating": 7.324,
       "releaseDate": "2004-07-23",
       "genres": [
         "动作",
@@ -4889,7 +4537,7 @@
       "description": "故事背景设定在1930年代日本占领时期的朝鲜。新人女仆淑熙受雇服侍日本贵族秀子，后者与专横的舅舅居住在一座偏僻的乡间大宅中。然而女仆怀揣秘密：她实为一名扒手，受假冒日本伯爵的骗子招募，企图助其引诱小姐私奔，夺取财产后将秀子关进疯人院。计划似乎顺利进行，直到淑熙与秀子之间萌生了意料之外的情愫。[CJ Entertainment]",
       "posterPath": "https://image.tmdb.org/t/p/w500/4XSCTGx7qAkvcrFXMjrM1SpGPu0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w1280/3upEZ0ltY7WwOSFVXrtiP34D48p.jpg",
-      "rating": 8.19,
+      "rating": 8.2,
       "releaseDate": "2016-06-01",
       "genres": [
         "惊悚",
