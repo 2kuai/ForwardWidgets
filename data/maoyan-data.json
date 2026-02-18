@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T20:34:50.077+08:00",
+  "last_updated": "2026-02-19T02:36:37.955+08:00",
   "tv": {
     "全网": [
       {
@@ -14,6 +14,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "releaseDate": "2026-01-25",
+        "rating": 8.5,
+        "mediaType": "tv"
+      },
+      {
         "id": 282558,
         "type": "tmdb",
         "title": "生命树",
@@ -22,17 +33,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
         "releaseDate": "2026-01-30",
         "rating": 7.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "releaseDate": "2026-01-23",
-        "rating": 8.8,
         "mediaType": "tv"
       },
       {
@@ -80,14 +80,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 261676,
+        "id": 279446,
         "type": "tmdb",
-        "title": "风过留痕",
-        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
-        "releaseDate": "2026-02-03",
-        "rating": 7.889,
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "releaseDate": "2026-01-23",
+        "rating": 8.8,
         "mediaType": "tv"
       },
       {
@@ -102,14 +102,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 279593,
+        "id": 261676,
         "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
-        "releaseDate": "2026-01-10",
-        "rating": 5.875,
+        "title": "风过留痕",
+        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+        "releaseDate": "2026-02-03",
+        "rating": 7.889,
         "mediaType": "tv"
       }
     ],
@@ -293,17 +293,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 211089,
-        "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zRBNzwH70x5uRCPRFSjJOlyJ2qq.jpg",
-        "releaseDate": "2022-09-27",
-        "rating": 8.4,
-        "mediaType": "tv"
-      },
-      {
         "id": 279041,
         "type": "tmdb",
         "title": "双轨",
@@ -312,6 +301,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7.125,
+        "mediaType": "tv"
+      },
+      {
+        "id": 211089,
+        "type": "tmdb",
+        "title": "唐朝诡事录",
+        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zRBNzwH70x5uRCPRFSjJOlyJ2qq.jpg",
+        "releaseDate": "2022-09-27",
+        "rating": 8.4,
         "mediaType": "tv"
       },
       {
@@ -338,17 +338,6 @@
       }
     ],
     "腾讯视频": [
-      {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "releaseDate": "2026-01-23",
-        "rating": 8.8,
-        "mediaType": "tv"
-      },
       {
         "id": 278882,
         "type": "tmdb",
@@ -383,14 +372,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 261676,
+        "id": 279446,
         "type": "tmdb",
-        "title": "风过留痕",
-        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
-        "releaseDate": "2026-02-03",
-        "rating": 7.889,
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "releaseDate": "2026-01-23",
+        "rating": 8.8,
         "mediaType": "tv"
       },
       {
@@ -402,6 +391,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/e2mINd8gwW2zcMtCiDQulHmssum.jpg",
         "releaseDate": "2025-12-22",
         "rating": 7.846,
+        "mediaType": "tv"
+      },
+      {
+        "id": 261676,
+        "type": "tmdb",
+        "title": "风过留痕",
+        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+        "releaseDate": "2026-02-03",
+        "rating": 7.889,
         "mediaType": "tv"
       },
       {
@@ -506,17 +506,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 308083,
-        "type": "tmdb",
-        "title": "大国船梦",
-        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
-        "releaseDate": "2025-11-20",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 222714,
         "type": "tmdb",
         "title": "蝶影",
@@ -525,6 +514,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/zMPpD1OTAj4psS187m4wk6aDUsB.jpg",
         "releaseDate": "2023-03-21",
         "rating": 5,
+        "mediaType": "tv"
+      },
+      {
+        "id": 308083,
+        "type": "tmdb",
+        "title": "大国船梦",
+        "description": "晚清，中国内忧外患。在曾国藩等人的筹办下，江南机器制造总局应运而生。邝福海受捻军的派遣前来阻挠，与梦想自建坚船利炮的徐华容结成生死之交。徐华容传播西方科学，推行洋务运动，阻止李鸿章用造船经费购买外国军舰，呕心沥血赶造兵舰，但最终功亏一篑。“甲午战争”惨败后，洋务运动破产，江南制造局成众矢之的。徐华容奔走呼号，惨淡经营，迎来辛亥革命。邝继业从日本回国后，在中共党人李印夏帮助下，发动工人运动，抗拒军阀掠夺，结束摩根称霸江南的时代。日本发动侵华战争，江南造船厂被长崎造船所吞噬。第三代江南共产党人孙翔龙、杨胜国和工程师汪同宾与日寇斗智斗勇，为新四军偷运军需物资，输送军工人才。解放伊始，江南造船厂为装备新中国第一支海军部队，成功实施一江山岛登陆作战立下了赫赫战功。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/pyPTzqWRZ3H8vH5H76BwkZaBlkf.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/jLQqtc2wNbWlhn2NDkbMYAeYqPo.jpg",
+        "releaseDate": "2025-11-20",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -596,17 +596,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 110329,
-        "type": "tmdb",
-        "title": "伟大的转折",
-        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
-        "releaseDate": "2019-08-26",
-        "rating": 10,
-        "mediaType": "tv"
-      },
-      {
         "id": 131078,
         "type": "tmdb",
         "title": "远方的山楂树",
@@ -615,6 +604,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/18Q8HtrirbuFLg3AEVqvvte9bs1.jpg",
         "releaseDate": "2019-12-27",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 110329,
+        "type": "tmdb",
+        "title": "伟大的转折",
+        "description": "　　1934年12月进入贵州到1935年5月出贵州，历经了被国民党大军层层围堵，在长征中遭受湘江惨败之后的中央红军，被迫在通道转兵进入贵州，之后历经了黎平会议、猴场会议、突破乌江、遵义会议、土城战役、四渡赤水、扎西会议、遵义战役、苟坝会议、南渡乌江、西进云南、北渡金沙、会理会议等历程，千难万险，艰苦卓绝，在毛泽东的正确领导下中央红军摆脱了敌军的追堵拦截，粉碎了蒋介石围歼红军的计划。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/AbfB0CUSlPOz47OgCSz9YKgPiqC.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mYlBXYVtJPQNwp8g1ujHFqtnn3e.jpg",
+        "releaseDate": "2019-08-26",
+        "rating": 10,
         "mediaType": "tv"
       },
       {
@@ -669,19 +669,19 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/ceybevjR1WAC4wqiHEEAhrW1U9L.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
         "releaseDate": "2015-02-08",
-        "rating": 8.703,
+        "rating": 8.704,
         "mediaType": "tv"
       }
     ],
     "PPTV": [
       {
-        "id": 157931,
+        "id": 118872,
         "type": "tmdb",
-        "title": "黑河风云",
-        "description": "1918年，旅俄华侨戴志远与父亲安排的俄国姑娘莉莉娅举行订婚仪式，遭日本军袭击，只身逃回黑河。顾淑媛爱上了他，他却心仪青梅竹马的同学林茵。林茵为掩护革命青年赴俄， 重伤落江。日本人占领黑河，戴志远奋起...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/u84IHJItbyCvKiThk5wqnMYPmg7.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/eAnJC9r9nVQCaUpNqBUta9WO4Vh.jpg",
-        "releaseDate": "2020-03-08",
+        "title": "牵手",
+        "description": "　　看似平稳的钟锐（吴若甫 饰）一家，背后却隐藏着时不时会爆发的危机。在电脑公司上班的钟锐是一名出色的软件工程师，对自己的职业很喜爱的钟锐想要在这上面有更长足的发展，而他的理念却与公司的经营者有巨大冲突，钟锐的理想得到了老板助理——来北漂的年轻女孩王纯（俞飞鸿 饰）的注目和敬佩；而钟锐因为长期工作的问题，和妻子夏晓雪（蒋雯丽 饰）的交流越来越少，妻子晓雪为了家庭放弃了自己颇有前途的工作，而钟锐却觉得妻子变得愈发庸俗甚至无法交流。家庭和工作的双重危机，让钟锐和王纯滋生出了婚外恋，影响到了众人。钟锐的儿子甚至因此离家出走，险些被人贩子拐走。一番波折之后，破碎的家庭能否重新拼凑，再度牵手呢？ ©豆瓣",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kYBsHNgp8NkFK2foAwDXrKih6H0.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/zBKCjljaVmXgJYIanP1LJHiE8t2.jpg",
+        "releaseDate": "1999-04-09",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -708,17 +708,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 118872,
-        "type": "tmdb",
-        "title": "牵手",
-        "description": "　　看似平稳的钟锐（吴若甫 饰）一家，背后却隐藏着时不时会爆发的危机。在电脑公司上班的钟锐是一名出色的软件工程师，对自己的职业很喜爱的钟锐想要在这上面有更长足的发展，而他的理念却与公司的经营者有巨大冲突，钟锐的理想得到了老板助理——来北漂的年轻女孩王纯（俞飞鸿 饰）的注目和敬佩；而钟锐因为长期工作的问题，和妻子夏晓雪（蒋雯丽 饰）的交流越来越少，妻子晓雪为了家庭放弃了自己颇有前途的工作，而钟锐却觉得妻子变得愈发庸俗甚至无法交流。家庭和工作的双重危机，让钟锐和王纯滋生出了婚外恋，影响到了众人。钟锐的儿子甚至因此离家出走，险些被人贩子拐走。一番波折之后，破碎的家庭能否重新拼凑，再度牵手呢？ ©豆瓣",
-        "posterPath": "https://image.tmdb.org/t/p/w500/kYBsHNgp8NkFK2foAwDXrKih6H0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zBKCjljaVmXgJYIanP1LJHiE8t2.jpg",
-        "releaseDate": "1999-04-09",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 157596,
         "type": "tmdb",
         "title": "有个地方叫马兰",
@@ -728,20 +717,20 @@
         "releaseDate": "2019-03-10",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 157931,
+        "type": "tmdb",
+        "title": "黑河风云",
+        "description": "1918年，旅俄华侨戴志远与父亲安排的俄国姑娘莉莉娅举行订婚仪式，遭日本军袭击，只身逃回黑河。顾淑媛爱上了他，他却心仪青梅竹马的同学林茵。林茵为掩护革命青年赴俄， 重伤落江。日本人占领黑河，戴志远奋起...",
+        "posterPath": "https://image.tmdb.org/t/p/w500/u84IHJItbyCvKiThk5wqnMYPmg7.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/eAnJC9r9nVQCaUpNqBUta9WO4Vh.jpg",
+        "releaseDate": "2020-03-08",
+        "rating": 0,
+        "mediaType": "tv"
       }
     ],
     "芒果TV": [
-      {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "releaseDate": "2026-01-23",
-        "rating": 8.8,
-        "mediaType": "tv"
-      },
       {
         "id": 283950,
         "type": "tmdb",
@@ -754,14 +743,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 297642,
+        "id": 279446,
         "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "releaseDate": "2025-11-12",
-        "rating": 8,
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "releaseDate": "2026-01-23",
+        "rating": 8.8,
         "mediaType": "tv"
       },
       {
@@ -820,14 +809,14 @@
         "mediaType": "tv"
       },
       {
-        "id": 283165,
+        "id": 297642,
         "type": "tmdb",
-        "title": "长风少年词",
-        "description": "商山王病危，妄想寻得传说中的“长生仙药”，命各诸侯国送其子来朝成立世子营，替商山王寻药。以“混世魔王”江闻奂、暗藏身世的落魄小奴隶昆吾、草原战士崇义彪、风流倜傥辛甲等性格迥异的四人为首集结成世子团。少年们一路历劫，腹背受敌，在历经了重重考验后，逐渐从争锋相对转变为肝胆相照，共同携手揭开“长生仙药”背后的滔天阴谋，为阻止阴谋而奋勇杀敌、守护百姓，成为一群保家卫国的“少年英雄”的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/3U1KJmF3lAt5S4PAuP1swSRnRSp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/Go6jmiVaPvYHwtpCQIS40HCeqT.jpg",
-        "releaseDate": "2025-08-26",
-        "rating": 9,
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "releaseDate": "2025-11-12",
+        "rating": 8,
         "mediaType": "tv"
       },
       {
@@ -839,6 +828,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/q26tcczglYxOMBOXerA4gaOjAm5.jpg",
         "releaseDate": "2026-01-15",
         "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 240686,
+        "type": "tmdb",
+        "title": "锦月如歌",
+        "description": "该剧改编自人气小说《重生之女将星》，为保家族爵位，何家长女何晏被迫戴上面具，扮做何家嫡长子“何如非”。少年时何晏于贤昌馆初识天之骄子肖珏，后为摆脱家族命运，毅然离开学馆，奔赴沙场。多年后何晏荣归故里，却因兄长何如非回归被家族设计，何晏大难不死后转换身份，化身城门校尉女儿禾晏，女扮男装前往掖州投军，立志拿回属于自己的一切。禾晏结交了温润如玉的楚昭，更是与肖珏再次重逢。可肖珏怀疑禾晏是奸细，处处针对，反复试探，禾晏死抱肖珏大腿，并以掖州卫第一的成绩向肖珏证明了自己的能力。二人历经孙家事件、季阳王女事件、润都守城之战，几经生死，互通心意。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/zHy4pWFdJLzR4AkKcelpr20R3tN.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/mwiG510fVcOrzWUSDSV7B5tRMrb.jpg",
+        "releaseDate": "2025-08-06",
+        "rating": 8.286,
         "mediaType": "tv"
       }
     ]
@@ -890,6 +890,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 231620,
         "type": "tmdb",
         "title": "现在就出发",
@@ -931,17 +942,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
         "releaseDate": "2024-06-28",
         "rating": 5.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 108433,
-        "type": "tmdb",
-        "title": "十三邀",
-        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
-        "releaseDate": "2016-05-17",
-        "rating": 8.8,
         "mediaType": "tv"
       }
     ],
@@ -1114,17 +1114,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 300268,
-        "type": "tmdb",
-        "title": "中国唱将",
-        "description": "《中国唱将》以“国家级音乐人才集训营”为核心概念，集结各大国家院团、艺术院校的顶级歌唱家、音乐制作人、学术导师、行业专家等，以“国家级”师资力量全力托举、锻造新声，构建从专业遴选、进阶集训、观众点评到最终登上国家舞台的权威生态闭环。经过专业架构的“多维评价”体系，最终遴选出的优秀选手将组成“中国唱将团”，输送至总台文艺各大晚会和各大院团的重要创作，让新一代唱将屹立到国家舞台之上，擎文艺旗帜，引时代新风。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jULGpvUMmf6x7uluNQjNQwYIM8b.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/wy09JpYFRNwz1C6IuoqcuX9o6xn.jpg",
-        "releaseDate": "2025-10-24",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 306845,
         "type": "tmdb",
         "title": "笑有新生",
@@ -1132,6 +1121,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "releaseDate": "2025-12-06",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 300268,
+        "type": "tmdb",
+        "title": "中国唱将",
+        "description": "《中国唱将》以“国家级音乐人才集训营”为核心概念，集结各大国家院团、艺术院校的顶级歌唱家、音乐制作人、学术导师、行业专家等，以“国家级”师资力量全力托举、锻造新声，构建从专业遴选、进阶集训、观众点评到最终登上国家舞台的权威生态闭环。经过专业架构的“多维评价”体系，最终遴选出的优秀选手将组成“中国唱将团”，输送至总台文艺各大晚会和各大院团的重要创作，让新一代唱将屹立到国家舞台之上，擎文艺旗帜，引时代新风。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jULGpvUMmf6x7uluNQjNQwYIM8b.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/wy09JpYFRNwz1C6IuoqcuX9o6xn.jpg",
+        "releaseDate": "2025-10-24",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1340,17 +1340,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 280763,
-        "type": "tmdb",
-        "title": "厨易社",
-        "description": "美食哲学双向对谈——两三好友，以不同风味美食呈现背后蕴藏的独特生活哲学。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/bBX6ATvpoTaKp6RiXZdqA4G3XwU.jpg",
-        "backdropPath": null,
-        "releaseDate": "2022-09-08",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 271142,
         "type": "tmdb",
         "title": "这样的你",
@@ -1358,6 +1347,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/5CalgpdAoIi2IBRZqXT0TrKI9Z9.jpg",
         "backdropPath": null,
         "releaseDate": "2023-06-07",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 280763,
+        "type": "tmdb",
+        "title": "厨易社",
+        "description": "美食哲学双向对谈——两三好友，以不同风味美食呈现背后蕴藏的独特生活哲学。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/bBX6ATvpoTaKp6RiXZdqA4G3XwU.jpg",
+        "backdropPath": null,
+        "releaseDate": "2022-09-08",
         "rating": 0,
         "mediaType": "tv"
       }
@@ -1387,6 +1387,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 306823,
+        "type": "tmdb",
+        "title": "在恋爱开始之前",
+        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
+        "releaseDate": "2025-11-25",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
         "id": 308650,
         "type": "tmdb",
         "title": "中国新声代",
@@ -1406,28 +1417,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/aPUiEgfN1gAqyuvB0ISmxYQHTyJ.jpg",
         "releaseDate": "2024-11-25",
         "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 307946,
-        "type": "tmdb",
-        "title": "源来是你·青春季",
-        "description": "本节目是一档乡村文旅探索真人秀，以“文旅、美食、文创促进县域振兴”为主线。以广东省河源市东源县为拍摄地，聚焦在乡村挖掘当地宝藏特产、将地方特色农产品转化为潮流饮品、小吃。六位青年艺人受邀深入乡村，联合本地村民，以东源新产业“餐车”为载体，通过创意饮品开发、产品打样、文旅推广等手段，发展当地的村咖餐车产业、推广当地特产，通过体验农事劳作、入户走访、与村民共创产品、搭建销售平台，并在最后以“东源推介会”的形式向全国媒体推介东源特色农品，完成一次“青春版”的文创美食产品孵化全过程。该节目的所有行动路径和创业任务，皆以当地真实资源与条件为基础，联合当地政府、村民共同策划与执行，具有较强的纪实与可复制性。同时通过在东源展开的乡村之旅，挖掘乡村文旅的潜力、绘就乡村振兴的“诗画卷”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
-        "releaseDate": "2025-12-10",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
-        "id": 130099,
-        "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
-        "releaseDate": "2021-07-28",
-        "rating": 8.1,
         "mediaType": "tv"
       },
       {
