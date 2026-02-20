@@ -65,12 +65,14 @@ async function getTmdbDetails(rawTitle) {
       type: "tmdb",
       title: movie.title,
       description: movie.overview,
-      posterPath: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
-      backdropPath: movie.backdrop_path ? `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}` : null,
       rating: movie.vote_average,
+      voteCount: movie.vote_count,
+      popularity: movie.popularity,
       releaseDate: movie.release_date,
-      genres: (movie.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).slice(0, 3),
-      mediaType: "movie"
+      posterPath: movie.poster_path || null,
+      backdropPath: movie.backdrop_path || null,
+      mediaType: "movie",
+      genreTitle: (movie.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
     };
   }));
 }
