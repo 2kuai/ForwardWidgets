@@ -97,7 +97,6 @@ async def fetch_tmdb_detail(session, item, cache):
                         "title": res.get("name"),
                         "description": res.get("overview"),
                         "rating": res.get("vote_average"),
-                        "vote_average": res.get("vote_average"),
                         "vote_count": res.get("vote_count"),
                         "popularity": res.get("popularity"),
                         "releaseDate": first_air,
