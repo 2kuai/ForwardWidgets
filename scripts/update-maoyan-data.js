@@ -22,11 +22,16 @@ const PLATFORMS = [
   { title: "优酷", value: "1" },
   { title: "爱奇艺", value: "2" },
   { title: "腾讯视频", value: "3" },
-  { title: "乐视视频", value: "4" },
-  { title: "搜狐视频", value: "5" },
-  { title: "PPTV", value: "6" },
   { title: "芒果TV", value: "7" }
 ];
+
+const GENRE_MAP = {
+  28: "动作", 12: "冒险", 16: "动画", 35: "喜剧", 80: "犯罪", 99: "纪录片", 18: "剧情", 
+  10751: "家庭", 14: "奇幻", 36: "历史", 27: "恐怖", 10402: "音乐", 9648: "悬疑", 
+  10749: "爱情", 878: "科幻", 10770: "电视电影", 53: "惊悚", 10752: "战争", 37: "西部", 
+  10759: "动作冒险", 10762: "儿童", 10763: "新闻", 10764: "真人秀", 10765: "科幻奇幻", 
+  10766: "肥皂剧", 10767: "脱口秀", 10768: "战争政治"
+};
 
 // 工具函数
 function cleanShowName(showName) {
@@ -60,15 +65,14 @@ async function searchTMDB(showName) {
         type: "tmdb",
         title: bestMatch.name,
         description: bestMatch.overview,
-        posterPath: bestMatch.poster_path 
-          ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` 
-          : null,
-        backdropPath: bestMatch.backdrop_path 
-          ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
-          : null,
+        rating: exactMatch.vote_average,
+        voteCount: bestMatch.vote_count,
+        popularity: bestMatch.popularity,
         releaseDate: bestMatch.first_air_date,
-        rating: bestMatch.vote_average,
-        mediaType: "tv"
+        posterPath: bestMatch.poster_path || null,
+        backdropPath: bestMatch.backdrop_path || null,
+        mediaType: "tv",
+        genreTitle: (bestMatch.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
       };
     }
     return null;
