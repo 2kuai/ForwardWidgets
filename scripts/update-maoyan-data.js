@@ -65,7 +65,7 @@ async function searchTMDB(showName) {
         type: "tmdb",
         title: bestMatch.name,
         description: bestMatch.overview,
-        rating: exactMatch.vote_average,
+        rating: bestMatch.vote_average,
         voteCount: bestMatch.vote_count,
         popularity: bestMatch.popularity,
         releaseDate: bestMatch.first_air_date,
