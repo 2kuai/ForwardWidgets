@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T20:36:47.532+08:00",
+  "last_updated": "2026-02-26T02:49:42.538+08:00",
   "tv": {
     "全网": [
       {
@@ -21,8 +21,8 @@
         "type": "tmdb",
         "title": "好好的时光",
         "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 4.0419,
         "releaseDate": "2026-02-23",
         "posterPath": "/txjYmtzdtfecTIuoRYYyo1Rd0NB.jpg",
@@ -35,8 +35,8 @@
         "type": "tmdb",
         "title": "除恶",
         "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静，一个是为救女儿不计代价的普通父亲程恳，一个是一心想要逃离小镇生活的野心家李晓雅，一个是被毒品吞噬而走向异途的姐弟王萍王安。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 7.3261,
         "releaseDate": "2026-02-23",
         "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
@@ -201,20 +201,6 @@
         "genreTitle": "剧情,悬疑,战争政治"
       },
       {
-        "id": 273112,
-        "type": "tmdb",
-        "title": "剥茧",
-        "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
-        "rating": 8.714,
-        "voteCount": 7,
-        "popularity": 2.1532,
-        "releaseDate": "2025-12-29",
-        "posterPath": "/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
-        "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪"
-      },
-      {
         "id": 313930,
         "type": "tmdb",
         "title": "卧底娇娃",
@@ -227,6 +213,20 @@
         "backdropPath": "/7TKBpKx76eBknk0zYmtKV07Pznu.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 273112,
+        "type": "tmdb",
+        "title": "剥茧",
+        "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
+        "rating": 8.714,
+        "voteCount": 7,
+        "popularity": 2.1532,
+        "releaseDate": "2025-12-29",
+        "posterPath": "/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
+        "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,犯罪"
       },
       {
         "id": 262928,
@@ -291,8 +291,8 @@
         "type": "tmdb",
         "title": "除恶",
         "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静，一个是为救女儿不计代价的普通父亲程恳，一个是一心想要逃离小镇生活的野心家李晓雅，一个是被毒品吞噬而走向异途的姐弟王萍王安。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 7.3261,
         "releaseDate": "2026-02-23",
         "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
@@ -379,7 +379,7 @@
         "voteCount": 10,
         "popularity": 6.5136,
         "releaseDate": "2026-02-03",
-        "posterPath": "/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
+        "posterPath": "/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
         "backdropPath": "/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -521,7 +521,7 @@
         "voteCount": 10,
         "popularity": 6.5136,
         "releaseDate": "2026-02-03",
-        "posterPath": "/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
+        "posterPath": "/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
         "backdropPath": "/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -536,21 +536,7 @@
         "popularity": 11.5699,
         "releaseDate": "2025-12-22",
         "posterPath": "/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
-        "backdropPath": "/yaQ5apARiXSP7wGL4a53PW8u4bg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 279593,
-        "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "rating": 5.875,
-        "voteCount": 8,
-        "popularity": 3.5461,
-        "releaseDate": "2026-01-10",
-        "posterPath": "/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
+        "backdropPath": "/qBabqa13M2JgxpZvF9uxKbWg0YT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -567,6 +553,20 @@
         "backdropPath": "/c5Rqjj7f72oS10tzgKzpau9Uq2B.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
+      },
+      {
+        "id": 279593,
+        "type": "tmdb",
+        "title": "小城大事",
+        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
+        "rating": 5.875,
+        "voteCount": 8,
+        "popularity": 3.5461,
+        "releaseDate": "2026-01-10",
+        "posterPath": "/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
+        "backdropPath": "/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -575,8 +575,8 @@
         "type": "tmdb",
         "title": "好好的时光",
         "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 4.0419,
         "releaseDate": "2026-02-23",
         "posterPath": "/txjYmtzdtfecTIuoRYYyo1Rd0NB.jpg",
@@ -625,20 +625,6 @@
         "backdropPath": "/4aOPfX99r4DXXHtOC0GMsXoPF9C.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
-      },
-      {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.7187,
-        "releaseDate": "2025-11-12",
-        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 302577,
@@ -695,6 +681,20 @@
         "backdropPath": "/b3VStRMS3lHGuGQzKx5oSALefrl.jpg",
         "mediaType": "tv",
         "genreTitle": "家庭"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.7187,
+        "releaseDate": "2025-11-12",
+        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 240686,
@@ -771,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 231620,
-        "type": "tmdb",
-        "title": "现在就出发",
-        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
-        "rating": 7.2,
-        "voteCount": 6,
-        "popularity": 17.8634,
-        "releaseDate": "2023-08-13",
-        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
-        "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
-      },
-      {
         "id": 285011,
         "type": "tmdb",
         "title": "开始捉迷藏",
@@ -797,6 +783,20 @@
         "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 231620,
+        "type": "tmdb",
+        "title": "现在就出发",
+        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
+        "rating": 7.2,
+        "voteCount": 6,
+        "popularity": 17.8634,
+        "releaseDate": "2023-08-13",
+        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
+        "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 312066,
@@ -813,20 +813,6 @@
         "genreTitle": "脱口秀"
       },
       {
-        "id": 314523,
-        "type": "tmdb",
-        "title": "今夜喜友秀",
-        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3761,
-        "releaseDate": "2026-02-20",
-        "posterPath": "/fDVuwgh6ootTXUzkqvzUWpSAQLM.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
-      },
-      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇",
@@ -839,6 +825,20 @@
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 314523,
+        "type": "tmdb",
+        "title": "今夜喜友秀",
+        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3761,
+        "releaseDate": "2026-02-20",
+        "posterPath": "/fDVuwgh6ootTXUzkqvzUWpSAQLM.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
       }
     ],
     "优酷": [
@@ -899,20 +899,6 @@
         "genreTitle": "脱口秀"
       },
       {
-        "id": 306845,
-        "type": "tmdb",
-        "title": "笑有新生",
-        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.3433,
-        "releaseDate": "2025-12-06",
-        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
-        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 302997,
         "type": "tmdb",
         "title": "一起开麦吧",
@@ -923,6 +909,20 @@
         "releaseDate": "2025-10-18",
         "posterPath": "/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
         "backdropPath": "/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 306845,
+        "type": "tmdb",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.3433,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -985,20 +985,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 314523,
-        "type": "tmdb",
-        "title": "今夜喜友秀",
-        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3761,
-        "releaseDate": "2026-02-20",
-        "posterPath": "/fDVuwgh6ootTXUzkqvzUWpSAQLM.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
-      },
-      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇",
@@ -1011,6 +997,20 @@
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 314523,
+        "type": "tmdb",
+        "title": "今夜喜友秀",
+        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3761,
+        "releaseDate": "2026-02-20",
+        "posterPath": "/fDVuwgh6ootTXUzkqvzUWpSAQLM.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
       },
       {
         "id": 155660,
@@ -1113,20 +1113,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 231620,
-        "type": "tmdb",
-        "title": "现在就出发",
-        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
-        "rating": 7.2,
-        "voteCount": 6,
-        "popularity": 17.8634,
-        "releaseDate": "2023-08-13",
-        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
-        "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
-      },
-      {
         "id": 285011,
         "type": "tmdb",
         "title": "开始捉迷藏",
@@ -1139,6 +1125,20 @@
         "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 231620,
+        "type": "tmdb",
+        "title": "现在就出发",
+        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
+        "rating": 7.2,
+        "voteCount": 6,
+        "popularity": 17.8634,
+        "releaseDate": "2023-08-13",
+        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
+        "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 312066,
@@ -1183,20 +1183,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 108433,
-        "type": "tmdb",
-        "title": "十三邀",
-        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
-        "rating": 8.8,
-        "voteCount": 4,
-        "popularity": 7.3711,
-        "releaseDate": "2016-05-17",
-        "posterPath": "/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
-        "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
-      },
-      {
         "id": 257161,
         "type": "tmdb",
         "title": "喜人奇妙夜",
@@ -1209,6 +1195,20 @@
         "backdropPath": "/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 108433,
+        "type": "tmdb",
+        "title": "十三邀",
+        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
+        "rating": 8.8,
+        "voteCount": 4,
+        "popularity": 7.3711,
+        "releaseDate": "2016-05-17",
+        "posterPath": "/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
+        "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
       },
       {
         "id": 306845,
@@ -1226,6 +1226,20 @@
       }
     ],
     "芒果TV": [
+      {
+        "id": 114473,
+        "type": "tmdb",
+        "title": "名侦探学院",
+        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
+        "rating": 7.333,
+        "voteCount": 3,
+        "popularity": 22.0179,
+        "releaseDate": "2019-11-03",
+        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
+        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,悬疑"
+      },
       {
         "id": 278513,
         "type": "tmdb",
@@ -1255,46 +1269,18 @@
         "genreTitle": ""
       },
       {
-        "id": 114473,
+        "id": 197150,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "rating": 7.333,
+        "title": "欢迎来到蘑菇屋",
+        "description": "《欢迎来到蘑菇屋》发起共享蘑菇屋的概念，开放《向往的生活》第五季桃花源蘑菇屋，邀请憧憬田园生活的客人来这里自行居住，留下各自不同的“向往生活”。",
+        "rating": 9,
         "voteCount": 3,
-        "popularity": 22.0179,
-        "releaseDate": "2019-11-03",
-        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,悬疑"
-      },
-      {
-        "id": 130099,
-        "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "rating": 8.1,
-        "voteCount": 8,
-        "popularity": 9.5789,
-        "releaseDate": "2021-07-28",
-        "posterPath": "/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "popularity": 1.5648,
+        "releaseDate": "2022-04-08",
+        "posterPath": "/3S420YjbX2mqFMZ603s0jUI842W.jpg",
+        "backdropPath": "/aIq6S8XP786fJfcImzkpYZu0wYt.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 304080,
-        "type": "tmdb",
-        "title": "当家爸爸的聚会",
-        "description": "节目计划开启一年两季的寒暑假季番规划，每季10期。首季将由《爸爸当家·慢享季》中热度最高的王永鸿家庭作为“东道主”发起聚会邀请，邀约全职爸爸互助会中有时间聚会的几组家庭，开启一段以“来我家聚一聚”为主题的家乡团建和研学之旅。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.2211,
-        "releaseDate": "2025-10-15",
-        "posterPath": "/12LyvRx6OHbwx5DTnjOKSwWJRZ2.jpg",
-        "backdropPath": "/zIxgzMsXIOBSxHlkpbsHiKuBCyO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,家庭"
       }
     ]
   }
