@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T14:45:07.786+08:00",
+  "last_updated": "2026-02-26T20:37:01.193+08:00",
   "tv": {
     "全网": [
       {
@@ -59,20 +59,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 256783,
-        "type": "tmdb",
-        "title": "成何体统",
-        "description": "庾晚音穿书到了一本宫斗文，这本书的女主也是穿书进来的，庾晚音为了逆转自己的反派宿命，选择和暴君联手，不料暴君竟然也是穿书进来的。庾晚音希望三个现代人可以放下宫斗，坐在一起斗地主吃火锅。但女主认为自己才是天选之女，依然选择站在庾晚音对立面与男主端王战队，庾晚音不得不展开一系列行动，为了让自己能活下去并帮助大夏避免旱灾危机……",
-        "rating": 8.875,
-        "voteCount": 8,
-        "popularity": 10.9048,
-        "releaseDate": "2024-06-14",
-        "posterPath": "/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
-        "backdropPath": "/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,喜剧"
-      },
-      {
         "id": 278127,
         "type": "tmdb",
         "title": "唐宫奇案之青雾风鸣",
@@ -87,6 +73,20 @@
         "genreTitle": "剧情,悬疑"
       },
       {
+        "id": 256783,
+        "type": "tmdb",
+        "title": "成何体统",
+        "description": "庾晚音穿书到了一本宫斗文，这本书的女主也是穿书进来的，庾晚音为了逆转自己的反派宿命，选择和暴君联手，不料暴君竟然也是穿书进来的。庾晚音希望三个现代人可以放下宫斗，坐在一起斗地主吃火锅。但女主认为自己才是天选之女，依然选择站在庾晚音对立面与男主端王战队，庾晚音不得不展开一系列行动，为了让自己能活下去并帮助大夏避免旱灾危机……",
+        "rating": 8.875,
+        "voteCount": 8,
+        "popularity": 10.9048,
+        "releaseDate": "2024-06-14",
+        "posterPath": "/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
+        "backdropPath": "/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,喜剧"
+      },
+      {
         "id": 262932,
         "type": "tmdb",
         "title": "江湖夜雨十年灯",
@@ -99,6 +99,20 @@
         "backdropPath": "/1dpNwoB4T3z0RM2Z43iOmix94Ho.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险,悬疑"
+      },
+      {
+        "id": 240446,
+        "type": "tmdb",
+        "title": "玫瑰丛生",
+        "description": "对待爱情认真而小心的李晓兮与小贝邂逅，两人开始了一段浪漫的恋爱。小贝的忠诚和坚定给予李晓兮力量，让李晓兮逐渐克服心中对爱情的不安全感。小贝也在李晓兮的陪伴和包容下，治愈了心中的旧伤痛，逐渐释怀，学会珍惜。呵护情感的过程中让李晓兮与小贝看到了爱情的更多面，共同经历了很多困难，最终得到了成长，收获了真挚的爱情。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.6313,
+        "releaseDate": "2026-02-26",
+        "posterPath": "/zhMzxTvm86guny5vGzaOUAhF0zu.jpg",
+        "backdropPath": "/6qweJqGT5H5aSRrl1Xn4om0BUyG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 282558,
@@ -127,20 +141,6 @@
         "backdropPath": "/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情,科幻奇幻"
-      },
-      {
-        "id": 259554,
-        "type": "tmdb",
-        "title": "夜色正浓",
-        "description": "一场盛宴之下的狂欢，让隐藏已久的暗涌浮现，唤醒了所有装睡的人，也触发了GST酒业各层人士的生存危机。一切事关生存，每一步都需格外谨慎。七个深陷其中的主要人物，在事件中扮演了不同的角色，勾勒出人性的复杂和现实的残酷，从而呈现出一个共同的主题——如何在惶惶不安中乐观地活下去！",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 4.2268,
-        "releaseDate": "2026-01-28",
-        "posterPath": "/sd3EIJZQzAvsU5CDroaL9QuIYBq.jpg",
-        "backdropPath": "/z27pWxc4kLdMatQuSnNXOVVXZc6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -361,8 +361,8 @@
         "type": "tmdb",
         "title": "太平年",
         "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.9,
-        "voteCount": 9,
+        "rating": 9,
+        "voteCount": 10,
         "popularity": 11.0038,
         "releaseDate": "2026-01-23",
         "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
@@ -413,18 +413,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 211089,
+        "id": 277052,
         "type": "tmdb",
-        "title": "唐朝诡事录",
-        "description": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-        "rating": 8.4,
-        "voteCount": 49,
-        "popularity": 27.2801,
-        "releaseDate": "2022-09-27",
-        "posterPath": "/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-        "backdropPath": "/zRBNzwH70x5uRCPRFSjJOlyJ2qq.jpg",
+        "title": "老舅",
+        "description": "老舅是外甥二胖最崇拜的人，老舅自幼学习优异，毕业于哈工大，对于任何新鲜事物，几乎都是天才式的无师自通。在中国经济全面转型的90年代，怀揣一身本领的老舅总有新的理想，所以他不停地创业。虽然老舅“折腾”的一生经历各种困难，但也在不停折腾中感受到了亲友陪伴的力量，最终在自己对生活的乐观态度里实现了梦想。",
+        "rating": 7.5,
+        "voteCount": 5,
+        "popularity": 3.1519,
+        "releaseDate": "2025-12-15",
+        "posterPath": "/pqHsHwcl5CwHaOsc1woAOCSKzvR.jpg",
+        "backdropPath": "/13i0nHFeWhGUeWzLRtEGGGLKfqI.jpg",
         "mediaType": "tv",
-        "genreTitle": "悬疑,犯罪,剧情,动作冒险"
+        "genreTitle": "剧情"
       }
     ],
     "腾讯视频": [
@@ -457,6 +457,20 @@
         "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
+        "id": 240446,
+        "type": "tmdb",
+        "title": "玫瑰丛生",
+        "description": "对待爱情认真而小心的李晓兮与小贝邂逅，两人开始了一段浪漫的恋爱。小贝的忠诚和坚定给予李晓兮力量，让李晓兮逐渐克服心中对爱情的不安全感。小贝也在李晓兮的陪伴和包容下，治愈了心中的旧伤痛，逐渐释怀，学会珍惜。呵护情感的过程中让李晓兮与小贝看到了爱情的更多面，共同经历了很多困难，最终得到了成长，收获了真挚的爱情。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.6313,
+        "releaseDate": "2026-02-26",
+        "posterPath": "/zhMzxTvm86guny5vGzaOUAhF0zu.jpg",
+        "backdropPath": "/6qweJqGT5H5aSRrl1Xn4om0BUyG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
+      },
+      {
         "id": 278882,
         "type": "tmdb",
         "title": "年少有为",
@@ -469,6 +483,20 @@
         "backdropPath": "/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情,科幻奇幻"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 9,
+        "voteCount": 10,
+        "popularity": 11.0038,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 259554,
@@ -485,18 +513,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
+        "id": 273124,
         "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.9,
-        "voteCount": 9,
-        "popularity": 11.0038,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "title": "我的妈妈是校花",
+        "description": "该剧改编自同名漫画《我的妈妈是校花》，讲述了大学生孔小灿（蒋龙 饰）得知妈妈孔桂芳（刘琳 饰）身患绝症后，毅然决然与外星人做交易，通过“生命能量”互换，让45岁的母亲重拾20岁孔桂芳（邓恩熙 饰）的青春容颜，开启崭新人生旅程的故事。",
+        "rating": 9,
+        "voteCount": 3,
+        "popularity": 4.2634,
+        "releaseDate": "2026-02-13",
+        "posterPath": "/wLwfottOSFenAL9tqxazCve21Ve.jpg",
+        "backdropPath": "/qgfavqEAXz21FZvOMuc0c6mzxm0.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "喜剧,科幻奇幻,家庭"
       },
       {
         "id": 261676,
@@ -513,20 +541,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 273124,
-        "type": "tmdb",
-        "title": "我的妈妈是校花",
-        "description": "该剧改编自同名漫画《我的妈妈是校花》，讲述了大学生孔小灿（蒋龙 饰）得知妈妈孔桂芳（刘琳 饰）身患绝症后，毅然决然与外星人做交易，通过“生命能量”互换，让45岁的母亲重拾20岁孔桂芳（邓恩熙 饰）的青春容颜，开启崭新人生旅程的故事。",
-        "rating": 9,
-        "voteCount": 3,
-        "popularity": 4.2634,
-        "releaseDate": "2026-02-13",
-        "posterPath": "/wLwfottOSFenAL9tqxazCve21Ve.jpg",
-        "backdropPath": "/qgfavqEAXz21FZvOMuc0c6mzxm0.jpg",
-        "mediaType": "tv",
-        "genreTitle": "喜剧,科幻奇幻,家庭"
-      },
-      {
         "id": 278577,
         "type": "tmdb",
         "title": "骄阳似我",
@@ -537,20 +551,6 @@
         "releaseDate": "2025-12-22",
         "posterPath": "/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
         "backdropPath": "/qBabqa13M2JgxpZvF9uxKbWg0YT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 279593,
-        "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "rating": 5.875,
-        "voteCount": 8,
-        "popularity": 3.9414,
-        "releaseDate": "2026-01-10",
-        "posterPath": "/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -589,8 +589,8 @@
         "type": "tmdb",
         "title": "太平年",
         "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.9,
-        "voteCount": 9,
+        "rating": 9,
+        "voteCount": 10,
         "popularity": 11.0038,
         "releaseDate": "2026-01-23",
         "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
@@ -715,20 +715,6 @@
   "show": {
     "全网": [
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.1513,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
@@ -739,6 +725,20 @@
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.1513,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -777,7 +777,7 @@
         "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.4391,
+        "popularity": 0.6974,
         "releaseDate": "2026-02-06",
         "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
         "backdropPath": "/kzC9YU1FtaotFJibKfJWqoY56xF.jpg",
@@ -791,7 +791,7 @@
         "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
         "rating": 7.2,
         "voteCount": 6,
-        "popularity": 17.8634,
+        "popularity": 15.897,
         "releaseDate": "2023-08-13",
         "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
         "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
@@ -849,7 +849,7 @@
         "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.4391,
+        "popularity": 0.6974,
         "releaseDate": "2026-02-06",
         "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
         "backdropPath": "/kzC9YU1FtaotFJibKfJWqoY56xF.jpg",
@@ -877,7 +877,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 7.9072,
+        "popularity": 7.7728,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -1019,7 +1019,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 7.9072,
+        "popularity": 7.7728,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -1133,7 +1133,7 @@
         "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
         "rating": 7.2,
         "voteCount": 6,
-        "popularity": 17.8634,
+        "popularity": 15.897,
         "releaseDate": "2023-08-13",
         "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
         "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
@@ -1175,7 +1175,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 7.9072,
+        "popularity": 7.7728,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -1211,16 +1211,16 @@
         "genreTitle": "真人秀,喜剧"
       },
       {
-        "id": 263226,
+        "id": 306845,
         "type": "tmdb",
-        "title": "探索新境",
-        "description": "《探索新境》由华纳兄弟探索集团旗下的Discovery探索频道国际团队倾力打造，是王一博参与的首档户外探索纪实节目。王一博跟随六位Discovery中国探索家，分别前往六个极致地理目的地，雪山、沙漠、海岛、热带雨林等，开启深入极境的户外探索之旅。 在六段奇妙且刺激的旅程中，王一博与中国顶尖的生存和户外专家一道，探索极致的自然环境及户外挑战：在茂密的热带雨林中寻找珍稀的海南长臂猿，在大海夜潜拍摄璀璨的荧光珊瑚，在广袤无垠的沙漠中独自生活……节目不仅呈现了王一博探索未知自然的“新境”，还在过程中探讨年轻人关于成长的话题，展现当代年轻人不断突破、勇于探索的“心境”。 《探索新境》节目将自2024年8月31日起，在腾讯视频独家播出。",
-        "rating": 10,
-        "voteCount": 1,
-        "popularity": 1.5417,
-        "releaseDate": "2024-08-31",
-        "posterPath": "/iNExaEXANS3HMMQo0XpNSVbZLaJ.jpg",
-        "backdropPath": "/nDNdylDMn5IzOTpFHBktZM82n6I.jpg",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.3479,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1289,7 +1289,7 @@
         "description": "节目计划开启一年两季的寒暑假季番规划，每季10期。首季将由《爸爸当家·慢享季》中热度最高的王永鸿家庭作为“东道主”发起聚会邀请，邀约全职爸爸互助会中有时间聚会的几组家庭，开启一段以“来我家聚一聚”为主题的家乡团建和研学之旅。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.2211,
+        "popularity": 0.1591,
         "releaseDate": "2025-10-15",
         "posterPath": "/12LyvRx6OHbwx5DTnjOKSwWJRZ2.jpg",
         "backdropPath": "/zIxgzMsXIOBSxHlkpbsHiKuBCyO.jpg",
