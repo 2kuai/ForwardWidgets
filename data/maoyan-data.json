@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T02:18:01.988+08:00",
+  "last_updated": "2026-03-02T09:06:17.277+08:00",
   "tv": {
     "全网": [
       {
@@ -229,20 +229,6 @@
         "genreTitle": "剧情,悬疑,犯罪"
       },
       {
-        "id": 262928,
-        "type": "tmdb",
-        "title": "入青云",
-        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
-        "rating": 8.4,
-        "voteCount": 28,
-        "popularity": 14.7901,
-        "releaseDate": "2025-10-08",
-        "posterPath": "/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
-        "backdropPath": "/7bcyEgm7f0RjuiE9m6Uy33OmOeq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 299927,
         "type": "tmdb",
         "title": "红腰鼓",
@@ -255,6 +241,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 262928,
+        "type": "tmdb",
+        "title": "入青云",
+        "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
+        "rating": 8.4,
+        "voteCount": 28,
+        "popularity": 14.7901,
+        "releaseDate": "2025-10-08",
+        "posterPath": "/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
+        "backdropPath": "/7bcyEgm7f0RjuiE9m6Uy33OmOeq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 271015,
@@ -605,7 +605,7 @@
         "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
         "rating": 8,
         "voteCount": 2,
-        "popularity": 2.9019,
+        "popularity": 3.3117,
         "releaseDate": "2025-12-01",
         "posterPath": "/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
         "backdropPath": "/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
@@ -623,6 +623,20 @@
         "releaseDate": "2026-01-25",
         "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
         "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.8382,
+        "releaseDate": "2025-11-12",
+        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -645,8 +659,8 @@
         "type": "tmdb",
         "title": "水龙吟",
         "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
-        "rating": 7.8,
-        "voteCount": 16,
+        "rating": 7.941,
+        "voteCount": 17,
         "popularity": 11.6514,
         "releaseDate": "2025-10-24",
         "posterPath": "/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
@@ -683,20 +697,6 @@
         "genreTitle": "家庭"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.8799,
-        "releaseDate": "2025-11-12",
-        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 240686,
         "type": "tmdb",
         "title": "锦月如歌",
@@ -721,7 +721,7 @@
         "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
         "rating": 8,
         "voteCount": 2,
-        "popularity": 8.2024,
+        "popularity": 8.3804,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
@@ -763,7 +763,7 @@
         "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3005,
+        "popularity": 2.1418,
         "releaseDate": "2025-12-25",
         "posterPath": "/uHozET4VnjItqP69W688sf0Nafv.jpg",
         "backdropPath": "/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
@@ -785,6 +785,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.5781,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 231620,
         "type": "tmdb",
         "title": "现在就出发",
@@ -799,34 +813,6 @@
         "genreTitle": "真人秀,喜剧"
       },
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.0973,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 314523,
-        "type": "tmdb",
-        "title": "今夜喜友秀",
-        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7625,
-        "releaseDate": "2026-02-20",
-        "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
-      },
-      {
         "id": 315433,
         "type": "tmdb",
         "title": "亲爱的客栈2026",
@@ -839,6 +825,20 @@
         "backdropPath": "/zsxTQT3VvxvgUvVERLJzEMa7e0d.jpg",
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 314523,
+        "type": "tmdb",
+        "title": "今夜喜友秀",
+        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.6244,
+        "releaseDate": "2026-02-20",
+        "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
       }
     ],
     "优酷": [
@@ -899,20 +899,6 @@
         "genreTitle": "脱口秀"
       },
       {
-        "id": 282800,
-        "type": "tmdb",
-        "title": "中国武术王中王",
-        "description": "《中国武术王中王》‌是一档由中国国家体育总局武术运动管理中心、中国武术协会联合天之翼（浙江自贸区）文化传媒有限公司、江阴新桥飞马文化发展有限公司出品的综艺节目，该节目于2024年12月29日在优酷平台播出‌。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.096,
-        "releaseDate": "2024-12-29",
-        "posterPath": "/9mG9EGYYwvAm5mRw4J7ujOBx7WB.jpg",
-        "backdropPath": "/gytT6LFCjZBO9IIlQxsQxisNKYa.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 306845,
         "type": "tmdb",
         "title": "笑有新生",
@@ -923,6 +909,20 @@
         "releaseDate": "2025-12-06",
         "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
         "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 282800,
+        "type": "tmdb",
+        "title": "中国武术王中王",
+        "description": "《中国武术王中王》‌是一档由中国国家体育总局武术运动管理中心、中国武术协会联合天之翼（浙江自贸区）文化传媒有限公司、江阴新桥飞马文化发展有限公司出品的综艺节目，该节目于2024年12月29日在优酷平台播出‌。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.096,
+        "releaseDate": "2024-12-29",
+        "posterPath": "/9mG9EGYYwvAm5mRw4J7ujOBx7WB.jpg",
+        "backdropPath": "/gytT6LFCjZBO9IIlQxsQxisNKYa.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -955,18 +955,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 88580,
+        "id": 95903,
         "type": "tmdb",
-        "title": "王牌对王牌",
-        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
-        "rating": 6.5,
-        "voteCount": 4,
-        "popularity": 19.0709,
-        "releaseDate": "2016-01-29",
-        "posterPath": "/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
-        "backdropPath": "/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
+        "title": "圆桌派",
+        "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
+        "rating": 9,
+        "voteCount": 9,
+        "popularity": 9.2736,
+        "releaseDate": "2016-10-28",
+        "posterPath": "/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
+        "backdropPath": "/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "脱口秀,真人秀"
       }
     ],
     "爱奇艺": [
@@ -977,7 +977,7 @@
         "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
         "rating": 8,
         "voteCount": 2,
-        "popularity": 8.2024,
+        "popularity": 8.3804,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
@@ -991,7 +991,7 @@
         "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.7625,
+        "popularity": 0.6244,
         "releaseDate": "2026-02-20",
         "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
         "backdropPath": null,
@@ -1047,7 +1047,7 @@
         "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 2.342,
+        "popularity": 2.2098,
         "releaseDate": "2023-10-26",
         "posterPath": "/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
         "backdropPath": "/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
@@ -1069,30 +1069,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 258532,
+        "id": 306845,
         "type": "tmdb",
-        "title": "开播吧！短剧季",
-        "description": "《开播吧！短剧季》为国内首档“微短剧+综艺”创新真人秀。本季结合微短剧的生态特色，集结《杜拉拉升职记》《聊斋》《离婚律师》《终极一班》《重返 18 岁之我是宁静》《包拯与公孙策》六大经典爆款知名剧目 IP，首度开启“综艺+短剧”的全新形式。总监制宁静、监制张萌、监制苏可强势加盟，20 余位演员共同加入六大短剧 IP 孵化的激烈角逐之中，实现短剧全新选角、知名 IP 短剧孵化、综艺与短剧同步播出的首创模式，并打造以经典剧目 IP 为基础的品质化短剧上线播出。",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.1427,
-        "releaseDate": "2024-10-13",
-        "posterPath": "/mE4NeJcNCLmkUyRMHyJ7De6hOUQ.jpg",
-        "backdropPath": "/5DA4UAGN2Bb847tSoN9dfpECEP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 300268,
-        "type": "tmdb",
-        "title": "中国唱将",
-        "description": "《中国唱将》以“国家级音乐人才集训营”为核心概念，集结各大国家院团、艺术院校的顶级歌唱家、音乐制作人、学术导师、行业专家等，以“国家级”师资力量全力托举、锻造新声，构建从专业遴选、进阶集训、观众点评到最终登上国家舞台的权威生态闭环。经过专业架构的“多维评价”体系，最终遴选出的优秀选手将组成“中国唱将团”，输送至总台文艺各大晚会和各大院团的重要创作，让新一代唱将屹立到国家舞台之上，擎文艺旗帜，引时代新风。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.696,
-        "releaseDate": "2025-10-24",
-        "posterPath": "/jULGpvUMmf6x7uluNQjNQwYIM8b.jpg",
-        "backdropPath": "/wy09JpYFRNwz1C6IuoqcuX9o6xn.jpg",
+        "popularity": 1.2523,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1119,7 +1105,7 @@
         "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3005,
+        "popularity": 2.1418,
         "releaseDate": "2025-12-25",
         "posterPath": "/uHozET4VnjItqP69W688sf0Nafv.jpg",
         "backdropPath": "/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
@@ -1141,6 +1127,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.5781,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 231620,
         "type": "tmdb",
         "title": "现在就出发",
@@ -1153,20 +1153,6 @@
         "backdropPath": "/8pEgqjBoeUKPQXubiwn0uxiFp8N.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
-      },
-      {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.0973,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       },
       {
         "id": 306210,
@@ -1197,20 +1183,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 257161,
-        "type": "tmdb",
-        "title": "喜人奇妙夜",
-        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
-        "rating": 5.5,
-        "voteCount": 6,
-        "popularity": 29.4395,
-        "releaseDate": "2024-06-28",
-        "posterPath": "/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
-        "backdropPath": "/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
-      },
-      {
         "id": 108433,
         "type": "tmdb",
         "title": "十三邀",
@@ -1223,6 +1195,20 @@
         "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀,真人秀"
+      },
+      {
+        "id": 257161,
+        "type": "tmdb",
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "rating": 5.5,
+        "voteCount": 6,
+        "popularity": 29.4395,
+        "releaseDate": "2024-06-28",
+        "posterPath": "/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 306845,
@@ -1261,7 +1247,7 @@
         "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
         "rating": 7.333,
         "voteCount": 3,
-        "popularity": 27.6267,
+        "popularity": 28.0691,
         "releaseDate": "2019-11-03",
         "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
         "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
@@ -1297,16 +1283,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 197150,
+        "id": 306823,
         "type": "tmdb",
-        "title": "欢迎来到蘑菇屋",
-        "description": "《欢迎来到蘑菇屋》发起共享蘑菇屋的概念，开放《向往的生活》第五季桃花源蘑菇屋，邀请憧憬田园生活的客人来这里自行居住，留下各自不同的“向往生活”。",
-        "rating": 9,
-        "voteCount": 3,
-        "popularity": 1.2636,
-        "releaseDate": "2022-04-08",
-        "posterPath": "/3S420YjbX2mqFMZ603s0jUI842W.jpg",
-        "backdropPath": "/aIq6S8XP786fJfcImzkpYZu0wYt.jpg",
+        "title": "在恋爱开始之前",
+        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4738,
+        "releaseDate": "2025-11-25",
+        "posterPath": "/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
+        "backdropPath": "/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
