@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T20:34:19.810+08:00",
+  "last_updated": "2026-03-06T03:05:51.517+08:00",
   "tv": {
     "全网": [
       {
@@ -471,20 +471,6 @@
         "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.818,
-        "voteCount": 11,
-        "popularity": 9.6495,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278882,
         "type": "tmdb",
         "title": "年少有为",
@@ -497,6 +483,20 @@
         "backdropPath": "/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情,科幻奇幻"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.818,
+        "voteCount": 11,
+        "popularity": 9.6495,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 259554,
@@ -655,20 +655,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 302577,
-        "type": "tmdb",
-        "title": "猎豹",
-        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.6263,
-        "releaseDate": "2025-10-14",
-        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
-        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 252414,
         "type": "tmdb",
         "title": "水龙吟",
@@ -681,6 +667,20 @@
         "backdropPath": "/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,科幻奇幻"
+      },
+      {
+        "id": 302577,
+        "type": "tmdb",
+        "title": "猎豹",
+        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.6263,
+        "releaseDate": "2025-10-14",
+        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
+        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 245194,
@@ -715,20 +715,6 @@
   "show": {
     "全网": [
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.724,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 285011,
         "type": "tmdb",
         "title": "开始捉迷藏",
@@ -739,6 +725,20 @@
         "releaseDate": "2025-02-20",
         "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
         "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.724,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -871,20 +871,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 306845,
-        "type": "tmdb",
-        "title": "笑有新生",
-        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.8024,
-        "releaseDate": "2025-12-06",
-        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
-        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 236473,
         "type": "tmdb",
         "title": "第一人称复数",
@@ -897,6 +883,20 @@
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
+      },
+      {
+        "id": 306845,
+        "type": "tmdb",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.8024,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 302997,
@@ -923,20 +923,6 @@
         "releaseDate": "2025-10-03",
         "posterPath": "/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
         "backdropPath": "/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 88580,
-        "type": "tmdb",
-        "title": "王牌对王牌",
-        "description": "《王牌对王牌》是浙江卫视推出的大型原创室内竞技真人秀节目，由浙江卫视节目中心制作。节目每期围绕一个主题，邀请两支王牌团队，由两队固定队长各带领多名热门IP嘉宾进行PK对战，通过才艺比拼、游戏竞技，决出王牌中的王牌。",
-        "rating": 6.5,
-        "voteCount": 4,
-        "popularity": 16.8476,
-        "releaseDate": "2016-01-29",
-        "posterPath": "/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
-        "backdropPath": "/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1057,20 +1043,6 @@
     ],
     "腾讯视频": [
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.724,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 285011,
         "type": "tmdb",
         "title": "开始捉迷藏",
@@ -1081,6 +1053,20 @@
         "releaseDate": "2025-02-20",
         "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
         "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.724,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1213,6 +1199,20 @@
         "genreTitle": ""
       },
       {
+        "id": 114473,
+        "type": "tmdb",
+        "title": "名侦探学院",
+        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
+        "rating": 7.333,
+        "voteCount": 3,
+        "popularity": 23.2286,
+        "releaseDate": "2019-11-03",
+        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
+        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,悬疑"
+      },
+      {
         "id": 308650,
         "type": "tmdb",
         "title": "中国新声代",
@@ -1241,30 +1241,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 114473,
+        "id": 197150,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "rating": 7.333,
+        "title": "欢迎来到蘑菇屋",
+        "description": "《欢迎来到蘑菇屋》发起共享蘑菇屋的概念，开放《向往的生活》第五季桃花源蘑菇屋，邀请憧憬田园生活的客人来这里自行居住，留下各自不同的“向往生活”。",
+        "rating": 9,
         "voteCount": 3,
-        "popularity": 23.2286,
-        "releaseDate": "2019-11-03",
-        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,悬疑"
-      },
-      {
-        "id": 130099,
-        "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "rating": 8.1,
-        "voteCount": 8,
-        "popularity": 7.1445,
-        "releaseDate": "2021-07-28",
-        "posterPath": "/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "popularity": 1.3627,
+        "releaseDate": "2022-04-08",
+        "posterPath": "/3S420YjbX2mqFMZ603s0jUI842W.jpg",
+        "backdropPath": "/aIq6S8XP786fJfcImzkpYZu0wYt.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
