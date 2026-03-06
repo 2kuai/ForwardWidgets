@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-03-06T20:29:31.740+08:00",
+  "last_updated": "2026-03-07T02:29:19.318+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 9.5763,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 287760,
         "type": "tmdb",
@@ -13,20 +27,6 @@
         "releaseDate": "2026-02-21",
         "posterPath": "/oeKrr631Dvn582LoTTnvRWm3AlY.jpg",
         "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "武安侯谢征，从小父母双亡，寄养在把持朝政的舅舅身边长大，心狠手辣，战功赫赫弱冠封侯，因发现父母死因有问题而被奸人所害，被屠户女樊长玉所救，假成亲帮她守护房子，教她读书写字为人处事，两人一起击退反贼，揭开十五年前锦州之战的真相，高傲自负的小侯爷最终成长为一代摄政王，屠户女也成为了女将军，二人终成眷属。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 9.5763,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -290,7 +290,7 @@
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
-        "description": "武安侯谢征，从小父母双亡，寄养在把持朝政的舅舅身边长大，心狠手辣，战功赫赫弱冠封侯，因发现父母死因有问题而被奸人所害，被屠户女樊长玉所救，假成亲帮她守护房子，教她读书写字为人处事，两人一起击退反贼，揭开十五年前锦州之战的真相，高傲自负的小侯爷最终成长为一代摄政王，屠户女也成为了女将军，二人终成眷属。",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
         "rating": 0,
         "voteCount": 0,
         "popularity": 9.5763,
@@ -429,6 +429,20 @@
     ],
     "腾讯视频": [
       {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 9.5763,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 287760,
         "type": "tmdb",
         "title": "纯真年代的爱情",
@@ -439,20 +453,6 @@
         "releaseDate": "2026-02-21",
         "posterPath": "/oeKrr631Dvn582LoTTnvRWm3AlY.jpg",
         "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "武安侯谢征，从小父母双亡，寄养在把持朝政的舅舅身边长大，心狠手辣，战功赫赫弱冠封侯，因发现父母死因有问题而被奸人所害，被屠户女樊长玉所救，假成亲帮她守护房子，教她读书写字为人处事，两人一起击退反贼，揭开十五年前锦州之战的真相，高傲自负的小侯爷最终成长为一代摄政王，屠户女也成为了女将军，二人终成眷属。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 9.5763,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 274760,
-        "type": "tmdb",
-        "title": "时差一万公里",
-        "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 1.8894,
-        "releaseDate": "2025-12-01",
-        "posterPath": "/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
-        "backdropPath": "/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 283950,
         "type": "tmdb",
         "title": "女神蒙上眼",
@@ -625,6 +611,20 @@
         "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 274760,
+        "type": "tmdb",
+        "title": "时差一万公里",
+        "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 1.8894,
+        "releaseDate": "2025-12-01",
+        "posterPath": "/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
+        "backdropPath": "/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 297642,
@@ -655,20 +655,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 302577,
-        "type": "tmdb",
-        "title": "猎豹",
-        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.0868,
-        "releaseDate": "2025-10-14",
-        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
-        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 252414,
         "type": "tmdb",
         "title": "水龙吟",
@@ -681,6 +667,20 @@
         "backdropPath": "/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,科幻奇幻"
+      },
+      {
+        "id": 302577,
+        "type": "tmdb",
+        "title": "猎豹",
+        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.0868,
+        "releaseDate": "2025-10-14",
+        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
+        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 245194,
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 285011,
-        "type": "tmdb",
-        "title": "开始捉迷藏",
-        "description": "创新童年游戏，寻找童年印记。玩家在场景里展开捉迷藏游戏，通过各种或有趣或惊艳的躲藏方式，将自己躲在规定区域内，等待猎人的搜寻。每一集有不同的玩家和不同的场景，准备和猎人展开胜负比拼。在捉迷藏游戏的过程中，大家展现机智的头脑、天马行空的想象力、惊人的创造力，还有慢慢凝结的团魂，让观众在观看过程中体会到独属于捉迷藏的游戏魅力与紧张刺激。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5425,
-        "releaseDate": "2025-02-20",
-        "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
-        "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 312066,
         "type": "tmdb",
         "title": "主咖和Ta的朋友们",
@@ -783,6 +769,20 @@
         "backdropPath": "/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
+      },
+      {
+        "id": 285011,
+        "type": "tmdb",
+        "title": "开始捉迷藏",
+        "description": "创新童年游戏，寻找童年印记。玩家在场景里展开捉迷藏游戏，通过各种或有趣或惊艳的躲藏方式，将自己躲在规定区域内，等待猎人的搜寻。每一集有不同的玩家和不同的场景，准备和猎人展开胜负比拼。在捉迷藏游戏的过程中，大家展现机智的头脑、天马行空的想象力、惊人的创造力，还有慢慢凝结的团魂，让观众在观看过程中体会到独属于捉迷藏的游戏魅力与紧张刺激。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5425,
+        "releaseDate": "2025-02-20",
+        "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
+        "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 231620,
@@ -843,6 +843,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 155660,
+        "type": "tmdb",
+        "title": "最强大脑",
+        "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 7.5729,
+        "releaseDate": "2014-01-03",
+        "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
+        "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 306210,
         "type": "tmdb",
         "title": "奔跑吧·天路篇",
@@ -857,16 +871,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 155660,
+        "id": 306845,
         "type": "tmdb",
-        "title": "最强大脑",
-        "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 7.5729,
-        "releaseDate": "2014-01-03",
-        "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
-        "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.6304,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -883,20 +897,6 @@
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
-      },
-      {
-        "id": 306845,
-        "type": "tmdb",
-        "title": "笑有新生",
-        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.6304,
-        "releaseDate": "2025-12-06",
-        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
-        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       },
       {
         "id": 302997,
@@ -971,20 +971,6 @@
         "genreTitle": "脱口秀,真人秀"
       },
       {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 0.9521,
-        "releaseDate": "2025-11-22",
-        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -999,16 +985,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 238136,
+        "id": 306210,
         "type": "tmdb",
-        "title": "你好，种地少年",
-        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
-        "rating": 9,
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "rating": 8,
         "voteCount": 1,
-        "popularity": 1.3295,
-        "releaseDate": "2023-10-26",
-        "posterPath": "/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
-        "backdropPath": "/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
+        "popularity": 0.9521,
+        "releaseDate": "2025-11-22",
+        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1023,6 +1009,20 @@
         "releaseDate": "2025-12-17",
         "posterPath": "/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
         "backdropPath": "/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 238136,
+        "type": "tmdb",
+        "title": "你好，种地少年",
+        "description": "种地团继《种地吧》之后首次合体，兄弟十人将前往各自的家乡进行一次自驾游学之旅。出游之时，恰逢秋收时节，他们将一路游一路学,一路劳作，一路收获，在旅途中结识新农人、体验新生活、感受新乡村，以十个勤天的视角全面认识中国农业的现状。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 1.3295,
+        "releaseDate": "2023-10-26",
+        "posterPath": "/aUDt7i3hwipRBl29Sb0qc1Ihvw2.jpg",
+        "backdropPath": "/qwoH4WjAC79monjjMgjFNZ39Rod.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1071,20 +1071,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 285011,
-        "type": "tmdb",
-        "title": "开始捉迷藏",
-        "description": "创新童年游戏，寻找童年印记。玩家在场景里展开捉迷藏游戏，通过各种或有趣或惊艳的躲藏方式，将自己躲在规定区域内，等待猎人的搜寻。每一集有不同的玩家和不同的场景，准备和猎人展开胜负比拼。在捉迷藏游戏的过程中，大家展现机智的头脑、天马行空的想象力、惊人的创造力，还有慢慢凝结的团魂，让观众在观看过程中体会到独属于捉迷藏的游戏魅力与紧张刺激。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5425,
-        "releaseDate": "2025-02-20",
-        "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
-        "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 312066,
         "type": "tmdb",
         "title": "主咖和Ta的朋友们",
@@ -1097,6 +1083,20 @@
         "backdropPath": "/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
+      },
+      {
+        "id": 285011,
+        "type": "tmdb",
+        "title": "开始捉迷藏",
+        "description": "创新童年游戏，寻找童年印记。玩家在场景里展开捉迷藏游戏，通过各种或有趣或惊艳的躲藏方式，将自己躲在规定区域内，等待猎人的搜寻。每一集有不同的玩家和不同的场景，准备和猎人展开胜负比拼。在捉迷藏游戏的过程中，大家展现机智的头脑、天马行空的想象力、惊人的创造力，还有慢慢凝结的团魂，让观众在观看过程中体会到独属于捉迷藏的游戏魅力与紧张刺激。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5425,
+        "releaseDate": "2025-02-20",
+        "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
+        "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 231620,
@@ -1127,20 +1127,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 0.9521,
-        "releaseDate": "2025-11-22",
-        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -1155,18 +1141,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 108433,
+        "id": 306210,
         "type": "tmdb",
-        "title": "十三邀",
-        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
-        "rating": 8.8,
-        "voteCount": 4,
-        "popularity": 5.1337,
-        "releaseDate": "2016-05-17",
-        "posterPath": "/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
-        "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 0.9521,
+        "releaseDate": "2025-11-22",
+        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
+        "genreTitle": "真人秀"
       },
       {
         "id": 257161,
@@ -1181,6 +1167,20 @@
         "backdropPath": "/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 108433,
+        "type": "tmdb",
+        "title": "十三邀",
+        "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
+        "rating": 8.8,
+        "voteCount": 4,
+        "popularity": 5.1337,
+        "releaseDate": "2016-05-17",
+        "posterPath": "/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
+        "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
       },
       {
         "id": 306845,
@@ -1199,20 +1199,6 @@
     ],
     "芒果TV": [
       {
-        "id": 315597,
-        "type": "tmdb",
-        "title": "我家那小子2026",
-        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0685,
-        "releaseDate": "2026-02-22",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 308650,
         "type": "tmdb",
         "title": "中国新声代",
@@ -1227,18 +1213,18 @@
         "genreTitle": ""
       },
       {
-        "id": 278513,
+        "id": 315597,
         "type": "tmdb",
-        "title": "我在中国当农人",
-        "description": "《我在中国当农人》是一档国际“新农人”创业真人秀节目，旨在从世界青年的角度探索中国乡村创业新模式、促进中外文化交流。6个不同国家、不同职业和身份的友人组成了一支充满创意与激情的“跨国新农人创业团”，在中国常德桃花源这片充满诗意的土地上，以世界的眼光深度体验中国乡村生活，以“新农人”的身份开创乡村创业模式。",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.0534,
-        "releaseDate": "2024-11-25",
-        "posterPath": "/7y9B37zqnTY4XSPY4qMnp8uRwJV.jpg",
-        "backdropPath": "/aPUiEgfN1gAqyuvB0ISmxYQHTyJ.jpg",
+        "popularity": 0.0685,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": ""
       },
       {
         "id": 114473,
@@ -1255,16 +1241,30 @@
         "genreTitle": "真人秀,悬疑"
       },
       {
-        "id": 130099,
+        "id": 278513,
         "type": "tmdb",
-        "title": "再见爱人",
-        "description": "本节目是由芒果TV打造的婚姻纪实观察真人秀。三对面临感情危机的夫妻，乘坐两辆房车，开启一段为期18天的旅行。处在不同的情感阶段中的他们，他们怀着或抱怨、或委屈或遗憾的心情出发，又能否在旅行中寻找到属于自己的答案？这一次，面临感情危机的夫妻愿意为爱再尝试一回，在这个快节奏的时代让情感慢下来。节目将通过真人秀和观察室的结合，用纪实性的方式讲述他们的婚姻故事，通过专家和观察嘉宾的温情观察和理性分析，让观众真正感受到婚姻的责任与意义，了解到提升婚姻质量和幸福感的方法论。",
-        "rating": 8.1,
-        "voteCount": 8,
-        "popularity": 5.8865,
-        "releaseDate": "2021-07-28",
-        "posterPath": "/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
-        "backdropPath": "/mneFQvpqPWnkOaNrXDlJ1OeX21B.jpg",
+        "title": "我在中国当农人",
+        "description": "《我在中国当农人》是一档国际“新农人”创业真人秀节目，旨在从世界青年的角度探索中国乡村创业新模式、促进中外文化交流。6个不同国家、不同职业和身份的友人组成了一支充满创意与激情的“跨国新农人创业团”，在中国常德桃花源这片充满诗意的土地上，以世界的眼光深度体验中国乡村生活，以“新农人”的身份开创乡村创业模式。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0534,
+        "releaseDate": "2024-11-25",
+        "posterPath": "/7y9B37zqnTY4XSPY4qMnp8uRwJV.jpg",
+        "backdropPath": "/aPUiEgfN1gAqyuvB0ISmxYQHTyJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 197150,
+        "type": "tmdb",
+        "title": "欢迎来到蘑菇屋",
+        "description": "《欢迎来到蘑菇屋》发起共享蘑菇屋的概念，开放《向往的生活》第五季桃花源蘑菇屋，邀请憧憬田园生活的客人来这里自行居住，留下各自不同的“向往生活”。",
+        "rating": 9,
+        "voteCount": 3,
+        "popularity": 2.7749,
+        "releaseDate": "2022-04-08",
+        "posterPath": "/3S420YjbX2mqFMZ603s0jUI842W.jpg",
+        "backdropPath": "/aIq6S8XP786fJfcImzkpYZu0wYt.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
