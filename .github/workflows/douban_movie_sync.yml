@@ -2,7 +2,7 @@ name: Douban Movie Sync
 
 on:
   schedule:
-    - cron: '0 18 * * *' # 每天凌晨 2 点
+    - cron: '0 18 * * *' # 每天北京时间凌晨 2 点运行
   workflow_dispatch:
 
 permissions:
@@ -11,22 +11,38 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai # 统一时区，方便日志对齐
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      DOUBAN_API_KEY: ${{ secrets.DOUBAN_API_KEY }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+    
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: npm install axios
+          node-version: '20'
+
+      # 使用 --no-package-lock --no-save 避免产生临时文件
+      - name: Install dependencies
+        run: npm install axios --no-package-lock --no-save
+
+      - name: Create data directory
+        run: mkdir -p data
+
       - name: Run Sync
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          DOUBAN_API_KEY: ${{ secrets.DOUBAN_API_KEY }}
         run: node scripts/douban_movie.js
+
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # 确保添加 data 目录下的新文件
+          
+          # 仅添加数据文件，避免添加 node_modules
           git add data/douban_movie_data.json
-          git commit -m "chore: 自动更新豆瓣片单数据" || exit 0
-          git push
+          
+          # 模仿猫眼脚本的健壮性写法：检查是否有变动，无变动不提交
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 自动更新豆瓣片单数据 [skip ci]" && git push)
