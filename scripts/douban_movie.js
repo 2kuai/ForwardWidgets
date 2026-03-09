@@ -65,31 +65,50 @@ async function getAccurateTmdbData(doubanItem) {
 async function fetchAndSync(endpoint) {
     const movies = [];
     try {
-        const init = await axios.get(`${BASE_URL}/${endpoint}`, {
-            params: { apikey: DOUBAN_API_KEY, start: 0, count: 20 },
-            headers: { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU OS 17_0 like Mac OS X)' }
+        // 1. 定义公共配置：apikey 放在请求体
+        const requestBody = { apikey: DOUBAN_API_KEY };
+        const commonHeaders = { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU OS 17_0 like Mac OS X)' };
+
+        // 2. 获取总数 (start=0, count=20 作为 URL 参数)
+        const init = await axios.post(`${BASE_URL}/${endpoint}`, requestBody, {
+            params: { start: 0, count: 20 },
+            headers: commonHeaders
         });
 
         const total = init.data.total;
-        console.log(`同步 [${endpoint}]，总数: ${total}`);
+        console.log(`[${endpoint}] 同步开始，总数: ${total}`);
 
+        // 3. 循环分页
         for (let start = 0; start < total; start += 20) {
-            const res = await axios.get(`${BASE_URL}/${endpoint}`, {
-                params: { apikey: DOUBAN_API_KEY, start, count: 20 },
-                headers: { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU OS 17_0 like Mac OS X)' }
+            console.log(`正在同步第 ${start + 1} - ${Math.min(start + 20, total)} 条数据...`);
+
+            const res = await axios.post(`${BASE_URL}/${endpoint}`, requestBody, {
+                params: { 
+                    start: start, // 分页参数在 URL 
+                    count: 20 
+                },
+                headers: commonHeaders
             });
 
-            for (const item of res.data.subjects) {
-                const data = await getAccurateTmdbData(item);
-                if (data) movies.push(data);
+            const subjects = res.data.subjects || [];
+
+            for (const item of subjects) {
+                try {
+                    const data = await getAccurateTmdbData(item);
+                    if (data) movies.push(data);
+                } catch (tmdbErr) {
+                    console.error(`TMDB 匹配跳过 [${item.title}]:`, tmdbErr.message);
+                }
+                // 延迟 250ms 避免请求过快
                 await new Promise(r => setTimeout(r, 250));
             }
         }
     } catch (e) {
-        console.error(`${endpoint} 失败:`, e.message);
+        console.error(`${endpoint} 流程异常:`, e.message);
     }
     return movies;
 }
+
 
 async function main() {
     const finalResult = {
