@@ -19,10 +19,13 @@ async function getAccurateTmdbData(doubanItem) {
         
         const searchRes = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
             params: {
-                api_key: TMDB_API_KEY,
                 query: doubanItem.original_title || doubanItem.title,
                 language: 'zh-CN',
                 primary_release_year: doubanItem.year
+            },
+            headers: {
+                'Authorization': `Bearer ${TMDB_API_KEY}`,
+                'accept': 'application/json'
             }
         });
 
@@ -30,7 +33,14 @@ async function getAccurateTmdbData(doubanItem) {
         if (!bestMatch) {
             console.log(`    [TMDB] 初次匹配失败，尝试回退搜索...`);
             const fallback = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
-                params: { api_key: TMDB_API_KEY, query: doubanItem.title, language: 'zh-CN' }
+                params: {
+                    query: doubanItem.title,
+                    language: 'zh-CN'
+                },
+                headers: {
+                    'Authorization': `Bearer ${TMDB_API_KEY}`,
+                    'accept': 'application/json'
+                }
             });
             bestMatch = fallback.data.results[0];
         }
