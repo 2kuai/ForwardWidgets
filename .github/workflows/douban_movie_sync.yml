@@ -1,0 +1,32 @@
+name: Douban Movie Sync
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 每天凌晨 2 点
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm install axios
+      - name: Run Sync
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          DOUBAN_API_KEY: ${{ secrets.DOUBAN_API_KEY }}
+        run: node Douban_movie.js
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # 确保添加 data 目录下的新文件
+          git add data/douban_movie_data.json
+          git commit -m "chore: 自动更新豆瓣片单数据" || exit 0
+          git push
