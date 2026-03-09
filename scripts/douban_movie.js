@@ -6,7 +6,6 @@ const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const DOUBAN_API_KEY = process.env.DOUBAN_API_KEY;
 const BASE_URL = "https://api.douban.com/v2/movie";
 
-// 确保目录存在
 const dir = './data';
 if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
@@ -14,58 +13,35 @@ if (!fs.existsSync(dir)) {
 
 const FILE_PATH = path.join(dir, 'douban_movie_data.json');
 
-/**
- * 封装带详细日志的请求
- */
-async function safeGet(url, config, label) {
-    try {
-        const response = await axios.get(url, config);
-        return response;
-    } catch (err) {
-        const status = err.response ? err.response.status : '网络错误';
-        const detail = err.response ? JSON.stringify(err.response.data) : err.message;
-        console.error(`  [${label}] 失败 | 状态码: ${status} | 原因: ${detail}`);
-        return null;
-    }
-}
-
 async function getAccurateTmdbData(doubanItem) {
-    if (!TMDB_API_KEY) {
-        console.warn('  [TMDB] 跳过: 未设置 TMDB_API_KEY');
-        return null;
-    }
+    try {
+        console.log(`    [TMDB] 尝试匹配: ${doubanItem.title} (${doubanItem.year})`);
+        
+        const searchRes = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
+            params: {
+                api_key: TMDB_API_KEY,
+                query: doubanItem.original_title || doubanItem.title,
+                language: 'zh-CN',
+                primary_release_year: doubanItem.year
+            }
+        });
 
-    const title = doubanItem.original_title || doubanItem.title;
-    const year = doubanItem.year;
-
-    // 搜索：原名 + 年份
-    const searchRes = await safeGet(`https://api.themoviedb.org/3/search/movie`, {
-        params: {
-            api_key: TMDB_API_KEY,
-            query: title,
-            language: 'zh-CN',
-            primary_release_year: year
+        let bestMatch = searchRes.data.results[0];
+        if (!bestMatch) {
+            console.log(`    [TMDB] 初次匹配失败，尝试回退搜索...`);
+            const fallback = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
+                params: { api_key: TMDB_API_KEY, query: doubanItem.title, language: 'zh-CN' }
+            });
+            bestMatch = fallback.data.results[0];
         }
-    }, `TMDB 搜索: ${title}`);
 
-    let bestMatch = searchRes?.data?.results?.[0];
-
-    if (!bestMatch) {
-        // 回退搜索：仅标题
-        const fallback = await safeGet(`https://api.themoviedb.org/3/search/movie`, {
-            params: { api_key: TMDB_API_KEY, query: doubanItem.title, language: 'zh-CN' }
-        }, `TMDB 回退搜索: ${doubanItem.title}`);
-        bestMatch = fallback?.data?.results?.[0];
-    }
-
-    if (bestMatch) {
-        const detailRes = await safeGet(`https://api.themoviedb.org/3/movie/${bestMatch.id}`, {
-            params: { api_key: TMDB_API_KEY, language: 'zh-CN' }
-        }, `TMDB 详情: ${bestMatch.id}`);
-
-        if (detailRes) {
+        if (bestMatch) {
+            const detailRes = await axios.get(`https://api.themoviedb.org/3/movie/${bestMatch.id}`, {
+                params: { api_key: TMDB_API_KEY, language: 'zh-CN' }
+            });
             const d = detailRes.data;
-            console.log(`    ✅ 匹配成功: ${d.title} (TMDB ID: ${d.id})`);
+            console.log(`    ✅ [TMDB] 匹配成功: ${d.title}`);
+
             return {
                 id: d.id,
                 type: "tmdb",
@@ -75,90 +51,101 @@ async function getAccurateTmdbData(doubanItem) {
                 voteCount: d.vote_count || 0,
                 popularity: d.popularity || 0,
                 releaseDate: d.release_date || doubanItem.year,
-                posterPath: d.poster_path ? d.poster_path : doubanItem.images?.large,
+                posterPath: d.poster_path ? d.poster_path : doubanItem.images.large,
                 backdropPath: d.backdrop_path ? d.backdrop_path : "",
                 mediaType: "movie",
-                genreTitle: d.genres?.length > 0 ? d.genres.map(g => g.name).join(',') : doubanItem.genres.join(',')
+                genreTitle: d.genres.length > 0 ? d.genres.map(g => g.name).join(',') : doubanItem.genres.join(',')
             };
         }
+        console.warn(`    ❌ [TMDB] 未找到对应条目`);
+        return null;
+    } catch (err) {
+        console.error(`    ⚠️ [TMDB] 异常: ${err.message}`);
+        return null;
     }
-    console.warn(`    ❌ 未找到匹配: ${title}`);
-    return null;
 }
 
 async function fetchAndSync(endpoint) {
     const movies = [];
+    const requestBody = { apikey: DOUBAN_API_KEY };
     const commonHeaders = { 'User-Agent': 'Mozilla/5.0 (iPhone; CPU OS 17_0 like Mac OS X)' };
 
-    console.log(`\n>>> 开始同步 [${endpoint}]...`);
+    console.log(`\n========================================`);
+    console.log(`🚀 开始同步分类: ${endpoint}`);
+    console.log(`========================================`);
 
     try {
-        // 1. 获取总数 (修正为 GET 请求并尝试将 apikey 放入 params)
-        const init = await axios.get(`${BASE_URL}/${endpoint}`, {
-            params: { apikey: DOUBAN_API_KEY, start: 0, count: 1 },
+        console.log(`[豆瓣] 发送初始化 POST 请求以获取总量...`);
+        const init = await axios.post(`${BASE_URL}/${endpoint}`, requestBody, {
+            params: { start: 0, count: 20 },
             headers: commonHeaders
         });
 
-        const total = init.data.total || 0;
-        console.log(`[${endpoint}] 发现数据总量: ${total}`);
+        const total = init.data.total;
+        console.log(`[豆瓣] 响应成功！该分类总数: ${total}`);
 
-        if (total === 0) {
-            console.warn(`[${endpoint}] 警告: 接口返回总量为 0，请检查 API Key 是否有效。`);
+        if (!total || total === 0) {
+            console.warn(`[豆瓣] 警告: total 为 0 或 undefined。响应详情:`, JSON.stringify(init.data));
             return movies;
         }
 
-        // 2. 循环分页 (通常限制前 40 条避免封禁)
-        const limit = Math.min(total, 40); 
-        for (let start = 0; start < limit; start += 20) {
-            console.log(`\n--- 正在处理第 ${start + 1} - ${Math.min(start + 20, limit)} 条 ---`);
+        for (let start = 0; start < total; start += 20) {
+            const currentRange = `${start + 1} - ${Math.min(start + 20, total)}`;
+            console.log(`\n[分页] 正在拉取第 ${currentRange} 条数据...`);
 
-            const res = await axios.get(`${BASE_URL}/${endpoint}`, {
-                params: { 
-                    apikey: DOUBAN_API_KEY,
-                    start: start, 
-                    count: 20 
-                },
+            const res = await axios.post(`${BASE_URL}/${endpoint}`, requestBody, {
+                params: { start: start, count: 20 },
                 headers: commonHeaders
             });
 
             const subjects = res.data.subjects || [];
+            console.log(`[豆瓣] 成功获取 ${subjects.length} 个条目，准备对接 TMDB...`);
 
             for (const item of subjects) {
                 const data = await getAccurateTmdbData(item);
-                if (data) movies.push(data);
-                // 延迟 500ms，对 API 友好一点
-                await new Promise(r => setTimeout(r, 500));
+                if (data) {
+                    movies.push(data);
+                }
+                await new Promise(r => setTimeout(r, 300)); // 略微增加延迟确保稳定
             }
         }
     } catch (e) {
-        console.error(`\n[${endpoint}] 流程致命异常:`);
+        console.error(`\n❌ [${endpoint}] 流程中断:`);
         if (e.response) {
-            console.error(`  状态码: ${e.response.status}`);
-            console.error(`  响应体: ${JSON.stringify(e.response.data)}`);
+            console.error(`   HTTP状态码: ${e.response.status}`);
+            console.error(`   错误信息: ${JSON.stringify(e.response.data)}`);
         } else {
-            console.error(`  错误信息: ${e.message}`);
+            console.error(`   错误原因: ${e.message}`);
         }
     }
     return movies;
 }
 
 async function main() {
-    if (!DOUBAN_API_KEY) {
-        console.error("错误: 请先在环境变量中设置 DOUBAN_API_KEY");
-        return;
-    }
+    console.log(`开始执行同步任务... 检查配置中...`);
+    if (!DOUBAN_API_KEY) console.warn("提示: DOUBAN_API_KEY 未设置");
+    if (!TMDB_API_KEY) console.warn("提示: TMDB_API_KEY 未设置");
 
+    const startTime = Date.now();
+    
     const finalResult = {
-        updateTime: new Date().toISOString(),
         in_theaters: await fetchAndSync('in_theaters'),
         coming_soon: await fetchAndSync('coming_soon'),
         top250: await fetchAndSync('top250')
     };
 
+    const duration = ((Date.now() - startTime) / 1000).toFixed(2);
+
     fs.writeFileSync(FILE_PATH, JSON.stringify(finalResult, null, 2), 'utf-8');
-    console.log(`\n================================`);
-    console.log(`🎉 任务结束！保存路径: ${FILE_PATH}`);
-    console.log(`数据总计: 在映 ${finalResult.in_theaters.length} 条, 即将上映 ${finalResult.coming_soon.length} 条, Top250 ${finalResult.top250.length} 条`);
+    
+    console.log(`\n\n****************************************`);
+    console.log(`🏁 任务完成! 总耗时: ${duration}s`);
+    console.log(`📁 保存位置: ${FILE_PATH}`);
+    console.log(`📊 最终统计: 
+       - 正在热映: ${finalResult.in_theaters.length}
+       - 即将上映: ${finalResult.coming_soon.length}
+       - Top 250: ${finalResult.top250.length}`);
+    console.log(`****************************************`);
 }
 
 main();
