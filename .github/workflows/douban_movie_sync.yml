@@ -21,7 +21,7 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           DOUBAN_API_KEY: ${{ secrets.DOUBAN_API_KEY }}
-        run: node Douban_movie.js
+        run: node Script/douban_movie.js
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
