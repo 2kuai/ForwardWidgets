@@ -148,8 +148,12 @@ async function main() {
     
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
     console.log(`\n\n****************************************`);
-    console.log(`🏁 任务完成! 总耗时: ${duration}s`);
-    console.log(`📁 数据已保存至: ${FILE_PATH}`);
-    console.log(`📊 抓取统计:`);
+    console.log(`🏁 任务完成! 耗时: ${duration}s`);
+    console.log(`📊 统计结果 (已去重):`);
     console.log(`   - 正在热映: ${finalResult.in_theaters.length}`);
-    console.
+    console.log(`   - 即将上映: ${finalResult.coming_soon.length}`);
+    console.log(`   - Top 250: ${finalResult.top250.length}`);
+    console.log(`****************************************`);
+}
+
+main();
