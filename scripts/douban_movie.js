@@ -34,17 +34,20 @@ const log = {
 /**
  * 严格匹配 TMDB 数据
  * 逻辑：只返回 TMDB 存在的数据，TMDB 没封面时才用豆瓣封面兜底
- * 如果 TMDB 搜不到该片，直接返回 null
  */
 async function getStrictTMDBData(doubanItem) {
     const title = doubanItem.title;
     const originalTitle = doubanItem.original_title;
     const year = parseInt(doubanItem.year);
+    const searchQuery = originalTitle || title;
 
     try {
+        // 新增：打印当前检索进度
+        process.stdout.write(`   🔍 匹配中: <${title}> (${year})... `);
+
         const searchRes = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
             params: {
-                query: originalTitle || title,
+                query: searchQuery,
                 language: 'zh-CN',
                 primary_release_year: year
             },
@@ -53,11 +56,13 @@ async function getStrictTMDBData(doubanItem) {
         });
 
         const results = searchRes.data.results || [];
-        // 匹配逻辑：找标题一致的，或者取结果第一个
+        
+        // 保持原逻辑：只找标题严格一致的
         const match = results.find(m => (m.title == title || m.original_title == originalTitle)) || null;
 
-
         if (match) {
+            // 新增：匹配成功日志
+            console.log(`\x1b[32m[OK]\x1b[0m`); 
             return {
                 id: match.id,
                 type: "tmdb",
@@ -72,13 +77,19 @@ async function getStrictTMDBData(doubanItem) {
                 mediaType: "movie",
                 genreTitle: (match.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
             };
+        } else {
+            // 新增：匹配失败日志（告知是因为没搜到还是标题不符）
+            const reason = results.length === 0 ? "TMDB无结果" : `标题不匹配(候选${results.length}个)`;
+            console.log(`\x1b[33m[SKIP]\x1b[0m ${reason}`);
         }
     } catch (err) {
+        console.log(`\x1b[31m[ERR]\x1b[0m ${err.message}`);
         log.warn(`跳过匹配失败条目 [${title}]: ${err.message}`);
     }
 
-    return null; // 搜不到就彻底不要了
+    return null; // 保持原逻辑：搜不到或不匹配就彻底不要了
 }
+
 
 async function fetchAndSync(endpoint) {
     let allSubjects = [];
