@@ -19,7 +19,7 @@ const MOVIE_DELAY = 150;
 
 const dir = './data';
 if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-const FILE_PATH = path.join(dir, 'tmdb_clean_data.json');
+const FILE_PATH = path.join(dir, 'tmdb_only_data.json');
 
 const log = {
     info: (msg) => console.log(`\x1b[36m[INFO]\x1b[0m ${msg}`),
@@ -33,8 +33,8 @@ const log = {
 
 /**
  * 严格匹配 TMDB 数据
- * 逻辑：只保留 TMDB 存在的电影。
- * 路径：仅保留原始 Path（不含 https://...）
+ * 逻辑：只返回 TMDB 存在的数据，TMDB 没封面时才用豆瓣封面兜底
+ * 如果 TMDB 搜不到该片，直接返回 null
  */
 async function getStrictTMDBData(doubanItem) {
     const title = doubanItem.title;
@@ -53,43 +53,40 @@ async function getStrictTMDBData(doubanItem) {
         });
 
         const results = searchRes.data.results || [];
-        // 寻找匹配项
+        // 匹配逻辑：找标题一致的，或者取结果第一个
         const match = results.find(m => (m.title === title || m.original_title === originalTitle)) || (results.length > 0 ? results[0] : null);
 
-        // 如果 TMDB 没找到，或者 TMDB 连最基本的 poster_path 都没有，直接弃用该数据
-        if (match && match.poster_path) {
+        if (match) {
             return {
                 id: match.id,
-                db_id: doubanItem.id,
-                title: match.title || title,
+                title: match.title,
                 description: match.overview || "",
                 rating: match.vote_average,
                 voteCount: match.vote_count,
                 popularity: match.popularity,
                 releaseDate: match.release_date || doubanItem.year,
-                // 只保留原始路径，例如: "/or1hfS0u7l2ALpXbs76Zp7S09pU.jpg"
-                posterPath: match.poster_path, 
-                backdropPath: match.backdrop_path || "",
+                posterPath: match.poster_path ? match.poster_path : doubanItem.images.large,
+                backdropPath: match.backdrop_path ? match.backdrop_path : doubanItem.images.large,
                 mediaType: "movie",
                 genreTitle: (match.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
             };
         }
     } catch (err) {
-        // 忽略错误，返回 null 会在下一步被过滤
+        log.warn(`跳过匹配失败条目 [${title}]: ${err.message}`);
     }
 
-    return null; 
+    return null; // 搜不到就彻底不要了
 }
 
 async function fetchAndSync(endpoint) {
     let allSubjects = [];
     let start = 0;
 
-    log.step(`正在筛选分类: ${endpoint.toUpperCase()}`);
+    log.step(`同步分类: ${endpoint.toUpperCase()}`);
 
     while (true) {
         try {
-            process.stdout.write(`   同步豆瓣种子 [${start}]... \r`);
+            process.stdout.write(`   拉取豆瓣种子 [${start}]... \r`);
             const res = await axios.post(`${BASE_URL}/${endpoint}`, {
                 apikey: DOUBAN_API_KEY,
                 start: start,
@@ -107,12 +104,12 @@ async function fetchAndSync(endpoint) {
             start += MAX_COUNT;
             await new Promise(r => setTimeout(r, 600)); 
         } catch (err) {
-            log.error(`获取列表失败: ${err.message}`);
+            log.error(`豆瓣列表中断: ${err.message}`);
             break;
         }
     }
 
-    log.info(`种子获取完成，开始 TMDB 纯净度过滤...`);
+    log.info(`种子获取完成，正在过滤并转换 TMDB 数据...`);
     
     const results = [];
     for (let i = 0; i < allSubjects.length; i++) {
@@ -124,19 +121,19 @@ async function fetchAndSync(endpoint) {
         }
         
         const percent = (((i + 1) / allSubjects.length) * 100).toFixed(0);
-        process.stdout.write(`   进度: [${percent}%] 有效条目: ${results.length}\r`);
+        process.stdout.write(`   进度: [${percent}%] 成功入库: ${results.length}\r`);
         
         await new Promise(r => setTimeout(r, MOVIE_DELAY));
     }
     process.stdout.write('\n');
-    log.success(`${endpoint} 处理完毕，剔除了 ${allSubjects.length - results.length} 条不合格数据`);
+    log.success(`${endpoint} 处理完毕，过滤掉 ${allSubjects.length - results.length} 个无法匹配的项目`);
     
     return results;
 }
 
 async function main() {
     const startTime = Date.now();
-    log.info("🎬 启动 TMDB 纯净数据采集 (无前缀模式)...");
+    log.info("🎬 启动 TMDB 纯净数据采集 (丢弃无匹配项)...");
 
     try {
         const finalResult = {
@@ -149,15 +146,15 @@ async function main() {
         fs.writeFileSync(FILE_PATH, JSON.stringify(finalResult, null, 2), 'utf-8');
         
         const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-        log.step(`任务圆满成功!`);
+        log.step(`任务完成!`);
         console.log(`--------------------------------------`);
-        console.log(`📦 总有效数据: ${finalResult.now_playing.length + finalResult.coming_soon.length + finalResult.top250.length} 条`);
-        console.log(`📂 文件保存至: ${FILE_PATH}`);
-        console.log(`⏱️ 运行耗时: ${duration}s`);
+        console.log(`📊 有效数据总量: ${finalResult.now_playing.length + finalResult.coming_soon.length + finalResult.top250.length}`);
+        console.log(`📂 文件存放在: ${FILE_PATH}`);
+        console.log(`⏱️ 耗时: ${duration}s`);
         console.log(`--------------------------------------`);
 
     } catch (mainErr) {
-        log.error(`主程序故障: ${mainErr.stack}`);
+        log.error(`主流程崩溃: ${mainErr.stack}`);
     }
 }
 
