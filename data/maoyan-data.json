@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T14:39:15.857+08:00",
+  "last_updated": "2026-03-12T20:32:45.137+08:00",
   "tv": {
     "全网": [
       {
@@ -7,7 +7,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.083,
+        "rating": 7.1,
         "voteCount": 12,
         "popularity": 86.4296,
         "releaseDate": "2026-03-06",
@@ -115,20 +115,6 @@
         "genreTitle": "动画,喜剧"
       },
       {
-        "id": 281495,
-        "type": "tmdb",
-        "title": "除恶",
-        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
-        "rating": 8.5,
-        "voteCount": 3,
-        "popularity": 7.037,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
-        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -141,6 +127,20 @@
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281495,
+        "type": "tmdb",
+        "title": "除恶",
+        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
+        "rating": 8.5,
+        "voteCount": 3,
+        "popularity": 7.037,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
+        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       }
     ],
     "优酷": [
@@ -221,7 +221,7 @@
         "description": "文承年间，虎贲暗卫盘踞长安城多年，已根深蒂固。淮南县衙主簿胡濙收到帝王姬武阳秘密诏书，被急调入国都长安，铲除奸佞。虎贲将军言凤山不甘于大权旁落，集结虎贲暗卫的势力企图裂国而治、自立为王。他以长安城中的藏兵巷作为掩护，将暗卫分布其中，一直在寻找反击的时机。在姬武阳的帮助下，胡濙联合忠义将领顾玉、剑客叶峥、画师白莞、年轻文士谢子凌等人以智谋捣毁藏兵巷，摧毁言凤山妄图裂国的阴谋，还长安城风朗气清。",
         "rating": 7.771,
         "voteCount": 35,
-        "popularity": 8.2163,
+        "popularity": 8.9999,
         "releaseDate": "2025-12-12",
         "posterPath": "/9DKEd80jWJjiME27nJmTzdVtOLr.jpg",
         "backdropPath": "/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
@@ -291,7 +291,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.083,
+        "rating": 7.1,
         "voteCount": 12,
         "popularity": 86.4296,
         "releaseDate": "2026-03-06",
@@ -343,20 +343,6 @@
         "genreTitle": "动画,喜剧"
       },
       {
-        "id": 281495,
-        "type": "tmdb",
-        "title": "除恶",
-        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
-        "rating": 8.5,
-        "voteCount": 3,
-        "popularity": 7.037,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
-        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -369,6 +355,20 @@
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281495,
+        "type": "tmdb",
+        "title": "除恶",
+        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
+        "rating": 8.5,
+        "voteCount": 3,
+        "popularity": 7.037,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
+        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 282558,
@@ -405,7 +405,7 @@
         "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
         "rating": 9.5,
         "voteCount": 4,
-        "popularity": 6.9352,
+        "popularity": 6.9764,
         "releaseDate": "2025-12-25",
         "posterPath": "/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
         "backdropPath": "/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
@@ -433,7 +433,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.083,
+        "rating": 7.1,
         "voteCount": 12,
         "popularity": 86.4296,
         "releaseDate": "2026-03-06",
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.225,
-        "releaseDate": "2025-11-12",
-        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283950,
         "type": "tmdb",
         "title": "女神蒙上眼",
@@ -623,6 +609,20 @@
         "releaseDate": "2026-01-25",
         "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
         "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.225,
+        "releaseDate": "2025-11-12",
+        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -697,18 +697,18 @@
         "genreTitle": "家庭"
       },
       {
-        "id": 72532,
+        "id": 314890,
         "type": "tmdb",
-        "title": "人生若如初相见",
-        "description": "秦桑是符远财政次长之女，7岁时救了14岁的易连恺，易连恺是江左巡阅使易继培的三儿子。自此易连恺暗生情愫，可惜秦桑并不知情。10年后，秦家被人陷害家道没落，秦桑无奈中嫁给了易连恺，易连恺满心欢喜却碰上了秦桑冷冰冰的脸。当时藩镇割据、民不聊生，易老爷易继培一腔热血，想重振河山，于是把重任交给了易连恺，嘱托他一定要牺牲小我，实现大我。为了守护父亲的嘱托和实现自己的英雄抱负，易连恺把对秦桑的爱恋埋藏在心里，和慕容家展开了数次对决。与此同时，秦桑的初恋情人历望平游学回国，得知秦桑被逼嫁入易家，于是暗地里潜伏在易家准备联合慕容家打垮易家夺回秦桑。符远一战，易连恺把秦桑送出城门，为了守护易家最后的阵地死在了慕容家的炮火中。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 7.0262,
-        "releaseDate": "2018-03-02",
-        "posterPath": "/aDdyuPuw8l6ejhyQjuCy0qsNDzM.jpg",
-        "backdropPath": "/eCQMpWzXSRQ5aNOvePWIhORGv1S.jpg",
+        "title": "苦菜花",
+        "description": "在抗日战争背景下，王家深宅内暗流涌动。家族丑闻、儿女情感与村中的抗日斗争交织在一起，直到一桩命案意外揭开潜伏多年的日军特务阴谋。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4679,
+        "releaseDate": "2004-07-07",
+        "posterPath": "/xNslsZtmMFpfiIHC6vzSvJOdaR0.jpg",
+        "backdropPath": null,
         "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
+        "genreTitle": "战争政治,剧情"
       }
     ]
   },
@@ -738,7 +738,7 @@
         "popularity": 9.1784,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
-        "backdropPath": "/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
+        "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -849,7 +849,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 11.4848,
+        "popularity": 14.8961,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -966,7 +966,7 @@
         "popularity": 9.1784,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
-        "backdropPath": "/amlRj9zVu88Da6s4YlyqxSSbjDn.jpg",
+        "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -991,7 +991,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 11.4848,
+        "popularity": 14.8961,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -1161,7 +1161,7 @@
         "description": "　　在各种歌舞类综艺娱乐节目层出不穷乃至鱼龙混杂的当下，江苏卫视异军突起，将诞生于德国的大型科学类真人秀综艺节目《Super Brain》移植到中国，以全新的综艺风格和冷僻有趣的知识在电视荧屏上吹起了一阵强烈的科学风暴。节目中蒋昌建担当主持人，孟非、陶晶莹、高晓松、魏坤琳等来自各个领域的知名达人组成评委团，此外还请到范冰冰、舒淇、周杰伦、佟大为、宁静等明星担当嘉宾观察员。节目设置晋级赛、挑战赛和中外PK赛，来自中国、美国、日本等国家的科学小队将迎接不同内容的科学挑战，他们通过谨慎推理和脑力激荡解决了一个又一个难题，也在这一过程中让“寓教于乐”得以实现。因此成为全年龄层次的超人气科学类综艺秀！",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 11.4848,
+        "popularity": 14.8961,
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
@@ -1213,6 +1213,20 @@
     ],
     "芒果TV": [
       {
+        "id": 315597,
+        "type": "tmdb",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.5502,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 278513,
         "type": "tmdb",
         "title": "我在中国当农人",
@@ -1227,14 +1241,14 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 315597,
+        "id": 308650,
         "type": "tmdb",
-        "title": "我家那小子2026",
-        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
+        "title": "中国新声代",
+        "description": "《中国新声代》是金鹰卡通卫视推出的一档儿童歌唱类节目，以“唱歌吧，孩子们”为口号，关注少儿成长与中国音乐的未来，为家庭观众带来纯净而正能量的音乐内容。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.5502,
-        "releaseDate": "2026-02-22",
+        "popularity": 0.0357,
+        "releaseDate": "",
         "posterPath": null,
         "backdropPath": null,
         "mediaType": "tv",
@@ -1253,20 +1267,6 @@
         "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,悬疑"
-      },
-      {
-        "id": 308650,
-        "type": "tmdb",
-        "title": "中国新声代",
-        "description": "《中国新声代》是金鹰卡通卫视推出的一档儿童歌唱类节目，以“唱歌吧，孩子们”为口号，关注少儿成长与中国音乐的未来，为家庭观众带来纯净而正能量的音乐内容。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0357,
-        "releaseDate": "",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
       },
       {
         "id": 280917,
