@@ -19,7 +19,7 @@ const MOVIE_DELAY = 150; // 毫秒间隔，避免请求过快
 
 const dir = './data';
 if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-const FILE_PATH = path.join(dir, 'movie_data_combined.json');
+const FILE_PATH = path.join(dir, 'douban_movie_data.json');
 
 // 日志辅助
 const log = {
