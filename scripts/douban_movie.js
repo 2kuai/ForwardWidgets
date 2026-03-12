@@ -59,6 +59,7 @@ async function getStrictTMDBData(doubanItem) {
         if (match) {
             return {
                 id: match.id,
+                type: "tmdb",
                 title: match.title,
                 description: match.overview || "",
                 rating: match.vote_average,
