@@ -19,7 +19,7 @@ const MOVIE_DELAY = 150;
 
 const dir = './data';
 if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-const FILE_PATH = path.join(dir, 'tmdb_only_data.json');
+const FILE_PATH = path.join(dir, 'douban_movie_data.json');
 
 const log = {
     info: (msg) => console.log(`\x1b[36m[INFO]\x1b[0m ${msg}`),
