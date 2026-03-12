@@ -48,8 +48,7 @@ async function getStrictTMDBData(doubanItem) {
         const searchRes = await axios.get(`https://api.themoviedb.org/3/search/movie`, {
             params: {
                 query: searchQuery,
-                language: 'zh-CN',
-                primary_release_year: year
+                language: 'zh-CN'
             },
             headers: { 'Authorization': `Bearer ${TMDB_API_KEY}` },
             timeout: 10000
