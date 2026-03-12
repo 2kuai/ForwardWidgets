@@ -54,7 +54,8 @@ async function getStrictTMDBData(doubanItem) {
 
         const results = searchRes.data.results || [];
         // 匹配逻辑：找标题一致的，或者取结果第一个
-        const match = results.find(m => (m.title === title || m.original_title === originalTitle)) || (results.length > 0 ? results[0] : null);
+        const match = results.find(m => (m.title == title || m.original_title == originalTitle)) || null;
+
 
         if (match) {
             return {
