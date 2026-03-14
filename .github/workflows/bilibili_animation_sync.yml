@@ -1,0 +1,46 @@
+name: Bilibili Animation Sync
+
+on:
+  schedule:
+    # 每天北京时间 10:00 和 22:00 运行 (UTC 2:00, 14:00)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        # 使用 --no-package-lock --no-save 避免产生临时文件，保持仓库整洁
+        run: npm install axios --no-package-lock --no-save
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Run Bilibili Sync
+        run: node bilibili_animation.js
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add data/bilibili_animation_data.json
+          
+          # 检查变动，无变动不提交，加入 [skip ci] 避免循环触发
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 🤖 自动更新 Bilibili 动画数据 [skip ci]" && git push)
