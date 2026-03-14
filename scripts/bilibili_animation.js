@@ -102,7 +102,7 @@ async function main() {
                 headers: { 'Referer': 'https://www.bilibili.com/' }
             });
 
-            const list = (res.data.result.list || []).slice(0, 20);
+            const list = (res.data.result.list || []);
             for (let i = 0; i < list.length; i++) {
                 const matched = await getTMDBData(list[i]);
                 if (matched) finalResult[cat.key].push(matched);
