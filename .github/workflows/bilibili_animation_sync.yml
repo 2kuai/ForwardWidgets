@@ -33,7 +33,7 @@ jobs:
         run: mkdir -p data
 
       - name: Run Bilibili Sync
-        run: node bilibili_animation.js
+        run: node scripts/bilibili_animation.js
 
       - name: Commit and Push
         run: |
