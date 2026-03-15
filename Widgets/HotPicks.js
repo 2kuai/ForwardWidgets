@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "获取最新热门影片推荐",
   author: "两块",
   site: "https://github.com/2kuai/ForwardWidgets",
-  version: "1.5.9",
+  version: "1.6.0",
   requiredVersion: "0.0.1",
   globalParams: [
     {
@@ -199,10 +199,10 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "全部", value: "" },
             { title: "剧情", value: "18" },
-            { title: "科幻/奇幻", value: "10765" },
+            { title: "科幻", value: "10765" },
             { title: "动画", value: "16" },
             { title: "喜剧", value: "35" },
-            { title: "动作/冒险", value: "10759" },
+            { title: "动作", value: "10759" },
             { title: "犯罪", value: "80" },
             { title: "悬疑", value: "9648" },
             { title: "纪录片", value: "99" }
