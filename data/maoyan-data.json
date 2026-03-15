@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T14:42:37.953+08:00",
+  "last_updated": "2026-03-15T20:27:53.636+08:00",
   "tv": {
     "全网": [
       {
@@ -87,20 +87,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 11,
-        "popularity": 8.0993,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 262932,
         "type": "tmdb",
         "title": "江湖夜雨十年灯",
@@ -141,6 +127,20 @@
         "backdropPath": "/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
         "mediaType": "tv",
         "genreTitle": "动画,喜剧"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 11,
+        "popularity": 8.0993,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -221,7 +221,7 @@
         "description": "文承年间，虎贲暗卫盘踞长安城多年，已根深蒂固。淮南县衙主簿胡濙收到帝王姬武阳秘密诏书，被急调入国都长安，铲除奸佞。虎贲将军言凤山不甘于大权旁落，集结虎贲暗卫的势力企图裂国而治、自立为王。他以长安城中的藏兵巷作为掩护，将暗卫分布其中，一直在寻找反击的时机。在姬武阳的帮助下，胡濙联合忠义将领顾玉、剑客叶峥、画师白莞、年轻文士谢子凌等人以智谋捣毁藏兵巷，摧毁言凤山妄图裂国的阴谋，还长安城风朗气清。",
         "rating": 7.771,
         "voteCount": 35,
-        "popularity": 9.0698,
+        "popularity": 8.5286,
         "releaseDate": "2025-12-12",
         "posterPath": "/9DKEd80jWJjiME27nJmTzdVtOLr.jpg",
         "backdropPath": "/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
@@ -301,20 +301,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 11,
-        "popularity": 8.0993,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 262932,
         "type": "tmdb",
         "title": "江湖夜雨十年灯",
@@ -357,18 +343,18 @@
         "genreTitle": "动画,喜剧"
       },
       {
-        "id": 281495,
+        "id": 279446,
         "type": "tmdb",
-        "title": "除恶",
-        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
-        "rating": 8.5,
-        "voteCount": 3,
-        "popularity": 5.3764,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
-        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 11,
+        "popularity": 8.0993,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
+        "genreTitle": "剧情"
       },
       {
         "id": 282558,
@@ -383,6 +369,20 @@
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281495,
+        "type": "tmdb",
+        "title": "除恶",
+        "description": "一个偏僻闭塞的沿海小镇，被一袋消失的毒品打破沉寂，一场“自杀式拯救”正式拉开序幕。一个是意外卷入毒品交易现场的女刑警胡文静（任素汐 饰），一个是为救女儿不计代价的普通父亲程恳（王骁 饰），一个是一心想要逃离小镇生活的野心家李晓雅（蔡文静 饰），一个是被毒品吞噬而走向异途的姐弟王萍（董晴 饰）王安（朱嘉琦 饰）。欲望与贪念交织成的茧细细密密困住了每一个人，无人能够全身而退。",
+        "rating": 8.5,
+        "voteCount": 3,
+        "popularity": 5.3764,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/ky9Eit4aA3BFLQdrulRuDNdvWLS.jpg",
+        "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 296146,
@@ -413,16 +413,16 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 279041,
+        "id": 277052,
         "type": "tmdb",
-        "title": "双轨",
-        "description": "姜暮九岁之前是活在蜜罐里的妹妹，靳朝是天之骄子的哥哥。他们的人生从她九岁那年起迈入两条无法相交的轨道。那年父母离婚，爸爸和哥哥远赴泰国谋生，她得知哥哥被领养的秘密，只身飞往泰国。再见面，曾经的翩翩少年从白色变成灰色，一个满身市井锋芒的青年，他打拳、赛车，在她完全陌生的世界危机重重。虽如愿重逢，但她面对他，也有不可言说的拘谨不安，她义无反顾奔赴的哥哥竟变成陌生人。从陌生人到恋人，姜暮走了看得见的100步，靳朝刚开始步步退，而后决心勇敢面对爱，走了别人看不见的120步。炼狱里的靳朝太苦，想把姜暮挡在炼狱之外，姜暮却孤注一掷，坚定地走向他，要带靳朝回国、回家，两人用自己的方式实现双向奔赴。从此，朝为日，暮为月，日月同辉，朝朝暮暮再不分离。",
-        "rating": 7.712,
-        "voteCount": 26,
-        "popularity": 29.8251,
-        "releaseDate": "2025-12-12",
-        "posterPath": "/5NUddXQVP4Pf4mdfmlhqKPMUSHU.jpg",
-        "backdropPath": "/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
+        "title": "老舅",
+        "description": "老舅是外甥二胖最崇拜的人，老舅自幼学习优异，毕业于哈工大，对于任何新鲜事物，几乎都是天才式的无师自通。在中国经济全面转型的90年代，怀揣一身本领的老舅总有新的理想，所以他不停地创业。虽然老舅“折腾”的一生经历各种困难，但也在不停折腾中感受到了亲友陪伴的力量，最终在自己对生活的乐观态度里实现了梦想。",
+        "rating": 7.5,
+        "voteCount": 5,
+        "popularity": 2.9504,
+        "releaseDate": "2025-12-15",
+        "posterPath": "/pqHsHwcl5CwHaOsc1woAOCSKzvR.jpg",
+        "backdropPath": "/13i0nHFeWhGUeWzLRtEGGGLKfqI.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -485,20 +485,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 11,
-        "popularity": 8.0993,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 262932,
         "type": "tmdb",
         "title": "江湖夜雨十年灯",
@@ -511,6 +497,20 @@
         "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险,悬疑"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 11,
+        "popularity": 8.0993,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278577,
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 2.8998,
-        "releaseDate": "2025-11-12",
-        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 314890,
         "type": "tmdb",
         "title": "苦菜花",
@@ -625,6 +611,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
+      },
+      {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.8998,
+        "releaseDate": "2025-11-12",
+        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283950,
@@ -735,24 +735,10 @@
         "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
         "rating": 8,
         "voteCount": 2,
-        "popularity": 9.1635,
+        "popularity": 9.424,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 312878,
-        "type": "tmdb",
-        "title": "周五晚高疯",
-        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.7113,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
-        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -769,6 +755,20 @@
         "backdropPath": "/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
+      },
+      {
+        "id": 312878,
+        "type": "tmdb",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.7113,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
+        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 254532,
@@ -813,20 +813,6 @@
         "genreTitle": ""
       },
       {
-        "id": 114473,
-        "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "rating": 7.333,
-        "voteCount": 3,
-        "popularity": 37.9744,
-        "releaseDate": "2019-11-03",
-        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,悬疑"
-      },
-      {
         "id": 314523,
         "type": "tmdb",
         "title": "今夜喜友秀",
@@ -839,6 +825,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "脱口秀,真人秀"
+      },
+      {
+        "id": 231620,
+        "type": "tmdb",
+        "title": "现在就出发",
+        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
+        "rating": 7.2,
+        "voteCount": 6,
+        "popularity": 20.5518,
+        "releaseDate": "2023-08-13",
+        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
+        "backdropPath": "/520WV4P5zcJulXNDMWARYIOIOZq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       }
     ],
     "优酷": [
@@ -891,7 +891,7 @@
         "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.7099,
+        "popularity": 0.7079,
         "releaseDate": "2023-09-20",
         "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
@@ -963,7 +963,7 @@
         "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
         "rating": 8,
         "voteCount": 2,
-        "popularity": 9.1635,
+        "popularity": 9.424,
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
@@ -1019,7 +1019,7 @@
         "description": "双轨剧组主演携手共赴泰国甜蜜盛宴，突破剧情边界，满溢着自然默契、团魂升温与浪漫，期待与你一起解锁演员们真实状态互动，敬请期待吧！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3902,
+        "popularity": 1.4968,
         "releaseDate": "2025-12-17",
         "posterPath": "/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
         "backdropPath": "/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
