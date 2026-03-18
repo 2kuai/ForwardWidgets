@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T14:49:03.234+08:00",
+  "last_updated": "2026-03-18T20:42:21.363+08:00",
   "tv": {
     "全网": [
       {
@@ -45,20 +45,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 282904,
-        "type": "tmdb",
-        "title": "她的盛焰",
-        "description": "三年前，数学天才饶雨瓷被闺蜜兼创业合伙人白靓靓设计构陷，因“药物成瘾”袭击母亲，被家人强制送进了心康治疗中心接受治疗，而白靓靓靠卖掉两人创办的公司，成为历森集团的高管。亲情、友情、爱情、事业悉数从她的人生退场。天才坠落的同时，也死死记住了推她进深渊的脸。 三年后，饶雨瓷病愈出院，她精心计划，誓要揭下白靓靓的伪善面具，让她的恶行在阳光之下无所遁形……",
-        "rating": 8.5,
-        "voteCount": 2,
-        "popularity": 6.9727,
-        "releaseDate": "2026-03-13",
-        "posterPath": "/zyHpEpZmzwMPvB8cJrFpc0FOmFW.jpg",
-        "backdropPath": "/cNrs7zzfVb8XOrXDdcAidWC2kHG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
@@ -85,6 +71,20 @@
         "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情"
+      },
+      {
+        "id": 282904,
+        "type": "tmdb",
+        "title": "她的盛焰",
+        "description": "三年前，数学天才饶雨瓷被闺蜜兼创业合伙人白靓靓设计构陷，因“药物成瘾”袭击母亲，被家人强制送进了心康治疗中心接受治疗，而白靓靓靠卖掉两人创办的公司，成为历森集团的高管。亲情、友情、爱情、事业悉数从她的人生退场。天才坠落的同时，也死死记住了推她进深渊的脸。 三年后，饶雨瓷病愈出院，她精心计划，誓要揭下白靓靓的伪善面具，让她的恶行在阳光之下无所遁形……",
+        "rating": 8.5,
+        "voteCount": 2,
+        "popularity": 6.9727,
+        "releaseDate": "2026-03-13",
+        "posterPath": "/zyHpEpZmzwMPvB8cJrFpc0FOmFW.jpg",
+        "backdropPath": "/cNrs7zzfVb8XOrXDdcAidWC2kHG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 287760,
@@ -343,20 +343,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.9,
-        "voteCount": 12,
-        "popularity": 8.7292,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 282558,
         "type": "tmdb",
         "title": "生命树",
@@ -367,6 +353,20 @@
         "releaseDate": "2026-01-30",
         "posterPath": "/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.9,
+        "voteCount": 12,
+        "popularity": 8.7292,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.9,
-        "voteCount": 12,
-        "popularity": 8.7292,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278577,
         "type": "tmdb",
         "title": "骄阳似我",
@@ -537,6 +523,20 @@
         "releaseDate": "2025-12-22",
         "posterPath": "/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
         "backdropPath": "/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.9,
+        "voteCount": 12,
+        "popularity": 8.7292,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -585,20 +585,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 297642,
-        "type": "tmdb",
-        "title": "乌蒙深处",
-        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 2.4052,
-        "releaseDate": "2025-11-12",
-        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
-        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -613,6 +599,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 297642,
+        "type": "tmdb",
+        "title": "乌蒙深处",
+        "description": "麻青蒿、吴艾草、衮菖蒲自称“乌蒙三颗草”，在发展种、养殖业和文旅融合上取得了不俗的成绩，成了村里致富的带头人；衮月亮、龙凤碧等绣娘把指尖上的技艺变成了指尖上的经济，成为了远近闻名的苗绣非遗传承人，苗绣产品走出了村庄，走向了全国，走向了世界。然而在产业发展的道路上，并不是一帆风顺，如何把巩固脱贫攻坚成果与乡村振兴战略有效衔接，这是肖百合、杨国勇等村干部的历史责任和时代担当。在他们的引领和帮助下，悬崖村的一产、二产、三产齐头并进，美丽乡村不断提档升级，悬崖村村民的幸福感和获得感不断提升。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.4052,
+        "releaseDate": "2025-11-12",
+        "posterPath": "/4qpypCmfFGGunqwdjivtfV0wkqb.jpg",
+        "backdropPath": "/2rJG0ODgGPE5nGm2g2mIo3WNgl4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 314888,
         "type": "tmdb",
         "title": "苦菜花",
@@ -622,7 +622,7 @@
         "popularity": 1.3771,
         "releaseDate": "2019-11-25",
         "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": null,
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
       },
@@ -655,6 +655,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 302577,
+        "type": "tmdb",
+        "title": "猎豹",
+        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.924,
+        "releaseDate": "2025-10-14",
+        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
+        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 252414,
         "type": "tmdb",
         "title": "水龙吟",
@@ -681,20 +695,6 @@
         "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
-      },
-      {
-        "id": 302577,
-        "type": "tmdb",
-        "title": "猎豹",
-        "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.9028,
-        "releaseDate": "2025-10-14",
-        "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
-        "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 245194,
@@ -777,26 +777,12 @@
         "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.979,
+        "popularity": 1.6649,
         "releaseDate": "2026-02-06",
         "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
         "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 315597,
-        "type": "tmdb",
-        "title": "我家那小子2026",
-        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3256,
-        "releaseDate": "2026-02-22",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
       },
       {
         "id": 285011,
@@ -827,18 +813,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 114473,
+        "id": 315597,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "rating": 7.333,
-        "voteCount": 3,
-        "popularity": 46.6305,
-        "releaseDate": "2019-11-03",
-        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3256,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
         "mediaType": "tv",
-        "genreTitle": "真人秀,悬疑"
+        "genreTitle": ""
       }
     ],
     "优酷": [
@@ -849,7 +835,7 @@
         "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.979,
+        "popularity": 1.6649,
         "releaseDate": "2026-02-06",
         "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
         "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
@@ -947,7 +933,7 @@
         "description": "《圆桌派》节目以圆桌为名，旨在体现圆桌席上人人平等，并还原在生活中发生在圆桌旁、海阔天空的精彩聊天。嬉笑言谈中彼此迸发出的智慧火花。一期一个引发思考的话题设置，交流价值观点。π，由圆生发，无穷无尽，充满想象的空间，发掘无限未知的可能。",
         "rating": 9,
         "voteCount": 9,
-        "popularity": 13.3262,
+        "popularity": 13.1051,
         "releaseDate": "2016-10-28",
         "posterPath": "/aeYR8mIwH8k4UvCcfK6ioCTYMB1.jpg",
         "backdropPath": "/yEikpy5X4tXRGh30awSUcWKq4vP.jpg",
@@ -1019,7 +1005,7 @@
         "description": "双轨剧组主演携手共赴泰国甜蜜盛宴，突破剧情边界，满溢着自然默契、团魂升温与浪漫，期待与你一起解锁演员们真实状态互动，敬请期待吧！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.2993,
+        "popularity": 1.4417,
         "releaseDate": "2025-12-17",
         "posterPath": "/lWuqowiE9mhUSi917qRF6MUdsxT.jpg",
         "backdropPath": "/vJ17HQMSX3K1igpOiAlSKgsZ7BO.jpg",
@@ -1227,20 +1213,6 @@
     ],
     "芒果TV": [
       {
-        "id": 315597,
-        "type": "tmdb",
-        "title": "我家那小子2026",
-        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3256,
-        "releaseDate": "2026-02-22",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 278513,
         "type": "tmdb",
         "title": "我在中国当农人",
@@ -1253,6 +1225,20 @@
         "backdropPath": "/aPUiEgfN1gAqyuvB0ISmxYQHTyJ.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 315597,
+        "type": "tmdb",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3256,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 114473,
