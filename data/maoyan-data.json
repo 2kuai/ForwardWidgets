@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-03-30T02:25:49.550+08:00",
+  "last_updated": "2026-03-30T09:18:38.587+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 8.064,
-        "voteCount": 39,
-        "popularity": 130.1696,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 258865,
         "type": "tmdb",
@@ -29,6 +15,20 @@
         "backdropPath": "/1GWO0XvqhdpnLUQwzm8Zki2jh1r.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 8.1,
+        "voteCount": 39,
+        "popularity": 130.1696,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 270857,
@@ -59,20 +59,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 277412,
-        "type": "tmdb",
-        "title": "正义女神",
-        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕 饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼 饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。\n\n　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。\n\n　　正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文 饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出现。\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄 饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛 饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 22.3966,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/8hhNIWHBJkXgLxmjvTKmkyvHjdC.jpg",
-        "backdropPath": "/gSXWB1rETFIuL4NZ4GhO4fDGD61.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278134,
         "type": "tmdb",
         "title": "我的山与海",
@@ -87,13 +73,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 277412,
+        "type": "tmdb",
+        "title": "正义女神",
+        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕 饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼 饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。\n\n　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。\n\n　　正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文 饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出现。\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄 饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛 饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 22.3966,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/8hhNIWHBJkXgLxmjvTKmkyvHjdC.jpg",
+        "backdropPath": "/gSXWB1rETFIuL4NZ4GhO4fDGD61.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 282904,
         "type": "tmdb",
         "title": "她的盛焰",
         "description": "三年前，数学天才饶雨瓷被闺蜜兼创业合伙人白靓靓设计构陷，因“药物成瘾”袭击母亲，被家人强制送进了心康治疗中心接受治疗，而白靓靓靠卖掉两人创办的公司，成为历森集团的高管。亲情、友情、爱情、事业悉数从她的人生退场。天才坠落的同时，也死死记住了推她进深渊的脸。 三年后，饶雨瓷病愈出院，她精心计划，誓要揭下白靓靓的伪善面具，让她的恶行在阳光之下无所遁形……",
         "rating": 9,
         "voteCount": 3,
-        "popularity": 12.7182,
+        "popularity": 11.7945,
         "releaseDate": "2026-03-13",
         "posterPath": "/zyHpEpZmzwMPvB8cJrFpc0FOmFW.jpg",
         "backdropPath": "/cNrs7zzfVb8XOrXDdcAidWC2kHG.jpg",
@@ -112,7 +112,7 @@
         "posterPath": "/j8rOn9MSKJ8tAuqOjTOzLsa0oqu.jpg",
         "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
         "mediaType": "tv",
-        "genreTitle": "喜剧,剧情"
+        "genreTitle": "喜剧,剧情,科幻奇幻"
       },
       {
         "id": 261675,
@@ -145,20 +145,6 @@
     ],
     "优酷": [
       {
-        "id": 277412,
-        "type": "tmdb",
-        "title": "正义女神",
-        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕 饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼 饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。\n\n　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。\n\n　　正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文 饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出现。\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄 饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛 饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 22.3966,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/8hhNIWHBJkXgLxmjvTKmkyvHjdC.jpg",
-        "backdropPath": "/gSXWB1rETFIuL4NZ4GhO4fDGD61.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278134,
         "type": "tmdb",
         "title": "我的山与海",
@@ -173,16 +159,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 313930,
+        "id": 277412,
         "type": "tmdb",
-        "title": "卧底娇娃",
-        "description": "　　新兴毒品「粉精灵」流窜市面，卧底潘奕风（马贯东 饰）潜伏多年，终令真正制毒师一权世豪（杜燕歌 饰）被拘捕。但世豪金蝉脱壳获得轻判！奕风为提防世豪出狱后会让「粉精灵」再度肆虐，请求上司批准他组织卧底小组，调查向世豪提供原材料的上线，图能将整条黑暗制毒炼连根拔起。\n\n　　奕风找来三名各擅胜场的卧底娇娃一「女版福尔摩斯」沈佳琪（张曦雯 饰）、「细心敏锐武术通」江妙姿（陈滢 饰）、「百娈行走数据库」童小茹（罗毓仪 饰），以美貌设陷阱、以感性作利刃、以智慧当盔甲，接近目标人物一表面上是慈善商家刘彪（关礼杰 饰）和卡邦妮（邵美琪 饰）夫妇，及其背后的四联商会。四联商会势力庞大，滴水不漏，唯一突破点便是刘氏夫妇的女儿刘宝仪（钟柔美 饰）。\n\n　　奕风此次任务虽然获得直属上司禤步青（黄子雄 饰）鼎力支持，却被邻组警司郭宗南（黄子恒 饰）怀疑他在任卧底期间，早已变节。奕风挺著腹背受敌的压力，却讳莫如深的推动著三名女卧底进行各种危机重重的行动，原来奕风怀著一个自私的目的，想借这次任务，想为受涉而丧命的女友讨回公道。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 7.3568,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1ETDQaUP7DgIxZx4SHW3blrh1Kj.jpg",
-        "backdropPath": "/7TKBpKx76eBknk0zYmtKV07Pznu.jpg",
+        "title": "正义女神",
+        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕 饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼 饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。\n\n　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。\n\n　　正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文 饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出现。\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄 饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛 饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 22.3966,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/8hhNIWHBJkXgLxmjvTKmkyvHjdC.jpg",
+        "backdropPath": "/gSXWB1rETFIuL4NZ4GhO4fDGD61.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -215,6 +201,20 @@
         "genreTitle": "犯罪,剧情,悬疑"
       },
       {
+        "id": 313930,
+        "type": "tmdb",
+        "title": "卧底娇娃",
+        "description": "　　新兴毒品「粉精灵」流窜市面，卧底潘奕风（马贯东 饰）潜伏多年，终令真正制毒师一权世豪（杜燕歌 饰）被拘捕。但世豪金蝉脱壳获得轻判！奕风为提防世豪出狱后会让「粉精灵」再度肆虐，请求上司批准他组织卧底小组，调查向世豪提供原材料的上线，图能将整条黑暗制毒炼连根拔起。\n\n　　奕风找来三名各擅胜场的卧底娇娃一「女版福尔摩斯」沈佳琪（张曦雯 饰）、「细心敏锐武术通」江妙姿（陈滢 饰）、「百娈行走数据库」童小茹（罗毓仪 饰），以美貌设陷阱、以感性作利刃、以智慧当盔甲，接近目标人物一表面上是慈善商家刘彪（关礼杰 饰）和卡邦妮（邵美琪 饰）夫妇，及其背后的四联商会。四联商会势力庞大，滴水不漏，唯一突破点便是刘氏夫妇的女儿刘宝仪（钟柔美 饰）。\n\n　　奕风此次任务虽然获得直属上司禤步青（黄子雄 饰）鼎力支持，却被邻组警司郭宗南（黄子恒 饰）怀疑他在任卧底期间，早已变节。奕风挺著腹背受敌的压力，却讳莫如深的推动著三名女卧底进行各种危机重重的行动，原来奕风怀著一个自私的目的，想借这次任务，想为受涉而丧命的女友讨回公道。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 7.3568,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1ETDQaUP7DgIxZx4SHW3blrh1Kj.jpg",
+        "backdropPath": "/7TKBpKx76eBknk0zYmtKV07Pznu.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 273112,
         "type": "tmdb",
         "title": "剥茧",
@@ -235,7 +235,7 @@
         "description": "文承年间，虎贲暗卫盘踞长安城多年，已根深蒂固。淮南县衙主簿胡濙收到帝王姬武阳秘密诏书，被急调入国都长安，铲除奸佞。虎贲将军言凤山不甘于大权旁落，集结虎贲暗卫的势力企图裂国而治、自立为王。他以长安城中的藏兵巷作为掩护，将暗卫分布其中，一直在寻找反击的时机。在姬武阳的帮助下，胡濙联合忠义将领顾玉、剑客叶峥、画师白莞、年轻文士谢子凌等人以智谋捣毁藏兵巷，摧毁言凤山妄图裂国的阴谋，还长安城风朗气清。",
         "rating": 7.622,
         "voteCount": 37,
-        "popularity": 8.2219,
+        "popularity": 10.5741,
         "releaseDate": "2025-12-12",
         "posterPath": "/9DKEd80jWJjiME27nJmTzdVtOLr.jpg",
         "backdropPath": "/khHpr9W9cZ7mlQGvabC2IeG69pg.jpg",
@@ -277,7 +277,7 @@
         "description": "在合虚六境一年一度的“青云大会”上，罪囚出身的极星渊斗者纪伯宰一举击败已连胜七年的冷酷女战神明意，一夜成为极星渊最炙手可热的新星。而明意将自己真实的一面伪装隐藏，化身舞姬接近纪伯宰，二人“身披马甲”燃爽斗爱，维护了公平正义，最终收获动人爱情。",
         "rating": 8.625,
         "voteCount": 32,
-        "popularity": 26.0537,
+        "popularity": 24.2026,
         "releaseDate": "2025-10-08",
         "posterPath": "/jin36YisXjZEdd2m0aEroQJfvNp.jpg",
         "backdropPath": "/7bcyEgm7f0RjuiE9m6Uy33OmOeq.jpg",
@@ -291,7 +291,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 8.064,
+        "rating": 8.1,
         "voteCount": 39,
         "popularity": 130.1696,
         "releaseDate": "2026-03-06",
@@ -312,7 +312,7 @@
         "posterPath": "/j8rOn9MSKJ8tAuqOjTOzLsa0oqu.jpg",
         "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
         "mediaType": "tv",
-        "genreTitle": "喜剧,剧情"
+        "genreTitle": "喜剧,剧情,科幻奇幻"
       },
       {
         "id": 261675,
@@ -363,7 +363,7 @@
         "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
         "rating": 8.2,
         "voteCount": 5,
-        "popularity": 11.9037,
+        "popularity": 10.2336,
         "releaseDate": "2026-02-22",
         "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
         "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
@@ -391,7 +391,7 @@
         "description": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
         "rating": 8,
         "voteCount": 10,
-        "popularity": 9.3213,
+        "popularity": 7.3393,
         "releaseDate": "2026-01-30",
         "posterPath": "/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
@@ -399,18 +399,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272681,
+        "id": 256783,
         "type": "tmdb",
-        "title": "岁月有情时",
-        "description": "　　有一种故乡，叫做“咱们厂”；有一群家属区里长大的孩子，叫做“厂矿子弟”。1990年，东北铁城西郊的军工厂，商店、医院、学校、家属院围绕着工厂拔地而起。野得上天的“没头脑”小满（黄景瑜 饰）和家教严苛的“不高兴”夏雷（王天辰 饰）成为铁杆兄弟，和“航海梦少女”严晓丹（关晓彤 饰）共同度过了如烟花绽放般的 “阳光灿烂的日子”。\n\n　　随着经济转型大潮来临，工厂走向衰败，三人被迫各奔东西。张小满为了追赶晓丹的步伐远赴日本谋生，端盘子、打黑拳，却遭遇骗局险些丧命，最终被遣送回国；严晓丹与夏雷考上大学，成为“沪漂”与“海归”，在都市中步步为营。历经离散与漂泊，三人顺应内心召唤重返家乡——夏雷带回技术救活分厂，晓丹设计文创园留住历史记忆，小满与叶春春（徐若晗 饰）在相互治愈中携手前行。他们从朋友到恋人最后成为没有血缘的亲人，将“子弟”精神融入血液，成长为有担当的家乡建设者。",
-        "rating": 9,
-        "voteCount": 3,
-        "popularity": 5.2804,
-        "releaseDate": "2026-02-20",
-        "posterPath": "/ly8KtCEkT57YmMO7ztGkawzVXBy.jpg",
-        "backdropPath": "/y0R84gqHuRuGJ0rpf7dRf3QjZJW.jpg",
+        "title": "成何体统",
+        "description": "庾晚音穿书到了一本宫斗文，这本书的女主也是穿书进来的，庾晚音为了逆转自己的反派宿命，选择和暴君联手，不料暴君竟然也是穿书进来的。庾晚音希望三个现代人可以放下宫斗，坐在一起斗地主吃火锅。但女主认为自己才是天选之女，依然选择站在庾晚音对立面与男主端王战队，庾晚音不得不展开一系列行动，为了让自己能活下去并帮助大夏避免旱灾危机……",
+        "rating": 8.9,
+        "voteCount": 8,
+        "popularity": 8.6704,
+        "releaseDate": "2024-06-14",
+        "posterPath": "/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
+        "backdropPath": "/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "动画,喜剧"
       },
       {
         "id": 279446,
@@ -429,20 +429,6 @@
     ],
     "腾讯视频": [
       {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 8.064,
-        "voteCount": 39,
-        "popularity": 130.1696,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 258865,
         "type": "tmdb",
         "title": "白日提灯​",
@@ -455,6 +441,20 @@
         "backdropPath": "/1GWO0XvqhdpnLUQwzm8Zki2jh1r.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 8.1,
+        "voteCount": 39,
+        "popularity": 130.1696,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 270857,
@@ -477,7 +477,7 @@
         "description": "三年前，数学天才饶雨瓷被闺蜜兼创业合伙人白靓靓设计构陷，因“药物成瘾”袭击母亲，被家人强制送进了心康治疗中心接受治疗，而白靓靓靠卖掉两人创办的公司，成为历森集团的高管。亲情、友情、爱情、事业悉数从她的人生退场。天才坠落的同时，也死死记住了推她进深渊的脸。 三年后，饶雨瓷病愈出院，她精心计划，誓要揭下白靓靓的伪善面具，让她的恶行在阳光之下无所遁形……",
         "rating": 9,
         "voteCount": 3,
-        "popularity": 12.7182,
+        "popularity": 11.7945,
         "releaseDate": "2026-03-13",
         "posterPath": "/zyHpEpZmzwMPvB8cJrFpc0FOmFW.jpg",
         "backdropPath": "/cNrs7zzfVb8XOrXDdcAidWC2kHG.jpg",
@@ -533,7 +533,7 @@
         "description": "　　活泼开朗、元气十足的女大学生聂曦光（赵今麦 饰）走出校园、迈入职场阶段的真实细腻成长历程。大学时，她与清寒孤傲、才华横溢的男神学霸庄序（赖伟明 饰）经历酸甜暗恋，进入职场，与外科医转行光伏行业的职场精英林屿森（宋威龙饰）狭路相逢，尽管林屿森对聂曦光有误会，但像小太阳般的聂曦光还是让林屿森无法自拔地沉沦。林屿森毫无保留的爱与支持让她释怀了年少的错过与遗憾，拥抱了她向往的爱情。她从懒散随性到拥有清晰的职业目标并为之专注向前，最终收获爱情、友情，实现了梦想和自我成长。",
         "rating": 8,
         "voteCount": 18,
-        "popularity": 16.4008,
+        "popularity": 14.3886,
         "releaseDate": "2025-12-22",
         "posterPath": "/9evuKu7J3dKoQF8wxGdkHPP47il.jpg",
         "backdropPath": "/1rIQ1IHv6ULVbrR5Qcnc4x27du.jpg",
@@ -547,7 +547,7 @@
         "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
         "rating": 8.2,
         "voteCount": 5,
-        "popularity": 11.9037,
+        "popularity": 10.2336,
         "releaseDate": "2026-02-22",
         "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
         "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283682,
-        "type": "tmdb",
-        "title": "好好的时光",
-        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 5.017,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
-        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 284512,
         "type": "tmdb",
         "title": "玉茗茶骨",
@@ -625,6 +611,20 @@
         "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
+      },
+      {
+        "id": 283682,
+        "type": "tmdb",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 5.017,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 314888,
@@ -641,6 +641,20 @@
         "genreTitle": "战争政治,剧情"
       },
       {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 4.4372,
+        "releaseDate": "2026-01-25",
+        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 297642,
         "type": "tmdb",
         "title": "乌蒙深处",
@@ -655,18 +669,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283950,
+        "id": 274760,
         "type": "tmdb",
-        "title": "女神蒙上眼",
-        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 4.4372,
-        "releaseDate": "2026-01-25",
-        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
-        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "title": "时差一万公里",
+        "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 5.0503,
+        "releaseDate": "2025-12-01",
+        "posterPath": "/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
+        "backdropPath": "/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 252414,
@@ -683,27 +697,13 @@
         "genreTitle": "剧情,悬疑,科幻奇幻"
       },
       {
-        "id": 274760,
-        "type": "tmdb",
-        "title": "时差一万公里",
-        "description": "曾经的财经主播张冉因不甘海外代购的平凡生活，手握一封国内MCN公司的offer拉着丈夫付玉东回国成为搞笑“网红”，不想装修工丈夫竟先她一步乘上风口，成为创业公司的“吉祥物CEO”。夫妻二人分别开启戏谑的升级打怪之旅，在迷失中寻回初心与爱。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 6.6495,
-        "releaseDate": "2025-12-01",
-        "posterPath": "/z4VxM7sYvEsTu1kgav0AFtu52QT.jpg",
-        "backdropPath": "/ta5vOMKcMnAFoRyVxADgUE4vboF.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 302577,
         "type": "tmdb",
         "title": "猎豹",
         "description": "怀揣梦想成为武警精锐部队一员的陈汉生从特警学院毕业来到猎豹突击队，但无情的现实粉碎了陈汉生的骄傲，入队考核过程中陈汉生发挥失常，他必须一切从头开始。在维修班长张岚的帮助下陈汉生熟悉了特战队员要涉及的专业，陈汉生振奋精神成为了什么都敢拆开研究的“好奇宝宝”。陈汉生的努力逐步得到了大队长凌峥嵘的认可，在教导员邱天的帮助下，陈汉生克服了恐水症，在国际龙舟赛中勇救落水人员。猎豹突击队担负了海外警卫任务，陈汉生和凌峥嵘并肩作战，不辱使命，张岚却在任务中壮烈牺牲。在国际反恐联合军演中，猎豹突击队以优异的成绩夺得冠军。凯旋之后，所有队员不约而同出现在了张岚家中，柜子上醒目地摆放着猎豹突击队参加武警部队特战比武的那张大合影。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 4.1114,
+        "popularity": 4.1657,
         "releaseDate": "2025-10-14",
         "posterPath": "/3YjYQSwUiukPgKH94s6yDPqANkL.jpg",
         "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
@@ -891,7 +891,7 @@
         "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 3.3861,
+        "popularity": 2.7821,
         "releaseDate": "2025-02-14",
         "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
         "backdropPath": "/sQWL8lZckkW60KszKE3iJsawygR.jpg",
@@ -905,7 +905,7 @@
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.8147,
+        "popularity": 1.8756,
         "releaseDate": "2025-11-22",
         "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
@@ -919,7 +919,7 @@
         "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.5708,
+        "popularity": 1.375,
         "releaseDate": "2023-09-20",
         "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
@@ -941,20 +941,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 302997,
-        "type": "tmdb",
-        "title": "一起开麦吧",
-        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.1999,
-        "releaseDate": "2025-10-18",
-        "posterPath": "/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
-        "backdropPath": "/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 306845,
         "type": "tmdb",
         "title": "笑有新生",
@@ -965,6 +951,20 @@
         "releaseDate": "2025-12-06",
         "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
         "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 302997,
+        "type": "tmdb",
+        "title": "一起开麦吧",
+        "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.1999,
+        "releaseDate": "2025-10-18",
+        "posterPath": "/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
+        "backdropPath": "/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1019,7 +1019,7 @@
         "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 3.3861,
+        "popularity": 2.7821,
         "releaseDate": "2025-02-14",
         "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
         "backdropPath": "/sQWL8lZckkW60KszKE3iJsawygR.jpg",
@@ -1033,7 +1033,7 @@
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.8147,
+        "popularity": 1.8756,
         "releaseDate": "2025-11-22",
         "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
@@ -1133,7 +1133,7 @@
         "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 8.459,
+        "popularity": 7.54,
         "releaseDate": "2024-05-14",
         "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
         "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
@@ -1161,7 +1161,7 @@
         "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.9562,
+        "popularity": 0.8851,
         "releaseDate": "2025-12-25",
         "posterPath": "/uHozET4VnjItqP69W688sf0Nafv.jpg",
         "backdropPath": "/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
@@ -1175,7 +1175,7 @@
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.8147,
+        "popularity": 1.8756,
         "releaseDate": "2025-11-22",
         "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
@@ -1233,7 +1233,7 @@
         "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.3483,
+        "popularity": 0.3824,
         "releaseDate": "2026-02-22",
         "posterPath": null,
         "backdropPath": null,
