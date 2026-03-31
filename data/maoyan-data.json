@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T15:00:15.128+08:00",
+  "last_updated": "2026-03-31T20:49:44.744+08:00",
   "tv": {
     "全网": [
       {
@@ -53,7 +53,7 @@
         "voteCount": 1,
         "popularity": 9.4112,
         "releaseDate": "2026-03-26",
-        "posterPath": "/wkHUWDSD91fcBS8IzyXe0vT1BYi.jpg",
+        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
@@ -207,7 +207,7 @@
         "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
         "rating": 8.9,
         "voteCount": 8,
-        "popularity": 4.05,
+        "popularity": 3.7178,
         "releaseDate": "2025-12-29",
         "posterPath": "/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
         "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
@@ -357,6 +357,20 @@
         "genreTitle": "战争政治"
       },
       {
+        "id": 128066,
+        "type": "tmdb",
+        "title": "危险关系",
+        "description": "曾经是情人的两名特工必须联手打击威胁英国的国际网络攻击，与此同时还要面对他们之间破坏性关系的隐藏秘密。",
+        "rating": 6.3,
+        "voteCount": 107,
+        "popularity": 5.6186,
+        "releaseDate": "2023-02-24",
+        "posterPath": "/brYjv9yLBc0FArOTQ86cijjrVDh.jpg",
+        "backdropPath": "/o7ULlSUhfu78wppQiSiRitMvHes.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,动作冒险"
+      },
+      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -369,20 +383,6 @@
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 296146,
-        "type": "tmdb",
-        "title": "罚罪2",
-        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
-        "rating": 9.5,
-        "voteCount": 4,
-        "popularity": 6.1736,
-        "releaseDate": "2025-12-25",
-        "posterPath": "/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
-        "backdropPath": "/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪"
       },
       {
         "id": 262932,
@@ -399,6 +399,20 @@
         "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
+        "id": 296146,
+        "type": "tmdb",
+        "title": "罚罪2",
+        "description": "讲述了警察秦枫与犯罪分子斗智斗勇的故事。剧本选取汉洲发展背景下的恶性案件，描绘警察与家人、利益集团的复杂关系。主线围绕秦枫和刘天也两个异姓兄弟展开，揭示人性深度与道德冲突。故事情节紧凑，悬念重重，展现了善恶抉择与法治信仰的力量。",
+        "rating": 9.5,
+        "voteCount": 4,
+        "popularity": 6.1736,
+        "releaseDate": "2025-12-25",
+        "posterPath": "/2YzIgz1Bi0hsXabPqnHU9ISn44F.jpg",
+        "backdropPath": "/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
+      },
+      {
         "id": 282558,
         "type": "tmdb",
         "title": "生命树",
@@ -411,20 +425,6 @@
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 256783,
-        "type": "tmdb",
-        "title": "成何体统",
-        "description": "庾晚音穿书到了一本宫斗文，这本书的女主也是穿书进来的，庾晚音为了逆转自己的反派宿命，选择和暴君联手，不料暴君竟然也是穿书进来的。庾晚音希望三个现代人可以放下宫斗，坐在一起斗地主吃火锅。但女主认为自己才是天选之女，依然选择站在庾晚音对立面与男主端王战队，庾晚音不得不展开一系列行动，为了让自己能活下去并帮助大夏避免旱灾危机……",
-        "rating": 8.9,
-        "voteCount": 8,
-        "popularity": 7.3582,
-        "releaseDate": "2024-06-14",
-        "posterPath": "/eFoO0VZml7B9b95EbyLbQBFOD1m.jpg",
-        "backdropPath": "/oHSks2Fj3fZgnYkrhDRflmswYFr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,喜剧"
       }
     ],
     "腾讯视频": [
@@ -555,18 +555,18 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 240446,
+        "id": 279446,
         "type": "tmdb",
-        "title": "玫瑰丛生",
-        "description": "对待爱情认真而小心的李晓兮与小贝邂逅，两人开始了一段浪漫的恋爱。小贝的忠诚和坚定给予李晓兮力量，让李晓兮逐渐克服心中对爱情的不安全感。小贝也在李晓兮的陪伴和包容下，治愈了心中的旧伤痛，逐渐释怀，学会珍惜。呵护情感的过程中让李晓兮与小贝看到了爱情的更多面，共同经历了很多困难，最终得到了成长，收获了真挚的爱情。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 13.1537,
-        "releaseDate": "2026-02-26",
-        "posterPath": "/zhMzxTvm86guny5vGzaOUAhF0zu.jpg",
-        "backdropPath": "/d54CAgm1GvYAoYSmf3x4nNoTVn5.jpg",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 9,
+        "voteCount": 13,
+        "popularity": 9.0854,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -579,7 +579,7 @@
         "voteCount": 1,
         "popularity": 9.4112,
         "releaseDate": "2026-03-26",
-        "posterPath": "/wkHUWDSD91fcBS8IzyXe0vT1BYi.jpg",
+        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
@@ -683,20 +683,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 252414,
-        "type": "tmdb",
-        "title": "水龙吟",
-        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
-        "rating": 8.1,
-        "voteCount": 20,
-        "popularity": 11.8461,
-        "releaseDate": "2025-10-24",
-        "posterPath": "/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
-        "backdropPath": "/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,科幻奇幻"
-      },
-      {
         "id": 302577,
         "type": "tmdb",
         "title": "猎豹",
@@ -709,6 +695,20 @@
         "backdropPath": "/t1UUewDsKWxNlDkTSTjkWINfJQk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 252414,
+        "type": "tmdb",
+        "title": "水龙吟",
+        "description": "正邪莫辨的唐俪辞被昔日好友构陷，被迫卷入风流店颠覆武林的阴谋。他冷眼睥睨天下，以域外武学\"往生谱\"秘探十三楼，智斗剑王城，联盟碧落宫，入主中原剑会，与风流店对弈，但却在此过程中与池云、沈郎魂等人产生羁绊，也被群侠为守护苍生不计生死的血性所感染，最终选择肩负起江湖未来使命。",
+        "rating": 8.1,
+        "voteCount": 20,
+        "popularity": 11.8461,
+        "releaseDate": "2025-10-24",
+        "posterPath": "/gnHze06gHDwfKcR3Ignz13CqhnN.jpg",
+        "backdropPath": "/8BKnPM5GRRcRDVf4JskD2J9N0g5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,科幻奇幻"
       }
     ]
   },
@@ -813,32 +813,18 @@
         "genreTitle": "真人秀,家庭"
       },
       {
-        "id": 114473,
+        "id": 315597,
         "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "rating": 7.3,
-        "voteCount": 3,
-        "popularity": 41.9086,
-        "releaseDate": "2019-11-03",
-        "posterPath": "/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,悬疑"
-      },
-      {
-        "id": 317458,
-        "type": "tmdb",
-        "title": "不好笑就露宿街头",
-        "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.6569,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/b5G5UA2JZeiQKn1EyewdBz4Tc6s.jpg",
-        "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
+        "popularity": 0.2795,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
         "mediaType": "tv",
-        "genreTitle": "喜剧,真人秀"
+        "genreTitle": ""
       }
     ],
     "优酷": [
@@ -927,20 +913,6 @@
         "genreTitle": "脱口秀"
       },
       {
-        "id": 317604,
-        "type": "tmdb",
-        "title": "思想的浪花",
-        "description": "《<好好学习>青春季——思想的浪花》以习近平总书记“‘大思政课’我们要善用之”的重要指示为出发点，紧紧围绕习近平总书记对青年大学生的回信精神或寄语嘱托这一主题，走进大学校园，开展一场对话、分享一段故事、体悟一份传承。由全国优秀大学生代表组成“青春思辨团”围绕总书记对青年寄语精神展开一场新时代青年的思想讨论，邀请总书记接见或回信的昔日大学生作为当事人，分享与总书记的交流经历、个人成长故事，实现了思想理论与主流价值传播的润物无声。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.1356,
-        "releaseDate": "2026-03-30",
-        "posterPath": "/5makDK17sDqhXNeIgDjkKUGrxvN.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 301245,
         "type": "tmdb",
         "title": "快乐趣吹风",
@@ -965,6 +937,20 @@
         "releaseDate": "2025-10-18",
         "posterPath": "/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
         "backdropPath": "/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 306845,
+        "type": "tmdb",
+        "title": "笑有新生",
+        "description": "《笑有新生》作为一档全新喜剧新人选培节目，以挖掘符合时代潮流的“喜剧新生”为核心目标，打造喜剧人才选拔与储备体系，传递年轻一代的独特视角。最终优胜选手将获得“春晚共创推荐卡”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6257,
+        "releaseDate": "2025-12-06",
+        "posterPath": "/mXY2BpB5KyvSnZ17YJhdD0pAEbt.jpg",
+        "backdropPath": "/94JOko3h4ygZJ5XonpPxEAL8tyA.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1227,6 +1213,20 @@
     ],
     "芒果TV": [
       {
+        "id": 315597,
+        "type": "tmdb",
+        "title": "我家那小子2026",
+        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.2795,
+        "releaseDate": "2026-02-22",
+        "posterPath": null,
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 114473,
         "type": "tmdb",
         "title": "名侦探学院",
@@ -1239,20 +1239,6 @@
         "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,悬疑"
-      },
-      {
-        "id": 315597,
-        "type": "tmdb",
-        "title": "我家那小子2026",
-        "description": "《我家那小子2026》是双平台王鹏飞团队制作，一档真实刻画青年群体面临当下各人生状态和成长挑战的生活记录真人秀，关注各界有影响力的小子们独自生活的点滴。节目将引发观众对“自我价值”与“生活意义”的深度思考，既呼应青年对多元人生的向往，也彰显新时代男性青年“温柔而坚定、松弛而有力量”的精神面貌，传递温暖向上的社会正能量。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3824,
-        "releaseDate": "2026-02-22",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
       },
       {
         "id": 278513,
