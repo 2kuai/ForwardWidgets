@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-04-05T14:52:55.992+08:00",
+  "last_updated": "2026-04-05T20:32:01.409+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.9,
-        "voteCount": 45,
-        "popularity": 80.3072,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
-        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 258865,
         "type": "tmdb",
@@ -29,6 +15,20 @@
         "backdropPath": "/edaJUEDeRAsPrj2FXgJNPETpLlc.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.9,
+        "voteCount": 45,
+        "popularity": 80.3072,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
+        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278275,
@@ -59,6 +59,20 @@
         "genreTitle": "剧情,悬疑"
       },
       {
+        "id": 281392,
+        "type": "tmdb",
+        "title": "钢铁森林",
+        "description": "故事以海州市通河岸边的一起无名女尸案开篇，牵出五年前“8·17”大案的全新线索，也使得江寒声、周瑾、蒋诚三个年轻人的命运再次相交汇聚。曾经在栀子巷中一起长大的他们，分别以刑侦专家、侦查员、特情卧底的身份齐聚，在追查“通河女尸案”“‘8·17’案”“怀光连环杀人案”等悬案要案的过程中，突破恶势力的重重陷阱，追查真相。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 8.7986,
+        "releaseDate": "2026-04-03",
+        "posterPath": "/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg",
+        "backdropPath": "/opaeoieBbNQPUzn41Ih06dtKwtQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
+      },
+      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -87,20 +101,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 281392,
-        "type": "tmdb",
-        "title": "钢铁森林",
-        "description": "故事以海州市通河岸边的一起无名女尸案开篇，牵出五年前“8·17”大案的全新线索，也使得江寒声、周瑾、蒋诚三个年轻人的命运再次相交汇聚。曾经在栀子巷中一起长大的他们，分别以刑侦专家、侦查员、特情卧底的身份齐聚，在追查“通河女尸案”“‘8·17’案”“怀光连环杀人案”等悬案要案的过程中，突破恶势力的重重陷阱，追查真相。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 8.7986,
-        "releaseDate": "2026-04-03",
-        "posterPath": "/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg",
-        "backdropPath": "/opaeoieBbNQPUzn41Ih06dtKwtQ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 282902,
         "type": "tmdb",
         "title": "叵测",
@@ -115,20 +115,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 261675,
-        "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 7.5908,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291470,
         "type": "tmdb",
         "title": "冬去春来",
@@ -139,6 +125,20 @@
         "releaseDate": "2026-03-22",
         "posterPath": "/284CHdJCrje99Q90lYnvG51xEFL.jpg",
         "backdropPath": "/e6upwlldpDpEITHETdS8HbK9qBM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 261675,
+        "type": "tmdb",
+        "title": "家事法庭",
+        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
+        "rating": 7,
+        "voteCount": 2,
+        "popularity": 7.5908,
+        "releaseDate": "2026-03-25",
+        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
+        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -162,7 +162,7 @@
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
-        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。  　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
+        "description": "　　一宗六岁男童堕楼身亡案，十四岁少年高成彬（刘倬昕饰）被控谋杀。成彬辩称当时是想救人而非推人，陪审团最终裁定这是一宗不幸意外，成彬无罪释放。高等法院法官言惠知（佘诗曼饰）翻阅成彬的过往记录时发现，他此前已多次因轻微罪行被带到少年法庭，皆因未满十三岁而获撤销控罪，没有留下案底。\n\n　　看着这份“清白”的记录，言惠知陷入深思——如果早有人在他第一次犯错时及时纠正，是否就能阻止今日的悲剧？她做了一个出人意表的决定：主动申请降职，担任少年法庭的裁判官。正值事业高峰的言惠知，此举不仅令法律界哗然，更导致她与在律政司工作的丈夫邱光正（谭耀文饰）婚姻破裂。她坚信，只有从源头拯救这些脱轨少年，助他们培养正确的价值观，才能阻止下一个“恶魔少年”的出现。\n\n　　在少年法庭，言惠知的审判作风令主任裁判官洪思义（许绍雄饰）亦敬畏三分，更与以“最年轻高院法官”为目标的裁判官郑邵文（周嘉洛饰）形成微妙角力。面对一连串严重的少年案件——校园欺凌、家庭暴力、青少年犯罪——言惠知择善固执，坚持正义，不容有罪者脱身，也不让无辜者受屈，誓要救赎每一位迷途少年的人生。",
         "rating": 9,
         "voteCount": 2,
         "popularity": 32.444,
@@ -243,20 +243,6 @@
         "genreTitle": "剧情,悬疑,战争政治"
       },
       {
-        "id": 313930,
-        "type": "tmdb",
-        "title": "卧底娇娃",
-        "description": "　　新兴毒品「粉精灵」流窜市面，卧底潘奕风（马贯东 饰）潜伏多年，终令真正制毒师一权世豪（杜燕歌 饰）被拘捕。但世豪金蝉脱壳获得轻判！奕风为提防世豪出狱后会让「粉精灵」再度肆虐，请求上司批准他组织卧底小组，调查向世豪提供原材料的上线，图能将整条黑暗制毒炼连根拔起。\n\n　　奕风找来三名各擅胜场的卧底娇娃一「女版福尔摩斯」沈佳琪（张曦雯 饰）、「细心敏锐武术通」江妙姿（陈滢 饰）、「百娈行走数据库」童小茹（罗毓仪 饰），以美貌设陷阱、以感性作利刃、以智慧当盔甲，接近目标人物一表面上是慈善商家刘彪（关礼杰 饰）和卡邦妮（邵美琪 饰）夫妇，及其背后的四联商会。四联商会势力庞大，滴水不漏，唯一突破点便是刘氏夫妇的女儿刘宝仪（钟柔美 饰）。\n\n　　奕风此次任务虽然获得直属上司禤步青（黄子雄 饰）鼎力支持，却被邻组警司郭宗南（黄子恒 饰）怀疑他在任卧底期间，早已变节。奕风挺著腹背受敌的压力，却讳莫如深的推动著三名女卧底进行各种危机重重的行动，原来奕风怀著一个自私的目的，想借这次任务，想为受涉而丧命的女友讨回公道。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.7535,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1ETDQaUP7DgIxZx4SHW3blrh1Kj.jpg",
-        "backdropPath": "/7TKBpKx76eBknk0zYmtKV07Pznu.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 299927,
         "type": "tmdb",
         "title": "红腰鼓",
@@ -269,6 +255,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 313930,
+        "type": "tmdb",
+        "title": "卧底娇娃",
+        "description": "　　新兴毒品「粉精灵」流窜市面，卧底潘奕风（马贯东 饰）潜伏多年，终令真正制毒师一权世豪（杜燕歌 饰）被拘捕。但世豪金蝉脱壳获得轻判！奕风为提防世豪出狱后会让「粉精灵」再度肆虐，请求上司批准他组织卧底小组，调查向世豪提供原材料的上线，图能将整条黑暗制毒炼连根拔起。\n\n　　奕风找来三名各擅胜场的卧底娇娃一「女版福尔摩斯」沈佳琪（张曦雯 饰）、「细心敏锐武术通」江妙姿（陈滢 饰）、「百娈行走数据库」童小茹（罗毓仪 饰），以美貌设陷阱、以感性作利刃、以智慧当盔甲，接近目标人物一表面上是慈善商家刘彪（关礼杰 饰）和卡邦妮（邵美琪 饰）夫妇，及其背后的四联商会。四联商会势力庞大，滴水不漏，唯一突破点便是刘氏夫妇的女儿刘宝仪（钟柔美 饰）。\n\n　　奕风此次任务虽然获得直属上司禤步青（黄子雄 饰）鼎力支持，却被邻组警司郭宗南（黄子恒 饰）怀疑他在任卧底期间，早已变节。奕风挺著腹背受敌的压力，却讳莫如深的推动著三名女卧底进行各种危机重重的行动，原来奕风怀著一个自私的目的，想借这次任务，想为受涉而丧命的女友讨回公道。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.7535,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1ETDQaUP7DgIxZx4SHW3blrh1Kj.jpg",
+        "backdropPath": "/7TKBpKx76eBknk0zYmtKV07Pznu.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 49036,
@@ -301,20 +301,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 273151,
-        "type": "tmdb",
-        "title": "危险关系",
-        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 6.7037,
-        "releaseDate": "2026-03-31",
-        "posterPath": "/jYbTb3QRE224v0icaPsZmGnFvnb.jpg",
-        "backdropPath": "/cJQXgZErtIeYteJohtubyVEm1Mc.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
         "id": 281392,
         "type": "tmdb",
         "title": "钢铁森林",
@@ -329,18 +315,18 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 261675,
+        "id": 273151,
         "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 7.5908,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "title": "危险关系",
+        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 6.7037,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/jYbTb3QRE224v0icaPsZmGnFvnb.jpg",
+        "backdropPath": "/cJQXgZErtIeYteJohtubyVEm1Mc.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 291470,
@@ -353,6 +339,20 @@
         "releaseDate": "2026-03-22",
         "posterPath": "/284CHdJCrje99Q90lYnvG51xEFL.jpg",
         "backdropPath": "/e6upwlldpDpEITHETdS8HbK9qBM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 261675,
+        "type": "tmdb",
+        "title": "家事法庭",
+        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
+        "rating": 7,
+        "voteCount": 2,
+        "popularity": 7.5908,
+        "releaseDate": "2026-03-25",
+        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
+        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -385,6 +385,20 @@
         "genreTitle": "战争政治"
       },
       {
+        "id": 262932,
+        "type": "tmdb",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.2,
+        "voteCount": 5,
+        "popularity": 11.3223,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,动作冒险,悬疑"
+      },
+      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -411,37 +425,9 @@
         "backdropPath": "/j8OYff3PaKpSVdt9FbpjmcrpG8N.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪"
-      },
-      {
-        "id": 262932,
-        "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 8.2,
-        "voteCount": 5,
-        "popularity": 11.3223,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
       }
     ],
     "腾讯视频": [
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.9,
-        "voteCount": 45,
-        "popularity": 80.3072,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
-        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 258865,
         "type": "tmdb",
@@ -455,6 +441,20 @@
         "backdropPath": "/edaJUEDeRAsPrj2FXgJNPETpLlc.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.9,
+        "voteCount": 45,
+        "popularity": 80.3072,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/r0tun2ibKc9YucnQ57rUUMC8s8j.jpg",
+        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 270857,
@@ -555,18 +555,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
+        "id": 262932,
         "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 9,
-        "voteCount": 13,
-        "popularity": 11.8931,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.2,
+        "voteCount": 5,
+        "popularity": 11.3223,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,动作冒险,悬疑"
       }
     ],
     "芒果TV": [
@@ -799,16 +799,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 309100,
+        "id": 216487,
         "type": "tmdb",
-        "title": "宇宙闪烁请注意",
-        "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 3.7601,
-        "releaseDate": "2025-12-27",
-        "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
-        "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
+        "title": "无限超越班",
+        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
+        "rating": 5.5,
+        "voteCount": 4,
+        "popularity": 31.358,
+        "releaseDate": "2022-12-17",
+        "posterPath": "/nFnwI0LEDUANZ2wnBgwvPY6TH1M.jpg",
+        "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -827,16 +827,30 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 216487,
+        "id": 309100,
         "type": "tmdb",
-        "title": "无限超越班",
-        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
-        "rating": 5.5,
-        "voteCount": 4,
-        "popularity": 31.358,
-        "releaseDate": "2022-12-17",
-        "posterPath": "/nFnwI0LEDUANZ2wnBgwvPY6TH1M.jpg",
-        "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
+        "title": "宇宙闪烁请注意",
+        "description": "黄晓明、黄子韬、刘耀文、邵子恒、王鹤棣、于洋「好友带你放肆玩」的“高能量熟人局”，一起发疯的爆笑旅行综艺！节目以明星好友结伴旅行为主线，用高能抽象游戏任务打造解压式快乐体验——和能让你笑到缺氧的人，去有趣的地方，做有意义的事！每期深入一个“活人朋友圈”的精神原乡，由该好友担任地陪，展开两天一夜的爆笑之旅。用最真实的互怼日常、最放飞的游戏挑战，让每个人都能在欢笑中找回痛快生活的能量，打造下一代全民追更的爆笑国民综艺！",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 3.7601,
+        "releaseDate": "2025-12-27",
+        "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
+        "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 318025,
+        "type": "tmdb",
+        "title": "风华合伙人",
+        "description": "《风华合伙人》是由浙江卫视推出的一档经营快乐的实验真人秀。节目以一家青春潮饮生活店为背景，邀请观众与明星特调师共同参与新潮探店体验，寻觅“有趣悦己的客人”，客人可通过说唱、脱口秀等方式表达个性。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.1512,
+        "releaseDate": "2026-04-03",
+        "posterPath": "/nesXcNPTAQBCE8R7AGjP4O4DzTC.jpg",
+        "backdropPath": "/bACfaL8zkOZocS8ABBSpdQgOKDS.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -877,7 +891,7 @@
         "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3846,
+        "popularity": 1.4962,
         "releaseDate": "2026-03-28",
         "posterPath": "/dYOd96wRo3QUcZHJWaw8aA8Oyn3.jpg",
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
@@ -961,7 +975,7 @@
         "description": "《一起开麦吧》是一档“纯听觉”盲选演唱组合音乐竞技节目，40位音乐选手逐一匿名进行演唱，其余选手各自在单独隔间通过盲听的方式选择队友。互选组成3-4人的演唱组合，通过行业专家指导，进行多轮舞台对抗，由明星评审与观众共同选择出一个最强演唱组合厂牌。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.2214,
+        "popularity": 1.4738,
         "releaseDate": "2025-10-18",
         "posterPath": "/kicxt5sA4N4qMc6jM6d81CIETNr.jpg",
         "backdropPath": "/iKfXCf2PEbi7opWssa04qjluM6p.jpg",
@@ -1211,18 +1225,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 309015,
+        "id": 257161,
         "type": "tmdb",
-        "title": "日落时分说爱你",
-        "description": "熟龄哥姐勇闯恋综，开启敢爱新篇章！不管几岁，恋爱万岁！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.2739,
-        "releaseDate": "2025-12-25",
-        "posterPath": "/uHozET4VnjItqP69W688sf0Nafv.jpg",
-        "backdropPath": "/HgzdLlH4HAZ41OBwPENsy62F0O.jpg",
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "rating": 5.5,
+        "voteCount": 6,
+        "popularity": 51.2905,
+        "releaseDate": "2024-06-28",
+        "posterPath": "/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "真人秀,喜剧"
       }
     ],
     "芒果TV": [
@@ -1255,20 +1269,6 @@
         "genreTitle": ""
       },
       {
-        "id": 308650,
-        "type": "tmdb",
-        "title": "中国新声代",
-        "description": "《中国新声代》是金鹰卡通卫视推出的一档儿童歌唱类节目，以“唱歌吧，孩子们”为口号，关注少儿成长与中国音乐的未来，为家庭观众带来纯净而正能量的音乐内容。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0168,
-        "releaseDate": "",
-        "posterPath": null,
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 114473,
         "type": "tmdb",
         "title": "名侦探学院",
@@ -1281,6 +1281,20 @@
         "backdropPath": "/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,悬疑"
+      },
+      {
+        "id": 308650,
+        "type": "tmdb",
+        "title": "中国新声代",
+        "description": "《中国新声代》是金鹰卡通卫视推出的一档儿童歌唱类节目，以“唱歌吧，孩子们”为口号，关注少儿成长与中国音乐的未来，为家庭观众带来纯净而正能量的音乐内容。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0168,
+        "releaseDate": "",
+        "posterPath": null,
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 197150,
