@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T15:48:32.126+08:00",
+  "last_updated": "2026-04-20T21:02:28.654+08:00",
   "tv": {
     "全网": [
       {
@@ -15,6 +15,20 @@
         "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 270828,
+        "type": "tmdb",
+        "title": "八千里路云和月",
+        "description": "　　宋徽宗二年，大宋江山内忧外患，南有盗贼群起，北有外敌频频侵扰，国力渐弱，民不聊生，此时中原大地诞生了民族英雄岳飞（何家劲饰 ）。　北方金人兵强马壮，自恃膘悍一举大破宋王朝，掳走二帝，立张邦昌为皇帝，一时大宋江山国破家亡。此地兵马大元帅赵构号令天下有志之士，英雄好汉共抗金兵，至此民族英雄岳飞横空出世，率张宪、王贵、牛臬等英雄，展开了一生波澜壮阔的英雄伟业。为捍卫民族尊严，匡复宋室殚精竭虑，英勇奋战，威震中原，使得金人闻风丧胆。内与大奸臣秦桧（金超群饰 ）、张邦昌，外与金人强敌展开殊死抗争。但终因朝庭腐败，在内有奸臣，外有强敌夹击下，惨死风波亭，结束了英雄的一生。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.7697,
+        "releaseDate": "1988-11-21",
+        "posterPath": "/2BpHSWEciUzAau5W9ODFo3ElaYM.jpg",
+        "backdropPath": "/iO2TpzKeqWWKoyobrX2VNXL18Fs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动作冒险"
       },
       {
         "id": 278275,
@@ -43,20 +57,6 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 270828,
-        "type": "tmdb",
-        "title": "八千里路云和月",
-        "description": "　　宋徽宗二年，大宋江山内忧外患，南有盗贼群起，北有外敌频频侵扰，国力渐弱，民不聊生，此时中原大地诞生了民族英雄岳飞（何家劲饰 ）。　北方金人兵强马壮，自恃膘悍一举大破宋王朝，掳走二帝，立张邦昌为皇帝，一时大宋江山国破家亡。此地兵马大元帅赵构号令天下有志之士，英雄好汉共抗金兵，至此民族英雄岳飞横空出世，率张宪、王贵、牛臬等英雄，展开了一生波澜壮阔的英雄伟业。为捍卫民族尊严，匡复宋室殚精竭虑，英勇奋战，威震中原，使得金人闻风丧胆。内与大奸臣秦桧（金超群饰 ）、张邦昌，外与金人强敌展开殊死抗争。但终因朝庭腐败，在内有奸臣，外有强敌夹击下，惨死风波亭，结束了英雄的一生。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.7697,
-        "releaseDate": "1988-11-21",
-        "posterPath": "/2BpHSWEciUzAau5W9ODFo3ElaYM.jpg",
-        "backdropPath": "/iO2TpzKeqWWKoyobrX2VNXL18Fs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动作冒险"
       },
       {
         "id": 278868,
@@ -91,7 +91,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.682,
+        "rating": 7.718,
         "voteCount": 55,
         "popularity": 57.1423,
         "releaseDate": "2026-03-06",
@@ -191,8 +191,8 @@
         "type": "tmdb",
         "title": "正义女神",
         "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
-        "rating": 9,
-        "voteCount": 3,
+        "rating": 8.75,
+        "voteCount": 4,
         "popularity": 12.9684,
         "releaseDate": "2026-03-16",
         "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
@@ -271,18 +271,18 @@
         "genreTitle": "剧情,悬疑,战争政治"
       },
       {
-        "id": 263219,
+        "id": 299927,
         "type": "tmdb",
-        "title": "秋雪漫过的冬天",
-        "description": "本剧讲述了两个身处困境的人在生活的泥泞中相互慰藉、相互取暖的治愈故事。出身贫寒、替父还债的周遇安遇见了家庭不顺、事业受阻的姜家齐，因为公司的职场斗争把两个本来没有交集的人连接在一起，CEO顾辰因为姜家齐的仗义执言，丢失了一款新药的上市申请机会，于是雇佣周遇安想要逼走姜家齐，姜家齐和周遇安两人从误会开始，慢慢地开始了互相理解，周遇安看到了姜家齐身上最温暖的一面，最终两人互相治愈，共同走出了人生的阴霾。故事中的男女主虽然深陷人生低谷，但始终以积极的态度面对生活，从未被生活的磨难所打倒，两人互相扶持，携手共度难关。全剧以温暖治愈的风格展现了二人从相识到误会、从相知到治愈的过程，刻画了人世间最真善美的人性光辉，传递了不管生活有多泥泞困苦，一定要心存希望，勇敢面对，终会走出阴霾、拥抱美好明天的积极价值观。",
-        "rating": 7.5,
-        "voteCount": 4,
-        "popularity": 2.7818,
-        "releaseDate": "2026-01-10",
-        "posterPath": "/2LjFKTDjYhQAW7ehLytH7V4Ucho.jpg",
-        "backdropPath": "/y1k8KhifyLJxZUK3ObviZiQREPJ.jpg",
+        "title": "红腰鼓",
+        "description": "1940年，山西问水村民兵队队长窦三喜召集邻村的民兵骨干开会，商讨如何端掉伪军据点薛山寨事宜，但因奸细出卖，所有人壮烈牺牲，缺席会议的妇救会主任翠萍被人怀疑是奸细，为了证明自己的清白，翠萍利用自己的智慧联合了抗日义军首领岳五木拿下了据点，并在八路军连长罗青山的帮助下，不仅证明了自己的清白，还挖出了奸细。随后，罗青山带领翠萍等人重建队伍，发动民众填死水井、炸毁碾磨，巧夺战略物资，配合大部队对铁路线路轨、车站等进行破坏活动，与日军指挥官上衫勇频频对抗，气急败坏的上衫勇发动大规模围剿计划，身边战友们一个个牺牲，翠萍也从一个当初妇救会干事成长为一名合格的八路军战士，最终粉碎了上衫勇一系列的围剿计划，策应大部队反围剿运动。一个月后，翠萍奔赴天津，她带着战友的遗志和爱，投入到了新的战斗任务中。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0499,
+        "releaseDate": "2019-06-05",
+        "posterPath": "/e8Qja9yDjvFWlBJUHzx1cYfgv4G.jpg",
+        "backdropPath": null,
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": ""
       }
     ],
     "爱奇艺": [
@@ -319,7 +319,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.682,
+        "rating": 7.718,
         "voteCount": 55,
         "popularity": 57.1423,
         "releaseDate": "2026-03-06",
@@ -475,7 +475,7 @@
         "type": "tmdb",
         "title": "逐玉",
         "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.682,
+        "rating": 7.718,
         "voteCount": 55,
         "popularity": 57.1423,
         "releaseDate": "2026-03-06",
@@ -541,20 +541,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 287760,
-        "type": "tmdb",
-        "title": "纯真年代的爱情",
-        "description": "二十世纪七十年代，积极上进的纺织厂女工费霓一心想上大学靠知识改变命运。费霓的初中同学方穆扬因救人受伤成为了见义勇为的英雄，费霓主动提出照顾他，想要做好事评先进而被推荐上大学，但希望却屡次落空。现实的压力接踵而至，为了帮哥哥解决婚房的难题，费霓向方穆扬提出假结婚分房。几经波折二人终于有了自己的房子，成为了睡上下铺的小夫妻，他们共同面对困难，鼓励彼此追梦，虽磕磕绊绊，却也在平淡温馨的生活中滋长了情投意合的浪漫。最终费霓终于如愿上了大学，方穆扬也实现了自己的画家梦想，他们在幸福生活和美好未来的路上继续前行。",
-        "rating": 7.333,
-        "voteCount": 3,
-        "popularity": 4.7259,
-        "releaseDate": "2026-02-21",
-        "posterPath": "/8fjVJxa6uEWRzMIDLTjExPGf0Nj.jpg",
-        "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 279593,
         "type": "tmdb",
         "title": "小城大事",
@@ -565,6 +551,20 @@
         "releaseDate": "2026-01-10",
         "posterPath": "/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
         "backdropPath": "/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 287760,
+        "type": "tmdb",
+        "title": "纯真年代的爱情",
+        "description": "二十世纪七十年代，积极上进的纺织厂女工费霓一心想上大学靠知识改变命运。费霓的初中同学方穆扬因救人受伤成为了见义勇为的英雄，费霓主动提出照顾他，想要做好事评先进而被推荐上大学，但希望却屡次落空。现实的压力接踵而至，为了帮哥哥解决婚房的难题，费霓向方穆扬提出假结婚分房。几经波折二人终于有了自己的房子，成为了睡上下铺的小夫妻，他们共同面对困难，鼓励彼此追梦，虽磕磕绊绊，却也在平淡温馨的生活中滋长了情投意合的浪漫。最终费霓终于如愿上了大学，方穆扬也实现了自己的画家梦想，他们在幸福生活和美好未来的路上继续前行。",
+        "rating": 7.333,
+        "voteCount": 3,
+        "popularity": 4.7259,
+        "releaseDate": "2026-02-21",
+        "posterPath": "/8fjVJxa6uEWRzMIDLTjExPGf0Nj.jpg",
+        "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -585,20 +585,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283961,
-        "type": "tmdb",
-        "title": "你是迟来的欢喜",
-        "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
-        "rating": 6.5,
-        "voteCount": 2,
-        "popularity": 6.2905,
-        "releaseDate": "2026-03-26",
-        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
-        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 317895,
         "type": "tmdb",
         "title": "战旗如画",
@@ -611,6 +597,20 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 283961,
+        "type": "tmdb",
+        "title": "你是迟来的欢喜",
+        "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
+        "rating": 6.5,
+        "voteCount": 2,
+        "popularity": 6.2905,
+        "releaseDate": "2026-03-26",
+        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
+        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 279446,
@@ -791,7 +791,7 @@
         "description": "《奋斗吧人生-演员篇》是由腾讯视频出品的新人演员实训成长综艺。20位以演员为终身职业、怀抱梦想的青年新人演员，将以学员身份进入到一所与众不同的 “演员学院”，进行为期4个月的封闭式表演实训与实战演练，期间将有资深行业前辈组成的“师资队伍”，进行全方位表演实训指导。学员们也将真实体验影视拍摄全过程，实拍短剧，与综艺同步上线播出。最终20位新人演员将实现“毕业即就业”，完成新人到职业演员的蜕变，向梦想之路继续迈进！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.8699,
+        "popularity": 1.1375,
         "releaseDate": "2026-03-31",
         "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
         "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
@@ -985,20 +985,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 318025,
-        "type": "tmdb",
-        "title": "风华合伙人",
-        "description": "《风华合伙人》是由浙江卫视推出的一档经营快乐的实验真人秀。节目以一家青春潮饮生活店为背景，邀请观众与明星特调师共同参与新潮探店体验，寻觅“有趣悦己的客人”，客人可通过说唱、脱口秀等方式表达个性。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.6748,
-        "releaseDate": "2026-04-03",
-        "posterPath": "/nesXcNPTAQBCE8R7AGjP4O4DzTC.jpg",
-        "backdropPath": "/bACfaL8zkOZocS8ABBSpdQgOKDS.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 283765,
         "type": "tmdb",
         "title": "我们的爸爸",
@@ -1011,6 +997,20 @@
         "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,家庭"
+      },
+      {
+        "id": 318025,
+        "type": "tmdb",
+        "title": "风华合伙人",
+        "description": "《风华合伙人》是由浙江卫视推出的一档经营快乐的实验真人秀。节目以一家青春潮饮生活店为背景，邀请观众与明星特调师共同参与新潮探店体验，寻觅“有趣悦己的客人”，客人可通过说唱、脱口秀等方式表达个性。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.6748,
+        "releaseDate": "2026-04-03",
+        "posterPath": "/nesXcNPTAQBCE8R7AGjP4O4DzTC.jpg",
+        "backdropPath": "/bACfaL8zkOZocS8ABBSpdQgOKDS.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 155660,
@@ -1091,7 +1091,7 @@
         "description": "《奋斗吧人生-演员篇》是由腾讯视频出品的新人演员实训成长综艺。20位以演员为终身职业、怀抱梦想的青年新人演员，将以学员身份进入到一所与众不同的 “演员学院”，进行为期4个月的封闭式表演实训与实战演练，期间将有资深行业前辈组成的“师资队伍”，进行全方位表演实训指导。学员们也将真实体验影视拍摄全过程，实拍短剧，与综艺同步上线播出。最终20位新人演员将实现“毕业即就业”，完成新人到职业演员的蜕变，向梦想之路继续迈进！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.8699,
+        "popularity": 1.1375,
         "releaseDate": "2026-03-31",
         "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
         "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
