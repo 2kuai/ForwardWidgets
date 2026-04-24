@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T15:46:17.039+08:00",
+  "last_updated": "2026-04-24T20:55:55.663+08:00",
   "tv": {
     "全网": [
       {
@@ -15,6 +15,20 @@
         "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 278275,
+        "type": "tmdb",
+        "title": "月鳞绮纪",
+        "description": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
+        "rating": 8.5,
+        "voteCount": 12,
+        "popularity": 42.9047,
+        "releaseDate": "2026-04-01",
+        "posterPath": "/aRzRB34l28DuDodLh4levKudnB2.jpg",
+        "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 258865,
@@ -43,20 +57,6 @@
         "backdropPath": "/iO2TpzKeqWWKoyobrX2VNXL18Fs.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险"
-      },
-      {
-        "id": 278275,
-        "type": "tmdb",
-        "title": "月鳞绮纪",
-        "description": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
-        "rating": 8.5,
-        "voteCount": 12,
-        "popularity": 42.9047,
-        "releaseDate": "2026-04-01",
-        "posterPath": "/aRzRB34l28DuDodLh4levKudnB2.jpg",
-        "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 278868,
@@ -243,20 +243,6 @@
         "genreTitle": "犯罪,剧情,悬疑"
       },
       {
-        "id": 254498,
-        "type": "tmdb",
-        "title": "黑夜告白",
-        "description": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.7787,
-        "releaseDate": "2026-04-26",
-        "posterPath": "/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
-        "backdropPath": "/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪"
-      },
-      {
         "id": 273112,
         "type": "tmdb",
         "title": "剥茧",
@@ -269,6 +255,20 @@
         "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪"
+      },
+      {
+        "id": 254498,
+        "type": "tmdb",
+        "title": "黑夜告白",
+        "description": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.7787,
+        "releaseDate": "2026-04-26",
+        "posterPath": "/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
+        "backdropPath": "/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
       },
       {
         "id": 262957,
@@ -399,20 +399,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 280822,
-        "type": "tmdb",
-        "title": "你好1983",
-        "description": "36岁的现代女高管夏晓兰陷入了公司暴雷要她顶缸的绝境，绝望之余她迷迷糊糊之际穿越成了18岁的美貌村妞！无钱无权无依靠，可有颜有妈有青春。灵活的头脑，总是能创造绝境逢生的奇迹。夏晓兰一步一步向前走，她要拼命寻找求学机会，深知“知识改变命运”是经年不变的途径，她通过自己的努力，克服重重困难考上了心仪的大学。她还开启创业模式，从卖鸭蛋、卖油饼这种无本生意起步，倒卖服装、进军房地产……迅速盘起生意经。 一手是学习，一手是生意，在这个过程中，她也遇到了酸甜如杨梅冰般的爱情。这个时空中的夏晓兰，一改从前的软弱退缩，主动拥抱命运。她身边有最好的爱人，身后有至亲的亲人和朋友，有非血亲却疼爱她的长辈和恩师。还有热爱的事业、创业奋斗而来的财富、有回报社会的初心。夏晓兰的重生，是一场脱胎换骨的涅槃，是一次在商海快意恩仇的冒险。是历经时代变迁、命运起伏后懂得，无论从前或现在，只有决心和勇气才是真正的金手指。无畏挑战，昂首向前，终将得偿所愿。",
-        "rating": 8.2,
-        "voteCount": 3,
-        "popularity": 5.6059,
-        "releaseDate": "2026-03-17",
-        "posterPath": "/j8rOn9MSKJ8tAuqOjTOzLsa0oqu.jpg",
-        "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
-        "mediaType": "tv",
-        "genreTitle": "喜剧,剧情,科幻奇幻"
-      },
-      {
         "id": 280632,
         "type": "tmdb",
         "title": "成何体统",
@@ -425,6 +411,20 @@
         "backdropPath": "/myJLWz2Rk0e8YHSSw3caCrOEETT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,喜剧"
+      },
+      {
+        "id": 280822,
+        "type": "tmdb",
+        "title": "你好1983",
+        "description": "36岁的现代女高管夏晓兰陷入了公司暴雷要她顶缸的绝境，绝望之余她迷迷糊糊之际穿越成了18岁的美貌村妞！无钱无权无依靠，可有颜有妈有青春。灵活的头脑，总是能创造绝境逢生的奇迹。夏晓兰一步一步向前走，她要拼命寻找求学机会，深知“知识改变命运”是经年不变的途径，她通过自己的努力，克服重重困难考上了心仪的大学。她还开启创业模式，从卖鸭蛋、卖油饼这种无本生意起步，倒卖服装、进军房地产……迅速盘起生意经。 一手是学习，一手是生意，在这个过程中，她也遇到了酸甜如杨梅冰般的爱情。这个时空中的夏晓兰，一改从前的软弱退缩，主动拥抱命运。她身边有最好的爱人，身后有至亲的亲人和朋友，有非血亲却疼爱她的长辈和恩师。还有热爱的事业、创业奋斗而来的财富、有回报社会的初心。夏晓兰的重生，是一场脱胎换骨的涅槃，是一次在商海快意恩仇的冒险。是历经时代变迁、命运起伏后懂得，无论从前或现在，只有决心和勇气才是真正的金手指。无畏挑战，昂首向前，终将得偿所愿。",
+        "rating": 8.2,
+        "voteCount": 3,
+        "popularity": 5.6059,
+        "releaseDate": "2026-03-17",
+        "posterPath": "/j8rOn9MSKJ8tAuqOjTOzLsa0oqu.jpg",
+        "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
+        "mediaType": "tv",
+        "genreTitle": "喜剧,剧情,科幻奇幻"
       }
     ],
     "腾讯视频": [
@@ -541,6 +541,20 @@
         "genreTitle": "剧情,悬疑"
       },
       {
+        "id": 287760,
+        "type": "tmdb",
+        "title": "纯真年代的爱情",
+        "description": "二十世纪七十年代，积极上进的纺织厂女工费霓一心想上大学靠知识改变命运。费霓的初中同学方穆扬因救人受伤成为了见义勇为的英雄，费霓主动提出照顾他，想要做好事评先进而被推荐上大学，但希望却屡次落空。现实的压力接踵而至，为了帮哥哥解决婚房的难题，费霓向方穆扬提出假结婚分房。几经波折二人终于有了自己的房子，成为了睡上下铺的小夫妻，他们共同面对困难，鼓励彼此追梦，虽磕磕绊绊，却也在平淡温馨的生活中滋长了情投意合的浪漫。最终费霓终于如愿上了大学，方穆扬也实现了自己的画家梦想，他们在幸福生活和美好未来的路上继续前行。",
+        "rating": 7.333,
+        "voteCount": 3,
+        "popularity": 5.0043,
+        "releaseDate": "2026-02-21",
+        "posterPath": "/8fjVJxa6uEWRzMIDLTjExPGf0Nj.jpg",
+        "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -551,20 +565,6 @@
         "releaseDate": "2026-01-23",
         "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 279593,
-        "type": "tmdb",
-        "title": "小城大事",
-        "description": "20世纪80年代初，平川县为了加快发展，决定设立“月海镇”。李秋萍与郑德诚两名能力及个性突出的干部，秉着“人民城市人民建”的理念，借助改革开放政策和中央一号文件找到了改革的办法，带领成千上万的农民，在没用国家一分钱的情况下，以“集资、合伙”的创举，在滩涂之上建起一座现代化的城市。这是一段从无到有的造城奇迹，更是中国建城史上的一次壮举，几十万农民的命运因此得以改变。李秋萍、郑德诚、解春来、高雪梅等造城者敢想敢干、敢为人先，在阳光灿烂的80年代谱写了华丽的篇章。",
-        "rating": 5.9,
-        "voteCount": 8,
-        "popularity": 4.8415,
-        "releaseDate": "2026-01-10",
-        "posterPath": "/qOxz5TnqxgZTLx31PWXsuEJ8AIb.jpg",
-        "backdropPath": "/l43ULOU8DQA0LomqfmSQoDKschy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -655,20 +655,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 318545,
-        "type": "tmdb",
-        "title": "致最初的我们",
-        "description": "讲述孤儿熊元宝与邻居穆青筠在曲折成长中相互扶持的青春故事，剧中深入刻画了特殊年代下青梅竹马的情感羁绊与理想追寻。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.3768,
-        "releaseDate": "2026-04-16",
-        "posterPath": "/sTvpK17jSS2Vo6uFc96uz5M8Ylo.jpg",
-        "backdropPath": "/zvduEZMK8rlrDwEFizI4gqsacZQ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283682,
         "type": "tmdb",
         "title": "好好的时光",
@@ -681,6 +667,20 @@
         "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 318545,
+        "type": "tmdb",
+        "title": "致最初的我们",
+        "description": "讲述孤儿熊元宝与邻居穆青筠在曲折成长中相互扶持的青春故事，剧中深入刻画了特殊年代下青梅竹马的情感羁绊与理想追寻。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.3768,
+        "releaseDate": "2026-04-16",
+        "posterPath": "/sTvpK17jSS2Vo6uFc96uz5M8Ylo.jpg",
+        "backdropPath": "/zvduEZMK8rlrDwEFizI4gqsacZQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283950,
@@ -743,6 +743,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 320614,
+        "type": "tmdb",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/nded5psjx64evj26ypt6jTkU03.jpg",
+        "backdropPath": "/9r1okV7NHd9cWEN717YDUSTSSLL.jpg",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 97199,
         "type": "tmdb",
         "title": "妻子的浪漫旅行",
@@ -795,20 +809,6 @@
         "releaseDate": "2026-03-31",
         "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
         "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 285011,
-        "type": "tmdb",
-        "title": "开始捉迷藏",
-        "description": "创新童年游戏，寻找童年印记。玩家在场景里展开捉迷藏游戏，通过各种或有趣或惊艳的躲藏方式，将自己躲在规定区域内，等待猎人的搜寻。每一集有不同的玩家和不同的场景，准备和猎人展开胜负比拼。在捉迷藏游戏的过程中，大家展现机智的头脑、天马行空的想象力、惊人的创造力，还有慢慢凝结的团魂，让观众在观看过程中体会到独属于捉迷藏的游戏魅力与紧张刺激。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7721,
-        "releaseDate": "2025-02-20",
-        "posterPath": "/vuhTneGKp8sTc2qMiEM2fuf54RG.jpg",
-        "backdropPath": "/k7ywRdAVLdP49aOEMupNH9ofXa5.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -925,20 +925,6 @@
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
-      },
-      {
-        "id": 301245,
-        "type": "tmdb",
-        "title": "快乐趣吹风",
-        "description": "6个半熟男人组成吹风团奔赴海岛体验一场奇特的生活实验。在每天不同的“人生减法”冲击里，开启爆笑的成长与蜕变，丢掉生活里的桎梏，找到生活中的宝贵。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.4667,
-        "releaseDate": "2025-10-03",
-        "posterPath": "/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
-        "backdropPath": "/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       }
     ],
     "爱奇艺": [
@@ -957,6 +943,34 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 320614,
+        "type": "tmdb",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/nded5psjx64evj26ypt6jTkU03.jpg",
+        "backdropPath": "/9r1okV7NHd9cWEN717YDUSTSSLL.jpg",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
+        "id": 314523,
+        "type": "tmdb",
+        "title": "今夜喜友秀",
+        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.9272,
+        "releaseDate": "2026-02-20",
+        "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
+        "backdropPath": "/hrkKWrGdIuz88Au3JyblABgvvlE.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,真人秀"
+      },
+      {
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
@@ -969,20 +983,6 @@
         "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 314523,
-        "type": "tmdb",
-        "title": "今夜喜友秀",
-        "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.2323,
-        "releaseDate": "2026-02-20",
-        "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
-        "backdropPath": "/hrkKWrGdIuz88Au3JyblABgvvlE.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,真人秀"
       },
       {
         "id": 283765,
@@ -1165,20 +1165,6 @@
         "releaseDate": "2014-01-03",
         "posterPath": "/fIgpIsnH3xu7IACEKi9ZcsKtVRh.jpg",
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 306210,
-        "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.456,
-        "releaseDate": "2025-11-22",
-        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
