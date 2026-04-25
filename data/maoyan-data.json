@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T15:00:13.873+08:00",
+  "last_updated": "2026-04-25T20:36:25.856+08:00",
   "tv": {
     "全网": [
       {
@@ -31,6 +31,20 @@
         "genreTitle": "剧情,战争政治"
       },
       {
+        "id": 272715,
+        "type": "tmdb",
+        "title": "佳偶天成",
+        "description": "身负\"五不全\"诅咒降生的战鬼陆千乔，需要通过换皮、换肉、换血、换骨、换心，才能成为\"健全\"的普通人。陆千乔在换肉时为给自己留存一线生机，和想借与死囚成婚化解\"克夫\"厄运的修仙者辛湄结为夫妻。二人命运绑定，携手闯关京城、崇灵谷、西域等地，最终破除战鬼族及开天会的阴谋，解除 战鬼族人身上的诅咒，辛湄也在此过程中突破道心戒律，守护人间。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 6.8651,
+        "releaseDate": "2026-04-25",
+        "posterPath": "/tFB19abojOZ4Ttg8Tdhc86rIRu5.jpg",
+        "backdropPath": "/56t7eEvF60jL62Yvd1BLdZYRa1N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
+      },
+      {
         "id": 278275,
         "type": "tmdb",
         "title": "月鳞绮纪",
@@ -41,20 +55,6 @@
         "releaseDate": "2026-04-01",
         "posterPath": "/aRzRB34l28DuDodLh4levKudnB2.jpg",
         "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
-        "id": 272715,
-        "type": "tmdb",
-        "title": "佳偶天成",
-        "description": "身负\"五不全\"诅咒降生的战鬼陆千乔，需要通过换皮、换肉、换血、换骨、换心，才能成为\"健全\"的普通人。陆千乔在换肉时为给自己留存一线生机，和想借与死囚成婚化解\"克夫\"厄运的修仙者辛湄结为夫妻。二人命运绑定，携手闯关京城、崇灵谷、西域等地，最终破除战鬼族及开天会的阴谋，解除 战鬼族人身上的诅咒，辛湄也在此过程中突破道心戒律，守护人间。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.8651,
-        "releaseDate": "2026-04-25",
-        "posterPath": "/4vqa4m8HPQVj4ky4E83AcEfdbwx.jpg",
-        "backdropPath": "/56t7eEvF60jL62Yvd1BLdZYRa1N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
       },
@@ -73,20 +73,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 258865,
-        "type": "tmdb",
-        "title": "白日提灯​",
-        "description": "　　天赋卓然的鬼王贺思慕（迪丽热巴 饰），是活了四百年、统御归墟、维系两界平衡的最强灵主。她虽强悍如斯，却天生缺失五感，无法真正感受世间的颜色、气味与温度，在漫长的岁月中独守着幽冥之主的孤寂宿命。\n\n　　一日，贺思慕在休沐觅食时意外遇见了少年将军段胥（陈飞宇 饰）——一个外表明朗却背负沉重过往、身世成谜的踏白军统领。更令她惊疑的是，这位段胥随身携带着她故人之物，似乎并非真正的段胥？两人你来我往、互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕强大外表下的坚守与孤独。\n\n　　两人因宿命牵引、五感互通而紧密相连，在彼此试探与陪伴中逐步揭开过往秘密，并以爱意对抗时间洪流，携手守护人间美好。寿命不过百年的凡人和四百岁仍是少女的恶鬼，这段跨越生死、种族的禁忌之恋，在“扶桑木连接灵、人、神三界”的东方奇幻世界观中，展开了一场双向救赎与个人成长的宿命羁绊。",
-        "rating": 7.5,
-        "voteCount": 6,
-        "popularity": 27.9031,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/4jPOkzQdogCkkT8HhS7kVsdoOBb.jpg",
-        "backdropPath": "/edaJUEDeRAsPrj2FXgJNPETpLlc.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 291602,
         "type": "tmdb",
         "title": "夏末初见",
@@ -99,6 +85,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 258865,
+        "type": "tmdb",
+        "title": "白日提灯​",
+        "description": "　　天赋卓然的鬼王贺思慕（迪丽热巴 饰），是活了四百年、统御归墟、维系两界平衡的最强灵主。她虽强悍如斯，却天生缺失五感，无法真正感受世间的颜色、气味与温度，在漫长的岁月中独守着幽冥之主的孤寂宿命。\n\n　　一日，贺思慕在休沐觅食时意外遇见了少年将军段胥（陈飞宇 饰）——一个外表明朗却背负沉重过往、身世成谜的踏白军统领。更令她惊疑的是，这位段胥随身携带着她故人之物，似乎并非真正的段胥？两人你来我往、互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕强大外表下的坚守与孤独。\n\n　　两人因宿命牵引、五感互通而紧密相连，在彼此试探与陪伴中逐步揭开过往秘密，并以爱意对抗时间洪流，携手守护人间美好。寿命不过百年的凡人和四百岁仍是少女的恶鬼，这段跨越生死、种族的禁忌之恋，在“扶桑木连接灵、人、神三界”的东方奇幻世界观中，展开了一场双向救赎与个人成长的宿命羁绊。",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 27.9031,
+        "releaseDate": "2026-03-28",
+        "posterPath": "/4jPOkzQdogCkkT8HhS7kVsdoOBb.jpg",
+        "backdropPath": "/edaJUEDeRAsPrj2FXgJNPETpLlc.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 279388,
@@ -215,20 +215,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 254498,
-        "type": "tmdb",
-        "title": "黑夜告白",
-        "description": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.503,
-        "releaseDate": "2026-04-26",
-        "posterPath": "/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
-        "backdropPath": "/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪"
-      },
-      {
         "id": 278134,
         "type": "tmdb",
         "title": "我的山与海",
@@ -269,6 +255,20 @@
         "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪"
+      },
+      {
+        "id": 254498,
+        "type": "tmdb",
+        "title": "黑夜告白",
+        "description": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.503,
+        "releaseDate": "2026-04-26",
+        "posterPath": "/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
+        "backdropPath": "/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
       },
       {
         "id": 262957,
@@ -319,11 +319,11 @@
         "type": "tmdb",
         "title": "佳偶天成",
         "description": "身负\"五不全\"诅咒降生的战鬼陆千乔，需要通过换皮、换肉、换血、换骨、换心，才能成为\"健全\"的普通人。陆千乔在换肉时为给自己留存一线生机，和想借与死囚成婚化解\"克夫\"厄运的修仙者辛湄结为夫妻。二人命运绑定，携手闯关京城、崇灵谷、西域等地，最终破除战鬼族及开天会的阴谋，解除 战鬼族人身上的诅咒，辛湄也在此过程中突破道心戒律，守护人间。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 8,
+        "voteCount": 1,
         "popularity": 6.8651,
         "releaseDate": "2026-04-25",
-        "posterPath": "/4vqa4m8HPQVj4ky4E83AcEfdbwx.jpg",
+        "posterPath": "/tFB19abojOZ4Ttg8Tdhc86rIRu5.jpg",
         "backdropPath": "/56t7eEvF60jL62Yvd1BLdZYRa1N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
@@ -343,20 +343,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 278894,
-        "type": "tmdb",
-        "title": "冰湖重生",
-        "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
-        "rating": 7.5,
-        "voteCount": 2,
-        "popularity": 15.0537,
-        "releaseDate": "2026-04-08",
-        "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
-        "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 281392,
         "type": "tmdb",
         "title": "钢铁森林",
@@ -369,6 +355,20 @@
         "backdropPath": "/6p2BAwHKgIQfkoRdqVf3apf9ON9.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,犯罪,悬疑"
+      },
+      {
+        "id": 278894,
+        "type": "tmdb",
+        "title": "冰湖重生",
+        "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
+        "rating": 7.5,
+        "voteCount": 2,
+        "popularity": 15.0537,
+        "releaseDate": "2026-04-08",
+        "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
+        "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 273151,
@@ -421,7 +421,7 @@
         "voteCount": 10,
         "popularity": 3.5327,
         "releaseDate": "2026-01-30",
-        "posterPath": "/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
+        "posterPath": "/wvIEIsBdn24eEuN8YfMI7QKIual.jpg",
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,犯罪"
@@ -447,11 +447,11 @@
         "type": "tmdb",
         "title": "佳偶天成",
         "description": "身负\"五不全\"诅咒降生的战鬼陆千乔，需要通过换皮、换肉、换血、换骨、换心，才能成为\"健全\"的普通人。陆千乔在换肉时为给自己留存一线生机，和想借与死囚成婚化解\"克夫\"厄运的修仙者辛湄结为夫妻。二人命运绑定，携手闯关京城、崇灵谷、西域等地，最终破除战鬼族及开天会的阴谋，解除 战鬼族人身上的诅咒，辛湄也在此过程中突破道心戒律，守护人间。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 8,
+        "voteCount": 1,
         "popularity": 6.8651,
         "releaseDate": "2026-04-25",
-        "posterPath": "/4vqa4m8HPQVj4ky4E83AcEfdbwx.jpg",
+        "posterPath": "/tFB19abojOZ4Ttg8Tdhc86rIRu5.jpg",
         "backdropPath": "/56t7eEvF60jL62Yvd1BLdZYRa1N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
@@ -669,20 +669,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 283950,
-        "type": "tmdb",
-        "title": "女神蒙上眼",
-        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 2.6262,
-        "releaseDate": "2026-01-25",
-        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
-        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 318545,
         "type": "tmdb",
         "title": "致最初的我们",
@@ -693,6 +679,20 @@
         "releaseDate": "2026-04-16",
         "posterPath": "/sTvpK17jSS2Vo6uFc96uz5M8Ylo.jpg",
         "backdropPath": "/zvduEZMK8rlrDwEFizI4gqsacZQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 2.6262,
+        "releaseDate": "2026-01-25",
+        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -1105,7 +1105,7 @@
         "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 2.0499,
+        "popularity": 1.918,
         "releaseDate": "2024-05-14",
         "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
         "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
@@ -1171,18 +1171,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 100289,
+        "id": 298320,
         "type": "tmdb",
-        "title": "潮流合伙人",
-        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
-        "rating": 2,
-        "voteCount": 1,
-        "popularity": 3.1375,
-        "releaseDate": "2019-12-06",
-        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
-        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
+        "title": "合伙人",
+        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。《合伙人》在第一季《巴黎合伙人》的基础上全新升级！合伙人们将携手更多国际合伙人，落地世界金融中心与顶级商业都会，打造汇聚中国品牌的特色门店，全力助推国货出海，以国人智慧解锁中国品牌的全球新玩法。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.0124,
+        "releaseDate": "2025-08-14",
+        "posterPath": "/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
+        "backdropPath": "/yZ81CoQyQqshENN79R55Mim48qd.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
+        "genreTitle": "真人秀"
       },
       {
         "id": 114473,
