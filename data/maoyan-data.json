@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T15:17:12.392+08:00",
+  "last_updated": "2026-05-02T20:42:09.723+08:00",
   "tv": {
     "全网": [
       {
@@ -17,20 +17,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 13.7761,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/e50NDByUSkwjSNpkecH4YTbgq9l.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 254498,
         "type": "tmdb",
         "title": "黑夜告白",
@@ -43,6 +29,20 @@
         "backdropPath": "/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 273129,
+        "type": "tmdb",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 13.7761,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/e50NDByUSkwjSNpkecH4YTbgq9l.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 272715,
@@ -201,20 +201,6 @@
         "genreTitle": "犯罪,剧情"
       },
       {
-        "id": 278127,
-        "type": "tmdb",
-        "title": "唐宫奇案之青雾风鸣",
-        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
-        "rating": 7.111,
-        "voteCount": 9,
-        "popularity": 8.1602,
-        "releaseDate": "2026-02-05",
-        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
-        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
@@ -227,6 +213,20 @@
         "backdropPath": "/wrbCLyF2njQtjGw5Js3JAOV69J5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 278127,
+        "type": "tmdb",
+        "title": "唐宫奇案之青雾风鸣",
+        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
+        "rating": 7.111,
+        "voteCount": 9,
+        "popularity": 8.1602,
+        "releaseDate": "2026-02-05",
+        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
+        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 278134,
@@ -263,7 +263,7 @@
         "description": "骊城公安局最年轻的法医齐思哲（罗云熙 饰），因一场车祸失去了女友俞菲，但他发觉意外的背后似乎隐藏着神秘的幕后推手。为了调查真相，齐思哲入职成为河城市公安局的刑侦法医，却被迫卷入一桩桩令人细思极恐的奇诡悬案之中，身亡许久的被害者被重重蛛丝包裹，失踪的尸体出现在标本室的福尔马林中……在侦破过程中，他与祝青越（刘雅瑟 饰），韩烽（江奇霖 饰）强强联合，抽丝剥茧屡破奇案，而牵涉当年俞菲之死的“原钻”毒品案，也逐渐展露冰山一角……",
         "rating": 8,
         "voteCount": 9,
-        "popularity": 3.7193,
+        "popularity": 3.3865,
         "releaseDate": "2025-12-29",
         "posterPath": "/yeKMKaSvkZjAzUhrInVCTASqQIs.jpg",
         "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
@@ -357,20 +357,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283158,
-        "type": "tmdb",
-        "title": "人间惊鸿客",
-        "description": "靖澜寒氏，世袭医官、医术精湛、名扬四海，寒氏后人寒云苓承家风、习医术。然而，八年前的一场毒疫，让寒家满门获罪被诛，寒云苓亦下落不明。八年后，靖澜边境战乱再起，一名女神医于乱世之中以一己之力救死扶伤，这人正是寒云苓。一次两军交战后，少年将军萧池和寒云苓相识，萧池一眼认出她便是儿时救他性命之人，发誓要守护她一生，同时萧池也发现寒云苓身上所背负的秘密。寒云苓在萧池的帮助下，成功为寒家翻案，萧池也在寒云苓的支持下，成功地平息了内忧外患，为国家赢得了安宁。二人在乱世中并肩作战，彼此依赖，相互救赎。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.1935,
-        "releaseDate": "2026-04-29",
-        "posterPath": "/mX9RzIqEy63Cnn7ls0cH5Wu0htE.jpg",
-        "backdropPath": "/do4lhqH2USNUMVYzQWn9kMq1chJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 281392,
         "type": "tmdb",
         "title": "钢铁森林",
@@ -385,16 +371,16 @@
         "genreTitle": "剧情,犯罪,悬疑"
       },
       {
-        "id": 261675,
+        "id": 283158,
         "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 6.5,
-        "voteCount": 6,
-        "popularity": 4.696,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "title": "人间惊鸿客",
+        "description": "靖澜寒氏，世袭医官、医术精湛、名扬四海，寒氏后人寒云苓承家风、习医术。然而，八年前的一场毒疫，让寒家满门获罪被诛，寒云苓亦下落不明。八年后，靖澜边境战乱再起，一名女神医于乱世之中以一己之力救死扶伤，这人正是寒云苓。一次两军交战后，少年将军萧池和寒云苓相识，萧池一眼认出她便是儿时救他性命之人，发誓要守护她一生，同时萧池也发现寒云苓身上所背负的秘密。寒云苓在萧池的帮助下，成功为寒家翻案，萧池也在寒云苓的支持下，成功地平息了内忧外患，为国家赢得了安宁。二人在乱世中并肩作战，彼此依赖，相互救赎。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.1935,
+        "releaseDate": "2026-04-29",
+        "posterPath": "/mX9RzIqEy63Cnn7ls0cH5Wu0htE.jpg",
+        "backdropPath": "/do4lhqH2USNUMVYzQWn9kMq1chJ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -411,6 +397,20 @@
         "backdropPath": "/A0GTs2ESXdVFba0fcw4syEuNjJy.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,犯罪"
+      },
+      {
+        "id": 261675,
+        "type": "tmdb",
+        "title": "家事法庭",
+        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
+        "rating": 6.5,
+        "voteCount": 6,
+        "popularity": 4.696,
+        "releaseDate": "2026-03-25",
+        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
+        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 281495,
@@ -613,20 +613,6 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 283950,
-        "type": "tmdb",
-        "title": "女神蒙上眼",
-        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 3.4312,
-        "releaseDate": "2026-01-25",
-        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
-        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 314888,
         "type": "tmdb",
         "title": "苦菜花",
@@ -639,6 +625,20 @@
         "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
+      },
+      {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 3.4312,
+        "releaseDate": "2026-01-25",
+        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283682,
@@ -757,20 +757,6 @@
         "genreTitle": ""
       },
       {
-        "id": 216487,
-        "type": "tmdb",
-        "title": "无限超越班",
-        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
-        "rating": 5.5,
-        "voteCount": 4,
-        "popularity": 16.1987,
-        "releaseDate": "2022-12-17",
-        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
-        "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 315850,
         "type": "tmdb",
         "title": "魔力歌先生",
@@ -781,6 +767,20 @@
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 216487,
+        "type": "tmdb",
+        "title": "无限超越班",
+        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
+        "rating": 5.5,
+        "voteCount": 4,
+        "popularity": 16.1987,
+        "releaseDate": "2022-12-17",
+        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
+        "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -799,16 +799,30 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 298320,
+        "id": 317458,
         "type": "tmdb",
-        "title": "合伙人",
-        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。《合伙人》在第一季《巴黎合伙人》的基础上全新升级！合伙人们将携手更多国际合伙人，落地世界金融中心与顶级商业都会，打造汇聚中国品牌的特色门店，全力助推国货出海，以国人智慧解锁中国品牌的全球新玩法。",
+        "title": "不好笑就露宿街头",
+        "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 5.7849,
-        "releaseDate": "2025-08-14",
-        "posterPath": "/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
-        "backdropPath": "/yZ81CoQyQqshENN79R55Mim48qd.jpg",
+        "popularity": 1.6469,
+        "releaseDate": "2026-03-28",
+        "posterPath": "/dYOd96wRo3QUcZHJWaw8aA8Oyn3.jpg",
+        "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
+        "mediaType": "tv",
+        "genreTitle": "喜剧,真人秀"
+      },
+      {
+        "id": 317605,
+        "type": "tmdb",
+        "title": "奋斗吧人生-演员篇",
+        "description": "《奋斗吧人生-演员篇》是由腾讯视频出品的新人演员实训成长综艺。20位以演员为终身职业、怀抱梦想的青年新人演员，将以学员身份进入到一所与众不同的 “演员学院”，进行为期4个月的封闭式表演实训与实战演练，期间将有资深行业前辈组成的“师资队伍”，进行全方位表演实训指导。学员们也将真实体验影视拍摄全过程，实拍短剧，与综艺同步上线播出。最终20位新人演员将实现“毕业即就业”，完成新人到职业演员的蜕变，向梦想之路继续迈进！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.3954,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
+        "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1227,18 +1241,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 298320,
+        "id": 100289,
         "type": "tmdb",
-        "title": "合伙人",
-        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。《合伙人》在第一季《巴黎合伙人》的基础上全新升级！合伙人们将携手更多国际合伙人，落地世界金融中心与顶级商业都会，打造汇聚中国品牌的特色门店，全力助推国货出海，以国人智慧解锁中国品牌的全球新玩法。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.7849,
-        "releaseDate": "2025-08-14",
-        "posterPath": "/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
-        "backdropPath": "/yZ81CoQyQqshENN79R55Mim48qd.jpg",
+        "title": "潮流合伙人",
+        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
+        "rating": 2,
+        "voteCount": 1,
+        "popularity": 3.8575,
+        "releaseDate": "2019-12-06",
+        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
+        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 97199,
