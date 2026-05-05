@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-05-05T21:07:14.427+08:00",
+  "last_updated": "2026-05-06T03:02:39.066+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 12.7149,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
-        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 273129,
         "type": "tmdb",
@@ -27,6 +13,20 @@
         "releaseDate": "2026-04-28",
         "posterPath": "/e50NDByUSkwjSNpkecH4YTbgq9l.jpg",
         "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 12.7149,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -45,20 +45,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "脱离一线刑侦几年的警察张一昂（王骁 饰），因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣（王传君 饰）团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 9,
-        "voteCount": 3,
-        "popularity": 15.7872,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
-        "backdropPath": "/mvBegxLNxYKj1yZL1ROGoDnB2kQ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪"
-      },
-      {
         "id": 281231,
         "type": "tmdb",
         "title": "蜜语纪",
@@ -71,6 +57,20 @@
         "backdropPath": "/hnJZeVHUBLUziGkqSGXUzAuFDef.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "脱离一线刑侦几年的警察张一昂（王骁 饰），因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣（王传君 饰）团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+        "rating": 9,
+        "voteCount": 3,
+        "popularity": 15.7872,
+        "releaseDate": "2026-05-04",
+        "posterPath": "/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
+        "backdropPath": "/mvBegxLNxYKj1yZL1ROGoDnB2kQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,犯罪"
       },
       {
         "id": 272715,
@@ -101,20 +101,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.795,
-        "voteCount": 61,
-        "popularity": 43.5582,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 258865,
         "type": "tmdb",
         "title": "白日提灯​",
@@ -127,6 +113,20 @@
         "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.795,
+        "voteCount": 61,
+        "popularity": 43.5582,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 289624,
@@ -287,20 +287,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "脱离一线刑侦几年的警察张一昂（王骁 饰），因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣（王传君 饰）团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 9,
-        "voteCount": 3,
-        "popularity": 15.7872,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
-        "backdropPath": "/mvBegxLNxYKj1yZL1ROGoDnB2kQ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪"
-      },
-      {
         "id": 281231,
         "type": "tmdb",
         "title": "蜜语纪",
@@ -313,6 +299,20 @@
         "backdropPath": "/hnJZeVHUBLUziGkqSGXUzAuFDef.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "脱离一线刑侦几年的警察张一昂（王骁 饰），因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣（王传君 饰）团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+        "rating": 9,
+        "voteCount": 3,
+        "popularity": 15.7872,
+        "releaseDate": "2026-05-04",
+        "posterPath": "/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
+        "backdropPath": "/mvBegxLNxYKj1yZL1ROGoDnB2kQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,犯罪"
       },
       {
         "id": 272715,
@@ -357,6 +357,20 @@
         "genreTitle": "剧情,战争政治"
       },
       {
+        "id": 289708,
+        "type": "tmdb",
+        "title": "喀什恋歌",
+        "description": "讲述了在喀什古城长大的三姐妹直面生活困境，在传统与现代的碰撞中破茧成长，携手穿越生活的风暴，用爱与温暖治愈彼此、重启人生的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.9196,
+        "releaseDate": "2026-05-05",
+        "posterPath": "/hUQreV2LckQi25NTSIIGTP3yiJK.jpg",
+        "backdropPath": "/d4N5XMuaHOuZDbKQnsiJ8HV56hn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 278894,
         "type": "tmdb",
         "title": "冰湖重生",
@@ -367,20 +381,6 @@
         "releaseDate": "2026-04-08",
         "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
         "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 289708,
-        "type": "tmdb",
-        "title": "喀什恋歌",
-        "description": "",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.9196,
-        "releaseDate": "2026-05-05",
-        "posterPath": "/hUQreV2LckQi25NTSIIGTP3yiJK.jpg",
-        "backdropPath": "/g15QF9tmW8RMARi944kUdcmPbzb.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -485,20 +485,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.795,
-        "voteCount": 61,
-        "popularity": 43.5582,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 258865,
         "type": "tmdb",
         "title": "白日提灯​",
@@ -511,6 +497,20 @@
         "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.795,
+        "voteCount": 61,
+        "popularity": 43.5582,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278894,
@@ -655,20 +655,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 314888,
-        "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.3294,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
-      },
-      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -695,6 +681,20 @@
         "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.3294,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 318545,
@@ -725,6 +725,20 @@
         "releaseDate": "2020-11-06",
         "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
         "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 317948,
+        "type": "tmdb",
+        "title": "乘风2026",
+        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 8.5365,
+        "releaseDate": "2026-04-02",
+        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
+        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -771,20 +785,6 @@
         "genreTitle": ""
       },
       {
-        "id": 317948,
-        "type": "tmdb",
-        "title": "乘风2026",
-        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 8.5365,
-        "releaseDate": "2026-04-02",
-        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
-        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317605,
         "type": "tmdb",
         "title": "奋斗吧人生-演员篇",
@@ -799,18 +799,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 100289,
+        "id": 320614,
         "type": "tmdb",
-        "title": "潮流合伙人",
-        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
-        "rating": 2,
-        "voteCount": 1,
-        "popularity": 3.7115,
-        "releaseDate": "2019-12-06",
-        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
-        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.1391,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
+        "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
+        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
