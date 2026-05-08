@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T03:22:55.522+08:00",
+  "last_updated": "2026-05-08T09:55:11.355+08:00",
   "tv": {
     "全网": [
       {
@@ -17,20 +17,6 @@
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 13.0779,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
-        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 273129,
         "type": "tmdb",
         "title": "爱情没有神话",
@@ -41,6 +27,20 @@
         "releaseDate": "2026-04-28",
         "posterPath": "/e50NDByUSkwjSNpkecH4YTbgq9l.jpg",
         "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 13.0779,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -207,7 +207,7 @@
         "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 5.7042,
+        "popularity": 6.686,
         "releaseDate": "2026-04-16",
         "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
         "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
@@ -227,20 +227,6 @@
         "backdropPath": "/wrbCLyF2njQtjGw5Js3JAOV69J5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 49036,
-        "type": "tmdb",
-        "title": "乡村爱情",
-        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
-        "rating": 6.1,
-        "voteCount": 8,
-        "popularity": 16.8256,
-        "releaseDate": "2006-09-30",
-        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
-        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,喜剧"
       },
       {
         "id": 278134,
@@ -283,6 +269,20 @@
         "backdropPath": "/x6QjTRPtCu0FMtf8FFts7yZSldO.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪"
+      },
+      {
+        "id": 262957,
+        "type": "tmdb",
+        "title": "暗恋者的救赎",
+        "description": "做事执着、具有超凡观察力的刑警队长宋诚在调查一起刑事案件的过程中，发现该案和四年前另一起案件有着千丝万缕的关联，而与这两起案件卷入到一起的还有一个共同的证人俞笑。随着宋诚对案件调查的深入，隐藏在俞笑生活中的秘密被逐一揭开。在宋诚的鼓励和帮助下，俞笑与警方联手共同寻找真相。随着案件的深入，二人在得到更多线索的同时，也面临诸多阻力。最终，宋诚和俞笑互相配合，克服阻碍，将真凶绳之以法。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.8561,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/8wSEvsH1UWUIqacz9ZBCbU7i5LH.jpg",
+        "backdropPath": "/c841YfQpZg91vi1lNZmcf1XANqv.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       }
     ],
     "爱奇艺": [
@@ -377,7 +377,7 @@
         "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
         "rating": 7.5,
         "voteCount": 2,
-        "popularity": 9.0032,
+        "popularity": 8.5058,
         "releaseDate": "2026-04-08",
         "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
         "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
@@ -405,7 +405,7 @@
         "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
         "rating": 6.692,
         "voteCount": 13,
-        "popularity": 4.8291,
+        "popularity": 4.8028,
         "releaseDate": "2026-02-03",
         "posterPath": "/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
         "backdropPath": "/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
@@ -419,7 +419,7 @@
         "description": "海州市通河岸边，五年前“8·17”大案的全新线索浮出水面。南城公安分局侦查员周瑾（蔡文静 饰）因其兄周川是该案中不幸殉职的两名特警之一，主动请缨投入追查。在犯罪心理学教授江寒声（井柏然 饰）的帮助下，警方锁定了以神秘人“老蝎”为首的犯罪集团。与此同时，执行“藏锋行动”长达五年之久的卧底民警蒋诚（秦俊杰 饰），也已摸进敌人核心，距“老蝎”仅有一步之遥。\n\n为了将犯罪集团一网打尽，周瑾、江寒声、蒋诚三个曾在栀子巷中一起长大的年轻人，在各自岗位上竭尽所能，与不法分子斗智斗勇，凭借正义、勇气和智慧战胜邪恶。在这场跨越时间与谜团的重重阻碍中，三人被迫卷入以情感为筹码、以人心为赌注的危险博弈，埋藏心底的隐痛与难解的命运谜题也在案件推进中逐步揭开。",
         "rating": 7,
         "voteCount": 2,
-        "popularity": 7.6616,
+        "popularity": 7.7558,
         "releaseDate": "2026-04-03",
         "posterPath": "/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg",
         "backdropPath": "/6p2BAwHKgIQfkoRdqVf3apf9ON9.jpg",
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 278894,
-        "type": "tmdb",
-        "title": "冰湖重生",
-        "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
-        "rating": 7.5,
-        "voteCount": 2,
-        "popularity": 9.0032,
-        "releaseDate": "2026-04-08",
-        "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
-        "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 259554,
         "type": "tmdb",
         "title": "夜色正浓",
@@ -541,18 +527,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 313056,
+        "id": 278894,
         "type": "tmdb",
-        "title": "被隐匿的真相",
-        "description": "青年刑警唐堂跟随师父参与调查一起十年前的裸女案，曾经的主犯白启明再次回到青城市引起了警方的高度重视。在对其布控调查的期间内，发现其牵连出更多的犯罪团伙。在网络平台借以“爱心收留流浪狗”为名的八公狗舍，实际上一直在诓骗民众，以此获取不法利益，同时还和白启明的犯罪行为有着极深的联系；在城内造成重大恶劣影响的偷狗二人组接连不断地引起事端，误食有毒食品的老人小孩激化社会矛盾，而他们背后似乎与“老白”还有着千丝万缕的关联；本地颇具盛名的鸿运餐厅老板失手杀人；以及那莫名消失的流浪汉……在这种种谜团的背后，年轻正义的唐堂逐渐解开了真相，可这时，青梅竹马却遭到绑架，其背后的始作俑者竟是她。",
-        "rating": 4,
-        "voteCount": 1,
-        "popularity": 0.9345,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/sin6bpb0I4qOBZzBF0dy1OlP8Jl.jpg",
-        "backdropPath": "/9mFGkqbXvFYVnRg4VAwmXjd8Qw1.jpg",
+        "title": "冰湖重生",
+        "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
+        "rating": 7.5,
+        "voteCount": 2,
+        "popularity": 8.5058,
+        "releaseDate": "2026-04-08",
+        "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
+        "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
         "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
+        "genreTitle": "剧情"
       },
       {
         "id": 278882,
@@ -561,7 +547,7 @@
         "description": "大厂打工人裴谦惨遭辞退之际，意外获得神秘大佬的邀请，创办了一家必须以亏损为目标的公司，于是他故意集齐各种不靠谱的虾兵蟹将，绞尽脑汁地给员工加薪放假发福利，又投资了一个个奇葩项目，不料竟一次次意外反转，屡战屡赚。裴谦有苦难言，却成为了员工心中的良心老板，业界公认的商业奇才，不得不带领公司继续逆风翻盘，终成当地第一集团。",
         "rating": 7.8,
         "voteCount": 10,
-        "popularity": 5.9006,
+        "popularity": 6.8042,
         "releaseDate": "2026-01-31",
         "posterPath": "/2VEotKlPxS7Fezhzu8mMWwIptuY.jpg",
         "backdropPath": "/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
@@ -599,20 +585,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291602,
-        "type": "tmdb",
-        "title": "夏末初见",
-        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 2.0509,
-        "releaseDate": "2026-04-19",
-        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
-        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 317895,
         "type": "tmdb",
         "title": "战旗如画",
@@ -627,18 +599,46 @@
         "genreTitle": "战争政治"
       },
       {
+        "id": 291602,
+        "type": "tmdb",
+        "title": "夏末初见",
+        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.0509,
+        "releaseDate": "2026-04-19",
+        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
+        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 283950,
         "type": "tmdb",
         "title": "女神蒙上眼",
         "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
         "rating": 8.7,
         "voteCount": 3,
-        "popularity": 2.7227,
+        "popularity": 2.7331,
         "releaseDate": "2026-01-25",
         "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
         "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.1415,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 283961,
@@ -655,20 +655,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 284512,
-        "type": "tmdb",
-        "title": "玉茗茶骨",
-        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
-        "rating": 8.3,
-        "voteCount": 9,
-        "popularity": 11.8355,
-        "releaseDate": "2025-12-29",
-        "posterPath": "/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
-        "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑,剧情"
-      },
-      {
         "id": 283682,
         "type": "tmdb",
         "title": "好好的时光",
@@ -683,18 +669,18 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 314888,
+        "id": 284512,
         "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.1415,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "title": "玉茗茶骨",
+        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
+        "rating": 8.3,
+        "voteCount": 9,
+        "popularity": 12.181,
+        "releaseDate": "2025-12-29",
+        "posterPath": "/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
+        "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
+        "genreTitle": "悬疑,剧情"
       },
       {
         "id": 318545,
@@ -749,7 +735,7 @@
         "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
         "rating": 5.5,
         "voteCount": 4,
-        "popularity": 13.9106,
+        "popularity": 14.7362,
         "releaseDate": "2022-12-17",
         "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
         "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
@@ -763,7 +749,7 @@
         "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.1436,
+        "popularity": 2.5198,
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
@@ -835,7 +821,7 @@
         "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
         "rating": 5.5,
         "voteCount": 4,
-        "popularity": 13.9106,
+        "popularity": 14.7362,
         "releaseDate": "2022-12-17",
         "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
         "backdropPath": "/yzTJkwSPkVjfIJnB7pvEpenCejG.jpg",
@@ -947,7 +933,7 @@
         "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.7794,
+        "popularity": 1.2063,
         "releaseDate": "2023-09-20",
         "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
         "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
@@ -1027,6 +1013,20 @@
         "genreTitle": "脱口秀,真人秀"
       },
       {
+        "id": 318025,
+        "type": "tmdb",
+        "title": "风华合伙人",
+        "description": "《风华合伙人》是由浙江卫视推出的一档经营快乐的实验真人秀。节目以一家青春潮饮生活店为背景，邀请观众与明星特调师共同参与新潮探店体验，寻觅“有趣悦己的客人”，客人可通过说唱、脱口秀等方式表达个性。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.861,
+        "releaseDate": "2026-04-03",
+        "posterPath": "/naolaCD3ctL503aGeJy2D1VwBrg.jpg",
+        "backdropPath": "/bACfaL8zkOZocS8ABBSpdQgOKDS.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 309100,
         "type": "tmdb",
         "title": "宇宙闪烁请注意",
@@ -1037,20 +1037,6 @@
         "releaseDate": "2025-12-27",
         "posterPath": "/gpNhdNSr6wzPbAuw10bmyou4Pdt.jpg",
         "backdropPath": "/ynJTZETBCHeJ1iaElvq1wRd2G2a.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 318025,
-        "type": "tmdb",
-        "title": "风华合伙人",
-        "description": "《风华合伙人》是由浙江卫视推出的一档经营快乐的实验真人秀。节目以一家青春潮饮生活店为背景，邀请观众与明星特调师共同参与新潮探店体验，寻觅“有趣悦己的客人”，客人可通过说唱、脱口秀等方式表达个性。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7694,
-        "releaseDate": "2026-04-03",
-        "posterPath": "/naolaCD3ctL503aGeJy2D1VwBrg.jpg",
-        "backdropPath": "/bACfaL8zkOZocS8ABBSpdQgOKDS.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1091,7 +1077,7 @@
         "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.1436,
+        "popularity": 2.5198,
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
@@ -1175,7 +1161,7 @@
         "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 4.6823,
+        "popularity": 4.8296,
         "releaseDate": "2024-05-14",
         "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
         "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
@@ -1261,7 +1247,7 @@
         "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.2771,
+        "popularity": 0.3389,
         "releaseDate": "2026-04-27",
         "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
         "backdropPath": null,
