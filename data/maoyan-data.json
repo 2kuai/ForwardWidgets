@@ -1,35 +1,7 @@
 {
-  "last_updated": "2026-05-12T21:49:20.524+08:00",
+  "last_updated": "2026-05-13T03:25:58.016+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元（张嘉益 饰）替外甥女报名，将年少的她改名易秦娥（刘浩存 饰）从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 10.9817,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/eumEgh3ovgVEON4HqsEBono1lTt.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9,
-        "voteCount": 4,
-        "popularity": 18.8721,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
-        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 254498,
         "type": "tmdb",
@@ -45,18 +17,46 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 10.9817,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/eumEgh3ovgVEON4HqsEBono1lTt.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
         "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 8.6,
-        "voteCount": 5,
+        "rating": 8.833,
+        "voteCount": 6,
         "popularity": 51.2349,
         "releaseDate": "2026-05-04",
         "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
         "backdropPath": "/anhYZV0WFz4Lv2Ldp2KIZdPCKAh.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9,
+        "voteCount": 4,
+        "popularity": 18.8721,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 273129,
@@ -187,20 +187,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 254486,
-        "type": "tmdb",
-        "title": "雨霖铃",
-        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 6.9233,
-        "releaseDate": "2026-05-13",
-        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
-        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 272476,
         "type": "tmdb",
         "title": "金关",
@@ -215,20 +201,6 @@
         "genreTitle": "悬疑,犯罪"
       },
       {
-        "id": 277412,
-        "type": "tmdb",
-        "title": "正义女神",
-        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 8.9125,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
-        "backdropPath": "/wrbCLyF2njQtjGw5Js3JAOV69J5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 290700,
         "type": "tmdb",
         "title": "重案解密",
@@ -241,6 +213,20 @@
         "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,剧情"
+      },
+      {
+        "id": 277412,
+        "type": "tmdb",
+        "title": "正义女神",
+        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 8.9125,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
+        "backdropPath": "/wrbCLyF2njQtjGw5Js3JAOV69J5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278134,
@@ -271,6 +257,20 @@
         "genreTitle": "家庭,喜剧"
       },
       {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 6.9233,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 61056,
         "type": "tmdb",
         "title": "逍遥法外",
@@ -291,8 +291,8 @@
         "type": "tmdb",
         "title": "低智商犯罪",
         "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 8.6,
-        "voteCount": 5,
+        "rating": 8.833,
+        "voteCount": 6,
         "popularity": 51.2349,
         "releaseDate": "2026-05-04",
         "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
@@ -371,34 +371,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 273151,
-        "type": "tmdb",
-        "title": "危险关系",
-        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
-        "rating": 6.7,
-        "voteCount": 3,
-        "popularity": 2.9369,
-        "releaseDate": "2026-03-31",
-        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
-        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 281392,
-        "type": "tmdb",
-        "title": "钢铁森林",
-        "description": "海州市通河岸边，五年前“8·17”大案的全新线索浮出水面。南城公安分局侦查员周瑾（蔡文静 饰）因其兄周川是该案中不幸殉职的两名特警之一，主动请缨投入追查。在犯罪心理学教授江寒声（井柏然 饰）的帮助下，警方锁定了以神秘人“老蝎”为首的犯罪集团。与此同时，执行“藏锋行动”长达五年之久的卧底民警蒋诚（秦俊杰 饰），也已摸进敌人核心，距“老蝎”仅有一步之遥。\n\n为了将犯罪集团一网打尽，周瑾、江寒声、蒋诚三个曾在栀子巷中一起长大的年轻人，在各自岗位上竭尽所能，与不法分子斗智斗勇，凭借正义、勇气和智慧战胜邪恶。在这场跨越时间与谜团的重重阻碍中，三人被迫卷入以情感为筹码、以人心为赌注的危险博弈，埋藏心底的隐痛与难解的命运谜题也在案件推进中逐步揭开。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 6.88,
-        "releaseDate": "2026-04-03",
-        "posterPath": "/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg",
-        "backdropPath": "/6p2BAwHKgIQfkoRdqVf3apf9ON9.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,犯罪,悬疑"
-      },
-      {
         "id": 280632,
         "type": "tmdb",
         "title": "成何体统",
@@ -413,18 +385,46 @@
         "genreTitle": "剧情,悬疑,喜剧"
       },
       {
-        "id": 278894,
+        "id": 262932,
         "type": "tmdb",
-        "title": "冰湖重生",
-        "description": "奴籍少女楚乔被燕北世子燕洵所救后两人结下深厚友谊，楚乔助力燕洵，但燕洵却以楚乔为饵，设伏诛杀大夏世家公子诸葛玥，诸葛玥与楚乔一起跌入冰湖。 楚乔获救后，寻机刺杀燕洵，为诸葛玥报仇。燕洵逃回燕北后一意孤行要攻打大夏，当初的屠龙少年终成恶龙，他对楚乔也由爱生恨，不择手段想让她臣服自己。楚乔一边对抗燕洵，一边怀疑与自己一同跌落冰湖的诸葛玥其实还活着，努力寻找他的下落。她在帮助卞唐平定内乱时得到一位神秘男子几次三番的营救，楚乔对他有种似曾相识的感觉，原来他就是诸葛玥。最终楚乔平定四方征战，成为了万民景仰的秀丽王，也与志同道合的将士们并肩携手，和百姓一起守护美好家园。",
-        "rating": 7.5,
-        "voteCount": 2,
-        "popularity": 7.2587,
-        "releaseDate": "2026-04-08",
-        "posterPath": "/qCh5TAFeUshmThNrzCrMAEuo49w.jpg",
-        "backdropPath": "/9gjYUk8NfKMExVKXkxkofgEJPI1.jpg",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.2,
+        "voteCount": 5,
+        "popularity": 14.0329,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,动作冒险,悬疑"
+      },
+      {
+        "id": 261676,
+        "type": "tmdb",
+        "title": "风过留痕",
+        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+        "rating": 6.692,
+        "voteCount": 13,
+        "popularity": 5.3066,
+        "releaseDate": "2026-02-03",
+        "posterPath": "/jlVH4LZCyHrssklKF2g2tLqtxdm.jpg",
+        "backdropPath": "/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 273151,
+        "type": "tmdb",
+        "title": "危险关系",
+        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
+        "rating": 6.7,
+        "voteCount": 3,
+        "popularity": 2.9369,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
+        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       }
     ],
     "腾讯视频": [
@@ -432,7 +432,7 @@
         "id": 284110,
         "type": "tmdb",
         "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元（张嘉益 饰）替外甥女报名，将年少的她改名易秦娥（刘浩存 饰）从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
         "rating": 9,
         "voteCount": 2,
         "popularity": 10.9817,
@@ -527,20 +527,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 313056,
-        "type": "tmdb",
-        "title": "被隐匿的真相",
-        "description": "青年刑警唐堂跟随师父参与调查一起十年前的裸女案，曾经的主犯白启明再次回到青城市引起了警方的高度重视。在对其布控调查的期间内，发现其牵连出更多的犯罪团伙。在网络平台借以“爱心收留流浪狗”为名的八公狗舍，实际上一直在诓骗民众，以此获取不法利益，同时还和白启明的犯罪行为有着极深的联系；在城内造成重大恶劣影响的偷狗二人组接连不断地引起事端，误食有毒食品的老人小孩激化社会矛盾，而他们背后似乎与“老白”还有着千丝万缕的关联；本地颇具盛名的鸿运餐厅老板失手杀人；以及那莫名消失的流浪汉……在这种种谜团的背后，年轻正义的唐堂逐渐解开了真相，可这时，青梅竹马却遭到绑架，其背后的始作俑者竟是她。",
-        "rating": 4,
-        "voteCount": 1,
-        "popularity": 1.1678,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/sin6bpb0I4qOBZzBF0dy1OlP8Jl.jpg",
-        "backdropPath": "/9mFGkqbXvFYVnRg4VAwmXjd8Qw1.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 259554,
         "type": "tmdb",
         "title": "夜色正浓",
@@ -553,6 +539,20 @@
         "backdropPath": "/emfrogWyGQNdQdnemu5dDnK7tIL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 313056,
+        "type": "tmdb",
+        "title": "被隐匿的真相",
+        "description": "青年刑警唐堂跟随师父参与调查一起十年前的裸女案，曾经的主犯白启明再次回到青城市引起了警方的高度重视。在对其布控调查的期间内，发现其牵连出更多的犯罪团伙。在网络平台借以“爱心收留流浪狗”为名的八公狗舍，实际上一直在诓骗民众，以此获取不法利益，同时还和白启明的犯罪行为有着极深的联系；在城内造成重大恶劣影响的偷狗二人组接连不断地引起事端，误食有毒食品的老人小孩激化社会矛盾，而他们背后似乎与“老白”还有着千丝万缕的关联；本地颇具盛名的鸿运餐厅老板失手杀人；以及那莫名消失的流浪汉……在这种种谜团的背后，年轻正义的唐堂逐渐解开了真相，可这时，青梅竹马却遭到绑架，其背后的始作俑者竟是她。",
+        "rating": 4,
+        "voteCount": 1,
+        "popularity": 1.1678,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/sin6bpb0I4qOBZzBF0dy1OlP8Jl.jpg",
+        "backdropPath": "/9mFGkqbXvFYVnRg4VAwmXjd8Qw1.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 278882,
@@ -585,20 +585,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.929,
-        "voteCount": 14,
-        "popularity": 7.2531,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 317895,
         "type": "tmdb",
         "title": "战旗如画",
@@ -611,6 +597,20 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.929,
+        "voteCount": 14,
+        "popularity": 7.2531,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283950,
@@ -641,20 +641,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291602,
-        "type": "tmdb",
-        "title": "夏末初见",
-        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.7785,
-        "releaseDate": "2026-04-19",
-        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
-        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283682,
         "type": "tmdb",
         "title": "好好的时光",
@@ -669,18 +655,18 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 314888,
+        "id": 291602,
         "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6451,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "title": "夏末初见",
+        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.7785,
+        "releaseDate": "2026-04-19",
+        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
+        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
+        "genreTitle": "剧情"
       },
       {
         "id": 284512,
@@ -709,6 +695,20 @@
         "backdropPath": "/zvduEZMK8rlrDwEFizI4gqsacZQ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6451,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       }
     ]
   },
@@ -857,20 +857,6 @@
         "genreTitle": "真人秀,家庭"
       },
       {
-        "id": 312878,
-        "type": "tmdb",
-        "title": "周五晚高疯",
-        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 1.7725,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
-        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317458,
         "type": "tmdb",
         "title": "不好笑就露宿街头",
@@ -883,6 +869,20 @@
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,真人秀"
+      },
+      {
+        "id": 312878,
+        "type": "tmdb",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 1.7725,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
+        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 251113,
@@ -1250,20 +1250,6 @@
         "popularity": 0.4177,
         "releaseDate": "2026-04-27",
         "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 321554,
-        "type": "tmdb",
-        "title": "是姐姐呀",
-        "description": "《是姐姐呀》是《甜蜜的任务》为姐姐们打造的专属特辑，节目通过“茶话会”的形式打开每位姐姐丰富多彩的生活姿态，深度挖掘《乘风2026》姐姐们舞台之外的反差魅力和宝藏多面!",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.6046,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/ljeV49WUHKo6hDHv58BdpN3EbC6.jpg",
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
