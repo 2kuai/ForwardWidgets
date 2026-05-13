@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T16:31:10.358+08:00",
+  "last_updated": "2026-05-13T22:02:30.324+08:00",
   "tv": {
     "全网": [
       {
@@ -17,11 +17,25 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 6.2501,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
         "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 8.833,
+        "rating": 8.8,
         "voteCount": 6,
         "popularity": 50.3815,
         "releaseDate": "2026-05-04",
@@ -127,23 +141,23 @@
         "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.802,
-        "voteCount": 63,
-        "popularity": 50.3757,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/yiUZ8Ck86FF3obLztVvSQqeBi0Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ],
     "优酷": [
+      {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 6.2501,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 254498,
         "type": "tmdb",
@@ -185,20 +199,6 @@
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 254486,
-        "type": "tmdb",
-        "title": "雨霖铃",
-        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 6.2501,
-        "releaseDate": "2026-05-13",
-        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
-        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 272476,
@@ -291,7 +291,7 @@
         "type": "tmdb",
         "title": "低智商犯罪",
         "description": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
-        "rating": 8.833,
+        "rating": 8.8,
         "voteCount": 6,
         "popularity": 50.3815,
         "releaseDate": "2026-05-04",
@@ -385,18 +385,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 280632,
+        "id": 273151,
         "type": "tmdb",
-        "title": "成何体统",
-        "description": "该剧改编自七英俊同名小说，并延续书中风格，讲述了一段男女主共同穿进书中世界，成为反派角色，试图扭转原剧情中悲惨结局的奇幻冒险。张三和王翠花披着冷面帝王和祸水妖妃的马甲，在暗流涌动的宫廷内外步步为营，却于不经意间撩动了真情，相互戒备的心在各种交锋中悄然融化，在这个异世之中成为彼此的故乡。故事中有笑有泪，有轻松搞笑也有浪漫唯美，但无论书中世界如何变幻莫测，真心终能战胜虚伪、相爱抵万难。",
-        "rating": 8.4,
-        "voteCount": 20,
-        "popularity": 13.1739,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-        "backdropPath": "/mIIDC7WpzLH9XtJZeSRvxECYz0n.jpg",
+        "title": "危险关系",
+        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
+        "rating": 6.7,
+        "voteCount": 3,
+        "popularity": 3.4029,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
+        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,喜剧"
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 281392,
@@ -413,18 +413,18 @@
         "genreTitle": "剧情,犯罪,悬疑"
       },
       {
-        "id": 262932,
+        "id": 280632,
         "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 8.2,
-        "voteCount": 5,
-        "popularity": 16.6336,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "title": "成何体统",
+        "description": "该剧改编自七英俊同名小说，并延续书中风格，讲述了一段男女主共同穿进书中世界，成为反派角色，试图扭转原剧情中悲惨结局的奇幻冒险。张三和王翠花披着冷面帝王和祸水妖妃的马甲，在暗流涌动的宫廷内外步步为营，却于不经意间撩动了真情，相互戒备的心在各种交锋中悄然融化，在这个异世之中成为彼此的故乡。故事中有笑有泪，有轻松搞笑也有浪漫唯美，但无论书中世界如何变幻莫测，真心终能战胜虚伪、相爱抵万难。",
+        "rating": 8.4,
+        "voteCount": 20,
+        "popularity": 13.1739,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
+        "backdropPath": "/mIIDC7WpzLH9XtJZeSRvxECYz0n.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
+        "genreTitle": "剧情,悬疑,喜剧"
       }
     ],
     "腾讯视频": [
@@ -599,20 +599,6 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 283682,
-        "type": "tmdb",
-        "title": "好好的时光",
-        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 2.3765,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
-        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -639,6 +625,20 @@
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 283682,
+        "type": "tmdb",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 2.3765,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 284512,
@@ -811,6 +811,20 @@
         "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 312878,
+        "type": "tmdb",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 1.5469,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
+        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
@@ -843,6 +857,20 @@
         "genreTitle": ""
       },
       {
+        "id": 312878,
+        "type": "tmdb",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 1.5469,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
+        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 283765,
         "type": "tmdb",
         "title": "我们的爸爸",
@@ -869,20 +897,6 @@
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,真人秀"
-      },
-      {
-        "id": 312878,
-        "type": "tmdb",
-        "title": "周五晚高疯",
-        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 1.5469,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
-        "backdropPath": "/38MHA6EifzSepGH2MboMXxfdwVs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       },
       {
         "id": 251113,
@@ -1250,6 +1264,20 @@
         "popularity": 0.6876,
         "releaseDate": "2026-04-27",
         "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 321554,
+        "type": "tmdb",
+        "title": "是姐姐呀",
+        "description": "《是姐姐呀》是《甜蜜的任务》为姐姐们打造的专属特辑，节目通过“茶话会”的形式打开每位姐姐丰富多彩的生活姿态，深度挖掘《乘风2026》姐姐们舞台之外的反差魅力和宝藏多面!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5603,
+        "releaseDate": "2026-04-27",
+        "posterPath": "/ljeV49WUHKo6hDHv58BdpN3EbC6.jpg",
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
