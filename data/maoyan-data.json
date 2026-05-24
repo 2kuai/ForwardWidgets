@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-24T20:56:11.305+08:00",
+  "last_updated": "2026-05-25T02:58:18.486+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9,
+        "voteCount": 5,
+        "popularity": 23.3501,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 284110,
         "type": "tmdb",
@@ -45,20 +59,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 23.3501,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
-        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 289209,
         "type": "tmdb",
         "title": "大唐迷雾",
@@ -71,20 +71,6 @@
         "backdropPath": "/88pSwy2kARpG8FkxGFQr0qnNjm5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
-        "rating": 8.1,
-        "voteCount": 13,
-        "popularity": 30.5896,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
-        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
         "id": 272715,
@@ -101,6 +87,20 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
+        "id": 273129,
+        "type": "tmdb",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 13.5551,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 321802,
         "type": "tmdb",
         "title": "盛唐奇案",
@@ -115,18 +115,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 273129,
+        "id": 272432,
         "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 13.5551,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "title": "低智商犯罪",
+        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
+        "rating": 8.1,
+        "voteCount": 13,
+        "popularity": 30.5896,
+        "releaseDate": "2026-05-04",
+        "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
+        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
         "id": 281231,
@@ -173,20 +173,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 278275,
-        "type": "tmdb",
-        "title": "月鳞绮纪",
-        "description": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
-        "rating": 8.5,
-        "voteCount": 16,
-        "popularity": 21.3066,
-        "releaseDate": "2026-04-01",
-        "posterPath": "/aRzRB34l28DuDodLh4levKudnB2.jpg",
-        "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 277870,
         "type": "tmdb",
         "title": "香港探秘地图",
@@ -199,6 +185,20 @@
         "backdropPath": "/19jmmEnPyFGhOGYAKZ1mFbrABa0.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 278275,
+        "type": "tmdb",
+        "title": "月鳞绮纪",
+        "description": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
+        "rating": 8.5,
+        "voteCount": 16,
+        "popularity": 21.3066,
+        "releaseDate": "2026-04-01",
+        "posterPath": "/aRzRB34l28DuDodLh4levKudnB2.jpg",
+        "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 278127,
@@ -301,20 +301,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
-        "rating": 8.1,
-        "voteCount": 13,
-        "popularity": 30.5896,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
-        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪,喜剧"
-      },
-      {
         "id": 272715,
         "type": "tmdb",
         "title": "佳偶天成",
@@ -341,6 +327,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
+        "rating": 8.1,
+        "voteCount": 13,
+        "popularity": 30.5896,
+        "releaseDate": "2026-05-04",
+        "posterPath": "/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
+        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
         "id": 281231,
@@ -371,20 +371,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 262932,
-        "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 8.167,
-        "voteCount": 6,
-        "popularity": 11.562,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
-      },
-      {
         "id": 281495,
         "type": "tmdb",
         "title": "除恶",
@@ -397,6 +383,20 @@
         "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 262932,
+        "type": "tmdb",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.167,
+        "voteCount": 6,
+        "popularity": 11.562,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
         "id": 261675,
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 258865,
-        "type": "tmdb",
-        "title": "白日提灯​",
-        "description": "天赋卓然的万灵之主贺思慕，在休沐觅食时意外遇见了小将军段胥。携带着她故人之物的这个小将军似乎并非真正的段胥？两人你来我往互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕的坚守和孤独。寿命不过百年的凡人和四百岁仍是少女的恶鬼，以爱意抵抗时间洪流。",
-        "rating": 7.889,
-        "voteCount": 9,
-        "popularity": 82.3907,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/4jPOkzQdogCkkT8HhS7kVsdoOBb.jpg",
-        "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 278868,
         "type": "tmdb",
         "title": "方圆八百米",
@@ -553,6 +539,20 @@
         "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 258865,
+        "type": "tmdb",
+        "title": "白日提灯​",
+        "description": "天赋卓然的万灵之主贺思慕，在休沐觅食时意外遇见了小将军段胥。携带着她故人之物的这个小将军似乎并非真正的段胥？两人你来我往互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕的坚守和孤独。寿命不过百年的凡人和四百岁仍是少女的恶鬼，以爱意抵抗时间洪流。",
+        "rating": 7.889,
+        "voteCount": 9,
+        "popularity": 82.3907,
+        "releaseDate": "2026-03-28",
+        "posterPath": "/4jPOkzQdogCkkT8HhS7kVsdoOBb.jpg",
+        "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 262932,
@@ -585,18 +585,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 314888,
+        "id": 283682,
         "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.4127,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 3.3639,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 279446,
@@ -641,20 +641,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283682,
-        "type": "tmdb",
-        "title": "好好的时光",
-        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 3.3639,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
-        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -669,18 +655,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291602,
+        "id": 314888,
         "type": "tmdb",
-        "title": "夏末初见",
-        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.3303,
-        "releaseDate": "2026-04-19",
-        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
-        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4127,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 284512,
@@ -707,6 +693,20 @@
         "releaseDate": "2026-04-16",
         "posterPath": "/sTvpK17jSS2Vo6uFc96uz5M8Ylo.jpg",
         "backdropPath": "/zvduEZMK8rlrDwEFizI4gqsacZQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 291602,
+        "type": "tmdb",
+        "title": "夏末初见",
+        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.3303,
+        "releaseDate": "2026-04-19",
+        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
+        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -799,20 +799,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 322722,
-        "type": "tmdb",
-        "title": "国乐无双",
-        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6133,
-        "releaseDate": "2026-05-23",
-        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
-        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 315850,
         "type": "tmdb",
         "title": "魔力歌先生",
@@ -823,20 +809,6 @@
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 320614,
-        "type": "tmdb",
-        "title": "超燃青春的合唱",
-        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.16,
-        "releaseDate": "2026-04-24",
-        "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
-        "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -899,20 +871,6 @@
         "genreTitle": "喜剧,真人秀"
       },
       {
-        "id": 312878,
-        "type": "tmdb",
-        "title": "周五晚高疯",
-        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 1.7789,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
-        "backdropPath": "/ohndO8QuZLNnkFMlhKHZ58pBICL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 283765,
         "type": "tmdb",
         "title": "我们的爸爸",
@@ -925,6 +883,20 @@
         "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,家庭"
+      },
+      {
+        "id": 312878,
+        "type": "tmdb",
+        "title": "周五晚高疯",
+        "description": "超敢玩的内娱活人们接受邀约集体出逃，带着他们的“秘密疯巢”一起上路！在循规蹈矩的生活之外，用脑洞大开的想象力，开启一个个疯狂抽象、极致快乐的主题活动，度过一段释放情绪、体验世界、回归自我、精神充电的LIFE GAP，打造“发疯治愈系”综艺，一起寻找快乐人生、好好休息的“疯向标”！",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 1.7789,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/5GVSXPtpdbCVlLSjHQKLYTKGpnN.jpg",
+        "backdropPath": "/ohndO8QuZLNnkFMlhKHZ58pBICL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 306210,
@@ -1225,16 +1197,16 @@
         "genreTitle": "真人秀,喜剧"
       },
       {
-        "id": 306210,
+        "id": 254532,
         "type": "tmdb",
-        "title": "奔跑吧·天路篇",
-        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
-        "rating": 8,
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "rating": 6,
         "voteCount": 1,
-        "popularity": 1.0754,
-        "releaseDate": "2025-11-22",
-        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
-        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "popularity": 4.0263,
+        "releaseDate": "2024-05-14",
+        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
+        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1255,20 +1227,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 100289,
-        "type": "tmdb",
-        "title": "潮流合伙人",
-        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
-        "rating": 2,
-        "voteCount": 1,
-        "popularity": 4.7885,
-        "releaseDate": "2019-12-06",
-        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
-        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
-      },
-      {
         "id": 97199,
         "type": "tmdb",
         "title": "妻子的浪漫旅行",
@@ -1281,6 +1239,20 @@
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 100289,
+        "type": "tmdb",
+        "title": "潮流合伙人",
+        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
+        "rating": 2,
+        "voteCount": 1,
+        "popularity": 4.7885,
+        "releaseDate": "2019-12-06",
+        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
+        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 321537,
