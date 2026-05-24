@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T16:14:08.907+08:00",
+  "last_updated": "2026-05-24T20:56:11.305+08:00",
   "tv": {
     "全网": [
       {
@@ -7,8 +7,8 @@
         "type": "tmdb",
         "title": "主角",
         "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 2,
+        "rating": 9.2,
+        "voteCount": 4,
         "popularity": 16.1034,
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
@@ -65,7 +65,7 @@
         "description": "大唐垂拱年间，狄仁杰因不满武后为野心牺牲无辜，一行人离开神都，巡查江南道，不想昭昭盛世之下，却是妖鬼横行。权力的倾轧、利欲的贪糜、执念的癫狂……将狄仁杰拉入了一个个精心编织的弥天大网之中。诡案在前，迷雾遮眼，大唐神探以近妖之智探微毫，以天人之技窥人心。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 11.8385,
+        "popularity": 25.214,
         "releaseDate": "2026-05-23",
         "posterPath": "/6hU5HUk41G4WKCCGMhFkxcH6s4C.jpg",
         "backdropPath": "/88pSwy2kARpG8FkxGFQr0qnNjm5.jpg",
@@ -101,20 +101,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 11.2876,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 321802,
         "type": "tmdb",
         "title": "盛唐奇案",
@@ -125,6 +111,20 @@
         "releaseDate": "2026-05-22",
         "posterPath": "/5hTyWTw5FvcIblFJDNimtN0EZhz.jpg",
         "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 273129,
+        "type": "tmdb",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 13.5551,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -243,6 +243,20 @@
         "genreTitle": "犯罪,剧情"
       },
       {
+        "id": 49036,
+        "type": "tmdb",
+        "title": "乡村爱情",
+        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
+        "rating": 6.1,
+        "voteCount": 8,
+        "popularity": 38.9002,
+        "releaseDate": "2006-09-30",
+        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
+        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,喜剧"
+      },
+      {
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
@@ -255,20 +269,6 @@
         "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 49036,
-        "type": "tmdb",
-        "title": "乡村爱情",
-        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
-        "rating": 6.1,
-        "voteCount": 8,
-        "popularity": 41.1906,
-        "releaseDate": "2006-09-30",
-        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
-        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,喜剧"
       },
       {
         "id": 278134,
@@ -399,10 +399,24 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
+        "id": 261675,
+        "type": "tmdb",
+        "title": "家事法庭",
+        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
+        "rating": 6.375,
+        "voteCount": 8,
+        "popularity": 3.1816,
+        "releaseDate": "2026-03-25",
+        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
+        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 273151,
         "type": "tmdb",
         "title": "危险关系",
-        "description": "单亲妈妈颜聆在调查闺蜜自杀真相的过程中，意外陷入“情感操控（PUA）”陷阱，爱恨纠葛中，颜聆逐渐觉醒并最终重获新生。",
+        "description": "　　36岁的大学讲师颜聆（孙俪 饰），正处于竞评副教授的关键节点。然而就在此时，学生李长宁（廖银玥 饰）突然在校园纵火发狂，颜聆也因此陷入舆论漩涡，遭受来自学校和社会的双重压力。同一天，发小简蕾蕾（夏星 饰）意外自杀，更背上挪用公款的嫌疑。颜聆的人生，瞬间跌入谷底。\n\n　　转机也随之而来。顺着蕾蕾身上诡异的纹身，颜聆发现闺蜜的未婚夫夏燚（戚九洲 饰）身上疑点重重，而李长宁发狂的真实原因，也与男友徐枫（吴念轩 饰）息息相关。在调查“学生发疯”与“闺蜜之死”的过程中，精神科医生罗梁（吴慷仁 饰）悄然走入她的生活。他帅气、贴心，既在颜聆追查真相时给予支持，又帮她排解生活中的烦恼，堪称“完美男友”。就在颜聆一步步沦陷之际，她却意外得知，罗梁竟是传闻中推广情感操控术的老手。她要如何挣脱这场精心编织的骗局？",
         "rating": 6.7,
         "voteCount": 3,
         "popularity": 4.1601,
@@ -411,20 +425,6 @@
         "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 280632,
-        "type": "tmdb",
-        "title": "成何体统",
-        "description": "该剧改编自七英俊同名小说，并延续书中风格，讲述了一段男女主共同穿进书中世界，成为反派角色，试图扭转原剧情中悲惨结局的奇幻冒险。张三和王翠花披着冷面帝王和祸水妖妃的马甲，在暗流涌动的宫廷内外步步为营，却于不经意间撩动了真情，相互戒备的心在各种交锋中悄然融化，在这个异世之中成为彼此的故乡。故事中有笑有泪，有轻松搞笑也有浪漫唯美，但无论书中世界如何变幻莫测，真心终能战胜虚伪、相爱抵万难。",
-        "rating": 8.35,
-        "voteCount": 20,
-        "popularity": 14.0668,
-        "releaseDate": "2026-02-06",
-        "posterPath": "/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-        "backdropPath": "/mIIDC7WpzLH9XtJZeSRvxECYz0n.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,喜剧"
       }
     ],
     "腾讯视频": [
@@ -433,8 +433,8 @@
         "type": "tmdb",
         "title": "主角",
         "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 2,
+        "rating": 9.2,
+        "voteCount": 4,
         "popularity": 16.1034,
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
@@ -449,7 +449,7 @@
         "description": "大唐垂拱年间，狄仁杰因不满武后为野心牺牲无辜，一行人离开神都，巡查江南道，不想昭昭盛世之下，却是妖鬼横行。权力的倾轧、利欲的贪糜、执念的癫狂……将狄仁杰拉入了一个个精心编织的弥天大网之中。诡案在前，迷雾遮眼，大唐神探以近妖之智探微毫，以天人之技窥人心。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 11.8385,
+        "popularity": 25.214,
         "releaseDate": "2026-05-23",
         "posterPath": "/6hU5HUk41G4WKCCGMhFkxcH6s4C.jpg",
         "backdropPath": "/88pSwy2kARpG8FkxGFQr0qnNjm5.jpg",
@@ -477,7 +477,7 @@
         "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 11.2876,
+        "popularity": 13.5551,
         "releaseDate": "2026-04-28",
         "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
         "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
@@ -585,20 +585,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 15,
-        "popularity": 27.2594,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 314888,
         "type": "tmdb",
         "title": "苦菜花",
@@ -611,6 +597,20 @@
         "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 15,
+        "popularity": 27.2594,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 317895,
@@ -799,6 +799,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 322722,
+        "type": "tmdb",
+        "title": "国乐无双",
+        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6133,
+        "releaseDate": "2026-05-23",
+        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
+        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 315850,
         "type": "tmdb",
         "title": "魔力歌先生",
@@ -813,16 +827,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 322722,
+        "id": 320614,
         "type": "tmdb",
-        "title": "国乐无双",
-        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.6133,
-        "releaseDate": "2026-05-23",
-        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
-        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
+        "popularity": 1.16,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
+        "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -863,7 +877,7 @@
         "description": "这是一次专属音乐人的集体团建。7位音乐人在不同城市通过同宿的方式开启一段音乐社交治愈之旅，旅途中他们将两两搭档完成6场双人音乐路演，以路演之名彼此寻找自己最契合的音乐搭档，为自己撒野、为友情呐喊、为感性唱歌。用年轻的叙事方式，讲述音乐人们最真实的社交故事。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 3.6865,
+        "popularity": 4.2091,
         "releaseDate": "2024-04-04",
         "posterPath": "/9oyqevhUcFqoKokCXtJMVc01i5K.jpg",
         "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
@@ -1005,7 +1019,7 @@
         "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.1206,
+        "popularity": 1.16,
         "releaseDate": "2026-04-24",
         "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
         "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
@@ -1197,20 +1211,6 @@
         "genreTitle": "脱口秀"
       },
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 4.0263,
-        "releaseDate": "2024-05-14",
-        "posterPath": "/eJcD17Voc9mjQ8sxTjyyyTRsQcW.jpg",
-        "backdropPath": "/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 231620,
         "type": "tmdb",
         "title": "现在就出发",
@@ -1223,6 +1223,20 @@
         "backdropPath": "/520WV4P5zcJulXNDMWARYIOIOZq.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 306210,
+        "type": "tmdb",
+        "title": "奔跑吧·天路篇",
+        "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.0754,
+        "releaseDate": "2025-11-22",
+        "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
+        "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ],
     "芒果TV": [
