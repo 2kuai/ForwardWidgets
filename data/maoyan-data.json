@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28T23:22:35.879+08:00",
+  "last_updated": "2026-05-29T04:02:27.400+08:00",
   "tv": {
     "全网": [
       {
@@ -21,8 +21,8 @@
         "type": "tmdb",
         "title": "耀眼",
         "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 8,
+        "voteCount": 1,
         "popularity": 8.9533,
         "releaseDate": "2026-05-27",
         "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
@@ -129,16 +129,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 321802,
+        "id": 279388,
         "type": "tmdb",
-        "title": "盛唐奇案",
-        "description": "盛世大唐，太守之女李静澜天赋异禀，擅验尸断案，与神秘“鬼探”决明、武艺高强的捕快苏御安联手追凶，揭开一桩桩离奇悬案：双生姐妹的生死置换、跨越十七年的书生冤案、雅集会上的连环仪式杀人等。在迷雾与鲜血中，李静澜与决明暗生情愫，彼此扶持，坚守心中正道，挣脱宿命桎梏。盛世灯火之下，他们以智慧与勇气涤荡污浊，书写下一段守护正义与清明的传奇。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.175,
-        "releaseDate": "2026-05-22",
-        "posterPath": "/5hTyWTw5FvcIblFJDNimtN0EZhz.jpg",
-        "backdropPath": "/8R6UsZr301vIRErpFYA7VOmloRL.jpg",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.945,
+        "voteCount": 64,
+        "popularity": 64.8891,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -173,20 +173,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 277870,
-        "type": "tmdb",
-        "title": "香港探秘地图",
-        "description": "玄学家庄一臣创立网上频道，并藉年轻女子王秀仪被指遇鬼昏迷之事，提升声望。一臣同时招揽打假网红毕萍、摄影师高文彬与秀仪组成探秘团队，深入查访连串古怪诡异的人和事！毕萍不齿一臣利用怪力乱神炒作，宣扬迷信，要藉工作共事撕破其假面具，与一臣斗气斗智斗力，却逐渐理解他隐藏的另一面。另边厢，一臣向富豪金夫人自荐，可助其寻回离奇失踪的儿子。深信的风水师龙贵寻人多时但无所获，金夫人心生疑虑，最终决定向一臣求助……",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 41.1714,
-        "releaseDate": "2026-05-18",
-        "posterPath": "/rWTQEgznWMGwAAtXxGgmM1mciFo.jpg",
-        "backdropPath": "/19jmmEnPyFGhOGYAKZ1mFbrABa0.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278275,
         "type": "tmdb",
         "title": "月鳞绮纪",
@@ -199,6 +185,20 @@
         "backdropPath": "/aiB8FUWA2suTybceLsOnfBWk8L6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 277870,
+        "type": "tmdb",
+        "title": "香港探秘地图",
+        "description": "玄学家庄一臣创立网上频道，并藉年轻女子王秀仪被指遇鬼昏迷之事，提升声望。一臣同时招揽打假网红毕萍、摄影师高文彬与秀仪组成探秘团队，深入查访连串古怪诡异的人和事！毕萍不齿一臣利用怪力乱神炒作，宣扬迷信，要藉工作共事撕破其假面具，与一臣斗气斗智斗力，却逐渐理解他隐藏的另一面。另边厢，一臣向富豪金夫人自荐，可助其寻回离奇失踪的儿子。深信的风水师龙贵寻人多时但无所获，金夫人心生疑虑，最终决定向一臣求助……",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 41.1714,
+        "releaseDate": "2026-05-18",
+        "posterPath": "/rWTQEgznWMGwAAtXxGgmM1mciFo.jpg",
+        "backdropPath": "/19jmmEnPyFGhOGYAKZ1mFbrABa0.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278127,
@@ -215,20 +215,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 290700,
-        "type": "tmdb",
-        "title": "重案解密",
-        "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 5.2106,
-        "releaseDate": "2026-04-16",
-        "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
-        "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,剧情"
-      },
-      {
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
@@ -241,6 +227,20 @@
         "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 290700,
+        "type": "tmdb",
+        "title": "重案解密",
+        "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 5.2106,
+        "releaseDate": "2026-04-16",
+        "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
+        "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,剧情"
       },
       {
         "id": 49036,
@@ -329,6 +329,20 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 7.945,
+        "voteCount": 64,
+        "popularity": 64.8891,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 321802,
         "type": "tmdb",
         "title": "盛唐奇案",
@@ -357,34 +371,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 7.945,
-        "voteCount": 64,
-        "popularity": 64.8891,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 323346,
-        "type": "tmdb",
-        "title": "塬上风云",
-        "description": "抗战时期，日军进犯豫西函谷关，妄图打通西进要道。共产党员蔡葆梓返乡发动抗日，身陷险境还遭误解蒙冤入狱。狱中结识当地两大刀客首领，凭借胆识与格局化解恩怨、凝聚人心。他奔走串联，团结刀客、爱国官兵与乡间百姓，整合各方力量组建抗日队伍。众人依托黄土塬地利优势，利用地坑院、山道险隘与日军展开游击战，顽强抗击侵略者。众人放下私怨、同仇敌忾，浴血守护故土家园，谱写了豫西塬上民众奋勇抗日的热血传奇。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.7142,
-        "releaseDate": "2026-05-24",
-        "posterPath": "/6lJ4Qb4yjaS1LyF4lPpu2NCvHCu.jpg",
-        "backdropPath": "/s6GVZ9BjESlE3Spr0XKMEQLrUSx.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
-      },
-      {
         "id": 281495,
         "type": "tmdb",
         "title": "除恶",
@@ -397,6 +383,20 @@
         "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 262932,
+        "type": "tmdb",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.167,
+        "voteCount": 6,
+        "popularity": 13.834,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
         "id": 303572,
@@ -413,18 +413,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 316780,
+        "id": 323346,
         "type": "tmdb",
-        "title": "樊笼",
-        "description": "工匠之女南烟栀家人被屠杀，南烟栀拜入庄无疚门下，从小白花学习成为一个挣扎泥潭的恶女，利用仅有的线索孤身潜入伶崖塔进行复仇。传闻间，进入伶崖塔的人都成为了斗兽场的野兽，无一生还。正当南烟栀以为自己孤立无援时，却看到了庄无疚作为伶崖塔的上位者出现…",
+        "title": "塬上风云",
+        "description": "抗战时期，日军进犯豫西函谷关，妄图打通西进要道。共产党员蔡葆梓返乡发动抗日，身陷险境还遭误解蒙冤入狱。狱中结识当地两大刀客首领，凭借胆识与格局化解恩怨、凝聚人心。他奔走串联，团结刀客、爱国官兵与乡间百姓，整合各方力量组建抗日队伍。众人依托黄土塬地利优势，利用地坑院、山道险隘与日军展开游击战，顽强抗击侵略者。众人放下私怨、同仇敌忾，浴血守护故土家园，谱写了豫西塬上民众奋勇抗日的热血传奇。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.2643,
-        "releaseDate": "2026-05-28",
-        "posterPath": "/a5we6K0YwyCPMZJXE7oQbZN1OPo.jpg",
-        "backdropPath": "/oE3SS1rmju4RsqrfeVaekitGDuI.jpg",
+        "popularity": 1.7142,
+        "releaseDate": "2026-05-24",
+        "posterPath": "/6lJ4Qb4yjaS1LyF4lPpu2NCvHCu.jpg",
+        "backdropPath": "/s6GVZ9BjESlE3Spr0XKMEQLrUSx.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,战争政治"
       }
     ],
     "腾讯视频": [
@@ -485,20 +485,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 21.2548,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -541,6 +527,20 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 21.2548,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
+      },
+      {
         "id": 240446,
         "type": "tmdb",
         "title": "玫瑰丛生",
@@ -575,8 +575,8 @@
         "type": "tmdb",
         "title": "耀眼",
         "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 8,
+        "voteCount": 1,
         "popularity": 8.9533,
         "releaseDate": "2026-05-27",
         "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
@@ -625,20 +625,6 @@
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 314888,
-        "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6519,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 317895,
@@ -695,6 +681,20 @@
         "backdropPath": "/9aludN1SsftAqpw73f7zrpKTB83.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6519,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       }
     ]
   },
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 322722,
-        "type": "tmdb",
-        "title": "国乐无双",
-        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6189,
-        "releaseDate": "2026-05-23",
-        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
-        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -781,6 +767,20 @@
         "releaseDate": "2023-01-29",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 322722,
+        "type": "tmdb",
+        "title": "国乐无双",
+        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6189,
+        "releaseDate": "2026-05-23",
+        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
+        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -939,20 +939,6 @@
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 236473,
-        "type": "tmdb",
-        "title": "第一人称复数",
-        "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7719,
-        "releaseDate": "2023-09-20",
-        "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
-        "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀"
       }
     ],
     "爱奇艺": [
@@ -1195,20 +1181,6 @@
         "backdropPath": "/slrML3QSI9eXSSefmma6lvcigdf.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀"
-      },
-      {
-        "id": 231620,
-        "type": "tmdb",
-        "title": "现在就出发",
-        "description": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
-        "rating": 7.2,
-        "voteCount": 6,
-        "popularity": 110.6264,
-        "releaseDate": "2023-08-13",
-        "posterPath": "/zs9xoKTxMSI2gscD6z8X9sBWIWp.jpg",
-        "backdropPath": "/520WV4P5zcJulXNDMWARYIOIOZq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
       }
     ],
     "芒果TV": [
@@ -1227,20 +1199,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 100289,
-        "type": "tmdb",
-        "title": "潮流合伙人",
-        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
-        "rating": 2,
-        "voteCount": 1,
-        "popularity": 3.4587,
-        "releaseDate": "2019-12-06",
-        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
-        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
-      },
-      {
         "id": 97199,
         "type": "tmdb",
         "title": "妻子的浪漫旅行",
@@ -1253,6 +1211,20 @@
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 100289,
+        "type": "tmdb",
+        "title": "潮流合伙人",
+        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
+        "rating": 2,
+        "voteCount": 1,
+        "popularity": 3.4587,
+        "releaseDate": "2019-12-06",
+        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
+        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,喜剧"
       },
       {
         "id": 321537,
