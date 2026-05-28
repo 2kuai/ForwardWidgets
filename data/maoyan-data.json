@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-05-28T17:41:28.734+08:00",
+  "last_updated": "2026-05-28T23:22:35.879+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 8.9533,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/8Y9qkgO0SYAz0Ji6ITWM2uvFvd.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 284110,
         "type": "tmdb",
@@ -27,6 +13,20 @@
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 287641,
+        "type": "tmdb",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 8.9533,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/8Y9qkgO0SYAz0Ji6ITWM2uvFvd.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -129,18 +129,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 281231,
+        "id": 321802,
         "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
+        "title": "盛唐奇案",
+        "description": "盛世大唐，太守之女李静澜天赋异禀，擅验尸断案，与神秘“鬼探”决明、武艺高强的捕快苏御安联手追凶，揭开一桩桩离奇悬案：双生姐妹的生死置换、跨越十七年的书生冤案、雅集会上的连环仪式杀人等。在迷雾与鲜血中，李静澜与决明暗生情愫，彼此扶持，坚守心中正道，挣脱宿命桎梏。盛世灯火之下，他们以智慧与勇气涤荡污浊，书写下一段守护正义与清明的传奇。",
+        "rating": 8,
         "voteCount": 1,
-        "popularity": 21.2548,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "popularity": 3.175,
+        "releaseDate": "2026-05-22",
+        "posterPath": "/5hTyWTw5FvcIblFJDNimtN0EZhz.jpg",
+        "backdropPath": "/8R6UsZr301vIRErpFYA7VOmloRL.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -215,20 +215,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 277412,
-        "type": "tmdb",
-        "title": "正义女神",
-        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 10.1077,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
-        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 290700,
         "type": "tmdb",
         "title": "重案解密",
@@ -241,6 +227,20 @@
         "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,剧情"
+      },
+      {
+        "id": 277412,
+        "type": "tmdb",
+        "title": "正义女神",
+        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 10.1077,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
+        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 49036,
@@ -329,20 +329,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 21.2548,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 321802,
         "type": "tmdb",
         "title": "盛唐奇案",
@@ -355,6 +341,20 @@
         "backdropPath": "/8R6UsZr301vIRErpFYA7VOmloRL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 21.2548,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 279388,
@@ -399,30 +399,30 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 262932,
+        "id": 303572,
         "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 8.167,
-        "voteCount": 6,
-        "popularity": 13.834,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "title": "欢迎回我的频道",
+        "description": "新媒体时代，酱紫，一个不够幸运，却始终在奋斗的路上努力奔跑，期望被看见的女孩。为了成为自媒体博主，她毅然决然地辞掉家乡的稳定工作，独自一人来到北京。她得到了跟曾经的偶像艾薇共事的机会，她们亦敌亦友，彼此欣赏又互相竞争。聪明能干，敢拼敢闯的酱紫逐渐在新媒体行业闯荡出属于自己的一片天地。同时，酱紫遇到了呆萌理工男罗鑫，他们从初识的欢喜冤家，到后来的相依相靠，罗鑫是她挣脱职场泥淖的出口，是她绝望时的解药。然而当酱紫站上成功的顶峰之后，却开始迷茫新媒体工作的意义所在。因为一次意外失误，酱紫被公司雪藏。事业跌落谷底的酱紫在罗鑫和艾薇的帮助下，终于完成了属于自己的“再成长”，事业也再度迎来新高峰。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.6044,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/5Q1SBzHcV97mDceQvKDjaSw6TD9.jpg",
+        "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
+        "genreTitle": "剧情"
       },
       {
-        "id": 261675,
+        "id": 316780,
         "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 6.375,
-        "voteCount": 8,
-        "popularity": 3.2219,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "title": "樊笼",
+        "description": "工匠之女南烟栀家人被屠杀，南烟栀拜入庄无疚门下，从小白花学习成为一个挣扎泥潭的恶女，利用仅有的线索孤身潜入伶崖塔进行复仇。传闻间，进入伶崖塔的人都成为了斗兽场的野兽，无一生还。正当南烟栀以为自己孤立无援时，却看到了庄无疚作为伶崖塔的上位者出现…",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.2643,
+        "releaseDate": "2026-05-28",
+        "posterPath": "/a5we6K0YwyCPMZJXE7oQbZN1OPo.jpg",
+        "backdropPath": "/oE3SS1rmju4RsqrfeVaekitGDuI.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -627,20 +627,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 317895,
-        "type": "tmdb",
-        "title": "战旗如画",
-        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 1.0476,
-        "releaseDate": "2026-03-29",
-        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
-        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治"
-      },
-      {
         "id": 314888,
         "type": "tmdb",
         "title": "苦菜花",
@@ -653,6 +639,20 @@
         "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
+      },
+      {
+        "id": 317895,
+        "type": "tmdb",
+        "title": "战旗如画",
+        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 1.0476,
+        "releaseDate": "2026-03-29",
+        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
+        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       },
       {
         "id": 283950,
@@ -701,20 +701,6 @@
   "show": {
     "全网": [
       {
-        "id": 112732,
-        "type": "tmdb",
-        "title": "哈哈哈哈哈",
-        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
-        "rating": 7,
-        "voteCount": 7,
-        "popularity": 99.5878,
-        "releaseDate": "2020-11-06",
-        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
-        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -725,6 +711,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/9UYEoitcO9Qphxm9woMISlwuRGM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 112732,
+        "type": "tmdb",
+        "title": "哈哈哈哈哈",
+        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
+        "rating": 7,
+        "voteCount": 7,
+        "popularity": 99.5878,
+        "releaseDate": "2020-11-06",
+        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
+        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -927,20 +927,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 236473,
-        "type": "tmdb",
-        "title": "第一人称复数",
-        "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7719,
-        "releaseDate": "2023-09-20",
-        "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
-        "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀"
-      },
-      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -953,6 +939,20 @@
         "backdropPath": "/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 236473,
+        "type": "tmdb",
+        "title": "第一人称复数",
+        "description": "节目以周轶君为话题发起人，每期邀请不同的谈话嘉宾，展开关于社会、科学、生活等多方面的探讨。用聊天的方式打开多元视角，碰撞多维观点，解读文化现象，启发深层思考。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.7719,
+        "releaseDate": "2023-09-20",
+        "posterPath": "/zJc19JjLAN6OtkSoxhc5sPKmMO6.jpg",
+        "backdropPath": "/mzbIOxu56oPJk8HUnso5iwikttz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀"
       }
     ],
     "爱奇艺": [
@@ -1071,20 +1071,6 @@
     ],
     "腾讯视频": [
       {
-        "id": 112732,
-        "type": "tmdb",
-        "title": "哈哈哈哈哈",
-        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
-        "rating": 7,
-        "voteCount": 7,
-        "popularity": 99.5878,
-        "releaseDate": "2020-11-06",
-        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
-        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -1095,6 +1081,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/9UYEoitcO9Qphxm9woMISlwuRGM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 112732,
+        "type": "tmdb",
+        "title": "哈哈哈哈哈",
+        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
+        "rating": 7,
+        "voteCount": 7,
+        "popularity": 99.5878,
+        "releaseDate": "2020-11-06",
+        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
+        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
