@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-05-29T17:31:08.544+08:00",
+  "last_updated": "2026-05-29T22:35:11.680+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9.2,
-        "voteCount": 4,
-        "popularity": 13.6634,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 287641,
         "type": "tmdb",
@@ -27,6 +13,20 @@
         "releaseDate": "2026-05-27",
         "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
         "backdropPath": "/8Y9qkgO0SYAz0Ji6ITWM2uvFvd.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9.2,
+        "voteCount": 4,
+        "popularity": 13.6634,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -399,20 +399,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 262932,
-        "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 8.167,
-        "voteCount": 6,
-        "popularity": 16.2659,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
-      },
-      {
         "id": 303572,
         "type": "tmdb",
         "title": "欢迎回我的频道",
@@ -425,6 +411,20 @@
         "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 262932,
+        "type": "tmdb",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.167,
+        "voteCount": 6,
+        "popularity": 16.2659,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,动作冒险,悬疑"
       }
     ],
     "腾讯视频": [
@@ -541,20 +541,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 287760,
-        "type": "tmdb",
-        "title": "纯真年代的爱情",
-        "description": "二十世纪七十年代，积极上进的纺织厂女工费霓一心想上大学靠知识改变命运。费霓的初中同学方穆扬因救人受伤成为了见义勇为的英雄，费霓主动提出照顾他，想要做好事评先进而被推荐上大学，但希望却屡次落空。现实的压力接踵而至，为了帮哥哥解决婚房的难题，费霓向方穆扬提出假结婚分房。几经波折二人终于有了自己的房子，成为了睡上下铺的小夫妻，他们共同面对困难，鼓励彼此追梦，虽磕磕绊绊，却也在平淡温馨的生活中滋长了情投意合的浪漫。最终费霓终于如愿上了大学，方穆扬也实现了自己的画家梦想，他们在幸福生活和美好未来的路上继续前行。",
-        "rating": 7.3,
-        "voteCount": 3,
-        "popularity": 9.2181,
-        "releaseDate": "2026-02-21",
-        "posterPath": "/8fjVJxa6uEWRzMIDLTjExPGf0Nj.jpg",
-        "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 240446,
         "type": "tmdb",
         "title": "玫瑰丛生",
@@ -567,6 +553,20 @@
         "backdropPath": "/d54CAgm1GvYAoYSmf3x4nNoTVn5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 263054,
+        "type": "tmdb",
+        "title": "过遍千城才识君",
+        "description": "御前养鸡官齐帜，被天子任命为隐秘钦察，寻找各地希望继承皇位的王爷。一路上与太子以及燕国公主欧阳燕成为搭档，共同破解了一个个“阴谋”，发生了诸多啼笑皆非的有趣故事。最终明确了各自的心意以及肩上需要承担的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.7824,
+        "releaseDate": "2026-05-29",
+        "posterPath": "/cBC9Mt1vzUFYupMsx62eKEXGkys.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -613,18 +613,18 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 279446,
+        "id": 314888,
         "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 15,
-        "popularity": 25.1303,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.4959,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 317895,
@@ -641,18 +641,18 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 314888,
+        "id": 279446,
         "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.4959,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 15,
+        "popularity": 25.1303,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
+        "genreTitle": "剧情"
       },
       {
         "id": 283961,
@@ -785,20 +785,6 @@
         "genreTitle": ""
       },
       {
-        "id": 216487,
-        "type": "tmdb",
-        "title": "无限超越班",
-        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
-        "rating": 5.5,
-        "voteCount": 4,
-        "popularity": 15.0514,
-        "releaseDate": "2022-12-17",
-        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
-        "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 322722,
         "type": "tmdb",
         "title": "国乐无双",
@@ -809,6 +795,34 @@
         "releaseDate": "2026-05-23",
         "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
         "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 315850,
+        "type": "tmdb",
+        "title": "魔力歌先生",
+        "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.9428,
+        "releaseDate": "2026-03-13",
+        "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
+        "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 320614,
+        "type": "tmdb",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.2916,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
+        "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -843,20 +857,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 317458,
-        "type": "tmdb",
-        "title": "不好笑就露宿街头",
-        "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.0485,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/dYOd96wRo3QUcZHJWaw8aA8Oyn3.jpg",
-        "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
-        "mediaType": "tv",
-        "genreTitle": "喜剧,真人秀"
-      },
-      {
         "id": 283765,
         "type": "tmdb",
         "title": "我们的爸爸",
@@ -869,6 +869,20 @@
         "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,家庭"
+      },
+      {
+        "id": 317458,
+        "type": "tmdb",
+        "title": "不好笑就露宿街头",
+        "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.0485,
+        "releaseDate": "2026-03-28",
+        "posterPath": "/dYOd96wRo3QUcZHJWaw8aA8Oyn3.jpg",
+        "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
+        "mediaType": "tv",
+        "genreTitle": "喜剧,真人秀"
       },
       {
         "id": 251113,
@@ -1171,20 +1185,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 97199,
-        "type": "tmdb",
-        "title": "妻子的浪漫旅行",
-        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 12.9915,
-        "releaseDate": "2018-08-22",
-        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
-        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 100289,
         "type": "tmdb",
         "title": "潮流合伙人",
@@ -1197,6 +1197,20 @@
         "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 97199,
+        "type": "tmdb",
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 12.9915,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 321537,
