@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T16:32:15.841+08:00",
+  "last_updated": "2026-05-31T21:09:22.189+08:00",
   "tv": {
     "全网": [
       {
@@ -201,20 +201,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 289271,
-        "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 11.7865,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/qMdUuzpksxds4aVHX9aX5TGrh6k.jpg",
-        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 278127,
         "type": "tmdb",
         "title": "唐宫奇案之青雾风鸣",
@@ -227,6 +213,20 @@
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 11.7865,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/qMdUuzpksxds4aVHX9aX5TGrh6k.jpg",
+        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
       },
       {
         "id": 278134,
@@ -405,7 +405,7 @@
         "description": "新媒体时代，酱紫，一个不够幸运，却始终在奋斗的路上努力奔跑，期望被看见的女孩。为了成为自媒体博主，她毅然决然地辞掉家乡的稳定工作，独自一人来到北京。她得到了跟曾经的偶像艾薇共事的机会，她们亦敌亦友，彼此欣赏又互相竞争。聪明能干，敢拼敢闯的酱紫逐渐在新媒体行业闯荡出属于自己的一片天地。同时，酱紫遇到了呆萌理工男罗鑫，他们从初识的欢喜冤家，到后来的相依相靠，罗鑫是她挣脱职场泥淖的出口，是她绝望时的解药。然而当酱紫站上成功的顶峰之后，却开始迷茫新媒体工作的意义所在。因为一次意外失误，酱紫被公司雪藏。事业跌落谷底的酱紫在罗鑫和艾薇的帮助下，终于完成了属于自己的“再成长”，事业也再度迎来新高峰。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 3.214,
+        "popularity": 2.8551,
         "releaseDate": "2026-05-27",
         "posterPath": "/5Q1SBzHcV97mDceQvKDjaSw6TD9.jpg",
         "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
@@ -729,20 +729,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 39.3909,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/7fxkcY9QC8HbMintKyO8GaVkzbW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -755,6 +741,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 39.3909,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/7fxkcY9QC8HbMintKyO8GaVkzbW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 126398,
@@ -795,6 +795,20 @@
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 320614,
+        "type": "tmdb",
+        "title": "超燃青春的合唱",
+        "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.7957,
+        "releaseDate": "2026-04-24",
+        "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
+        "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1043,20 +1057,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 39.3909,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/7fxkcY9QC8HbMintKyO8GaVkzbW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -1069,6 +1069,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 39.3909,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/7fxkcY9QC8HbMintKyO8GaVkzbW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 126398,
