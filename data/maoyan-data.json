@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T01:12:38.905+08:00",
+  "last_updated": "2026-06-02T05:18:55.248+08:00",
   "tv": {
     "全网": [
       {
@@ -17,20 +17,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 6.2,
-        "voteCount": 3,
-        "popularity": 16.0781,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 275966,
         "type": "tmdb",
         "title": "家业",
@@ -41,6 +27,20 @@
         "releaseDate": "2026-05-17",
         "posterPath": "/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
         "backdropPath": "/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 287641,
+        "type": "tmdb",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 6.2,
+        "voteCount": 3,
+        "popularity": 16.0781,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -115,20 +115,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 12.5328,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -139,6 +125,20 @@
         "releaseDate": "2026-03-06",
         "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
         "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.2,
+        "voteCount": 6,
+        "popularity": 11.0151,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -201,34 +201,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 278127,
-        "type": "tmdb",
-        "title": "唐宫奇案之青雾风鸣",
-        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
-        "rating": 7.2,
-        "voteCount": 10,
-        "popularity": 10.0034,
-        "releaseDate": "2026-02-05",
-        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
-        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 278134,
-        "type": "tmdb",
-        "title": "我的山与海",
-        "description": "来自西南山区玉县“神仙顶”的70后女孩方婉之，遭遇感情和家庭变故，20岁便从大学退学，辗转来到深圳。在打工初期时结识了闺蜜李娟、郝倩倩，三人携手面对风雨，随着深圳这片热土的发展，她们从打工到做外贸、再到自主创业玩具品牌，历经事业风波，以及黄耀东、颜子威等人的背叛，在深圳站稳了脚跟。方婉之始终坚持奋斗姿态，读夜大、学英语提高自己，也积极抓住改革开放浪潮和时代机遇，在不断清零的人生中奋斗不止。身边的人也在她影响下，有了美好归宿。当步入中年、公司顺利上市，她将企业交给团队打理，带着收养的孤儿方妙妙，与知己高翔一起回到故乡，就此安定在了命运起点神仙顶。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 3.6986,
-        "releaseDate": "2026-03-07",
-        "posterPath": "/t4XscDPzIMSS3RMX1DkLTv9dtA7.jpg",
-        "backdropPath": "/qWVSLeYjRDXnnGbU61ydw5OUFzW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 289271,
         "type": "tmdb",
         "title": "翘楚",
@@ -241,6 +213,20 @@
         "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 278127,
+        "type": "tmdb",
+        "title": "唐宫奇案之青雾风鸣",
+        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
+        "rating": 7.2,
+        "voteCount": 10,
+        "popularity": 10.0034,
+        "releaseDate": "2026-02-05",
+        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
+        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 272476,
@@ -283,6 +269,20 @@
         "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,剧情"
+      },
+      {
+        "id": 49036,
+        "type": "tmdb",
+        "title": "乡村爱情",
+        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
+        "rating": 6.1,
+        "voteCount": 8,
+        "popularity": 27.7076,
+        "releaseDate": "2006-09-30",
+        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
+        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,喜剧"
       }
     ],
     "爱奇艺": [
@@ -385,32 +385,18 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 261675,
+        "id": 262932,
         "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 6.375,
-        "voteCount": 8,
-        "popularity": 3.2108,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "title": "江湖夜雨十年灯",
+        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
+        "rating": 8.167,
+        "voteCount": 6,
+        "popularity": 13.9461,
+        "releaseDate": "2026-02-22",
+        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
+        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 303572,
-        "type": "tmdb",
-        "title": "欢迎回我的频道",
-        "description": "新媒体时代，酱紫，一个不够幸运，却始终在奋斗的路上努力奔跑，期望被看见的女孩。为了成为自媒体博主，她毅然决然地辞掉家乡的稳定工作，独自一人来到北京。她得到了跟曾经的偶像艾薇共事的机会，她们亦敌亦友，彼此欣赏又互相竞争。聪明能干，敢拼敢闯的酱紫逐渐在新媒体行业闯荡出属于自己的一片天地。同时，酱紫遇到了呆萌理工男罗鑫，他们从初识的欢喜冤家，到后来的相依相靠，罗鑫是她挣脱职场泥淖的出口，是她绝望时的解药。然而当酱紫站上成功的顶峰之后，却开始迷茫新媒体工作的意义所在。因为一次意外失误，酱紫被公司雪藏。事业跌落谷底的酱紫在罗鑫和艾薇的帮助下，终于完成了属于自己的“再成长”，事业也再度迎来新高峰。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.635,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/5Q1SBzHcV97mDceQvKDjaSw6TD9.jpg",
-        "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
         "id": 323346,
@@ -425,6 +411,20 @@
         "backdropPath": "/s6GVZ9BjESlE3Spr0XKMEQLrUSx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,战争政治"
+      },
+      {
+        "id": 261675,
+        "type": "tmdb",
+        "title": "家事法庭",
+        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
+        "rating": 6.375,
+        "voteCount": 8,
+        "popularity": 3.2108,
+        "releaseDate": "2026-03-25",
+        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
+        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "腾讯视频": [
@@ -485,20 +485,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 12.5328,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -509,20 +495,6 @@
         "releaseDate": "2026-03-06",
         "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
         "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 278868,
-        "type": "tmdb",
-        "title": "方圆八百米",
-        "description": "故事聚焦上世纪九十年代末的丰阳小镇矿区。一具无名女尸的出现，打破了表面的平静，小镇内的违禁药品贩卖网络随之浮出水面。警察陈红兵（丁勇岱 饰）紧跟线索，却步步逼近亲生儿子陈辉（许凯 饰）。在方圆八百米的小天地里，父子间的对抗、职责与亲情的纠结、法律与人性的交缠，让这个家庭与小城一同面临善恶的抉择与考验。",
-        "rating": 6.375,
-        "voteCount": 4,
-        "popularity": 8.8245,
-        "releaseDate": "2026-04-17",
-        "posterPath": "/oj688ZRAnYQrcqk59euex7laL10.jpg",
-        "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -541,6 +513,20 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
+        "id": 273129,
+        "type": "tmdb",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 12.5328,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 240446,
         "type": "tmdb",
         "title": "玫瑰丛生",
@@ -553,6 +539,20 @@
         "backdropPath": "/d54CAgm1GvYAoYSmf3x4nNoTVn5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 278868,
+        "type": "tmdb",
+        "title": "方圆八百米",
+        "description": "故事聚焦上世纪九十年代末的丰阳小镇矿区。一具无名女尸的出现，打破了表面的平静，小镇内的违禁药品贩卖网络随之浮出水面。警察陈红兵（丁勇岱 饰）紧跟线索，却步步逼近亲生儿子陈辉（许凯 饰）。在方圆八百米的小天地里，父子间的对抗、职责与亲情的纠结、法律与人性的交缠，让这个家庭与小城一同面临善恶的抉择与考验。",
+        "rating": 6.375,
+        "voteCount": 4,
+        "popularity": 8.8245,
+        "releaseDate": "2026-04-17",
+        "posterPath": "/oj688ZRAnYQrcqk59euex7laL10.jpg",
+        "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 287760,
@@ -641,6 +641,20 @@
         "genreTitle": "战争政治"
       },
       {
+        "id": 283950,
+        "type": "tmdb",
+        "title": "女神蒙上眼",
+        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 2.8081,
+        "releaseDate": "2026-01-25",
+        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
+        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -655,16 +669,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283950,
+        "id": 291602,
         "type": "tmdb",
-        "title": "女神蒙上眼",
-        "description": "雷厉风行的律师唐盈盈，将职场视为战场，全力以赴追求不败战绩。一桩捍卫女性权益的案件使唐盈盈声名大噪，但她特立独行的工作作风也在业内饱受争议。精英律师康俊空降律所，成为唐盈盈上司。二人在工作中屡生过节，关系势同水火。但也是在与康俊的“较量”中，她逐步消除自身的傲慢与偏见，以律师本心洞悉案件真相，脱胎换骨，重塑自我。在一桩桩案件的经办过程中，唐盈盈愈加深刻地体味到人性的善恶交织以及通往公平正义之路的幽微曲折。与此同时，律所前辈戴佩琳、助理律师林小云各自遭遇人生危机，唐盈盈披甲上阵，与她们比肩而行，以法律武器决绝捍卫女性合法权益。最终，在理想与现实交锋、道德与欲望纠葛的职业征途中，唐盈盈完成了人生的“第二次成长”。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 2.8081,
-        "releaseDate": "2026-01-25",
-        "posterPath": "/u8cZ69HBzkSDE5K3t5eJlL1TWVB.jpg",
-        "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
+        "title": "夏末初见",
+        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.0275,
+        "releaseDate": "2026-04-19",
+        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
+        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -681,20 +695,6 @@
         "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
-      },
-      {
-        "id": 291602,
-        "type": "tmdb",
-        "title": "夏末初见",
-        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.0275,
-        "releaseDate": "2026-04-19",
-        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
-        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ]
   },
@@ -809,20 +809,6 @@
         "releaseDate": "2026-05-23",
         "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
         "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 28.6176,
-        "releaseDate": "2023-01-29",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
