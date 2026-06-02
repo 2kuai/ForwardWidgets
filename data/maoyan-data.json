@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T05:18:55.248+08:00",
+  "last_updated": "2026-06-02T10:32:17.190+08:00",
   "tv": {
     "全网": [
       {
@@ -9,7 +9,7 @@
         "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
         "rating": 9.2,
         "voteCount": 4,
-        "popularity": 18.7386,
+        "popularity": 19.9583,
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
@@ -59,20 +59,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
-        "rating": 8.1,
-        "voteCount": 15,
-        "popularity": 32.978,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg",
-        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪,喜剧"
-      },
-      {
         "id": 289209,
         "type": "tmdb",
         "title": "大唐迷雾",
@@ -85,6 +71,20 @@
         "backdropPath": "/sZqN7CIUIRYppl09eFWWiZMBvIK.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 272432,
+        "type": "tmdb",
+        "title": "低智商犯罪",
+        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
+        "rating": 8.1,
+        "voteCount": 15,
+        "popularity": 32.978,
+        "releaseDate": "2026-05-04",
+        "posterPath": "/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg",
+        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
         "id": 272715,
@@ -101,20 +101,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 15.4942,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -129,13 +115,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 15.4942,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
+      },
+      {
         "id": 283952,
         "type": "tmdb",
         "title": "良陈美锦",
         "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
         "rating": 9.2,
         "voteCount": 6,
-        "popularity": 11.0151,
+        "popularity": 11.4513,
         "releaseDate": "2026-05-03",
         "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
         "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
@@ -193,7 +193,7 @@
         "description": "玄学家庄一臣创立网上频道，并藉年轻女子王秀仪被指遇鬼昏迷之事，提升声望。一臣同时招揽打假网红毕萍、摄影师高文彬与秀仪组成探秘团队，深入查访连串古怪诡异的人和事！毕萍不齿一臣利用怪力乱神炒作，宣扬迷信，要藉工作共事撕破其假面具，与一臣斗气斗智斗力，却逐渐理解他隐藏的另一面。另边厢，一臣向富豪金夫人自荐，可助其寻回离奇失踪的儿子。深信的风水师龙贵寻人多时但无所获，金夫人心生疑虑，最终决定向一臣求助……",
         "rating": 8.7,
         "voteCount": 3,
-        "popularity": 28.2289,
+        "popularity": 27.9271,
         "releaseDate": "2026-05-18",
         "posterPath": "/rWTQEgznWMGwAAtXxGgmM1mciFo.jpg",
         "backdropPath": "/19jmmEnPyFGhOGYAKZ1mFbrABa0.jpg",
@@ -221,7 +221,7 @@
         "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
         "rating": 7.2,
         "voteCount": 10,
-        "popularity": 10.0034,
+        "popularity": 9.4345,
         "releaseDate": "2026-02-05",
         "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
@@ -249,7 +249,7 @@
         "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
         "rating": 7.6,
         "voteCount": 7,
-        "popularity": 10.8796,
+        "popularity": 10.3061,
         "releaseDate": "2026-03-16",
         "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
         "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
@@ -263,7 +263,7 @@
         "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 5.0161,
+        "popularity": 5.0407,
         "releaseDate": "2026-04-16",
         "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
         "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
@@ -329,20 +329,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 15.4942,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -355,6 +341,20 @@
         "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 15.4942,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 321802,
@@ -391,7 +391,7 @@
         "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
         "rating": 8.167,
         "voteCount": 6,
-        "popularity": 13.9461,
+        "popularity": 14.2914,
         "releaseDate": "2026-02-22",
         "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
         "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
@@ -413,16 +413,16 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 261675,
+        "id": 303572,
         "type": "tmdb",
-        "title": "家事法庭",
-        "description": "由最高人民法院影视中心全程指导，案例丰富基础扎实。该剧讲述了青年法官沈谢秩从刑庭调至家事庭，与热心律师秦睿不期而遇，二人同家事庭的多位法官深入基层工作，为人民群众解决亲子矛盾、婚姻困境等纷繁的社会、家庭问题。在一桩桩案件中，以赤诚之心剖解百态，不忘初心传递法治温度。",
-        "rating": 6.375,
-        "voteCount": 8,
-        "popularity": 3.2108,
-        "releaseDate": "2026-03-25",
-        "posterPath": "/8sxttf1E82L6A7FxCAP4PQ1gc9s.jpg",
-        "backdropPath": "/tyk6lS8hxQ1T8eE8Vy9AtuAr7io.jpg",
+        "title": "欢迎回我的频道",
+        "description": "新媒体时代，酱紫，一个不够幸运，却始终在奋斗的路上努力奔跑，期望被看见的女孩。为了成为自媒体博主，她毅然决然地辞掉家乡的稳定工作，独自一人来到北京。她得到了跟曾经的偶像艾薇共事的机会，她们亦敌亦友，彼此欣赏又互相竞争。聪明能干，敢拼敢闯的酱紫逐渐在新媒体行业闯荡出属于自己的一片天地。同时，酱紫遇到了呆萌理工男罗鑫，他们从初识的欢喜冤家，到后来的相依相靠，罗鑫是她挣脱职场泥淖的出口，是她绝望时的解药。然而当酱紫站上成功的顶峰之后，却开始迷茫新媒体工作的意义所在。因为一次意外失误，酱紫被公司雪藏。事业跌落谷底的酱紫在罗鑫和艾薇的帮助下，终于完成了属于自己的“再成长”，事业也再度迎来新高峰。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.635,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/5Q1SBzHcV97mDceQvKDjaSw6TD9.jpg",
+        "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -435,7 +435,7 @@
         "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
         "rating": 9.2,
         "voteCount": 4,
-        "popularity": 18.7386,
+        "popularity": 19.9583,
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
@@ -471,20 +471,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 15.4942,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -499,6 +485,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 15.4942,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
+      },
+      {
         "id": 258865,
         "type": "tmdb",
         "title": "白日提灯​",
@@ -511,6 +511,20 @@
         "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 278868,
+        "type": "tmdb",
+        "title": "方圆八百米",
+        "description": "故事聚焦上世纪九十年代末的丰阳小镇矿区。一具无名女尸的出现，打破了表面的平静，小镇内的违禁药品贩卖网络随之浮出水面。警察陈红兵（丁勇岱 饰）紧跟线索，却步步逼近亲生儿子陈辉（许凯 饰）。在方圆八百米的小天地里，父子间的对抗、职责与亲情的纠结、法律与人性的交缠，让这个家庭与小城一同面临善恶的抉择与考验。",
+        "rating": 6.375,
+        "voteCount": 4,
+        "popularity": 8.8245,
+        "releaseDate": "2026-04-17",
+        "posterPath": "/oj688ZRAnYQrcqk59euex7laL10.jpg",
+        "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 273129,
@@ -533,26 +547,12 @@
         "description": "对待爱情认真而小心的李晓兮与小贝邂逅，两人开始了一段浪漫的恋爱。小贝的忠诚和坚定给予李晓兮力量，让李晓兮逐渐克服心中对爱情的不安全感。小贝也在李晓兮的陪伴和包容下，治愈了心中的旧伤痛，逐渐释怀，学会珍惜。呵护情感的过程中让李晓兮与小贝看到了爱情的更多面，共同经历了很多困难，最终得到了成长，收获了真挚的爱情。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 3.1705,
+        "popularity": 2.9325,
         "releaseDate": "2026-02-26",
         "posterPath": "/zhMzxTvm86guny5vGzaOUAhF0zu.jpg",
         "backdropPath": "/d54CAgm1GvYAoYSmf3x4nNoTVn5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 278868,
-        "type": "tmdb",
-        "title": "方圆八百米",
-        "description": "故事聚焦上世纪九十年代末的丰阳小镇矿区。一具无名女尸的出现，打破了表面的平静，小镇内的违禁药品贩卖网络随之浮出水面。警察陈红兵（丁勇岱 饰）紧跟线索，却步步逼近亲生儿子陈辉（许凯 饰）。在方圆八百米的小天地里，父子间的对抗、职责与亲情的纠结、法律与人性的交缠，让这个家庭与小城一同面临善恶的抉择与考验。",
-        "rating": 6.375,
-        "voteCount": 4,
-        "popularity": 8.8245,
-        "releaseDate": "2026-04-17",
-        "posterPath": "/oj688ZRAnYQrcqk59euex7laL10.jpg",
-        "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 287760,
@@ -591,7 +591,7 @@
         "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
         "rating": 9.2,
         "voteCount": 6,
-        "popularity": 11.0151,
+        "popularity": 11.4513,
         "releaseDate": "2026-05-03",
         "posterPath": "/kVZD96lcpqookwatK2VD6loXZAN.jpg",
         "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
@@ -613,20 +613,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 16,
-        "popularity": 20.5285,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 317895,
         "type": "tmdb",
         "title": "战旗如画",
@@ -639,6 +625,20 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 16,
+        "popularity": 20.5285,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283950,
@@ -655,18 +655,46 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.576,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
+      },
+      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
         "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
         "rating": 6.5,
         "voteCount": 4,
-        "popularity": 6.7698,
+        "popularity": 6.6971,
         "releaseDate": "2026-03-26",
         "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 309609,
+        "type": "tmdb",
+        "title": "长河落日",
+        "description": "1942年3月19日傍晚， 一架载有笃信者的盟军飞机飞抵仰光机场，降落之时发现机场已被日军占领，奋起复飞，不料第二天最高当局却收到了飞机被击落的AAAA级电报，引起了当局极大恐慌，笃信者此次的使命是向中国战区最高当局送达一份绝密的行动方案及联络密码，当局命令军事情报部门不惜一切代价，查到失踪飞机和笃信者的下落。笃信者此次携带的便是行动的全部计划、与太平洋上的航母编队以及与执行轰炸任务的轰炸机编队的联系密码， 一旦这份文件落入日军手中，不但轰炸东京计划将失败，还会使得整个护送舰队沦为日军嘴里的待宰羔羊！笃信者受伤跳伞，降落到了日军海军第六航空基地驻守的三灶岛，被当地岛民营救并藏匿。",
+        "rating": 8.333,
+        "voteCount": 3,
+        "popularity": 1.0091,
+        "releaseDate": "2026-01-01",
+        "posterPath": "/hE7hiQ8c4MSNuSYp3mSfcZ1Qm5o.jpg",
+        "backdropPath": "/9aludN1SsftAqpw73f7zrpKTB83.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       },
       {
         "id": 291602,
@@ -675,26 +703,12 @@
         "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 1.0275,
+        "popularity": 1.1355,
         "releaseDate": "2026-04-19",
         "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
         "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 284512,
-        "type": "tmdb",
-        "title": "玉茗茶骨",
-        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
-        "rating": 8.5,
-        "voteCount": 10,
-        "popularity": 7.908,
-        "releaseDate": "2025-12-29",
-        "posterPath": "/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
-        "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑,剧情"
       }
     ]
   },
@@ -721,7 +735,7 @@
         "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 9.1705,
+        "popularity": 11.1423,
         "releaseDate": "2026-04-02",
         "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
         "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
@@ -757,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0743,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 154420,
         "type": "tmdb",
         "title": "半熟恋人",
@@ -783,6 +783,20 @@
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0743,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 203003,
@@ -799,16 +813,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 322722,
+        "id": 219934,
         "type": "tmdb",
-        "title": "国乐无双",
-        "description": "《国乐无双》把经典国语歌曲重新填词为粤语版本赋予作品全新的语言韵味与情感表达，把脍炙人口的粤语金曲改编为国语版本让经典旋律跨越语言边界。《国乐无双》在同首作品中巧妙融合国语与粤语创造独特的双语音乐体验，围绕特定主题进行多语言创作探索音乐表达的无限可能性",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6178,
-        "releaseDate": "2026-05-23",
-        "posterPath": "/rq7OeMntbdkKJA10Z315QEhyaof.jpg",
-        "backdropPath": "/xT6PvvA6G1pfEhSya25d2IxWR8D.jpg",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 28.6176,
+        "releaseDate": "2023-01-29",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -877,7 +891,7 @@
         "description": "这是一次专属音乐人的集体团建。7位音乐人在不同城市通过同宿的方式开启一段音乐社交治愈之旅，旅途中他们将两两搭档完成6场双人音乐路演，以路演之名彼此寻找自己最契合的音乐搭档，为自己撒野、为友情呐喊、为感性唱歌。用年轻的叙事方式，讲述音乐人们最真实的社交故事。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 3.6526,
+        "popularity": 4.0643,
         "releaseDate": "2024-04-04",
         "posterPath": "/9oyqevhUcFqoKokCXtJMVc01i5K.jpg",
         "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
@@ -905,7 +919,7 @@
         "description": "连接山河之极，感受疆藏之美。这一季，跑男团将从西藏到新疆，用脚步丈量祖国大好河山，用心感受大国疆土的辽阔与温暖。在西藏，邂逅日照金山的震撼，身着民族服饰融入藏地风情，体悟那份纯粹与神圣；在新疆，寻觅街头巷尾的美食香气，沉浸于多元文化的独特魅力，解锁不一样的奔跑体验。",
         "rating": 7,
         "voteCount": 2,
-        "popularity": 0.9443,
+        "popularity": 1.0421,
         "releaseDate": "2025-11-22",
         "posterPath": "/mIKn3d1dne1JQA1Y0LKaR1r2xMc.jpg",
         "backdropPath": "/cqyFKk66fssTFjWLy5el2pdNDo6.jpg",
@@ -991,7 +1005,7 @@
         "description": "节目由大张伟、付航领衔，庞博、王建国、周奇墨、小鹿、嘻哈、房主任等一众喜剧人齐聚，融合单口喜剧、Sketch、幽默访谈与音乐喜剧等多种喜剧形式，每期深入一个年轻人热议话题，打造真正适合年轻人精神状态的多元喜剧节目。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.7261,
+        "popularity": 1.4712,
         "releaseDate": "2026-02-20",
         "posterPath": "/23d0Q5w4hAeAVlEvthUIGLgPaE3.jpg",
         "backdropPath": "/szZSL1YrssnHc0KYW5Y3feU2sTw.jpg",
@@ -1071,20 +1085,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0743,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 154420,
         "type": "tmdb",
         "title": "半熟恋人",
@@ -1097,6 +1097,20 @@
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0743,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 203003,
@@ -1161,7 +1175,7 @@
         "description": "腾讯的创新准直播访谈节目《十三邀》，一改传统新闻访谈节目客观中立的态度，以许知远偏见的视角，带领观众在与13位“社会切片”的对话中，观察和理解这个世界。",
         "rating": 8.8,
         "voteCount": 4,
-        "popularity": 12.0914,
+        "popularity": 11.5084,
         "releaseDate": "2016-05-17",
         "posterPath": "/jaVXnCKiE3k1O3ULUQ1xFVwZSHg.jpg",
         "backdropPath": "/4sT7q5OwpzBoG1zOlTyY9cIcjPq.jpg",
@@ -1177,7 +1191,7 @@
         "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 9.1705,
+        "popularity": 11.1423,
         "releaseDate": "2026-04-02",
         "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
         "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
@@ -1191,24 +1205,10 @@
         "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
         "rating": 5.5,
         "voteCount": 2,
-        "popularity": 12.8811,
+        "popularity": 13.9418,
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 321537,
-        "type": "tmdb",
-        "title": "为爱闪耀的她",
-        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.669,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1225,6 +1225,20 @@
         "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 321537,
+        "type": "tmdb",
+        "title": "为爱闪耀的她",
+        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.6752,
+        "releaseDate": "2026-04-27",
+        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ]
   }
