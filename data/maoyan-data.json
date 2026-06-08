@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-06-08T23:23:42.744+08:00",
+  "last_updated": "2026-06-09T03:58:51.806+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 6.2,
-        "voteCount": 3,
-        "popularity": 16.9848,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/z4UAVisyTMBOO6R58tKBkEvx7WU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 284110,
         "type": "tmdb",
@@ -31,18 +17,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 282497,
+        "id": 287641,
         "type": "tmdb",
-        "title": "迷墙",
-        "description": "倒霉透顶的小夫妻，盲打误撞住进了一幢大别墅，意外发现了一笔藏匿其中的巨款，风波袭来，让他们分不清，这到底是噩梦还是美梦。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 5.967,
-        "releaseDate": "2026-06-07",
-        "posterPath": "/1lPtFI5KujhtfagWqBrFN0zIkTv.jpg",
-        "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 6.2,
+        "voteCount": 3,
+        "popularity": 16.9848,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/z4UAVisyTMBOO6R58tKBkEvx7WU.jpg",
         "mediaType": "tv",
-        "genreTitle": "犯罪"
+        "genreTitle": "剧情"
       },
       {
         "id": 289271,
@@ -73,6 +59,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 282497,
+        "type": "tmdb",
+        "title": "迷墙",
+        "description": "倒霉透顶的小夫妻，盲打误撞住进了一幢大别墅，意外发现了一笔藏匿其中的巨款，风波袭来，让他们分不清，这到底是噩梦还是美梦。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 5.967,
+        "releaseDate": "2026-06-07",
+        "posterPath": "/1lPtFI5KujhtfagWqBrFN0zIkTv.jpg",
+        "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
+      },
+      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -82,9 +82,23 @@
         "popularity": 17.6009,
         "releaseDate": "2026-05-04",
         "posterPath": "/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg",
-        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
+        "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
+      },
+      {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
+        "rating": 7,
+        "voteCount": 7,
+        "popularity": 32.7508,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 289209,
@@ -113,20 +127,6 @@
         "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 254486,
-        "type": "tmdb",
-        "title": "雨霖铃",
-        "description": "已身居御前四品带刀护卫的展昭，在收到故友留下的悬案证据后只身探寻线索，却遭遇各方势力袭杀，并在途中结识了才貌双全、天性不屈的玲珑山庄大小姐霍玲珑，以及满腔热血、以暴制恶的“锦毛鼠”白玉堂。志同道合的三人一路搜寻线索，行侠仗义，捉拿罪犯，撕破襄阳王多年来编织的遍布朝野和江湖的势力网，最终挫败了襄阳王的阴谋，还百姓安宁。",
-        "rating": 7,
-        "voteCount": 7,
-        "popularity": 32.7508,
-        "releaseDate": "2026-05-13",
-        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
-        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 272715,
@@ -215,6 +215,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 278134,
+        "type": "tmdb",
+        "title": "我的山与海",
+        "description": "来自西南山区玉县“神仙顶”的70后女孩方婉之，遭遇感情和家庭变故，20岁便从大学退学，辗转来到深圳。在打工初期时结识了闺蜜李娟、郝倩倩，三人携手面对风雨，随着深圳这片热土的发展，她们从打工到做外贸、再到自主创业玩具品牌，历经事业风波，以及黄耀东、颜子威等人的背叛，在深圳站稳了脚跟。方婉之始终坚持奋斗姿态，读夜大、学英语提高自己，也积极抓住改革开放浪潮和时代机遇，在不断清零的人生中奋斗不止。身边的人也在她影响下，有了美好归宿。当步入中年、公司顺利上市，她将企业交给团队打理，带着收养的孤儿方妙妙，与知己高翔一起回到故乡，就此安定在了命运起点神仙顶。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 3.1041,
+        "releaseDate": "2026-03-07",
+        "posterPath": "/t4XscDPzIMSS3RMX1DkLTv9dtA7.jpg",
+        "backdropPath": "/qWVSLeYjRDXnnGbU61ydw5OUFzW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 272476,
         "type": "tmdb",
         "title": "金关",
@@ -229,16 +243,16 @@
         "genreTitle": "悬疑,犯罪"
       },
       {
-        "id": 278134,
+        "id": 277412,
         "type": "tmdb",
-        "title": "我的山与海",
-        "description": "来自西南山区玉县“神仙顶”的70后女孩方婉之，遭遇感情和家庭变故，20岁便从大学退学，辗转来到深圳。在打工初期时结识了闺蜜李娟、郝倩倩，三人携手面对风雨，随着深圳这片热土的发展，她们从打工到做外贸、再到自主创业玩具品牌，历经事业风波，以及黄耀东、颜子威等人的背叛，在深圳站稳了脚跟。方婉之始终坚持奋斗姿态，读夜大、学英语提高自己，也积极抓住改革开放浪潮和时代机遇，在不断清零的人生中奋斗不止。身边的人也在她影响下，有了美好归宿。当步入中年、公司顺利上市，她将企业交给团队打理，带着收养的孤儿方妙妙，与知己高翔一起回到故乡，就此安定在了命运起点神仙顶。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 3.1041,
-        "releaseDate": "2026-03-07",
-        "posterPath": "/t4XscDPzIMSS3RMX1DkLTv9dtA7.jpg",
-        "backdropPath": "/qWVSLeYjRDXnnGbU61ydw5OUFzW.jpg",
+        "title": "正义女神",
+        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 8.9701,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
+        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -257,32 +271,18 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 277412,
+        "id": 290700,
         "type": "tmdb",
-        "title": "正义女神",
-        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 8.9701,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
-        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
+        "title": "重案解密",
+        "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 4.7964,
+        "releaseDate": "2026-04-16",
+        "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
+        "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 49036,
-        "type": "tmdb",
-        "title": "乡村爱情",
-        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
-        "rating": 6.1,
-        "voteCount": 8,
-        "popularity": 25.0242,
-        "releaseDate": "2006-09-30",
-        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
-        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,喜剧"
+        "genreTitle": "犯罪,剧情"
       }
     ],
     "爱奇艺": [
@@ -310,7 +310,7 @@
         "popularity": 17.6009,
         "releaseDate": "2026-05-04",
         "posterPath": "/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg",
-        "backdropPath": "/eFcPBI0tEnFRiJaNHQ74ZcSNQCg.jpg",
+        "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
@@ -343,20 +343,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 8.7656,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 321802,
         "type": "tmdb",
         "title": "盛唐奇案",
@@ -369,6 +355,20 @@
         "backdropPath": "/8R6UsZr301vIRErpFYA7VOmloRL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 8.7656,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 323346,
@@ -413,18 +413,18 @@
         "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
-        "id": 273151,
+        "id": 280632,
         "type": "tmdb",
-        "title": "危险关系",
-        "description": "　　36岁的大学讲师颜聆（孙俪 饰），正处于竞评副教授的关键节点。然而就在此时，学生李长宁（廖银玥 饰）突然在校园纵火发狂，颜聆也因此陷入舆论漩涡，遭受来自学校和社会的双重压力。同一天，发小简蕾蕾（夏星 饰）意外自杀，更背上挪用公款的嫌疑。颜聆的人生，瞬间跌入谷底。\n\n　　转机也随之而来。顺着蕾蕾身上诡异的纹身，颜聆发现闺蜜的未婚夫夏燚（戚九洲 饰）身上疑点重重，而李长宁发狂的真实原因，也与男友徐枫（吴念轩 饰）息息相关。在调查“学生发疯”与“闺蜜之死”的过程中，精神科医生罗梁（吴慷仁 饰）悄然走入她的生活。他帅气、贴心，既在颜聆追查真相时给予支持，又帮她排解生活中的烦恼，堪称“完美男友”。就在颜聆一步步沦陷之际，她却意外得知，罗梁竟是传闻中推广情感操控术的老手。她要如何挣脱这场精心编织的骗局？",
-        "rating": 6.7,
-        "voteCount": 3,
-        "popularity": 3.513,
-        "releaseDate": "2026-03-31",
-        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
-        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
+        "title": "成何体统",
+        "description": "该剧改编自七英俊同名小说，并延续书中风格，讲述了一段男女主共同穿进书中世界，成为反派角色，试图扭转原剧情中悲惨结局的奇幻冒险。张三和王翠花披着冷面帝王和祸水妖妃的马甲，在暗流涌动的宫廷内外步步为营，却于不经意间撩动了真情，相互戒备的心在各种交锋中悄然融化，在这个异世之中成为彼此的故乡。故事中有笑有泪，有轻松搞笑也有浪漫唯美，但无论书中世界如何变幻莫测，真心终能战胜虚伪、相爱抵万难。",
+        "rating": 8.35,
+        "voteCount": 21,
+        "popularity": 13.4111,
+        "releaseDate": "2026-02-06",
+        "posterPath": "/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
+        "backdropPath": "/mIIDC7WpzLH9XtJZeSRvxECYz0n.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
+        "genreTitle": "剧情,悬疑,喜剧"
       }
     ],
     "腾讯视频": [
@@ -499,20 +499,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 6.081,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 281231,
         "type": "tmdb",
         "title": "蜜语纪",
@@ -541,16 +527,16 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 278868,
+        "id": 273129,
         "type": "tmdb",
-        "title": "方圆八百米",
-        "description": "故事聚焦上世纪九十年代末的丰阳小镇矿区。一具无名女尸的出现，打破了表面的平静，小镇内的违禁药品贩卖网络随之浮出水面。警察陈红兵（丁勇岱 饰）紧跟线索，却步步逼近亲生儿子陈辉（许凯 饰）。在方圆八百米的小天地里，父子间的对抗、职责与亲情的纠结、法律与人性的交缠，让这个家庭与小城一同面临善恶的抉择与考验。",
-        "rating": 6.375,
-        "voteCount": 4,
-        "popularity": 4.8986,
-        "releaseDate": "2026-04-17",
-        "posterPath": "/oj688ZRAnYQrcqk59euex7laL10.jpg",
-        "backdropPath": "/cA8pX6GhKBvgdo1tAiyetEMDMCk.jpg",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 6.081,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -567,6 +553,20 @@
         "backdropPath": "/d54CAgm1GvYAoYSmf3x4nNoTVn5.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 287760,
+        "type": "tmdb",
+        "title": "纯真年代的爱情",
+        "description": "二十世纪七十年代，积极上进的纺织厂女工费霓一心想上大学靠知识改变命运。费霓的初中同学方穆扬因救人受伤成为了见义勇为的英雄，费霓主动提出照顾他，想要做好事评先进而被推荐上大学，但希望却屡次落空。现实的压力接踵而至，为了帮哥哥解决婚房的难题，费霓向方穆扬提出假结婚分房。几经波折二人终于有了自己的房子，成为了睡上下铺的小夫妻，他们共同面对困难，鼓励彼此追梦，虽磕磕绊绊，却也在平淡温馨的生活中滋长了情投意合的浪漫。最终费霓终于如愿上了大学，方穆扬也实现了自己的画家梦想，他们在幸福生活和美好未来的路上继续前行。",
+        "rating": 7.5,
+        "voteCount": 4,
+        "popularity": 9.7144,
+        "releaseDate": "2026-02-21",
+        "posterPath": "/8fjVJxa6uEWRzMIDLTjExPGf0Nj.jpg",
+        "backdropPath": "/ufgYAZofbUE7x7MGHaJ5wKj7Or8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -641,20 +641,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 314888,
-        "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.994,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
-      },
-      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -681,6 +667,20 @@
         "backdropPath": "/bSFkPYtOPoI1xEZucMfxYoFx58k.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.994,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 284512,
@@ -785,20 +785,6 @@
         "genreTitle": ""
       },
       {
-        "id": 126398,
-        "type": "tmdb",
-        "title": "五十公里桃花坞",
-        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 8,
-        "voteCount": 5,
-        "popularity": 98.2535,
-        "releaseDate": "2021-05-23",
-        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
-        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -809,6 +795,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 126398,
+        "type": "tmdb",
+        "title": "五十公里桃花坞",
+        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
+        "rating": 8,
+        "voteCount": 5,
+        "popularity": 98.2535,
+        "releaseDate": "2021-05-23",
+        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
+        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1071,20 +1071,6 @@
         "genreTitle": ""
       },
       {
-        "id": 126398,
-        "type": "tmdb",
-        "title": "五十公里桃花坞",
-        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 8,
-        "voteCount": 5,
-        "popularity": 98.2535,
-        "releaseDate": "2021-05-23",
-        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
-        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -1095,6 +1081,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 126398,
+        "type": "tmdb",
+        "title": "五十公里桃花坞",
+        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
+        "rating": 8,
+        "voteCount": 5,
+        "popularity": 98.2535,
+        "releaseDate": "2021-05-23",
+        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
+        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1199,20 +1199,6 @@
         "genreTitle": "真人秀,喜剧"
       },
       {
-        "id": 321537,
-        "type": "tmdb",
-        "title": "为爱闪耀的她",
-        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5366,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 97199,
         "type": "tmdb",
         "title": "妻子的浪漫旅行",
@@ -1223,6 +1209,20 @@
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 321537,
+        "type": "tmdb",
+        "title": "为爱闪耀的她",
+        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5366,
+        "releaseDate": "2026-04-27",
+        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
+        "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
