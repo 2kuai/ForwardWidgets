@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-06-09T16:56:22.569+08:00",
+  "last_updated": "2026-06-09T22:21:48.641+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9.2,
-        "voteCount": 4,
-        "popularity": 19.1997,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 287641,
         "type": "tmdb",
@@ -43,6 +29,20 @@
         "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9.2,
+        "voteCount": 4,
+        "popularity": 19.1997,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 275966,
@@ -77,8 +77,8 @@
         "type": "tmdb",
         "title": "莫离",
         "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 13.6747,
         "releaseDate": "2026-06-09",
         "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
@@ -385,6 +385,20 @@
         "genreTitle": "剧情,战争政治"
       },
       {
+        "id": 317594,
+        "type": "tmdb",
+        "title": "星月征途",
+        "description": "该剧围绕拥有航天梦的吴畏展开，他入职档案馆后因表现突出被选入飞控中心牧星战队，与曾产生矛盾的学霸应子期成为队友。两人从最初的对立到经历国际空间轨道大赛、皓月四号及五号等任务后逐渐合作，最终协力完成月壤采集任务。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.7795,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pIxkTTvzmW49BWMzNN979VZdjo9.jpg",
+        "backdropPath": "/yuPDXRFmqZPbMfgjc0PfO8S8w66.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 281495,
         "type": "tmdb",
         "title": "除恶",
@@ -397,20 +411,6 @@
         "backdropPath": "/gc9ySDlKwKnwlEw6km6KUXM44Yq.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
-      },
-      {
-        "id": 262932,
-        "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 7.1,
-        "voteCount": 7,
-        "popularity": 16.1429,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
       },
       {
         "id": 273151,
@@ -429,20 +429,6 @@
     ],
     "腾讯视频": [
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9.2,
-        "voteCount": 4,
-        "popularity": 19.1997,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 282497,
         "type": "tmdb",
         "title": "迷墙",
@@ -457,12 +443,26 @@
         "genreTitle": "犯罪"
       },
       {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9.2,
+        "voteCount": 4,
+        "popularity": 19.1997,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
         "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 0,
-        "voteCount": 0,
+        "rating": 9,
+        "voteCount": 1,
         "popularity": 13.6747,
         "releaseDate": "2026-06-09",
         "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
@@ -513,20 +513,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
-        "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 7.7639,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 273129,
         "type": "tmdb",
         "title": "爱情没有神话",
@@ -539,6 +525,20 @@
         "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 281231,
+        "type": "tmdb",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 7.7639,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 258865,
@@ -599,6 +599,20 @@
         "genreTitle": "剧情,战争政治"
       },
       {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.0417,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
+      },
+      {
         "id": 283682,
         "type": "tmdb",
         "title": "好好的时光",
@@ -625,20 +639,6 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
-      },
-      {
-        "id": 314888,
-        "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.0417,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 279446,
@@ -857,20 +857,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 283765,
-        "type": "tmdb",
-        "title": "我们的爸爸",
-        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 5.0806,
-        "releaseDate": "2025-02-14",
-        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
-        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,家庭"
-      },
-      {
         "id": 317458,
         "type": "tmdb",
         "title": "不好笑就露宿街头",
@@ -883,6 +869,20 @@
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,真人秀"
+      },
+      {
+        "id": 283765,
+        "type": "tmdb",
+        "title": "我们的爸爸",
+        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
+        "rating": 6,
+        "voteCount": 1,
+        "popularity": 5.0806,
+        "releaseDate": "2025-02-14",
+        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
+        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,家庭"
       },
       {
         "id": 312878,
@@ -1185,20 +1185,6 @@
         "genreTitle": "真人秀,喜剧"
       },
       {
-        "id": 97199,
-        "type": "tmdb",
-        "title": "妻子的浪漫旅行",
-        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 12.8402,
-        "releaseDate": "2018-08-22",
-        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
-        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 321537,
         "type": "tmdb",
         "title": "为爱闪耀的她",
@@ -1209,6 +1195,20 @@
         "releaseDate": "2026-04-27",
         "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
         "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 97199,
+        "type": "tmdb",
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 12.8402,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
