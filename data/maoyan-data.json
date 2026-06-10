@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-10T17:37:16.529+08:00",
+  "last_updated": "2026-06-10T22:48:41.225+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 30.2059,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 282497,
         "type": "tmdb",
@@ -73,20 +87,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 292696,
-        "type": "tmdb",
-        "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 30.2059,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -115,20 +115,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 279388,
-        "type": "tmdb",
-        "title": "逐玉",
-        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-        "rating": 8,
-        "voteCount": 68,
-        "popularity": 57.6408,
-        "releaseDate": "2026-03-06",
-        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 254486,
         "type": "tmdb",
         "title": "雨霖铃",
@@ -141,6 +127,20 @@
         "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 279388,
+        "type": "tmdb",
+        "title": "逐玉",
+        "description": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+        "rating": 8,
+        "voteCount": 68,
+        "popularity": 57.6408,
+        "releaseDate": "2026-03-06",
+        "posterPath": "/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+        "backdropPath": "/3FxO84UUfvVhvcuyHmBRixxcKcJ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -215,20 +215,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 277412,
-        "type": "tmdb",
-        "title": "正义女神",
-        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 7.7524,
-        "releaseDate": "2026-03-16",
-        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
-        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278134,
         "type": "tmdb",
         "title": "我的山与海",
@@ -243,18 +229,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272476,
+        "id": 277412,
         "type": "tmdb",
-        "title": "金关",
-        "description": "滨海华炎机场海关旅检一科科长郭聪带领张瑜、吕晓妍、言博文等关员，坚守海关一线，在长约五十米的海关出入境通道之内，百步识人，识别并拦截各类走私分子。在基因样本走私案、地毯藏毒案、《层峦时景图》走私案、HPV九价疫苗走私案、名表走私案、盔犀鸟头胄走私案、精神类药物走私案等各类案件中，他们战胜了重重困难，揪出了走私幕后头目，保护了国家利益。郭聪、张瑜等新一代海关人也在并肩作战中迅速成长，并各自有了宝贵的收获。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.1512,
-        "releaseDate": "2026-04-14",
-        "posterPath": "/hvDrihn5ixxOM3lJ6hxtiY24q1S.jpg",
-        "backdropPath": "/A0nRQCblI1MaBsmzYhnossyLAZ0.jpg",
+        "title": "正义女神",
+        "description": "高等法院法官言惠知正值事业高峰，但一宗案件令她人生逆转！为阻止社会出现更多“恶魔少年”，言惠知不惜放弃前途，主动降职担任少年法庭的法官，面对一宗又一宗严重的少年案件，她择善固执、坚持正义，也要救赎这些脱轨少年的人生。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 7.7524,
+        "releaseDate": "2026-03-16",
+        "posterPath": "/ueuFQumoj6YDePVSCqErrDxsC9Y.jpg",
+        "backdropPath": "/ncIwHwyt3GLyftN45y0CWdSbjJU.jpg",
         "mediaType": "tv",
-        "genreTitle": "悬疑,犯罪"
+        "genreTitle": "剧情"
       },
       {
         "id": 278127,
@@ -269,6 +255,20 @@
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 272476,
+        "type": "tmdb",
+        "title": "金关",
+        "description": "滨海华炎机场海关旅检一科科长郭聪带领张瑜、吕晓妍、言博文等关员，坚守海关一线，在长约五十米的海关出入境通道之内，百步识人，识别并拦截各类走私分子。在基因样本走私案、地毯藏毒案、《层峦时景图》走私案、HPV九价疫苗走私案、名表走私案、盔犀鸟头胄走私案、精神类药物走私案等各类案件中，他们战胜了重重困难，揪出了走私幕后头目，保护了国家利益。郭聪、张瑜等新一代海关人也在并肩作战中迅速成长，并各自有了宝贵的收获。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.1512,
+        "releaseDate": "2026-04-14",
+        "posterPath": "/hvDrihn5ixxOM3lJ6hxtiY24q1S.jpg",
+        "backdropPath": "/A0nRQCblI1MaBsmzYhnossyLAZ0.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑,犯罪"
       },
       {
         "id": 290700,
@@ -413,21 +413,35 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 262932,
+        "id": 273151,
         "type": "tmdb",
-        "title": "江湖夜雨十年灯",
-        "description": "行事果决腹黑的双面少主慕清晏与性情散漫通透的佛系女侠蔡昭，双强极致拉扯造就甜虐爱恋。在诡谲多变的江湖中，二人携手撕破武林众生“假面”，一路爱恨交锋、反转不停、智斗不断，刻画出极具烟火气的侠义群像。",
-        "rating": 7.1,
-        "voteCount": 7,
-        "popularity": 16.9537,
-        "releaseDate": "2026-02-22",
-        "posterPath": "/fExFPnVTUMmRdSxon9ASsWQGkNr.jpg",
-        "backdropPath": "/6640A10Z0aysTCroNQQPK8ZB4FH.jpg",
+        "title": "危险关系",
+        "description": "　　36岁的大学讲师颜聆（孙俪 饰），正处于竞评副教授的关键节点。然而就在此时，学生李长宁（廖银玥 饰）突然在校园纵火发狂，颜聆也因此陷入舆论漩涡，遭受来自学校和社会的双重压力。同一天，发小简蕾蕾（夏星 饰）意外自杀，更背上挪用公款的嫌疑。颜聆的人生，瞬间跌入谷底。\n\n　　转机也随之而来。顺着蕾蕾身上诡异的纹身，颜聆发现闺蜜的未婚夫夏燚（戚九洲 饰）身上疑点重重，而李长宁发狂的真实原因，也与男友徐枫（吴念轩 饰）息息相关。在调查“学生发疯”与“闺蜜之死”的过程中，精神科医生罗梁（吴慷仁 饰）悄然走入她的生活。他帅气、贴心，既在颜聆追查真相时给予支持，又帮她排解生活中的烦恼，堪称“完美男友”。就在颜聆一步步沦陷之际，她却意外得知，罗梁竟是传闻中推广情感操控术的老手。她要如何挣脱这场精心编织的骗局？",
+        "rating": 6.7,
+        "voteCount": 3,
+        "popularity": 2.9492,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
+        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,动作冒险,悬疑"
+        "genreTitle": "剧情,悬疑"
       }
     ],
     "腾讯视频": [
+      {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 30.2059,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 282497,
         "type": "tmdb",
@@ -453,20 +467,6 @@
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 292696,
-        "type": "tmdb",
-        "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 30.2059,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/ulZWyKjqf0mFDrgo6vbV6Ax81fd.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -499,20 +499,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 273129,
-        "type": "tmdb",
-        "title": "爱情没有神话",
-        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 5.3771,
-        "releaseDate": "2026-04-28",
-        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
-        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 272715,
         "type": "tmdb",
         "title": "佳偶天成",
@@ -525,6 +511,20 @@
         "backdropPath": "/caMAXpi8r9nc5aPkn0qkOBSMzn6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 273129,
+        "type": "tmdb",
+        "title": "爱情没有神话",
+        "description": "林展翘是一位经济独立、思想成熟的都市女性，身边追求者不断，但她一直过着单身独居的生活。其实她不是排斥婚姻，只是不愿将就，内心一直渴望着一份真正的爱情与纯粹的婚姻。林展翘与何德璋相识后，两人起初虽互有误解，但当他们在爱情、事业中一起经历成长与选择后，终于认清对方就是自己的理想爱人。在克服现实的阻碍后，两人准备踏入婚姻殿堂。林展翘的女性朋友们也在各自做出生活的抉择后，找到了完美的人生归宿。最终她们重新领悟了爱情与婚姻的真谛，过上了普通而幸福、平凡而不平庸的生活。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 5.3771,
+        "releaseDate": "2026-04-28",
+        "posterPath": "/o4JGc8bITlCsqBp7Oh0MOujqIMu.jpg",
+        "backdropPath": "/nQKWL5akhnv0puDu2jbsWpyqRG4.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 281231,
@@ -771,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 216487,
-        "type": "tmdb",
-        "title": "无限超越班",
-        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
-        "rating": 5.5,
-        "voteCount": 4,
-        "popularity": 16.521,
-        "releaseDate": "2022-12-17",
-        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
-        "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 126398,
         "type": "tmdb",
         "title": "五十公里桃花坞",
@@ -795,6 +781,20 @@
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
         "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 216487,
+        "type": "tmdb",
+        "title": "无限超越班",
+        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
+        "rating": 5.5,
+        "voteCount": 4,
+        "popularity": 16.521,
+        "releaseDate": "2022-12-17",
+        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
+        "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
