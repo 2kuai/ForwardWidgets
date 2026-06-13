@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T16:44:13.288+08:00",
+  "last_updated": "2026-06-13T21:21:09.410+08:00",
   "tv": {
     "全网": [
       {
@@ -21,7 +21,7 @@
         "type": "tmdb",
         "title": "莫离",
         "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 9.667,
+        "rating": 9.7,
         "voteCount": 3,
         "popularity": 32.384,
         "releaseDate": "2026-06-09",
@@ -43,6 +43,20 @@
         "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪"
+      },
+      {
+        "id": 287641,
+        "type": "tmdb",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 7.125,
+        "voteCount": 4,
+        "popularity": 13.71,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 284110,
@@ -73,20 +87,6 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 7.125,
-        "voteCount": 4,
-        "popularity": 13.71,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 275966,
         "type": "tmdb",
         "title": "家业",
@@ -115,20 +115,6 @@
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
-        "id": 289209,
-        "type": "tmdb",
-        "title": "大唐迷雾",
-        "description": "大唐垂拱年间，狄仁杰因不满武后为野心牺牲无辜，一行人离开神都，巡查江南道，不想昭昭盛世之下，却是妖鬼横行。权力的倾轧、利欲的贪糜、执念的癫狂……将狄仁杰拉入了一个个精心编织的弥天大网之中。诡案在前，迷雾遮眼，大唐神探以近妖之智探微毫，以天人之技窥人心。",
-        "rating": 6.5,
-        "voteCount": 2,
-        "popularity": 7.1227,
-        "releaseDate": "2026-05-23",
-        "posterPath": "/6hU5HUk41G4WKCCGMhFkxcH6s4C.jpg",
-        "backdropPath": "/sZqN7CIUIRYppl09eFWWiZMBvIK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
         "id": 254486,
         "type": "tmdb",
         "title": "雨霖铃",
@@ -139,6 +125,20 @@
         "releaseDate": "2026-05-13",
         "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
         "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 289209,
+        "type": "tmdb",
+        "title": "大唐迷雾",
+        "description": "大唐垂拱年间，狄仁杰因不满武后为野心牺牲无辜，一行人离开神都，巡查江南道，不想昭昭盛世之下，却是妖鬼横行。权力的倾轧、利欲的贪糜、执念的癫狂……将狄仁杰拉入了一个个精心编织的弥天大网之中。诡案在前，迷雾遮眼，大唐神探以近妖之智探微毫，以天人之技窥人心。",
+        "rating": 6.5,
+        "voteCount": 2,
+        "popularity": 7.1227,
+        "releaseDate": "2026-05-23",
+        "posterPath": "/6hU5HUk41G4WKCCGMhFkxcH6s4C.jpg",
+        "backdropPath": "/sZqN7CIUIRYppl09eFWWiZMBvIK.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
       }
@@ -243,20 +243,6 @@
         "genreTitle": "悬疑,犯罪"
       },
       {
-        "id": 278127,
-        "type": "tmdb",
-        "title": "唐宫奇案之青雾风鸣",
-        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
-        "rating": 7.2,
-        "voteCount": 10,
-        "popularity": 8.5882,
-        "releaseDate": "2026-02-05",
-        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
-        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
-      },
-      {
         "id": 277412,
         "type": "tmdb",
         "title": "正义女神",
@@ -271,18 +257,32 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 290700,
+        "id": 278127,
         "type": "tmdb",
-        "title": "重案解密",
-        "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 4.4503,
-        "releaseDate": "2026-04-16",
-        "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
-        "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
+        "title": "唐宫奇案之青雾风鸣",
+        "description": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
+        "rating": 7.2,
+        "voteCount": 10,
+        "popularity": 8.5882,
+        "releaseDate": "2026-02-05",
+        "posterPath": "/t9uq0A7luhtnbzLcp0jCQu8f6Ii.jpg",
+        "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
-        "genreTitle": "犯罪,剧情"
+        "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 49036,
+        "type": "tmdb",
+        "title": "乡村爱情",
+        "description": "《乡村爱情》是一部反映农村青年爱情、婚姻、事业和生活的轻喜剧，是一部阳光灿烂的农村青春偶像剧。剧中通过大学生谢永强与农村女青年王小蒙等几对青年之间恋爱的故事，塑造了一群鲜活的富有新时代气息的农村青年形象，多角度地向我们展现了一副当代农村青年的爱情生活画卷，轻松中带着喜庆与幽默，曲折中满含希望和力量。",
+        "rating": 6.1,
+        "voteCount": 8,
+        "popularity": 41.1492,
+        "releaseDate": "2006-09-30",
+        "posterPath": "/2XlU2bzsESbc6x9lBKe0gyk90oO.jpg",
+        "backdropPath": "/cWOf1pRRX5gvtSo1calWSB8NQho.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,喜剧"
       }
     ],
     "爱奇艺": [
@@ -433,7 +433,7 @@
         "type": "tmdb",
         "title": "莫离",
         "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 9.667,
+        "rating": 9.7,
         "voteCount": 3,
         "popularity": 32.384,
         "releaseDate": "2026-06-09",
@@ -594,7 +594,7 @@
         "popularity": 11.4507,
         "releaseDate": "2026-05-03",
         "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/3AjXoOT5xIAoagGWStqOu7bEgqV.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,战争政治"
       },
@@ -641,20 +641,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 283961,
-        "type": "tmdb",
-        "title": "你是迟来的欢喜",
-        "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
-        "rating": 6.5,
-        "voteCount": 4,
-        "popularity": 7.3637,
-        "releaseDate": "2026-03-26",
-        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
-        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 279446,
         "type": "tmdb",
         "title": "太平年",
@@ -665,6 +651,20 @@
         "releaseDate": "2026-01-23",
         "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283961,
+        "type": "tmdb",
+        "title": "你是迟来的欢喜",
+        "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
+        "rating": 6.5,
+        "voteCount": 4,
+        "popularity": 7.3637,
+        "releaseDate": "2026-03-26",
+        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
+        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -775,8 +775,8 @@
         "type": "tmdb",
         "title": "五十公里桃花坞",
         "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 8,
-        "voteCount": 5,
+        "rating": 6.75,
+        "voteCount": 6,
         "popularity": 94.6988,
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
@@ -1131,8 +1131,8 @@
         "type": "tmdb",
         "title": "五十公里桃花坞",
         "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 8,
-        "voteCount": 5,
+        "rating": 6.75,
+        "voteCount": 6,
         "popularity": 94.6988,
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
@@ -1251,20 +1251,6 @@
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 321554,
-        "type": "tmdb",
-        "title": "是姐姐呀",
-        "description": "《是姐姐呀》是《甜蜜的任务》为姐姐们打造的专属特辑，节目通过“茶话会”的形式打开每位姐姐丰富多彩的生活姿态，深度挖掘《乘风2026》姐姐们舞台之外的反差魅力和宝藏多面!",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.534,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/ljeV49WUHKo6hDHv58BdpN3EbC6.jpg",
-        "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
