@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T16:37:53.605+08:00",
+  "last_updated": "2026-06-20T21:23:39.953+08:00",
   "tv": {
     "全网": [
       {
@@ -73,20 +73,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9.2,
-        "voteCount": 4,
-        "popularity": 10.2728,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 233076,
         "type": "tmdb",
         "title": "问心",
@@ -97,6 +83,20 @@
         "releaseDate": "2023-10-07",
         "posterPath": "/oCwfg5xVsUh9Yg4R51DtE1hmKys.jpg",
         "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9.2,
+        "voteCount": 4,
+        "popularity": 10.2728,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -157,6 +157,20 @@
         "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 6.6622,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 254486,
@@ -269,20 +283,6 @@
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
-      },
-      {
-        "id": 290700,
-        "type": "tmdb",
-        "title": "重案解密",
-        "description": "警长杜凯斌和女警严灼颖因一起悬案而心生隔阂，在一次追查悬案的过程中两人冰释前嫌，又在屡次合作办案中滋长出并肩作战的情谊。二人的身份、心态、际遇不断发展变化，唯一不变的，是他们为受害者伸张正义的决心。本剧改编自香港真实奇案，透过案件直击人性。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 3.8226,
-        "releaseDate": "2026-04-16",
-        "posterPath": "/wTAPiOLwQSVRs6kv6oKxRrGBHTj.jpg",
-        "backdropPath": "/iIs3yBoBwDa9nfFpsc6efw449wg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,剧情"
       }
     ],
     "爱奇艺": [
@@ -357,6 +357,20 @@
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 6.6622,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 279388,
         "type": "tmdb",
         "title": "逐玉",
@@ -411,20 +425,6 @@
         "backdropPath": "/d9s5SlGLnOWqWy2DHmdFoG4ZUKm.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情,科幻奇幻"
-      },
-      {
-        "id": 273151,
-        "type": "tmdb",
-        "title": "危险关系",
-        "description": "　　36岁的大学讲师颜聆（孙俪 饰），正处于竞评副教授的关键节点。然而就在此时，学生李长宁（廖银玥 饰）突然在校园纵火发狂，颜聆也因此陷入舆论漩涡，遭受来自学校和社会的双重压力。同一天，发小简蕾蕾（夏星 饰）意外自杀，更背上挪用公款的嫌疑。颜聆的人生，瞬间跌入谷底。\n\n　　转机也随之而来。顺着蕾蕾身上诡异的纹身，颜聆发现闺蜜的未婚夫夏燚（戚九洲 饰）身上疑点重重，而李长宁发狂的真实原因，也与男友徐枫（吴念轩 饰）息息相关。在调查“学生发疯”与“闺蜜之死”的过程中，精神科医生罗梁（吴慷仁 饰）悄然走入她的生活。他帅气、贴心，既在颜聆追查真相时给予支持，又帮她排解生活中的烦恼，堪称“完美男友”。就在颜聆一步步沦陷之际，她却意外得知，罗梁竟是传闻中推广情感操控术的老手。她要如何挣脱这场精心编织的骗局？",
-        "rating": 6.7,
-        "voteCount": 3,
-        "popularity": 2.7675,
-        "releaseDate": "2026-03-31",
-        "posterPath": "/vNvboIOnzxL3pkI11TQDn21grUY.jpg",
-        "backdropPath": "/ioXEfNRd9PaOVhTzgrBs3S5bwaK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
       }
     ],
     "腾讯视频": [
@@ -457,20 +457,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9.2,
-        "voteCount": 4,
-        "popularity": 10.2728,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 233076,
         "type": "tmdb",
         "title": "问心",
@@ -481,6 +467,20 @@
         "releaseDate": "2023-10-07",
         "posterPath": "/oCwfg5xVsUh9Yg4R51DtE1hmKys.jpg",
         "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9.2,
+        "voteCount": 4,
+        "popularity": 10.2728,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -627,20 +627,6 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 283682,
-        "type": "tmdb",
-        "title": "好好的时光",
-        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 2.756,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
-        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 314888,
         "type": "tmdb",
         "title": "苦菜花",
@@ -653,6 +639,20 @@
         "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治,剧情"
+      },
+      {
+        "id": 283682,
+        "type": "tmdb",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 2.756,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 279446,
@@ -673,8 +673,8 @@
         "type": "tmdb",
         "title": "你是迟来的欢喜",
         "description": "阮喻放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
-        "rating": 6.5,
-        "voteCount": 4,
+        "rating": 6.7,
+        "voteCount": 5,
         "popularity": 6.4789,
         "releaseDate": "2026-03-26",
         "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
@@ -697,18 +697,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 284512,
+        "id": 309609,
         "type": "tmdb",
-        "title": "玉茗茶骨",
-        "description": "年轻状元郎陆江来上任淳安县令后屡破奇案，却因卷入一桩杀妻旧案，从官场新星沦落至绝境。濒死之际，幸得茶王之女荣善宝搭救。心高气傲的陆江来曾与豪族荣氏争权结怨，遭致善宝蓄意报复，趁他重伤失忆、身份成谜，将他带回家中贬为最低贱的马夫。陆江来为避追杀，将错就错、假意顺从。荣家一朝宣布招赘，引发江南望族群雄竞夺，各怀鬼胎。陆江来意外卷入其中，阴差阳错成为善宝与众人博弈的棋子。一个是野心勃勃运筹帷幄的女继承人，一个是桀骜腹黑诡计多端的小马夫，两人斗智斗勇，日久生情，披荆斩棘侦破旧案、捉拿真凶，联手整顿家族、开拓茶道，在茶园里缔结了一段爱情佳话。",
-        "rating": 8.583,
-        "voteCount": 12,
-        "popularity": 6.9606,
-        "releaseDate": "2025-12-29",
-        "posterPath": "/emQR37pN4UluVbq7pGoMjXOAKX6.jpg",
-        "backdropPath": "/2HTpufx7Z2mdTg1AhAfCTfbuKuW.jpg",
+        "title": "长河落日",
+        "description": "1942年3月19日傍晚， 一架载有笃信者的盟军飞机飞抵仰光机场，降落之时发现机场已被日军占领，奋起复飞，不料第二天最高当局却收到了飞机被击落的AAAA级电报，引起了当局极大恐慌，笃信者此次的使命是向中国战区最高当局送达一份绝密的行动方案及联络密码，当局命令军事情报部门不惜一切代价，查到失踪飞机和笃信者的下落。笃信者此次携带的便是行动的全部计划、与太平洋上的航母编队以及与执行轰炸任务的轰炸机编队的联系密码， 一旦这份文件落入日军手中，不但轰炸东京计划将失败，还会使得整个护送舰队沦为日军嘴里的待宰羔羊！笃信者受伤跳伞，降落到了日军海军第六航空基地驻守的三灶岛，被当地岛民营救并藏匿。",
+        "rating": 8.333,
+        "voteCount": 3,
+        "popularity": 1.383,
+        "releaseDate": "2026-01-01",
+        "posterPath": "/hE7hiQ8c4MSNuSYp3mSfcZ1Qm5o.jpg",
+        "backdropPath": "/9aludN1SsftAqpw73f7zrpKTB83.jpg",
         "mediaType": "tv",
-        "genreTitle": "悬疑,剧情"
+        "genreTitle": "战争政治"
       }
     ]
   },
@@ -725,6 +725,20 @@
         "releaseDate": "2020-11-06",
         "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
         "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 317948,
+        "type": "tmdb",
+        "title": "乘风2026",
+        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 7.9886,
+        "releaseDate": "2026-04-02",
+        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
+        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -757,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 97199,
-        "type": "tmdb",
-        "title": "妻子的浪漫旅行",
-        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 13.5671,
-        "releaseDate": "2018-08-22",
-        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
-        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 154420,
         "type": "tmdb",
         "title": "半熟恋人",
@@ -781,6 +781,20 @@
         "releaseDate": "2021-12-28",
         "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 97199,
+        "type": "tmdb",
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 13.5671,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -799,16 +813,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 317948,
+        "id": 219934,
         "type": "tmdb",
-        "title": "乘风2026",
-        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 7.9886,
-        "releaseDate": "2026-04-02",
-        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
-        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 27.2306,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -823,20 +837,6 @@
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 27.2306,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -933,7 +933,7 @@
         "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 2.9218,
+        "popularity": 3.5047,
         "releaseDate": "2025-02-14",
         "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
         "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
@@ -985,20 +985,6 @@
         "genreTitle": ""
       },
       {
-        "id": 325041,
-        "type": "tmdb",
-        "title": "天才厨人",
-        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.4328,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
-        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -1009,6 +995,20 @@
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325041,
+        "type": "tmdb",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4328,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1061,7 +1061,7 @@
         "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
         "rating": 6,
         "voteCount": 1,
-        "popularity": 2.9218,
+        "popularity": 3.5047,
         "releaseDate": "2025-02-14",
         "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
         "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
@@ -1241,20 +1241,6 @@
     ],
     "芒果TV": [
       {
-        "id": 97199,
-        "type": "tmdb",
-        "title": "妻子的浪漫旅行",
-        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 13.5671,
-        "releaseDate": "2018-08-22",
-        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
-        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317948,
         "type": "tmdb",
         "title": "乘风2026",
@@ -1265,6 +1251,20 @@
         "releaseDate": "2026-04-02",
         "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
         "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 97199,
+        "type": "tmdb",
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 13.5671,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
