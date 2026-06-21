@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-06-21T17:32:49.377+08:00",
+  "last_updated": "2026-06-21T21:44:48.263+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 292696,
-        "type": "tmdb",
-        "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 9.7,
-        "voteCount": 3,
-        "popularity": 21.0404,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 278605,
         "type": "tmdb",
@@ -29,6 +15,20 @@
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
+      },
+      {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
+        "rating": 9.7,
+        "voteCount": 3,
+        "popularity": 21.0404,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 288603,
@@ -101,20 +101,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 282497,
-        "type": "tmdb",
-        "title": "迷墙",
-        "description": "倒霉透顶的小夫妻，盲打误撞住进了一幢大别墅，意外发现了一笔藏匿其中的巨款，风波袭来，让他们分不清，这到底是噩梦还是美梦。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 6.1736,
-        "releaseDate": "2026-06-07",
-        "posterPath": "/2pr8GOqHsY4w3gvBzviLeOxbZxa.jpg",
-        "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪"
-      },
-      {
         "id": 239901,
         "type": "tmdb",
         "title": "云秀行",
@@ -127,6 +113,20 @@
         "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
+      },
+      {
+        "id": 282497,
+        "type": "tmdb",
+        "title": "迷墙",
+        "description": "倒霉透顶的小夫妻，盲打误撞住进了一幢大别墅，意外发现了一笔藏匿其中的巨款，风波袭来，让他们分不清，这到底是噩梦还是美梦。",
+        "rating": 7,
+        "voteCount": 2,
+        "popularity": 6.1736,
+        "releaseDate": "2026-06-07",
+        "posterPath": "/2pr8GOqHsY4w3gvBzviLeOxbZxa.jpg",
+        "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
       },
       {
         "id": 275966,
@@ -729,6 +729,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 317948,
+        "type": "tmdb",
+        "title": "乘风2026",
+        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 8.4326,
+        "releaseDate": "2026-04-02",
+        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
+        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 322722,
         "type": "tmdb",
         "title": "国乐无双",
@@ -757,20 +771,6 @@
         "genreTitle": ""
       },
       {
-        "id": 317948,
-        "type": "tmdb",
-        "title": "乘风2026",
-        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 8.4326,
-        "releaseDate": "2026-04-02",
-        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
-        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -795,20 +795,6 @@
         "releaseDate": "2021-12-28",
         "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 126398,
-        "type": "tmdb",
-        "title": "五十公里桃花坞",
-        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 6.75,
-        "voteCount": 6,
-        "popularity": 60.2734,
-        "releaseDate": "2021-05-23",
-        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
-        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -885,20 +871,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 283765,
-        "type": "tmdb",
-        "title": "我们的爸爸",
-        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 4.8062,
-        "releaseDate": "2025-02-14",
-        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
-        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,家庭"
-      },
-      {
         "id": 317458,
         "type": "tmdb",
         "title": "不好笑就露宿街头",
@@ -911,6 +883,20 @@
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,真人秀"
+      },
+      {
+        "id": 283765,
+        "type": "tmdb",
+        "title": "我们的爸爸",
+        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
+        "rating": 6,
+        "voteCount": 1,
+        "popularity": 4.8062,
+        "releaseDate": "2025-02-14",
+        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
+        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,家庭"
       },
       {
         "id": 312878,
