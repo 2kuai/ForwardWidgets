@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-06-22T19:30:42.021+08:00",
+  "last_updated": "2026-06-23T00:24:10.377+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 278605,
-        "type": "tmdb",
-        "title": "南部档案",
-        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
-        "rating": 6.7,
-        "voteCount": 3,
-        "popularity": 40.1538,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/nX6WBk4BogPFzMngsmzXTt9SyzA.jpg",
-        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动作冒险,悬疑"
-      },
       {
         "id": 292696,
         "type": "tmdb",
@@ -31,6 +17,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 278605,
+        "type": "tmdb",
+        "title": "南部档案",
+        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
+        "rating": 6.7,
+        "voteCount": 3,
+        "popularity": 40.1538,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/nX6WBk4BogPFzMngsmzXTt9SyzA.jpg",
+        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动作冒险,悬疑"
+      },
+      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -43,20 +43,6 @@
         "backdropPath": "/80vo7eYhAXPJltu32lG5JGrGPzG.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 17.379,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 233076,
@@ -85,6 +71,20 @@
         "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 17.379,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 289271,
@@ -257,20 +257,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272476,
-        "type": "tmdb",
-        "title": "金关",
-        "description": "滨海华炎机场海关旅检一科科长郭聪带领张瑜、吕晓妍、言博文等关员，坚守海关一线，在长约五十米的海关出入境通道之内，百步识人，识别并拦截各类走私分子。在基因样本走私案、地毯藏毒案、《层峦时景图》走私案、HPV九价疫苗走私案、名表走私案、盔犀鸟头胄走私案、精神类药物走私案等各类案件中，他们战胜了重重困难，揪出了走私幕后头目，保护了国家利益。郭聪、张瑜等新一代海关人也在并肩作战中迅速成长，并各自有了宝贵的收获。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.9851,
-        "releaseDate": "2026-04-14",
-        "posterPath": "/hvDrihn5ixxOM3lJ6hxtiY24q1S.jpg",
-        "backdropPath": "/A0nRQCblI1MaBsmzYhnossyLAZ0.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑,犯罪"
-      },
-      {
         "id": 278127,
         "type": "tmdb",
         "title": "唐宫奇案之青雾风鸣",
@@ -283,6 +269,20 @@
         "backdropPath": "/u9AkHDe9oiw62hZ8muokTUWdB27.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 272476,
+        "type": "tmdb",
+        "title": "金关",
+        "description": "滨海华炎机场海关旅检一科科长郭聪带领张瑜、吕晓妍、言博文等关员，坚守海关一线，在长约五十米的海关出入境通道之内，百步识人，识别并拦截各类走私分子。在基因样本走私案、地毯藏毒案、《层峦时景图》走私案、HPV九价疫苗走私案、名表走私案、盔犀鸟头胄走私案、精神类药物走私案等各类案件中，他们战胜了重重困难，揪出了走私幕后头目，保护了国家利益。郭聪、张瑜等新一代海关人也在并肩作战中迅速成长，并各自有了宝贵的收获。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.9851,
+        "releaseDate": "2026-04-14",
+        "posterPath": "/hvDrihn5ixxOM3lJ6hxtiY24q1S.jpg",
+        "backdropPath": "/A0nRQCblI1MaBsmzYhnossyLAZ0.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑,犯罪"
       }
     ],
     "爱奇艺": [
@@ -299,20 +299,6 @@
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
-      },
-      {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 17.379,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 233076,
@@ -341,6 +327,20 @@
         "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云和白切黑城主齐峥从彼此试探到相互信任，二人一路披荆斩棘为民谋利，最终收获友谊与爱情；范云也助齐峥平天下破陈规，解决九城危机，携手为民打造繁荣九城。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 17.379,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/6NoxYhG4ksBsPGtc7aIUtTAqWCM.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 275966,
@@ -385,20 +385,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272715,
-        "type": "tmdb",
-        "title": "佳偶天成",
-        "description": "在上古时期，战鬼族因打断人神两界通道而遭受神罚，全族背负“五不全”的诅咒。万年之后，族中少主陆千乔（任嘉伦 饰）为破除诅咒、保住族人血脉，必须历经“换皮、换肉、换骨、换血、换心”五重生死劫难，才能成为一个健全的普通人。\n\n在经历“换肉”之劫时，陆千乔借用“贪官陆槐”的身份，与身负“克夫”命格、为破厄运而主动下山寻求冲喜的修仙者辛湄（王鹤润 饰）结为契约夫妻。本想在受刑后假死遁逃，从此与辛湄再无瓜葛。然而，看似柔弱的辛湄却在他“死后”孤身犯险，背着一把刀前往京城替他复仇、洗刷冤屈。辛湄此举引来了仙门的追杀，也让陆千乔被迫暴露了真实身份。因辛湄无法接受被骗而拔刀相向，陆千乔情急之下只能抹去她的记忆。但两人的命运早已被各自的执念和阴谋编织在一起，他们最终在崇灵谷再次相遇，并共同经历了“不朽丹”、“无双会”、“金光教”等惊险事件。在不断的生死考验中，他们从相互试探的假婚关系，逐渐萌生出真挚的感情，最终粉碎了金乌族的惊天阴谋，共同守护了人间太平。",
-        "rating": 8.2,
-        "voteCount": 5,
-        "popularity": 11.5147,
-        "releaseDate": "2026-04-25",
-        "posterPath": "/vx4qAH1kt7WzqLoy5sGCZ7j0yEr.jpg",
-        "backdropPath": "/caMAXpi8r9nc5aPkn0qkOBSMzn6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 281231,
         "type": "tmdb",
         "title": "蜜语纪",
@@ -413,16 +399,30 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 291470,
+        "id": 272715,
         "type": "tmdb",
-        "title": "冬去春来",
-        "description": "90年代的北京，冬去春来小旅馆，见证了一群来自天南海北怀揣梦想的青年男女跌宕起伏的北漂生活。痴迷剧本创作但不断被退稿的徐胜利屡败屡战；渴望站上高雅舞台的歌手庄庄却只能在走穴商演中求生存；希望能演女主角的沈冉冉在浮华娱乐圈面临着机会与选择；一身才华的萨克斯手陶亮亮在天桥下吹奏给路人实现自己的音乐梦；热爱文艺的群众演员郭宗宝为了给妻儿治病拼命干杂活儿努力赚钱；想一鸣惊人的画家曹野满脑子先锋艺术可惜无人理解。他们为了梦想努力拼搏，但现实总是残酷和无奈，走过千禧年，来到新时代，他们有人还在坚守，有人被迫放弃，但艺术的火种在这群人心中永远不曾熄灭。",
-        "rating": 9,
+        "title": "佳偶天成",
+        "description": "在上古时期，战鬼族因打断人神两界通道而遭受神罚，全族背负“五不全”的诅咒。万年之后，族中少主陆千乔（任嘉伦 饰）为破除诅咒、保住族人血脉，必须历经“换皮、换肉、换骨、换血、换心”五重生死劫难，才能成为一个健全的普通人。\n\n在经历“换肉”之劫时，陆千乔借用“贪官陆槐”的身份，与身负“克夫”命格、为破厄运而主动下山寻求冲喜的修仙者辛湄（王鹤润 饰）结为契约夫妻。本想在受刑后假死遁逃，从此与辛湄再无瓜葛。然而，看似柔弱的辛湄却在他“死后”孤身犯险，背着一把刀前往京城替他复仇、洗刷冤屈。辛湄此举引来了仙门的追杀，也让陆千乔被迫暴露了真实身份。因辛湄无法接受被骗而拔刀相向，陆千乔情急之下只能抹去她的记忆。但两人的命运早已被各自的执念和阴谋编织在一起，他们最终在崇灵谷再次相遇，并共同经历了“不朽丹”、“无双会”、“金光教”等惊险事件。在不断的生死考验中，他们从相互试探的假婚关系，逐渐萌生出真挚的感情，最终粉碎了金乌族的惊天阴谋，共同守护了人间太平。",
+        "rating": 8.2,
+        "voteCount": 5,
+        "popularity": 11.5147,
+        "releaseDate": "2026-04-25",
+        "posterPath": "/vx4qAH1kt7WzqLoy5sGCZ7j0yEr.jpg",
+        "backdropPath": "/caMAXpi8r9nc5aPkn0qkOBSMzn6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,科幻奇幻"
+      },
+      {
+        "id": 303572,
+        "type": "tmdb",
+        "title": "欢迎回我的频道",
+        "description": "新媒体时代，酱紫，一个不够幸运，却始终在奋斗的路上努力奔跑，期望被看见的女孩。为了成为自媒体博主，她毅然决然地辞掉家乡的稳定工作，独自一人来到北京。她得到了跟曾经的偶像艾薇共事的机会，她们亦敌亦友，彼此欣赏又互相竞争。聪明能干，敢拼敢闯的酱紫逐渐在新媒体行业闯荡出属于自己的一片天地。同时，酱紫遇到了呆萌理工男罗鑫，他们从初识的欢喜冤家，到后来的相依相靠，罗鑫是她挣脱职场泥淖的出口，是她绝望时的解药。然而当酱紫站上成功的顶峰之后，却开始迷茫新媒体工作的意义所在。因为一次意外失误，酱紫被公司雪藏。事业跌落谷底的酱紫在罗鑫和艾薇的帮助下，终于完成了属于自己的“再成长”，事业也再度迎来新高峰。",
+        "rating": 8,
         "voteCount": 1,
-        "popularity": 2.5391,
-        "releaseDate": "2026-03-22",
-        "posterPath": "/284CHdJCrje99Q90lYnvG51xEFL.jpg",
-        "backdropPath": "/e6upwlldpDpEITHETdS8HbK9qBM.jpg",
+        "popularity": 0.6391,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/5Q1SBzHcV97mDceQvKDjaSw6TD9.jpg",
+        "backdropPath": "/fmDxImAApNQAls9115jfh8yOy3i.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -527,18 +527,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 258865,
+        "id": 281231,
         "type": "tmdb",
-        "title": "白日提灯​",
-        "description": "天赋卓然的万灵之主贺思慕，在休沐觅食时意外遇见了小将军段胥。携带着她故人之物的这个小将军似乎并非真正的段胥？两人你来我往互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕的坚守和孤独。寿命不过百年的凡人和四百岁仍是少女的恶鬼，以爱意抵抗时间洪流。",
-        "rating": 7.9,
-        "voteCount": 10,
-        "popularity": 22.2005,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/Av5Bpf3nAMPDQFx3iVAy4m6bntY.jpg",
-        "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
+        "title": "蜜语纪",
+        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 9.721,
+        "releaseDate": "2026-04-13",
+        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
+        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 272715,
@@ -555,18 +555,18 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
+        "id": 258865,
         "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 9.721,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "title": "白日提灯​",
+        "description": "天赋卓然的万灵之主贺思慕，在休沐觅食时意外遇见了小将军段胥。携带着她故人之物的这个小将军似乎并非真正的段胥？两人你来我往互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕的坚守和孤独。寿命不过百年的凡人和四百岁仍是少女的恶鬼，以爱意抵抗时间洪流。",
+        "rating": 7.9,
+        "voteCount": 10,
+        "popularity": 22.2005,
+        "releaseDate": "2026-03-28",
+        "posterPath": "/Av5Bpf3nAMPDQFx3iVAy4m6bntY.jpg",
+        "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
+        "genreTitle": "剧情,科幻奇幻"
       }
     ],
     "芒果TV": [
@@ -641,20 +641,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 314888,
-        "type": "tmdb",
-        "title": "苦菜花",
-        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.4124,
-        "releaseDate": "2019-11-25",
-        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
-        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治,剧情"
-      },
-      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -681,6 +667,20 @@
         "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 314888,
+        "type": "tmdb",
+        "title": "苦菜花",
+        "description": "该剧以抗日战争时期山东胶东王官庄为背景，围绕农民冯德强一家展开。其父遭日寇汉奸杀害后，冯德强加入八路军成长为优秀战士，妹妹娟子参与共产党员姜永泉领导的抗日斗争。母亲也在子女影响下投身抗战，因汉奸王柬芝出卖遭受酷刑，幼女被害。冯德强揭露王柬芝叛变行径后将其处决，并假借汉奸身份潜入日寇据点收集情报，最终配合八路军攻占日军占领的县城。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4124,
+        "releaseDate": "2019-11-25",
+        "posterPath": "/qPzlkOXuYKbBgzlF2rv7bTHsHFf.jpg",
+        "backdropPath": "/wwTz03XXdkbbL5CES9YKAttU3by.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治,剧情"
       },
       {
         "id": 283950,
@@ -715,20 +715,6 @@
   "show": {
     "全网": [
       {
-        "id": 112732,
-        "type": "tmdb",
-        "title": "哈哈哈哈哈",
-        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
-        "rating": 7,
-        "voteCount": 7,
-        "popularity": 51.2155,
-        "releaseDate": "2020-11-06",
-        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
-        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317948,
         "type": "tmdb",
         "title": "乘风2026",
@@ -739,6 +725,20 @@
         "releaseDate": "2026-04-02",
         "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
         "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 112732,
+        "type": "tmdb",
+        "title": "哈哈哈哈哈",
+        "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
+        "rating": 7,
+        "voteCount": 7,
+        "popularity": 51.2155,
+        "releaseDate": "2020-11-06",
+        "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
+        "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,16 +813,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 219934,
+        "id": 325041,
         "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 22.5082,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3665,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -971,20 +971,6 @@
         "genreTitle": ""
       },
       {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 22.5082,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325041,
         "type": "tmdb",
         "title": "天才厨人",
@@ -995,6 +981,20 @@
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 22.5082,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1251,20 +1251,6 @@
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 321537,
-        "type": "tmdb",
-        "title": "为爱闪耀的她",
-        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.8201,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
