@@ -13,7 +13,7 @@ hostname = %APPEND% {{{HOST}}}
 
 [Script]
 # MoviePilot API
-mp-api = type=http-request,pattern=^https://{{{HOST}}}/.*,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/mp_api_handler.js,requires-body=true,max-size=0,timeout=30,argument="server_url={{{SERVER_URL}}}&username={{{USERNAME}}}&password={{{PASSWORD}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&trigger_script=p115-current"
+mp-api = type=http-request,pattern=^https?://{{{HOST}}}/.*,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/mp_api_handler.js,requires-body=true,max-size=0,timeout=30,argument="server_url={{{SERVER_URL}}}&username={{{USERNAME}}}&password={{{PASSWORD}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&trigger_script=p115-current"
 
 # 即时任务
 p115-current = type=cron,cronexp="0 0 1 1 *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/p115_trigger.js,argument="server_url={{{SERVER_URL}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&pansou_api={{{PANSOU_API}}}&tg_channels={{{TG_CHANNELS}}}&cron_hours={{{CRON_HOURS}}}&run_mode=current"
