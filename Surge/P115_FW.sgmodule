@@ -4,20 +4,19 @@
 #!category=115网盘
 #!author=两块
 
-#!arguments=USERNAME:admin,PASSWORD:password,TMDB_API_KEY:db55323b8d3e4154498498a75642b381,P115_COOKIE:（必填）,P115_CID:0,PANSOU_API:https://so.252035.xyz,TG_CHANNELS:QukanMovie,CRON_HOURS:8
-#!arguments-desc=USERNAME: MoviePilot 登录用户名，默认 admin\nPASSWORD: MoviePilot 登录密码，默认 password\n\nTMDB_API_KEY: TMDB API Key，用于识别媒体信息\n\nP115_COOKIE: 115网盘 Cookie，用于创建目录和转存\nP115_CID: 115网盘绑定的媒体库目录，默认根目录CID\n\nPANSOU_API: 盘搜 API 地址，默认 https://so.252035.xyz\nTG_CHANNELS: 盘搜自定义 TG 频道，多个频道用英文逗号分隔\n\nCRON_HOURS: 自动订阅兜底定时任务间隔小时数，默认 8 小时\n\n转存后会自动使用内置默认格式重命名文件。
+#!arguments=HOST:mp.2kuai.run,USERNAME:admin,PASSWORD:password,TMDB_API_KEY:db55323b8d3e4154498498a75642b381,P115_COOKIE:（必填）,P115_CID:0,PANSOU_API:https://so.252035.xyz,TG_CHANNELS:QukanMovie,CRON_HOURS:8
+#!arguments-desc=HOST: MoviePilot 服务器域名，服务器地址 https://mp.2kuai.run\nUSERNAME: MoviePilot 登录用户名，默认 admin\nPASSWORD: MoviePilot 登录密码，默认 password\n\nTMDB_API_KEY: TMDB API Key，用于识别媒体信息\n\nP115_COOKIE: 115网盘 Cookie，用于创建目录和转存\nP115_CID: 115网盘绑定的媒体库目录，默认根目录CID\n\nPANSOU_API: 盘搜 API 地址，默认 https://so.252035.xyz\nTG_CHANNELS: 盘搜自定义 TG 频道，多个频道用英文逗号分隔\n\nCRON_HOURS: 自动订阅兜底定时任务间隔小时数，默认 8 小时\n\n转存后会自动使用内置默认格式重命名文件。
 
 
 [MITM]
-hostname = %APPEND% mp.2kuai.run
-
+hostname = %APPEND% {{{HOST}}}
 
 [Script]
 # MoviePilot API
-mp-api = type=http-request,pattern=^https?://mp\.2kuai\.run/.*,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/mp_api_handler.js,requires-body=true,max-size=0,timeout=30,argument="username={{{USERNAME}}}&password={{{PASSWORD}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&trigger_script=p115-current"
+mp-api = type=http-request,pattern=^https://{{{HOST}}}/.*,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/mp_api_handler.js,requires-body=true,max-size=0,timeout=30,argument="server_url={{{SERVER_URL}}}&username={{{USERNAME}}}&password={{{PASSWORD}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&trigger_script=p115-current"
 
 # 即时任务
-p115-current = type=cron,cronexp="0 0 1 1 *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/p115_trigger.js,argument="tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&pansou_api={{{PANSOU_API}}}&tg_channels={{{TG_CHANNELS}}}&cron_hours={{{CRON_HOURS}}}&run_mode=current"
+p115-current = type=cron,cronexp="0 0 1 1 *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/p115_trigger.js,argument="server_url={{{SERVER_URL}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&pansou_api={{{PANSOU_API}}}&tg_channels={{{TG_CHANNELS}}}&cron_hours={{{CRON_HOURS}}}&run_mode=current"
 
 # 定时任务
-p115-cron = type=cron,cronexp="0 */{{{CRON_HOURS}}} * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/p115_trigger.js,argument="tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&pansou_api={{{PANSOU_API}}}&tg_channels={{{TG_CHANNELS}}}&cron_hours={{{CRON_HOURS}}}&run_mode=queue"
+p115-cron = type=cron,cronexp="0 */{{{CRON_HOURS}}} * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/Surge/p115_trigger.js,argument="server_url={{{SERVER_URL}}}&tmdb_api_key={{{TMDB_API_KEY}}}&cid={{{P115_CID}}}&p115_cookie={{{P115_COOKIE}}}&pansou_api={{{PANSOU_API}}}&tg_channels={{{TG_CHANNELS}}}&cron_hours={{{CRON_HOURS}}}&run_mode=queue"
