@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T20:51:00.183+08:00",
+  "last_updated": "2026-07-12T02:42:08.183+08:00",
   "tv": {
     "全网": [
       {
@@ -13,6 +13,20 @@
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/AcNgNI4HtZHeepeSI5nATqtPemZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295558,
+        "type": "tmdb",
+        "title": "雀骨",
+        "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 6.6424,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -45,20 +59,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295558,
-        "type": "tmdb",
-        "title": "雀骨",
-        "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 6.6424,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 251600,
         "type": "tmdb",
         "title": "千香",
@@ -69,20 +69,6 @@
         "releaseDate": "2026-06-27",
         "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 233076,
-        "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风（赵又廷 饰）是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸（金世佳 饰）。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚（周野芒 饰）认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然（毛晓彤 饰）为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.6,
-        "voteCount": 8,
-        "popularity": 17.304,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -99,6 +85,20 @@
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
+      },
+      {
+        "id": 233076,
+        "type": "tmdb",
+        "title": "问心",
+        "description": "　　周筱风（赵又廷 饰）是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸（金世佳 饰）。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚（周野芒 饰）认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然（毛晓彤 饰）为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
+        "voteCount": 8,
+        "popularity": 17.304,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 273114,
@@ -287,20 +287,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 285143,
-        "type": "tmdb",
-        "title": "灿如繁星",
-        "description": "讲述了心理学博士林晚星遭遇变故后回到家乡宏景任教，邂逅顶级教练王法，并带领一群垫底差生逆袭追梦，热血救赎的故事。林晚星用“自由式”教育，培养少年们的独立人格，帮助他们学会生活，融洽自我，发现所爱，勇于追求。未来人生里，不远狭路，终见光明。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 15.9911,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/jE6xuxwLUojZ2k80rKbv73frWsv.jpg",
-        "backdropPath": "/kuqNk0XSnIsxPedLpJ3U9AOAm2R.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 295558,
         "type": "tmdb",
         "title": "雀骨",
@@ -315,16 +301,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 233076,
+        "id": 285143,
         "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风（赵又廷 饰）是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸（金世佳 饰）。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚（周野芒 饰）认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然（毛晓彤 饰）为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.6,
-        "voteCount": 8,
-        "popularity": 17.304,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "title": "灿如繁星",
+        "description": "讲述了心理学博士林晚星遭遇变故后回到家乡宏景任教，邂逅顶级教练王法，并带领一群垫底差生逆袭追梦，热血救赎的故事。林晚星用“自由式”教育，培养少年们的独立人格，帮助他们学会生活，融洽自我，发现所爱，勇于追求。未来人生里，不远狭路，终见光明。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 15.9911,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/jE6xuxwLUojZ2k80rKbv73frWsv.jpg",
+        "backdropPath": "/kuqNk0XSnIsxPedLpJ3U9AOAm2R.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -343,6 +329,20 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
+        "id": 233076,
+        "type": "tmdb",
+        "title": "问心",
+        "description": "　　周筱风（赵又廷 饰）是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸（金世佳 饰）。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚（周野芒 饰）认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然（毛晓彤 饰）为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
+        "voteCount": 8,
+        "popularity": 17.304,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 230311,
         "type": "tmdb",
         "title": "爱情有烟火",
@@ -355,20 +355,6 @@
         "backdropPath": "/4lO40Si9AlthOuH9YDCHQvKHPEa.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
-      },
-      {
-        "id": 327506,
-        "type": "tmdb",
-        "title": "九个弹孔",
-        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.3673,
-        "releaseDate": "2026-07-08",
-        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
-        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治"
       },
       {
         "id": 291947,
@@ -385,6 +371,20 @@
         "genreTitle": "悬疑,剧情"
       },
       {
+        "id": 327506,
+        "type": "tmdb",
+        "title": "九个弹孔",
+        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.3673,
+        "releaseDate": "2026-07-08",
+        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
+        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
+      },
+      {
         "id": 275966,
         "type": "tmdb",
         "title": "家业",
@@ -399,20 +399,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 12.411,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
-      },
-      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -425,6 +411,20 @@
         "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 12.411,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       }
     ],
     "腾讯视频": [
@@ -555,18 +555,18 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
-        "id": 281231,
+        "id": 326189,
         "type": "tmdb",
-        "title": "蜜语纪",
-        "description": "许蜜语的“完美”婚姻在十周年纪念日被打破，她看清了自己在婚姻关系里的委曲求全和迷失自我，决绝离婚。酒店经理人纪封选择回到事业的起点——浦荣酒店，一切归零的许蜜语从浦荣酒店客房保洁做起，纪封则作为浦荣酒店新任总经理正式亮相。两人携手肃清内部贪腐、改革优化管理，浦荣酒店逐渐走上正轨。许蜜语自请降职调入销售部，一举拿下行业顶级盛会举办权。行业峰会圆满落幕，浦荣酒店成为城市新地标。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 11.0092,
-        "releaseDate": "2026-04-13",
-        "posterPath": "/mjeemoyYxVIEAEv6naBow9wAw0H.jpg",
-        "backdropPath": "/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "title": "种墨园",
+        "description": "在北京工作的林依然，因母亲患病，选择回乡后考公到桃花镇，在经发办任职。林依然看到以千年宣家为代表的传统宣纸产业艰难求存，为了拯救传统宣纸产业，她通过开发宣纸笔记本业务、去北京拉宣纸壁纸订单、操办文房四宝文化节等，努力帮助桃花镇宣纸产业走出经营困境，也完成了她对这方水土从陌生到了解、从责任再到热爱的成长历程。她也逐渐发现，一直钻研宣纸文创，看起来不务正业的宣纸匠人宣楌，其实和她一样，一直在为宣纸产业摸索一条新的可持续发展之路。于是林依然携手宣楌在宣纸文创的大道上拼搏奋斗，终于迎来了成功。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.756,
+        "releaseDate": "2026-06-23",
+        "posterPath": "/uVa3c0FSfF73jSxxxKazKIR0PkI.jpg",
+        "backdropPath": "/xUu1OTsPWA6YGgHNV5P6D4OQgte.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -604,7 +604,7 @@
         "title": "炽夏",
         "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
         "rating": 9.125,
-        "voteCount": 4,
+        "voteCount": 5,
         "popularity": 60.6792,
         "releaseDate": "2026-06-16",
         "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
@@ -639,20 +639,6 @@
         "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,战争政治"
-      },
-      {
-        "id": 37472,
-        "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.158,
-        "voteCount": 57,
-        "popularity": 35.4867,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
       },
       {
         "id": 214875,
@@ -709,6 +695,20 @@
         "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 16,
+        "popularity": 34.9638,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ]
   },
@@ -757,16 +757,16 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 97199,
+        "id": 326694,
         "type": "tmdb",
-        "title": "妻子的浪漫旅行",
-        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 13.5379,
-        "releaseDate": "2018-08-22",
-        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
-        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.4982,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,18 +813,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
+        "id": 97199,
         "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5731,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": null,
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 13.5379,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
         "mediaType": "tv",
-        "genreTitle": ""
+        "genreTitle": "真人秀"
       },
       {
         "id": 126398,
@@ -913,20 +913,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 251113,
-        "type": "tmdb",
-        "title": "音你而来",
-        "description": "这是一次专属音乐人的集体团建。7位音乐人在不同城市通过同宿的方式开启一段音乐社交治愈之旅，旅途中他们将两两搭档完成6场双人音乐路演，以路演之名彼此寻找自己最契合的音乐搭档，为自己撒野、为友情呐喊、为感性唱歌。用年轻的叙事方式，讲述音乐人们最真实的社交故事。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 3.421,
-        "releaseDate": "2024-04-04",
-        "posterPath": "/9oyqevhUcFqoKokCXtJMVc01i5K.jpg",
-        "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317458,
         "type": "tmdb",
         "title": "不好笑就露宿街头",
@@ -939,6 +925,20 @@
         "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,真人秀"
+      },
+      {
+        "id": 251113,
+        "type": "tmdb",
+        "title": "音你而来",
+        "description": "这是一次专属音乐人的集体团建。7位音乐人在不同城市通过同宿的方式开启一段音乐社交治愈之旅，旅途中他们将两两搭档完成6场双人音乐路演，以路演之名彼此寻找自己最契合的音乐搭档，为自己撒野、为友情呐喊、为感性唱歌。用年轻的叙事方式，讲述音乐人们最真实的社交故事。",
+        "rating": 6,
+        "voteCount": 1,
+        "popularity": 3.421,
+        "releaseDate": "2024-04-04",
+        "posterPath": "/9oyqevhUcFqoKokCXtJMVc01i5K.jpg",
+        "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 283765,
@@ -971,6 +971,20 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.4982,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -985,16 +999,16 @@
         "genreTitle": ""
       },
       {
-        "id": 326694,
+        "id": 296215,
         "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "title": "姐姐当家",
+        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 4.4982,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "popularity": 4.5301,
+        "releaseDate": "2025-07-26",
+        "posterPath": "/wioBS4QkmoHO0C35zlz00JlsrDd.jpg",
+        "backdropPath": "/nulErU5gD6Zfg02cuFMgRczwz7M.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1013,16 +1027,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 296215,
+        "id": 124265,
         "type": "tmdb",
-        "title": "姐姐当家",
-        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.5301,
-        "releaseDate": "2025-07-26",
-        "posterPath": "/wioBS4QkmoHO0C35zlz00JlsrDd.jpg",
-        "backdropPath": "/nulErU5gD6Zfg02cuFMgRczwz7M.jpg",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 10.2378,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1037,20 +1051,6 @@
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 10.2378,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1155,20 +1155,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5731,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": null,
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 126398,
         "type": "tmdb",
         "title": "五十公里桃花坞",
@@ -1181,6 +1167,20 @@
         "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5731,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": null,
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 112732,
@@ -1251,34 +1251,6 @@
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 274658,
-        "type": "tmdb",
-        "title": "国医少年志",
-        "description": "全国首档中医文化明星体验真人秀，由徐璐、夏之光、王勉、敖子逸、王艺瑾作为节目嘉宾。娱乐圈五子拜师当代名医，一路研学旅行开启养生自救局，直观领略中医药文化的深厚底蕴，从而激发年轻人对中医药的兴趣和热爱，让更多的年轻人爱上中医药。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 2.1317,
-        "releaseDate": "2024-10-18",
-        "posterPath": "/cOYStvQ2UJFG6JTrR7Ks3pfBFtq.jpg",
-        "backdropPath": "/hOEHveJisVORbxJO25HqslTwNgs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.1583,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
