@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T16:43:38.224+08:00",
+  "last_updated": "2026-07-13T21:59:45.924+08:00",
   "tv": {
     "全网": [
       {
@@ -9,7 +9,7 @@
         "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 19.8043,
+        "popularity": 30.3534,
         "releaseDate": "2026-07-11",
         "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
         "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
@@ -73,32 +73,32 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 296003,
+        "type": "tmdb",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.0847,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
+      },
+      {
         "id": 273114,
         "type": "tmdb",
         "title": "悬案",
         "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
-        "rating": 9,
-        "voteCount": 1,
+        "rating": 0,
+        "voteCount": 0,
         "popularity": 6.2338,
         "releaseDate": "2026-07-03",
         "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
         "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
-      },
-      {
-        "id": 292696,
-        "type": "tmdb",
-        "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 8.4,
-        "voteCount": 7,
-        "popularity": 17.1902,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 233076,
@@ -115,6 +115,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
+        "rating": 8.4,
+        "voteCount": 7,
+        "popularity": 17.1902,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 278605,
         "type": "tmdb",
         "title": "南部档案",
@@ -127,20 +141,6 @@
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
-      },
-      {
-        "id": 230311,
-        "type": "tmdb",
-        "title": "爱情有烟火",
-        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
-        "rating": 7.5,
-        "voteCount": 4,
-        "popularity": 14.9622,
-        "releaseDate": "2026-06-15",
-        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
-        "backdropPath": "/4lO40Si9AlthOuH9YDCHQvKHPEa.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       }
     ],
     "优酷": [
@@ -163,8 +163,8 @@
         "type": "tmdb",
         "title": "悬案",
         "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
-        "rating": 9,
-        "voteCount": 1,
+        "rating": 0,
+        "voteCount": 0,
         "popularity": 6.2338,
         "releaseDate": "2026-07-03",
         "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
@@ -293,7 +293,7 @@
         "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 19.8043,
+        "popularity": 30.3534,
         "releaseDate": "2026-07-11",
         "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
         "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
@@ -443,18 +443,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 292696,
+        "id": 296003,
         "type": "tmdb",
-        "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 8.4,
-        "voteCount": 7,
-        "popularity": 17.1902,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 3.0847,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 233076,
@@ -467,6 +467,20 @@
         "releaseDate": "2023-10-07",
         "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
         "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
+        "rating": 8.4,
+        "voteCount": 7,
+        "popularity": 17.1902,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -485,20 +499,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 8.6796,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 327506,
         "type": "tmdb",
         "title": "九个弹孔",
@@ -511,6 +511,20 @@
         "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9,
+        "voteCount": 5,
+        "popularity": 8.6796,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 319703,
@@ -541,20 +555,6 @@
         "genreTitle": "犯罪"
       },
       {
-        "id": 258865,
-        "type": "tmdb",
-        "title": "白日提灯​",
-        "description": "天赋卓然的万灵之主贺思慕，在休沐觅食时意外遇见了小将军段胥。携带着她故人之物的这个小将军似乎并非真正的段胥？两人你来我往互相试探，贺思慕终于了解了段胥黑暗的过往以及心中的志向，而段胥也发现了贺思慕的坚守和孤独。寿命不过百年的凡人和四百岁仍是少女的恶鬼，以爱意抵抗时间洪流。",
-        "rating": 7.9,
-        "voteCount": 10,
-        "popularity": 20.9295,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/Av5Bpf3nAMPDQFx3iVAy4m6bntY.jpg",
-        "backdropPath": "/rDQjoxB9RssdpcAysGhorjtTA6i.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,科幻奇幻"
-      },
-      {
         "id": 281231,
         "type": "tmdb",
         "title": "蜜语纪",
@@ -583,20 +583,6 @@
         "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 224552,
-        "type": "tmdb",
-        "title": "为你逆光而来",
-        "description": "大小姐“许希兮”从昏迷中苏醒失去记忆，对保镖路靳言一见倾心，却从发小丁北凡处得知自己并不是真的许希兮，而是长相相同的安悦，安悦在调查真相过程中也发现了更多惊人秘密，而路靳言作为保镖也暗藏阴谋，二人在怀疑与暧昧间挣扎，寻找真相却不忘暖心告白，重重危机却坚守彼此相濡以沫。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 3.1111,
-        "releaseDate": "2023-04-20",
-        "posterPath": "/wygPXXi42AsErUB5homgQEenj3i.jpg",
-        "backdropPath": "/7MObAC55fQQfD2g8sySIVIEYqHk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,科幻奇幻"
       },
       {
         "id": 326189,
@@ -709,6 +695,20 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 283682,
+        "type": "tmdb",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 4.1559,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       }
     ]
   },
@@ -813,16 +813,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 126398,
+        "id": 297509,
         "type": "tmdb",
-        "title": "五十公里桃花坞",
-        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 6.75,
-        "voteCount": 6,
-        "popularity": 64.0823,
-        "releaseDate": "2021-05-23",
-        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
-        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
+        "title": "食神·百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.892,
+        "releaseDate": "2025-08-27",
+        "posterPath": "/2Rha4oyCoJfe7CEs2kqKHikhW9b.jpg",
+        "backdropPath": "/91syqzMpwLLEpmrvOzQ32Ga9zcz.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -925,20 +925,6 @@
         "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 283765,
-        "type": "tmdb",
-        "title": "我们的爸爸",
-        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 4.7172,
-        "releaseDate": "2025-02-14",
-        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
-        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,家庭"
       }
     ],
     "爱奇艺": [
@@ -1033,7 +1019,7 @@
         "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
         "rating": 8.7,
         "voteCount": 3,
-        "popularity": 29.6226,
+        "popularity": 37.8287,
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
@@ -1197,20 +1183,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 317605,
-        "type": "tmdb",
-        "title": "奋斗吧人生-演员篇",
-        "description": "《奋斗吧人生-演员篇》是由腾讯视频出品的新人演员实训成长综艺。20位以演员为终身职业、怀抱梦想的青年新人演员，将以学员身份进入到一所与众不同的 “演员学院”，进行为期4个月的封闭式表演实训与实战演练，期间将有资深行业前辈组成的“师资队伍”，进行全方位表演实训指导。学员们也将真实体验影视拍摄全过程，实拍短剧，与综艺同步上线播出。最终20位新人演员将实现“毕业即就业”，完成新人到职业演员的蜕变，向梦想之路继续迈进！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.9808,
-        "releaseDate": "2026-03-31",
-        "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
-        "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 315850,
         "type": "tmdb",
         "title": "魔力歌先生",
@@ -1221,6 +1193,20 @@
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 317605,
+        "type": "tmdb",
+        "title": "奋斗吧人生-演员篇",
+        "description": "《奋斗吧人生-演员篇》是由腾讯视频出品的新人演员实训成长综艺。20位以演员为终身职业、怀抱梦想的青年新人演员，将以学员身份进入到一所与众不同的 “演员学院”，进行为期4个月的封闭式表演实训与实战演练，期间将有资深行业前辈组成的“师资队伍”，进行全方位表演实训指导。学员们也将真实体验影视拍摄全过程，实拍短剧，与综艺同步上线播出。最终20位新人演员将实现“毕业即就业”，完成新人到职业演员的蜕变，向梦想之路继续迈进！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.9808,
+        "releaseDate": "2026-03-31",
+        "posterPath": "/67q6xuATgB8uK4DC0enEA2XgnKF.jpg",
+        "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1267,6 +1253,20 @@
         "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
+      },
+      {
+        "id": 317948,
+        "type": "tmdb",
+        "title": "乘风2026",
+        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 6.6049,
+        "releaseDate": "2026-04-02",
+        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
+        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ]
   }
