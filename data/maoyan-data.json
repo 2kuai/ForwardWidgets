@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T21:02:51.856+08:00",
+  "last_updated": "2026-07-15T02:58:40.728+08:00",
   "tv": {
     "全网": [
       {
@@ -20,7 +20,7 @@
         "id": 295558,
         "type": "tmdb",
         "title": "雀骨",
-        "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
         "rating": 8,
         "voteCount": 1,
         "popularity": 28.9157,
@@ -45,20 +45,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 296003,
-        "type": "tmdb",
-        "title": "小芳",
-        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 6.0958,
-        "releaseDate": "2026-07-13",
-        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
-        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 251600,
         "type": "tmdb",
         "title": "千香",
@@ -71,6 +57,20 @@
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 296003,
+        "type": "tmdb",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 6.0958,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 285143,
@@ -290,7 +290,7 @@
         "id": 295558,
         "type": "tmdb",
         "title": "雀骨",
-        "description": "他手持雀骨令暗藏灭世锋芒,她机关算尽却误撞深情流涡。温柔即是杀招,谎言即是救赎!从假夫妻到真知已,爱是烽火中最赤诚的誓言.",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
         "rating": 8,
         "voteCount": 1,
         "popularity": 28.9157,
@@ -499,20 +499,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 327506,
-        "type": "tmdb",
-        "title": "九个弹孔",
-        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.0517,
-        "releaseDate": "2026-07-08",
-        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
-        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治"
-      },
-      {
         "id": 284110,
         "type": "tmdb",
         "title": "主角",
@@ -525,6 +511,20 @@
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 327506,
+        "type": "tmdb",
+        "title": "九个弹孔",
+        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.0517,
+        "releaseDate": "2026-07-08",
+        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
+        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       },
       {
         "id": 319703,
@@ -627,20 +627,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 37472,
-        "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.158,
-        "voteCount": 57,
-        "popularity": 27.4132,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
-      },
-      {
         "id": 283952,
         "type": "tmdb",
         "title": "良陈美锦",
@@ -709,6 +695,20 @@
         "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 16,
+        "popularity": 31.6992,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ]
   },
@@ -785,6 +785,34 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 97199,
+        "type": "tmdb",
+        "title": "妻子的浪漫旅行",
+        "description": "节目推出夫妻隔空对话新模式。让妻子团踏上浪漫之旅，丈夫团则留守棚内，远程观察旅途中的妻子，了解其生活中的另一面。在这场跨时空对话中，夫妻重新审视彼此关系，治愈婚姻。节目也通过展现不同的夫妻关系，和观众一同探寻幸福婚姻的密码。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 22.3287,
+        "releaseDate": "2018-08-22",
+        "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
+        "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 29.8687,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -797,34 +825,6 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 29.944,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 126398,
-        "type": "tmdb",
-        "title": "五十公里桃花坞",
-        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 6.75,
-        "voteCount": 6,
-        "popularity": 61.2131,
-        "releaseDate": "2021-05-23",
-        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
-        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
@@ -925,20 +925,6 @@
         "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 283765,
-        "type": "tmdb",
-        "title": "我们的爸爸",
-        "description": "《我们的爸爸》是一档生活观察类真人秀，由傅首尔、苗苗、吴尊、许昕、杨子组成“邻家爸妈团”，涂毓麟担任“实习爸爸”，该节目聚焦爸爸与孩子之间的互动与成长，为观众呈现最真实、最温馨、最有趣的亲子关系画卷。",
-        "rating": 6,
-        "voteCount": 1,
-        "popularity": 5.3479,
-        "releaseDate": "2025-02-14",
-        "posterPath": "/gqL3kE2KohZPakjsIymWySuiRCt.jpg",
-        "backdropPath": "/esWVoSm4S1hNIkRyqID467p130o.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,家庭"
       }
     ],
     "爱奇艺": [
@@ -1127,6 +1113,20 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 29.8687,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -1139,20 +1139,6 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 29.944,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       },
       {
         "id": 126398,
@@ -1197,20 +1183,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 315850,
-        "type": "tmdb",
-        "title": "魔力歌先生",
-        "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.0066,
-        "releaseDate": "2026-03-13",
-        "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
-        "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 317605,
         "type": "tmdb",
         "title": "奋斗吧人生-演员篇",
@@ -1223,23 +1195,23 @@
         "backdropPath": "/1BpCqG6nDDWIPUQnbzlSWtetbcs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 315850,
+        "type": "tmdb",
+        "title": "魔力歌先生",
+        "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.0066,
+        "releaseDate": "2026-03-13",
+        "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
+        "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ],
     "芒果TV": [
-      {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.4952,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
       {
         "id": 97199,
         "type": "tmdb",
@@ -1251,6 +1223,20 @@
         "releaseDate": "2018-08-22",
         "posterPath": "/dx3JOkHlSMASuK4xfmQ6N7IRSdd.jpg",
         "backdropPath": "/9SfQdtDNS0SNOzAJiLbmjseUmYK.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 326406,
+        "type": "tmdb",
+        "title": "快乐老家",
+        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.4952,
+        "releaseDate": "2026-06-28",
+        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
+        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1267,20 +1253,6 @@
         "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,喜剧"
-      },
-      {
-        "id": 317948,
-        "type": "tmdb",
-        "title": "乘风2026",
-        "description": "《乘风2026》是由任洋团队主导制作的一档女性文化交流与音乐竞演综艺节目。本季采用“直播”模式作为节目公演核心呈现方式，以更加真实、即时和开放的状态，重构综艺创作逻辑与观演关系，打造一档“正在发生”的当代女性综艺。节目邀请来自中国及世界各地的30+实力女性嘉宾，以“音乐为媒，文化为魂”，展开五场“乘风公演”，将中国传统美学、地域文化符号与国际艺术语言有机结合，呈现兼具真实质感与艺术完成度的视听表达，展现中国之美、人文之韵与当代女性的多元表达，推动中外文化交流，传递当代中国开放包容、自信从容的大国气象。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 5.8063,
-        "releaseDate": "2026-04-02",
-        "posterPath": "/o7zyq9MLW2DUPewBTjs2LMdv8iw.jpg",
-        "backdropPath": "/1ndGg4109Gg54GXdt1M1e9Zg8CY.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       }
     ]
   }
