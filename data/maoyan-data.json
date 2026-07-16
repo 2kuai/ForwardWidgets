@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-16T02:52:10.329+08:00",
+  "last_updated": "2026-07-16T09:24:37.623+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 291392,
+        "type": "tmdb",
+        "title": "野狗骨头",
+        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 93.2487,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
+        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 286506,
         "type": "tmdb",
@@ -31,18 +45,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291392,
+        "id": 296003,
         "type": "tmdb",
-        "title": "野狗骨头",
-        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 95.5895,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
-        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 8.6625,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 251600,
@@ -57,20 +71,6 @@
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 296003,
-        "type": "tmdb",
-        "title": "小芳",
-        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 8.9643,
-        "releaseDate": "2026-07-13",
-        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
-        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
       },
       {
         "id": 285143,
@@ -165,7 +165,7 @@
         "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 5.4786,
+        "popularity": 5.3363,
         "releaseDate": "2026-07-03",
         "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
         "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
@@ -205,8 +205,8 @@
         "type": "tmdb",
         "title": "云秀行",
         "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
-        "rating": 8,
-        "voteCount": 2,
+        "rating": 7.667,
+        "voteCount": 3,
         "popularity": 12.6167,
         "releaseDate": "2026-06-20",
         "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
@@ -399,6 +399,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
+        "rating": 7.667,
+        "voteCount": 3,
+        "popularity": 12.6167,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 291947,
         "type": "tmdb",
         "title": "昨夜将至",
@@ -411,20 +425,6 @@
         "backdropPath": "/dzmpvGoJQ6yBShrpx0c7BdhwEic.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
-      },
-      {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 12.6167,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       }
     ],
     "腾讯视频": [
@@ -449,7 +449,7 @@
         "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
         "rating": 9,
         "voteCount": 2,
-        "popularity": 8.9643,
+        "popularity": 8.6625,
         "releaseDate": "2026-07-13",
         "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
         "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
@@ -577,7 +577,7 @@
         "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 95.5895,
+        "popularity": 93.2487,
         "releaseDate": "2026-07-05",
         "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
         "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
@@ -627,20 +627,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 317895,
-        "type": "tmdb",
-        "title": "战旗如画",
-        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 3.1009,
-        "releaseDate": "2026-03-29",
-        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
-        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治"
-      },
-      {
         "id": 283952,
         "type": "tmdb",
         "title": "良陈美锦",
@@ -653,6 +639,20 @@
         "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,战争政治"
+      },
+      {
+        "id": 317895,
+        "type": "tmdb",
+        "title": "战旗如画",
+        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 3.1009,
+        "releaseDate": "2026-03-29",
+        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
+        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       },
       {
         "id": 214875,
@@ -683,6 +683,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 37472,
+        "type": "tmdb",
+        "title": "海底小纵队",
+        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
+        "rating": 7.158,
+        "voteCount": 57,
+        "popularity": 29.1413,
+        "releaseDate": "2010-10-05",
+        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
+        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,儿童"
+      },
+      {
         "id": 283682,
         "type": "tmdb",
         "title": "好好的时光",
@@ -695,20 +709,6 @@
         "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
-      },
-      {
-        "id": 279446,
-        "type": "tmdb",
-        "title": "太平年",
-        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-        "rating": 8.8,
-        "voteCount": 16,
-        "popularity": 33.6324,
-        "releaseDate": "2026-01-23",
-        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ]
   },
@@ -721,7 +721,7 @@
         "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
         "rating": 5.2,
         "voteCount": 3,
-        "popularity": 30.0597,
+        "popularity": 38.6486,
         "releaseDate": "2021-12-28",
         "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.8793,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -785,16 +771,16 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 124265,
+        "id": 326694,
         "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 19.5099,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.8793,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,6 +799,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 124265,
+        "type": "tmdb",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 19.5099,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 321055,
         "type": "tmdb",
         "title": "奔跑吧第14季",
@@ -825,6 +825,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 126398,
+        "type": "tmdb",
+        "title": "五十公里桃花坞",
+        "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
+        "rating": 6.75,
+        "voteCount": 6,
+        "popularity": 61.3548,
+        "releaseDate": "2021-05-23",
+        "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
+        "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
@@ -849,7 +863,7 @@
         "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 6.0306,
+        "popularity": 7.5927,
         "releaseDate": "2025-08-27",
         "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
         "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
@@ -877,7 +891,7 @@
         "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
         "rating": 5.5,
         "voteCount": 4,
-        "popularity": 25.6266,
+        "popularity": 28.7741,
         "releaseDate": "2022-12-17",
         "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
         "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
@@ -1013,20 +1027,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 296215,
-        "type": "tmdb",
-        "title": "姐姐当家",
-        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 7.9319,
-        "releaseDate": "2025-07-26",
-        "posterPath": "/wioBS4QkmoHO0C35zlz00JlsrDd.jpg",
-        "backdropPath": "/5pstiu2pCM60drgTmCz6KQLUeGK.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325041,
         "type": "tmdb",
         "title": "天才厨人",
@@ -1037,6 +1037,20 @@
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 296215,
+        "type": "tmdb",
+        "title": "姐姐当家",
+        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 7.9319,
+        "releaseDate": "2025-07-26",
+        "posterPath": "/wioBS4QkmoHO0C35zlz00JlsrDd.jpg",
+        "backdropPath": "/5pstiu2pCM60drgTmCz6KQLUeGK.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1077,7 +1091,7 @@
         "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
         "rating": 5.2,
         "voteCount": 3,
-        "popularity": 30.0597,
+        "popularity": 38.6486,
         "releaseDate": "2021-12-28",
         "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
@@ -1241,32 +1255,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321537,
+        "id": 274658,
         "type": "tmdb",
-        "title": "为爱闪耀的她",
-        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.4873,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": null,
+        "title": "国医少年志",
+        "description": "全国首档中医文化明星体验真人秀，由徐璐、夏之光、王勉、敖子逸、王艺瑾作为节目嘉宾。娱乐圈五子拜师当代名医，一路研学旅行开启养生自救局，直观领略中医药文化的深厚底蕴，从而激发年轻人对中医药的兴趣和热爱，让更多的年轻人爱上中医药。",
+        "rating": 7,
+        "voteCount": 2,
+        "popularity": 3.1919,
+        "releaseDate": "2024-10-18",
+        "posterPath": "/cOYStvQ2UJFG6JTrR7Ks3pfBFtq.jpg",
+        "backdropPath": "/hOEHveJisVORbxJO25HqslTwNgs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 100289,
-        "type": "tmdb",
-        "title": "潮流合伙人",
-        "description": "　　爱奇艺自制的原创潮流经营体验节目。 节目由主理人吴亦凡，及合伙人杨颖Angelababy、潘玮柏、赵今麦、福克斯共赴亚洲潮流中心日本东京，经营“FOURTRY”潮流集合店。主理人和合伙 人将通过对潮店的经营表达属于中国年轻人的潮流态度，与世界潮流文化交流碰撞，输出当代中国文化自信，展现当下青年潮生活和潮流观。",
-        "rating": 2,
-        "voteCount": 1,
-        "popularity": 5.6004,
-        "releaseDate": "2019-12-06",
-        "posterPath": "/r6WaCHNlhkxsp88HciK4IgGOsTF.jpg",
-        "backdropPath": "/jEXev7lQf5OCBOgQPzSZFlwIoXi.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,喜剧"
       }
     ]
   }
