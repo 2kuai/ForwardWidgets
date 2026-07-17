@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-17T15:49:23.980+08:00",
+  "last_updated": "2026-07-17T20:59:25.029+08:00",
   "tv": {
     "全网": [
+      {
+        "id": 291392,
+        "type": "tmdb",
+        "title": "野狗骨头",
+        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
+        "rating": 8.667,
+        "voteCount": 3,
+        "popularity": 58.7806,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
+        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
       {
         "id": 286506,
         "type": "tmdb",
@@ -13,20 +27,6 @@
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/AcNgNI4HtZHeepeSI5nATqtPemZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 291392,
-        "type": "tmdb",
-        "title": "野狗骨头",
-        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 58.7806,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
-        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -257,6 +257,20 @@
         "genreTitle": "剧情,科幻奇幻"
       },
       {
+        "id": 270845,
+        "type": "tmdb",
+        "title": "二龙湖·“村”暖花开",
+        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.6568,
+        "releaseDate": "2024-10-11",
+        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
+        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 254498,
         "type": "tmdb",
         "title": "黑夜告白",
@@ -269,20 +283,6 @@
         "backdropPath": "/aqq030HUpm2Ov4PpL006MaW5bw3.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
-      },
-      {
-        "id": 272476,
-        "type": "tmdb",
-        "title": "金关",
-        "description": "滨海华炎机场海关旅检一科科长郭聪带领张瑜、吕晓妍、言博文等关员，坚守海关一线，在长约五十米的海关出入境通道之内，百步识人，识别并拦截各类走私分子。在基因样本走私案、地毯藏毒案、《层峦时景图》走私案、HPV九价疫苗走私案、名表走私案、盔犀鸟头胄走私案、精神类药物走私案等各类案件中，他们战胜了重重困难，揪出了走私幕后头目，保护了国家利益。郭聪、张瑜等新一代海关人也在并肩作战中迅速成长，并各自有了宝贵的收获。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.8138,
-        "releaseDate": "2026-04-14",
-        "posterPath": "/hvDrihn5ixxOM3lJ6hxtiY24q1S.jpg",
-        "backdropPath": "/A0nRQCblI1MaBsmzYhnossyLAZ0.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑,犯罪"
       }
     ],
     "爱奇艺": [
@@ -575,8 +575,8 @@
         "type": "tmdb",
         "title": "野狗骨头",
         "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8,
-        "voteCount": 2,
+        "rating": 8.667,
+        "voteCount": 3,
         "popularity": 58.7806,
         "releaseDate": "2026-07-05",
         "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 288603,
-        "type": "tmdb",
-        "title": "炽夏",
-        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
-        "rating": 9.1,
-        "voteCount": 5,
-        "popularity": 31.7023,
-        "releaseDate": "2026-06-16",
-        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
-        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 287641,
         "type": "tmdb",
         "title": "耀眼",
@@ -623,6 +609,20 @@
         "releaseDate": "2026-05-27",
         "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
         "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 288603,
+        "type": "tmdb",
+        "title": "炽夏",
+        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
+        "rating": 9.1,
+        "voteCount": 5,
+        "popularity": 31.7023,
+        "releaseDate": "2026-06-16",
+        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
+        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -733,26 +733,12 @@
         "type": "tmdb",
         "title": "五十公里桃花坞",
         "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 6.75,
-        "voteCount": 6,
+        "rating": 6.786,
+        "voteCount": 7,
         "popularity": 38.5708,
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
         "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.2,
-        "voteCount": 3,
-        "popularity": 19.0274,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -771,6 +757,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.2,
+        "voteCount": 3,
+        "popularity": 19.0274,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -783,20 +783,6 @@
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 261391,
-        "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 12.9222,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/6tCx5txPne3Kw9ouEh4ZViLOKXa.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
         "id": 261471,
@@ -813,6 +799,20 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 261391,
+        "type": "tmdb",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 12.9222,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/6tCx5txPne3Kw9ouEh4ZViLOKXa.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -823,20 +823,6 @@
         "releaseDate": "2019-04-11",
         "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
         "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.2009,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -985,20 +971,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.2009,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -1013,16 +985,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 325041,
+        "id": 326694,
         "type": "tmdb",
-        "title": "天才厨人",
-        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.4396,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
-        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
+        "popularity": 3.2009,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1039,6 +1011,20 @@
         "backdropPath": null,
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 325041,
+        "type": "tmdb",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.4396,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 112732,
@@ -1117,8 +1103,8 @@
         "type": "tmdb",
         "title": "五十公里桃花坞",
         "description": "《50公里桃花坞》是一档关于理想社区养成的社会实验真人秀，也是一场探寻物质和精神共识的溯源之旅。",
-        "rating": 6.75,
-        "voteCount": 6,
+        "rating": 6.786,
+        "voteCount": 7,
         "popularity": 38.5708,
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
