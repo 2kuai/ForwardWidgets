@@ -1,0 +1,31 @@
+name: Commit generated data
+description: Commit and push one generated data file only when it changed.
+
+inputs:
+  file:
+    description: Generated data file to commit.
+    required: true
+  message:
+    description: Commit message.
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Commit changed data
+      shell: bash
+      env:
+        DATA_FILE: ${{ inputs.file }}
+        COMMIT_MESSAGE: ${{ inputs.message }}
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add -- "$DATA_FILE"
+
+        if git diff --cached --quiet; then
+          echo "No generated-data changes to commit."
+          exit 0
+        fi
+
+        git commit -m "$COMMIT_MESSAGE"
+        git push

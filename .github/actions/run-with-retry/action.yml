@@ -1,0 +1,51 @@
+name: Run with retry
+description: Run a data-generation command with bounded retry and backoff.
+
+inputs:
+  command:
+    description: Command to run.
+    required: true
+  description:
+    description: Human-readable description of the data being generated.
+    required: true
+  attempts:
+    description: Maximum number of attempts.
+    required: false
+    default: "3"
+  initial-delay-seconds:
+    description: Delay before the second attempt. Later delays increase linearly.
+    required: false
+    default: "10"
+
+runs:
+  using: composite
+  steps:
+    - name: Run generator
+      shell: bash
+      env:
+        ATTEMPTS: ${{ inputs.attempts }}
+        COMMAND: ${{ inputs.command }}
+        DESCRIPTION: ${{ inputs.description }}
+        INITIAL_DELAY_SECONDS: ${{ inputs.initial-delay-seconds }}
+      run: |
+        for attempt in $(seq 1 "$ATTEMPTS"); do
+          echo "::group::${DESCRIPTION} (attempt ${attempt}/${ATTEMPTS})"
+          set +e
+          bash -o pipefail -c "$COMMAND"
+          exit_code=$?
+          set -e
+          echo "::endgroup::"
+
+          if [ "$exit_code" -eq 0 ]; then
+            exit 0
+          fi
+
+          if [ "$attempt" -eq "$ATTEMPTS" ]; then
+            echo "::error::${DESCRIPTION} failed after ${ATTEMPTS} attempts."
+            exit "$exit_code"
+          fi
+
+          delay=$((INITIAL_DELAY_SECONDS * attempt))
+          echo "::warning::${DESCRIPTION} failed (exit ${exit_code}); retrying in ${delay}s."
+          sleep "$delay"
+        done

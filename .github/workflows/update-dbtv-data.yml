@@ -1,47 +1,52 @@
-name: Update doubanTv Data (Python)
+name: Update Douban TV Data
+run-name: Update Douban TV and variety lists
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: "0 19 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-data-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  update-data:
+  sync-data:
+    name: Update TV, animation, documentary, and variety lists
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     env:
       TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-    
+
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-          # 这里不使用自动缓存，避免报错
-          
+          python-version: "3.10"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
       - name: Install dependencies
-        # 即使没有 requirements.txt，也能直接安装
-        run: |
-          python -m pip install --upgrade pip
-          pip install aiohttp
-          
-      - name: Create data directory
-        run: mkdir -p data
-        
-      - name: Run doubanTV script
-        run: python scripts/update-dbtv-data.py
-          
-      - name: Commit and push changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/dbtv-data.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: 自动更新豆瓣剧集数据 [skip ci]"
-            git push
-          fi
+        run: python -m pip install --disable-pip-version-check --requirement requirements.txt
+
+      - name: Generate Douban TV and variety lists
+        uses: ./.github/actions/run-with-retry
+        with:
+          description: Douban TV, animation, documentary, and variety lists
+          command: python scripts/update-dbtv-data.py
+
+      - name: Validate data/dbtv-data.json
+        run: python scripts/validate-generated-data.py data/dbtv-data.json
+
+      - name: Commit changed Douban TV data
+        uses: ./.github/actions/commit-generated-data
+        with:
+          file: data/dbtv-data.json
+          message: "chore: update Douban TV data [skip ci]"

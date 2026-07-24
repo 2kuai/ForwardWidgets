@@ -1,40 +1,52 @@
-name: Update Maoyan Data
+name: Update Maoyan Web-Heat Data
+run-name: Update Maoyan TV and variety rankings
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-data-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  update-data:
+  sync-data:
+    name: Update Maoyan TV and variety rankings by platform
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     env:
       TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        
-    - name: Install axios
-      run: npm install axios --no-package-lock --no-save
-      
-    - name: Create data directory
-      run: mkdir -p data
-      
-    - name: Run Maoyan data script
-      run: node scripts/update-maoyan-data.js
-      
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add data/maoyan-data.json
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update Maoyan data [skip ci]"
-        git push
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts --no-audit --fund=false
+
+      - name: Generate Maoyan TV and variety rankings
+        uses: ./.github/actions/run-with-retry
+        with:
+          description: Maoyan TV and variety rankings by platform
+          command: node scripts/update-maoyan-data.js
+
+      - name: Validate data/maoyan-data.json
+        run: node scripts/validate-generated-data.js data/maoyan-data.json
+
+      - name: Commit changed Maoyan web-heat data
+        uses: ./.github/actions/commit-generated-data
+        with:
+          file: data/maoyan-data.json
+          message: "chore: update Maoyan web-heat data [skip ci]"

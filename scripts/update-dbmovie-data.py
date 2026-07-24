@@ -1,7 +1,8 @@
 import asyncio
 import aiohttp
-import json
 import os
+
+from data_contract import normalize_media, write_validated_json
 
 # --- 配置区 ---
 TMDB_API_KEY = os.environ.get('TMDB_API_KEY')
@@ -32,12 +33,14 @@ async def fetch_douban_list(session, region):
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)",
         "Referer": "https://m.douban.com/movie/"
     }
-    try:
-        async with session.get(DB_BASE_URL, params=params, headers=headers) as resp:
-            if resp.status != 200: return []
-            data = await resp.json()
-            return data.get("items", [])
-    except: return []
+    async with session.get(DB_BASE_URL, params=params, headers=headers) as response:
+        if response.status != 200:
+            raise RuntimeError(f"Douban {region['title']} request failed with HTTP {response.status}.")
+        data = await response.json()
+        items = data.get("items")
+        if not isinstance(items, list):
+            raise RuntimeError(f"Douban {region['title']} response does not contain an items list.")
+        return items
 
 async def fetch_tmdb_detail(session, item, cache):
     db_title = item.get("title", "").strip()
@@ -59,43 +62,30 @@ async def fetch_tmdb_detail(session, item, cache):
 
     if db_year: params["primary_release_year"] = db_year
 
-    try:
-        async with session.get(url, params=params, headers=headers) as resp:
-            if resp.status != 200: return None
-            data = await resp.json()
-            results = data.get("results", [])
-            if not results: return None
+    async with session.get(url, params=params, headers=headers) as response:
+        if response.status != 200:
+            raise RuntimeError(f"TMDB search for {db_title!r} failed with HTTP {response.status}.")
+        data = await response.json()
+        results = data.get("results", [])
+        if not results:
+            return None
 
-            for res in results:
-                tmdb_t = (res.get("title") or "").lower()
-                tmdb_o = (res.get("original_title") or "").lower()
-                target = db_title.lower()
-                is_title_ok = (tmdb_t == target or tmdb_o == target)
-                is_year_ok = True
-                if db_year and res.get("release_date"):
-                    is_year_ok = res["release_date"].startswith(db_year)
-                
-                if is_title_ok and is_year_ok:
-                    genre_ids = res.get("genre_ids", [])
-                    genre_names = ",".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
-                    
-                    info = {
-                        "id": res["id"],
-                        "type": "tmdb",
-                        "title": res["title"],
-                        "description": res["overview"],
-                        "rating": res.get("vote_average"),
-                        "vote_count": res.get("vote_count"),
-                        "popularity": res.get("popularity"),
-                        "releaseDate": res.get("release_date"),
-                        "posterPath": res.get("poster_path"),
-                        "backdropPath": res.get("backdrop_path"),
-                        "mediaType": "movie",
-                        "genreTitle": genre_names
-                    }
-                    cache[cache_key] = info
-                    return info
-    except: pass
+        for res in results:
+            tmdb_t = (res.get("title") or "").lower()
+            tmdb_o = (res.get("original_title") or "").lower()
+            target = db_title.lower()
+            is_title_ok = (tmdb_t == target or tmdb_o == target)
+            is_year_ok = True
+            if db_year and res.get("release_date"):
+                is_year_ok = res["release_date"].startswith(db_year)
+
+            if is_title_ok and is_year_ok:
+                genre_ids = res.get("genre_ids", [])
+                genre_names = ",".join([GENRE_MAP.get(gid) for gid in genre_ids if GENRE_MAP.get(gid)])
+
+                info = normalize_media({**res, "genreTitle": genre_names}, "movie")
+                cache[cache_key] = info
+                return info
     return None
 
 async def batch_process(session, items, size, cache):
@@ -109,24 +99,23 @@ async def batch_process(session, items, size, cache):
 
 async def main():
     if not TMDB_API_KEY:
-        print("❌ Error: TMDB_API_KEY is missing")
-        return
+        raise RuntimeError("TMDB_API_KEY environment variable is required.")
 
-    if not os.path.exists(DATA_DIR):
-        os.makedirs(DATA_DIR)
-
-    async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=20)) as session:
         final_result = {}
         cache = {}
         for region in REGIONS:
-            print(f"Processing: {region['title']}")
+            print(f"[data] Fetching Douban movie list: {region['title']}")
             items = await fetch_douban_list(session, region)
             matched = await batch_process(session, items, 8, cache)
             final_result[region["title"]] = matched
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_result, f, ensure_ascii=False, indent=2)
-    print(f"✅ Data saved to {OUTPUT_FILE}")
+    write_validated_json(
+        OUTPUT_FILE,
+        final_result,
+        "Douban movie lists",
+        required_collections=[(region["title"],) for region in REGIONS],
+    )
 
 if __name__ == "__main__":
     asyncio.run(main())

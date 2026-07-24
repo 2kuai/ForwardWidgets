@@ -1,6 +1,6 @@
 const axios = require('axios');
-const fs = require('fs');
 const path = require('path');
+const { writeValidatedJson } = require('./lib/data-contract.cjs');
 
 // ================= 配置区域 =================
 const TMDB_API_KEY = process.env.TMDB_API_KEY; 
@@ -64,7 +64,7 @@ async function getTMDBData(biliItem) {
                 title: match.name || match.title,
                 description: match.overview || "",
                 rating: match.vote_average,
-                vote_count: match.vote_count || 0,
+                voteCount: match.vote_count || 0,
                 popularity: match.popularity || 0,
                 releaseDate: match.first_air_date || match.release_date || "",
                 posterPath: match.poster_path || "", // 不要前缀
@@ -76,6 +76,7 @@ async function getTMDBData(biliItem) {
         process.stdout.write(`\x1b[33m[SKIP]\x1b[0m\n`);
     } catch (err) {
         process.stdout.write(`\x1b[31m[ERR]\x1b[0m ${err.message}\n`);
+        throw new Error(`TMDB match failed for "${rawTitle}": ${err.message}`);
     }
     return null;
 }
@@ -86,7 +87,9 @@ async function main() {
     const startTime = Date.now();
     log.info("🎬 启动 Bilibili 动画排行榜同步 (数据格式对齐版)...");
 
-    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR);
+    if (!TMDB_API_KEY) {
+        throw new Error('TMDB_API_KEY environment variable is required.');
+    }
 
     const finalResult = {
         updated_at: new Date().toISOString(),
@@ -114,10 +117,14 @@ async function main() {
             process.stdout.write('\n');
         } catch (e) {
             log.error(`分类异常: ${e.message}`);
+            throw new Error(`${cat.label} update failed: ${e.message}`);
         }
     }
 
-    fs.writeFileSync(FILE_PATH, JSON.stringify(finalResult, null, 2), 'utf-8');
+    writeValidatedJson(FILE_PATH, finalResult, {
+        label: 'Bilibili animation rankings',
+        requiredCollections: [['anime'], ['donghua']]
+    });
     
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
     log.step(`同步完成！`);
@@ -127,4 +134,7 @@ async function main() {
     console.log(`--------------------------------------`);
 }
 
-main();
+main().catch(error => {
+    log.error(error.stack || error.message);
+    process.exitCode = 1;
+});

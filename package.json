@@ -1,0 +1,11 @@
+{
+  "name": "forward-widgets-data-sync",
+  "private": true,
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "dependencies": {
+    "axios": "1.8.4",
+    "cheerio": "1.0.0"
+  }
+}

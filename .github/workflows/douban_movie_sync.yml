@@ -1,48 +1,54 @@
-name: Douban Movie Sync
+name: Sync Douban Movie Data
+run-name: Sync Douban movie lists
 
 on:
   schedule:
-    - cron: '0 18 * * *' # 每天北京时间凌晨 2 点运行
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: generated-data-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build:
+  sync-data:
+    name: Update now playing, coming soon, and Top 250 movies
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     env:
-      TZ: Asia/Shanghai # 统一时区，方便日志对齐
+      TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       DOUBAN_API_KEY: ${{ secrets.DOUBAN_API_KEY }}
       BASE_URL: ${{ secrets.BASE_URL }}
-    
+
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
 
-      # 使用 --no-package-lock --no-save 避免产生临时文件
       - name: Install dependencies
-        run: npm install axios --no-package-lock --no-save
+        run: npm ci --ignore-scripts --no-audit --fund=false
 
-      - name: Create data directory
-        run: mkdir -p data
+      - name: Generate Douban movie lists
+        uses: ./.github/actions/run-with-retry
+        with:
+          description: Douban now playing, coming soon, and Top 250 movie lists
+          command: node scripts/douban_movie.js
 
-      - name: Run Sync
-        run: node scripts/douban_movie.js
+      - name: Validate data/douban_movie_data.json
+        run: node scripts/validate-generated-data.js data/douban_movie_data.json
 
-      - name: Commit and Push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          
-          # 仅添加数据文件，避免添加 node_modules
-          git add data/douban_movie_data.json
-          
-          # 模仿猫眼脚本的健壮性写法：检查是否有变动，无变动不提交
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 自动更新豆瓣片单数据 [skip ci]" && git push)
+      - name: Commit changed Douban movie data
+        uses: ./.github/actions/commit-generated-data
+        with:
+          file: data/douban_movie_data.json
+          message: "chore: update Douban movie data [skip ci]"

@@ -1,40 +1,52 @@
-name: Update Theater Data
+name: Update Theater Collection Data
+run-name: Update Douban theater collections
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # 北京时间 12:00 (UTC+8)
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-data-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update-data:
+  sync-data:
+    name: Update Mist, White Night, and X theater collections
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     env:
       TZ: Asia/Shanghai
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-    
+
     steps:
-      - uses: actions/checkout@v4
-      
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
       - name: Install dependencies
-        run: |
-          npm install --no-package-lock --no-save axios cheerio
-          # 临时安装到 node_modules 但不创建配置文件
-          
-      - name: Create data directory
-        run: mkdir -p data
-        
-      - name: Update theater data
-        run: |
-          node scripts/update-theater-data.js
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/theater-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update theater data [skip ci]" && git push)
+        run: npm ci --ignore-scripts --no-audit --fund=false
+
+      - name: Generate Douban theater collections
+        uses: ./.github/actions/run-with-retry
+        with:
+          description: Mist, White Night, and X theater collections
+          command: node scripts/update-theater-data.js
+
+      - name: Validate data/theater-data.json
+        run: node scripts/validate-generated-data.js data/theater-data.json
+
+      - name: Commit changed theater collection data
+        uses: ./.github/actions/commit-generated-data
+        with:
+          file: data/theater-data.json
+          message: "chore: update theater collection data [skip ci]"

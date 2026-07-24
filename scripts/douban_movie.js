@@ -1,11 +1,11 @@
 const axios = require('axios');
-const fs = require('fs');
 const path = require('path');
+const { writeValidatedJson } = require('./lib/data-contract.cjs');
 
 // ================= 配置区域 =================
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const DOUBAN_API_KEY = process.env.DOUBAN_API_KEY;
-const BASE_URL = "https://api.douban.com/v2/movie";
+const BASE_URL = process.env.BASE_URL || "https://api.douban.com/v2/movie";
 
 const GENRE_MAP = {
     28: "动作", 12: "冒险", 16: "动画", 35: "喜剧", 80: "犯罪", 99: "纪录", 18: "剧情",
@@ -17,9 +17,7 @@ const MAX_COUNT = 100;
 const REQUEST_TIMEOUT = 15000;
 const MOVIE_DELAY = 150; 
 
-const dir = './data';
-if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-const FILE_PATH = path.join(dir, 'douban_movie_data.json');
+const FILE_PATH = path.join('./data', 'douban_movie_data.json');
 
 const log = {
     info: (msg) => console.log(`\x1b[36m[INFO]\x1b[0m ${msg}`),
@@ -67,12 +65,12 @@ async function getStrictTMDBData(doubanItem) {
                 type: "tmdb",
                 title: match.title,
                 description: match.overview || "",
-                rating: match.vote_average,
-                voteCount: match.vote_count,
-                popularity: match.popularity,
+                rating: match.vote_average || 0,
+                voteCount: match.vote_count || 0,
+                popularity: match.popularity || 0,
                 releaseDate: match.release_date || doubanItem.year,
-                posterPath: match.poster_path ? match.poster_path : doubanItem.images.large,
-                backdropPath: match.backdrop_path ? match.backdrop_path : doubanItem.images.large,
+                posterPath: match.poster_path || doubanItem.images?.large || "",
+                backdropPath: match.backdrop_path || doubanItem.images?.large || "",
                 mediaType: "movie",
                 genreTitle: (match.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
             };
@@ -83,7 +81,7 @@ async function getStrictTMDBData(doubanItem) {
         }
     } catch (err) {
         console.log(`\x1b[31m[ERR]\x1b[0m ${err.message}`);
-        log.warn(`跳过匹配失败条目 [${title}]: ${err.message}`);
+        throw new Error(`TMDB match failed for "${title}": ${err.message}`);
     }
 
     return null; // 保持原逻辑：搜不到或不匹配就彻底不要了
@@ -117,7 +115,7 @@ async function fetchAndSync(endpoint) {
             await new Promise(r => setTimeout(r, 600)); 
         } catch (err) {
             log.error(`豆瓣列表中断: ${err.message}`);
-            break;
+            throw new Error(`Douban ${endpoint} request failed: ${err.message}`);
         }
     }
 
@@ -147,27 +145,32 @@ async function main() {
     const startTime = Date.now();
     log.info("🎬 启动 TMDB 纯净数据采集 (丢弃无匹配项)...");
 
-    try {
-        const finalResult = {
-            updated_at: new Date().toISOString(),
-            now_playing: await fetchAndSync('in_theaters'),
-            coming_soon: await fetchAndSync('coming_soon'),
-            top250: await fetchAndSync('top250')
-        };
-
-        fs.writeFileSync(FILE_PATH, JSON.stringify(finalResult, null, 2), 'utf-8');
-        
-        const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-        log.step(`任务完成!`);
-        console.log(`--------------------------------------`);
-        console.log(`📊 有效数据总量: ${finalResult.now_playing.length + finalResult.coming_soon.length + finalResult.top250.length}`);
-        console.log(`📂 文件存放在: ${FILE_PATH}`);
-        console.log(`⏱️ 耗时: ${duration}s`);
-        console.log(`--------------------------------------`);
-
-    } catch (mainErr) {
-        log.error(`主流程崩溃: ${mainErr.stack}`);
+    if (!TMDB_API_KEY || !DOUBAN_API_KEY) {
+        throw new Error('TMDB_API_KEY and DOUBAN_API_KEY environment variables are required.');
     }
+
+    const finalResult = {
+        updated_at: new Date().toISOString(),
+        now_playing: await fetchAndSync('in_theaters'),
+        coming_soon: await fetchAndSync('coming_soon'),
+        top250: await fetchAndSync('top250')
+    };
+
+    writeValidatedJson(FILE_PATH, finalResult, {
+        label: 'Douban movie lists',
+        requiredCollections: [['now_playing'], ['coming_soon'], ['top250']]
+    });
+
+    const duration = ((Date.now() - startTime) / 1000).toFixed(2);
+    log.step(`任务完成!`);
+    console.log(`--------------------------------------`);
+    console.log(`📊 有效数据总量: ${finalResult.now_playing.length + finalResult.coming_soon.length + finalResult.top250.length}`);
+    console.log(`📂 文件存放在: ${FILE_PATH}`);
+    console.log(`⏱️ 耗时: ${duration}s`);
+    console.log(`--------------------------------------`);
 }
 
-main();
+main().catch(error => {
+    log.error(error.stack || error.message);
+    process.exitCode = 1;
+});

@@ -1,7 +1,9 @@
 import axios from 'axios';
-import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dataContract from './lib/data-contract.cjs';
+
+const { writeValidatedJson } = dataContract;
 
 // 获取当前模块的路径
 const __filename = fileURLToPath(import.meta.url);
@@ -64,13 +66,13 @@ async function searchTMDB(showName) {
         id: bestMatch.id,
         type: "tmdb",
         title: bestMatch.name,
-        description: bestMatch.overview,
-        rating: bestMatch.vote_average,
-        voteCount: bestMatch.vote_count,
-        popularity: bestMatch.popularity,
-        releaseDate: bestMatch.first_air_date,
-        posterPath: bestMatch.poster_path || null,
-        backdropPath: bestMatch.backdrop_path || null,
+        description: bestMatch.overview || '',
+        rating: bestMatch.vote_average || 0,
+        voteCount: bestMatch.vote_count || 0,
+        popularity: bestMatch.popularity || 0,
+        releaseDate: bestMatch.first_air_date || '',
+        posterPath: bestMatch.poster_path || '',
+        backdropPath: bestMatch.backdrop_path || '',
         mediaType: "tv",
         genreTitle: (bestMatch.genre_ids || []).map(id => GENRE_MAP[id]).filter(Boolean).join(',')
       };
@@ -78,7 +80,7 @@ async function searchTMDB(showName) {
     return null;
   } catch (error) {
     console.error(`[TMDB] 搜索失败 "${showName}": ${error.message}`);
-    return null;
+    throw new Error(`TMDB search failed for "${showName}": ${error.message}`);
   }
 }
 
@@ -123,12 +125,16 @@ async function fetchPlatformData(platformValue, platformTitle, seriesType) {
     return [];
   } catch (error) {
     console.error(`[${platformTitle}] 数据获取失败:`, error.message);
-    return [];
+    throw new Error(`Maoyan ${platformTitle} ${seriesType === '2' ? 'variety' : 'TV'} request failed: ${error.message}`);
   }
 }
 
 // 主函数
 async function main() {
+  if (!TMDB_API_KEY) {
+    throw new Error('TMDB_API_KEY environment variable is required.');
+  }
+
   const result = {
     last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
     tv: {},
@@ -160,13 +166,12 @@ async function main() {
     })()
   ]);
 
-  // 保存数据
-  const dataDir = path.dirname(OUTPUT_PATH);
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(result, null, 2));
-  console.log(`数据已保存至: ${OUTPUT_PATH}`);
+  writeValidatedJson(OUTPUT_PATH, result, {
+    label: 'Maoyan web-heat rankings',
+    requiredCollections: ['tv', 'show'].flatMap(category =>
+      PLATFORMS.map(platform => [category, platform.title])
+    )
+  });
 }
 
 // 执行入口

@@ -1,8 +1,10 @@
 import axios from 'axios';
-import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
+import dataContract from './lib/data-contract.cjs';
+
+const { writeValidatedJson } = dataContract;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -120,7 +122,7 @@ async function fetchTheaterAllPages(theaterName, doulistId) {
         
     } catch (error) {
         console.error(`${theaterName} 错误:`, error.message);
-        return { [theaterName]: { aired: [], upcoming: [], totalItems: 0, totalPages: 0 } };
+        throw new Error(`${theaterName} collection update failed: ${error.message}`);
     }
 }
 
@@ -156,13 +158,13 @@ async function searchTMDB(title, year = null) {
                     id: exactMatch.id,
                     type: "tmdb",
                     title: exactMatch.name,
-                    description: exactMatch.overview,
-                    rating: exactMatch.vote_average,
-                    voteCount: exactMatch.vote_count,
-                    popularity: exactMatch.popularity,
-                    releaseDate: exactMatch.first_air_date,
-                    posterPath: exactMatch.poster_path || null,
-                    backdropPath: exactMatch.backdrop_path || null,
+                    description: exactMatch.overview || '',
+                    rating: exactMatch.vote_average || 0,
+                    voteCount: exactMatch.vote_count || 0,
+                    popularity: exactMatch.popularity || 0,
+                    releaseDate: exactMatch.first_air_date || '',
+                    posterPath: exactMatch.poster_path || '',
+                    backdropPath: exactMatch.backdrop_path || '',
                     mediaType: "tv",
                     genreTitle: genreTitle
                 };
@@ -170,28 +172,35 @@ async function searchTMDB(title, year = null) {
         }
         return null;
     } catch (error) {
-        return null;
+        throw new Error(`TMDB search failed for "${title}": ${error.message}`);
     }
 }
 
 async function updateTheaterData() {
-    try {
-        const data = {
-            last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
-        };
-
-        for (const theater of THEATERS) {
-            const result = await fetchTheaterAllPages(theater.name, theater.id);
-            Object.assign(data, result);
-        }
-        
-        const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
-        await fs.mkdir(path.dirname(outputPath), { recursive: true });
-        await fs.writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
-        console.log('数据更新成功');
-    } catch (error) {
-        console.error('更新失败:', error);
+    if (!TMDB_API_KEY) {
+        throw new Error('TMDB_API_KEY environment variable is required.');
     }
+
+    const data = {
+        last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
+    };
+
+    for (const theater of THEATERS) {
+        const result = await fetchTheaterAllPages(theater.name, theater.id);
+        Object.assign(data, result);
+    }
+
+    const outputPath = path.join(__dirname, '..', 'data', 'theater-data.json');
+    writeValidatedJson(outputPath, data, {
+        label: 'Douban theater collections',
+        requiredCollectionGroups: THEATERS.map(theater => ({
+            label: theater.name,
+            paths: [[theater.name, 'aired'], [theater.name, 'upcoming']]
+        }))
+    });
 }
 
-updateTheaterData();
+updateTheaterData().catch(error => {
+    console.error('更新失败:', error.stack || error.message);
+    process.exitCode = 1;
+});
