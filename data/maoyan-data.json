@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T21:14:00.586+08:00",
+  "last_updated": "2026-07-25T03:09:01.067+08:00",
   "tv": {
     "全网": [
       {
@@ -229,20 +229,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
-        "rating": 7.7,
-        "voteCount": 3,
-        "popularity": 11.5272,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
-      },
-      {
         "id": 289271,
         "type": "tmdb",
         "title": "翘楚",
@@ -255,6 +241,20 @@
         "backdropPath": "/rDj8Fxusr25YTUxm3WuQWcmkCbr.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
+        "rating": 7.7,
+        "voteCount": 3,
+        "popularity": 11.5272,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 254486,
@@ -502,8 +502,8 @@
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
-        "description": "叶府的长女叶璃，嫁去破败的定王府，和双腿残疾的定王墨修尧成亲，而在叶璃出嫁当日，黎王墨景黎与叶府次女叶莹也于同日成亲。叶璃作为骊山后人，曾被封在山中八年，婚后她表面无事，实则暗中谋划，将当年加害骊山的官员一一除去。在此过程中遭到了同为复仇的定王墨修尧的怀疑，两人各自发力，在表面平静的湖水投下了一块巨石。而本和叶璃青梅竹马的黎王墨景黎，顶着“戏曲王爷”不堪的名头，却在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝掌权，粉碎了沐阳侯、黎王的接连阴谋，还天下一片海晏河清。",
-        "rating": 8.375,
+        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
+        "rating": 8.4,
         "voteCount": 8,
         "popularity": 10.1402,
         "releaseDate": "2026-06-09",
@@ -541,20 +541,6 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 6.4166,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 233076,
         "type": "tmdb",
         "title": "问心",
@@ -565,6 +551,20 @@
         "releaseDate": "2023-10-07",
         "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
         "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9,
+        "voteCount": 5,
+        "popularity": 6.4166,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -625,20 +625,6 @@
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 37472,
-        "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.155,
-        "voteCount": 58,
-        "popularity": 31.5082,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
       },
       {
         "id": 283952,
@@ -709,39 +695,25 @@
         "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
         "mediaType": "tv",
         "genreTitle": "动画,儿童"
+      },
+      {
+        "id": 279446,
+        "type": "tmdb",
+        "title": "太平年",
+        "description": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+        "rating": 8.8,
+        "voteCount": 16,
+        "popularity": 53.9231,
+        "releaseDate": "2026-01-23",
+        "posterPath": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+        "backdropPath": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ]
   },
   "show": {
     "全网": [
-      {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 32.1018,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 296202,
-        "type": "tmdb",
-        "title": "地球超新鲜",
-        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
-        "rating": 8.6,
-        "voteCount": 5,
-        "popularity": 16.8518,
-        "releaseDate": "2025-07-27",
-        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
-        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
       {
         "id": 297509,
         "type": "tmdb",
@@ -753,20 +725,6 @@
         "releaseDate": "2025-08-27",
         "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
         "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.167,
-        "voteCount": 3,
-        "popularity": 25.1049,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -785,6 +743,34 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 296202,
+        "type": "tmdb",
+        "title": "地球超新鲜",
+        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
+        "rating": 8.6,
+        "voteCount": 5,
+        "popularity": 16.8518,
+        "releaseDate": "2025-07-27",
+        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
+        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.167,
+        "voteCount": 3,
+        "popularity": 25.1049,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -797,20 +783,6 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 40.7378,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       },
       {
         "id": 124265,
@@ -827,6 +799,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 40.7378,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 126398,
         "type": "tmdb",
         "title": "五十公里桃花坞",
@@ -837,6 +823,20 @@
         "releaseDate": "2021-05-23",
         "posterPath": "/A3C6crK4GQPNt2f43Vq6l2c845Y.jpg",
         "backdropPath": "/Rseua6cAC83aVDNMExhzxHNqgy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.3469,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -939,6 +939,20 @@
         "backdropPath": "/wEwvBocxYW2Tl5P4YXdGovF0BWv.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 329598,
+        "type": "tmdb",
+        "title": "宇宙帮帮忙",
+        "description": "",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0,
+        "releaseDate": "2026-07-17",
+        "posterPath": "/7oV37bvyNSQRTUNFlqSvoCJtiDV.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
       }
     ],
     "爱奇艺": [
@@ -985,16 +999,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 219934,
+        "id": 325041,
         "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 30.9585,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.7281,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1013,20 +1027,6 @@
         "genreTitle": ""
       },
       {
-        "id": 325041,
-        "type": "tmdb",
-        "title": "天才厨人",
-        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.7281,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
-        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296215,
         "type": "tmdb",
         "title": "姐姐当家",
@@ -1037,6 +1037,20 @@
         "releaseDate": "2025-07-26",
         "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 30.9585,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1085,6 +1099,20 @@
     ],
     "腾讯视频": [
       {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "rating": 5.8,
+        "voteCount": 4,
+        "popularity": 81.8704,
+        "releaseDate": "2024-08-20",
+        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
+        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,喜剧"
+      },
+      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -1111,20 +1139,6 @@
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "rating": 5.8,
-        "voteCount": 4,
-        "popularity": 81.8704,
-        "releaseDate": "2024-08-20",
-        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
-        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,喜剧"
       },
       {
         "id": 203003,
@@ -1253,34 +1267,6 @@
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀,剧情"
-      },
-      {
-        "id": 326450,
-        "type": "tmdb",
-        "title": "炽夏角色番综·炽热的夏天",
-        "description": "《炽热的夏天》为剧集《炽夏》的会员专享团综。包上恩、周柯宇（排名不分先后）等主演重聚“炽夏小屋”，开启两天一夜的合拍搭子寻访之旅。通过搭子自荐、默契挑战、游戏对决等环节层层筛选，最终角逐出“最合拍搭档”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.3657,
-        "releaseDate": "2026-06-24",
-        "posterPath": "/bvaGEF1rhYf358P2yzXeaG6wGlK.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.9693,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/ceK9b0SohjHeymlrzPb4blR0fWA.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       }
     ]
   }
