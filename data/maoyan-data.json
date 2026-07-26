@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T16:04:20.455+08:00",
+  "last_updated": "2026-07-26T20:53:56.936+08:00",
   "tv": {
     "全网": [
       {
@@ -243,20 +243,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 239901,
-        "type": "tmdb",
-        "title": "云秀行",
-        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
-        "rating": 7.7,
-        "voteCount": 3,
-        "popularity": 11.5585,
-        "releaseDate": "2026-06-20",
-        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
-        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
-      },
-      {
         "id": 289271,
         "type": "tmdb",
         "title": "翘楚",
@@ -269,6 +255,20 @@
         "backdropPath": "/rDj8Fxusr25YTUxm3WuQWcmkCbr.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 239901,
+        "type": "tmdb",
+        "title": "云秀行",
+        "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
+        "rating": 7.7,
+        "voteCount": 3,
+        "popularity": 11.5585,
+        "releaseDate": "2026-06-20",
+        "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
+        "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 278275,
@@ -721,7 +721,7 @@
         "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
         "rating": 8.6,
         "voteCount": 5,
-        "popularity": 15.3343,
+        "popularity": 19.7578,
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
@@ -743,20 +743,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.167,
-        "voteCount": 3,
-        "popularity": 25.2637,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -769,6 +755,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.167,
+        "voteCount": 3,
+        "popularity": 25.2637,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 261471,
@@ -1077,7 +1077,7 @@
         "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
         "rating": 8.6,
         "voteCount": 5,
-        "popularity": 15.3343,
+        "popularity": 19.7578,
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
