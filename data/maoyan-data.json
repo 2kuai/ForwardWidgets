@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-07-28T03:08:08.644+08:00",
+  "last_updated": "2026-07-28T09:23:48.496+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 83.2564,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 289139,
         "type": "tmdb",
@@ -27,6 +13,20 @@
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
         "backdropPath": "/24Jiw958Hb7okfxWFedeDkWX8WU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 83.2564,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -87,18 +87,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 313642,
+        "id": 285143,
         "type": "tmdb",
-        "title": "昭阳公主",
-        "description": "寒门沈孝一心苦读只为入朝为官，查清父亲死因，却因意外与昭阳公主李述一夜春风后又被其弃之。不久后他高中状元，新考鹿鸣宴沈孝面圣，第一道奏疏就是弹劾这位“骄奢淫逸”的公主......两人从相杀到相惜，相互欣赏生出情愫。从对立到联手，沈孝助公主挣脱枷锁，两人在并肩对抗的路上，意识到这阶级之争背后的症结：只有国泰民安才能有个人命运的安好。",
+        "title": "灿如繁星",
+        "description": "讲述了心理学博士林晚星遭遇变故后回到家乡宏景任教，邂逅顶级教练王法，并带领一群垫底差生逆袭追梦，热血救赎的故事。林晚星用“自由式”教育，培养少年们的独立人格，帮助他们学会生活，融洽自我，发现所爱，勇于追求。未来人生里，不远狭路，终见光明。",
         "rating": 8,
-        "voteCount": 1,
-        "popularity": 11.2234,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/1kpyF4UceNSiTY9yxVNOSdjt7iF.jpg",
-        "backdropPath": "/lnp1FbxMwAzFte0B9DBWV3btUOT.jpg",
+        "voteCount": 5,
+        "popularity": 16.9513,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/jE6xuxwLUojZ2k80rKbv73frWsv.jpg",
+        "backdropPath": "/6EpiUiXNmCjZT62e2pLpyaiqB8K.jpg",
         "mediaType": "tv",
-        "genreTitle": ""
+        "genreTitle": "剧情"
       },
       {
         "id": 296003,
@@ -115,18 +115,18 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 285143,
+        "id": 313642,
         "type": "tmdb",
-        "title": "灿如繁星",
-        "description": "讲述了心理学博士林晚星遭遇变故后回到家乡宏景任教，邂逅顶级教练王法，并带领一群垫底差生逆袭追梦，热血救赎的故事。林晚星用“自由式”教育，培养少年们的独立人格，帮助他们学会生活，融洽自我，发现所爱，勇于追求。未来人生里，不远狭路，终见光明。",
+        "title": "昭阳公主",
+        "description": "寒门沈孝一心苦读只为入朝为官，查清父亲死因，却因意外与昭阳公主李述一夜春风后又被其弃之。不久后他高中状元，新考鹿鸣宴沈孝面圣，第一道奏疏就是弹劾这位“骄奢淫逸”的公主......两人从相杀到相惜，相互欣赏生出情愫。从对立到联手，沈孝助公主挣脱枷锁，两人在并肩对抗的路上，意识到这阶级之争背后的症结：只有国泰民安才能有个人命运的安好。",
         "rating": 8,
-        "voteCount": 5,
-        "popularity": 16.9513,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/jE6xuxwLUojZ2k80rKbv73frWsv.jpg",
-        "backdropPath": "/6EpiUiXNmCjZT62e2pLpyaiqB8K.jpg",
+        "voteCount": 1,
+        "popularity": 12.4413,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/1kpyF4UceNSiTY9yxVNOSdjt7iF.jpg",
+        "backdropPath": "/lnp1FbxMwAzFte0B9DBWV3btUOT.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": ""
       },
       {
         "id": 296915,
@@ -179,7 +179,7 @@
         "description": "以中国近代著名实业家、教育家张謇的人生经历为主线，聚焦清末民初风云激荡的时代变局，讲述张謇秉持“实业救国、教育兴邦”理想，兴办实业、发展教育、造福乡梓，以一生奋斗探索民族振兴之路的历史故事。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 3.3786,
+        "popularity": 3.6211,
         "releaseDate": "2026-07-20",
         "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
         "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
@@ -229,20 +229,6 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
-        "id": 289271,
-        "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 7.6,
-        "voteCount": 9,
-        "popularity": 12.5409,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
-        "backdropPath": "/rDj8Fxusr25YTUxm3WuQWcmkCbr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 239901,
         "type": "tmdb",
         "title": "云秀行",
@@ -269,6 +255,20 @@
         "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 7.6,
+        "voteCount": 9,
+        "popularity": 12.5409,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
+        "backdropPath": "/rDj8Fxusr25YTUxm3WuQWcmkCbr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278275,
@@ -349,7 +349,7 @@
         "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
         "rating": 7,
         "voteCount": 5,
-        "popularity": 17.3713,
+        "popularity": 17.8759,
         "releaseDate": "2026-06-11",
         "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
@@ -399,49 +399,35 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 280735,
-        "type": "tmdb",
-        "title": "春日之地",
-        "description": "琼州大学的春天被设计系学生李伟豪的坠楼彻底击碎，暗恋遭拒、校园霸凌、父母背叛、梦想破灭，多重打击下选择结束生命。他的死如一面镜子，照出每个人心底的隐秘——发小张超因此唤醒被遗忘的童年创伤，体内分裂出十岁的副人格“小张超”；心理医生陈蓉带着未及时回复求助信息的愧疚介入调查；被暗恋的女孩白秋为查明闺蜜莎莎车祸真相，冒险潜伏网红朱小雨的非法交易链；霸凌者林家明在严父林永泰的阴影下挣扎。随着调查深入，一桩桩校园霸凌、权色交易、药品迷奸的罪行浮出水面，指向首富林永泰操控的黑暗帝国。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 19.9699,
-        "releaseDate": "2026-07-21",
-        "posterPath": "/rFJ7COrfj6P7ryrOzmC0Lt9VZDy.jpg",
-        "backdropPath": "/1OIpjsitqdawBjZu99xsMJHHUXp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 329132,
         "type": "tmdb",
         "title": "江海潮生",
         "description": "以中国近代著名实业家、教育家张謇的人生经历为主线，聚焦清末民初风云激荡的时代变局，讲述张謇秉持“实业救国、教育兴邦”理想，兴办实业、发展教育、造福乡梓，以一生奋斗探索民族振兴之路的历史故事。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 3.3786,
+        "popularity": 3.6211,
         "releaseDate": "2026-07-20",
         "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
         "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 280735,
+        "type": "tmdb",
+        "title": "春日之地",
+        "description": "琼州大学的春天被设计系学生李伟豪的坠楼彻底击碎，暗恋遭拒、校园霸凌、父母背叛、梦想破灭，多重打击下选择结束生命。他的死如一面镜子，照出每个人心底的隐秘——发小张超因此唤醒被遗忘的童年创伤，体内分裂出十岁的副人格“小张超”；心理医生陈蓉带着未及时回复求助信息的愧疚介入调查；被暗恋的女孩白秋为查明闺蜜莎莎车祸真相，冒险潜伏网红朱小雨的非法交易链；霸凌者林家明在严父林永泰的阴影下挣扎。随着调查深入，一桩桩校园霸凌、权色交易、药品迷奸的罪行浮出水面，指向首富林永泰操控的黑暗帝国。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 16.0486,
+        "releaseDate": "2026-07-21",
+        "posterPath": "/rFJ7COrfj6P7ryrOzmC0Lt9VZDy.jpg",
+        "backdropPath": "/1OIpjsitqdawBjZu99xsMJHHUXp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
       }
     ],
     "腾讯视频": [
-      {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 83.2564,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 289139,
         "type": "tmdb",
@@ -453,6 +439,20 @@
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
         "backdropPath": "/24Jiw958Hb7okfxWFedeDkWX8WU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 83.2564,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -683,20 +683,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283682,
-        "type": "tmdb",
-        "title": "好好的时光",
-        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 5.8482,
-        "releaseDate": "2026-02-23",
-        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
-        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 37472,
         "type": "tmdb",
         "title": "海底小纵队",
@@ -709,6 +695,20 @@
         "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
         "mediaType": "tv",
         "genreTitle": "动画,儿童,动作冒险,科幻奇幻"
+      },
+      {
+        "id": 283682,
+        "type": "tmdb",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 5.8482,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       }
     ]
   },
@@ -743,20 +743,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.1062,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -769,6 +755,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.1062,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 261471,
@@ -877,7 +877,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.7653,
+        "popularity": 3.6899,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -929,20 +929,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.1062,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -955,6 +941,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.1062,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 296215,
@@ -1033,7 +1033,7 @@
         "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
         "rating": 7.444,
         "voteCount": 9,
-        "popularity": 43.9244,
+        "popularity": 38.8658,
         "releaseDate": "2020-11-06",
         "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
         "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
@@ -1061,7 +1061,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.7653,
+        "popularity": 3.6899,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -1161,7 +1161,7 @@
         "description": "《哈哈哈哈哈》是一档由爱奇艺、腾讯视频双平台联合投资、联合出品、联合独播、轮值招商的公路行进式户外真人秀。节目中由邓超、陈赫、鹿晗组成的兄弟旅行团将开启一段由东到西，穿越中国的真实旅行。节目以“公路喜剧”为核心概念，讲述的是3位不同年龄的男人，在经历长时间的居家隔离生活后，迫不及待“出门走走”、“恢复社交”，展开一段未知的冒险旅程。节目将着重呈现旅途“行进感”实现公路电影化的内容呈现，以区别于其他户外及旅行类综艺。希望观众从男人们这趟特殊的旅行中收获快乐，重拾对美好生活的信心与希望。",
         "rating": 7.444,
         "voteCount": 9,
-        "popularity": 43.9244,
+        "popularity": 38.8658,
         "releaseDate": "2020-11-06",
         "posterPath": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
         "backdropPath": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
@@ -1175,7 +1175,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.7653,
+        "popularity": 3.6899,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -1247,7 +1247,7 @@
         "description": "《炽热的夏天》为剧集《炽夏》的会员专享团综。包上恩、周柯宇（排名不分先后）等主演重聚“炽夏小屋”，开启两天一夜的合拍搭子寻访之旅。通过搭子自荐、默契挑战、游戏对决等环节层层筛选，最终角逐出“最合拍搭档”。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.5905,
+        "popularity": 1.894,
         "releaseDate": "2026-06-24",
         "posterPath": "/bvaGEF1rhYf358P2yzXeaG6wGlK.jpg",
         "backdropPath": "/yOc8xVNu09aNWtzRjFQG51gqjZT.jpg",
