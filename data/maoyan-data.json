@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T16:04:01.867+08:00",
+  "last_updated": "2026-07-30T21:22:52.858+08:00",
   "tv": {
     "全网": [
       {
@@ -21,26 +21,12 @@
         "type": "tmdb",
         "title": "这一秒过火",
         "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.2,
-        "voteCount": 6,
+        "rating": 7.4,
+        "voteCount": 7,
         "popularity": 94.3506,
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
         "backdropPath": "/24Jiw958Hb7okfxWFedeDkWX8WU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 66.5223,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -57,6 +43,20 @@
         "backdropPath": "/qBc4Q7XhYOIzlgdKQZ1vueA3FDI.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,动作冒险,剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 66.5223,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283780,
@@ -87,20 +87,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 296003,
-        "type": "tmdb",
-        "title": "小芳",
-        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
-        "rating": 8.667,
-        "voteCount": 3,
-        "popularity": 5.1738,
-        "releaseDate": "2026-07-13",
-        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
-        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 273114,
         "type": "tmdb",
         "title": "悬案",
@@ -113,6 +99,20 @@
         "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
+      },
+      {
+        "id": 296003,
+        "type": "tmdb",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 8.667,
+        "voteCount": 3,
+        "popularity": 5.1738,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
       },
       {
         "id": 313642,
@@ -215,20 +215,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 276567,
-        "type": "tmdb",
-        "title": "夫妻的博弈",
-        "description": "罹患癌症的广告公司高层姜幸如（高海宁 饰），无意中撞破丈夫施继威（张颖康 饰）与自己唯一的闺蜜潘雪文（郭柏妍 饰）的奸情，惨遭两人狠下毒手。命悬一线之际，她奇迹般“死而复生”，重生回到五年前。\n\n获得重生的幸如决定为自己而活。她继续任职广告公司高层，凭借从“未来”带回来的预知能力，以及自身过硬的实力，在职场上如鱼得水。她换上亮丽外型，带领女同事组成“粉红兵团”，让众人释放被埋没已久的才华，创作出一个又一个打动人心的广告。幸如率领粉红兵团与公司内的“渣男s”博弈，勇敢冲破职场中的性别偏见，在竞争激烈的商业世界中为自己和姐妹们改写命运，成为自己的英雄。与此同时，她与广告界精英叶家谦（马国明 饰）因命运交错而相遇，二人携手面对重重难关，谱写了一段充满治愈力量的感情故事。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 12.5758,
-        "releaseDate": "2026-08-03",
-        "posterPath": "/bwiGIDkZ6K8vbRcskAEcK1iWIC0.jpg",
-        "backdropPath": "/50dUu8oWbHScC2fSlM9z8eIX6n8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 276239,
         "type": "tmdb",
         "title": "非份之罪",
@@ -241,6 +227,20 @@
         "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 276567,
+        "type": "tmdb",
+        "title": "夫妻的博弈",
+        "description": "罹患癌症的广告公司高层姜幸如（高海宁 饰），无意中撞破丈夫施继威（张颖康 饰）与自己唯一的闺蜜潘雪文（郭柏妍 饰）的奸情，惨遭两人狠下毒手。命悬一线之际，她奇迹般“死而复生”，重生回到五年前。\n\n获得重生的幸如决定为自己而活。她继续任职广告公司高层，凭借从“未来”带回来的预知能力，以及自身过硬的实力，在职场上如鱼得水。她换上亮丽外型，带领女同事组成“粉红兵团”，让众人释放被埋没已久的才华，创作出一个又一个打动人心的广告。幸如率领粉红兵团与公司内的“渣男s”博弈，勇敢冲破职场中的性别偏见，在竞争激烈的商业世界中为自己和姐妹们改写命运，成为自己的英雄。与此同时，她与广告界精英叶家谦（马国明 饰）因命运交错而相遇，二人携手面对重重难关，谱写了一段充满治愈力量的感情故事。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 12.5758,
+        "releaseDate": "2026-08-03",
+        "posterPath": "/bwiGIDkZ6K8vbRcskAEcK1iWIC0.jpg",
+        "backdropPath": "/50dUu8oWbHScC2fSlM9z8eIX6n8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 254486,
@@ -291,8 +291,8 @@
         "type": "tmdb",
         "title": "这一秒过火",
         "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.2,
-        "voteCount": 6,
+        "rating": 7.4,
+        "voteCount": 7,
         "popularity": 94.3506,
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
@@ -347,28 +347,14 @@
         "type": "tmdb",
         "title": "南部档案",
         "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
-        "rating": 7,
-        "voteCount": 5,
+        "rating": 7.5,
+        "voteCount": 6,
         "popularity": 15.4003,
         "releaseDate": "2026-06-11",
         "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
-      },
-      {
-        "id": 230311,
-        "type": "tmdb",
-        "title": "爱情有烟火",
-        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
-        "rating": 7.5,
-        "voteCount": 4,
-        "popularity": 12.7876,
-        "releaseDate": "2026-06-15",
-        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
-        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 233076,
@@ -385,13 +371,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 230311,
+        "type": "tmdb",
+        "title": "爱情有烟火",
+        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
+        "rating": 7.5,
+        "voteCount": 4,
+        "popularity": 12.7876,
+        "releaseDate": "2026-06-15",
+        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
+        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 327506,
         "type": "tmdb",
         "title": "九个弹孔",
         "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.5568,
+        "popularity": 2.5116,
         "releaseDate": "2026-07-08",
         "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
         "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
@@ -433,8 +433,8 @@
         "type": "tmdb",
         "title": "这一秒过火",
         "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.2,
-        "voteCount": 6,
+        "rating": 7.4,
+        "voteCount": 7,
         "popularity": 94.3506,
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
@@ -485,6 +485,20 @@
         "genreTitle": "剧情,家庭"
       },
       {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
+        "rating": 8.4,
+        "voteCount": 8,
+        "popularity": 12.5041,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 296915,
         "type": "tmdb",
         "title": "依然的喜事",
@@ -499,16 +513,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 292696,
+        "id": 233076,
         "type": "tmdb",
-        "title": "莫离",
-        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
-        "rating": 8.4,
+        "title": "问心",
+        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
         "voteCount": 8,
-        "popularity": 12.5041,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "popularity": 8.4006,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -525,20 +539,6 @@
         "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
-      },
-      {
-        "id": 233076,
-        "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.6,
-        "voteCount": 8,
-        "popularity": 8.4006,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 284110,
@@ -561,7 +561,7 @@
         "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.5568,
+        "popularity": 2.5116,
         "releaseDate": "2026-07-08",
         "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
         "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
@@ -655,20 +655,6 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 317895,
-        "type": "tmdb",
-        "title": "战旗如画",
-        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 2.9744,
-        "releaseDate": "2026-03-29",
-        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
-        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "战争政治"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -681,6 +667,20 @@
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 317895,
+        "type": "tmdb",
+        "title": "战旗如画",
+        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 2.9744,
+        "releaseDate": "2026-03-29",
+        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
+        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       },
       {
         "id": 283961,
@@ -785,20 +785,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 35.483,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -811,6 +797,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 35.483,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 261471,
@@ -827,16 +827,16 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 326694,
+        "id": 325041,
         "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.8658,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "popularity": 3.0425,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -971,20 +971,6 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.8658,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325041,
         "type": "tmdb",
         "title": "天才厨人",
@@ -995,6 +981,20 @@
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.8658,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1013,20 +1013,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.4343,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -1039,6 +1025,20 @@
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.4343,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 112732,
@@ -1061,7 +1061,7 @@
         "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
         "rating": 10,
         "voteCount": 1,
-        "popularity": 3.6466,
+        "popularity": 3.4338,
         "releaseDate": "2026-04-24",
         "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
         "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
@@ -1203,7 +1203,7 @@
         "description": "魔性上头的歌，快乐发疯的舞台，魔力歌先生来了！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 4.1113,
+        "popularity": 3.3336,
         "releaseDate": "2026-03-13",
         "posterPath": "/wLEDxYZ2ar5XbcAUocru07LJe7P.jpg",
         "backdropPath": "/dlDrgLFfH0ABsUfAn4UTq2JXufL.jpg",
@@ -1261,7 +1261,7 @@
         "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.0071,
+        "popularity": 0.085,
         "releaseDate": "2026-07-26",
         "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
