@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T16:29:59.002+08:00",
+  "last_updated": "2026-07-31T21:27:27.458+08:00",
   "tv": {
     "全网": [
       {
@@ -45,20 +45,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 59.7962,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283780,
         "type": "tmdb",
         "title": "兵自风中来",
@@ -69,6 +55,20 @@
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 59.7962,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -87,20 +87,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 296003,
-        "type": "tmdb",
-        "title": "小芳",
-        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
-        "rating": 8.667,
-        "voteCount": 3,
-        "popularity": 4.7615,
-        "releaseDate": "2026-07-13",
-        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
-        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,家庭"
-      },
-      {
         "id": 313642,
         "type": "tmdb",
         "title": "昭阳公主",
@@ -115,13 +101,27 @@
         "genreTitle": ""
       },
       {
+        "id": 296003,
+        "type": "tmdb",
+        "title": "小芳",
+        "description": "讲述了杨小芳与同村的祁小伟未婚先孕，杨家人紧急回村为小芳出谋划策，祁杨两家态度不一，意外掀起了一场“婚恋风暴”，两家谈判失败，小芳“带球相亲”，却受到全村追捧并引发了一系列让人啼笑皆非的事件。",
+        "rating": 8.667,
+        "voteCount": 3,
+        "popularity": 4.7615,
+        "releaseDate": "2026-07-13",
+        "posterPath": "/dF8AzhhHtOLHTmuZ12Wx2if7oz2.jpg",
+        "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,家庭"
+      },
+      {
         "id": 296915,
         "type": "tmdb",
         "title": "依然的喜事",
         "description": "李依然再次回到乐沧这座西南小城，八年隔阂让母女关系渐行渐远。阴差阳错之下，母女二人包揽了小城的“人生大事”。面对一个个残酷又温情的故事，李依然对生命与遗憾有了不同解读，她与母亲的关系也悄然发生变化……",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 4.9418,
+        "popularity": 4.7887,
         "releaseDate": "2026-07-21",
         "posterPath": "/9mR0yglr2KUGfD8wNG0ytfkoGgY.jpg",
         "backdropPath": "/kUnxyoPSzuQPcPV5I7gwxUsyCSO.jpg",
@@ -263,7 +263,7 @@
         "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
         "rating": 7.7,
         "voteCount": 3,
-        "popularity": 9.5348,
+        "popularity": 8.6417,
         "releaseDate": "2026-06-20",
         "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
         "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
@@ -443,20 +443,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 59.7962,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283780,
         "type": "tmdb",
         "title": "兵自风中来",
@@ -467,6 +453,20 @@
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 59.7962,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -491,7 +491,7 @@
         "description": "李依然再次回到乐沧这座西南小城，八年隔阂让母女关系渐行渐远。阴差阳错之下，母女二人包揽了小城的“人生大事”。面对一个个残酷又温情的故事，李依然对生命与遗憾有了不同解读，她与母亲的关系也悄然发生变化……",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 4.9418,
+        "popularity": 4.7887,
         "releaseDate": "2026-07-21",
         "posterPath": "/9mR0yglr2KUGfD8wNG0ytfkoGgY.jpg",
         "backdropPath": "/kUnxyoPSzuQPcPV5I7gwxUsyCSO.jpg",
@@ -627,20 +627,6 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 7.5,
-        "voteCount": 6,
-        "popularity": 6.6812,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 214875,
         "type": "tmdb",
         "title": "汪汪队之小砾与工程家族",
@@ -655,16 +641,16 @@
         "genreTitle": "动画,儿童"
       },
       {
-        "id": 288603,
+        "id": 287641,
         "type": "tmdb",
-        "title": "炽夏",
-        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
-        "rating": 9.4,
-        "voteCount": 7,
-        "popularity": 21.6654,
-        "releaseDate": "2026-06-16",
-        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
-        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 6.6812,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -681,6 +667,20 @@
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
         "mediaType": "tv",
         "genreTitle": "战争政治"
+      },
+      {
+        "id": 288603,
+        "type": "tmdb",
+        "title": "炽夏",
+        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
+        "rating": 9.4,
+        "voteCount": 7,
+        "popularity": 21.6654,
+        "releaseDate": "2026-06-16",
+        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
+        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283961,
@@ -715,6 +715,20 @@
   "show": {
     "全网": [
       {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.167,
+        "voteCount": 3,
+        "popularity": 19.6688,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 297509,
         "type": "tmdb",
         "title": "食神·百厨大战",
@@ -741,62 +755,6 @@
         "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.167,
-        "voteCount": 3,
-        "popularity": 19.6688,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.3491,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 12.6823,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 261391,
-        "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 15.7837,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
         "id": 296202,
@@ -827,18 +785,46 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 330354,
+        "id": 261391,
         "type": "tmdb",
-        "title": "心动双重奏",
-        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0,
-        "releaseDate": "2026-07-30",
-        "posterPath": "",
-        "backdropPath": "",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 15.7837,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
-        "genreTitle": ""
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.3491,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 124265,
+        "type": "tmdb",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 12.6823,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
@@ -863,7 +849,7 @@
         "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.4343,
+        "popularity": 0.3797,
         "releaseDate": "",
         "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
         "backdropPath": "",
@@ -943,20 +929,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 12.6823,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -971,16 +943,16 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 219934,
+        "id": 124265,
         "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 21.5188,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 12.6823,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -999,6 +971,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 21.5188,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -1013,6 +999,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3797,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 296215,
         "type": "tmdb",
         "title": "姐姐当家",
@@ -1025,20 +1025,6 @@
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.4343,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
       },
       {
         "id": 112732,
@@ -1099,20 +1085,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.3491,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -1141,6 +1113,20 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.3491,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 126398,
         "type": "tmdb",
         "title": "五十公里桃花坞",
@@ -1161,7 +1147,7 @@
         "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.4343,
+        "popularity": 0.3797,
         "releaseDate": "",
         "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
         "backdropPath": "",
@@ -1267,20 +1253,6 @@
         "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 329500,
-        "type": "tmdb",
-        "title": "野狗骨头·意犹未尽",
-        "description": "《野狗骨头·意犹未尽》是电视剧《野狗骨头》的角色番综，宋威龙饰演陈异、张婧仪饰演苗靖。二人在售后节目中以剧中角色之名补办一场迟到的心愿婚礼，随后在相伴而行、共享美食、露营时光的治愈氛围中延续剧集余温，开启一场“异”犹未“靖”的浪漫出逃。",
-        "rating": 10,
-        "voteCount": 1,
-        "popularity": 1.4826,
-        "releaseDate": "2026-07-21",
-        "posterPath": "/betwS1NNoS95ihuogDhlllDGm5g.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,剧情"
       },
       {
         "id": 330052,
