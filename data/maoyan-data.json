@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T15:59:40.643+08:00",
+  "last_updated": "2026-08-01T20:52:16.237+08:00",
   "tv": {
     "全网": [
       {
@@ -73,20 +73,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291392,
-        "type": "tmdb",
-        "title": "野狗骨头",
-        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8.8,
-        "voteCount": 6,
-        "popularity": 29.512,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
-        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 295558,
         "type": "tmdb",
         "title": "雀骨",
@@ -141,6 +127,20 @@
         "backdropPath": "/kUnxyoPSzuQPcPV5I7gwxUsyCSO.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 278605,
+        "type": "tmdb",
+        "title": "南部档案",
+        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 17.9216,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
+        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动作冒险,悬疑"
       }
     ],
     "优酷": [
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 230311,
-        "type": "tmdb",
-        "title": "爱情有烟火",
-        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
-        "rating": 7.5,
-        "voteCount": 4,
-        "popularity": 10.8313,
-        "releaseDate": "2026-06-15",
-        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
-        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
-      },
-      {
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
@@ -539,6 +525,20 @@
         "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 230311,
+        "type": "tmdb",
+        "title": "爱情有烟火",
+        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
+        "rating": 7.5,
+        "voteCount": 4,
+        "popularity": 10.8313,
+        "releaseDate": "2026-06-15",
+        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
+        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 233076,
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 214875,
-        "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 19.4208,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
-      },
-      {
         "id": 326189,
         "type": "tmdb",
         "title": "种墨园",
@@ -641,6 +627,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 214875,
+        "type": "tmdb",
+        "title": "汪汪队之小砾与工程家族",
+        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
+        "rating": 7.1,
+        "voteCount": 31,
+        "popularity": 19.4208,
+        "releaseDate": "2023-02-03",
+        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
+        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,儿童"
+      },
+      {
         "id": 283952,
         "type": "tmdb",
         "title": "良陈美锦",
@@ -661,7 +661,7 @@
         "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
         "rating": 9.4,
         "voteCount": 7,
-        "popularity": 21.6654,
+        "popularity": 21.9653,
         "releaseDate": "2026-06-16",
         "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
@@ -785,34 +785,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 297509,
-        "type": "tmdb",
-        "title": "食神·百厨大战",
-        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 9.3513,
-        "releaseDate": "2025-08-27",
-        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
-        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 14.1412,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -827,16 +799,44 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 219934,
+        "id": 297509,
         "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 23.4637,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "title": "食神·百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 9.3513,
+        "releaseDate": "2025-08-27",
+        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
+        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 30.262,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 124265,
+        "type": "tmdb",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 14.1412,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -957,20 +957,6 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 14.1412,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -981,6 +967,20 @@
         "releaseDate": "2026-06-27",
         "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
         "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 124265,
+        "type": "tmdb",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 14.1412,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1013,20 +1013,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 321055,
-        "type": "tmdb",
-        "title": "奔跑吧第14季",
-        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3186,
-        "releaseDate": "",
-        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 296215,
         "type": "tmdb",
         "title": "姐姐当家",
@@ -1039,6 +1025,20 @@
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 321055,
+        "type": "tmdb",
+        "title": "奔跑吧第14季",
+        "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3186,
+        "releaseDate": "",
+        "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
       },
       {
         "id": 112732,
@@ -1283,18 +1283,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326450,
+        "id": 330052,
         "type": "tmdb",
-        "title": "炽夏角色番综·炽热的夏天",
-        "description": "《炽热的夏天》为剧集《炽夏》的会员专享团综。包上恩、周柯宇（排名不分先后）等主演重聚“炽夏小屋”，开启两天一夜的合拍搭子寻访之旅。通过搭子自荐、默契挑战、游戏对决等环节层层筛选，最终角逐出“最合拍搭档”。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.6652,
-        "releaseDate": "2026-06-24",
-        "posterPath": "/bvaGEF1rhYf358P2yzXeaG6wGlK.jpg",
-        "backdropPath": "/yOc8xVNu09aNWtzRjFQG51gqjZT.jpg",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0585,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": ""
       }
     ]
   }
