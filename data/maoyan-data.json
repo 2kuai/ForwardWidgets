@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T03:04:26.577+08:00",
+  "last_updated": "2026-08-01T09:44:51.038+08:00",
   "tv": {
     "全网": [
       {
@@ -31,20 +31,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 9.5,
-        "voteCount": 2,
-        "popularity": 14.7701,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283780,
         "type": "tmdb",
         "title": "兵自风中来",
@@ -55,6 +41,20 @@
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 9.5,
+        "voteCount": 2,
+        "popularity": 14.7701,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -73,20 +73,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295558,
-        "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 6.375,
-        "voteCount": 4,
-        "popularity": 24.9632,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291392,
         "type": "tmdb",
         "title": "野狗骨头",
@@ -101,13 +87,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 295558,
+        "type": "tmdb",
+        "title": "雀骨",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
+        "rating": 6.375,
+        "voteCount": 4,
+        "popularity": 24.9632,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 313642,
         "type": "tmdb",
         "title": "昭阳公主",
         "description": "寒门沈孝一心苦读只为入朝为官，查清父亲死因，却因意外与昭阳公主李述一夜春风后又被其弃之。不久后他高中状元，新考鹿鸣宴沈孝面圣，第一道奏疏就是弹劾这位“骄奢淫逸”的公主......两人从相杀到相惜，相互欣赏生出情愫。从对立到联手，沈孝助公主挣脱枷锁，两人在并肩对抗的路上，意识到这阶级之争背后的症结：只有国泰民安才能有个人命运的安好。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 9.2127,
+        "popularity": 8.4502,
         "releaseDate": "2026-07-23",
         "posterPath": "/4NTEELjCYu8rqdIEafe2hAfF3em.jpg",
         "backdropPath": "/lnp1FbxMwAzFte0B9DBWV3btUOT.jpg",
@@ -165,7 +165,7 @@
         "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 5.8604,
+        "popularity": 5.702,
         "releaseDate": "2026-07-03",
         "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
         "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
@@ -221,7 +221,7 @@
         "description": "人类的欲望，可驱使我们超越自我，然而，当欲望失控，过份贪图金钱与权势、追求不属于自己的爱，非份之想被无限放大，不经意间，便陷入道德矛盾的深渊，犯下种种非份之罪……新界东重案组接连调查几宗案件，包括无脸女尸、石棺禁恋、一亿杀机、危险游戏、肮脏的子弹、恐怖情人，错综复杂的线索、缠绕不清的关系，构成一桩桩匪夷所思的迷案，揭露触摸不透的人性黑暗面。",
         "rating": 7,
         "voteCount": 1,
-        "popularity": 14.5802,
+        "popularity": 15.5261,
         "releaseDate": "2026-06-29",
         "posterPath": "/2snG7uD9XyccAXlqJI3oTsUgQie.jpg",
         "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
@@ -349,7 +349,7 @@
         "description": "讲述了心理学博士林晚星遭遇变故后回到家乡宏景任教，邂逅顶级教练王法，并带领一群垫底差生逆袭追梦，热血救赎的故事。林晚星用“自由式”教育，培养少年们的独立人格，帮助他们学会生活，融洽自我，发现所爱，勇于追求。未来人生里，不远狭路，终见光明。",
         "rating": 8,
         "voteCount": 5,
-        "popularity": 12.1595,
+        "popularity": 12.7704,
         "releaseDate": "2026-07-05",
         "posterPath": "/jE6xuxwLUojZ2k80rKbv73frWsv.jpg",
         "backdropPath": "/6EpiUiXNmCjZT62e2pLpyaiqB8K.jpg",
@@ -371,20 +371,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 233076,
-        "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.6,
-        "voteCount": 8,
-        "popularity": 8.0017,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -399,18 +385,18 @@
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
-        "id": 327506,
+        "id": 233076,
         "type": "tmdb",
-        "title": "九个弹孔",
-        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 2.5022,
-        "releaseDate": "2026-07-08",
-        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
-        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
+        "title": "问心",
+        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
+        "voteCount": 8,
+        "popularity": 8.0017,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治"
+        "genreTitle": "剧情"
       },
       {
         "id": 329132,
@@ -425,6 +411,20 @@
         "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 327506,
+        "type": "tmdb",
+        "title": "九个弹孔",
+        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.5022,
+        "releaseDate": "2026-07-08",
+        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
+        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       }
     ],
     "腾讯视频": [
@@ -499,16 +499,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 292696,
+        "id": 284110,
         "type": "tmdb",
-        "title": "莫离",
-        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
-        "rating": 8.4,
-        "voteCount": 8,
-        "popularity": 13.1747,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9,
+        "voteCount": 5,
+        "popularity": 6.4042,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -527,16 +527,16 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 284110,
+        "id": 292696,
         "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 6.4042,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
+        "title": "莫离",
+        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
+        "rating": 8.4,
+        "voteCount": 8,
+        "popularity": 13.1747,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -555,18 +555,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 327506,
+        "id": 329132,
         "type": "tmdb",
-        "title": "九个弹孔",
-        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
+        "title": "江海潮生",
+        "description": "以中国近代著名实业家、教育家张謇的人生经历为主线，聚焦清末民初风云激荡的时代变局，讲述张謇秉持“实业救国、教育兴邦”理想，兴办实业、发展教育、造福乡梓，以一生奋斗探索民族振兴之路的历史故事。",
         "rating": 8,
         "voteCount": 1,
-        "popularity": 2.5022,
-        "releaseDate": "2026-07-08",
-        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
-        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
+        "popularity": 3.631,
+        "releaseDate": "2026-07-20",
+        "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
+        "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
         "mediaType": "tv",
-        "genreTitle": "战争政治"
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -613,20 +613,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9.4,
-        "voteCount": 8,
-        "popularity": 7.5675,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
-      },
-      {
         "id": 214875,
         "type": "tmdb",
         "title": "汪汪队之小砾与工程家族",
@@ -653,6 +639,20 @@
         "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.4,
+        "voteCount": 8,
+        "popularity": 7.5675,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,战争政治"
       },
       {
         "id": 288603,
@@ -729,20 +729,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 297509,
-        "type": "tmdb",
-        "title": "食神·百厨大战",
-        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 8.3019,
-        "releaseDate": "2025-08-27",
-        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
-        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -753,6 +739,34 @@
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "rating": 5.8,
+        "voteCount": 4,
+        "popularity": 82.1328,
+        "releaseDate": "2024-08-20",
+        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
+        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,喜剧"
+      },
+      {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "食神·百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 9.3513,
+        "releaseDate": "2025-08-27",
+        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
+        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -769,20 +783,6 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
-      },
-      {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "rating": 5.8,
-        "voteCount": 4,
-        "popularity": 82.1328,
-        "releaseDate": "2024-08-20",
-        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
-        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,喜剧"
       },
       {
         "id": 203003,
@@ -819,7 +819,7 @@
         "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.904,
+        "popularity": 2.457,
         "releaseDate": "2026-06-27",
         "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
         "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
@@ -849,7 +849,7 @@
         "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 8.3019,
+        "popularity": 9.3513,
         "releaseDate": "2025-08-27",
         "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
         "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
@@ -877,7 +877,7 @@
         "description": "《天赐的声音》是吴彤和孙竞团队推出的音乐类综艺。节目邀请四位“音乐合伙人”坐镇赛道，众多的优秀音乐作品的歌坛资深从业者，将在每一期以合作的方式，切磋音乐，打磨专业技艺。音乐合伙人也将与他们共同完成令人耳目一新的作品。《天赐的声音》将用真正值得被这个时代所 铭记的歌声，以及歌唱着人们美好生活的音乐作品，来向观众呈现，新时代下的好歌声和好音乐。",
         "rating": 5.5,
         "voteCount": 2,
-        "popularity": 11.7208,
+        "popularity": 11.8236,
         "releaseDate": "2020-02-15",
         "posterPath": "/xqVefZwWSe0Z0aLtzW1lAoC9WUU.jpg",
         "backdropPath": "/f6xIxps4FIfzrsU1vc5ClWhPIow.jpg",
@@ -977,7 +977,7 @@
         "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.904,
+        "popularity": 2.457,
         "releaseDate": "2026-06-27",
         "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
         "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
@@ -1255,20 +1255,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326450,
-        "type": "tmdb",
-        "title": "炽夏角色番综·炽热的夏天",
-        "description": "《炽热的夏天》为剧集《炽夏》的会员专享团综。包上恩、周柯宇（排名不分先后）等主演重聚“炽夏小屋”，开启两天一夜的合拍搭子寻访之旅。通过搭子自荐、默契挑战、游戏对决等环节层层筛选，最终角逐出“最合拍搭档”。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 1.6524,
-        "releaseDate": "2026-06-24",
-        "posterPath": "/bvaGEF1rhYf358P2yzXeaG6wGlK.jpg",
-        "backdropPath": "/yOc8xVNu09aNWtzRjFQG51gqjZT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 330354,
         "type": "tmdb",
         "title": "心动双重奏",
@@ -1283,16 +1269,30 @@
         "genreTitle": ""
       },
       {
-        "id": 321537,
+        "id": 326450,
         "type": "tmdb",
-        "title": "为爱闪耀的她",
-        "description": "节目以女性视角叙事为主体，呈现“最女频恋爱综艺”的差异化切口。邀请5位覆盖商业、科技、艺术、新媒体等领域的闪光女性，与5-7位风格不同、各有优势的优质男嘉宾，共同开启一场为期10天的沉浸式追爱之旅。设置多元恋爱互动规则与差异化约会形式，自然激发嘉宾间的真诚交流与心动角逐，既有高甜的情感互动，也有真实的社交试炼。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.0808,
-        "releaseDate": "2026-04-27",
-        "posterPath": "/phXyFxwhLTJykBoaXA6jXElLQOu.jpg",
-        "backdropPath": "",
+        "title": "炽夏角色番综·炽热的夏天",
+        "description": "《炽热的夏天》为剧集《炽夏》的会员专享团综。包上恩、周柯宇（排名不分先后）等主演重聚“炽夏小屋”，开启两天一夜的合拍搭子寻访之旅。通过搭子自荐、默契挑战、游戏对决等环节层层筛选，最终角逐出“最合拍搭档”。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 1.6524,
+        "releaseDate": "2026-06-24",
+        "posterPath": "/bvaGEF1rhYf358P2yzXeaG6wGlK.jpg",
+        "backdropPath": "/yOc8xVNu09aNWtzRjFQG51gqjZT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 274658,
+        "type": "tmdb",
+        "title": "国医少年志",
+        "description": "全国首档中医文化明星体验真人秀，由徐璐、夏之光、王勉、敖子逸、王艺瑾作为节目嘉宾。娱乐圈五子拜师当代名医，一路研学旅行开启养生自救局，直观领略中医药文化的深厚底蕴，从而激发年轻人对中医药的兴趣和热爱，让更多的年轻人爱上中医药。",
+        "rating": 7,
+        "voteCount": 2,
+        "popularity": 2.1782,
+        "releaseDate": "2024-10-18",
+        "posterPath": "/cOYStvQ2UJFG6JTrR7Ks3pfBFtq.jpg",
+        "backdropPath": "/hOEHveJisVORbxJO25HqslTwNgs.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
