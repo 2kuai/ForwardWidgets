@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T20:52:16.237+08:00",
+  "last_updated": "2026-08-02T02:51:21.462+08:00",
   "tv": {
     "全网": [
       {
@@ -101,6 +101,20 @@
         "genreTitle": ""
       },
       {
+        "id": 291392,
+        "type": "tmdb",
+        "title": "野狗骨头",
+        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
+        "rating": 8.8,
+        "voteCount": 6,
+        "popularity": 29.512,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
+        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 296003,
         "type": "tmdb",
         "title": "小芳",
@@ -113,20 +127,6 @@
         "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
-      },
-      {
-        "id": 296915,
-        "type": "tmdb",
-        "title": "依然的喜事",
-        "description": "李依然再次回到乐沧这座西南小城，八年隔阂让母女关系渐行渐远。阴差阳错之下，母女二人包揽了小城的“人生大事”。面对一个个残酷又温情的故事，李依然对生命与遗憾有了不同解读，她与母亲的关系也悄然发生变化……",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 5.0949,
-        "releaseDate": "2026-07-21",
-        "posterPath": "/9mR0yglr2KUGfD8wNG0ytfkoGgY.jpg",
-        "backdropPath": "/kUnxyoPSzuQPcPV5I7gwxUsyCSO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 278605,
@@ -499,20 +499,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 7.1868,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
@@ -551,6 +537,20 @@
         "releaseDate": "2023-10-07",
         "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
         "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 284110,
+        "type": "tmdb",
+        "title": "主角",
+        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
+        "rating": 9,
+        "voteCount": 5,
+        "popularity": 7.1868,
+        "releaseDate": "2026-05-10",
+        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
+        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -599,6 +599,34 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.4,
+        "voteCount": 8,
+        "popularity": 8.3253,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,战争政治"
+      },
+      {
+        "id": 214875,
+        "type": "tmdb",
+        "title": "汪汪队之小砾与工程家族",
+        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
+        "rating": 7.1,
+        "voteCount": 31,
+        "popularity": 19.4208,
+        "releaseDate": "2023-02-03",
+        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
+        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,儿童"
+      },
+      {
         "id": 326189,
         "type": "tmdb",
         "title": "种墨园",
@@ -625,34 +653,6 @@
         "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 214875,
-        "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 19.4208,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
-      },
-      {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9.4,
-        "voteCount": 8,
-        "popularity": 8.3253,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
       },
       {
         "id": 288603,
@@ -697,18 +697,18 @@
         "genreTitle": "战争政治"
       },
       {
-        "id": 37472,
+        "id": 283682,
         "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.2,
-        "voteCount": 58,
-        "popularity": 37.783,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 3.8293,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
-        "genreTitle": "动画,儿童,动作冒险,科幻奇幻"
+        "genreTitle": "剧情,家庭"
       }
     ]
   },
@@ -729,16 +729,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 296202,
+        "id": 203003,
         "type": "tmdb",
-        "title": "地球超新鲜",
-        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
-        "rating": 8.6,
-        "voteCount": 5,
-        "popularity": 18.8335,
-        "releaseDate": "2025-07-27",
-        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
-        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.2043,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -757,30 +757,16 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 261391,
+        "id": 296202,
         "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 16.2946,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.2043,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "title": "地球超新鲜",
+        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
+        "rating": 8.6,
+        "voteCount": 5,
+        "popularity": 18.8335,
+        "releaseDate": "2025-07-27",
+        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
+        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,32 +799,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 89861,
+        "id": 261391,
         "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 30.262,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 16.2946,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 14.1412,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "真人秀,脱口秀,喜剧"
       }
     ],
     "优酷": [
@@ -943,20 +915,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 261391,
-        "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 16.2946,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
-      },
-      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -971,6 +929,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 261391,
+        "type": "tmdb",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 16.2946,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -981,6 +953,20 @@
         "releaseDate": "2019-04-11",
         "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
         "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 296215,
+        "type": "tmdb",
+        "title": "姐姐当家",
+        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.4466,
+        "releaseDate": "2025-07-26",
+        "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
+        "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1009,20 +995,6 @@
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 296215,
-        "type": "tmdb",
-        "title": "姐姐当家",
-        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.4466,
-        "releaseDate": "2025-07-26",
-        "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
-        "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1099,16 +1071,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 296202,
+        "id": 203003,
         "type": "tmdb",
-        "title": "地球超新鲜",
-        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
-        "rating": 8.6,
-        "voteCount": 5,
-        "popularity": 18.8335,
-        "releaseDate": "2025-07-27",
-        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
-        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.2043,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1127,16 +1099,16 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 203003,
+        "id": 296202,
         "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.2043,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "title": "地球超新鲜",
+        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
+        "rating": 8.6,
+        "voteCount": 5,
+        "popularity": 18.8335,
+        "releaseDate": "2025-07-27",
+        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
+        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1250,48 +1222,6 @@
         "popularity": 0.0429,
         "releaseDate": "2026-07-30",
         "posterPath": "",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
-        "id": 274658,
-        "type": "tmdb",
-        "title": "国医少年志",
-        "description": "全国首档中医文化明星体验真人秀，由徐璐、夏之光、王勉、敖子逸、王艺瑾作为节目嘉宾。娱乐圈五子拜师当代名医，一路研学旅行开启养生自救局，直观领略中医药文化的深厚底蕴，从而激发年轻人对中医药的兴趣和热爱，让更多的年轻人爱上中医药。",
-        "rating": 7,
-        "voteCount": 2,
-        "popularity": 2.1864,
-        "releaseDate": "2024-10-18",
-        "posterPath": "/cOYStvQ2UJFG6JTrR7Ks3pfBFtq.jpg",
-        "backdropPath": "/hOEHveJisVORbxJO25HqslTwNgs.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.8499,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 330052,
-        "type": "tmdb",
-        "title": "家乡美食大赛",
-        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0585,
-        "releaseDate": "2026-07-26",
-        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": ""
