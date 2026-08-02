@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T16:01:56.421+08:00",
+  "last_updated": "2026-08-02T20:54:01.361+08:00",
   "tv": {
     "全网": [
       {
@@ -17,20 +17,6 @@
         "genreTitle": "剧情,动作冒险"
       },
       {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 9.7,
-        "voteCount": 3,
-        "popularity": 17.8681,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 289116,
         "type": "tmdb",
         "title": "天才，女友",
@@ -41,6 +27,20 @@
         "releaseDate": "2026-08-02",
         "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
         "backdropPath": "/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 9.7,
+        "voteCount": 3,
+        "popularity": 17.8681,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -101,20 +101,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 330440,
-        "type": "tmdb",
-        "title": "夜语记",
-        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.2643,
-        "releaseDate": "",
-        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 313642,
         "type": "tmdb",
         "title": "昭阳公主",
@@ -141,6 +127,20 @@
         "backdropPath": "/zz1ehIIZwpkO0GrCkmbrArYFlYj.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,家庭"
+      },
+      {
+        "id": 278605,
+        "type": "tmdb",
+        "title": "南部档案",
+        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 17.1428,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
+        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动作冒险,悬疑"
       }
     ],
     "优酷": [
@@ -173,20 +173,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 273114,
-        "type": "tmdb",
-        "title": "悬案",
-        "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 5.1361,
-        "releaseDate": "2026-07-03",
-        "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
-        "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 251600,
         "type": "tmdb",
         "title": "千香",
@@ -201,18 +187,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 270845,
+        "id": 273114,
         "type": "tmdb",
-        "title": "二龙湖·“村”暖花开",
-        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.7522,
-        "releaseDate": "2024-10-11",
-        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
-        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
+        "title": "悬案",
+        "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 5.1361,
+        "releaseDate": "2026-07-03",
+        "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
+        "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
+        "genreTitle": "悬疑"
       },
       {
         "id": 276239,
@@ -227,6 +213,20 @@
         "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 270845,
+        "type": "tmdb",
+        "title": "二龙湖·“村”暖花开",
+        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.7522,
+        "releaseDate": "2024-10-11",
+        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
+        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 276567,
@@ -413,18 +413,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 275966,
+        "id": 327506,
         "type": "tmdb",
-        "title": "家业",
-        "description": "明朝中期，一场贡墨案打破维持已久的徽州墨业格局，制墨百年世家李墨跌落神坛。李墨元气大伤，骆家墨业崛起，继李墨之后风光无两，最终因朝政牵连，也落得家败人亡。时光流转，李氏宗族八房幺女李祯为解决生计毅然走上制墨之路，凭借天资和努力成为徽州墨业黑马。骆家次子骆文谦为恢复家业筹谋布局，以一己之力搅动徽州墨业格局。他们二人与墨业新贵田墨家族斗智斗勇，李墨重回巅峰。海禁重开，面对海外墨业的挑战..",
-        "rating": 9,
+        "title": "九个弹孔",
+        "description": "革命史诗剧《九个弹孔》以九处弹孔为成长勋章，取材湖北开国将领真实事迹，横跨三段战争岁月，讲述农家少年九死一生蜕变为革命将领的热血传奇。",
+        "rating": 8,
         "voteCount": 1,
-        "popularity": 10.9699,
-        "releaseDate": "2026-05-17",
-        "posterPath": "/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
-        "backdropPath": "/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg",
+        "popularity": 2.2347,
+        "releaseDate": "2026-07-08",
+        "posterPath": "/bHmrogYmfVYjrFn8B1yvQ0fP7gu.jpg",
+        "backdropPath": "/6wHp4IiJmUzvcJ2delCn9FgtbJz.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "战争政治"
       }
     ],
     "腾讯视频": [
@@ -471,20 +471,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 330440,
-        "type": "tmdb",
-        "title": "夜语记",
-        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.2643,
-        "releaseDate": "",
-        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 296003,
         "type": "tmdb",
         "title": "小芳",
@@ -523,6 +509,20 @@
         "releaseDate": "2026-06-09",
         "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
         "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 330440,
+        "type": "tmdb",
+        "title": "夜语记",
+        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.2643,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
+        "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -743,20 +743,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.9356,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -785,6 +771,34 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.9356,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 261391,
+        "type": "tmdb",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 15.2396,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
         "id": 297509,
         "type": "tmdb",
         "title": "食神·百厨大战",
@@ -811,20 +825,6 @@
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": ""
-      },
-      {
-        "id": 261391,
-        "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 15.2396,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
       }
     ],
     "优酷": [
@@ -877,7 +877,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.4987,
+        "popularity": 3.7035,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -971,20 +971,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 124265,
-        "type": "tmdb",
-        "title": "喜欢你我也是",
-        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 13.7937,
-        "releaseDate": "2019-04-11",
-        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
-        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -995,6 +981,20 @@
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 124265,
+        "type": "tmdb",
+        "title": "喜欢你我也是",
+        "description": "《喜欢你我也是》致力于向观众传达真实纯粹的恋爱观，还原恋爱中最美好的样子。在“喜欢你小屋”中创造多个空间，打造真实高级的恋爱情境。8位双三高男女嘉宾，在喜欢你小屋真实去生活，不脱离现实，不演绎剧本，还原都市年轻人最普世真切的恋爱故事。偶像剧的剧情拍摄推进恋爱关系，打造全新爱情偶像剧式情感暖综，带动观众像追剧一样追综艺。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 13.7937,
+        "releaseDate": "2019-04-11",
+        "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
+        "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1061,7 +1061,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.4987,
+        "popularity": 3.7035,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -1099,20 +1099,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 31.9356,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -1125,6 +1111,20 @@
         "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀,喜剧"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 31.9356,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 126398,
@@ -1175,7 +1175,7 @@
         "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.4987,
+        "popularity": 3.7035,
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
@@ -1227,20 +1227,6 @@
         "genreTitle": ""
       },
       {
-        "id": 330052,
-        "type": "tmdb",
-        "title": "家乡美食大赛",
-        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.0585,
-        "releaseDate": "2026-07-26",
-        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 89861,
         "type": "tmdb",
         "title": "密室大逃脱",
@@ -1255,18 +1241,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 329500,
+        "id": 330052,
         "type": "tmdb",
-        "title": "野狗骨头·意犹未尽",
-        "description": "《野狗骨头·意犹未尽》是电视剧《野狗骨头》的角色番综，宋威龙饰演陈异、张婧仪饰演苗靖。二人在售后节目中以剧中角色之名补办一场迟到的心愿婚礼，随后在相伴而行、共享美食、露营时光的治愈氛围中延续剧集余温，开启一场“异”犹未“靖”的浪漫出逃。",
-        "rating": 10,
-        "voteCount": 1,
-        "popularity": 2.0785,
-        "releaseDate": "2026-07-21",
-        "posterPath": "/betwS1NNoS95ihuogDhlllDGm5g.jpg",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.0585,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
         "mediaType": "tv",
-        "genreTitle": "真人秀,剧情"
+        "genreTitle": ""
       }
     ]
   }
