@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T03:15:47.206+08:00",
+  "last_updated": "2026-08-04T09:20:07.547+08:00",
   "tv": {
     "全网": [
       {
@@ -12,7 +12,7 @@
         "popularity": 54.1665,
         "releaseDate": "2026-07-30",
         "posterPath": "/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
-        "backdropPath": "/snExrS3rICUXDsiG7jUV7K6Q0wj.jpg",
+        "backdropPath": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险"
       },
@@ -45,27 +45,13 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 9.667,
-        "voteCount": 3,
-        "popularity": 18.9998,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283780,
         "type": "tmdb",
         "title": "兵自风中来",
         "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
         "rating": 7,
         "voteCount": 1,
-        "popularity": 14.6423,
+        "popularity": 14.0486,
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
@@ -87,16 +73,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295558,
+        "id": 295599,
         "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 6.375,
-        "voteCount": 4,
-        "popularity": 20.5502,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 9.7,
+        "voteCount": 3,
+        "popularity": 18.9998,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -115,32 +101,46 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 295558,
+        "type": "tmdb",
+        "title": "雀骨",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
+        "rating": 6.375,
+        "voteCount": 4,
+        "popularity": 20.5502,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 313642,
+        "type": "tmdb",
+        "title": "昭阳公主",
+        "description": "寒门沈孝一心苦读只为入朝为官，查清父亲死因，却因意外与昭阳公主李述一夜春风后又被其弃之。不久后他高中状元，新考鹿鸣宴沈孝面圣，第一道奏疏就是弹劾这位“骄奢淫逸”的公主......两人从相杀到相惜，相互欣赏生出情愫。从对立到联手，沈孝助公主挣脱枷锁，两人在并肩对抗的路上，意识到这阶级之争背后的症结：只有国泰民安才能有个人命运的安好。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 11.1238,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/4NTEELjCYu8rqdIEafe2hAfF3em.jpg",
+        "backdropPath": "/lnp1FbxMwAzFte0B9DBWV3btUOT.jpg",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 330440,
         "type": "tmdb",
         "title": "夜语记",
         "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3771,
+        "popularity": 2.3778,
         "releaseDate": "2026-08-02",
         "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
         "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 272432,
-        "type": "tmdb",
-        "title": "低智商犯罪",
-        "description": "警察张一昂（王骁 饰）因匿名举报信赴三江口调查案件时，意外破获连环杀人案并锁定富商周荣（王传君 饰）犯罪团伙，在与当地蠢贼群体的荒诞互动中，张一昂逐步查明刑警队长被害真相并将真凶绳之以法。",
-        "rating": 7.9,
-        "voteCount": 18,
-        "popularity": 9.6003,
-        "releaseDate": "2026-05-04",
-        "posterPath": "/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
-        "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑,犯罪,喜剧"
       }
     ],
     "优酷": [
@@ -154,7 +154,7 @@
         "popularity": 54.1665,
         "releaseDate": "2026-07-30",
         "posterPath": "/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
-        "backdropPath": "/snExrS3rICUXDsiG7jUV7K6Q0wj.jpg",
+        "backdropPath": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险"
       },
@@ -179,7 +179,7 @@
         "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
         "rating": 7.333,
         "voteCount": 5,
-        "popularity": 14.753,
+        "popularity": 13.6221,
         "releaseDate": "2026-06-27",
         "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
@@ -235,7 +235,7 @@
         "description": "在传说中的九城，名门穷小姐范云（李一桐 饰）与表面昏庸实则深藏不露的“白切黑”城主齐峥（曾舜晞 饰）相遇。两人从彼此试探到相互信任，一路披荆斩棘为民谋利。范云更助齐峥平定天下、破除陈规，解决九城危机，最终携手为民打造繁荣九城，并在这一过程中收获了友谊与爱情。",
         "rating": 7.7,
         "voteCount": 3,
-        "popularity": 8.2071,
+        "popularity": 7.892,
         "releaseDate": "2026-06-20",
         "posterPath": "/vPx0onfCRZbJbaBCnsOgukQ5QJn.jpg",
         "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
@@ -321,7 +321,7 @@
         "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
         "rating": 7,
         "voteCount": 1,
-        "popularity": 14.6423,
+        "popularity": 14.0486,
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
@@ -449,7 +449,7 @@
         "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
         "rating": 7,
         "voteCount": 1,
-        "popularity": 14.6423,
+        "popularity": 14.0486,
         "releaseDate": "2026-07-23",
         "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
         "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
@@ -477,7 +477,7 @@
         "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.3771,
+        "popularity": 2.3778,
         "releaseDate": "2026-08-02",
         "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
         "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
@@ -575,7 +575,7 @@
         "type": "tmdb",
         "title": "御廷谣",
         "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 9.667,
+        "rating": 9.7,
         "voteCount": 3,
         "popularity": 18.9998,
         "releaseDate": "2026-07-28",
@@ -613,20 +613,6 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 7.5,
-        "voteCount": 6,
-        "popularity": 5.6997,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 326189,
         "type": "tmdb",
         "title": "种墨园",
@@ -637,6 +623,20 @@
         "releaseDate": "2026-06-23",
         "posterPath": "/uVa3c0FSfF73jSxxxKazKIR0PkI.jpg",
         "backdropPath": "/xUu1OTsPWA6YGgHNV5P6D4OQgte.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 287641,
+        "type": "tmdb",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 5.6997,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -697,18 +697,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291602,
+        "id": 283682,
         "type": "tmdb",
-        "title": "夏末初见",
-        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
         "rating": 8,
-        "voteCount": 1,
-        "popularity": 3.1694,
-        "releaseDate": "2026-04-19",
-        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
-        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
+        "voteCount": 3,
+        "popularity": 3.7817,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "剧情,家庭"
       }
     ]
   },
@@ -749,7 +749,7 @@
         "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
         "rating": 7.6,
         "voteCount": 7,
-        "popularity": 28.2942,
+        "popularity": 29.4268,
         "releaseDate": "2019-03-30",
         "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
         "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
@@ -771,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "rating": 5.8,
-        "voteCount": 4,
-        "popularity": 69.5994,
-        "releaseDate": "2024-08-20",
-        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
-        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,喜剧"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -797,6 +783,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "rating": 5.8,
+        "voteCount": 4,
+        "popularity": 83.0321,
+        "releaseDate": "2024-08-20",
+        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
+        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,喜剧"
       },
       {
         "id": 203003,
@@ -1105,7 +1105,7 @@
         "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
         "rating": 5.8,
         "voteCount": 4,
-        "popularity": 69.5994,
+        "popularity": 83.0321,
         "releaseDate": "2024-08-20",
         "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
         "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
@@ -1219,7 +1219,7 @@
         "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
         "rating": 7.6,
         "voteCount": 7,
-        "popularity": 28.2942,
+        "popularity": 29.4268,
         "releaseDate": "2019-03-30",
         "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
         "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
@@ -1241,6 +1241,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 328798,
+        "type": "tmdb",
+        "title": "互相关注",
+        "description": "互相关注，是理解世界的最小单元。我们每天点击着“关注”，却很少真正“看见”过谁。好友列表越来越长，内心的孤独感却与日俱增。但生活终究是很好玩的——投入真实生活、寻求真实的连接与精神的共鸣，才是确定性最大的来源。所以，我们把微博上那个平面的“互相关注”，搬进了现实——#李诞首档访谈节目互相关注#来了！\n\n新浪新闻·微博互关伙伴@李诞 ，携手5位嘉宾@王濛 、@陳小春 、@阿勒泰的李娟 、王祖贤、@XP-何小鹏 ，在行走与对话中，捕捉那些非预设、毛边感的真实瞬间。允许沉默，允许分歧，绕过场面话，直抵真实。我们在找的，不是闪闪发光的人，而是能让日子“好过一点”的答案！\n\n7月16日12:00，第1期正片全网上线。在《互相关注》，看见真实的人与关系，重构人与人、人与自我、人与时代的对话。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.7676,
+        "releaseDate": "2026-07-17",
+        "posterPath": "/Agq5exxri8L6GZnj2CHip25nWCk.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 326406,
         "type": "tmdb",
         "title": "快乐老家",
@@ -1255,6 +1269,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 330354,
+        "type": "tmdb",
+        "title": "心动双重奏",
+        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5898,
+        "releaseDate": "2026-07-30",
+        "posterPath": "",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 321537,
         "type": "tmdb",
         "title": "为爱闪耀的她",
@@ -1267,20 +1295,6 @@
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 330354,
-        "type": "tmdb",
-        "title": "心动双重奏",
-        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.1014,
-        "releaseDate": "2026-07-30",
-        "posterPath": "",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
       }
     ]
   }
