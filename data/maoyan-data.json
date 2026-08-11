@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T02:39:50.277+08:00",
+  "last_updated": "2026-08-11T08:50:27.509+08:00",
   "tv": {
     "全网": [
       {
@@ -31,20 +31,6 @@
         "genreTitle": "剧情,动作冒险"
       },
       {
-        "id": 289116,
-        "type": "tmdb",
-        "title": "天才，女友",
-        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 45.016,
-        "releaseDate": "2026-08-02",
-        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
-        "backdropPath": "/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -55,6 +41,20 @@
         "releaseDate": "2026-08-10",
         "posterPath": "/2fPjN0qpF4AVWBKzxdYmkkLKdt.jpg",
         "backdropPath": "/elfvJ7Quc5ffx1SK59UFEa5dRkQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289116,
+        "type": "tmdb",
+        "title": "天才，女友",
+        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 45.016,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
+        "backdropPath": "/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -173,6 +173,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 251600,
+        "type": "tmdb",
+        "title": "千香",
+        "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
+        "rating": 7.286,
+        "voteCount": 7,
+        "popularity": 11.8539,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
+        "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 273114,
         "type": "tmdb",
         "title": "悬案",
@@ -185,20 +199,6 @@
         "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
-      },
-      {
-        "id": 251600,
-        "type": "tmdb",
-        "title": "千香",
-        "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
-        "rating": 7.333,
-        "voteCount": 5,
-        "popularity": 11.8539,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
-        "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 254486,
@@ -287,20 +287,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 289116,
-        "type": "tmdb",
-        "title": "天才，女友",
-        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 45.016,
-        "releaseDate": "2026-08-02",
-        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
-        "backdropPath": "/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -311,6 +297,20 @@
         "releaseDate": "2026-08-10",
         "posterPath": "/2fPjN0qpF4AVWBKzxdYmkkLKdt.jpg",
         "backdropPath": "/elfvJ7Quc5ffx1SK59UFEa5dRkQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289116,
+        "type": "tmdb",
+        "title": "天才，女友",
+        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 45.016,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
+        "backdropPath": "/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -385,20 +385,6 @@
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
       },
       {
-        "id": 230311,
-        "type": "tmdb",
-        "title": "爱情有烟火",
-        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
-        "rating": 7.5,
-        "voteCount": 4,
-        "popularity": 10.8487,
-        "releaseDate": "2026-06-15",
-        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
-        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
-      },
-      {
         "id": 285143,
         "type": "tmdb",
         "title": "灿如繁星",
@@ -411,6 +397,20 @@
         "backdropPath": "/quOBiesrGvyZbo4AIGFXgev1Ip6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 230311,
+        "type": "tmdb",
+        "title": "爱情有烟火",
+        "description": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
+        "rating": 7.5,
+        "voteCount": 4,
+        "popularity": 10.8487,
+        "releaseDate": "2026-06-15",
+        "posterPath": "/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
+        "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
       },
       {
         "id": 329132,
@@ -533,7 +533,7 @@
         "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
         "rating": 9,
         "voteCount": 5,
-        "popularity": 6.3551,
+        "popularity": 7.9685,
         "releaseDate": "2026-05-10",
         "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
         "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
@@ -599,20 +599,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 287641,
-        "type": "tmdb",
-        "title": "耀眼",
-        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
-        "rating": 7.5,
-        "voteCount": 6,
-        "popularity": 5.7802,
-        "releaseDate": "2026-05-27",
-        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
-        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283952,
         "type": "tmdb",
         "title": "良陈美锦",
@@ -627,16 +613,16 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 288603,
+        "id": 287641,
         "type": "tmdb",
-        "title": "炽夏",
-        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
-        "rating": 9.4,
-        "voteCount": 7,
-        "popularity": 16.4113,
-        "releaseDate": "2026-06-16",
-        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
-        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
+        "title": "耀眼",
+        "description": "讲述了都市女孩晴也因家庭变故返乡回到故乡扎扎亭后，与小镇青年邢武从高三互助到大学毕业重逢的双线成长故事，展现两人在事业奋斗中实现自我价值的情感历程。",
+        "rating": 7.5,
+        "voteCount": 6,
+        "popularity": 5.7802,
+        "releaseDate": "2026-05-27",
+        "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
+        "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -653,6 +639,20 @@
         "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
         "mediaType": "tv",
         "genreTitle": "动画,儿童"
+      },
+      {
+        "id": 288603,
+        "type": "tmdb",
+        "title": "炽夏",
+        "description": "坚韧倔强的优等生周挽为救重病的奶奶，在求助抛弃她的母亲无果后，有意接近母亲的继子——不羁少年陆西骁，以试图向母亲筹取手术费。毕业后的夏天，周挽和陆西骁在试探中渐生情愫，也一次次地拯救彼此于人生的坎坷逆境。但现实残酷击碎了最美好的青春盛夏，他们在误会中分道扬镳。直到十年后，两人在职场重逢。无法忘记情伤旧痛的陆西骁对周挽频频发难，却发现自己对她的爱从未改变，二人在找寻“工厂事故”真相的路上再次携手，勇敢真挚的心让他们不再分开。",
+        "rating": 9.4,
+        "voteCount": 7,
+        "popularity": 16.4113,
+        "releaseDate": "2026-06-16",
+        "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
+        "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283961,
@@ -675,7 +675,7 @@
         "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
         "rating": 9,
         "voteCount": 1,
-        "popularity": 2.2669,
+        "popularity": 2.5333,
         "releaseDate": "2026-03-29",
         "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
         "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
@@ -697,18 +697,18 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 37472,
+        "id": 291602,
         "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.153,
-        "voteCount": 59,
-        "popularity": 34.6447,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+        "title": "夏末初见",
+        "description": "本剧以单亲插画师妈妈沈蕾，与莽撞单亲爸爸林森的邻里冤家故事为主线，讲述两个破碎家庭从互相抵触到彼此治愈、最终重组幸福的故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 2.3766,
+        "releaseDate": "2026-04-19",
+        "posterPath": "/fUfdE2PC9VEkzfLdjrGA7syEZbJ.jpg",
+        "backdropPath": "/nxif2Iq5qxmM8acrfkxFbOZYn46.jpg",
         "mediaType": "tv",
-        "genreTitle": "动画,儿童,动作冒险,科幻奇幻"
+        "genreTitle": "剧情"
       }
     ]
   },
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.7197,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -783,6 +769,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.7197,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 261471,
@@ -799,20 +799,6 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 297509,
-        "type": "tmdb",
-        "title": "食神·百厨大战",
-        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.7953,
-        "releaseDate": "2025-08-27",
-        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
-        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -823,6 +809,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 297509,
+        "type": "tmdb",
+        "title": "食神·百厨大战",
+        "description": "节目以“中国食材”为命题，汇集近百位厨师，以成就为界，分为声名显赫的“星级厨师”以及风格迥异的“民间厨师”，通过多重厨艺生存挑战的极致关卡， 最终决出一位冠军。几位厨艺界核心人物和炙热艺人评委共同见证“年度厨王”的诞生。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.7953,
+        "releaseDate": "2025-08-27",
+        "posterPath": "/kDQYE6BunrxJ4sFHi69DwKVNnBK.jpg",
+        "backdropPath": "/9kejOOsiuaIlXHTebKIgadlFhSZ.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -943,20 +943,6 @@
     ],
     "爱奇艺": [
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.7197,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -969,6 +955,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.7197,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 124265,
@@ -1061,7 +1061,7 @@
         "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
         "rating": 10,
         "voteCount": 1,
-        "popularity": 2.3635,
+        "popularity": 2.5231,
         "releaseDate": "2026-04-24",
         "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
         "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
@@ -1233,7 +1233,7 @@
         "description": "《野狗骨头·意犹未尽》是电视剧《野狗骨头》的角色番综，宋威龙饰演陈异、张婧仪饰演苗靖。二人在售后节目中以剧中角色之名补办一场迟到的心愿婚礼，随后在相伴而行、共享美食、露营时光的治愈氛围中延续剧集余温，开启一场“异”犹未“靖”的浪漫出逃。",
         "rating": 10,
         "voteCount": 1,
-        "popularity": 1.6466,
+        "popularity": 2.0259,
         "releaseDate": "2026-07-21",
         "posterPath": "/betwS1NNoS95ihuogDhlllDGm5g.jpg",
         "backdropPath": "",
@@ -1251,6 +1251,20 @@
         "releaseDate": "2026-06-28",
         "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
         "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 330052,
+        "type": "tmdb",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5013,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
