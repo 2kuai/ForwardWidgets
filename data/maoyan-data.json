@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T02:38:17.649+08:00",
+  "last_updated": "2026-08-15T08:33:55.455+08:00",
   "tv": {
     "全网": [
       {
@@ -34,8 +34,8 @@
         "id": 271016,
         "type": "tmdb",
         "title": "九门",
-        "description": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
-        "rating": 6.833,
+        "description": "长沙风云再起之时，张启山与吴老狗强强联手，携手霍仙姑与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
+        "rating": 6.8,
         "voteCount": 6,
         "popularity": 44.9283,
         "releaseDate": "2026-07-30",
@@ -43,6 +43,20 @@
         "backdropPath": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险"
+      },
+      {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 7.8,
+        "voteCount": 5,
+        "popularity": 28.1236,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 289116,
@@ -87,20 +101,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 8.9348,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
@@ -115,16 +115,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295599,
+        "id": 283780,
         "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 28.1236,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 8.9348,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -148,8 +148,8 @@
         "id": 271016,
         "type": "tmdb",
         "title": "九门",
-        "description": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
-        "rating": 6.833,
+        "description": "长沙风云再起之时，张启山与吴老狗强强联手，携手霍仙姑与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
+        "rating": 6.8,
         "voteCount": 6,
         "popularity": 44.9283,
         "releaseDate": "2026-07-30",
@@ -187,20 +187,6 @@
         "genreTitle": "悬疑"
       },
       {
-        "id": 251600,
-        "type": "tmdb",
-        "title": "千香",
-        "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
-        "rating": 7.286,
-        "voteCount": 7,
-        "popularity": 10.1265,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
-        "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 254486,
         "type": "tmdb",
         "title": "雨霖铃",
@@ -215,16 +201,16 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 289271,
+        "id": 251600,
         "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 7.6,
-        "voteCount": 9,
-        "popularity": 9.1723,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
-        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
+        "title": "千香",
+        "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
+        "rating": 7.286,
+        "voteCount": 7,
+        "popularity": 10.1265,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
+        "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -241,6 +227,20 @@
         "backdropPath": "/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
+      },
+      {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 7.6,
+        "voteCount": 9,
+        "popularity": 9.1723,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
+        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 270845,
@@ -371,6 +371,20 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
+        "id": 233076,
+        "type": "tmdb",
+        "title": "问心",
+        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
+        "voteCount": 8,
+        "popularity": 11.5187,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/oCwfg5xVsUh9Yg4R51DtE1hmKys.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 272432,
         "type": "tmdb",
         "title": "低智商犯罪",
@@ -383,20 +397,6 @@
         "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
-      },
-      {
-        "id": 233076,
-        "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.625,
-        "voteCount": 8,
-        "popularity": 11.5187,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 230311,
@@ -471,20 +471,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 8.9348,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
@@ -495,6 +481,20 @@
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 8.9348,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -541,6 +541,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 233076,
+        "type": "tmdb",
+        "title": "问心",
+        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
+        "rating": 8.6,
+        "voteCount": 8,
+        "popularity": 11.5187,
+        "releaseDate": "2023-10-07",
+        "posterPath": "/oCwfg5xVsUh9Yg4R51DtE1hmKys.jpg",
+        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
@@ -551,20 +565,6 @@
         "releaseDate": "2026-06-09",
         "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
         "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 233076,
-        "type": "tmdb",
-        "title": "问心",
-        "description": "　　周筱风是东立医院心内科副主任医师，性格内敛，工作生活严格自律，是心内科的骨干。他升任冠脉组组长前夕，迎来了新搭档——性格直率冲动的心外医生林逸。林逸刚入职不久，此前在西立医院只专注做手术，缺少与同事的交流协作，他的直属领导兼老师曹诺亚认为这不利于他成长，因此推荐他来东立医院新成立的心脏中心工作。两人医疗理念不同，分歧很大，在合作中摩擦不断。\n\n　　周筱风的妹妹方筱然为了追求理想，也为了缓和哥哥与母亲方竹清（陈冲 饰）的关系，考入东立医院成为心外重症监护室医生。三位心脏科医生因专业背景和职业理念的差异而产生碰撞，在治病救人的过程中逐渐磨合，从不理解、对峙到相互欣赏、扶持，最终成为默契的工作伙伴。",
-        "rating": 8.625,
-        "voteCount": 8,
-        "popularity": 11.5187,
-        "releaseDate": "2023-10-07",
-        "posterPath": "/sEyJgrm80Lad7MRMchh6ZrdoAAi.jpg",
-        "backdropPath": "/xBI8m2aYsr9o4vtgbnI7wsewGc6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -613,20 +613,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9.4,
-        "voteCount": 8,
-        "popularity": 11.4968,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -639,6 +625,20 @@
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.4,
+        "voteCount": 8,
+        "popularity": 11.4968,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,战争政治"
       },
       {
         "id": 214875,
@@ -661,7 +661,7 @@
         "description": "阮喻（郑合惠子饰）放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂（魏哲鸣饰）。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
         "rating": 6.786,
         "voteCount": 7,
-        "popularity": 6.5078,
+        "popularity": 6.0928,
         "releaseDate": "2026-03-26",
         "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
@@ -703,7 +703,7 @@
         "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
         "rating": 8,
         "voteCount": 3,
-        "popularity": 5.4857,
+        "popularity": 7.5039,
         "releaseDate": "2026-02-23",
         "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
         "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
@@ -721,12 +721,26 @@
         "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
         "rating": 8.833,
         "voteCount": 6,
-        "popularity": 19.5044,
+        "popularity": 17.6915,
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
+      },
+      {
+        "id": 261471,
+        "type": "tmdb",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "rating": 5.8,
+        "voteCount": 4,
+        "popularity": 100.3192,
+        "releaseDate": "2024-08-20",
+        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
+        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
+        "mediaType": "tv",
+        "genreTitle": "脱口秀,喜剧"
       },
       {
         "id": 219934,
@@ -757,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 261471,
-        "type": "tmdb",
-        "title": "脱口秀和Ta的朋友们",
-        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
-        "rating": 5.8,
-        "voteCount": 4,
-        "popularity": 100.3192,
-        "releaseDate": "2024-08-20",
-        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
-        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀,喜剧"
-      },
-      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -799,6 +799,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 261391,
+        "type": "tmdb",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 18.5023,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
         "id": 154420,
         "type": "tmdb",
         "title": "半熟恋人",
@@ -811,20 +825,6 @@
         "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 261391,
-        "type": "tmdb",
-        "title": "喜剧之王单口季",
-        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
-        "rating": 8.2,
-        "voteCount": 6,
-        "popularity": 21.9152,
-        "releaseDate": "2024-08-16",
-        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
-        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀,脱口秀,喜剧"
       }
     ],
     "优酷": [
@@ -963,7 +963,7 @@
         "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
         "rating": 8.2,
         "voteCount": 6,
-        "popularity": 21.9152,
+        "popularity": 18.5023,
         "releaseDate": "2024-08-16",
         "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
@@ -991,7 +991,7 @@
         "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.8757,
+        "popularity": 2.6057,
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
@@ -1077,7 +1077,7 @@
         "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
         "rating": 8.833,
         "voteCount": 6,
-        "popularity": 19.5044,
+        "popularity": 17.6915,
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
@@ -1147,7 +1147,7 @@
         "description": "《一路向海的少年》是一档聚焦新时代青年成长历练的公路纪实真人秀。节目以\"从离海最远的地方出发，一路向海\"为核心立意，讲述五位少年从亚欧大陆腹地的新疆启程，以自驾方式完成八站新疆公路之旅，最终奔赴心之向往的海岛。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.5785,
+        "popularity": 1.5583,
         "releaseDate": "2026-08-06",
         "posterPath": "/3bQO1x3kmGiKWLUbc6jRt1uwsKJ.jpg",
         "backdropPath": "/t392uv2WU6ojezRpuDgGZDJS5pb.jpg",
@@ -1233,7 +1233,7 @@
         "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.0357,
+        "popularity": 0.1304,
         "releaseDate": "2026-08-08",
         "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
         "backdropPath": "",
