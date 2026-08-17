@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-08-17T02:12:04.657+08:00",
+  "last_updated": "2026-08-17T08:33:50.868+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 331830,
-        "type": "tmdb",
-        "title": "我们的少年时代2",
-        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0,
-        "releaseDate": "2026-08-16",
-        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 287496,
         "type": "tmdb",
@@ -27,6 +13,20 @@
         "releaseDate": "2026-08-09",
         "posterPath": "/erj7cX8aa1jndO9HlmoyRcJNLQL.jpg",
         "backdropPath": "/zyAFGC97834c2Ld4xPY02uacdQk.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 331830,
+        "type": "tmdb",
+        "title": "我们的少年时代2",
+        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0,
+        "releaseDate": "2026-08-16",
+        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -57,6 +57,20 @@
         "backdropPath": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,动作冒险"
+      },
+      {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 7.8,
+        "voteCount": 5,
+        "popularity": 24.4186,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 286506,
@@ -101,34 +115,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 7.3428,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 24.4186,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
@@ -139,6 +125,20 @@
         "releaseDate": "2026-08-04",
         "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
         "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 7.3428,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -229,20 +229,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 289271,
-        "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 7.6,
-        "voteCount": 9,
-        "popularity": 9.4544,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
-        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 276239,
         "type": "tmdb",
         "title": "非份之罪",
@@ -257,6 +243,34 @@
         "genreTitle": "犯罪,悬疑"
       },
       {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 7.6,
+        "voteCount": 9,
+        "popularity": 9.4544,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
+        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 270845,
+        "type": "tmdb",
+        "title": "二龙湖·“村”暖花开",
+        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.5477,
+        "releaseDate": "2024-10-11",
+        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
+        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 276567,
         "type": "tmdb",
         "title": "夫妻的博弈",
@@ -269,20 +283,6 @@
         "backdropPath": "/50dUu8oWbHScC2fSlM9z8eIX6n8.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 270845,
-        "type": "tmdb",
-        "title": "二龙湖·“村”暖花开",
-        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.3697,
-        "releaseDate": "2024-10-11",
-        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
-        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
       }
     ],
     "爱奇艺": [
@@ -371,6 +371,20 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
+        "id": 331662,
+        "type": "tmdb",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.2687,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 275966,
         "type": "tmdb",
         "title": "家业",
@@ -397,20 +411,6 @@
         "backdropPath": "/6yd4BP7Mt2zpt63z2z6dizg6QMo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑,犯罪,喜剧"
-      },
-      {
-        "id": 331662,
-        "type": "tmdb",
-        "title": "能有多大事",
-        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7482,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
-        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 230311,
@@ -485,20 +485,6 @@
         "genreTitle": "悬疑,剧情"
       },
       {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 7.3428,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
@@ -509,6 +495,20 @@
         "releaseDate": "2026-08-04",
         "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
         "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 7.3428,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -541,6 +541,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 331662,
+        "type": "tmdb",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.2687,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 292696,
         "type": "tmdb",
         "title": "莫离",
@@ -551,20 +565,6 @@
         "releaseDate": "2026-06-09",
         "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
         "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 331662,
-        "type": "tmdb",
-        "title": "能有多大事",
-        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7482,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
-        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -627,20 +627,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9.4,
-        "voteCount": 8,
-        "popularity": 9.3708,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -653,6 +639,20 @@
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.4,
+        "voteCount": 8,
+        "popularity": 9.3708,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,战争政治"
       },
       {
         "id": 214875,
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 28.6978,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -813,6 +799,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 24.9586,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 154420,
         "type": "tmdb",
         "title": "半熟恋人",
@@ -827,16 +827,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
+        "id": 219934,
         "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 24.9586,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 26.9423,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1113,20 +1113,6 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.167,
-        "voteCount": 3,
-        "popularity": 16.1577,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -1137,6 +1123,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.167,
+        "voteCount": 3,
+        "popularity": 16.1577,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1227,34 +1227,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.3965,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 331569,
-        "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5327,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 331587,
         "type": "tmdb",
         "title": "伦敦合伙人",
@@ -1265,6 +1237,34 @@
         "releaseDate": "2026-08-08",
         "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
         "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 331569,
+        "type": "tmdb",
+        "title": "不想睡的星期五",
+        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.9438,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
+        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 326406,
+        "type": "tmdb",
+        "title": "快乐老家",
+        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.3965,
+        "releaseDate": "2026-06-28",
+        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
+        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
