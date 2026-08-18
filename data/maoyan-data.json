@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T20:20:22.400+08:00",
+  "last_updated": "2026-08-19T02:19:26.982+08:00",
   "tv": {
     "全网": [
       {
@@ -73,20 +73,6 @@
         "genreTitle": "剧情,动作冒险"
       },
       {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 21.5348,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
@@ -141,6 +127,20 @@
         "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 273119,
+        "type": "tmdb",
+        "title": "人鱼",
+        "description": "一场少女失踪案，让三个命运迥异的女孩面临人生抉择，平凡家庭的悲喜尽显无余；地上城市与地下管道明暗交织，少女踽踽独行于其中，历经苦难，揭开背后的真相，完成自我救赎，走向希望。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 7.7345,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/7OEUa475TU6ECokYdVCrSjvaBSg.jpg",
+        "backdropPath": "/5sRWeNwujN5d7Zm6pv8PShcwoND.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑,剧情"
       }
     ],
     "优酷": [
@@ -243,20 +243,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 276239,
-        "type": "tmdb",
-        "title": "非份之罪",
-        "description": "人类的欲望，可驱使我们超越自我，然而，当欲望失控，过份贪图金钱与权势、追求不属于自己的爱，非份之想被无限放大，不经意间，便陷入道德矛盾的深渊，犯下种种非份之罪……新界东重案组接连调查几宗案件，包括无脸女尸、石棺禁恋、一亿杀机、危险游戏、肮脏的子弹、恐怖情人，错综复杂的线索、缠绕不清的关系，构成一桩桩匪夷所思的迷案，揭露触摸不透的人性黑暗面。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 6.1966,
-        "releaseDate": "2026-06-29",
-        "posterPath": "/2snG7uD9XyccAXlqJI3oTsUgQie.jpg",
-        "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 272938,
         "type": "tmdb",
         "title": "师兄太稳健",
@@ -269,6 +255,20 @@
         "backdropPath": "/fFcwzH5ipOfiQQEnAnBk6C9enXG.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
+      },
+      {
+        "id": 276239,
+        "type": "tmdb",
+        "title": "非份之罪",
+        "description": "人类的欲望，可驱使我们超越自我，然而，当欲望失控，过份贪图金钱与权势、追求不属于自己的爱，非份之想被无限放大，不经意间，便陷入道德矛盾的深渊，犯下种种非份之罪……新界东重案组接连调查几宗案件，包括无脸女尸、石棺禁恋、一亿杀机、危险游戏、肮脏的子弹、恐怖情人，错综复杂的线索、缠绕不清的关系，构成一桩桩匪夷所思的迷案，揭露触摸不透的人性黑暗面。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 6.1966,
+        "releaseDate": "2026-06-29",
+        "posterPath": "/2snG7uD9XyccAXlqJI3oTsUgQie.jpg",
+        "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 270845,
@@ -371,20 +371,6 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
-        "id": 331662,
-        "type": "tmdb",
-        "title": "能有多大事",
-        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.5129,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
-        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 275966,
         "type": "tmdb",
         "title": "家业",
@@ -395,6 +381,20 @@
         "releaseDate": "2026-05-17",
         "posterPath": "/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
         "backdropPath": "/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 331662,
+        "type": "tmdb",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.5129,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -555,16 +555,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 331662,
+        "id": 292696,
         "type": "tmdb",
-        "title": "能有多大事",
-        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.5129,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
-        "backdropPath": "/mPtbwdtEAHhLj9pibdHz0GznHis.jpg",
+        "title": "莫离",
+        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
+        "rating": 8.4,
+        "voteCount": 8,
+        "popularity": 8.7348,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -627,20 +627,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283952,
-        "type": "tmdb",
-        "title": "良陈美锦",
-        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
-        "rating": 9.4,
-        "voteCount": 8,
-        "popularity": 10.5822,
-        "releaseDate": "2026-05-03",
-        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
-        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,战争政治"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -653,6 +639,20 @@
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 283952,
+        "type": "tmdb",
+        "title": "良陈美锦",
+        "description": "讲述了顾锦朝因被算命先生说与父亲仕途相冲，从小寄养在外祖家，受外祖母宠爱，性格肆无忌惮。回顾家后，他以强硬姿态应对各种人和事。他的生命力吸引了内阁权臣陈三爷、世子爷叶限和端方君子陈玄青，最终他选择尊重她本性、纵容她放肆的陈三爷的故事。",
+        "rating": 9.4,
+        "voteCount": 8,
+        "popularity": 10.5822,
+        "releaseDate": "2026-05-03",
+        "posterPath": "/3EZfUsQqJeF0gys3tTpAWTqD2pY.jpg",
+        "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,战争政治"
       },
       {
         "id": 214875,
@@ -683,30 +683,30 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 37472,
+        "id": 283682,
         "type": "tmdb",
-        "title": "海底小纵队",
-        "description": "以巴克队长为领导核心，小队集结了医生、生物学家、摄像师、机械工程师等7名伙伴。他们是一群活跃在海底的小小冒险家，有着各自的爱好与独一无二的特长，在团队核心巴克队长的带领下向着未知的海域不断探索前进。精致的画面呈现与天马星空的想象力，更增添了动画的观赏性与趣味性。",
-        "rating": 7.153,
-        "voteCount": 59,
-        "popularity": 41.361,
-        "releaseDate": "2010-10-05",
-        "posterPath": "/iOAsmdr62UY3ZDmAIjvmEzuaqJJ.jpg",
-        "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+        "title": "好好的时光",
+        "description": "上世纪70年代末，带着两儿一女的机械厂工人庄先进，迎娶了带着一儿一女的歌舞团演员苏小曼，来自两个家庭的孩子各怀心思，和父母一道演绎了一段三十年的情感大戏。自小当家的大女儿庄好好，是两个重组家庭的“定盘星”，从电车售票员到歌舞厅里的驻唱红歌手，她像高山之巅的野花，和家人们携手并肩心向阳光，顽强生长。庄先进终于实现了为孩子起名“好好学习，天天向上”的梦想，可为之圆梦的庄向上却成为庄好好和苏小曼之间不可说破的“秘密”。庄学习和王元媛本是青梅竹马的同学，却因各自父母的结合，两人只能擦肩而过。庄先进的徒弟刘成追求庄先进的女儿庄好好未果，却娶了苏小曼的女儿。",
+        "rating": 7.5,
+        "voteCount": 4,
+        "popularity": 5.6308,
+        "releaseDate": "2026-02-23",
+        "posterPath": "/1RdBWSjELHNOOkaNdTM3O1CULq8.jpg",
+        "backdropPath": "/7947ON9o8of5Cpm03pUbQMfuDNp.jpg",
         "mediaType": "tv",
-        "genreTitle": "动画,儿童,动作冒险,科幻奇幻"
+        "genreTitle": "剧情,家庭"
       },
       {
-        "id": 323682,
+        "id": 326189,
         "type": "tmdb",
-        "title": "太行谣",
-        "description": "1939年，太行山深处，敌后抗战进入到最为艰难的时期。由于战场形势复杂，后勤条件有限，许多八路军指战员无暇顾及自己刚刚出生的子女。太行山里的众多农村妇女在妇救会的组织下担负起了为八路军指战员奶养子女的工作。为了养育和保护八路军子女，这些年青妇女历经千难万险，却无怨无悔，在硝烟与战火的洗礼中逐步成长，担负起抗日救国的重任，谱写出太行人民胸怀民族大义，同八路军将士之间血肉相连、鱼水情深的革命赞歌。",
+        "title": "种墨园",
+        "description": "在北京工作的林依然，因母亲患病，选择回乡后考公到桃花镇，在经发办任职。林依然看到以千年宣家为代表的传统宣纸产业艰难求存，为了拯救传统宣纸产业，她通过开发宣纸笔记本业务、去北京拉宣纸壁纸订单、操办文房四宝文化节等，努力帮助桃花镇宣纸产业走出经营困境，也完成了她对这方水土从陌生到了解、从责任再到热爱的成长历程。她也逐渐发现，一直钻研宣纸文创，看起来不务正业的宣纸匠人宣楌，其实和她一样，一直在为宣纸产业摸索一条新的可持续发展之路。于是林依然携手宣楌在宣纸文创的大道上拼搏奋斗，终于迎来了成功。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.4828,
-        "releaseDate": "2026-05-26",
-        "posterPath": "/8Vr4iNYTrWBdNWLEWc4Bmv1iixI.jpg",
-        "backdropPath": "/kAlH8b31JGQ7RmodPGiCrx6mNAO.jpg",
+        "popularity": 2.6076,
+        "releaseDate": "2026-06-23",
+        "posterPath": "/uVa3c0FSfF73jSxxxKazKIR0PkI.jpg",
+        "backdropPath": "/xUu1OTsPWA6YGgHNV5P6D4OQgte.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -757,6 +757,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 103147,
+        "type": "tmdb",
+        "title": "心动的信号",
+        "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
+        "rating": 6.1,
+        "voteCount": 7,
+        "popularity": 35.5317,
+        "releaseDate": "2018-08-26",
+        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
+        "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -785,16 +799,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 103147,
+        "id": 326694,
         "type": "tmdb",
-        "title": "心动的信号",
-        "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
-        "rating": 6.1,
-        "voteCount": 7,
-        "popularity": 35.5317,
-        "releaseDate": "2018-08-26",
-        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
-        "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.1265,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,18 +827,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
+        "id": 261471,
         "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.1265,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "title": "脱口秀和Ta的朋友们",
+        "description": "专业的喜剧脱口秀竞演节目，节目邀请海内外优秀的脱口秀演员，分享快乐，传递积极的生活态度与喜剧精神。",
+        "rating": 5.8,
+        "voteCount": 4,
+        "popularity": 70.4494,
+        "releaseDate": "2024-08-20",
+        "posterPath": "/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
+        "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "脱口秀,喜剧"
       },
       {
         "id": 203003,
@@ -899,20 +913,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 216487,
-        "type": "tmdb",
-        "title": "无限超越班",
-        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
-        "rating": 5.5,
-        "voteCount": 4,
-        "popularity": 21.4848,
-        "releaseDate": "2022-12-17",
-        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
-        "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 280060,
         "type": "tmdb",
         "title": "她的房间",
@@ -923,6 +923,20 @@
         "releaseDate": "2024-12-18",
         "posterPath": "/fuyEPNjJIbtcWfbrN0X44oiXj31.jpg",
         "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 216487,
+        "type": "tmdb",
+        "title": "无限超越班",
+        "description": "《无限超越班》是由优酷、浙江卫视出品、TVB联合出品的演员专业艺训励志真人秀，成龙担任召集人，尔冬升担任监制、辅导员，惠英红、吴镇宇担任监制，佘诗曼担任无限经理人。那些在观众记忆中留下高光瞬间的港片戏骨们带着丰富的演绎经验，与青年演员展开多个层面的合作交流，共同迎接新生代演员们的无限超越。节目以经典为鉴，立足当下、放眼未来，为影视行业的创作与发展寻找启发与更多可能。",
+        "rating": 5.5,
+        "voteCount": 4,
+        "popularity": 21.4848,
+        "releaseDate": "2022-12-17",
+        "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
+        "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -971,20 +985,6 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 31.1238,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 326694,
         "type": "tmdb",
         "title": "说唱巅峰对决2026",
@@ -995,6 +995,20 @@
         "releaseDate": "2026-06-27",
         "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
         "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 31.1238,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1013,20 +1027,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 325041,
-        "type": "tmdb",
-        "title": "天才厨人",
-        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.9437,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
-        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296215,
         "type": "tmdb",
         "title": "姐姐当家",
@@ -1037,6 +1037,20 @@
         "releaseDate": "2025-07-26",
         "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325041,
+        "type": "tmdb",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.9437,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1113,20 +1127,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 24.489,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -1139,6 +1139,20 @@
         "backdropPath": "/sGK1f1Y2dnExqpjRnsHpI4ZWqJr.jpg",
         "mediaType": "tv",
         "genreTitle": "脱口秀,喜剧"
+      },
+      {
+        "id": 203003,
+        "type": "tmdb",
+        "title": "开始推理吧",
+        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
+        "rating": 7.9,
+        "voteCount": 8,
+        "popularity": 24.489,
+        "releaseDate": "2022-06-03",
+        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
+        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 154420,
@@ -1213,20 +1227,6 @@
     ],
     "芒果TV": [
       {
-        "id": 331569,
-        "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.0025,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 89861,
         "type": "tmdb",
         "title": "密室大逃脱",
@@ -1241,6 +1241,34 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 331569,
+        "type": "tmdb",
+        "title": "不想睡的星期五",
+        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.0025,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
+        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 330354,
+        "type": "tmdb",
+        "title": "心动双重奏",
+        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.8465,
+        "releaseDate": "2026-07-30",
+        "posterPath": "",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": ""
+      },
+      {
         "id": 330052,
         "type": "tmdb",
         "title": "家乡美食大赛",
@@ -1251,34 +1279,6 @@
         "releaseDate": "2026-07-26",
         "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 298320,
-        "type": "tmdb",
-        "title": "伦敦合伙人",
-        "description": "《巴黎合伙人》邀请6位青春合伙人，空降世界时尚心脏--法国巴黎16天时间，从零创业、苦心经营一家汇聚中国品牌的东方美学快闪店，共同助力国货出海，让中国之美为世界所见。《合伙人》在第一季《巴黎合伙人》的基础上全新升级！合伙人们将携手更多国际合伙人，落地世界金融中心与顶级商业都会，打造汇聚中国品牌的特色门店，全力助推国货出海，以国人智慧解锁中国品牌的全球新玩法。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 7.787,
-        "releaseDate": "2025-08-14",
-        "posterPath": "/2iYby7EGM8wicaGtZTKpxH1Ywie.jpg",
-        "backdropPath": "/yZ81CoQyQqshENN79R55Mim48qd.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.0793,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
