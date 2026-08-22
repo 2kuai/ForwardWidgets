@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T02:19:44.393+08:00",
+  "last_updated": "2026-08-22T08:33:22.183+08:00",
   "tv": {
     "全网": [
       {
@@ -17,20 +17,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 331830,
-        "type": "tmdb",
-        "title": "我们的少年时代2",
-        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
-        "rating": 10,
-        "voteCount": 1,
-        "popularity": 2.4804,
-        "releaseDate": "2026-08-16",
-        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -41,6 +27,20 @@
         "releaseDate": "2026-08-10",
         "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
         "backdropPath": "/elfvJ7Quc5ffx1SK59UFEa5dRkQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 331830,
+        "type": "tmdb",
+        "title": "我们的少年时代2",
+        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
+        "rating": 10,
+        "voteCount": 1,
+        "popularity": 2.4804,
+        "releaseDate": "2026-08-16",
+        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -101,30 +101,30 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 103052,
+        "id": 332255,
         "type": "tmdb",
-        "title": "秋蝉",
-        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
-        "rating": 6,
-        "voteCount": 4,
-        "popularity": 5.0027,
-        "releaseDate": "2020-05-04",
-        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
-        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.3286,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "科幻奇幻,悬疑"
       },
       {
-        "id": 286506,
+        "id": 289139,
         "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "title": "这一秒过火",
+        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
         "rating": 8.5,
-        "voteCount": 6,
-        "popularity": 23.8834,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
+        "voteCount": 11,
+        "popularity": 32.5586,
+        "releaseDate": "2026-07-19",
+        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
+        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -173,20 +173,6 @@
         "genreTitle": "剧情,动作冒险"
       },
       {
-        "id": 329132,
-        "type": "tmdb",
-        "title": "江海潮生",
-        "description": "以中国近代著名实业家、教育家张謇的人生经历为主线，聚焦清末民初风云激荡的时代变局，讲述张謇秉持“实业救国、教育兴邦”理想，兴办实业、发展教育、造福乡梓，以一生奋斗探索民族振兴之路的历史故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 5.5964,
-        "releaseDate": "2026-07-20",
-        "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
-        "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 273114,
         "type": "tmdb",
         "title": "悬案",
@@ -201,18 +187,32 @@
         "genreTitle": "悬疑"
       },
       {
-        "id": 299952,
+        "id": 329132,
         "type": "tmdb",
-        "title": "早春晴朗",
-        "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.8792,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/o4I2aVl0KsXKZt5djqUE0Z5YWhH.jpg",
-        "backdropPath": "/d7aATTaFwreVu0eSdVc3k9Yqlvv.jpg",
+        "title": "江海潮生",
+        "description": "以中国近代著名实业家、教育家张謇的人生经历为主线，聚焦清末民初风云激荡的时代变局，讲述张謇秉持“实业救国、教育兴邦”理想，兴办实业、发展教育、造福乡梓，以一生奋斗探索民族振兴之路的历史故事。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 5.5964,
+        "releaseDate": "2026-07-20",
+        "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
+        "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "北宋仁宗年间，襄阳王暗中勾结各方势力意欲谋反。御前四品带刀护卫展昭（杨洋 饰）为追查故友留下的襄阳王谋反悬案线索，孤身前往襄州。途中他意外卷入纷争，结识了闯荡江湖的霍玲珑（章若楠 饰），并一起救下苌弘璧。展昭自知在劫难逃，将证据托付给霍玲珑后，以身为饵牵制敌人，力竭被俘。危急关头，幸得锦毛鼠白玉堂（方逸伦 饰）相救，展昭才得以脱身。\n\n面对襄阳王及其四大神君的步步紧逼，背负污名的展昭与霍玲珑、白玉堂联手追查线索，撕破襄阳王多年来编织的遍布朝野和江湖的势力网。三人最终掌握襄阳王勾结黑白两道、鱼肉百姓、通敌叛国的罪证，挫败其阴谋，还江湖与百姓一片安宁。",
+        "rating": 7.2,
+        "voteCount": 10,
+        "popularity": 8.6018,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       },
       {
         "id": 251600,
@@ -243,18 +243,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 254486,
+        "id": 276239,
         "type": "tmdb",
-        "title": "雨霖铃",
-        "description": "北宋仁宗年间，襄阳王暗中勾结各方势力意欲谋反。御前四品带刀护卫展昭（杨洋 饰）为追查故友留下的襄阳王谋反悬案线索，孤身前往襄州。途中他意外卷入纷争，结识了闯荡江湖的霍玲珑（章若楠 饰），并一起救下苌弘璧。展昭自知在劫难逃，将证据托付给霍玲珑后，以身为饵牵制敌人，力竭被俘。危急关头，幸得锦毛鼠白玉堂（方逸伦 饰）相救，展昭才得以脱身。\n\n面对襄阳王及其四大神君的步步紧逼，背负污名的展昭与霍玲珑、白玉堂联手追查线索，撕破襄阳王多年来编织的遍布朝野和江湖的势力网。三人最终掌握襄阳王勾结黑白两道、鱼肉百姓、通敌叛国的罪证，挫败其阴谋，还江湖与百姓一片安宁。",
-        "rating": 7.2,
-        "voteCount": 10,
-        "popularity": 8.6018,
-        "releaseDate": "2026-05-13",
-        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
-        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "title": "非份之罪",
+        "description": "人类的欲望，可驱使我们超越自我，然而，当欲望失控，过份贪图金钱与权势、追求不属于自己的爱，非份之想被无限放大，不经意间，便陷入道德矛盾的深渊，犯下种种非份之罪……新界东重案组接连调查几宗案件，包括无脸女尸、石棺禁恋、一亿杀机、危险游戏、肮脏的子弹、恐怖情人，错综复杂的线索、缠绕不清的关系，构成一桩桩匪夷所思的迷案，揭露触摸不透的人性黑暗面。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 5.502,
+        "releaseDate": "2026-06-29",
+        "posterPath": "/2snG7uD9XyccAXlqJI3oTsUgQie.jpg",
+        "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 239901,
@@ -271,18 +271,18 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 276239,
+        "id": 270845,
         "type": "tmdb",
-        "title": "非份之罪",
-        "description": "人类的欲望，可驱使我们超越自我，然而，当欲望失控，过份贪图金钱与权势、追求不属于自己的爱，非份之想被无限放大，不经意间，便陷入道德矛盾的深渊，犯下种种非份之罪……新界东重案组接连调查几宗案件，包括无脸女尸、石棺禁恋、一亿杀机、危险游戏、肮脏的子弹、恐怖情人，错综复杂的线索、缠绕不清的关系，构成一桩桩匪夷所思的迷案，揭露触摸不透的人性黑暗面。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 5.502,
-        "releaseDate": "2026-06-29",
-        "posterPath": "/2snG7uD9XyccAXlqJI3oTsUgQie.jpg",
-        "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
+        "title": "二龙湖·“村”暖花开",
+        "description": "城市保安哥张浩在家乡父老二龙湖村民面前虚荣吹牛，为了圆谎不得不变身商业奇才，携“巨额投资”带着团队衣锦还乡，遇上研究生毕业一心投入家乡建设致力乡村振兴的青梅竹马李茗涵。天差地别的两个人因初心、做事风格、教育程度等差异，在东北农村这个独特的背景下，碰撞出接二连三的喜剧包袱。作为全村的希望，张浩阴差阳错地成了全村共同的“鸡娃”对象。同时，求成心切又缺乏商业思维和经验的张浩自然而然的也成了诈骗分子的“盘中餐”。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.9474,
+        "releaseDate": "2024-10-11",
+        "posterPath": "/hf1dlKG9KxN0Ncr8XOfk5rUd0yx.jpg",
+        "backdropPath": "/hotsss4q5XTcrQskaaT2vqEB6aR.jpg",
         "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
+        "genreTitle": "剧情,喜剧"
       }
     ],
     "爱奇艺": [
@@ -315,20 +315,6 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
-        "id": 103052,
-        "type": "tmdb",
-        "title": "秋蝉",
-        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
-        "rating": 6,
-        "voteCount": 4,
-        "popularity": 5.0027,
-        "releaseDate": "2020-05-04",
-        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
-        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 289139,
         "type": "tmdb",
         "title": "这一秒过火",
@@ -339,6 +325,20 @@
         "releaseDate": "2026-07-19",
         "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
         "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 103052,
+        "type": "tmdb",
+        "title": "秋蝉",
+        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
+        "rating": 6,
+        "voteCount": 4,
+        "popularity": 5.0027,
+        "releaseDate": "2020-05-04",
+        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
+        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -385,20 +385,6 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
-        "id": 295558,
-        "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 8.2,
-        "voteCount": 4,
-        "popularity": 11.7603,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 331662,
         "type": "tmdb",
         "title": "能有多大事",
@@ -409,6 +395,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
         "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295558,
+        "type": "tmdb",
+        "title": "雀骨",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
+        "rating": 8.2,
+        "voteCount": 4,
+        "popularity": 11.7603,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -471,48 +471,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 103052,
-        "type": "tmdb",
-        "title": "秋蝉",
-        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
-        "rating": 6,
-        "voteCount": 4,
-        "popularity": 5.0027,
-        "releaseDate": "2020-05-04",
-        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
-        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8.5,
-        "voteCount": 6,
-        "popularity": 23.8834,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 273119,
-        "type": "tmdb",
-        "title": "人鱼",
-        "description": "一场少女失踪案，让三个命运迥异的女孩面临人生抉择，平凡家庭的悲喜尽显无余；地上城市与地下管道明暗交织，少女踽踽独行于其中，历经苦难，揭开背后的真相，完成自我救赎，走向希望。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 4.9575,
-        "releaseDate": "2026-08-04",
-        "posterPath": "/7OEUa475TU6ECokYdVCrSjvaBSg.jpg",
-        "backdropPath": "/5sRWeNwujN5d7Zm6pv8PShcwoND.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑,剧情"
-      },
-      {
         "id": 332255,
         "type": "tmdb",
         "title": "法医秦明之蚀骨时差",
@@ -541,6 +499,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 273119,
+        "type": "tmdb",
+        "title": "人鱼",
+        "description": "一场少女失踪案，让三个命运迥异的女孩面临人生抉择，平凡家庭的悲喜尽显无余；地上城市与地下管道明暗交织，少女踽踽独行于其中，历经苦难，揭开背后的真相，完成自我救赎，走向希望。",
+        "rating": 8,
+        "voteCount": 1,
+        "popularity": 4.9575,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/7OEUa475TU6ECokYdVCrSjvaBSg.jpg",
+        "backdropPath": "/5sRWeNwujN5d7Zm6pv8PShcwoND.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑,剧情"
+      },
+      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
@@ -551,6 +523,34 @@
         "releaseDate": "2026-08-04",
         "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
         "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 103052,
+        "type": "tmdb",
+        "title": "秋蝉",
+        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
+        "rating": 6,
+        "voteCount": 4,
+        "popularity": 5.0027,
+        "releaseDate": "2020-05-04",
+        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
+        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8.5,
+        "voteCount": 6,
+        "popularity": 23.8834,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -743,20 +743,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 103147,
-        "type": "tmdb",
-        "title": "心动的信号",
-        "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
-        "rating": 6.1,
-        "voteCount": 7,
-        "popularity": 33.1813,
-        "releaseDate": "2018-08-26",
-        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
-        "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 331649,
         "type": "tmdb",
         "title": "大哥小助理",
@@ -767,6 +753,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
         "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 103147,
+        "type": "tmdb",
+        "title": "心动的信号",
+        "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
+        "rating": 6.1,
+        "voteCount": 7,
+        "popularity": 33.1813,
+        "releaseDate": "2018-08-26",
+        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
+        "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -799,20 +799,6 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 31.3693,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 203003,
         "type": "tmdb",
         "title": "开始推理吧",
@@ -823,6 +809,20 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 31.3693,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -877,7 +877,7 @@
         "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.2405,
+        "popularity": 1.5502,
         "releaseDate": "",
         "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
         "backdropPath": "",
@@ -1047,7 +1047,7 @@
         "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.2405,
+        "popularity": 1.5502,
         "releaseDate": "",
         "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
         "backdropPath": "",
@@ -1189,7 +1189,7 @@
         "description": "《奔跑吧第14季》是浙江卫视推出的国民户外竞技真人秀节目《奔跑吧》的第十四季。节目计划于2026年4月24日起每周五20:20在浙江卫视播出 [2] [7]。\n\n本季节目录制周期为2026年3月至6月，分多轮进行 [1]。首站录制于2026年3月25日至29日在海南海口进行。录制地点包括海南海口、福建泉州、河南安阳、黑龙江哈尔滨、浙江某城市以及新加坡 [1] [3] [7]。常驻嘉宾包括李晨、郑恺、沙溢、白鹿、范丞丞、宋雨琦、张真源等人 [1] [4] [7]。飞行及拟邀嘉宾包括孟子义、李昀锐、翟子路、魏大勋、邓恩熙、唐九洲、蔡文静、时代少年团等 [1] [5]。本季冠名商更换为王老吉 [6]。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.2405,
+        "popularity": 1.5502,
         "releaseDate": "",
         "posterPath": "/rAPG0aptB6MXmYoaksYhi9rR8q2.jpg",
         "backdropPath": "",
@@ -1227,20 +1227,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326406,
-        "type": "tmdb",
-        "title": "快乐老家",
-        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.4958,
-        "releaseDate": "2026-06-28",
-        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
-        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 331569,
         "type": "tmdb",
         "title": "不想睡的星期五",
@@ -1255,13 +1241,27 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 326406,
+        "type": "tmdb",
+        "title": "快乐老家",
+        "description": "节目聚焦上世纪末的资深艺人老友团，以“旅居养老试验+跨世纪老友同行”为核心，真实记录老友同行的相处日常、性格碰撞与情感联结，挖掘旅居养老的全新可能性，打造兼具烟火气、治愈感与话题度的轻松慢旅居纪实体验，以岁月沉淀的真诚与松弛，呈现有笑、有泪、有温度的人间烟火。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.4958,
+        "releaseDate": "2026-06-28",
+        "posterPath": "/aj6DJhgZrUUcEniJjdyc8gGARBt.jpg",
+        "backdropPath": "/935FHPrmQm00IjvA7KfCVgrQZs2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 330052,
         "type": "tmdb",
         "title": "家乡美食大赛",
         "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.4908,
+        "popularity": 0.7112,
         "releaseDate": "2026-07-26",
         "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
