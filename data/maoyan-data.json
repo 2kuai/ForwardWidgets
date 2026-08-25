@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T14:24:23.486+08:00",
+  "last_updated": "2026-08-25T20:23:05.709+08:00",
   "tv": {
     "全网": [
       {
@@ -25,7 +25,7 @@
         "voteCount": 1,
         "popularity": 3.8609,
         "releaseDate": "2026-08-16",
-        "posterPath": "/uYYMJkAQqLZXmnp2SdhHx3GwOcn.jpg",
+        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
         "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
@@ -37,7 +37,7 @@
         "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
         "rating": 8,
         "voteCount": 3,
-        "popularity": 70.8414,
+        "popularity": 61.1736,
         "releaseDate": "2026-08-10",
         "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
         "backdropPath": "/elfvJ7Quc5ffx1SK59UFEa5dRkQ.jpg",
@@ -67,7 +67,7 @@
         "voteCount": 2,
         "popularity": 11.2051,
         "releaseDate": "2026-08-17",
-        "posterPath": "/sQY8Kwgwgc0w8lDVwJbkhbNIz8b.jpg",
+        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -87,44 +87,30 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
+        "id": 35894,
+        "type": "tmdb",
+        "title": "金童卡修",
+        "description": "　表面上，高岭清麿（樱井孝宏 配音）是一个性孤僻不爱上学的不良少年，但他其实是个拥有超高智商的天才少年。某日，一个外表奇特的男孩找到了清麿，男孩告诉清麿自己叫卡修（大谷育江 配音），此行前来的目的是为了报恩。就这样，清麿收留了卡修，两人的同居生活正式开始。 　　在卡修随身携带的红书里，隐藏了卡修失忆的线索，而清麿居然轻易的就读懂了上面古怪的文字，从而展开了一段魔幻奇缘。原来，在这个世界上，存在着很多像卡修这样带着魔法书的孩子们，在他们之间，以破坏其余的魔法书为目的，持续着一场浩荡的战争。而卡修和清麿，亦被卷入了这场残酷的战争中去。",
+        "rating": 8.446,
+        "voteCount": 271,
+        "popularity": 15.5445,
+        "releaseDate": "2003-04-06",
+        "posterPath": "/jenzNd6ILceH2q8CTZekIzrhalb.jpg",
+        "backdropPath": "/n4MfPSRk5PzHeVrm43NHam8oH5d.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,喜剧,儿童"
+      },
+      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
         "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
         "rating": 8.5,
         "voteCount": 6,
-        "popularity": 24.8759,
+        "popularity": 21.5789,
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 332255,
-        "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.4272,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
-      },
-      {
-        "id": 289139,
-        "type": "tmdb",
-        "title": "这一秒过火",
-        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.5,
-        "voteCount": 11,
-        "popularity": 17.8183,
-        "releaseDate": "2026-07-19",
-        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
-        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -141,6 +127,20 @@
         "backdropPath": "/afJUPDQm4ZegjxGwNNGertKs2wo.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 332255,
+        "type": "tmdb",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.4884,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "科幻奇幻,悬疑"
       }
     ],
     "优酷": [
@@ -207,7 +207,7 @@
         "description": "海陨至，建木现，得建木之实者，可御万物，仙、妖、魔三族为之陷入血战…… 百年后，雷修远为救相依为命的大哥，有意接近青丘孤女小棒槌，因缘际会下两人一同进入雏凤书院修习。书院以命相护的小伙伴给了小棒槌最初的友情，也埋下情动的念想。与雷修远也从好友到互相倾慕，最终进入同一门派，就在两颗心越靠越近之时，身世之谜也逐步揭开，小棒槌也不断脱胎换骨成了冰雪之姿的姜黎非。这闻所未闻的资质，令有心之人追查她的身世和来历。雷修远一路生死相随，在众人对异族秘辛的追逐里，走入雾一般的迷阵。相遇并非偶然，同为异类的二人为人们不容。身世背景的设定又让他们相爱而不得。最终，二人勇敢对抗宿命，炼化自身换回三界的太平。",
         "rating": 7.286,
         "voteCount": 7,
-        "popularity": 11.6808,
+        "popularity": 10.115,
         "releaseDate": "2026-06-27",
         "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
@@ -221,12 +221,26 @@
         "description": "北宋仁宗年间，襄阳王暗中勾结各方势力意欲谋反。御前四品带刀护卫展昭（杨洋 饰）为追查故友留下的襄阳王谋反悬案线索，孤身前往襄州。途中他意外卷入纷争，结识了闯荡江湖的霍玲珑（章若楠 饰），并一起救下苌弘璧。展昭自知在劫难逃，将证据托付给霍玲珑后，以身为饵牵制敌人，力竭被俘。危急关头，幸得锦毛鼠白玉堂（方逸伦 饰）相救，展昭才得以脱身。\n\n面对襄阳王及其四大神君的步步紧逼，背负污名的展昭与霍玲珑、白玉堂联手追查线索，撕破襄阳王多年来编织的遍布朝野和江湖的势力网。三人最终掌握襄阳王勾结黑白两道、鱼肉百姓、通敌叛国的罪证，挫败其阴谋，还江湖与百姓一片安宁。",
         "rating": 7.2,
         "voteCount": 10,
-        "popularity": 9.895,
+        "popularity": 8.5473,
         "releaseDate": "2026-05-13",
         "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
         "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,悬疑"
+      },
+      {
+        "id": 299952,
+        "type": "tmdb",
+        "title": "早春晴朗",
+        "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 11.0916,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/o4I2aVl0KsXKZt5djqUE0Z5YWhH.jpg",
+        "backdropPath": "/d7aATTaFwreVu0eSdVc3k9Yqlvv.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 270845,
@@ -257,20 +271,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 299952,
-        "type": "tmdb",
-        "title": "早春晴朗",
-        "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 12.0138,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/o4I2aVl0KsXKZt5djqUE0Z5YWhH.jpg",
-        "backdropPath": "/d7aATTaFwreVu0eSdVc3k9Yqlvv.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 239901,
         "type": "tmdb",
         "title": "云秀行",
@@ -293,7 +293,7 @@
         "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
         "rating": 8,
         "voteCount": 3,
-        "popularity": 70.8414,
+        "popularity": 61.1736,
         "releaseDate": "2026-08-10",
         "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
         "backdropPath": "/elfvJ7Quc5ffx1SK59UFEa5dRkQ.jpg",
@@ -315,20 +315,6 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
-        "id": 289139,
-        "type": "tmdb",
-        "title": "这一秒过火",
-        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.5,
-        "voteCount": 11,
-        "popularity": 17.8183,
-        "releaseDate": "2026-07-19",
-        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
-        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 103052,
         "type": "tmdb",
         "title": "秋蝉",
@@ -343,13 +329,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 289139,
+        "type": "tmdb",
+        "title": "这一秒过火",
+        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
+        "rating": 8.5,
+        "voteCount": 11,
+        "popularity": 17.8183,
+        "releaseDate": "2026-07-19",
+        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
+        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 289116,
         "type": "tmdb",
         "title": "天才，女友",
         "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
         "rating": 8.4,
         "voteCount": 4,
-        "popularity": 35.0032,
+        "popularity": 29.9656,
         "releaseDate": "2026-08-02",
         "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
         "backdropPath": "/ZiVWUV475nFPZSGO8BbIWxEVGq.jpg",
@@ -451,10 +451,24 @@
         "voteCount": 2,
         "popularity": 11.2051,
         "releaseDate": "2026-08-17",
-        "posterPath": "/sQY8Kwgwgc0w8lDVwJbkhbNIz8b.jpg",
+        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 35894,
+        "type": "tmdb",
+        "title": "金童卡修",
+        "description": "　表面上，高岭清麿（樱井孝宏 配音）是一个性孤僻不爱上学的不良少年，但他其实是个拥有超高智商的天才少年。某日，一个外表奇特的男孩找到了清麿，男孩告诉清麿自己叫卡修（大谷育江 配音），此行前来的目的是为了报恩。就这样，清麿收留了卡修，两人的同居生活正式开始。 　　在卡修随身携带的红书里，隐藏了卡修失忆的线索，而清麿居然轻易的就读懂了上面古怪的文字，从而展开了一段魔幻奇缘。原来，在这个世界上，存在着很多像卡修这样带着魔法书的孩子们，在他们之间，以破坏其余的魔法书为目的，持续着一场浩荡的战争。而卡修和清麿，亦被卷入了这场残酷的战争中去。",
+        "rating": 8.446,
+        "voteCount": 271,
+        "popularity": 15.5445,
+        "releaseDate": "2003-04-06",
+        "posterPath": "/jenzNd6ILceH2q8CTZekIzrhalb.jpg",
+        "backdropPath": "/n4MfPSRk5PzHeVrm43NHam8oH5d.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动画,喜剧,儿童"
       },
       {
         "id": 286506,
@@ -463,38 +477,10 @@
         "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
         "rating": 8.5,
         "voteCount": 6,
-        "popularity": 24.8759,
+        "popularity": 21.5789,
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 332255,
-        "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.4272,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
-      },
-      {
-        "id": 289139,
-        "type": "tmdb",
-        "title": "这一秒过火",
-        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.5,
-        "voteCount": 11,
-        "popularity": 17.8183,
-        "releaseDate": "2026-07-19",
-        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
-        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -513,6 +499,20 @@
         "genreTitle": "剧情,悬疑"
       },
       {
+        "id": 332255,
+        "type": "tmdb",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.4884,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "科幻奇幻,悬疑"
+      },
+      {
         "id": 103052,
         "type": "tmdb",
         "title": "秋蝉",
@@ -527,13 +527,27 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 289139,
+        "type": "tmdb",
+        "title": "这一秒过火",
+        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
+        "rating": 8.5,
+        "voteCount": 11,
+        "popularity": 17.8183,
+        "releaseDate": "2026-07-19",
+        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
+        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
         "description": "剧集分为六个独立单元（如《无用之人》《影后》《紧急联络人》等），每个单元聚焦不同角色的心理困境，包括产后抑郁、创伤后遗症、家庭暴力等主题。故事中的人物因同一场交通拥堵产生短暂交集，随后又回归各自的生活困境，最终在自我救赎中寻找出口。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.1757,
+        "popularity": 1.8851,
         "releaseDate": "2026-08-04",
         "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
         "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
@@ -553,20 +567,6 @@
         "backdropPath": "/5sRWeNwujN5d7Zm6pv8PShcwoND.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
-      },
-      {
-        "id": 284110,
-        "type": "tmdb",
-        "title": "主角",
-        "description": "多年前，县剧团招学员，在团里任司鼓的胡三元替外甥女报名，将年少的她改名易秦娥从家乡带出来学唱秦腔。因胡三元造成的事故，易秦娥受到影响，学习秦腔之路屡遭波折。但她凭借刻苦的劲头和自身的条件获得了老艺人的赏识和热情帮扶。她的“破蒙戏”在乡村舞台上音惊四座，后改名忆秦娥被调入省秦腔团。 她勤学苦练，在台上的演出屡获成功。历经波折，她终于明白对秦腔艺术的传承才是她作为“主角”的真正意义，她将继续培养新一代秦腔舞台上亮丽的主角。",
-        "rating": 9,
-        "voteCount": 5,
-        "popularity": 8.4629,
-        "releaseDate": "2026-05-10",
-        "posterPath": "/bUrgoPF61ySpHuoccoDnFVhlytL.jpg",
-        "backdropPath": "/i5pSbVLpRKUPfFckfsX0kpHLdWC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -579,7 +579,7 @@
         "voteCount": 1,
         "popularity": 3.8609,
         "releaseDate": "2026-08-16",
-        "posterPath": "/uYYMJkAQqLZXmnp2SdhHx3GwOcn.jpg",
+        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
         "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
@@ -599,18 +599,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295599,
+        "id": 214875,
         "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 14.5514,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
+        "title": "汪汪队之小砾与工程家族",
+        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
+        "rating": 7.1,
+        "voteCount": 31,
+        "popularity": 19.8908,
+        "releaseDate": "2023-02-03",
+        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
+        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情"
+        "genreTitle": "动画,儿童"
       },
       {
         "id": 283952,
@@ -627,6 +627,20 @@
         "genreTitle": "剧情,战争政治"
       },
       {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 7.8,
+        "voteCount": 5,
+        "popularity": 14.5514,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 287641,
         "type": "tmdb",
         "title": "耀眼",
@@ -639,20 +653,6 @@
         "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 214875,
-        "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 19.8908,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
       },
       {
         "id": 288603,
@@ -669,20 +669,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 283961,
-        "type": "tmdb",
-        "title": "你是迟来的欢喜",
-        "description": "阮喻（郑合惠子饰）放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂（魏哲鸣饰）。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
-        "rating": 6.786,
-        "voteCount": 7,
-        "popularity": 7.2656,
-        "releaseDate": "2026-03-26",
-        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
-        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 37472,
         "type": "tmdb",
         "title": "海底小纵队",
@@ -695,6 +681,20 @@
         "backdropPath": "/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
         "mediaType": "tv",
         "genreTitle": "动画,儿童,动作冒险"
+      },
+      {
+        "id": 283961,
+        "type": "tmdb",
+        "title": "你是迟来的欢喜",
+        "description": "阮喻（郑合惠子饰）放弃稳定的工作以自己的情感经历为原型创作小说并发布在网上，但没想到被网友指出有抄袭嫌疑。阮喻决定维权但合作的律师正好是她高中的暗恋对象、也是自己小说男主的原型许淮颂（魏哲鸣饰）。两人因案子重逢，在相处过程中再次相互吸引，这段多年沉淀的感情在回忆下发酵，也在现实的考验中更加坚定。面对各自事业上的新挑战，两人并肩作战，相互鼓励，最终迎来了事业与爱情上“迟来的欢喜”。",
+        "rating": 6.786,
+        "voteCount": 7,
+        "popularity": 7.2656,
+        "releaseDate": "2026-03-26",
+        "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
+        "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 283682,
@@ -721,7 +721,7 @@
         "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
         "rating": 6.1,
         "voteCount": 7,
-        "popularity": 37.9486,
+        "popularity": 32.7637,
         "releaseDate": "2018-08-26",
         "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
         "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
@@ -799,6 +799,20 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
+        "id": 94773,
+        "type": "tmdb",
+        "title": "舞蹈新风暴",
+        "description": "《舞蹈风暴》是一档大型舞蹈竞技类真人秀。节目邀请全舞种年轻顶级舞者同台竞技，层层筛选只为诞生金牌舞蹈作品；四组“风暴见证官”携手观众，共同选拔领衔中国舞蹈的新生代力量；一位“风暴伙伴”，见证舞者的蜕变与成长；“360°时空凝结”技术，以全新维度鉴赏舞者每一个高光瞬间！高燃舞综热血来袭，带你刷新舞蹈认知，见证超级舞者的诞生！",
+        "rating": 8.5,
+        "voteCount": 2,
+        "popularity": 1.6017,
+        "releaseDate": "2019-10-05",
+        "posterPath": "/gG1VvWftNiBI2X7yI9gtjSv8fdK.jpg",
+        "backdropPath": "/4dCmQlkUkAIlyC86ptkTDoAH6Qa.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -823,20 +837,6 @@
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 203003,
-        "type": "tmdb",
-        "title": "开始推理吧",
-        "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
-        "rating": 7.9,
-        "voteCount": 8,
-        "popularity": 32.3111,
-        "releaseDate": "2022-06-03",
-        "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
-        "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -899,20 +899,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 280060,
-        "type": "tmdb",
-        "title": "她的房间",
-        "description": "《她的房间》节目通过寻访人张越的视角，以探访、对话的方式，针对8个当下重要的女性议题，提供女性成长的切面和样本。每一期节目当中，张越会针对一个议题，去探访该题目下的女性创作者与女性亲历者。以纪实、对话的样态，努力完成一部具有丰富情感色彩和社会学样本价值的女性非虚构影像集。希望能够通过节目，带给广大观众以勇气、力量和启发，在新时代里，完成自我成长与自我实现。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.5034,
-        "releaseDate": "2024-12-18",
-        "posterPath": "/fuyEPNjJIbtcWfbrN0X44oiXj31.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325363,
         "type": "tmdb",
         "title": "短剧X家族",
@@ -923,6 +909,20 @@
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 280060,
+        "type": "tmdb",
+        "title": "她的房间",
+        "description": "《她的房间》节目通过寻访人张越的视角，以探访、对话的方式，针对8个当下重要的女性议题，提供女性成长的切面和样本。每一期节目当中，张越会针对一个议题，去探访该题目下的女性创作者与女性亲历者。以纪实、对话的样态，努力完成一部具有丰富情感色彩和社会学样本价值的女性非虚构影像集。希望能够通过节目，带给广大观众以勇气、力量和启发，在新时代里，完成自我成长与自我实现。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 0.5034,
+        "releaseDate": "2024-12-18",
+        "posterPath": "/fuyEPNjJIbtcWfbrN0X44oiXj31.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -953,20 +953,6 @@
         "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 317458,
-        "type": "tmdb",
-        "title": "不好笑就露宿街头",
-        "description": "节目由一位资深喜综老友大张伟搭档三位脱口秀前辈小鹿、周奇墨、翟佳宁发起，秉持“让喜剧回归生活、演员回归线下”的理念，打造全新线下剧场厂牌。节目邀请明星好友助阵，通过十场演出挖掘新人，目标孵化2026年度脱口秀限定厂牌并开启巡演，开启“创业+演出”的热血冒险。节目设置观众满意度机制，达标解锁福利，未达标则在安全合规的封闭场地内进行模拟露营。以“演出+生活”双线叙事，展现喜剧行业生态，探讨演员商业与艺术价值，传递奋斗、温暖与乐观向上的正向价值观。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.599,
-        "releaseDate": "2026-03-28",
-        "posterPath": "/dYOd96wRo3QUcZHJWaw8aA8Oyn3.jpg",
-        "backdropPath": "/4qk92DmjKfYMjiqym0DRpVkvdLa.jpg",
-        "mediaType": "tv",
-        "genreTitle": "喜剧,真人秀"
       }
     ],
     "爱奇艺": [
@@ -1047,7 +1033,7 @@
         "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 3.1761,
+        "popularity": 2.7803,
         "releaseDate": "2026-06-11",
         "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
         "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
@@ -1061,7 +1047,7 @@
         "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 4.9597,
+        "popularity": 4.4348,
         "releaseDate": "2025-07-26",
         "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
@@ -1103,7 +1089,7 @@
         "description": "Z世代超「青春」面孔破圈集结!国内首支全明星合唱团来了!从个人到团体、从各自闪耀到并肩同行，每一次声部碰撞都热血沸腾，每一段默契配合都闪耀团魂!更有与国际顶尖合唱团强强对决，在不断磨练中凝聚出最「燃」的青春群像故事。让世界听见中国年轻人的声音!",
         "rating": 10,
         "voteCount": 1,
-        "popularity": 2.6773,
+        "popularity": 2.2992,
         "releaseDate": "2026-04-24",
         "posterPath": "/noZO3kfCQo6rzwhx1h7HfVxPg0K.jpg",
         "backdropPath": "/e0AKJYGQZ5eywnHhF4MRnKFUqRP.jpg",
@@ -1119,7 +1105,7 @@
         "description": "《心动的信号》是由腾讯视频推出的一档恋爱社交推理真人秀节目。节目以信号小屋中发生的素人真实恋爱故事为主体，采用非传统意义上的星素结合方式，每期邀请明星嘉宾和心理学专家以场外观察员的身份，来反观6位素人单身男女日常相处的生活细节和情感走向，从而进行推理分析和心动连线。",
         "rating": 6.1,
         "voteCount": 7,
-        "popularity": 37.9486,
+        "popularity": 32.7637,
         "releaseDate": "2018-08-26",
         "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
         "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
@@ -1161,7 +1147,7 @@
         "description": "沉浸式剧情推理综艺由六位玩家作为新房客，入住推市11号公寓，在推理一个个悬疑案件的过程中，共同揭开11号公寓的终极真相。设置连续剧情故事、环环相扣的角色，立足于本土社会现象，展现11号公寓独立的“都市寓言”故事。",
         "rating": 7.9,
         "voteCount": 8,
-        "popularity": 32.3111,
+        "popularity": 27.6165,
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
@@ -1243,7 +1229,7 @@
       {
         "id": 94773,
         "type": "tmdb",
-        "title": "舞蹈风暴",
+        "title": "舞蹈新风暴",
         "description": "《舞蹈风暴》是一档大型舞蹈竞技类真人秀。节目邀请全舞种年轻顶级舞者同台竞技，层层筛选只为诞生金牌舞蹈作品；四组“风暴见证官”携手观众，共同选拔领衔中国舞蹈的新生代力量；一位“风暴伙伴”，见证舞者的蜕变与成长；“360°时空凝结”技术，以全新维度鉴赏舞者每一个高光瞬间！高燃舞综热血来袭，带你刷新舞蹈认知，见证超级舞者的诞生！",
         "rating": 8.5,
         "voteCount": 2,
@@ -1265,20 +1251,6 @@
         "releaseDate": "2019-03-30",
         "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
         "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 330052,
-        "type": "tmdb",
-        "title": "家乡美食大赛",
-        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.7129,
-        "releaseDate": "2026-07-26",
-        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
-        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1311,18 +1283,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 332570,
+        "id": 330052,
         "type": "tmdb",
-        "title": "耀眼一夏",
-        "description": "《耀眼一夏》是电视剧《耀眼》售后的毕业角色番综，由关晓彤、李昀锐、毛俊杰、边天扬、王翰闻、高秋梓原班主演齐聚录制。扎扎亭的老朋友们陆续回来，大家一起笑闹，一起为那场筹备已久的毕业联欢晚会亮灯开场。两天一夜，从二人的精心准备到众人相聚--这场迟来的重聚，终于让那个夏天有了最耀眼的收尾。",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.0357,
-        "releaseDate": "2026-08-04",
-        "posterPath": "/2cG8Ueiih1ZRWZkuKjIQdgBE5rg.jpg",
+        "popularity": 0.7129,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
         "mediaType": "tv",
-        "genreTitle": ""
+        "genreTitle": "真人秀"
       }
     ]
   }
