@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T18:51:17.481+08:00",
+  "last_updated": "2026-08-30T23:38:33.367+08:00",
   "tv": {
     "全网": [
       {
@@ -59,20 +59,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291856,
-        "type": "tmdb",
-        "title": "重器",
-        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 18.8752,
-        "releaseDate": "2026-08-10",
-        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
-        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 280133,
         "type": "tmdb",
         "title": "藏锋",
@@ -85,6 +71,20 @@
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 291856,
+        "type": "tmdb",
+        "title": "重器",
+        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 18.8752,
+        "releaseDate": "2026-08-10",
+        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
+        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 294487,
@@ -177,8 +177,8 @@
         "type": "tmdb",
         "title": "九门",
         "description": "长沙风云再起之时，张启山与吴老狗强强联手，携手霍仙姑与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
-        "rating": 6.8,
-        "voteCount": 6,
+        "rating": 6.857,
+        "voteCount": 7,
         "popularity": 17.4106,
         "releaseDate": "2026-07-30",
         "posterPath": "/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 332255,
-        "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.4753,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
-      },
-      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
@@ -539,6 +525,20 @@
         "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 332255,
+        "type": "tmdb",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.4753,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "科幻奇幻,悬疑"
       },
       {
         "id": 273119,
@@ -715,20 +715,6 @@
   "show": {
     "全网": [
       {
-        "id": 331649,
-        "type": "tmdb",
-        "title": "大哥小助理",
-        "description": "两位50+娱乐圈前辈组成“经纪团” ，每期为一位具有代表性的年轻后辈艺人担任“一日经纪人”全面负责艺人一天的行程安排与服务，从接送机、行程对接、妆发准备到工作陪伴、突发危机处理。两位经纪人需动用自己的人生智慧和圈内经验，为服务艺人保驾护航。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.8209,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
-        "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -739,6 +725,20 @@
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 331649,
+        "type": "tmdb",
+        "title": "大哥小助理",
+        "description": "两位50+娱乐圈前辈组成“经纪团” ，每期为一位具有代表性的年轻后辈艺人担任“一日经纪人”全面负责艺人一天的行程安排与服务，从接送机、行程对接、妆发准备到工作陪伴、突发危机处理。两位经纪人需动用自己的人生智慧和圈内经验，为服务艺人保驾护航。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.8209,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
+        "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -793,7 +793,7 @@
         "voteCount": 7,
         "popularity": 38.8198,
         "releaseDate": "2018-08-26",
-        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
+        "posterPath": "/qFplFFQy6zMMplHItcrMAtBEseO.jpg",
         "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
@@ -811,20 +811,6 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
-      },
-      {
-        "id": 330926,
-        "type": "tmdb",
-        "title": "一路向海的少年",
-        "description": "《一路向海的少年》是一档聚焦新时代青年成长历练的公路纪实真人秀。节目以\"从离海最远的地方出发，一路向海\"为核心立意，讲述五位少年从亚欧大陆腹地的新疆启程，以自驾方式完成八站新疆公路之旅，最终奔赴心之向往的海岛。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.5927,
-        "releaseDate": "2026-08-06",
-        "posterPath": "/3bQO1x3kmGiKWLUbc6jRt1uwsKJ.jpg",
-        "backdropPath": "/t392uv2WU6ojezRpuDgGZDJS5pb.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
       }
     ],
     "优酷": [
@@ -871,20 +857,6 @@
         "genreTitle": ""
       },
       {
-        "id": 325363,
-        "type": "tmdb",
-        "title": "短剧X家族",
-        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.3691,
-        "releaseDate": "2026-05-29",
-        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
-        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 280060,
         "type": "tmdb",
         "title": "她的房间",
@@ -909,6 +881,20 @@
         "releaseDate": "2026-07-04",
         "posterPath": "/fIWQfjXB9xDl8I5xqHBaGeCqxO7.jpg",
         "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325363,
+        "type": "tmdb",
+        "title": "短剧X家族",
+        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.3691,
+        "releaseDate": "2026-05-29",
+        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
+        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1135,7 +1121,7 @@
         "voteCount": 7,
         "popularity": 38.8198,
         "releaseDate": "2018-08-26",
-        "posterPath": "/5rFY9y60evb8qdJdoEYeIgQkIwQ.jpg",
+        "posterPath": "/qFplFFQy6zMMplHItcrMAtBEseO.jpg",
         "backdropPath": "/eoky4vypEBIWCoY3lMLvEOShVLy.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
