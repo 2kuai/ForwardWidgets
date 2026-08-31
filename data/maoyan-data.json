@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T20:01:54.289+08:00",
+  "last_updated": "2026-09-01T06:07:58.603+08:00",
   "tv": {
     "全网": [
       {
@@ -7,7 +7,7 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 6.125,
+        "rating": 6.1,
         "voteCount": 4,
         "popularity": 126.6936,
         "releaseDate": "2026-08-26",
@@ -45,20 +45,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 331830,
-        "type": "tmdb",
-        "title": "我们的少年时代2",
-        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 7.6511,
-        "releaseDate": "2026-08-16",
-        "posterPath": "/3n86ul8K0ix6b5QRHK8ccKJmGf3.jpg",
-        "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 280133,
         "type": "tmdb",
         "title": "藏锋",
@@ -71,6 +57,20 @@
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 331830,
+        "type": "tmdb",
+        "title": "我们的少年时代2",
+        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 7.6511,
+        "releaseDate": "2026-08-16",
+        "posterPath": "/3n86ul8K0ix6b5QRHK8ccKJmGf3.jpg",
+        "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 291856,
@@ -115,20 +115,6 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8.5,
-        "voteCount": 6,
-        "popularity": 18.6338,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286322,
         "type": "tmdb",
         "title": "囧徒之预演告别",
@@ -141,6 +127,20 @@
         "backdropPath": "/9rWY63NTKYDipn019ESiUDkQiT5.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,剧情"
+      },
+      {
+        "id": 286506,
+        "type": "tmdb",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8.5,
+        "voteCount": 6,
+        "popularity": 18.6338,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -149,7 +149,7 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 6.125,
+        "rating": 6.1,
         "voteCount": 4,
         "popularity": 126.6936,
         "releaseDate": "2026-08-26",
@@ -197,6 +197,20 @@
         "releaseDate": "2026-07-20",
         "posterPath": "/3NhX4lIMbZOW745eipB4wp4KA36.jpg",
         "backdropPath": "/eb5ADhdXInI7p6vScNOGaVhl3PB.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 7.6,
+        "voteCount": 9,
+        "popularity": 9.6675,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
+        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -257,20 +271,6 @@
         "genreTitle": "剧情,悬疑"
       },
       {
-        "id": 289271,
-        "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 7.6,
-        "voteCount": 9,
-        "popularity": 9.6675,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
-        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 276239,
         "type": "tmdb",
         "title": "非份之罪",
@@ -329,20 +329,6 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
-        "id": 285250,
-        "type": "tmdb",
-        "title": "蝉",
-        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 7.2516,
-        "releaseDate": "2026-08-20",
-        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
-        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 289139,
         "type": "tmdb",
         "title": "这一秒过火",
@@ -357,16 +343,30 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295558,
+        "id": 285250,
         "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 8.333,
-        "voteCount": 6,
-        "popularity": 11.8936,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "title": "蝉",
+        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 7.2516,
+        "releaseDate": "2026-08-20",
+        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
+        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 4.3105,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -381,20 +381,6 @@
         "releaseDate": "2026-08-02",
         "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
         "backdropPath": "/ZiVWUV475nFPZSGO8BbIWxEVGq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 4.3105,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -423,6 +409,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
         "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295558,
+        "type": "tmdb",
+        "title": "雀骨",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
+        "rating": 8.333,
+        "voteCount": 6,
+        "popularity": 11.8936,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -471,20 +471,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 286506,
-        "type": "tmdb",
-        "title": "百花杀",
-        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-        "rating": 8.5,
-        "voteCount": 6,
-        "popularity": 18.6338,
-        "releaseDate": "2026-07-09",
-        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286322,
         "type": "tmdb",
         "title": "囧徒之预演告别",
@@ -499,18 +485,18 @@
         "genreTitle": "喜剧,剧情"
       },
       {
-        "id": 285250,
+        "id": 286506,
         "type": "tmdb",
-        "title": "蝉",
-        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 7.2516,
-        "releaseDate": "2026-08-20",
-        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
-        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
+        "title": "百花杀",
+        "description": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+        "rating": 8.5,
+        "voteCount": 6,
+        "popularity": 18.6338,
+        "releaseDate": "2026-07-09",
+        "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+        "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
         "mediaType": "tv",
-        "genreTitle": "悬疑"
+        "genreTitle": "剧情"
       },
       {
         "id": 289139,
@@ -527,6 +513,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 285250,
+        "type": "tmdb",
+        "title": "蝉",
+        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 7.2516,
+        "releaseDate": "2026-08-20",
+        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
+        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
+      },
+      {
         "id": 318903,
         "type": "tmdb",
         "title": "盲盒",
@@ -541,20 +541,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 332255,
-        "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 5.8306,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
-      },
-      {
         "id": 273119,
         "type": "tmdb",
         "title": "人鱼",
@@ -567,6 +553,20 @@
         "backdropPath": "/5sRWeNwujN5d7Zm6pv8PShcwoND.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑,剧情"
+      },
+      {
+        "id": 330440,
+        "type": "tmdb",
+        "title": "夜语记",
+        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.4312,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
+        "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -613,20 +613,6 @@
         "genreTitle": "动作冒险"
       },
       {
-        "id": 291392,
-        "type": "tmdb",
-        "title": "野狗骨头",
-        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8.8,
-        "voteCount": 6,
-        "popularity": 11.5988,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
-        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 287641,
         "type": "tmdb",
         "title": "耀眼",
@@ -637,6 +623,20 @@
         "releaseDate": "2026-05-27",
         "posterPath": "/e7osuQuioysDT7j0XnnHwvI87aY.jpg",
         "backdropPath": "/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 291392,
+        "type": "tmdb",
+        "title": "野狗骨头",
+        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
+        "rating": 8.8,
+        "voteCount": 6,
+        "popularity": 11.5988,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
+        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -715,20 +715,6 @@
   "show": {
     "全网": [
       {
-        "id": 296202,
-        "type": "tmdb",
-        "title": "地球超新鲜",
-        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
-        "rating": 8.833,
-        "voteCount": 6,
-        "popularity": 30.883,
-        "releaseDate": "2025-07-27",
-        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
-        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 331649,
         "type": "tmdb",
         "title": "大哥小助理",
@@ -739,6 +725,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
         "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 296202,
+        "type": "tmdb",
+        "title": "地球超新鲜",
+        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
+        "rating": 8.833,
+        "voteCount": 6,
+        "popularity": 30.883,
+        "releaseDate": "2025-07-27",
+        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
+        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -813,6 +813,20 @@
         "genreTitle": "真人秀,脱口秀,喜剧"
       },
       {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 35.5299,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 219934,
         "type": "tmdb",
         "title": "种地吧",
@@ -885,20 +899,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 332566,
-        "type": "tmdb",
-        "title": "天籁与少年",
-        "description": "《天籁与少年》是由河南卫视、中国移动咪咕音乐、北京和示文化传媒有限公司联合出品的民族文化音乐综艺。节目主要嘉宾为天籁发起人常思思，成长记录官刘雨霖，少年伙伴张天启，少年守护人阿云嘎与刘宇、陈鸿宇，少年召集人黄子弘凡，助演嘉宾丁真珍珠等。节目于2026年7月4日起，每周六19:35在河南卫视、大象新闻客户端、咪咕音乐、咪咕视频、优酷网等全网播出，于2026年8月22日完结，节目共8期。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.8295,
-        "releaseDate": "2026-07-04",
-        "posterPath": "/fIWQfjXB9xDl8I5xqHBaGeCqxO7.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325363,
         "type": "tmdb",
         "title": "短剧X家族",
@@ -909,6 +909,20 @@
         "releaseDate": "2026-05-29",
         "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
         "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 332566,
+        "type": "tmdb",
+        "title": "天籁与少年",
+        "description": "《天籁与少年》是由河南卫视、中国移动咪咕音乐、北京和示文化传媒有限公司联合出品的民族文化音乐综艺。节目主要嘉宾为天籁发起人常思思，成长记录官刘雨霖，少年伙伴张天启，少年守护人阿云嘎与刘宇、陈鸿宇，少年召集人黄子弘凡，助演嘉宾丁真珍珠等。节目于2026年7月4日起，每周六19:35在河南卫视、大象新闻客户端、咪咕音乐、咪咕视频、优酷网等全网播出，于2026年8月22日完结，节目共8期。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.8295,
+        "releaseDate": "2026-07-04",
+        "posterPath": "/fIWQfjXB9xDl8I5xqHBaGeCqxO7.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1127,6 +1141,20 @@
         "genreTitle": "脱口秀,喜剧"
       },
       {
+        "id": 154420,
+        "type": "tmdb",
+        "title": "半熟恋人",
+        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
+        "rating": 5.167,
+        "voteCount": 3,
+        "popularity": 17.7659,
+        "releaseDate": "2021-12-28",
+        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
+        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 330926,
         "type": "tmdb",
         "title": "一路向海的少年",
@@ -1151,20 +1179,6 @@
         "releaseDate": "2022-06-03",
         "posterPath": "/64xFi1olZzxBFFX93fIVGa6tU7h.jpg",
         "backdropPath": "/wJygv7NrIH30GVhG14r5A9WwwxV.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 154420,
-        "type": "tmdb",
-        "title": "半熟恋人",
-        "description": "该节目是一档轻熟龄恋爱观察真人秀。一群都市轻熟龄男女，历经一场棋逢对手的恋爱，冲破试探与体面、理智与克制，以更成熟与纯粹的姿态面对人生半途之爱；同时，拥有不同阅历的艺人，将分享和表达他们在生活/情感/婚姻/成长中的故事和思考，共同探讨爱的模样。",
-        "rating": 5.167,
-        "voteCount": 3,
-        "popularity": 17.7659,
-        "releaseDate": "2021-12-28",
-        "posterPath": "/ghkFZxjGlst1TVjG6agyzc04r2H.jpg",
-        "backdropPath": "/rITPIqSKz4UbV7nPD7mV30VqwbX.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1227,30 +1241,30 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 331587,
+        "id": 330052,
         "type": "tmdb",
-        "title": "伦敦合伙人",
-        "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.3002,
-        "releaseDate": "2026-08-08",
-        "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
+        "popularity": 0.9455,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
       {
-        "id": 331569,
+        "id": 332570,
         "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+        "title": "耀眼一夏",
+        "description": "《耀眼一夏》是电视剧《耀眼》售后的毕业角色番综，由关晓彤、李昀锐、毛俊杰、边天扬、王翰闻、高秋梓原班主演齐聚录制。扎扎亭的老朋友们陆续回来，大家一起笑闹，一起为那场筹备已久的毕业联欢晚会亮灯开场。两天一夜，从二人的精心准备到众人相聚--这场迟来的重聚，终于让那个夏天有了最耀眼的收尾。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.7867,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "popularity": 1.6887,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/2cG8Ueiih1ZRWZkuKjIQdgBE5rg.jpg",
+        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1265,20 +1279,6 @@
         "releaseDate": "2019-10-05",
         "posterPath": "/jej7FfIvWZyLSMoNbPP3MkEByob.jpg",
         "backdropPath": "/WQSOHT9QFxMMpQ4TAscX3f9IMO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 330052,
-        "type": "tmdb",
-        "title": "家乡美食大赛",
-        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.9455,
-        "releaseDate": "2026-07-26",
-        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
-        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
