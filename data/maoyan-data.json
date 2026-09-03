@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T23:23:47.931+08:00",
+  "last_updated": "2026-09-04T04:14:04.702+08:00",
   "tv": {
     "全网": [
       {
@@ -7,7 +7,7 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 7.25,
+        "rating": 7.2,
         "voteCount": 6,
         "popularity": 195.628,
         "releaseDate": "2026-08-26",
@@ -87,20 +87,6 @@
         "genreTitle": "喜剧,剧情"
       },
       {
-        "id": 286686,
-        "type": "tmdb",
-        "title": "生逢其时",
-        "description": "八十年代初，青梧小镇住着家庭模式完全不同的齐家和曹家。某天两家同时诞下齐时、曹信。身患白化病的齐时，自小就意识到了自己的“与众不同”，于是她喝酱油、戴假发，试图通过这样的方式，成为和普通人一样的存在。另一边的曹信，一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求。当特立独行、勇敢倔强的少女齐时，遇上乖巧听话、优秀自律的少年曹信，两个家庭也在邻里间日积月累的相处中，也因荒唐“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.0097,
-        "releaseDate": "2026-09-03",
-        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
-        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,剧情"
-      },
-      {
         "id": 286988,
         "type": "tmdb",
         "title": "飞到我心上",
@@ -115,20 +101,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 294487,
-        "type": "tmdb",
-        "title": "金色",
-        "description": "三十万两黄金突现大漠，传言寻金之人皆成厉鬼，相互厮杀。横遭灭门的女子孤闯大漠，决心复仇！权欲之争暗涌，一群江湖侠客纷纷卷入这场恩怨情仇，共谱一段新武侠故事。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 7.6595,
-        "releaseDate": "2026-08-25",
-        "posterPath": "/cxRa9PDb9gGyRLSJE1NHJNt5gl9.jpg",
-        "backdropPath": "/xirWeEiatY915u837oq1l2t4oPP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -141,6 +113,34 @@
         "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 286686,
+        "type": "tmdb",
+        "title": "生逢其时",
+        "description": "八十年代初，青梧小镇住着家庭模式完全不同的齐家和曹家。某天两家同时诞下齐时、曹信。身患白化病的齐时，自小就意识到了自己的“与众不同”，于是她喝酱油、戴假发，试图通过这样的方式，成为和普通人一样的存在。另一边的曹信，一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求。当特立独行、勇敢倔强的少女齐时，遇上乖巧听话、优秀自律的少年曹信，两个家庭也在邻里间日积月累的相处中，也因荒唐“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.0097,
+        "releaseDate": "2026-09-03",
+        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
+        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,剧情"
+      },
+      {
+        "id": 294487,
+        "type": "tmdb",
+        "title": "金色",
+        "description": "三十万两黄金突现大漠，传言寻金之人皆成厉鬼，相互厮杀。横遭灭门的女子孤闯大漠，决心复仇！权欲之争暗涌，一群江湖侠客纷纷卷入这场恩怨情仇，共谱一段新武侠故事。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 7.6595,
+        "releaseDate": "2026-08-25",
+        "posterPath": "/cxRa9PDb9gGyRLSJE1NHJNt5gl9.jpg",
+        "backdropPath": "/xirWeEiatY915u837oq1l2t4oPP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -149,7 +149,7 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 7.25,
+        "rating": 7.2,
         "voteCount": 6,
         "popularity": 195.628,
         "releaseDate": "2026-08-26",
@@ -301,20 +301,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 286686,
-        "type": "tmdb",
-        "title": "生逢其时",
-        "description": "八十年代初，青梧小镇住着家庭模式完全不同的齐家和曹家。某天两家同时诞下齐时、曹信。身患白化病的齐时，自小就意识到了自己的“与众不同”，于是她喝酱油、戴假发，试图通过这样的方式，成为和普通人一样的存在。另一边的曹信，一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求。当特立独行、勇敢倔强的少女齐时，遇上乖巧听话、优秀自律的少年曹信，两个家庭也在邻里间日积月累的相处中，也因荒唐“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.0097,
-        "releaseDate": "2026-09-03",
-        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
-        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -327,6 +313,20 @@
         "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 286686,
+        "type": "tmdb",
+        "title": "生逢其时",
+        "description": "八十年代初，青梧小镇住着家庭模式完全不同的齐家和曹家。某天两家同时诞下齐时、曹信。身患白化病的齐时，自小就意识到了自己的“与众不同”，于是她喝酱油、戴假发，试图通过这样的方式，成为和普通人一样的存在。另一边的曹信，一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求。当特立独行、勇敢倔强的少女齐时，遇上乖巧听话、优秀自律的少年曹信，两个家庭也在邻里间日积月累的相处中，也因荒唐“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.0097,
+        "releaseDate": "2026-09-03",
+        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
+        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,剧情"
       },
       {
         "id": 272938,
@@ -399,20 +399,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 289116,
-        "type": "tmdb",
-        "title": "天才，女友",
-        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
-        "rating": 8.4,
-        "voteCount": 4,
-        "popularity": 23.3769,
-        "releaseDate": "2026-08-02",
-        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
-        "backdropPath": "/ZiVWUV475nFPZSGO8BbIWxEVGq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 278605,
         "type": "tmdb",
         "title": "南部档案",
@@ -425,6 +411,20 @@
         "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
         "mediaType": "tv",
         "genreTitle": "动作冒险,悬疑"
+      },
+      {
+        "id": 331662,
+        "type": "tmdb",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.4891,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "腾讯视频": [
@@ -527,20 +527,6 @@
         "genreTitle": "悬疑"
       },
       {
-        "id": 283780,
-        "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 3.9775,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 330440,
         "type": "tmdb",
         "title": "夜语记",
@@ -555,18 +541,32 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 332255,
+        "id": 318903,
         "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "title": "盲盒",
+        "description": "剧集分为六个独立单元（如《无用之人》《影后》《紧急联络人》等），每个单元聚焦不同角色的心理困境，包括产后抑郁、创伤后遗症、家庭暴力等主题。故事中的人物因同一场交通拥堵产生短暂交集，随后又回归各自的生活困境，最终在自我救赎中寻找出口。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 5.3796,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "popularity": 2.2316,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
+        "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
         "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 3.9775,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -613,20 +613,6 @@
         "genreTitle": "动作冒险"
       },
       {
-        "id": 291392,
-        "type": "tmdb",
-        "title": "野狗骨头",
-        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
-        "rating": 8.8,
-        "voteCount": 6,
-        "popularity": 10.6149,
-        "releaseDate": "2026-07-05",
-        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
-        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 287641,
         "type": "tmdb",
         "title": "耀眼",
@@ -641,18 +627,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 214875,
+        "id": 291392,
         "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 21.619,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+        "title": "野狗骨头",
+        "description": "20世纪90年代，陈异和苗靖因父母的相识而结缘。起初陈异对苗靖充满敌意，直到一次受伤后，苗靖的善良让两人关系开始转变。然而好景不长，陈父去世、苗母消失，两家大人并未走到一起，两个孩子却不得不相依为命。来到大学，苗靖勇敢告白，陈异却被卷入纵火案，成为关键证人，为保护苗靖，他逼她离开了藤城，配合警方抓捕嫌犯。多年后，陈异经营着一家台球厅，苗靖则为了好运物流的审计工作回到藤城。两人重逢，陈异因当年纵火案，对好运老板张宾早就心存警惕，试图阻止苗靖前去工作未果。张宾的走私生意逐渐暴露，为保护苗靖，陈异只能以身入局，两人并肩作战，配合警方对抗张宾。最终，张宾及其同伙受到法律制裁。身受重伤的陈异向苗靖告白，两人终成眷属。",
+        "rating": 8.8,
+        "voteCount": 6,
+        "popularity": 10.6149,
+        "releaseDate": "2026-07-05",
+        "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
+        "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
         "mediaType": "tv",
-        "genreTitle": "动画,儿童"
+        "genreTitle": "剧情"
       },
       {
         "id": 295599,
@@ -709,6 +695,20 @@
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 330364,
+        "type": "tmdb",
+        "title": "米良与麦青",
+        "description": "剧情围绕返乡大学生米良与新任村支书麦青展开，讲述两人为建设家乡进行探索和尝试，通过推行“放鹿归山”生态实践、开展“心灵环保”行动、组建“良心督察队”、建设蔬菜大棚等举措，历经重重磨难，最终带领村民实现生态与心灵双环保的故事。该剧以长春市双阳区鹿乡镇的梅花鹿产业为创作题材，取景地双阳区太平镇被打造为“鹿鸣村”影视基地，剧中融入了东北乡村风貌、人才引进、乡村环境整治等元素",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6746,
+        "releaseDate": "2026-07-31",
+        "posterPath": "/jg4ggctGpf3O3xBrYaJwCwxt9ZR.jpg",
+        "backdropPath": "/dULlXXgjiWczum9UqvJJsEFnPH9.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ]
   },
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 32.3433,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -781,6 +767,20 @@
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 32.3433,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -899,6 +899,20 @@
         "genreTitle": ""
       },
       {
+        "id": 332566,
+        "type": "tmdb",
+        "title": "天籁与少年",
+        "description": "《天籁与少年》是由河南卫视、中国移动咪咕音乐、北京和示文化传媒有限公司联合出品的民族文化音乐综艺。节目主要嘉宾为天籁发起人常思思，成长记录官刘雨霖，少年伙伴张天启，少年守护人阿云嘎与刘宇、陈鸿宇，少年召集人黄子弘凡，助演嘉宾丁真珍珠等。节目于2026年7月4日起，每周六19:35在河南卫视、大象新闻客户端、咪咕音乐、咪咕视频、优酷网等全网播出，于2026年8月22日完结，节目共8期。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.6366,
+        "releaseDate": "2026-07-04",
+        "posterPath": "/fIWQfjXB9xDl8I5xqHBaGeCqxO7.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 325363,
         "type": "tmdb",
         "title": "短剧X家族",
@@ -913,15 +927,15 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 332566,
+        "id": 329869,
         "type": "tmdb",
-        "title": "天籁与少年",
-        "description": "《天籁与少年》是由河南卫视、中国移动咪咕音乐、北京和示文化传媒有限公司联合出品的民族文化音乐综艺。节目主要嘉宾为天籁发起人常思思，成长记录官刘雨霖，少年伙伴张天启，少年守护人阿云嘎与刘宇、陈鸿宇，少年召集人黄子弘凡，助演嘉宾丁真珍珠等。节目于2026年7月4日起，每周六19:35在河南卫视、大象新闻客户端、咪咕音乐、咪咕视频、优酷网等全网播出，于2026年8月22日完结，节目共8期。",
+        "title": "开始奏乐开始舞",
+        "description": "三位因“歌”结缘的乐坛打工人余佳运、周震南、张星特，一键开启人生“事业模式”，在节目中建立“奏乐舞音乐公司”，联合每期的宝藏飞行嘉宾，一起打造不比赛、没压力、单纯因“想要一首爆款”而相聚的周末事业局，为华语乐坛注入新鲜血液！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.6366,
-        "releaseDate": "2026-07-04",
-        "posterPath": "/fIWQfjXB9xDl8I5xqHBaGeCqxO7.jpg",
+        "popularity": 1.6075,
+        "releaseDate": "2026-07-25",
+        "posterPath": "/rl9OOCqv1JO5OW3esKZxXqfXrGH.jpg",
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
@@ -937,20 +951,6 @@
         "releaseDate": "2022-12-17",
         "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
         "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 329869,
-        "type": "tmdb",
-        "title": "开始奏乐开始舞",
-        "description": "三位因“歌”结缘的乐坛打工人余佳运、周震南、张星特，一键开启人生“事业模式”，在节目中建立“奏乐舞音乐公司”，联合每期的宝藏飞行嘉宾，一起打造不比赛、没压力、单纯因“想要一首爆款”而相聚的周末事业局，为华语乐坛注入新鲜血液！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.6075,
-        "releaseDate": "2026-07-25",
-        "posterPath": "/rl9OOCqv1JO5OW3esKZxXqfXrGH.jpg",
-        "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -1255,30 +1255,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 330354,
+        "id": 332570,
         "type": "tmdb",
-        "title": "心动双重奏",
-        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
+        "title": "耀眼一夏",
+        "description": "《耀眼一夏》是电视剧《耀眼》售后的毕业角色番综，由关晓彤、李昀锐、毛俊杰、边天扬、王翰闻、高秋梓原班主演齐聚录制。扎扎亭的老朋友们陆续回来，大家一起笑闹，一起为那场筹备已久的毕业联欢晚会亮灯开场。两天一夜，从二人的精心准备到众人相聚--这场迟来的重聚，终于让那个夏天有了最耀眼的收尾。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 2.4567,
-        "releaseDate": "2026-07-30",
-        "posterPath": "",
+        "popularity": 2.0378,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/2cG8Ueiih1ZRWZkuKjIQdgBE5rg.jpg",
         "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
-        "id": 331569,
-        "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.2865,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
