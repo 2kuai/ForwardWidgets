@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T18:05:36.649+08:00",
+  "last_updated": "2026-09-04T23:20:05.910+08:00",
   "tv": {
     "全网": [
       {
@@ -7,8 +7,8 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 7.2,
-        "voteCount": 6,
+        "rating": 7.6,
+        "voteCount": 7,
         "popularity": 181.0528,
         "releaseDate": "2026-08-26",
         "posterPath": "/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
@@ -87,20 +87,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 15.6247,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 286322,
         "type": "tmdb",
         "title": "囧徒之预演告别",
@@ -115,16 +101,16 @@
         "genreTitle": "喜剧,剧情"
       },
       {
-        "id": 291856,
+        "id": 289761,
         "type": "tmdb",
-        "title": "重器",
-        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 12.1246,
-        "releaseDate": "2026-08-10",
-        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
-        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "title": "醒来",
+        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 15.6247,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
+        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -141,6 +127,20 @@
         "backdropPath": "/xirWeEiatY915u837oq1l2t4oPP.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 291856,
+        "type": "tmdb",
+        "title": "重器",
+        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 12.1246,
+        "releaseDate": "2026-08-10",
+        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
+        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ],
     "优酷": [
@@ -149,8 +149,8 @@
         "type": "tmdb",
         "title": "早春晴朗",
         "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 7.2,
-        "voteCount": 6,
+        "rating": 7.6,
+        "voteCount": 7,
         "popularity": 181.0528,
         "releaseDate": "2026-08-26",
         "posterPath": "/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
@@ -257,20 +257,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 276567,
-        "type": "tmdb",
-        "title": "夫妻的博弈",
-        "description": "罹患癌症的广告公司高层姜幸如（高海宁 饰），无意中撞破丈夫施继威（张颖康 饰）与自己唯一的闺蜜潘雪文（郭柏妍 饰）的奸情，惨遭两人狠下毒手。命悬一线之际，她奇迹般“死而复生”，重生回到五年前。\n\n获得重生的幸如决定为自己而活。她继续任职广告公司高层，凭借从“未来”带回来的预知能力，以及自身过硬的实力，在职场上如鱼得水。她换上亮丽外型，带领女同事组成“粉红兵团”，让众人释放被埋没已久的才华，创作出一个又一个打动人心的广告。幸如率领粉红兵团与公司内的“渣男s”博弈，勇敢冲破职场中的性别偏见，在竞争激烈的商业世界中为自己和姐妹们改写命运，成为自己的英雄。与此同时，她与广告界精英叶家谦（马国明 饰）因命运交错而相遇，二人携手面对重重难关，谱写了一段充满治愈力量的感情故事。",
-        "rating": 8,
-        "voteCount": 1,
-        "popularity": 9.2462,
-        "releaseDate": "2026-07-10",
-        "posterPath": "/bwiGIDkZ6K8vbRcskAEcK1iWIC0.jpg",
-        "backdropPath": "/50dUu8oWbHScC2fSlM9z8eIX6n8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 276239,
         "type": "tmdb",
         "title": "非份之罪",
@@ -283,6 +269,20 @@
         "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
+      },
+      {
+        "id": 254486,
+        "type": "tmdb",
+        "title": "雨霖铃",
+        "description": "北宋仁宗年间，襄阳王暗中勾结各方势力意欲谋反。御前四品带刀护卫展昭（杨洋 饰）为追查故友留下的襄阳王谋反悬案线索，孤身前往襄州。途中他意外卷入纷争，结识了闯荡江湖的霍玲珑（章若楠 饰），并一起救下苌弘璧。展昭自知在劫难逃，将证据托付给霍玲珑后，以身为饵牵制敌人，力竭被俘。危急关头，幸得锦毛鼠白玉堂（方逸伦 饰）相救，展昭才得以脱身。\n\n面对襄阳王及其四大神君的步步紧逼，背负污名的展昭与霍玲珑、白玉堂联手追查线索，撕破襄阳王多年来编织的遍布朝野和江湖的势力网。三人最终掌握襄阳王勾结黑白两道、鱼肉百姓、通敌叛国的罪证，挫败其阴谋，还江湖与百姓一片安宁。",
+        "rating": 7.2,
+        "voteCount": 10,
+        "popularity": 7.9621,
+        "releaseDate": "2026-05-13",
+        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
+        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,悬疑"
       }
     ],
     "爱奇艺": [
@@ -513,20 +513,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 285250,
-        "type": "tmdb",
-        "title": "蝉",
-        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 6.6474,
-        "releaseDate": "2026-08-20",
-        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
-        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 332255,
         "type": "tmdb",
         "title": "法医秦明之蚀骨时差",
@@ -539,6 +525,20 @@
         "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
         "mediaType": "tv",
         "genreTitle": "科幻奇幻,悬疑"
+      },
+      {
+        "id": 285250,
+        "type": "tmdb",
+        "title": "蝉",
+        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 6.6474,
+        "releaseDate": "2026-08-20",
+        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
+        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
       },
       {
         "id": 330440,
@@ -555,16 +555,16 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 318903,
+        "id": 283780,
         "type": "tmdb",
-        "title": "盲盒",
-        "description": "剧集分为六个独立单元（如《无用之人》《影后》《紧急联络人》等），每个单元聚焦不同角色的心理困境，包括产后抑郁、创伤后遗症、家庭暴力等主题。故事中的人物因同一场交通拥堵产生短暂交集，随后又回归各自的生活困境，最终在自我救赎中寻找出口。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.1159,
-        "releaseDate": "2026-08-04",
-        "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
-        "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 3.9993,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -729,20 +729,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 331649,
-        "type": "tmdb",
-        "title": "大哥小助理",
-        "description": "两位50+娱乐圈前辈组成“经纪团” ，每期为一位具有代表性的年轻后辈艺人担任“一日经纪人”全面负责艺人一天的行程安排与服务，从接送机、行程对接、妆发准备到工作陪伴、突发危机处理。两位经纪人需动用自己的人生智慧和圈内经验，为服务艺人保驾护航。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.0499,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
-        "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 297509,
         "type": "tmdb",
         "title": "食神·百厨大战",
@@ -757,6 +743,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 331649,
+        "type": "tmdb",
+        "title": "大哥小助理",
+        "description": "两位50+娱乐圈前辈组成“经纪团” ，每期为一位具有代表性的年轻后辈艺人担任“一日经纪人”全面负责艺人一天的行程安排与服务，从接送机、行程对接、妆发准备到工作陪伴、突发危机处理。两位经纪人需动用自己的人生智慧和圈内经验，为服务艺人保驾护航。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.0499,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/bvWiTB9nHv2745RJepx4jfuhkjM.jpg",
+        "backdropPath": "/lNAnwytYKugxKWZosYmXvcrV4iU.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -767,20 +767,6 @@
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 33.0888,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -985,20 +971,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 27.479,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -1009,6 +981,20 @@
         "releaseDate": "2019-04-11",
         "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
         "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 27.479,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1213,20 +1199,6 @@
     ],
     "芒果TV": [
       {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 33.0888,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 331569,
         "type": "tmdb",
         "title": "不想睡的星期五",
@@ -1237,6 +1209,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
         "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 33.0888,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1255,18 +1241,18 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 330354,
+        "id": 332570,
         "type": "tmdb",
-        "title": "心动双重奏",
-        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
+        "title": "耀眼一夏",
+        "description": "《耀眼一夏》是电视剧《耀眼》售后的毕业角色番综，由关晓彤、李昀锐、毛俊杰、边天扬、王翰闻、高秋梓原班主演齐聚录制。扎扎亭的老朋友们陆续回来，大家一起笑闹，一起为那场筹备已久的毕业联欢晚会亮灯开场。两天一夜，从二人的精心准备到众人相聚--这场迟来的重聚，终于让那个夏天有了最耀眼的收尾。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.9527,
-        "releaseDate": "2026-07-30",
-        "posterPath": "",
+        "popularity": 2.1586,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/2cG8Ueiih1ZRWZkuKjIQdgBE5rg.jpg",
         "backdropPath": "",
         "mediaType": "tv",
-        "genreTitle": ""
+        "genreTitle": "真人秀"
       }
     ]
   }
