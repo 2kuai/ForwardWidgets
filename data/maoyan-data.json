@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-09-05T22:08:08.980+08:00",
+  "last_updated": "2026-09-06T03:39:36.396+08:00",
   "tv": {
     "全网": [
-      {
-        "id": 299952,
-        "type": "tmdb",
-        "title": "早春晴朗",
-        "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 168.6704,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
-        "backdropPath": "/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 286686,
         "type": "tmdb",
@@ -29,6 +15,20 @@
         "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
         "mediaType": "tv",
         "genreTitle": "家庭,剧情"
+      },
+      {
+        "id": 299952,
+        "type": "tmdb",
+        "title": "早春晴朗",
+        "description": "这是一段十年交锋，敬于才华，合于性格、久于平等的禁忌之恋。北漂伊始的尚之桃与极具天赋的“鬼才”栾念狭路相逢。热烈勇敢的尚之桃亦步亦趋地蜕变成长，撬碎了栾念世故坚硬的心防，互相吸引的二人在都市丛林中极限拉扯、分分合合。爱情，就是用光所有勇气，再无遗憾。爱，则是互相修复，共同成长。但情和爱之间，她选择生存。当她独当一面，他收敛锋芒，势均力敌的他们将会为彼此写下了新的结局……",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 168.6704,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
+        "backdropPath": "/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 287496,
@@ -67,7 +67,7 @@
         "voteCount": 2,
         "popularity": 6.7076,
         "releaseDate": "2026-08-17",
-        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
+        "posterPath": "/1zJJLQ2YM2ridNtXFZOnZa50LjC.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -87,20 +87,6 @@
         "genreTitle": "喜剧,剧情"
       },
       {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 14.9367,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 294487,
         "type": "tmdb",
         "title": "金色",
@@ -115,18 +101,32 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291856,
+        "id": 289761,
         "type": "tmdb",
-        "title": "重器",
-        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 10.5874,
-        "releaseDate": "2026-08-10",
-        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
-        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "title": "醒来",
+        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 14.9367,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
+        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 332255,
+        "type": "tmdb",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.8929,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "科幻奇幻,悬疑"
       },
       {
         "id": 331830,
@@ -201,20 +201,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 289271,
-        "type": "tmdb",
-        "title": "翘楚",
-        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
-        "rating": 7.6,
-        "voteCount": 9,
-        "popularity": 10.0599,
-        "releaseDate": "2026-06-02",
-        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
-        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 251600,
         "type": "tmdb",
         "title": "千香",
@@ -225,6 +211,20 @@
         "releaseDate": "2026-06-27",
         "posterPath": "/Cdnzjeu1pZ1ljF3ZtGV0a33Qq3.jpg",
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289271,
+        "type": "tmdb",
+        "title": "翘楚",
+        "description": "将军之女楚朝为改变自己成为楚国世子萧珣夺权路上牺牲品的可悲命运，发现主动出击才是改变命运的唯一途径。在与命运一波三折的对抗中，她与谢家庶子谢燕来相识，并点亮了谢燕来原本灰暗阴鹜的人生，助谢燕来挣脱命运枷锁，从禁军小卒一步步成长为镇国大将军，楚朝与谢燕来合力成功阻止了萧珣的野心和计划。在本该逃离是非之地的途中，见到战火中百姓的苦难，楚朝毅然决然返回城内，助力小皇孙萧羽为帝，直至萧羽亲政。然而萧珣又引外敌来犯，为权欲不惜陷万民于水火。楚朝携手谢燕来与之殊死抵抗，领军浴血奋战，终于成功解除大楚内忧外患。至此，楚朝不仅改变了自己的命运，也让大楚千千万万百姓摆脱了战火离乱的颠沛命运。",
+        "rating": 7.6,
+        "voteCount": 9,
+        "popularity": 10.0599,
+        "releaseDate": "2026-06-02",
+        "posterPath": "/vcU56Dw1aKxTTlhrVr0qvPnljDV.jpg",
+        "backdropPath": "/6CgpC5cS8jvkXgkI0pRoj31nHf6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -315,20 +315,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 291856,
-        "type": "tmdb",
-        "title": "重器",
-        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
-        "rating": 8,
-        "voteCount": 3,
-        "popularity": 10.5874,
-        "releaseDate": "2026-08-10",
-        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
-        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 272938,
         "type": "tmdb",
         "title": "师兄太稳健",
@@ -341,6 +327,20 @@
         "backdropPath": "/8zsKL8gDjv7NI7HHk4POIBMl2jE.jpg",
         "mediaType": "tv",
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
+      },
+      {
+        "id": 291856,
+        "type": "tmdb",
+        "title": "重器",
+        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 10.5874,
+        "releaseDate": "2026-08-10",
+        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
+        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 289139,
@@ -367,6 +367,20 @@
         "releaseDate": "2026-07-11",
         "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
         "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289116,
+        "type": "tmdb",
+        "title": "天才，女友",
+        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
+        "rating": 8.4,
+        "voteCount": 4,
+        "popularity": 23.1478,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
+        "backdropPath": "/ZiVWUV475nFPZSGO8BbIWxEVGq.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -399,32 +413,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 289116,
+        "id": 331662,
         "type": "tmdb",
-        "title": "天才，女友",
-        "description": "天才少女林知夏性格直接、不善交际，从小没有好友。考入省一中后，她因解题比拼与性格阳光的学霸江逾白相识并成为同桌。作为社交达人的江逾白帮林知夏融入集体交到汤婷婷、段启言、沈负暄、金百慧等朋友，林知夏为表达感谢帮他补习功课，两人渐渐从竞争走向互助，最终成为最好的朋友。俩人还一同解决同学被骗、一起参加社团活动与省数学竞赛，在这个过程中，江逾白对林知夏感情渐生，但只把爱意埋在心里。林知夏被保送复旦后，江逾白准备在毕业之旅对她告白，却因母亲卷入诈骗案而遗憾离开，俩人最终能否冲破阻碍走到一起？",
-        "rating": 8.4,
-        "voteCount": 4,
-        "popularity": 23.1478,
-        "releaseDate": "2026-08-02",
-        "posterPath": "/z1FtSOVSWow6n1Jj8jdtn8rfm4L.jpg",
-        "backdropPath": "/ZiVWUV475nFPZSGO8BbIWxEVGq.jpg",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 5.2851,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
-      },
-      {
-        "id": 278605,
-        "type": "tmdb",
-        "title": "南部档案",
-        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
-        "rating": 6.625,
-        "voteCount": 8,
-        "popularity": 10.8113,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
-        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动作冒险,悬疑"
       }
     ],
     "腾讯视频": [
@@ -451,7 +451,7 @@
         "voteCount": 2,
         "popularity": 6.7076,
         "releaseDate": "2026-08-17",
-        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
+        "posterPath": "/1zJJLQ2YM2ridNtXFZOnZa50LjC.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -485,6 +485,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 332255,
+        "type": "tmdb",
+        "title": "法医秦明之蚀骨时差",
+        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.8929,
+        "releaseDate": "2026-08-21",
+        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
+        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "科幻奇幻,悬疑"
+      },
+      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
@@ -495,6 +509,20 @@
         "releaseDate": "2026-07-09",
         "posterPath": "/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
         "backdropPath": "/oSUWFmPPQkEFUDhLWPJcNumIWll.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 330440,
+        "type": "tmdb",
+        "title": "夜语记",
+        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.0593,
+        "releaseDate": "2026-08-02",
+        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
+        "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -513,18 +541,18 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 332255,
+        "id": 282497,
         "type": "tmdb",
-        "title": "法医秦明之蚀骨时差",
-        "description": "法医秦明通过玩具对讲机意外与三十年前的父亲秦天取得联系，两代警察跨越时空联手追查真相。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.8929,
-        "releaseDate": "2026-08-21",
-        "posterPath": "/ymNnfFxNcYDJpgRT2mSGw0pc6f6.jpg",
-        "backdropPath": "/95sQrTcRXUQZ2jodTV0zUKaF42y.jpg",
+        "title": "迷墙",
+        "description": "倒霉透顶的小夫妻，盲打误撞住进了一幢大别墅，意外发现了一笔藏匿其中的巨款，风波袭来，让他们分不清，这到底是噩梦还是美梦。",
+        "rating": 6.3,
+        "voteCount": 3,
+        "popularity": 4.7385,
+        "releaseDate": "2026-06-07",
+        "posterPath": "/2pr8GOqHsY4w3gvBzviLeOxbZxa.jpg",
+        "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
         "mediaType": "tv",
-        "genreTitle": "科幻奇幻,悬疑"
+        "genreTitle": "犯罪"
       },
       {
         "id": 285250,
@@ -539,34 +567,6 @@
         "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
-      },
-      {
-        "id": 330440,
-        "type": "tmdb",
-        "title": "夜语记",
-        "description": "出身贫寒的酿酒师叶小唯遭遇爱人程桉、恩师林晚媚的双重背叛。她从恨意中涅槃重生，借私生女桑落的身份入住程家。她步步为营，周旋在各怀心思的豪门众人间，引猎物上钩。叶小唯的人生始于22岁的盛夏，终于22岁的寒冬。踏过荆棘，玫瑰终将滴血盛开。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.0593,
-        "releaseDate": "2026-08-02",
-        "posterPath": "/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-        "backdropPath": "/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 318903,
-        "type": "tmdb",
-        "title": "盲盒",
-        "description": "剧集分为六个独立单元（如《无用之人》《影后》《紧急联络人》等），每个单元聚焦不同角色的心理困境，包括产后抑郁、创伤后遗症、家庭暴力等主题。故事中的人物因同一场交通拥堵产生短暂交集，随后又回归各自的生活困境，最终在自我救赎中寻找出口。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.0119,
-        "releaseDate": "2026-08-04",
-        "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
-        "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -641,20 +641,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 214875,
-        "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 21.0638,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -665,6 +651,20 @@
         "releaseDate": "2026-06-16",
         "posterPath": "/k3BdjZWuw2TFOsYzFeb46M7FgNh.jpg",
         "backdropPath": "/h1bGO8w5hyn22DGNv0MOZKTog1X.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 295599,
+        "type": "tmdb",
+        "title": "御廷谣",
+        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
+        "rating": 7.8,
+        "voteCount": 5,
+        "popularity": 12.3052,
+        "releaseDate": "2026-07-28",
+        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
+        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -683,20 +683,6 @@
         "genreTitle": "剧情,战争政治"
       },
       {
-        "id": 295599,
-        "type": "tmdb",
-        "title": "御廷谣",
-        "description": "立志凭科举入仕、改写底层命运的孤女孟廷辉因意外结识微服私访的少年新帝英寡，二人联手铲除沙州官匪，英寡赏识其胆识智谋，暗中助力她赴京赶考。孟廷辉入京后遭科举舞弊构陷，凭智勇自证清白，被英寡破格任命为察闻院主事，清查虎啸帮、晚香阁等黑恶势力，逐步牵出血月会复国阴谋与朝堂权斗。二人从君臣知己渐生情愫，历经身世谜团、朝堂阻力与边境战乱，最终平定叛乱、整肃朝纲，携手共护江山万民。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 12.3052,
-        "releaseDate": "2026-07-28",
-        "posterPath": "/v8Giwuf0l0XKoD29kWb9RSxiYku.jpg",
-        "backdropPath": "/qKGSZaLLbfCaoTbE88oOwdAsTm8.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 283961,
         "type": "tmdb",
         "title": "你是迟来的欢喜",
@@ -707,6 +693,20 @@
         "releaseDate": "2026-03-26",
         "posterPath": "/yWD7slh3uKb9LZNKokSo84zD7xa.jpg",
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 330364,
+        "type": "tmdb",
+        "title": "米良与麦青",
+        "description": "剧情围绕返乡大学生米良与新任村支书麦青展开，讲述两人为建设家乡进行探索和尝试，通过推行“放鹿归山”生态实践、开展“心灵环保”行动、组建“良心督察队”、建设蔬菜大棚等举措，历经重重磨难，最终带领村民实现生态与心灵双环保的故事。该剧以长春市双阳区鹿乡镇的梅花鹿产业为创作题材，取景地双阳区太平镇被打造为“鹿鸣村”影视基地，剧中融入了东北乡村风貌、人才引进、乡村环境整治等元素",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.508,
+        "releaseDate": "2026-07-31",
+        "posterPath": "/jg4ggctGpf3O3xBrYaJwCwxt9ZR.jpg",
+        "backdropPath": "/dULlXXgjiWczum9UqvJJsEFnPH9.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -757,20 +757,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 296202,
-        "type": "tmdb",
-        "title": "地球超新鲜",
-        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
-        "rating": 8.833,
-        "voteCount": 6,
-        "popularity": 19.9456,
-        "releaseDate": "2025-07-27",
-        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
-        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -783,6 +769,34 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 37.3113,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 296202,
+        "type": "tmdb",
+        "title": "地球超新鲜",
+        "description": "会玩爱玩的明星朋友们组成地球体验团，将沿着地球的脉络，探索新鲜的地球切面。用新鲜有趣的旅行方式，探索全世界的同频快乐。",
+        "rating": 8.833,
+        "voteCount": 6,
+        "popularity": 19.9456,
+        "releaseDate": "2025-07-27",
+        "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
+        "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 261471,
@@ -899,20 +913,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 325363,
-        "type": "tmdb",
-        "title": "短剧X家族",
-        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.4063,
-        "releaseDate": "2026-05-29",
-        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
-        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 329869,
         "type": "tmdb",
         "title": "开始奏乐开始舞",
@@ -923,6 +923,20 @@
         "releaseDate": "2026-07-25",
         "posterPath": "/rl9OOCqv1JO5OW3esKZxXqfXrGH.jpg",
         "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325363,
+        "type": "tmdb",
+        "title": "短剧X家族",
+        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.4063,
+        "releaseDate": "2026-05-29",
+        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
+        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -985,6 +999,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 296215,
+        "type": "tmdb",
+        "title": "姐姐当家",
+        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.6761,
+        "releaseDate": "2025-07-26",
+        "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
+        "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -1009,20 +1037,6 @@
         "releaseDate": "2023-02-04",
         "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
         "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 296215,
-        "type": "tmdb",
-        "title": "姐姐当家",
-        "description": "一档聚焦“中女群体”的女性生活观察类真人秀，节目邀请处于不同年龄、情感、事业和个人成长状态下的“中女”，以她们的生活为“中女”样本，去探讨关于情感婚姻、家庭关系、职场社交等深层次的30+女性议题，棚内由倪萍和李维嘉担任主MC，和真人秀嘉宾的亲朋、女性专家、飞行嘉宾以及由素人女性为主的“姐妹们嘴替团”一起，共同组成棚内观察团，以多元丰富的视角，共同探讨女性话题。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 4.6761,
-        "releaseDate": "2025-07-26",
-        "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
-        "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1213,20 +1227,6 @@
     ],
     "芒果TV": [
       {
-        "id": 331569,
-        "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.2538,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 89861,
         "type": "tmdb",
         "title": "密室大逃脱",
@@ -1255,44 +1255,30 @@
         "genreTitle": "家庭"
       },
       {
-        "id": 331587,
+        "id": 331569,
         "type": "tmdb",
-        "title": "伦敦合伙人",
-        "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
+        "title": "不想睡的星期五",
+        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.4449,
-        "releaseDate": "2026-08-08",
-        "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
-        "backdropPath": "",
+        "popularity": 2.2538,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
+        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
       {
-        "id": 94773,
+        "id": 333124,
         "type": "tmdb",
-        "title": "舞蹈新风暴",
-        "description": "《舞蹈风暴》是一档大型舞蹈竞技类真人秀。节目邀请全舞种年轻顶级舞者同台竞技，层层筛选只为诞生金牌舞蹈作品；四组“风暴见证官”携手观众，共同选拔领衔中国舞蹈的新生代力量；一位“风暴伙伴”，见证舞者的蜕变与成长；“360°时空凝结”技术，以全新维度鉴赏舞者每一个高光瞬间！高燃舞综热血来袭，带你刷新舞蹈认知，见证超级舞者的诞生！",
-        "rating": 8.5,
-        "voteCount": 2,
-        "popularity": 2.6049,
-        "releaseDate": "2019-10-05",
-        "posterPath": "/jej7FfIvWZyLSMoNbPP3MkEByob.jpg",
-        "backdropPath": "/WQSOHT9QFxMMpQ4TAscX3f9IMO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 330052,
-        "type": "tmdb",
-        "title": "家乡美食大赛",
-        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
+        "title": "娜就聊姐姐",
+        "description": "《娜就聊姐姐》由谢娜主持的女性向视频播客，每期邀请1‑2位姐姐，以松弛的闺蜜围谈形式，打造内核最强的女性聊天局，以“鲜活×有料×真实”为基调，汇聚最敢说的女性故事汇。全方位展现当代女性有态度、有力量的人生观念。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 0.9479,
-        "releaseDate": "2026-07-26",
-        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
-        "backdropPath": "",
+        "popularity": 1.2551,
+        "releaseDate": "2026-09-03",
+        "posterPath": "/2nXhrQ40aG6K7iZV9CZCXGzBFIC.jpg",
+        "backdropPath": "/wHUVfoF8rJYpfruN9erUn3MChuI.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
