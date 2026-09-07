@@ -116,7 +116,7 @@ const DB = {
 };
 
 const JWT = {
-    secret: "mp-jwt-secret-2024",
+    get secret() { return $persistentStore.read("mp_jwt_secret") || "mp-jwt-secret-2024"; },
     encode(str) { return btoa(str).replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, ""); },
     decode(str) {
         str += new Array(5 - (str.length % 4)).join("=");
@@ -142,6 +142,8 @@ const JWT = {
         try {
             const [h, b, s] = token.split(".");
             if (!h || !b || !s) return null;
+            const expectedSig = this.sign(`${h}.${b}.${this.secret}`);
+            if (s !== expectedSig) return null;
             const payload = JSON.parse(this.decode(b));
             if (payload.exp < Math.floor(Date.now() / 1000)) return null;
             return payload;
@@ -438,7 +440,7 @@ function updateSubStatus(id, patch) {
     if (idx < 0) return null;
     subs[idx] = { ...subs[idx], ...patch, updated_at: nowISO() };
     DB.saveSubs(subs);
-    LOG.debug(`Updated subscription ${id} status: ${patch.status || 'unknown'}`);
+    LOG.debug("Updated subscription " + id + " status: " + (patch.status || 'unknown'));
     return subs[idx];
 }
 
@@ -865,12 +867,12 @@ async function handleUpdateSub(params, body) {
     const subs = ensureMoviePilotIds();
     const idx = subs.findIndex(s => matchesSubId(s, params.id));
     if (idx < 0) {
-        LOG.warn(`Subscription not found for update: ${params.id}`);
+        LOG.warn("Subscription not found for update: " + params.id);
         return opError(404, "订阅不存在");
     }
     subs[idx] = { ...subs[idx], ...body, type: normalizeType(body.type || subs[idx].type), updated_at: nowISO() };
     DB.saveSubs(subs);
-    LOG.success(`Updated subscription: ${subs[idx].name}`);
+    LOG.success("Updated subscription: " + subs[idx].name);
     opSuccess(toMoviePilotSub(subs[idx]), "更新成功");
 }
 
