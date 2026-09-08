@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T23:33:45.632+08:00",
+  "last_updated": "2026-09-09T04:25:13.541+08:00",
   "tv": {
     "全网": [
       {
@@ -29,20 +29,6 @@
         "backdropPath": "/lYDwHYOR8PROQfSJGZ8LqvwUVcW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
-      },
-      {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 11.245,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       },
       {
         "id": 286686,
@@ -87,6 +73,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 289761,
+        "type": "tmdb",
+        "title": "醒来",
+        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 11.245,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/lxULhYKRE1C6zhaCNO0R0Id7ReM.jpg",
+        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 280133,
         "type": "tmdb",
         "title": "藏锋",
@@ -95,7 +95,7 @@
         "voteCount": 2,
         "popularity": 6.4588,
         "releaseDate": "2026-08-17",
-        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
+        "posterPath": "/bPyAdtLlw2x7uidC0Bikov1GC7D.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -187,20 +187,6 @@
         "genreTitle": "剧情,动作冒险"
       },
       {
-        "id": 273114,
-        "type": "tmdb",
-        "title": "悬案",
-        "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
-        "rating": 7.8,
-        "voteCount": 5,
-        "popularity": 3.2067,
-        "releaseDate": "2026-07-03",
-        "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
-        "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 251600,
         "type": "tmdb",
         "title": "千香",
@@ -213,6 +199,20 @@
         "backdropPath": "/n2SLnF3CyIcLQ5d7bfgWBXz1kY6.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 273114,
+        "type": "tmdb",
+        "title": "悬案",
+        "description": "一桩悬案一个单元，两个单元一季悬案。《悬案》首季锁定《珠宝行连环劫案》《卞记旅馆灭门案》两个单元，在反其道而行的时间裂缝中解构罪恶对人的再塑造，也书写信念对人的再救赎。",
+        "rating": 7.8,
+        "voteCount": 5,
+        "popularity": 3.2067,
+        "releaseDate": "2026-07-03",
+        "posterPath": "/IgAmsxI2xFxUcHZRvEyEpl1myv.jpg",
+        "backdropPath": "/hMAew4hKxZJeqqvYljhLpvS4OZA.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
       },
       {
         "id": 289271,
@@ -257,6 +257,20 @@
         "genreTitle": "剧情,喜剧"
       },
       {
+        "id": 290863,
+        "type": "tmdb",
+        "title": "冬城猎凶",
+        "description": "银行大劫案，搅动大城风云；儿童拐卖案，重起罪恶迷雾。双时空、案中案，极致追凶。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.9477,
+        "releaseDate": "2026-09-10",
+        "posterPath": "/kTpJhjszBMaIUZQdYoIOmfBuQP7.jpg",
+        "backdropPath": "/yfJn4TktTqvFr5DCTqd1dC8I16M.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪"
+      },
+      {
         "id": 276239,
         "type": "tmdb",
         "title": "非份之罪",
@@ -269,37 +283,9 @@
         "backdropPath": "/dpVy32tCvsVENVMjlU4cj7CycG5.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
-      },
-      {
-        "id": 254486,
-        "type": "tmdb",
-        "title": "雨霖铃",
-        "description": "北宋仁宗年间，襄阳王暗中勾结各方势力意欲谋反。御前四品带刀护卫展昭（杨洋 饰）为追查故友留下的襄阳王谋反悬案线索，孤身前往襄州。途中他意外卷入纷争，结识了闯荡江湖的霍玲珑（章若楠 饰），并一起救下苌弘璧。展昭自知在劫难逃，将证据托付给霍玲珑后，以身为饵牵制敌人，力竭被俘。危急关头，幸得锦毛鼠白玉堂（方逸伦 饰）相救，展昭才得以脱身。\n\n面对襄阳王及其四大神君的步步紧逼，背负污名的展昭与霍玲珑、白玉堂联手追查线索，撕破襄阳王多年来编织的遍布朝野和江湖的势力网。三人最终掌握襄阳王勾结黑白两道、鱼肉百姓、通敌叛国的罪证，挫败其阴谋，还江湖与百姓一片安宁。",
-        "rating": 7.2,
-        "voteCount": 10,
-        "popularity": 8.5365,
-        "releaseDate": "2026-05-13",
-        "posterPath": "/wBvTSV8WOk46gUrnn1GfrISvxz7.jpg",
-        "backdropPath": "/aqhB6P6x5wCk4lJqeXvRaD941xM.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情,悬疑"
       }
     ],
     "爱奇艺": [
-      {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 9,
-        "voteCount": 2,
-        "popularity": 11.245,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/4fKwBMS8Gj6uJRbLzeNn5JNY54M.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
       {
         "id": 286686,
         "type": "tmdb",
@@ -313,6 +299,20 @@
         "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
         "mediaType": "tv",
         "genreTitle": "家庭,剧情"
+      },
+      {
+        "id": 289761,
+        "type": "tmdb",
+        "title": "醒来",
+        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
+        "rating": 9,
+        "voteCount": 2,
+        "popularity": 11.245,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/lxULhYKRE1C6zhaCNO0R0Id7ReM.jpg",
+        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 291856,
@@ -357,20 +357,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 295558,
-        "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 8.3,
-        "voteCount": 6,
-        "popularity": 12.9368,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 285250,
         "type": "tmdb",
         "title": "蝉",
@@ -383,6 +369,20 @@
         "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
+      },
+      {
+        "id": 283780,
+        "type": "tmdb",
+        "title": "兵自风中来",
+        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
+        "rating": 7,
+        "voteCount": 1,
+        "popularity": 4.5595,
+        "releaseDate": "2026-07-23",
+        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
+        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       },
       {
         "id": 278605,
@@ -399,30 +399,30 @@
         "genreTitle": "动作冒险,悬疑"
       },
       {
-        "id": 331218,
+        "id": 295558,
         "type": "tmdb",
-        "title": "人生赢家",
-        "description": "阳关的父亲阳亦光意外离世，留下的遗产竟然是一笔足以压垮任何一个工薪家庭的巨额债务。这笔债务事关叶知秋的父亲叶家盛和其他十多位退休老人，而他们都是阳亦光曾经的知青战友。在调查债务的过程中，阳关得知阳亦光其实只是自己的养父，他从未与亲生父母谋面。为了报答养育之恩，阳关毅然决定替养父还债。阳关的决定遭到了家人的反对，妻子不愿意承担债务，带着女儿离开，妹妹也与他形同陌路。面对困境，他没有后悔，他知道自己所做的一切，都是为了父亲的遗愿，阳关和叶知秋两人也由曾经的“死对头”成为了合作伙伴。经历了重重磨难，阳关不仅还清了欠下的债务，还收获了属于他的爱情。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.5652,
-        "releaseDate": "2026-09-08",
-        "posterPath": "/pWobRxxuEBJOmuwuG0JVn1NpCIL.jpg",
-        "backdropPath": "",
+        "title": "雀骨",
+        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
+        "rating": 8.3,
+        "voteCount": 6,
+        "popularity": 12.9368,
+        "releaseDate": "2026-07-11",
+        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
+        "backdropPath": "/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
       {
-        "id": 283780,
+        "id": 331662,
         "type": "tmdb",
-        "title": "兵自风中来",
-        "description": "在一次小型军事演习中，郭子剑不满演习流于形式，假传指令要求真打实抗，虽引发哗然，却获赏识。之后他经历对抗失误、转业等波折后，重归部队，带领新质合成部队在实战化检验中大放异彩，打了一场新时代战争。",
-        "rating": 7,
-        "voteCount": 1,
-        "popularity": 4.5595,
-        "releaseDate": "2026-07-23",
-        "posterPath": "/ybE61R0h8r7lLVppxThPKmOsICO.jpg",
-        "backdropPath": "/sgC8hgeZl1ZEjn2xAXGyFC86U6N.jpg",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.5848,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -465,7 +465,7 @@
         "voteCount": 2,
         "popularity": 6.4588,
         "releaseDate": "2026-08-17",
-        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
+        "posterPath": "/bPyAdtLlw2x7uidC0Bikov1GC7D.jpg",
         "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪,悬疑"
@@ -541,20 +541,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 334298,
-        "type": "tmdb",
-        "title": "这都不是事儿",
-        "description": "郝南创办“点子公司”，带领一群性格各异的伙伴，专门帮助客户解决各种人生难题。在接连不断的委托中，他们化解矛盾、帮助他人，也逐渐在相互扶持中成长。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.3643,
-        "releaseDate": "2026-09-08",
-        "posterPath": "/bQ3atmaaAMFRK8YNuvvEjNUXydo.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
-      },
-      {
         "id": 282497,
         "type": "tmdb",
         "title": "迷墙",
@@ -567,6 +553,20 @@
         "backdropPath": "/nsAl43kqrrHsj8UDpysd0U4SOou.jpg",
         "mediaType": "tv",
         "genreTitle": "犯罪"
+      },
+      {
+        "id": 285250,
+        "type": "tmdb",
+        "title": "蝉",
+        "description": "生父是绑架犯，继父是刑警的刑辩律师，多年前遭人报复痛失妻儿的大法官，善用人心，游走灰色地带的邪魅律政精英，三个孤独的陌生人在硬核案件的刑事辩护中互相博弈，却越发惺惺相惜，是对手也似亲人，螳螂捕蝉，黄雀在后，三人间，互为猎物，亦互为猎手，究竟谁才是黄雀，谁又是那只蛰伏十二年，只为自由鸣叫，收获一季响亮夏天的蝉？",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 5.8644,
+        "releaseDate": "2026-08-20",
+        "posterPath": "/ilpjaXnJOpPvQZDXNAvdFagmXkX.jpg",
+        "backdropPath": "/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
       }
     ],
     "芒果TV": [
@@ -641,20 +641,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 214875,
-        "type": "tmdb",
-        "title": "汪汪队之小砾与工程家族",
-        "description": "还有什么比在工程车里养一只小狗更有趣的呢？ 很多工程车辆里都有很多小狗。小砾(Rubble)和他的家人——姨妈、爷爷、表兄弟姐妹等等——正在努力工作，让他们的小镇建造者湾成为一个非常适合居住的地方。",
-        "rating": 7.1,
-        "voteCount": 31,
-        "popularity": 19.8924,
-        "releaseDate": "2023-02-03",
-        "posterPath": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
-        "backdropPath": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动画,儿童"
-      },
-      {
         "id": 288603,
         "type": "tmdb",
         "title": "炽夏",
@@ -709,6 +695,20 @@
         "backdropPath": "/cWs510A3RhRL8KiUhSgIaDTCyIx.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 317895,
+        "type": "tmdb",
+        "title": "战旗如画",
+        "description": "魏正华为报美军轰炸家乡之仇，冒名顶替挚友郑雄才身份，随大哥魏正中所部入朝作战。初战炸坦克崭露头角，却因身份暴露与大哥激烈对峙。他率队奇袭敌后侦听站，战友牺牲换来任务完成。巨龙镇阻击战中，他智导敌机轰炸，目睹豆芽等战友血洒战场。 美军发动细菌战，魏正华为粉碎谣言拥抱感染者，身染鼠疫。雪代潭高地坑道血战中，他率军民死守阵地，引我军炮火全歼顽敌。1953年决战，郑雄才舍身扑向火箭弹牺牲，魏正华手刃宿敌，将弹痕累累的战旗插上542高地。 停战七十年后，白发魏正华展开那面记录英灵的战旗，告慰无数用生命换来山河无恙的战友。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 2.7386,
+        "releaseDate": "2026-03-29",
+        "posterPath": "/11P77U9yosSXMjGo9Lna9Cr49Kl.jpg",
+        "backdropPath": "/pWhzUjp539j0lXo1P5lf5bOpyVW.jpg",
+        "mediaType": "tv",
+        "genreTitle": "战争政治"
       }
     ]
   },
@@ -795,6 +795,20 @@
         "releaseDate": "2025-07-27",
         "posterPath": "/olnV8BefOFnj3U3qcvlYdylAzDq.jpg",
         "backdropPath": "/8KjVA97182D6RF1cDl6bE6o7zAz.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 38.6767,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/yVkpN92kbg61hWHS6Oiufo0imR.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -971,20 +985,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 219934,
-        "type": "tmdb",
-        "title": "种地吧",
-        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
-        "rating": 8.25,
-        "voteCount": 4,
-        "popularity": 41.7931,
-        "releaseDate": "2023-02-04",
-        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
-        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 124265,
         "type": "tmdb",
         "title": "喜欢你我也是",
@@ -995,6 +995,20 @@
         "releaseDate": "2019-04-11",
         "posterPath": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
         "backdropPath": "/hw4buT3SG43RRzbuH4wBEjd73xO.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 219934,
+        "type": "tmdb",
+        "title": "种地吧",
+        "description": "《种地吧》是由爱奇艺、蓝天下传媒出品，海西传媒、遥望科技联合出品的劳作纪实互动真人秀，该劳作纪实互动节目由陈少熙、何浩楠、蒋敦豪、李耕耘、李昊、鹭卓、王一珩、赵小童、卓沅、赵一博组成“种地小队”。节目真实记录10位年轻人，踏踏实实地用190天时间，在142亩土地上，播种、灌溉、施肥、收获。节目中成员们随着麦子一同成长，最终见证一粒麦子变成麦田，看到自己耕作的土地变成诗歌图园，以此传递“认真做好一件事”这种态度的实际意义和人生价值。",
+        "rating": 8.25,
+        "voteCount": 4,
+        "popularity": 41.7931,
+        "releaseDate": "2023-02-04",
+        "posterPath": "/vl5WKVXgL1tQs9D9wGE2ido6dwW.jpg",
+        "backdropPath": "/h7WvQD5ZXjR6yfsA2AvjsLELju7.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1199,6 +1213,20 @@
     ],
     "芒果TV": [
       {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 38.6767,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/yVkpN92kbg61hWHS6Oiufo0imR.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 94773,
         "type": "tmdb",
         "title": "舞蹈新风暴",
@@ -1209,48 +1237,6 @@
         "releaseDate": "2019-10-05",
         "posterPath": "/jej7FfIvWZyLSMoNbPP3MkEByob.jpg",
         "backdropPath": "/WQSOHT9QFxMMpQ4TAscX3f9IMO.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 331587,
-        "type": "tmdb",
-        "title": "伦敦合伙人",
-        "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 1.5054,
-        "releaseDate": "2026-08-08",
-        "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 331569,
-        "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.5822,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 38.6767,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1267,6 +1253,20 @@
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": ""
+      },
+      {
+        "id": 331569,
+        "type": "tmdb",
+        "title": "不想睡的星期五",
+        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.5822,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/nKDqMAdAO6HQoe0eqIbH99ldcCQ.jpg",
+        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       }
     ]
   }
