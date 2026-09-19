@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T22:58:08.719+08:00",
+  "last_updated": "2026-09-20T03:43:14.050+08:00",
   "tv": {
     "全网": [
       {
@@ -31,20 +31,6 @@
         "genreTitle": "剧情,家庭"
       },
       {
-        "id": 286686,
-        "type": "tmdb",
-        "title": "生逢其时",
-        "description": "　　八十年代初，北方厂矿小镇青梧镇，住着齐家和曹家两户比邻而居的人家——齐爱华（郭涛 饰）与霍青莲（刘琳 饰）性格迥异但彼此包容；曹东方（郭晓东 饰）在妻子去世后与爸爸曹本顺（霍青 饰）两个男人一起撑起家，日子艰难但乐在其中。两家在同一天诞下孩子，却因医院疏忽，将两个婴儿抱错——齐家健康的男婴成了曹家的曹信，曹家患有白化病的女婴成了齐家的齐时。长辈们约定互不声张，两个孩子便在各自家庭中错位成长。\n\n　　身患白化病的齐时（关晓彤 饰）自小便意识到自己的“与众不同”。一头白发让她在小镇受尽旁人异样的目光，她喝酱油、戴假发，试图成为和普通人一样的存在。另一边的曹信（王子奇 饰），一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求，他始终向往遵从本心的活法。\n\n　　当特立独行、勇敢倔强的齐时，遇上乖巧听话、优秀自律的曹信，两个家庭在邻里间日积月累的相处中，因荒唐的“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 63.3567,
-        "releaseDate": "2026-09-03",
-        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
-        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
-        "mediaType": "tv",
-        "genreTitle": "家庭,剧情"
-      },
-      {
         "id": 299952,
         "type": "tmdb",
         "title": "早春晴朗",
@@ -57,6 +43,20 @@
         "backdropPath": "/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 286686,
+        "type": "tmdb",
+        "title": "生逢其时",
+        "description": "　　八十年代初，北方厂矿小镇青梧镇，住着齐家和曹家两户比邻而居的人家——齐爱华（郭涛 饰）与霍青莲（刘琳 饰）性格迥异但彼此包容；曹东方（郭晓东 饰）在妻子去世后与爸爸曹本顺（霍青 饰）两个男人一起撑起家，日子艰难但乐在其中。两家在同一天诞下孩子，却因医院疏忽，将两个婴儿抱错——齐家健康的男婴成了曹家的曹信，曹家患有白化病的女婴成了齐家的齐时。长辈们约定互不声张，两个孩子便在各自家庭中错位成长。\n\n　　身患白化病的齐时（关晓彤 饰）自小便意识到自己的“与众不同”。一头白发让她在小镇受尽旁人异样的目光，她喝酱油、戴假发，试图成为和普通人一样的存在。另一边的曹信（王子奇 饰），一路走来都是家长口中“别人家的孩子”，然而光环之下却始终伴随着父亲的严苛要求，他始终向往遵从本心的活法。\n\n　　当特立独行、勇敢倔强的齐时，遇上乖巧听话、优秀自律的曹信，两个家庭在邻里间日积月累的相处中，因荒唐的“换子”碰撞出了眼泪的故事和“新生”的契机。孩子们经历着关于亲情、友情、爱情的考验，大人们也在面对关于事业、婚姻、家庭的难题。在时代洪流中，纵使生活跌跌撞撞，他们亦携手缝缝补补修炼人生，共同找寻属于自己的人生和幸福。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 63.3567,
+        "releaseDate": "2026-09-03",
+        "posterPath": "/q2ulZwiuO9Gg0bVziimr8CXHdpk.jpg",
+        "backdropPath": "/7HXIhc3aRr1v7KmOrCulszXf3YP.jpg",
+        "mediaType": "tv",
+        "genreTitle": "家庭,剧情"
       },
       {
         "id": 288873,
@@ -101,6 +101,20 @@
         "genreTitle": "悬疑"
       },
       {
+        "id": 291856,
+        "type": "tmdb",
+        "title": "重器",
+        "description": "以改革开放初期至1997年《刑诉法》《刑法》修订为背景，讲述陈一众、余高远、张丽慧、夏英杰等法学院毕业生在不同司法岗位上历经风雨、共同见证中国法治发展进程的故事，展现他们在时代浪潮中成长、抉择与命运交织的群像篇章。",
+        "rating": 8,
+        "voteCount": 3,
+        "popularity": 5.2286,
+        "releaseDate": "2026-08-10",
+        "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
+        "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
         "id": 290863,
         "type": "tmdb",
         "title": "冬城猎凶",
@@ -125,20 +139,6 @@
         "releaseDate": "2026-08-09",
         "posterPath": "/erj7cX8aa1jndO9HlmoyRcJNLQL.jpg",
         "backdropPath": "/zyAFGC97834c2Ld4xPY02uacdQk.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 6.3,
-        "voteCount": 3,
-        "popularity": 6.9531,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/lxULhYKRE1C6zhaCNO0R0Id7ReM.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       }
@@ -329,34 +329,6 @@
         "genreTitle": "悬疑"
       },
       {
-        "id": 289761,
-        "type": "tmdb",
-        "title": "醒来",
-        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
-        "rating": 6.3,
-        "voteCount": 3,
-        "popularity": 6.9531,
-        "releaseDate": "2026-08-26",
-        "posterPath": "/lxULhYKRE1C6zhaCNO0R0Id7ReM.jpg",
-        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
-        "id": 289139,
-        "type": "tmdb",
-        "title": "这一秒过火",
-        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-        "rating": 8.5,
-        "voteCount": 11,
-        "popularity": 12.5088,
-        "releaseDate": "2026-07-19",
-        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
-        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -367,6 +339,20 @@
         "releaseDate": "2026-08-10",
         "posterPath": "/43iXOUo8dw7KfllwOnuu8JSyqFt.jpg",
         "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 289761,
+        "type": "tmdb",
+        "title": "醒来",
+        "description": "1941年冬，照相师陈开来在师父、地下党员“断桥”李木胜牺牲后，毅然继承其使命，卷入对抗日军“沉睡计划”的秘密行动。途中结识军统特工金宝，与“苏堤”沈克希、“雷峰塔”赵前等人并肩作战，共同揭露日军细菌实验的真相。经历生死与牺牲，陈开来用相机记录下这场惊心动魄的抗战历程。",
+        "rating": 6.3,
+        "voteCount": 3,
+        "popularity": 6.9531,
+        "releaseDate": "2026-08-26",
+        "posterPath": "/lxULhYKRE1C6zhaCNO0R0Id7ReM.jpg",
+        "backdropPath": "/jY5xb5HLoVWkXlKCTbXqh3g7GQL.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -385,16 +371,16 @@
         "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
-        "id": 295558,
+        "id": 289139,
         "type": "tmdb",
-        "title": "雀骨",
-        "description": "当魔头将军强娶沉迷机关术的财迷假千金，从契约夫妻到生死局里互扒马甲，爱意与杀意同生共长，揭朝堂阴谋，破生死乱局，守家国太平。",
-        "rating": 7.929,
-        "voteCount": 7,
-        "popularity": 12.706,
-        "releaseDate": "2026-07-11",
-        "posterPath": "/858HgKLO9hZkYs2tS7ZPkqh9HVr.jpg",
-        "backdropPath": "/eZTq2kkhZ9AQtQ1H5SD7h1Q0PIc.jpg",
+        "title": "这一秒过火",
+        "description": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
+        "rating": 8.5,
+        "voteCount": 11,
+        "popularity": 12.5088,
+        "releaseDate": "2026-07-19",
+        "posterPath": "/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
+        "backdropPath": "/mmXea9UCZ83TMhHaSkDAJCHKr0S.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -425,6 +411,20 @@
         "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 278605,
+        "type": "tmdb",
+        "title": "南部档案",
+        "description": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
+        "rating": 6.95,
+        "voteCount": 10,
+        "popularity": 13.3841,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/2QcMONqmPUeBJyzTe9G9GahGbqz.jpg",
+        "backdropPath": "/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
+        "mediaType": "tv",
+        "genreTitle": "动作冒险,悬疑"
       }
     ],
     "腾讯视频": [
@@ -471,6 +471,20 @@
         "genreTitle": "剧情"
       },
       {
+        "id": 292696,
+        "type": "tmdb",
+        "title": "莫离",
+        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
+        "rating": 8.6,
+        "voteCount": 9,
+        "popularity": 9.3332,
+        "releaseDate": "2026-06-09",
+        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
+        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情,喜剧"
+      },
+      {
         "id": 286506,
         "type": "tmdb",
         "title": "百花杀",
@@ -485,18 +499,32 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 292696,
+        "id": 318903,
         "type": "tmdb",
-        "title": "莫离",
-        "description": "　　叶府长女叶璃（白鹿 饰）身为骊山后人，曾被封在山中八年。她奉太后郭妗（董洁 饰）指婚，嫁给双腿残疾的定王墨修尧（丞磊 饰），得以离山。而在叶璃出嫁当日，与她青梅竹马的黎王墨景黎（蔡正杰 饰），也迎娶了叶府次女叶莹（杨舒伊 饰）。\n\n　　婚后的定王府破败不堪，墨修尧因背负家族旧案蛰伏多年。叶璃表面持家、整顿内务，暗中却一步步将当年加害骊山的官员除去。她的复仇举动引起了同为复仇者的墨修尧的怀疑。两人在试探与博弈中，逐渐发现彼此并非初见——多年前墨修尧曾于危难中救过叶璃。\n\n　　随着先帝遗诏现世，尘封多年的离山真相与墨氏家族冤案浮出水面。顶着“戏曲王爷”不堪名头的黎王墨景黎，在暗中搅弄风云，筹谋篡位。叶璃最终联手墨修尧，辅佐小皇帝墨晏祁（徐崴罗 饰）掌权，粉碎了沐阳侯周敬（于谨维 饰）与黎王的接连阴谋，洗清沉冤，还天下一片海晏河清。",
-        "rating": 8.6,
-        "voteCount": 9,
-        "popularity": 9.3332,
-        "releaseDate": "2026-06-09",
-        "posterPath": "/pRPDAGXmoUnWlRj34BHQ1Gt05ai.jpg",
-        "backdropPath": "/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "title": "盲盒",
+        "description": "剧集分为六个独立单元（如《无用之人》《影后》《紧急联络人》等），每个单元聚焦不同角色的心理困境，包括产后抑郁、创伤后遗症、家庭暴力等主题。故事中的人物因同一场交通拥堵产生短暂交集，随后又回归各自的生活困境，最终在自我救赎中寻找出口。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 1.6522,
+        "releaseDate": "2026-08-04",
+        "posterPath": "/9nH92y0u8WnpioFYbCeu46SKjs1.jpg",
+        "backdropPath": "/67fpYTlrXKF1mCUhD8w0ycEKD11.jpg",
         "mediaType": "tv",
-        "genreTitle": "剧情,喜剧"
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 280133,
+        "type": "tmdb",
+        "title": "藏锋",
+        "description": "讲述绿藤市公安局宣传科副科长谭彦即将赴任特警队担任教导员一职，但长期在局机关工作的谭彦，与深扎基层的特警队队长廖不凡难以配合。但随着时间推移，二人的思想渐渐统一，特警队也在二人的管理下越来越好。而在一次配合禁毒队的案件中，谭彦还成了击毙犯罪嫌疑人的功臣。但谭彦意外发现，“功臣”另有其人。最终，谭彦放下了自己的“荣誉”，向市公安局领导汇报了真实情况，并在上级领导部署的“藏锋”计划中，不辱使命圆满地完成任务。",
+        "rating": 8,
+        "voteCount": 2,
+        "popularity": 3.8782,
+        "releaseDate": "2026-08-17",
+        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
+        "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "犯罪,悬疑"
       },
       {
         "id": 286322,
@@ -527,20 +555,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 280133,
-        "type": "tmdb",
-        "title": "藏锋",
-        "description": "讲述绿藤市公安局宣传科副科长谭彦即将赴任特警队担任教导员一职，但长期在局机关工作的谭彦，与深扎基层的特警队队长廖不凡难以配合。但随着时间推移，二人的思想渐渐统一，特警队也在二人的管理下越来越好。而在一次配合禁毒队的案件中，谭彦还成了击毙犯罪嫌疑人的功臣。但谭彦意外发现，“功臣”另有其人。最终，谭彦放下了自己的“荣誉”，向市公安局领导汇报了真实情况，并在上级领导部署的“藏锋”计划中，不辱使命圆满地完成任务。",
-        "rating": 8,
-        "voteCount": 2,
-        "popularity": 3.8782,
-        "releaseDate": "2026-08-17",
-        "posterPath": "/t0fGmHkylAIDQvG3AtqQk0IpDBa.jpg",
-        "backdropPath": "/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "犯罪,悬疑"
-      },
-      {
         "id": 230311,
         "type": "tmdb",
         "title": "爱情有烟火",
@@ -553,20 +567,6 @@
         "backdropPath": "/xEUcPKH4Nfm6XSuyzgkox6mh775.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,喜剧"
-      },
-      {
-        "id": 103052,
-        "type": "tmdb",
-        "title": "秋蝉",
-        "description": "1941年12月到1945年8月，香港经历了历史上最黑暗的岁月， 那3年零8个月，成为香港人噩梦般的集体记忆...... 这场发生在香港的战争是二战期间东方战场的重要组成部分，是一段不该被遗忘的历史，一段悲怆历史的黑暗的岁月...... 电视剧秋蝉正是以这段历史为背景的一部青春谍战剧，讲述了爱国青年叶冲和其他地下党同志们在那段孤岛岁月里为抗战胜利一路披荆斩棘的热血故事。",
-        "rating": 6,
-        "voteCount": 4,
-        "popularity": 5.9277,
-        "releaseDate": "2020-05-04",
-        "posterPath": "/vzp6clE7ACd9pmgVxgo8dgo8NNX.jpg",
-        "backdropPath": "/ozh6muQQ7wBuzmxLROi0qCyr8yq.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
       }
     ],
     "芒果TV": [
@@ -599,20 +599,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 331662,
-        "type": "tmdb",
-        "title": "能有多大事",
-        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.4769,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
-        "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 331830,
         "type": "tmdb",
         "title": "我们的少年时代2",
@@ -637,6 +623,20 @@
         "releaseDate": "2026-07-05",
         "posterPath": "/ixwG1ECra9rSTuRCql81mkMoLVO.jpg",
         "backdropPath": "/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 331662,
+        "type": "tmdb",
+        "title": "能有多大事",
+        "description": "退休后原本计划与晚年恋人结婚并周游世界的许多金，却因小儿子被骗走巨款而打乱了生活。尽管法律上无需为成年儿子的债务负责，他仍选择卖房打工，承担起替儿子偿还债务的责任。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.4769,
+        "releaseDate": "2026-08-14",
+        "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
+        "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -669,20 +669,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 100217,
-        "type": "tmdb",
-        "title": "西游记后传",
-        "description": "唐僧师徒一行取到真经后，顺利的回到了长安，本是天地间为之欢喜之事。哪知三百年后，佛祖圆寂之时，天地突生异变。魔教教头无天突然降临到现场，占领要地灵山，自封为“无天佛祖”。且告知众妖：33年后，如来会借助转世灵童回归，集齐17颗舍利子，再次重返三界。而他们的目 标就是夺得这17颗舍利子，进而杀死转世灵童，称霸三界。\n\n唐僧被无天关进了冥界。知道了无天的野心后，唐僧利用紧箍咒，让在花果山的悟空和八戒意识到三界目前正面临着重大问题。而另一边，转世灵童乔灵儿正在一天天长大。一场恶斗即将来开序幕……",
-        "rating": 8.1,
-        "voteCount": 7,
-        "popularity": 7.5289,
-        "releaseDate": "2000-02-15",
-        "posterPath": "/uoofiFFSMs3iB91g2EV6TM3yWr1.jpg",
-        "backdropPath": "/dBhXsxqfaOuIYF6ucExbdpYlLnI.jpg",
-        "mediaType": "tv",
-        "genreTitle": "动作冒险"
-      },
-      {
         "id": 295599,
         "type": "tmdb",
         "title": "御廷谣",
@@ -709,6 +695,20 @@
         "backdropPath": "/h1INd1oy5YIkH4aSermOk3xwDsA.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情,战争政治"
+      },
+      {
+        "id": 334518,
+        "type": "tmdb",
+        "title": "天赐娘子·小镖师",
+        "description": "苏悦娇是一名年轻女镖师，与身份和志向截然不同的书生程起因意外走到一起。两人在共同面对困境的过程中逐渐理解彼此、互相扶持，并与苏氏镖局一同闯过重重难关。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 4.0344,
+        "releaseDate": "2026-09-10",
+        "posterPath": "/iYaFKNWMSFOiq4l243dk5hboQYb.jpg",
+        "backdropPath": "",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
       }
     ]
   },
@@ -757,6 +757,20 @@
         "genreTitle": "真人秀"
       },
       {
+        "id": 89861,
+        "type": "tmdb",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 39.0562,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
         "id": 296202,
         "type": "tmdb",
         "title": "地球超新鲜",
@@ -799,16 +813,30 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 89861,
+        "id": 261391,
         "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 39.0562,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
+        "title": "喜剧之王单口季",
+        "description": "今年夏天举平台之力打造的S+级全新喜剧IP。周星驰将作为节目发起人，激励喜剧演员勇敢逐梦。常驻嘉宾携手行业OG带队，推荐来自全国各地俱乐部的宝藏喜剧演员，演员们将在这个全新顶级单口喜剧竞演舞台上互相比拼，从喜剧小人物一路成长为喜剧之王! 幽默--爆梗频出，快乐拉满 反卷--全新模式，热血团魂 多元一-五湖四海俱乐部，各具特色新演员 新生一-超多隐藏黑马，更新行业面貌 全新爆款喜剧节目，让你体验全新快乐",
+        "rating": 8.2,
+        "voteCount": 6,
+        "popularity": 24.6552,
+        "releaseDate": "2024-08-16",
+        "posterPath": "/cmFj3DOPyBaSBQKRGdiOFhTdcN0.jpg",
+        "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.5197,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -899,20 +927,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 325363,
-        "type": "tmdb",
-        "title": "短剧X家族",
-        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.0829,
-        "releaseDate": "2026-05-29",
-        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
-        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 216487,
         "type": "tmdb",
         "title": "无限超越班",
@@ -923,6 +937,20 @@
         "releaseDate": "2022-12-17",
         "posterPath": "/f2fKRnNOZXRuLnXs4WxfipA0AJ8.jpg",
         "backdropPath": "/lwvwHxIzaCj4Af8fQ2p7ukBhnts.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325363,
+        "type": "tmdb",
+        "title": "短剧X家族",
+        "description": "作为一档治愈户外综艺，一群短剧演员集体从剧组“跑路”后，把自己还给大自然。甩开通告单，钻进烟火气，搭一座短剧人的乌托邦。把时间还给自己，只留真实、自由与治愈。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 2.0829,
+        "releaseDate": "2026-05-29",
+        "posterPath": "/tHHBkgiSHr6Gcb8T2TvxRuOvJef.jpg",
+        "backdropPath": "/fVR6mOXQBLCVR5moX51PBHwkYfT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -999,20 +1027,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 325041,
-        "type": "tmdb",
-        "title": "天才厨人",
-        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.2851,
-        "releaseDate": "2026-06-11",
-        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
-        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 296215,
         "type": "tmdb",
         "title": "姐姐当家",
@@ -1023,6 +1037,20 @@
         "releaseDate": "2025-07-26",
         "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 325041,
+        "type": "tmdb",
+        "title": "天才厨人",
+        "description": "三十二位年轻厨人将分为“宗门”和“奇门”进行比拼，大咖艺人、标杆名厨、流量嘴替、真实食客将组成“馋门”百人食评团现场品评。节目全程紧扣“年轻吸引力\"，采用“5大食材主题战+5大社会话题战”的递进式赛制，展示年轻一代厨人的“新食力”。这不只是一场美食比赛，更是一部年轻人的生活食鉴！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.2851,
+        "releaseDate": "2026-06-11",
+        "posterPath": "/4RkGjxv4VVqPI4zqhy2NSfeTPCL.jpg",
+        "backdropPath": "/nxLcF2cwaRPcf7O5l2zNlyvqkm3.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
@@ -1185,46 +1213,32 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 331569,
+        "id": 333888,
         "type": "tmdb",
-        "title": "不想睡的星期五",
-        "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+        "title": "博物馆夜行指“楠”",
+        "description": "节目由谢楠担任核心主理人，每期邀约一位专业领域学者和一位艺人好友，共赴一场博物馆夜游之约。以夜间专属的独特视角，解锁闭馆后博物馆的沉静肌理与万千气象；内容深耕展品背后的历史脉络与人文故事，锚定当下社会议题延伸跨界对谈，既传递「仰观宇宙之大，俯察品类之盛」的理性视野，也蕴藏「已识乾坤大，犹怜草木心」的人文温度。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 5.7796,
-        "releaseDate": "2026-08-14",
-        "posterPath": "/ladRcczkCEFXFxycIleWgx9yV5q.jpg",
-        "backdropPath": "/y8kPD0sQqlL8lo7oYZVtYWP330Y.jpg",
+        "popularity": 0.95,
+        "releaseDate": "2026-09-07",
+        "posterPath": "/malkGx8sSZp6h4Z464AVR9gDB6A.jpg",
+        "backdropPath": "/eLEBwD8vUlbfo79zG8yx1jdi7fX.jpg",
         "mediaType": "tv",
-        "genreTitle": "真人秀"
+        "genreTitle": "脱口秀"
       },
       {
-        "id": 331587,
+        "id": 330052,
         "type": "tmdb",
-        "title": "伦敦合伙人",
-        "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
+        "title": "家乡美食大赛",
+        "description": "《家乡美食大赛》是湖南卫视、芒果TV出品，京东联合出品的美食综艺节目，总导演、制片人为王梓睿 ，由黄晓明担任首席掌勺官，李维嘉、沈梦辰担任掌勺主理人 。",
         "rating": 0,
         "voteCount": 0,
-        "popularity": 1.284,
-        "releaseDate": "2026-08-08",
-        "posterPath": "/a6D6QHnWQTTNGAmllEmIZ0HTiV9.jpg",
+        "popularity": 1.167,
+        "releaseDate": "2026-07-26",
+        "posterPath": "/1ZOAVVMtbtnDmBxwlzfv8iU53ZP.jpg",
         "backdropPath": "",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 330354,
-        "type": "tmdb",
-        "title": "心动双重奏",
-        "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 2.5746,
-        "releaseDate": "2026-07-30",
-        "posterPath": "",
-        "backdropPath": "",
-        "mediaType": "tv",
-        "genreTitle": ""
       },
       {
         "id": 94773,
@@ -1239,20 +1253,6 @@
         "backdropPath": "/WQSOHT9QFxMMpQ4TAscX3f9IMO.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
-      },
-      {
-        "id": 333888,
-        "type": "tmdb",
-        "title": "博物馆夜行指“楠”",
-        "description": "节目由谢楠担任核心主理人，每期邀约一位专业领域学者和一位艺人好友，共赴一场博物馆夜游之约。以夜间专属的独特视角，解锁闭馆后博物馆的沉静肌理与万千气象；内容深耕展品背后的历史脉络与人文故事，锚定当下社会议题延伸跨界对谈，既传递「仰观宇宙之大，俯察品类之盛」的理性视野，也蕴藏「已识乾坤大，犹怜草木心」的人文温度。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 0.95,
-        "releaseDate": "2026-09-07",
-        "posterPath": "/malkGx8sSZp6h4Z464AVR9gDB6A.jpg",
-        "backdropPath": "/eLEBwD8vUlbfo79zG8yx1jdi7fX.jpg",
-        "mediaType": "tv",
-        "genreTitle": "脱口秀"
       }
     ]
   }
