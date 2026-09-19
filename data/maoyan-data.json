@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T17:51:55.455+08:00",
+  "last_updated": "2026-09-19T22:58:08.719+08:00",
   "tv": {
     "全网": [
       {
@@ -73,20 +73,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 294486,
-        "type": "tmdb",
-        "title": "交锋",
-        "description": "一宗世纪之交的泄密大案扣动两岸局势脉搏，同时还掩藏着一场境外势力与我方在隐蔽战线上的针锋较量。二十世纪九十年代末，闽州市国家安全局一对性格迥异的师徒，因机缘巧合的命运安排，为了共同的使命与信仰并肩作战。他们联手挫败了各种阴谋，也与敌手在横跨二十年的命运长河里不断纠缠。当时间流转，新世纪的潮流剧变席卷而来，国家安全局势攻防易势，隐蔽战线上的较量却不止不休。在一次次关乎人性的考验中，这三人的命运关系因不同抉择，在岁月洗礼中悄然改变着。",
-        "rating": 9,
-        "voteCount": 1,
-        "popularity": 15.7322,
-        "releaseDate": "2026-09-06",
-        "posterPath": "/gRe5FZjMWw8xXzWk1hxWuNQckOg.jpg",
-        "backdropPath": "/lYDwHYOR8PROQfSJGZ8LqvwUVcW.jpg",
-        "mediaType": "tv",
-        "genreTitle": "悬疑"
-      },
-      {
         "id": 301489,
         "type": "tmdb",
         "title": "深渊无间",
@@ -97,6 +83,20 @@
         "releaseDate": "2026-09-09",
         "posterPath": "/b9ngtGNgaHBbLihRrT0MsPRY0GW.jpg",
         "backdropPath": "/s9YSQAJtXjimsjBVsqLtJNnIjEs.jpg",
+        "mediaType": "tv",
+        "genreTitle": "悬疑"
+      },
+      {
+        "id": 294486,
+        "type": "tmdb",
+        "title": "交锋",
+        "description": "一宗世纪之交的泄密大案扣动两岸局势脉搏，同时还掩藏着一场境外势力与我方在隐蔽战线上的针锋较量。二十世纪九十年代末，闽州市国家安全局一对性格迥异的师徒，因机缘巧合的命运安排，为了共同的使命与信仰并肩作战。他们联手挫败了各种阴谋，也与敌手在横跨二十年的命运长河里不断纠缠。当时间流转，新世纪的潮流剧变席卷而来，国家安全局势攻防易势，隐蔽战线上的较量却不止不休。在一次次关乎人性的考验中，这三人的命运关系因不同抉择，在岁月洗礼中悄然改变着。",
+        "rating": 9,
+        "voteCount": 1,
+        "popularity": 15.7322,
+        "releaseDate": "2026-09-06",
+        "posterPath": "/gRe5FZjMWw8xXzWk1hxWuNQckOg.jpg",
+        "backdropPath": "/lYDwHYOR8PROQfSJGZ8LqvwUVcW.jpg",
         "mediaType": "tv",
         "genreTitle": "悬疑"
       },
@@ -357,20 +357,6 @@
         "genreTitle": "剧情"
       },
       {
-        "id": 272938,
-        "type": "tmdb",
-        "title": "师兄太稳健",
-        "description": "前世是重症患者的李长寿意外重生到洪荒世界，化身为一名珍视生命、不沾因果的小小炼气士，为躲避天道预言中的天下大劫，奉行“稳健”之道，一心想上天庭苟活，为此，他稳健操作，不动稳如老狗、一动“石破天惊”，他坚信打打杀杀的时代已经过去，能坑人绝不杀人，能单身绝不恋爱，奈何敌人和美人如潮水般涌来，他一不小心成了运筹帷幄的幕后大佬，卷入多方博弈之中，运作“龙族上天”，甚至那天下大劫也加速到来…",
-        "rating": 8.7,
-        "voteCount": 3,
-        "popularity": 11.4993,
-        "releaseDate": "2026-08-19",
-        "posterPath": "/lqPc3hI2HRlDb0afjx3bB5NNYWy.jpg",
-        "backdropPath": "/8zsKL8gDjv7NI7HHk4POIBMl2jE.jpg",
-        "mediaType": "tv",
-        "genreTitle": "喜剧,动作冒险,科幻奇幻"
-      },
-      {
         "id": 291856,
         "type": "tmdb",
         "title": "重器",
@@ -383,6 +369,20 @@
         "backdropPath": "/sUTK5UjUNud0d5hcEbhOk4RTqII.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
+      },
+      {
+        "id": 272938,
+        "type": "tmdb",
+        "title": "师兄太稳健",
+        "description": "前世是重症患者的李长寿意外重生到洪荒世界，化身为一名珍视生命、不沾因果的小小炼气士，为躲避天道预言中的天下大劫，奉行“稳健”之道，一心想上天庭苟活，为此，他稳健操作，不动稳如老狗、一动“石破天惊”，他坚信打打杀杀的时代已经过去，能坑人绝不杀人，能单身绝不恋爱，奈何敌人和美人如潮水般涌来，他一不小心成了运筹帷幄的幕后大佬，卷入多方博弈之中，运作“龙族上天”，甚至那天下大劫也加速到来…",
+        "rating": 8.7,
+        "voteCount": 3,
+        "popularity": 11.4993,
+        "releaseDate": "2026-08-19",
+        "posterPath": "/lqPc3hI2HRlDb0afjx3bB5NNYWy.jpg",
+        "backdropPath": "/8zsKL8gDjv7NI7HHk4POIBMl2jE.jpg",
+        "mediaType": "tv",
+        "genreTitle": "喜剧,动作冒险,科幻奇幻"
       },
       {
         "id": 295558,
@@ -599,20 +599,6 @@
         "genreTitle": "剧情,喜剧"
       },
       {
-        "id": 331830,
-        "type": "tmdb",
-        "title": "我们的少年时代2",
-        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
-        "rating": 5.5,
-        "voteCount": 2,
-        "popularity": 7.5659,
-        "releaseDate": "2026-08-16",
-        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
-        "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
-        "mediaType": "tv",
-        "genreTitle": "剧情"
-      },
-      {
         "id": 331662,
         "type": "tmdb",
         "title": "能有多大事",
@@ -623,6 +609,20 @@
         "releaseDate": "2026-08-14",
         "posterPath": "/ncWsJwUqSF8D4LipFlhVr3Zi5xp.jpg",
         "backdropPath": "/nMZMX67QIVyXTGOTIC1RXHZXPWF.jpg",
+        "mediaType": "tv",
+        "genreTitle": "剧情"
+      },
+      {
+        "id": 331830,
+        "type": "tmdb",
+        "title": "我们的少年时代2",
+        "description": "讲述了开学季，宜北篮球社濒临解散，付彬言、李浩宇、徐安博、陈颂，谢逸舟、顾晨阳、周扬、林清源等人因不同原因陆续加入，保住了这支不被看好的队伍。伙伴们在球赛中应对挑战，在磨合中爆发出潜力，又在音乐秘密基地拉近距离。大家逐渐从队友变成挚友，生出团魂，陪伴彼此完成与家庭的和解，收获了青春的成长。",
+        "rating": 5.5,
+        "voteCount": 2,
+        "popularity": 7.5659,
+        "releaseDate": "2026-08-16",
+        "posterPath": "/uSecRplGEI0sqQg83ePtTh1hvFu.jpg",
+        "backdropPath": "/qNxDl7QEzq5V0HfskA3xMzLbekg.jpg",
         "mediaType": "tv",
         "genreTitle": "剧情"
       },
@@ -771,20 +771,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 89861,
-        "type": "tmdb",
-        "title": "密室大逃脱",
-        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
-        "rating": 7.6,
-        "voteCount": 7,
-        "popularity": 39.0562,
-        "releaseDate": "2019-03-30",
-        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
-        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261471,
         "type": "tmdb",
         "title": "脱口秀和Ta的朋友们",
@@ -813,16 +799,16 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
+        "id": 89861,
         "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.5197,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "title": "密室大逃脱",
+        "description": "《密室大逃脱》是由芒果TV打造的大型益智类实景解密体验秀，每期6位玩家倾力合作，进入不同主题故事的密室，全未知、无扮演、不限时，以最真实的状态解谜逃脱，直到最终逃出密室。谜题涉及对玩家智力、创造力、 决策力、洞察力、协作力、逆行力的测试，通过观察玩家在游戏中的心理、行为表现，掀起全民动脑热潮。",
+        "rating": 7.6,
+        "voteCount": 7,
+        "popularity": 39.0562,
+        "releaseDate": "2019-03-30",
+        "posterPath": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
+        "backdropPath": "/IGYjrwnFCAL2UahS7E1myQE3JT.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       }
@@ -957,20 +943,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 326694,
-        "type": "tmdb",
-        "title": "说唱巅峰对决2026",
-        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 3.5197,
-        "releaseDate": "2026-06-27",
-        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
-        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 261391,
         "type": "tmdb",
         "title": "喜剧之王单口季",
@@ -983,6 +955,20 @@
         "backdropPath": "/ecwTVZZ7AZBGvVfBeVqBiDp48eG.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀,脱口秀,喜剧"
+      },
+      {
+        "id": 326694,
+        "type": "tmdb",
+        "title": "说唱巅峰对决2026",
+        "description": "#2026爱桃综快乐不重样# #说唱十周年巅峰对决#全新升级归来，这次不止比技术，更要玩灵魂共振！最顶的舞台+最真的故事，让每个beat都成为年轻态度的发生器。十年巅峰，全新篇章，等你来见证！",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 3.5197,
+        "releaseDate": "2026-06-27",
+        "posterPath": "/sfZawhbu32LxTJAzYfgFObfXl0i.jpg",
+        "backdropPath": "/lUIY59PL7uEdOLPIxP2GOv6gwSn.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
       },
       {
         "id": 124265,
@@ -1013,20 +999,6 @@
         "genreTitle": "真人秀"
       },
       {
-        "id": 87150,
-        "type": "tmdb",
-        "title": "梦想改造家",
-        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
-        "rating": 0,
-        "voteCount": 0,
-        "popularity": 6.7312,
-        "releaseDate": "2014-07-30",
-        "posterPath": "/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
-        "backdropPath": "/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
-        "mediaType": "tv",
-        "genreTitle": "真人秀"
-      },
-      {
         "id": 325041,
         "type": "tmdb",
         "title": "天才厨人",
@@ -1051,6 +1023,20 @@
         "releaseDate": "2025-07-26",
         "posterPath": "/2e0F03Mwd5e1lquypDCBVtN220I.jpg",
         "backdropPath": "/aeLGDx571Q3wPMP8OqgTpdVfdH2.jpg",
+        "mediaType": "tv",
+        "genreTitle": "真人秀"
+      },
+      {
+        "id": 87150,
+        "type": "tmdb",
+        "title": "梦想改造家",
+        "description": "《梦想改造家》是东方卫视打造的一档大型装修真人秀节目。节目在全国范围内，遴选有居住困难的普通家庭，在限定费用中，通过设计师的匠心巧思，完成看似不可能完成的家装梦想。节目大胆突破了以色彩和软装为主的传统装修形式，革命性的聚焦在空间改变和功能实现上，狭小的空间，奇葩的房型，看似无法解决的居住困难，都由顶尖设计师在有限的资金，有限的空间里根据委托人的特殊需求进行彻底的改造，真正解决委托家庭的住房难题。它通过聚焦全国范围内不同地域特色的建筑物，不同类型和背景的家庭故事，揭示家给予人的意义，见证家装改造给予人的幸福。",
+        "rating": 0,
+        "voteCount": 0,
+        "popularity": 6.7312,
+        "releaseDate": "2014-07-30",
+        "posterPath": "/rrg87cIKnTvy411Nx3MPjAb0hrD.jpg",
+        "backdropPath": "/efbnA9CJSx1Y5KCWrdest8oeqQZ.jpg",
         "mediaType": "tv",
         "genreTitle": "真人秀"
       },
